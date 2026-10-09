@@ -126,23 +126,14 @@ def main() -> None:
             raise ValueError("Source commit pin mismatch")
 
         upstream = manifest_for(inventory(source))
-        stage = root / ".private-data-import-stage"
-        if stage.exists() or stage.is_symlink():
-            raise ValueError("Unsafe existing private import stage")
-        try:
-            shutil.copytree(source / "data", stage, symlinks=False)
-            copied = manifest_for(inventory(stage.parent / stage.name))
-            # inventory expects root/data; inspect copied staging as a separate
-            # isolated root without exposing data in logs.
-        finally:
-            pass
-        # Move data into an isolated verification root, preserving original bytes.
+        # Copy into a separate verification root; do not read from or merge
+        # with any existing private HEAD data.
         data_temp = root / ".private-import-verify"
         if data_temp.exists() or data_temp.is_symlink():
             raise ValueError("Existing private verification stage")
         data_temp.mkdir(mode=0o700)
         try:
-            stage.rename(data_temp / "data")
+            shutil.copytree(source / "data", data_temp / "data", symlinks=False)
             actual = manifest_for(inventory(data_temp))
             if actual != upstream:
                 raise ValueError("Private snapshot copy mismatched pinned source")
@@ -156,8 +147,6 @@ def main() -> None:
             (data_temp / MANIFEST_NAME).rename(root / MANIFEST_NAME)
         finally:
             shutil.rmtree(data_temp, ignore_errors=True)
-            if stage.exists():
-                shutil.rmtree(stage)
 
     result = verify(root)
     print("Restricted snapshot imported and verified:",
