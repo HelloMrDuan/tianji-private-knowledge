@@ -1,0 +1,75 @@
+name: Import pinned knowledge into private repository
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/import_public_snapshot.py"
+      - ".github/workflows/import-public-knowledge.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: private-knowledge-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Require a private destination before reading knowledge
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Copy pinned complete data snapshot with private SHA256 manifest
+        env:
+          GIT_TERMINAL_PROMPT: "0"
+        run: python scripts/import_public_snapshot.py
+
+      - name: Check exact private snapshot and no public fallback
+        run: |
+          python - <<'PY'
+          import importlib.util
+          from pathlib import Path
+          spec = importlib.util.spec_from_file_location("importer", "scripts/import_public_snapshot.py")
+          importer = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(importer)
+          manifest = importer.verify(Path.cwd())
+          assert manifest["source_commit"] == importer.SOURCE_COMMIT
+          assert manifest["file_count"] == importer.EXPECTED_FILES
+          assert manifest["total_bytes"] == importer.EXPECTED_BYTES
+          print("Private Git data snapshot SHA256 verification: OK")
+          PY
+
+      - name: Commit and push only to PRIVATE repository
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+          git config user.name "tianji-private-kb-bot"
+          git config user.email "tianji-private-kb-bot@users.noreply.github.com"
+          git add -- data private-data-manifest.json
+          if git diff --cached --quiet; then
+            echo "Private data already identical; no commit needed"
+            exit 0
+          fi
+          git commit -m "data: import audited complete 11-area knowledge snapshot"
+          git push origin HEAD:main
