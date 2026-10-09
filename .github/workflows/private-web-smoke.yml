@@ -1,0 +1,107 @@
+name: Real Private Data Frontend Smoke
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/private-web-smoke.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  private-http-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Confirm repository is private
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: 30375bb93dfaca680877361139e82601f054b505
+          path: public-code
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: public-code/web/visual-prototype/package-lock.json
+
+      - name: Assemble a real private-data backend
+        run: |
+          python - <<'PY'
+          import os, shutil, sys, importlib.util
+          from pathlib import Path
+          root = Path.cwd()
+          spec = importlib.util.spec_from_file_location("importer", "scripts/import_public_snapshot.py")
+          mod = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(mod)
+          expected = mod.verify(root)
+          code = root / "public-code"
+          sys.path.insert(0, str(code))
+          from scripts.assemble_private_backend import assemble_private_backend
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "web-private-snapshot"
+          snapshot.mkdir()
+          shutil.copytree(root / "data", snapshot / "data")
+          shutil.copy2(root / "private-data-manifest.json", snapshot / "private-data-manifest.json")
+          backend = temp / "web-private-backend"
+          result = assemble_private_backend(code, snapshot, backend)
+          assert result["knowledge_files"] == expected["file_count"]
+          print("Verified isolated private backend file count:", result["knowledge_files"])
+          PY
+
+      - name: Install and build actual frontend and backend
+        run: |
+          python -m pip install -e "./public-code[validation,calendar,api]"
+          cd public-code/web/visual-prototype
+          npm ci
+          npm run build
+          cd ../..
+          python scripts/check_public_web_bundle.py web/visual-prototype/dist
+
+      - name: HTTP test through actual frontend proxy and private data
+        shell: bash
+        run: |
+          set -euo pipefail
+          (
+            cd "$RUNNER_TEMP/web-private-backend"
+            PYTHONPATH=src uvicorn tianji_kb.api:app --host 127.0.0.1 --port 8000 >"$RUNNER_TEMP/api.log" 2>&1
+          ) &
+          api_pid=$!
+          (
+            cd public-code/web/visual-prototype
+            npm run dev -- --host 127.0.0.1 >"$RUNNER_TEMP/web.log" 2>&1
+          ) &
+          web_pid=$!
+          trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
+          for i in {1..45}; do
+            if curl -fsS http://127.0.0.1:5173/health >"$RUNNER_TEMP/health.json" 2>/dev/null; then break; fi
+            sleep 1
+          done
+          curl -fsS -X POST http://127.0.0.1:5173/api/v1/execute \
+            -H "Content-Type: application/json" \
+            -d '{"domain":"yijing","input":{"bits":"111000","changing_lines":[1]},"explain":false,"mode":"production"}' \
+            >"$RUNNER_TEMP/response.json"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          body = json.loads((Path(os.environ["RUNNER_TEMP"]) / "response.json").read_text())
+          assert body["domain"] == "yijing"
+          assert body["deterministic"] is True
+          assert body["evidence"]
+          print("Real frontend proxy to isolated private backend: OK")
+          PY
