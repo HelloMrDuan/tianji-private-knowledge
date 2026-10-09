@@ -1,0 +1,36 @@
+{
+  "source_id": "metaphysics-steward",
+  "repo": "superzhang21/metaphysics-steward",
+  "branch": "main",
+  "commit": "0c1dcf5fd27c68debe5607f5caa697722319aed8",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "liuyao",
+    "meihua",
+    "yinyuan"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "references/liuyao_najia.md",
+      "snapshot_path": "data/quarantine/source_snapshots/metaphysics-steward/references/liuyao_najia.md",
+      "sha256": "d7e48cfe4a7e73cf57d36503b59442db3cf47ca3650111ad39e545690f34361f",
+      "bytes": 3382
+    },
+    {
+      "source_path": "references/meihua_notes.md",
+      "snapshot_path": "data/quarantine/source_snapshots/metaphysics-steward/references/meihua_notes.md",
+      "sha256": "1d5d9f13c3d5e7a541605144f77142185824ab8b5100b36b17750ea452404dec",
+      "bytes": 752
+    },
+    {
+      "source_path": "references/hehun_rules.md",
+      "snapshot_path": "data/quarantine/source_snapshots/metaphysics-steward/references/hehun_rules.md",
+      "sha256": "40c1a0d63e014e252dcf5cdcb546f73ad05b7acc37f01d8dd991ab03c059fcdd",
+      "bytes": 3464
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

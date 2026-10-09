@@ -1,0 +1,40 @@
+{
+  "source_id": "kintaiyi",
+  "repo": "kentang2017/kintaiyi",
+  "branch": "master",
+  "commit": "626d8a5bd0f707fec2ed613c83d4b6611f56441d",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "taiyi"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "docs/guji.md",
+      "snapshot_path": "data/quarantine/source_snapshots/kintaiyi/docs/guji.md",
+      "sha256": "40bde28d80960f9eecc41fe62e0568d667a423a7782cd028c8d527ca46685edd",
+      "bytes": 8422
+    },
+    {
+      "source_path": "src/kintaiyi/config.py",
+      "snapshot_path": "data/quarantine/source_snapshots/kintaiyi/src/kintaiyi/config.py",
+      "sha256": "dc3d7f2c9539a1893041d70f5db9417e1153b1870ace77329418b6df56b9b3a5",
+      "bytes": 157282
+    },
+    {
+      "source_path": "src/kintaiyi/jieqi.py",
+      "snapshot_path": "data/quarantine/source_snapshots/kintaiyi/src/kintaiyi/jieqi.py",
+      "sha256": "d5cbd4d89c30fa25a5b386a58d122a047073b0432ad459e5a59917f82e32b3ae",
+      "bytes": 19809
+    },
+    {
+      "source_path": "src/kintaiyi/kintaiyi.py",
+      "snapshot_path": "data/quarantine/source_snapshots/kintaiyi/src/kintaiyi/kintaiyi.py",
+      "sha256": "fbe7eabd7b76be4a1025b03a8aaadb374134cac31fea89d174c4e5addb856752",
+      "bytes": 114643
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

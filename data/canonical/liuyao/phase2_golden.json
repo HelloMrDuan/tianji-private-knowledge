@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-golden",
+  "domain": "liuyao",
+  "provider": "tianji_kb.operations.liuyao_chart.chart",
+  "review_basis": "既有 najia_v1 三例（不采用其含混主/变世应表述）；独立手算八宫变爻、甲子旬空及古籍乾宫序。",
+  "cases": [
+    {
+      "id": "liuyao.qian-static",
+      "input": {
+        "yao_values": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "day_ganzhi": "己丑",
+        "month_branch": "酉"
+      },
+      "expected": {
+        "original": {
+          "number": 1,
+          "binary": "111111"
+        },
+        "changed": {
+          "number": 1
+        },
+        "palace": {
+          "palace": "乾",
+          "element": "金",
+          "sequence": "本宫",
+          "shi": 6,
+          "ying": 3
+        },
+        "empty_branches": [
+          "午",
+          "未"
+        ],
+        "changing_lines": [],
+        "lines": [
+          {
+            "position": 1,
+            "najia": "甲子",
+            "relative": "子孙",
+            "spirit": "螣蛇",
+            "empty": false,
+            "month_break": false
+          },
+          {
+            "position": 2,
+            "najia": "甲寅",
+            "relative": "妻财",
+            "spirit": "白虎",
+            "empty": false,
+            "month_break": false
+          },
+          {
+            "position": 3,
+            "najia": "甲辰",
+            "relative": "父母",
+            "spirit": "玄武",
+            "empty": false,
+            "month_break": false
+          },
+          {
+            "position": 4,
+            "najia": "壬午",
+            "relative": "官鬼",
+            "spirit": "青龙",
+            "empty": true,
+            "month_break": false
+          },
+          {
+            "position": 5,
+            "najia": "壬申",
+            "relative": "兄弟",
+            "spirit": "朱雀",
+            "empty": false,
+            "month_break": false
+          },
+          {
+            "position": 6,
+            "najia": "壬戌",
+            "relative": "父母",
+            "spirit": "勾陈",
+            "empty": false,
+            "month_break": false
+          }
+        ]
+      },
+      "variant": "jingfang-eight-palaces-v1"
+    },
+    {
+      "id": "liuyao.qian-to-gou",
+      "input": {
+        "yao_values": [
+          9,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "day_ganzhi": "甲子",
+        "month_branch": "午"
+      },
+      "expected": {
+        "original": {
+          "number": 1
+        },
+        "changed": {
+          "number": 44,
+          "binary": "011111"
+        },
+        "palace": {
+          "shi": 6,
+          "ying": 3
+        },
+        "changed_palace": {
+          "palace": "乾",
+          "sequence": "一世",
+          "shi": 1,
+          "ying": 4
+        },
+        "changing_lines": [
+          1
+        ],
+        "empty_branches": [
+          "戌",
+          "亥"
+        ]
+      },
+      "variant": "jingfang-eight-palaces-v1"
+    },
+    {
+      "id": "liuyao.tai-to-sheng",
+      "input": {
+        "yao_values": [
+          9,
+          7,
+          7,
+          8,
+          8,
+          8
+        ],
+        "day_ganzhi": "甲子",
+        "month_branch": "子"
+      },
+      "expected": {
+        "original": {
+          "number": 11
+        },
+        "changed": {
+          "number": 46
+        },
+        "palace": {
+          "palace": "坤",
+          "sequence": "三世",
+          "shi": 3,
+          "ying": 6
+        },
+        "changed_palace": {
+          "palace": "震",
+          "sequence": "四世",
+          "shi": 4,
+          "ying": 1
+        },
+        "changing_lines": [
+          1
+        ]
+      },
+      "variant": "jingfang-eight-palaces-v1"
+    }
+  ]
+}

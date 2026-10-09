@@ -1,0 +1,2504 @@
+{
+  "schema_version": "0.1",
+  "work_id": "sanming_tonghui",
+  "title": "三命通会",
+  "status": "PARTIAL_COLLATION",
+  "generated_at": "2026-09-30",
+  "source": {
+    "repo": "garychowcmu/daizhigev20",
+    "path": "易藏/术数/三命通会.txt",
+    "blob_sha": "c0cff182a79f773ac108ba5a6d55c6dcd2c0566c",
+    "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620"
+  },
+  "policy": {
+    "rule": "Only mappings marked confirmed may be auto-applied.",
+    "confirmation": "A confirmed mapping must agree with all sampled source contexts and have independent textual evidence; ambiguous glyphs remain unresolved.",
+    "canonical_gate": "Canonical promotion remains blocked until zero private-use glyphs remain after applying the confirmed mapping set."
+  },
+  "crosscheck_sources": [
+    {
+      "repo": "NiuTrans/Classical-Modern",
+      "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+      "license_spdx": "MIT",
+      "role": "independent structured transcription"
+    },
+    {
+      "repo": "youngzs/xuanxue",
+      "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+      "license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY",
+      "role": "independent public-domain collation cross-check"
+    }
+  ],
+  "summary": {
+    "audit_total_occurrences": 524,
+    "audit_unique_codepoints": 86,
+    "confirmed_mappings": 86,
+    "confirmed_occurrences": 524,
+    "remaining_unique_codepoints": 0,
+    "remaining_occurrences": 0,
+    "contextual_mapping_codepoints": 1,
+    "contextual_occurrences": 5
+  },
+  "mappings": [
+    {
+      "codepoint": "U+EA20",
+      "glyph": "",
+      "count": 79,
+      "replacement": "玄",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "天道远",
+        "重光黓昭阳",
+        "北方极之气"
+      ],
+      "evidence": [
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/五行精纪/002五行精纪：论六甲纳音法.md",
+          "anchor": "北方玄极之气"
+        },
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "易藏/术数/五行精纪_page3.html",
+          "anchor": "北方玄极之气"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EB07",
+      "glyph": "",
+      "count": 76,
+      "replacement": "参",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "同契",
+        "以此之",
+        "休旺要详"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论小运/text.txt",
+          "anchor": "然后以此参之，无不中矣"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/020卷 二·论小运.md",
+          "anchor": "然后以此参之，无不中矣"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E645",
+      "glyph": "",
+      "count": 55,
+      "replacement": "紧",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "日时虽为",
+        "小运亦有关",
+        "故慢不"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论胎元/text.txt",
+          "anchor": "日时虽为紧"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/017卷 二·论胎元.md",
+          "anchor": "日时虽为紧"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EF6E",
+      "glyph": "",
+      "count": 35,
+      "replacement": "扬",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "体貌不",
+        "沙漠威",
+        "主威"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论十干合/text.txt",
+          "anchor": "体貌不扬"
+        },
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十一/气象篇三/text.txt",
+          "anchor": "飞扬姓字"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EE25",
+      "glyph": "",
+      "count": 25,
+      "replacement": "亏",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "利禄盈",
+        "小盈大",
+        "贵无"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十一/消息赋三/text.txt",
+          "anchor": "小盈大亏"
+        },
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十一/气象篇三/text.txt",
+          "anchor": "风雷激烈贵无亏"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EC93",
+      "glyph": "",
+      "count": 22,
+      "replacement": "淫",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "汚家风",
+        "奸邪鄙",
+        "私滥奸"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论咸池/text.txt",
+          "anchor": "其神之奸邪淫鄙"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/029卷 二·论咸池.md",
+          "anchor": "奸邪淫鄙"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E7B5",
+      "glyph": "",
+      "count": 21,
+      "replacement": "候",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "时浅深",
+        "指物以之",
+        "五日谓之三谓之气"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/黄帝内经/素问/六节藏象论/text.txt",
+          "anchor": "五日谓之候，三候谓之气"
+        },
+        {
+          "repo": "mahavivo/scripta-sinica",
+          "commit": "d2a447941d43fd5ac35b35194dcb0a68d4275aa7",
+          "path": "09医藏-0869部/医经读-清-沈又彭.txt",
+          "anchor": "五日谓之候三候谓之气"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E730",
+      "glyph": "",
+      "count": 17,
+      "replacement": "龟",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "田畴坼",
+        "神宿火",
+        "防火氷"
+      ],
+      "evidence": [
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "道藏/正统道藏正一部/道法会元_page180.html",
+          "anchor": "田畴龟坼"
+        },
+        {
+          "repo": "qinxiaozhi/dzg2.0",
+          "commit": "42f8944f29cdb954fd838f4e558441250f0fcc70",
+          "path": "道藏/正统道藏洞真部/方法类/清微神烈秘法.txt",
+          "anchor": "田畴龟坼"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EB64",
+      "glyph": "",
+      "count": 14,
+      "replacement": "带",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "被形煞",
+        "垂贵人",
+        "冠处"
+      ],
+      "evidence": [
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/五行精纪/016五行精纪：第十卷论年月日时胎.md",
+          "anchor": "垂带贵人"
+        },
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "易藏/术数/五行精纪_page17.html",
+          "anchor": "垂带贵人"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E3D0",
+      "glyph": "",
+      "count": 10,
+      "replacement": "兔",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "玉东升格",
+        "壬以",
+        "癸以"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷一/释六十甲子性质吉凶三/text.txt",
+          "anchor": "玉兔东升格"
+        },
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/三命通会/articles/释六十甲子性质吉凶四/source.md",
+          "anchor": "玉兔东升格"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA4B",
+      "glyph": "",
+      "count": 10,
+      "replacement": "死",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "生为忠臣必为明神",
+        "絶处生起",
+        "五行居墓之地"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十二/金声玉振赋/text.txt",
+          "anchor": "生为忠臣，死必为明神"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-3.txt",
+          "anchor": "死必为明神"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA43",
+      "glyph": "",
+      "count": 9,
+      "replacement": "台",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "楼残",
+        "翰苑清要或谏",
+        "受职谏之除"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十二/元理赋/text.txt",
+          "anchor": "受职台谏之除"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-1.txt",
+          "anchor": "受职台谏之除"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E408",
+      "glyph": "",
+      "count": 6,
+      "replacement": "嗽",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "咳面色青黯",
+        "痰火咳气喘",
+        "妇女主痰"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷七/论疾病先知五脏六腑所/text.txt",
+          "anchor": "痰火咳嗽、气喘吐血"
+        },
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷七/论疾病先知五脏六腑所/text.txt",
+          "anchor": "夜啼咳嗽、面色青黯"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E4BF",
+      "glyph": "",
+      "count": 6,
+      "replacement": "琐",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "身品小",
+        "身材小",
+        "官煞单见不遂"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/论食神/text.txt",
+          "anchor": "身材琐小"
+        },
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/三命通会/articles/论食神/source.md",
+          "anchor": "身材琐小"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA1F",
+      "glyph": "",
+      "count": 6,
+      "replacement": "弘",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "器宇含",
+        "含容大",
+        "福量寛"
+      ],
+      "evidence": [
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/006卷 一·释六十甲子性质吉凶.md",
+          "anchor": "器宇含弘"
+        },
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/论食神/text.txt",
+          "anchor": "福量宽弘"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E880",
+      "glyph": "",
+      "count": 5,
+      "replacement": "派",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "世代宗盛衰",
+        "闲来一清冷",
+        "何源流资格"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十/玉井奥诀七/text.txt",
+          "anchor": "闲来一派清冷"
+        },
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十/玉井奥诀九/text.txt",
+          "anchor": "何派源流资格"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EBB7",
+      "glyph": "",
+      "count": 6,
+      "replacement": "惨",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "阴冷刻则耗枯",
+        "死絶主毒害伤倾覆之事",
+        "用刑酷亦主发歇不常"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论六害/text.txt",
+          "anchor": "死绝主毒害、伤惨、倾覆之事"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/060卷 五·论正官.md",
+          "anchor": "用刑惨酷"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA40",
+      "glyph": "",
+      "count": 5,
+      "replacement": "𠒋",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "性地之顽",
+        "多是徒",
+        "诸煞逢刑狠軰"
+      ],
+      "evidence": [
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-12.md",
+          "anchor": "金多失火嗟性地之𠒋頑"
+        },
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/sanming/c012.json",
+          "anchor": "金多失火嗟性地之𠒋頑"
+        }
+      ],
+      "note": "Preserve the attested non-PUA historical glyph 𠒋 rather than normalizing it to modern 凶/兇."
+    },
+    {
+      "codepoint": "U+EB11",
+      "glyph": "",
+      "count": 4,
+      "replacement": "奋",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "安然发富贵者",
+        "气发通舒自若",
+        "发物我相安賔主和恊"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十/玉井奥诀四/text.txt",
+          "anchor": "有安然奋发富贵者何"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-10-24.txt",
+          "anchor": "有安然奋发富贵者何"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E749",
+      "glyph": "",
+      "count": 3,
+      "replacement": "渺",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "发福必",
+        "化而又化竟茫归于何地",
+        "茫之气无倚"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/论偏财/text.txt",
+          "anchor": "纵入官乡，发福必渺"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-10-27.txt",
+          "anchor": "化而又化，竟渺茫归于何地"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ECE6",
+      "glyph": "",
+      "count": 3,
+      "replacement": "焰",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "气发通舒自若",
+        "火虚有",
+        "湿木不生无火理固然也"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/渊海子平/赋论·三/text.txt",
+          "anchor": "火虚有焰"
+        },
+        {
+          "repo": "mahavivo/scripta-sinica",
+          "commit": "d2a447941d43fd5ac35b35194dcb0a68d4275aa7",
+          "path": "01易藏-0195部/02术数-146部/渊海子平-宋-徐子平.txt",
+          "anchor": "火虚有焰"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ECDE",
+      "glyph": "",
+      "count": 5,
+      "replacement": "点",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "柱无一火气",
+        "柱中无一官星",
+        "柱无一官星"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/日禄归时/text.txt",
+          "anchor": "柱中无一点官星"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/090卷 六·日禄归时.md",
+          "anchor": "柱无一点官星"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ED3F",
+      "glyph": "",
+      "count": 5,
+      "replacement": "眩",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "头目晕",
+        "诸风掉",
+        "目濇晕"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷七/论疾病先知五脏六腑所/text.txt",
+          "anchor": "外主头目眩晕"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/153卷 七·论疾病先知五脏六腑所属干支.md",
+          "anchor": "外主头目眩晕"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA7B",
+      "glyph": "",
+      "count": 4,
+      "replacement": "冢",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "周嘉谟宰",
+        "胡松宰",
+        "乔宇宰"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_008.txt",
+          "anchor": "癸亥胡松冢宰"
+        },
+        {
+          "repo": "x3747991-ship-it/mingli-yuanzhuo-skillpack",
+          "commit": "d4f5eef0dc2461ee38705005d7faaffb40e6f3c6",
+          "path": "mingli-yuanzhuo/命例库/02_三命通会_命例.md",
+          "anchor": "乔宇冢宰"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA85",
+      "glyph": "",
+      "count": 4,
+      "replacement": "刑",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "或见三或自魁罡",
+        "合者防遇印者吉"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/论阳刃/text.txt",
+          "anchor": "或见三刑，或自刑魁罡"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/150卷 六·论阳刃（前论羊刃煞与此参看）.md",
+          "anchor": "合刑者凶，遇印者吉"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EB8E",
+      "glyph": "",
+      "count": 3,
+      "replacement": "弦",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "因谓之乃阳将半",
+        "因谓之下谓月生之半也",
+        "断再续"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/渊海子平/赋论·三/text.txt",
+          "anchor": "弦断再续"
+        },
+        {
+          "repo": "mahavivo/scripta-sinica",
+          "commit": "d2a447941d43fd5ac35b35194dcb0a68d4275aa7",
+          "path": "01易藏-0195部/02术数-146部/渊海子平-宋-徐子平.txt",
+          "anchor": "弦断再续"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EE60",
+      "glyph": "",
+      "count": 4,
+      "replacement": "蒙",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "黄养侍郎",
+        "貌俊心葢是清中涵浊",
+        "生乃发之初"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十一/气象篇四/text.txt",
+          "anchor": "貌俊心蒙，盖是清中涵浊"
+        },
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "易藏/术数/神峰通考_page24.html",
+          "anchor": "貌俊心蒙，盖是清中涵浊"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA23",
+      "glyph": "",
+      "count": 3,
+      "replacement": "胤",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "张佳尚书",
+        "黄熙现太仆",
+        "占于江文通祠"
+      ],
+      "evidence": [
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "史藏/正史/明史_page177.html",
+          "anchor": "张佳胤"
+        },
+        {
+          "repo": "qinxiaozhi/dzg2.0",
+          "commit": "42f8944f29cdb954fd838f4e558441250f0fcc70",
+          "path": "史藏/志存记录/明季遗闻.txt",
+          "anchor": "黄熙胤"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ED92",
+      "glyph": "",
+      "count": 3,
+      "replacement": "算",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "行运至乙丑年",
+        "只要足十二个月"
+      ],
+      "evidence": [
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "易藏/术数/星学大成_page7.html",
+          "anchor": "行运算至乙丑年"
+        },
+        {
+          "repo": "kanripo/KR3g0041",
+          "commit": "6626e6d7b8337db0e966522e77dc291f54664548",
+          "path": "KR3g0041_003.txt",
+          "anchor": "只要算足十二月"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EEA1",
+      "glyph": "",
+      "count": 3,
+      "replacement": "过",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "庶出房作赘",
+        "本身若不是房庶出",
+        "金旺太则动作多凶"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十/看命口诀十二/text.txt",
+          "anchor": "亦不免庶出过房作赘"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-10-12.txt",
+          "anchor": "亦不免庶出过房作赘"
+        }
+      ],
+      "note": "Context comparison corrects the tempting but wrong visual guess 偏: the transmitted phrase is 过房."
+    },
+    {
+      "codepoint": "U+E898",
+      "glyph": "",
+      "count": 2,
+      "replacement": "瓜",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "六月甜虽熟肉黄皮青",
+        "长生根本瓞绵绵"
+      ],
+      "evidence": [
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/神锋通考/007卷05.md",
+          "anchor": "长生根本，瓜瓞绵绵"
+        },
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "易藏/术数/神峰通考_page25.html",
+          "anchor": "长生根本，瓜瓞绵绵"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EEA6",
+      "glyph": "",
+      "count": 2,
+      "replacement": "蓬",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "飘落魄",
+        "男子飘女作尼姑"
+      ],
+      "evidence": [
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/神锋通考/006卷04.md",
+          "anchor": "飘蓬落魄，戌带杀来"
+        },
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "易藏/术数/神峰通考_page16.html",
+          "anchor": "飘蓬落魄，戌带杀来"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA5B",
+      "glyph": "",
+      "count": 1,
+      "replacement": "传",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "尸痨瘵面阎罗"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/针灸大成/卷九/治症总要（杨氏）/text.txt",
+          "anchor": "传尸痨瘵"
+        },
+        {
+          "repo": "mahavivo/scripta-sinica",
+          "commit": "d2a447941d43fd5ac35b35194dcb0a68d4275aa7",
+          "path": "09医藏-0869部/绛囊撮要-清-云川道人.txt",
+          "anchor": "传尸痨瘵"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA62",
+      "glyph": "",
+      "count": 1,
+      "replacement": "备",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "详陈夲末察盈后之君子幸勿忽诸"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/渊海子平/赋论·四/text.txt",
+          "anchor": "详陈本末，备察盈亏"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-9.txt",
+          "anchor": "详陈本末，备察盈亏"
+        }
+      ],
+      "note": "Collation evidence resolves this as 备察, not the tempting modernized reading 细察."
+    },
+    {
+      "codepoint": "U+E8AA",
+      "glyph": "",
+      "count": 1,
+      "replacement": "恶",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "阳刄者天上之防星人间之煞喜偏官印绶"
+      ],
+      "evidence": [
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/150卷 六·论阳刃（前论羊刃煞与此参看）.md",
+          "anchor": "阳刃者，天上之凶星，人间之恶煞"
+        },
+        {
+          "repo": "michiboo/Classical_Chinese_Wikisource",
+          "commit": "5acdca0628a0cb664858a0280b23488c194445e3",
+          "path": "三命通會/卷六.txt",
+          "anchor": "陽刃者，天上之凶星，人間之惡煞"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA26",
+      "glyph": "",
+      "count": 1,
+      "replacement": "兮",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "年干父兮支母日干巳支妻月干兄兮支弟"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十二/络绎赋/text.txt",
+          "anchor": "年干父兮支母，日干己兮支妻"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-5.txt",
+          "anchor": "年干父兮支母，日干己兮支妻"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E9C7",
+      "glyph": "",
+      "count": 1,
+      "replacement": "真",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "樗木不禁利斧珠最怕明炉"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/渊海子平/赋论·五/text.txt",
+          "anchor": "真珠最怕明炉"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/《渊海子平》/《渊海子平》赋论（五）/003《五行生克赋》.md",
+          "anchor": "真珠最怕明炉"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EAC0",
+      "glyph": "",
+      "count": 1,
+      "replacement": "嗤",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "禄入空亡何所知虚名虚誉足堪是嫌亡也"
+      ],
+      "evidence": [
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/五行精纪/021五行精纪：第十五卷论禄.md",
+          "anchor": "禄入空亡何所知，虚名虚誉足堪嗤"
+        },
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/五行精纪/articles/禄/source.md",
+          "anchor": "禄入空亡何所知，虚名虚誉足堪嗤"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EAE6",
+      "glyph": "",
+      "count": 1,
+      "replacement": "涂",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "得时失地如輗损泥得时者亦能举跃"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十/巫咸撮要五/text.txt",
+          "anchor": "得时失地，如輗损涂泥"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-10-19.txt",
+          "anchor": "得时失地，如輗损涂泥"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EAF6",
+      "glyph": "",
+      "count": 1,
+      "replacement": "压",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "夏火炎炎莫作太燥有秋金鋭鋭最为奇"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十二/元妙论/text.txt",
+          "anchor": "夏火炎炎，莫作太燥有压"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-10.txt",
+          "anchor": "夏火炎炎，莫作太燥有压"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ECD6",
+      "glyph": "",
+      "count": 2,
+      "replacement": "熬",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "双眼无瞳火土干癸水",
+        "柱中遇木火耗不成从化者多患目疾"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_011.txt",
+          "anchor": "雙眼無瞳火土熬乾癸水；柱中遇木火耗熬"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0012.md",
+          "anchor": "雙眼無瞳火土熬乾癸水；柱中遇木火耗熬"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA7C",
+      "glyph": "",
+      "count": 1,
+      "replacement": "寵",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "丙逢重辛居酉子多招妾"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_012.txt",
+          "anchor": "丙逢重辛居酉子多招寵妾"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0013.md",
+          "anchor": "丙逢重辛居酉子多招寵妾"
+        }
+      ],
+      "note": "Preserve the traditional form 寵 because the collated classical witnesses use 寵; simplified witnesses render the same word as 宠."
+    },
+    {
+      "codepoint": "U+EEB8",
+      "glyph": "",
+      "count": 3,
+      "replacement": "𫑗",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "乙方近沙都宪癸丑",
+        "壬戌贼丁壬寅",
+        "子午为天地之基柱酉为日月之门户"
+      ],
+      "evidence": [
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/sanming/c008.json",
+          "anchor": "乙𫑗方近沙都宪"
+        },
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/渊海子平/articles/明通赋/source.md",
+          "anchor": "子午为天地之基柱，卯酉为日月之门户"
+        },
+        {
+          "repo": "JunnXiann/bj-dell-rs-tool",
+          "commit": "55297bc9b3e004d7998600bce017044598fb166d",
+          "path": "web/tw/JS_reel_txt/JS1667_023.txt",
+          "anchor": "開平元年丁𫑗𥁞四年"
+        }
+      ],
+      "note": "Preserve the attested historical Unicode glyph 𫑗. The structured Sanming witness uses 𫑗 in the same annotation, while normalized witnesses render the lexical value as 卯."
+    },
+    {
+      "codepoint": "U+E59C",
+      "glyph": "",
+      "count": 1,
+      "replacement": "燥",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "喜丁火而生畏阳火而其禄到午"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论天干阴阳生死/text.txt",
+          "anchor": "喜丁火而生，畏阳火而燥"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/007卷 二·论天干阴阳生死.md",
+          "anchor": "喜丁火而生，畏阳火而燥"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EBB8",
+      "glyph": "",
+      "count": 1,
+      "replacement": "博",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "水淸宝瓶益盛文章览多通荣迁来歴紫薇封"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷九/六癸日壬子时断/text.txt",
+          "anchor": "文章博览多通，荣迁来历紫薇封"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-9-49.txt",
+          "anchor": "文章博览多通，荣迁来历紫薇封"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EBDE",
+      "glyph": "",
+      "count": 1,
+      "replacement": "哲",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "显防阐幽遵彼往引伸触类存乎人也"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十二/金声玉振赋/text.txt",
+          "anchor": "显微阐幽，尊彼往哲，引伸触类"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-3.txt",
+          "anchor": "显微阐幽，尊彼往哲，引伸触类"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EDE6",
+      "glyph": "",
+      "count": 1,
+      "replacement": "苑",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "聚贵歳苗髙坐玉堂荣翰病乃魁星"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十二/元妙论/text.txt",
+          "anchor": "高坐玉堂荣翰苑"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-10.txt",
+          "anchor": "高坐玉堂荣翰苑"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E3E5",
+      "glyph": "",
+      "count": 1,
+      "replacement": "坷",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "柱无丙戊秋冬旺坎飘流无定人"
+      ],
+      "evidence": [
+        {
+          "repo": "china-testing/bazi",
+          "commit": "33b18354d5407727640e545c3aaec0efb4bf5282",
+          "path": "sizi.py",
+          "anchor": "柱无丙戊秋冬旺，坎坷飘流无定人"
+        },
+        {
+          "repo": "d3smondwong/astronomer",
+          "commit": "ddef3b56fd7b7a4c184e6828199b9101a9b0611a",
+          "path": "apps/backend/data/san_ming_tong_hui.py",
+          "anchor": "柱无丙戊秋冬旺，坎坷飘流无定人"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ECEC",
+      "glyph": "",
+      "count": 1,
+      "replacement": "管",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "水火原来要既济教名利镇山河"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十二/搜髓歌/text.txt",
+          "anchor": "水火原来要既济，管教名利镇山河"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-14.txt",
+          "anchor": "水火原来要既济，管教名利镇山河"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E10C",
+      "glyph": "",
+      "count": 5,
+      "replacement": "𣷉",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "申子辰年月金水秀佳",
+        "纯亥金水秀贵",
+        "纯亥金水秀多发髙科"
+      ],
+      "evidence": [
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/sanming/c009.json",
+          "anchor": "申子辰年月金水𣷉秀佳；纯亥金水𣷉秀貴"
+        },
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-09.md",
+          "anchor": "申子辰年月金水𣷉秀佳；純亥金水𣷉秀貴"
+        }
+      ],
+      "note": "Preserve the attested historical Unicode glyph 𣷉 rather than normalizing it to 清 or another modern character; two independent Sanming transcriptions agree on 𣷉."
+    },
+    {
+      "codepoint": "U+E5AB",
+      "glyph": "",
+      "count": 2,
+      "replacement": "𨽻",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "甲乙壬癸于阳而阳中四枝系焉",
+        "庚丙丁辛于隂而隂中四枝配焉"
+      ],
+      "evidence": [
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/sanming/c002.json",
+          "anchor": "甲乙壬癸𨽻於陽而陽中四枝繫焉；庚丙丁辛𨽻於隂而隂中四枝配焉"
+        },
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_002.txt",
+          "anchor": "甲乙壬癸𨽻於陽而陽中四枝繫焉庚丙丁辛𨽻於隂而隂中四枝配焉"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0003.md",
+          "anchor": "甲乙壬癸𨽻於陽而陽中四枝繫焉庚丙丁辛𨽻於隂而隂中四枝配焉"
+        }
+      ],
+      "note": "Preserve the historical Unicode form 𨽻 attested by multiple witnesses rather than flattening it to modern 隶/隸."
+    },
+    {
+      "codepoint": "U+ED9E",
+      "glyph": "",
+      "count": 1,
+      "replacement": "簪",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "时遇丙寅则冠带缨"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十一/继善篇/text.txt",
+          "anchor": "时遇丙寅，则冠带簪缨"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-11-21.txt",
+          "anchor": "时遇丙寅，则冠带簪缨"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EE26",
+      "glyph": "",
+      "count": 1,
+      "replacement": "亏",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "印绶无享福全为官承防有田园"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/论印绶/text.txt",
+          "anchor": "印绶无亏享福全，为官承荫有田园"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/134卷 六·论印绶.md",
+          "anchor": "印绶无亏享福全，为官承荫有田园"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-6-56.txt",
+          "anchor": "印绶无亏享福全，为官承荫有田园"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EE6D",
+      "glyph": "",
+      "count": 1,
+      "replacement": "博",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "言行狡诈逰荡赌忘恩失信私滥奸"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论咸池/text.txt",
+          "anchor": "言行狡诈，游荡赌博，忘恩失信，私滥奸淫"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/神煞章/001神煞-咸池（桃花煞）.md",
+          "anchor": "言行狡诈，游荡赌博，忘恩失信，私滥奸淫"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EF6A",
+      "glyph": "",
+      "count": 1,
+      "replacement": "惕",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "岂非有所警享用不过之所致乎"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/十干十二年生大贵人例/text.txt",
+          "anchor": "岂非有所警惕享用不过之所致乎"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-6-45.txt",
+          "anchor": "岂非有所警惕享用不过之所致乎"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/123卷 六·十干十二年生大贵人例.md",
+          "anchor": "岂非有所警惕享用不过之所致乎"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EF6C",
+      "glyph": "",
+      "count": 1,
+      "replacement": "场",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "听鳯鸣于高岗必鹰扬于疆是也"
+      ],
+      "evidence": [
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-11-18.txt",
+          "anchor": "听凤鸣于高岗，必鹰扬于疆场"
+        },
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/三命通会/articles/明通赋四/source.md",
+          "anchor": "听凤鸣于高岗，必鹰扬于疆场"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EBA5",
+      "glyph": "",
+      "count": 1,
+      "replacement": "忘",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "火死絶主膓气结塞惊悸徤精神不安之疾"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷七/论疾病先知五脏六腑所/text.txt",
+          "anchor": "火死绝，主肠气结塞、惊悸健忘，精神不安之疾"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/153卷 七·论疾病先知五脏六腑所属干支.md",
+          "anchor": "火死绝，主肠气结塞、惊悸健忘，精神不安之疾"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-7-2.txt",
+          "anchor": "火死绝，主肠气结塞、惊悸健忘，精神不安之疾"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ECCA",
+      "glyph": "",
+      "count": 1,
+      "replacement": "烽",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "又午为马堠乃戎马兵火之处所也"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/十二支分配地理/text.txt",
+          "anchor": "又午为马，烽堠乃戎马兵火之处所也"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/010卷 二·十二支分配地理.md",
+          "anchor": "又午为马，烽堠乃戎马兵火之处所也"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-2-4.txt",
+          "anchor": "又午为马，烽堠乃戎马兵火之处所也"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ED51",
+      "glyph": "",
+      "count": 1,
+      "replacement": "瞽",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "飞防名天支干无气主无目"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷七/论疾病先知五脏六腑所/text.txt",
+          "anchor": "飞廉名天瞽，支干无气，主无目"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/153卷 七·论疾病先知五脏六腑所属干支.md",
+          "anchor": "飞廉名天瞽，支干无气，主无目"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-7-2.txt",
+          "anchor": "飞廉名天瞽，支干无气，主无目"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EEA3",
+      "glyph": "",
+      "count": 1,
+      "replacement": "递",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "五行自死絶而有救相还者"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/还魂借气/text.txt",
+          "anchor": "五行自死绝而有救递相还者"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/107卷 六·还魂借气.md",
+          "anchor": "五行自死绝而有救递相还者"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-6-29.txt",
+          "anchor": "五行自死绝而有救递相还者"
+        }
+      ],
+      "note": "The damaged glyph is 递, not 助; multiple independent witnesses preserve the phrase 有救递相还者."
+    },
+    {
+      "codepoint": "U+EED7",
+      "glyph": "",
+      "count": 1,
+      "replacement": "开",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "无丑戌以刑冲之则库不难得官印力"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论地支/text.txt",
+          "anchor": "无丑戌以刑冲之，则库不开，难得金印"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/008卷 二·论地支.md",
+          "anchor": "无丑戌以刑冲之，则库不开，难得金印"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-2-2.txt",
+          "anchor": "无丑戌以刑冲之，则库不开，难得金印"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EEE4",
+      "glyph": "",
+      "count": 1,
+      "replacement": "徒",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "七岁前羸疾七岁后肥胎犯空亡"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷七/论小儿/text.txt",
+          "anchor": "七岁前赢疾，七岁后徒肥"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/165卷 七·论小儿.md",
+          "anchor": "七岁前赢疾，七岁后徒肥"
+        },
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/三命通会/articles/论小儿/interpretation.md",
+          "anchor": "七岁前赢疾，七岁后徒肥"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EEE5",
+      "glyph": "",
+      "count": 1,
+      "replacement": "隐",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "处者也藏伏之义也"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论四时节气/text.txt",
+          "anchor": "处者，隐也，藏伏之义也"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/013卷 二·论四时节气.md",
+          "anchor": "处者，隐也，藏伏之义也"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-2-7.txt",
+          "anchor": "处者，隐也，藏伏之义也"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EF6B",
+      "glyph": "",
+      "count": 1,
+      "replacement": "疡",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "金火相尅生旺则疮瘫瘇死絶则痨瘵呕血"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷七/论疾病先知五脏六腑所/text.txt",
+          "anchor": "金火相克，生旺则疡疮瘫肿，死绝则痨瘵呕血"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/153卷 七·论疾病先知五脏六腑所属干支.md",
+          "anchor": "金火相克，生旺则疡疮瘫肿，死绝则痨瘵呕血"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-7-2.txt",
+          "anchor": "金火相克，生旺则疡疮瘫肿，死绝则痨瘵呕血"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA7D",
+      "glyph": "",
+      "count": 1,
+      "replacement": "凌",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "歳运欺必招横事"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷十二/金玉赋/text.txt",
+          "anchor": "岁运欺淩，必招横事"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/《渊海子平》/《渊海子平》赋论（三）/004《金玉赋》.md",
+          "anchor": "岁运欺陵，必招横事"
+        },
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/三命通会/articles/金玉赋/interpretation.md",
+          "anchor": "岁运欺凌，必招横事"
+        }
+      ],
+      "note": "Normalize witness variants 淩/陵 to modern 凌 while preserving the lexical reading."
+    },
+    {
+      "codepoint": "U+EAA7",
+      "glyph": "",
+      "count": 1,
+      "replacement": "段",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "丙子丁丑何以取象涧下水盖气未通济高非水流之所"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷一/论纳音取象/text.txt",
+          "anchor": "盖气未通济，高段非水流之所，卑湿乃水就之乡"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/005卷 一·论纳音取象.md",
+          "anchor": "盖气未通济，高段非水流之所，卑湿乃水就之乡"
+        },
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-01.md",
+          "anchor": "高[SKQS 2728: 段 -- 𠭊 or 叚 ?]非水流之所"
+        }
+      ],
+      "note": "Do not emend this to the intuitive modern phrase 高亢; independent Sanming witnesses read 段 and the Siku glyph annotation points to 段/its old-form family."
+    },
+    {
+      "codepoint": "U+EBC2",
+      "glyph": "",
+      "count": 1,
+      "replacement": "惨",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "入贵格则虐好杀好立功业"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷二/论三刑/text.txt",
+          "anchor": "入贵格则惨虐好杀，好立功业"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/031卷 二·论三刑.md",
+          "anchor": "入贵格则惨虐好杀，好立功业"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+ED94",
+      "glyph": "",
+      "count": 1,
+      "replacement": "算",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "平生不吉而夀椿松"
+      ],
+      "evidence": [
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/三命通会/articles/人鉴论/source.md",
+          "anchor": "平生不吉，而寿算椿松"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-12-9.txt",
+          "anchor": "平生不吉，而寿算椿松"
+        },
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-12.md",
+          "anchor": "平生不吉而夀𥮅椿松"
+        }
+      ],
+      "note": "The Siku witness preserves rare form 𥮅, while normalized independent transcriptions consistently read 算."
+    },
+    {
+      "codepoint": "U+EF17",
+      "glyph": "",
+      "count": 1,
+      "replacement": "鬓",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "重官重印緑孤眠"
+      ],
+      "evidence": [
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/神锋通考/007卷05.md",
+          "anchor": "重官重印，绿鬓孤眠"
+        },
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/神峰通考/articles/渭泾论/source.md",
+          "anchor": "重官重印，绿鬓孤眠"
+        },
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/yuanhai/c297.json",
+          "anchor": "重官重印，绿鬓孤眠"
+        }
+      ],
+      "note": "This is 鬓, not 窗; multiple parallel witnesses of the same verse agree on 绿鬓孤眠."
+    },
+    {
+      "codepoint": "U+EF33",
+      "glyph": "",
+      "count": 1,
+      "replacement": "类",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "癸亥见壬子等俱主大贵享福"
+      ],
+      "evidence": [
+        {
+          "repo": "NiuTrans/Classical-Modern",
+          "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+          "path": "古文原文/三命通会/卷六/日禄归时/text.txt",
+          "anchor": "癸亥见壬子等类，俱主大贵享福"
+        },
+        {
+          "repo": "youngzs/xuanxue",
+          "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+          "path": "docs/三命通会/090卷 六·日禄归时.md",
+          "anchor": "癸亥见壬子等类，俱主大贵享福"
+        },
+        {
+          "repo": "dooshu/dooshu.github.io",
+          "commit": "bd5876e14892386f1baae725c908c59056031aca",
+          "path": "cn/1302/-cn-1302-6-12.txt",
+          "anchor": "癸亥见壬子等类，俱主大贵享福"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EF3F",
+      "glyph": "",
+      "count": 1,
+      "replacement": "抟",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "陈曰日阳中之阳人君之象也"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_002.txt",
+          "anchor": "陳摶曰日陽中之陽人君之象也"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0003.md",
+          "anchor": "陳摶曰日陽中之陽人君之象也"
+        }
+      ],
+      "note": "Normalize traditional 摶 in the witnesses to simplified 抟, consistent with the quarantine transcription's surrounding simplified text."
+    },
+    {
+      "codepoint": "U+EF67",
+      "glyph": "",
+      "count": 1,
+      "replacement": "参",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "生尅巳定然后诸神煞则吉凶无不验矣"
+      ],
+      "evidence": [
+        {
+          "repo": "Banny-Gao/mingli-research",
+          "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+          "path": "books/渊海子平/articles/珞琭子消息赋/source.md",
+          "anchor": "生克已定，然後参诸神煞，则吉凶无不验矣"
+        },
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/yuanhai/c279.json",
+          "anchor": "生克已定，然後参诸神煞，则吉凶无不验矣"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+E5E0",
+      "glyph": "",
+      "count": 2,
+      "replacement": "𦕈",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "虽防之金亦不能制",
+        "火强燥而防水既济以寛和"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_002.txt",
+          "anchor": "若失時䘮局卽韜光晦跡而烟無存雖㣲𦕈之金亦不能制"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0003.md",
+          "anchor": "若失時䘮局卽韜光晦跡而烟無存雖㣲𦕈之金亦不能制"
+        },
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-12.md",
+          "anchor": "火強燥而㣲𦕈水既濟以寛和"
+        }
+      ],
+      "note": "Preserve historical Unicode 𦕈. The neighboring normal glyph 防 in the quarantine text is itself an OCR corruption of 㣲, but this mapping repairs only the audited PUA codepoint."
+    },
+    {
+      "codepoint": "U+EA9F",
+      "glyph": "",
+      "count": 2,
+      "replacement": "𭅺",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "丁未廕丁卯",
+        "丁卯张汉侍癸丑"
+      ],
+      "evidence": [
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/sanming/c008.json",
+          "anchor": "丁未廕𭅺；丁卯張漢侍𭅺"
+        },
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-08.md",
+          "anchor": "丁未廕𭅺；丁卯張漢侍𭅺"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0009.md",
+          "anchor": "丁未廕郎"
+        }
+      ],
+      "note": "Preserve the attested historical Unicode form 𭅺, a form of 郎, because both Sanming witnesses use it in 廕𭅺 and 侍𭅺."
+    },
+    {
+      "codepoint": "U+E87D",
+      "glyph": "",
+      "count": 1,
+      "replacement": "曄",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "乙酉姚状元"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_008.txt",
+          "anchor": "乙酉姚曄狀元"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0009.md",
+          "anchor": "乙酉姚曄狀元"
+        }
+      ],
+      "note": "Preserve traditional 曄 as directly attested in the Siku-derived witnesses."
+    },
+    {
+      "codepoint": "U+E9FC",
+      "glyph": "",
+      "count": 1,
+      "replacement": "𡎊",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "癸巳史少卿死于狱"
+      ],
+      "evidence": [
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-09.md",
+          "anchor": "癸巳史𡎊少卿死於獄"
+        },
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/sanming/c009.json",
+          "anchor": "癸巳史𡎊少卿死於獄"
+        }
+      ],
+      "note": "Preserve the rare historical Unicode personal-name glyph 𡎊."
+    },
+    {
+      "codepoint": "U+EA3F",
+      "glyph": "",
+      "count": 1,
+      "replacement": "充",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "女二十肌肤盛任为人母"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_002.txt",
+          "anchor": "女二十肌膚充盛任為人母"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0003.md",
+          "anchor": "女二十肌膚充盛任為人母"
+        },
+        {
+          "repo": "lhw828/GuWen",
+          "commit": "fcab4e24f97e2c53a23153d0be1f36d7c091a7fe",
+          "path": "儒藏/礼经/五礼通考_page231.html",
+          "anchor": "女二十肌肤充盛任为人母"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EA53",
+      "glyph": "",
+      "count": 1,
+      "replacement": "含",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "至于中秋金水相停防合光圆融皎洁"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_002.txt",
+          "anchor": "至於中秋金水相停㑹合含光圓融皎潔"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0003.md",
+          "anchor": "至於中秋金水相停㑹合含光圓融皎潔"
+        }
+      ],
+      "note": "The following quarantine character 防 is a separate OCR corruption of 會; this mapping repairs only the audited PUA glyph."
+    },
+    {
+      "codepoint": "U+EBDB",
+      "glyph": "",
+      "count": 1,
+      "replacement": "𢫎",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "若生季夏季冬空才德难以成名"
+      ],
+      "evidence": [
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-06.md",
+          "anchor": "若生季夏季冬空𢫎才德難以成名"
+        },
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/sanming/c006.json",
+          "anchor": "若生季夏季冬空𢫎才德難以成名"
+        }
+      ],
+      "note": "Preserve rare historical Unicode 𢫎 as attested by two independent Sanming transcriptions."
+    },
+    {
+      "codepoint": "U+ECA6",
+      "glyph": "",
+      "count": 1,
+      "replacement": "激",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "生旺多无归宿死絶多无五行不可太相安"
+      ],
+      "evidence": [
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_010.txt",
+          "anchor": "生旺多無歸宿死絶多無激揚五行不可太相安"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0011.md",
+          "anchor": "生旺多無歸宿死絶多無激揚五行不可太相安"
+        }
+      ]
+    },
+    {
+      "codepoint": "U+EE9C",
+      "glyph": "",
+      "count": 1,
+      "replacement": "逄",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "论偏官【喜身旺 印绶 合煞 食制羊刃 比肩 煞防印及刃】"
+      ],
+      "evidence": [
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-05.md",
+          "anchor": "比肩　[SKQS 3741: 逄]煞㸔印及刃"
+        },
+        {
+          "repo": "kanripo/KR3g0042",
+          "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+          "path": "KR3g0042_005.txt",
+          "anchor": "合煞㸔食制刃/&KR1134;煞  印及"
+        }
+      ],
+      "note": "Preserve historical form 逄 from the Siku glyph annotation. The following 防 in the quarantine text corresponds to 㸔/看 and is a separate OCR issue."
+    },
+    {
+      "codepoint": "U+E37B",
+      "glyph": "",
+      "count": 1,
+      "replacement": "𤥣",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "丁巳周都宪"
+      ],
+      "evidence": [
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-08.md",
+          "anchor": "丁巳周𤥣都憲"
+        },
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/books/sanming/c008.json",
+          "anchor": "丁巳周𤥣都憲"
+        }
+      ],
+      "note": "Preserve the attested rare personal-name glyph 𤥣."
+    },
+    {
+      "codepoint": "U+E7E9",
+      "glyph": "",
+      "count": 1,
+      "replacement": "崙",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "甲午万尚书"
+      ],
+      "evidence": [
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/sources/sanming/c009.wiki",
+          "anchor": "甲午萬{{SKchar|2026}}尚書"
+        },
+        {
+          "source": "Wikisource",
+          "work": "欽定古今圖書集成·藝術典·第617卷",
+          "anchor": "萬崙尚書。甲午、乙巳",
+          "url": "https://zh.wikisource.org/wiki/欽定古今圖書集成/博物彙編/藝術典/第617卷"
+        },
+        {
+          "source": "周易天地",
+          "work": "三命通会·卷九·六庚日己卯时断",
+          "anchor": "万崙尚书甲午乙巳",
+          "url": "https://64gua.com/index.php?c=son&id=486&s=book"
+        }
+      ],
+      "note": "Independent transcriptions identify the example as 萬崙尚書; preserve traditional 崙 in the collation layer."
+    },
+    {
+      "codepoint": "U+EBC1",
+      "glyph": "",
+      "count": 2,
+      "replacement": "𢡟",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "辛未毕康侍郎",
+        "丙子黄官侍郎死于乱军"
+      ],
+      "evidence": [
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-08.md",
+          "anchor": "辛未畢𢡟康侍郎"
+        },
+        {
+          "repo": "F25731/yin-yang",
+          "commit": "ee1c2b660837539a69a993ddcbc87b42087be35b",
+          "path": "corpus/04-阴阳术数/02-八字四柱/三命通會/chapters/0009.md",
+          "anchor": "辛未畢𢡟康侍郎"
+        },
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-09.md",
+          "anchor": "丙子黄𢡟官侍郎死於亂軍"
+        }
+      ],
+      "note": "Both personal names use the same attested rare glyph 𢡟; do not flatten it to 懋 in the collation layer."
+    },
+    {
+      "codepoint": "U+ECC7",
+      "glyph": "",
+      "count": 1,
+      "replacement": "𤇍",
+      "status": "confirmed",
+      "confidence": "high",
+      "source_anchors": [
+        "壬午胡祭酒"
+      ],
+      "evidence": [
+        {
+          "repo": "mikkokotila/Sanming-Tongshui",
+          "commit": "eb3cacbf4b41a4fe8fc3c0e77e0d12b5bd17c079",
+          "path": "source/juan-09.md",
+          "anchor": "壬午胡𤇍祭酒"
+        },
+        {
+          "repo": "ShousenZHANG/chinese-fortune",
+          "commit": "e2e152c5030a0ac3f0b899cb85188b0d5df22d24",
+          "path": "knowledge/sources/sanming/c009.wiki",
+          "anchor": "壬午胡{{SKchar|3272}}祭酒"
+        },
+        {
+          "source": "Wikisource",
+          "work": "三命通會·卷九",
+          "anchor": "壬午胡𤇍祭酒",
+          "url": "https://zh.wikisource.org/zh-hans/三命通會/卷九"
+        }
+      ],
+      "note": "The Siku/Wikisource glyph is 𤇍; normalized historical references identify the person as 胡杰. Preserve the attested rare glyph here."
+    }
+  ],
+  "contextual_mappings": [
+    {
+      "codepoint": "U+E7E8",
+      "glyph": "",
+      "count": 5,
+      "status": "confirmed",
+      "confidence": "high",
+      "rationale": "The same source PUA is reused for multiple distinct glyphs, so codepoint-wide replacement would corrupt the text.",
+      "replacements": [
+        {
+          "old": "韩命书",
+          "new": "韩𭹱命书",
+          "count": 1,
+          "evidence": [
+            {
+              "source": "Chinese Text Project",
+              "anchor": "韓𭹱命書有孤孀祿馬之說",
+              "url": "https://ctext.org/dictionary.pl?char=𭹱&if=gb"
+            },
+            {
+              "source": "识典古籍·三车一览",
+              "anchor": "韓𭹱命書云：祿馬同鄉者，有孤孀祿馬之説",
+              "url": "https://www.shidianguji.com/zh/book/SDZJ0478/chapter/1lcpfzx7trccf"
+            },
+            {
+              "repo": "kanripo/KR3g0042",
+              "commit": "efe780a4f6fd835f4e2d769ffc8f79b7099db3b1",
+              "path": "KR3g0042_003.txt",
+              "anchor": "韓&KR0008;命書有孤孀祿馬之說"
+            }
+          ],
+          "note": "𭹱 is U+2DE71, composition 王+造, directly attested in independent classical transcriptions."
+        },
+        {
+          "old": "又恐天年多",
+          "new": "又恐天年多摩罗",
+          "count": 2,
+          "evidence": [
+            {
+              "repo": "youngzs/xuanxue",
+              "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+              "path": "docs/五行精纪/005五行精纪：第四卷 论干神二.md",
+              "anchor": "又恐天年多(土摩)(土罗)"
+            },
+            {
+              "repo": "Banny-Gao/mingli-research",
+              "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+              "path": "books/五行精纪/articles/干神二/source.md",
+              "anchor": "又恐天年多(土摩)(土罗)"
+            },
+            {
+              "source": "周易天地·五行精纪",
+              "anchor": "又恐天年多摩罗",
+              "url": "https://www.64gua.com/index.php?c=son&id=99&s=book"
+            }
+          ],
+          "note": "The facsimile forms are unencoded/IDS-style 土+摩 and 土+羅. The normalized reading 摩罗 is independently transmitted and avoids inventing a Unicode character."
+        },
+        {
+          "old": "为人巧虚诈",
+          "new": "为人惯巧虚诈",
+          "count": 1,
+          "evidence": [
+            {
+              "repo": "NiuTrans/Classical-Modern",
+              "commit": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+              "path": "古文原文/三命通会/卷八/六丙日辛卯时断/text.txt",
+              "anchor": "为人惯巧虚诈"
+            },
+            {
+              "repo": "youngzs/xuanxue",
+              "commit": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+              "path": "docs/三命通会/195卷 八·六丙日辛卯时断.md",
+              "anchor": "为人惯巧虚诈"
+            },
+            {
+              "repo": "Banny-Gao/mingli-research",
+              "commit": "5a75273ea615ba2938f608871c0361f749c4f0f9",
+              "path": "books/三命通会/articles/六丙日辛卯时断/source.md",
+              "anchor": "为人惯巧虚诈"
+            }
+          ]
+        },
+        {
+          "old": "临老蛉者裔苦根甘",
+          "new": "临老蛉仃者裔苦根甘",
+          "count": 1,
+          "evidence": [
+            {
+              "source": "Wikisource·古今图书集成",
+              "anchor": "幼年建旺，而臨老伶仃者，裔苦根甘之謂也",
+              "url": "https://zh.wikisource.org/wiki/Page:Gujin_Tushu_Jicheng,_Volume_472_(1700-1725).djvu/62"
+            },
+            {
+              "source": "渊海子平·珞琭子消息赋",
+              "anchor": "幼年建旺面临老伶仃者，裔苦根甘之谓也",
+              "url": "https://sajumania.com/ebook/to01-06/to01-06-05-63.htm"
+            }
+          ],
+          "note": "This contextual replacement resolves only the PUA as 仃. The neighboring source OCR 蛉→伶 is a separate non-PUA cleanup item."
+        }
+      ]
+    }
+  ]
+}

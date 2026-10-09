@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "id": "bazi.dayun.fixed-source-collation-v1",
+  "domain": "bazi",
+  "topic": "dayun",
+  "record_kind": "source_fragment_alignment_not_executable_rule",
+  "review_status": "snapshot_collated_not_classical_method_adjudicated",
+  "baseline": {
+    "repository": "garychowcmu/daizhigev20",
+    "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+    "original_path": "易藏/术数/渊海子平.txt",
+    "license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY",
+    "raw_path": "data/quarantine/public_domain_snapshots/daizhigev20/yuanhai_ziping.txt",
+    "raw_sha256": "c8f45d3228fb1958012139139a83edd019e7c2db881998d2d0bba65107417cf9",
+    "canonical_path": "data/canonical/classics/bazi/yuanhai_ziping_v1.json",
+    "canonical_sha256": "b64d8cde6a0a166332381d31b9885ad7421177b3ef071ecc65900d922524a13a",
+    "canonical_corpus": "渊海子平"
+  },
+  "claims": [
+    {
+      "claim_id": "bazi.dayun.source.month-pillar-origin",
+      "title": "从月柱起候选运柱",
+      "canonical_section_id": 10,
+      "canonical_section_title": "论大运",
+      "exact_excerpt": "今运就月上起",
+      "raw_char_offset": 2540,
+      "scope": "只证明月令/月柱是起点；不独立证明自动方向、首运年龄或隔年生克。"
+    },
+    {
+      "claim_id": "bazi.dayun.source.nominal-ten-year",
+      "title": "一辰十载名义周期",
+      "canonical_section_id": 188,
+      "canonical_section_title": "珞琭子消息赋",
+      "exact_excerpt": "运行则一辰十载。",
+      "raw_char_offset": 55853,
+      "scope": "仅证明十载传统说法，不能证明每步都按365.2425天计时。"
+    },
+    {
+      "claim_id": "bazi.dayun.source.three-day-year",
+      "title": "三日为年折除方法线索",
+      "canonical_section_id": 188,
+      "canonical_section_title": "珞琭子消息赋",
+      "exact_excerpt": "折除乃三日为年",
+      "raw_char_offset": 55863,
+      "scope": "证明折除与三日一年的文本存在；不规定余时舍入、前后节的选取或现代交运时间算法。"
+    },
+    {
+      "claim_id": "bazi.dayun.source.no-universal-fortune",
+      "title": "古籍主动提醒不可机械套用",
+      "canonical_section_id": 10,
+      "canonical_section_title": "论大运",
+      "exact_excerpt": "此乃死法譬喻,须随格局喜忌推之,不可执一",
+      "raw_char_offset": 2827,
+      "scope": "限制吉凶断言，不构成任何现代命运事实的预测依据。"
+    }
+  ],
+  "inherited_source_distinction": "《珞琭子消息赋》在当前《渊海子平》清洗底本中以标题段出现；此记录只承诺底本可复核，不独立证明《珞琭子》更早版本、成书年代或其他异文。",
+  "current_capabilities_checked": [
+    "bazi-dayun-month-sequence-research-v1",
+    "bazi-dayun-adjacent-jie-research-v1",
+    "bazi-dayun-three-days-mean-year-research-v1"
+  ],
+  "adjudication_gaps": [
+    "传统顺逆需校勘具体年干阴阳、性别术语与流派分歧；本四短引不直接审核方向推断",
+    "三日一年未指定余时/余日换算精度；并非 Gregorian 365.2425 日模型的古籍原文",
+    "起运节界算法只是固定 lunar-python 版本的研究事实，天文与历史时区精度未做独立校核",
+    "真实交运日期、虚实岁、过界零距离规则、后续每十年实历边界尚未晋级",
+    "岁运及原局格局喜忌判定条件不闭环，不能自动作吉凶判断",
+    "知识原文不能通过公开 API 或公网文档接口大量展示，私有资产仍需仓库隔离"
+  ],
+  "changes_to_release": {
+    "phase1_rule_promotions": 0,
+    "phase2_rule_promotions": 0,
+    "new_golden_promotions": 0,
+    "public_enabled": false,
+    "ai_enabled": false,
+    "source_quotations_exposed_by_api": false
+  },
+  "audit_method": "固定 GitHub 来源 SHA256 + Unicode 字符位置 + section_id/title + 原文逐字唯一命中 + 消歧范围 + 自动回归；不修改隔离原书或已审核规则"
+}

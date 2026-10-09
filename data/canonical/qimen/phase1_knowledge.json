@@ -1,0 +1,2029 @@
+{
+  "schema_version": "1.0",
+  "model": "phase1-knowledge",
+  "domain": "qimen",
+  "classics": [
+    {
+      "id": "qimen.classic.tongzong",
+      "domain": "qimen",
+      "name": "奇门遁甲统宗",
+      "source_id": "qimen.source.tongzong",
+      "body_stage": "quarantine"
+    },
+    {
+      "id": "qimen.classic.baojian",
+      "domain": "qimen",
+      "name": "奇门宝鉴御定",
+      "source_id": "qimen.source.baojian",
+      "body_stage": "quarantine"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "qimen.chapter.baojian.8cff2b9d",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）",
+      "classic_id": "qimen.classic.baojian",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "qimen.chapter.tongzong.8cff2b9d",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）",
+      "classic_id": "qimen.classic.tongzong",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "qimen.chapter.tongzong.4bbde1d3",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色",
+      "classic_id": "qimen.classic.tongzong",
+      "locator": "九星类神·五行颜色"
+    },
+    {
+      "id": "qimen.chapter.baojian.158af429",
+      "domain": "qimen",
+      "name": "释义四十四则·释门",
+      "classic_id": "qimen.classic.baojian",
+      "locator": "释义四十四则·释门"
+    },
+    {
+      "id": "qimen.chapter.baojian.c187e5a4",
+      "domain": "qimen",
+      "name": "释义四十四则·释八神",
+      "classic_id": "qimen.classic.baojian",
+      "locator": "释义四十四则·释八神"
+    },
+    {
+      "id": "qimen.chapter.tongzong.907f3f12",
+      "domain": "qimen",
+      "name": "卷一·论超接之法",
+      "classic_id": "qimen.classic.tongzong",
+      "locator": "卷一·论超接之法"
+    }
+  ],
+  "sections": [
+    {
+      "id": "qimen.section.s001",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段1",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.8cff2b9d",
+      "source_id": "qimen.source.baojian",
+      "text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+      "locator": "基础选段（编者定位）; decoded-character interval [468,498)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s002",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段2",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.8cff2b9d",
+      "source_id": "qimen.source.tongzong",
+      "text": "八门为值使，后定方位为奇。",
+      "locator": "基础选段（编者定位）; decoded-character interval [4940,4953)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s003",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段3",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.8cff2b9d",
+      "source_id": "qimen.source.tongzong",
+      "text": "九星常为值符用，十时一易，每用加时干是",
+      "locator": "基础选段（编者定位）; decoded-character interval [4920,4939)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s004",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段4",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.8cff2b9d",
+      "source_id": "qimen.source.baojian",
+      "text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+      "locator": "基础选段（编者定位）; decoded-character interval [3302,3331)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s005",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段5",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.8cff2b9d",
+      "source_id": "qimen.source.baojian",
+      "text": "乙为日奇、丙为月奇、丁为星奇，故名三奇。",
+      "locator": "基础选段（编者定位）; decoded-character interval [2406,2426)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s006",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段6",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.8cff2b9d",
+      "source_id": "qimen.source.baojian",
+      "text": "戊己庚辛壬癸，皆有六甲遁乎其中",
+      "locator": "基础选段（编者定位）; decoded-character interval [2437,2452)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s007",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段7",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.8cff2b9d",
+      "source_id": "qimen.source.baojian",
+      "text": "本局地盘不动，以天盘甲子戊加乙于九宫。",
+      "locator": "基础选段（编者定位）; decoded-character interval [8552,8571)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s008",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段8",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.8cff2b9d",
+      "source_id": "qimen.source.baojian",
+      "text": "门作人盘贵独飞。",
+      "locator": "基础选段（编者定位）; decoded-character interval [33010,33018)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s009",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段9",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.8cff2b9d",
+      "source_id": "qimen.source.tongzong",
+      "text": "地盘旬首所临之宫，其星即为值符，其门即为值使。",
+      "locator": "基础选段（编者定位）; decoded-character interval [10496,10519)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s010",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段10",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.8cff2b9d",
+      "source_id": "qimen.source.tongzong",
+      "text": "自冬至阳生起坎一宫",
+      "locator": "基础选段（编者定位）; decoded-character interval [4758,4767)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s011",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段11",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.8cff2b9d",
+      "source_id": "qimen.source.tongzong",
+      "text": "自夏至气降起离九宫",
+      "locator": "基础选段（编者定位）; decoded-character interval [4851,4860)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s012",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段12",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.8cff2b9d",
+      "source_id": "qimen.source.tongzong",
+      "text": "一元五日，以甲己二干为一元之首，谓之符头。",
+      "locator": "基础选段（编者定位）; decoded-character interval [10331,10352)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s013",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段13",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.8cff2b9d",
+      "source_id": "qimen.source.baojian",
+      "text": "一节三元、二十四气备矣。",
+      "locator": "基础选段（编者定位）; decoded-character interval [1286,1298)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s014",
+      "domain": "qimen",
+      "name": "基础选段（编者定位）·选段14",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.8cff2b9d",
+      "source_id": "qimen.source.tongzong",
+      "text": "符头所临之支值子午卯酉则为上元；值寅申巳亥则为中元；值辰戌丑未则为下元。",
+      "locator": "基础选段（编者定位）; decoded-character interval [10352,10388)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s015",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段15",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天蓬水星其色为白",
+      "locator": "九星类神·五行颜色; decoded-character interval [41826,41838)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s016",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段16",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天芮土星其色为黑",
+      "locator": "九星类神·五行颜色; decoded-character interval [41835,41847)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s017",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段17",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天冲木星其色为碧",
+      "locator": "九星类神·五行颜色; decoded-character interval [41844,41856)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s018",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段18",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天辅木星其色为绿",
+      "locator": "九星类神·五行颜色; decoded-character interval [41853,41865)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s019",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段19",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天禽土星其色为黄",
+      "locator": "九星类神·五行颜色; decoded-character interval [41862,41874)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s020",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段20",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天心金星其色为白",
+      "locator": "九星类神·五行颜色; decoded-character interval [41871,41883)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s021",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段21",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天柱金星其色为赤",
+      "locator": "九星类神·五行颜色; decoded-character interval [41880,41892)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s022",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段22",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天任土星其色为白",
+      "locator": "九星类神·五行颜色; decoded-character interval [41889,41901)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s023",
+      "domain": "qimen",
+      "name": "九星类神·五行颜色·选段23",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.4bbde1d3",
+      "source_id": "qimen.source.tongzong",
+      "text": "天英火星其色为紫。",
+      "locator": "九星类神·五行颜色; decoded-character interval [41898,41907)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s024",
+      "domain": "qimen",
+      "name": "释义四十四则·释门·选段24",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.158af429",
+      "source_id": "qimen.source.baojian",
+      "text": "坎，以就水之生，故正北为休门。休于北而对于南，有向明而治之象，景者大也，故正南为景门。水能滋木、金能生水，生则金气泄，泄",
+      "locator": "释义四十四则·释门; source character interval [2601,2661)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s025",
+      "domain": "qimen",
+      "name": "释义四十四则·释门·选段25",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.158af429",
+      "source_id": "qimen.source.baojian",
+      "text": "气畅，故水木之间、东北为生门。有生必有死，故对生为死门。死者言落其实而取材也。庚欲犯甲，甲既休于北，而对之者惟有卯木，不",
+      "locator": "释义四十四则·释门; source character interval [2708,2768)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s026",
+      "domain": "qimen",
+      "name": "释义四十四则·释门·选段26",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.158af429",
+      "source_id": "qimen.source.baojian",
+      "text": "惊，故正西为惊门，正东为伤门。",
+      "locator": "释义四十四则·释门; source character interval [2779,2839)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s027",
+      "domain": "qimen",
+      "name": "释义四十四则·释门·选段27",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.158af429",
+      "source_id": "qimen.source.baojian",
+      "text": "门。有开必有阖，故对开为杜门。杜者言阳气欲尽也，木既休于水、则木气畅，故水木之间、东北为生门。有生必有死，故对生为死门。",
+      "locator": "释义四十四则·释门; source character interval [2676,2736)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s028",
+      "domain": "qimen",
+      "name": "释义四十四则·释门·选段28",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.158af429",
+      "source_id": "qimen.source.baojian",
+      "text": "之象，景者大也，故正南为景门。水能滋木、金能生水，生则金气泄，泄则木气舒，故金水之间，西北为开门。有开必有阖，故对开为杜",
+      "locator": "释义四十四则·释门; source character interval [2629,2689)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s029",
+      "domain": "qimen",
+      "name": "释义四十四则·释门·选段29",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.158af429",
+      "source_id": "qimen.source.baojian",
+      "text": "门。有生必有死，故对生为死门。死者言落其实而取材也。庚欲犯甲，甲既休于北，而对之者惟有卯木，不无受伤之患。此伤而彼亦惊，",
+      "locator": "释义四十四则·释门; source character interval [2721,2781)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s030",
+      "domain": "qimen",
+      "name": "释义四十四则·释门·选段30",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.158af429",
+      "source_id": "qimen.source.baojian",
+      "text": "。此伤而彼亦惊，故正西为惊门，正东为伤门。",
+      "locator": "释义四十四则·释门; source character interval [2773,2833)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s031",
+      "domain": "qimen",
+      "name": "释义四十四则·释门·选段31",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.158af429",
+      "source_id": "qimen.source.baojian",
+      "text": "气舒，故金水之间，西北为开门。有开必有阖，故对开为杜门。杜者言阳气欲尽也，木既休于水、则木气畅，故水木之间、东北为生门。",
+      "locator": "释义四十四则·释门; source character interval [2663,2723)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s032",
+      "domain": "qimen",
+      "name": "释义四十四则·释八神·选段32",
+      "classic_id": "qimen.classic.baojian",
+      "chapter_id": "qimen.chapter.baojian.c187e5a4",
+      "source_id": "qimen.source.baojian",
+      "text": "或有用元武、勾陈者。朱雀之下即可兼看玄武，勾陈之下即可兼看白虎。",
+      "locator": "释义四十四则·释八神; decoded-character interval [3430,3462)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "qimen.section.s033",
+      "domain": "qimen",
+      "name": "卷一·论超接之法·选段33",
+      "classic_id": "qimen.classic.tongzong",
+      "chapter_id": "qimen.chapter.tongzong.907f3f12",
+      "source_id": "qimen.source.tongzong",
+      "text": "五日一元，遇甲己日为气交，而非甲己则以超接之，即拆局补局之法。",
+      "locator": "卷一·论超接之法; decoded-character interval [4986,5017)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "qimen.term.t001",
+      "domain": "qimen",
+      "name": "九宫",
+      "aliases": [],
+      "definition": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t002",
+      "domain": "qimen",
+      "name": "八门",
+      "aliases": [],
+      "definition": "八门为值使，后定方位为奇。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s002",
+          "original_text": "八门为值使，后定方位为奇。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t003",
+      "domain": "qimen",
+      "name": "九星",
+      "aliases": [],
+      "definition": "九星常为值符用，十时一易，每用加时干是",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s003",
+          "original_text": "九星常为值符用，十时一易，每用加时干是",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t004",
+      "domain": "qimen",
+      "name": "八神",
+      "aliases": [],
+      "definition": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t005",
+      "domain": "qimen",
+      "name": "三奇",
+      "aliases": [],
+      "definition": "乙为日奇、丙为月奇、丁为星奇，故名三奇。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s005",
+          "original_text": "乙为日奇、丙为月奇、丁为星奇，故名三奇。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t006",
+      "domain": "qimen",
+      "name": "六仪",
+      "aliases": [],
+      "definition": "戊己庚辛壬癸，皆有六甲遁乎其中",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s006",
+          "original_text": "戊己庚辛壬癸，皆有六甲遁乎其中",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t007",
+      "domain": "qimen",
+      "name": "天盘",
+      "aliases": [],
+      "definition": "本局地盘不动，以天盘甲子戊加乙于九宫。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s007",
+          "original_text": "本局地盘不动，以天盘甲子戊加乙于九宫。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t008",
+      "domain": "qimen",
+      "name": "地盘",
+      "aliases": [],
+      "definition": "本局地盘不动，以天盘甲子戊加乙于九宫。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s007",
+          "original_text": "本局地盘不动，以天盘甲子戊加乙于九宫。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t009",
+      "domain": "qimen",
+      "name": "人盘",
+      "aliases": [],
+      "definition": "门作人盘贵独飞。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s008",
+          "original_text": "门作人盘贵独飞。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t010",
+      "domain": "qimen",
+      "name": "神盘",
+      "aliases": [],
+      "definition": "本库表示八神配置的盘层字段；原典称“八神”。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary"
+      }
+    },
+    {
+      "id": "qimen.term.t011",
+      "domain": "qimen",
+      "name": "值符",
+      "aliases": [
+        "直符",
+        "天乙"
+      ],
+      "definition": "地盘旬首所临之宫，其星即为值符，其门即为值使。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s009",
+          "original_text": "地盘旬首所临之宫，其星即为值符，其门即为值使。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t012",
+      "domain": "qimen",
+      "name": "值使",
+      "aliases": [
+        "直使"
+      ],
+      "definition": "地盘旬首所临之宫，其星即为值符，其门即为值使。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s009",
+          "original_text": "地盘旬首所临之宫，其星即为值符，其门即为值使。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t013",
+      "domain": "qimen",
+      "name": "阳遁",
+      "aliases": [],
+      "definition": "自冬至阳生起坎一宫",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s010",
+          "original_text": "自冬至阳生起坎一宫",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t014",
+      "domain": "qimen",
+      "name": "阴遁",
+      "aliases": [],
+      "definition": "自夏至气降起离九宫",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s011",
+          "original_text": "自夏至气降起离九宫",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t015",
+      "domain": "qimen",
+      "name": "局数",
+      "aliases": [],
+      "definition": "一元五日，以甲己二干为一元之首，谓之符头。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s012",
+          "original_text": "一元五日，以甲己二干为一元之首，谓之符头。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t016",
+      "domain": "qimen",
+      "name": "节气",
+      "aliases": [],
+      "definition": "一节三元、二十四气备矣。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s013",
+          "original_text": "一节三元、二十四气备矣。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t017",
+      "domain": "qimen",
+      "name": "上元",
+      "aliases": [],
+      "definition": "符头所临之支值子午卯酉则为上元；值寅申巳亥则为中元；值辰戌丑未则为下元。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s014",
+          "original_text": "符头所临之支值子午卯酉则为上元；值寅申巳亥则为中元；值辰戌丑未则为下元。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t018",
+      "domain": "qimen",
+      "name": "中元",
+      "aliases": [],
+      "definition": "符头所临之支值子午卯酉则为上元；值寅申巳亥则为中元；值辰戌丑未则为下元。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s014",
+          "original_text": "符头所临之支值子午卯酉则为上元；值寅申巳亥则为中元；值辰戌丑未则为下元。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t019",
+      "domain": "qimen",
+      "name": "下元",
+      "aliases": [],
+      "definition": "符头所临之支值子午卯酉则为上元；值寅申巳亥则为中元；值辰戌丑未则为下元。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s014",
+          "original_text": "符头所临之支值子午卯酉则为上元；值寅申巳亥则为中元；值辰戌丑未则为下元。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t020",
+      "domain": "qimen",
+      "name": "符头",
+      "aliases": [],
+      "definition": "一元五日，以甲己二干为一元之首，谓之符头。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s012",
+          "original_text": "一元五日，以甲己二干为一元之首，谓之符头。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "qimen.term.t021",
+      "domain": "qimen",
+      "name": "天蓬",
+      "aliases": [],
+      "definition": "天蓬水星其色为白",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s015",
+          "original_text": "天蓬水星其色为白",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "水"
+      }
+    },
+    {
+      "id": "qimen.term.t022",
+      "domain": "qimen",
+      "name": "天芮",
+      "aliases": [],
+      "definition": "天芮土星其色为黑",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s016",
+          "original_text": "天芮土星其色为黑",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "土"
+      }
+    },
+    {
+      "id": "qimen.term.t023",
+      "domain": "qimen",
+      "name": "天冲",
+      "aliases": [],
+      "definition": "天冲木星其色为碧",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s017",
+          "original_text": "天冲木星其色为碧",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "木"
+      }
+    },
+    {
+      "id": "qimen.term.t024",
+      "domain": "qimen",
+      "name": "天辅",
+      "aliases": [],
+      "definition": "天辅木星其色为绿",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s018",
+          "original_text": "天辅木星其色为绿",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "木"
+      }
+    },
+    {
+      "id": "qimen.term.t025",
+      "domain": "qimen",
+      "name": "天禽",
+      "aliases": [],
+      "definition": "天禽土星其色为黄",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s019",
+          "original_text": "天禽土星其色为黄",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "土"
+      }
+    },
+    {
+      "id": "qimen.term.t026",
+      "domain": "qimen",
+      "name": "天心",
+      "aliases": [],
+      "definition": "天心金星其色为白",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s020",
+          "original_text": "天心金星其色为白",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "金"
+      }
+    },
+    {
+      "id": "qimen.term.t027",
+      "domain": "qimen",
+      "name": "天柱",
+      "aliases": [],
+      "definition": "天柱金星其色为赤",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s021",
+          "original_text": "天柱金星其色为赤",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "金"
+      }
+    },
+    {
+      "id": "qimen.term.t028",
+      "domain": "qimen",
+      "name": "天任",
+      "aliases": [],
+      "definition": "天任土星其色为白",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s022",
+          "original_text": "天任土星其色为白",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "土"
+      }
+    },
+    {
+      "id": "qimen.term.t029",
+      "domain": "qimen",
+      "name": "天英",
+      "aliases": [],
+      "definition": "天英火星其色为紫。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s023",
+          "original_text": "天英火星其色为紫。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "九星",
+        "element": "火"
+      }
+    },
+    {
+      "id": "qimen.term.t030",
+      "domain": "qimen",
+      "name": "休门",
+      "aliases": [],
+      "definition": "坎，以就水之生，故正北为休门。休于北而对于南，有向明而治之象，景者大也，故正南为景门。水能滋木、金能生水，生则金气泄，泄",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s024",
+          "original_text": "坎，以就水之生，故正北为休门。休于北而对于南，有向明而治之象，景者大也，故正南为景门。水能滋木、金能生水，生则金气泄，泄",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八门",
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/eight_doors/休门"
+      }
+    },
+    {
+      "id": "qimen.term.t031",
+      "domain": "qimen",
+      "name": "生门",
+      "aliases": [],
+      "definition": "气畅，故水木之间、东北为生门。有生必有死，故对生为死门。死者言落其实而取材也。庚欲犯甲，甲既休于北，而对之者惟有卯木，不",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s025",
+          "original_text": "气畅，故水木之间、东北为生门。有生必有死，故对生为死门。死者言落其实而取材也。庚欲犯甲，甲既休于北，而对之者惟有卯木，不",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八门",
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/eight_doors/生门"
+      }
+    },
+    {
+      "id": "qimen.term.t032",
+      "domain": "qimen",
+      "name": "伤门",
+      "aliases": [],
+      "definition": "惊，故正西为惊门，正东为伤门。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s026",
+          "original_text": "惊，故正西为惊门，正东为伤门。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八门",
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/eight_doors/伤门"
+      }
+    },
+    {
+      "id": "qimen.term.t033",
+      "domain": "qimen",
+      "name": "杜门",
+      "aliases": [],
+      "definition": "门。有开必有阖，故对开为杜门。杜者言阳气欲尽也，木既休于水、则木气畅，故水木之间、东北为生门。有生必有死，故对生为死门。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s027",
+          "original_text": "门。有开必有阖，故对开为杜门。杜者言阳气欲尽也，木既休于水、则木气畅，故水木之间、东北为生门。有生必有死，故对生为死门。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八门",
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/eight_doors/杜门"
+      }
+    },
+    {
+      "id": "qimen.term.t034",
+      "domain": "qimen",
+      "name": "景门",
+      "aliases": [],
+      "definition": "之象，景者大也，故正南为景门。水能滋木、金能生水，生则金气泄，泄则木气舒，故金水之间，西北为开门。有开必有阖，故对开为杜",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s028",
+          "original_text": "之象，景者大也，故正南为景门。水能滋木、金能生水，生则金气泄，泄则木气舒，故金水之间，西北为开门。有开必有阖，故对开为杜",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八门",
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/eight_doors/景门"
+      }
+    },
+    {
+      "id": "qimen.term.t035",
+      "domain": "qimen",
+      "name": "死门",
+      "aliases": [],
+      "definition": "门。有生必有死，故对生为死门。死者言落其实而取材也。庚欲犯甲，甲既休于北，而对之者惟有卯木，不无受伤之患。此伤而彼亦惊，",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s029",
+          "original_text": "门。有生必有死，故对生为死门。死者言落其实而取材也。庚欲犯甲，甲既休于北，而对之者惟有卯木，不无受伤之患。此伤而彼亦惊，",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八门",
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/eight_doors/死门"
+      }
+    },
+    {
+      "id": "qimen.term.t036",
+      "domain": "qimen",
+      "name": "惊门",
+      "aliases": [],
+      "definition": "。此伤而彼亦惊，故正西为惊门，正东为伤门。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s030",
+          "original_text": "。此伤而彼亦惊，故正西为惊门，正东为伤门。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八门",
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/eight_doors/惊门"
+      }
+    },
+    {
+      "id": "qimen.term.t037",
+      "domain": "qimen",
+      "name": "开门",
+      "aliases": [],
+      "definition": "气舒，故金水之间，西北为开门。有开必有阖，故对开为杜门。杜者言阳气欲尽也，木既休于水、则木气畅，故水木之间、东北为生门。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s031",
+          "original_text": "气舒，故金水之间，西北为开门。有开必有阖，故对开为杜门。杜者言阳气欲尽也，木既休于水、则木气畅，故水木之间、东北为生门。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八门",
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/eight_doors/开门"
+      }
+    },
+    {
+      "id": "qimen.term.t038",
+      "domain": "qimen",
+      "name": "腾蛇",
+      "aliases": [
+        "螣蛇"
+      ],
+      "definition": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八神",
+        "variant": "原典八神名单与 qfdk 名单分开；异名保留。"
+      }
+    },
+    {
+      "id": "qimen.term.t039",
+      "domain": "qimen",
+      "name": "太阴",
+      "aliases": [],
+      "definition": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八神",
+        "variant": "原典八神名单与 qfdk 名单分开；异名保留。"
+      }
+    },
+    {
+      "id": "qimen.term.t040",
+      "domain": "qimen",
+      "name": "六合",
+      "aliases": [],
+      "definition": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八神",
+        "variant": "原典八神名单与 qfdk 名单分开；异名保留。"
+      }
+    },
+    {
+      "id": "qimen.term.t041",
+      "domain": "qimen",
+      "name": "白虎",
+      "aliases": [],
+      "definition": "或有用元武、勾陈者。朱雀之下即可兼看玄武，勾陈之下即可兼看白虎。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s032",
+          "original_text": "或有用元武、勾陈者。朱雀之下即可兼看玄武，勾陈之下即可兼看白虎。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八神",
+        "variant": "原典八神名单与 qfdk 名单分开；异名保留。"
+      }
+    },
+    {
+      "id": "qimen.term.t042",
+      "domain": "qimen",
+      "name": "玄武",
+      "aliases": [],
+      "definition": "或有用元武、勾陈者。朱雀之下即可兼看玄武，勾陈之下即可兼看白虎。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s032",
+          "original_text": "或有用元武、勾陈者。朱雀之下即可兼看玄武，勾陈之下即可兼看白虎。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八神",
+        "variant": "原典八神名单与 qfdk 名单分开；异名保留。"
+      }
+    },
+    {
+      "id": "qimen.term.t043",
+      "domain": "qimen",
+      "name": "九地",
+      "aliases": [],
+      "definition": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八神",
+        "variant": "原典八神名单与 qfdk 名单分开；异名保留。"
+      }
+    },
+    {
+      "id": "qimen.term.t044",
+      "domain": "qimen",
+      "name": "九天",
+      "aliases": [],
+      "definition": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "八神",
+        "variant": "原典八神名单与 qfdk 名单分开；异名保留。"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "qimen.rule.r001",
+      "domain": "qimen",
+      "name": "符头与节气定局",
+      "conditions": [],
+      "inputs": {
+        "solar_term": "24节气之一",
+        "day_ganzhi": "六十甲子"
+      },
+      "operation": {
+        "kind": "deterministic_chart_step",
+        "parameters": {
+          "calendar_provider": "lunar-python==1.4.8"
+        },
+        "provider": "tianji_kb.operations.qimen.bureau",
+        "source_id": "qimen.source.qfdk-implementation"
+      },
+      "result": {
+        "dun": "阴/阳",
+        "bureau": "1..9",
+        "yuan": "上/中/下"
+      },
+      "exceptions": [
+        "天禽寄坤；中宫不转星门神；只输出符号结构，非占断。",
+        "日柱零点分界；时柱按 lunar-python 晚子时约定。"
+      ],
+      "execution_status": "executable",
+      "school": "茅山派/转盘（上游命名）",
+      "variant": "qfdk-table-exact-term-v1",
+      "difference": "仅用固定 qfdk 表与转盘口径。节气按准确时刻而非原 JS 整日切换；不混入原典置闰、超神接气或飞盘。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s012",
+          "original_text": "一元五日，以甲己二干为一元之首，谓之符头。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s014",
+          "original_text": "符头所临之支值子午卯酉则为上元；值寅申巳亥则为中元；值辰戌丑未则为下元。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s011",
+          "original_text": "自夏至气降起离九宫",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s010",
+          "original_text": "自冬至阳生起坎一宫",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "qimen.term.t020",
+        "qimen.term.t016"
+      ]
+    },
+    {
+      "id": "qimen.rule.r002",
+      "domain": "qimen",
+      "name": "三奇六仪地盘",
+      "conditions": [],
+      "inputs": {
+        "dun": "阴/阳",
+        "number": "1..9"
+      },
+      "operation": {
+        "kind": "deterministic_chart_step",
+        "parameters": {
+          "calendar_provider": "lunar-python==1.4.8"
+        },
+        "provider": "tianji_kb.operations.qimen.earth_plate",
+        "source_id": "qimen.source.qfdk-implementation"
+      },
+      "result": {
+        "palaces": "九宫→干"
+      },
+      "exceptions": [
+        "天禽寄坤；中宫不转星门神；只输出符号结构，非占断。",
+        "日柱零点分界；时柱按 lunar-python 晚子时约定。"
+      ],
+      "execution_status": "executable",
+      "school": "茅山派/转盘（上游命名）",
+      "variant": "qfdk-table-exact-term-v1",
+      "difference": "仅用固定 qfdk 表与转盘口径。节气按准确时刻而非原 JS 整日切换；不混入原典置闰、超神接气或飞盘。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s005",
+          "original_text": "乙为日奇、丙为月奇、丁为星奇，故名三奇。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s006",
+          "original_text": "戊己庚辛壬癸，皆有六甲遁乎其中",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "qimen.term.t005",
+        "qimen.term.t006",
+        "qimen.term.t008"
+      ]
+    },
+    {
+      "id": "qimen.rule.r003",
+      "domain": "qimen",
+      "name": "固定转盘基础各盘",
+      "conditions": [],
+      "inputs": {
+        "solar_term": "节气",
+        "day_ganzhi": "日柱",
+        "hour_ganzhi": "时柱",
+        "ruleset": "qfdk-table-exact-term-v1"
+      },
+      "operation": {
+        "kind": "deterministic_chart_step",
+        "parameters": {
+          "calendar_provider": "lunar-python==1.4.8"
+        },
+        "provider": "tianji_kb.operations.qimen.chart_from_calendar",
+        "source_id": "qimen.source.qfdk-implementation"
+      },
+      "result": {
+        "earth_plate": {},
+        "sky_plate": {},
+        "stars": {},
+        "doors": {},
+        "deities": {}
+      },
+      "exceptions": [
+        "天禽寄坤；中宫不转星门神；只输出符号结构，非占断。",
+        "日柱零点分界；时柱按 lunar-python 晚子时约定。"
+      ],
+      "execution_status": "executable",
+      "school": "茅山派/转盘（上游命名）",
+      "variant": "qfdk-table-exact-term-v1",
+      "difference": "仅用固定 qfdk 表与转盘口径。节气按准确时刻而非原 JS 整日切换；不混入原典置闰、超神接气或飞盘。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s007",
+          "original_text": "本局地盘不动，以天盘甲子戊加乙于九宫。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s009",
+          "original_text": "地盘旬首所临之宫，其星即为值符，其门即为值使。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "qimen.term.t007",
+        "qimen.term.t008",
+        "qimen.term.t003",
+        "qimen.term.t002",
+        "qimen.term.t004"
+      ]
+    },
+    {
+      "id": "qimen.rule.r004",
+      "domain": "qimen",
+      "name": "带时区时间至基础转盘",
+      "conditions": [],
+      "inputs": {
+        "value": "ISO 8601 with timezone; 1900..2099",
+        "ruleset": "qfdk-table-exact-term-v1"
+      },
+      "operation": {
+        "kind": "deterministic_chart_step",
+        "parameters": {
+          "calendar_provider": "lunar-python==1.4.8",
+          "calendar_source_id": "qimen.source.lunar-calendar"
+        },
+        "provider": "tianji_kb.operations.qimen.chart_from_datetime",
+        "source_id": "qimen.source.qfdk-implementation"
+      },
+      "result": {
+        "calendar": "lunar-python 1.4.8",
+        "chart": "基础符号盘"
+      },
+      "exceptions": [
+        "天禽寄坤；中宫不转星门神；只输出符号结构，非占断。",
+        "日柱零点分界；时柱按 lunar-python 晚子时约定。"
+      ],
+      "execution_status": "executable",
+      "school": "茅山派/转盘（上游命名）",
+      "variant": "qfdk-table-exact-term-v1",
+      "difference": "仅用固定 qfdk 表与转盘口径。节气按准确时刻而非原 JS 整日切换；不混入原典置闰、超神接气或飞盘。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s013",
+          "original_text": "一节三元、二十四气备矣。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s012",
+          "original_text": "一元五日，以甲己二干为一元之首，谓之符头。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s007",
+          "original_text": "本局地盘不动，以天盘甲子戊加乙于九宫。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "qimen.term.t016",
+        "qimen.term.t015",
+        "qimen.term.t007"
+      ]
+    },
+    {
+      "id": "qimen.rule.r005",
+      "domain": "qimen",
+      "name": "原典八神名单",
+      "conditions": [],
+      "inputs": {
+        "school": "该宝鉴电子本"
+      },
+      "operation": {
+        "kind": "textual",
+        "parameters": {}
+      },
+      "result": {
+        "deities": [
+          "天乙",
+          "螣蛇",
+          "太阴",
+          "六合",
+          "朱雀",
+          "白虎",
+          "九地",
+          "九天"
+        ]
+      },
+      "exceptions": [],
+      "execution_status": "descriptive_only",
+      "school": "宝鉴释八神",
+      "variant": "朱雀白虎本",
+      "difference": "不覆盖 qfdk 的白虎玄武组。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s004",
+          "original_text": "八神者；天乙、螣蛇、太阴、六合、朱雀、白虎、九地、九天也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "qimen.rule.r006",
+      "domain": "qimen",
+      "name": "原典超接置闰",
+      "conditions": [],
+      "inputs": {
+        "futou": "符头",
+        "solar_term": "节气实际交接"
+      },
+      "operation": {
+        "kind": "conditional_calendar",
+        "parameters": {}
+      },
+      "result": {
+        "requires": "超神、接气、置闰细节待专门实现"
+      },
+      "exceptions": [],
+      "execution_status": "partially_structured",
+      "school": "统宗超接置闰",
+      "variant": "原典待实现",
+      "difference": "不能借用固定 qfdk 节气表声称此方法已实现。",
+      "source_refs": [
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s033",
+          "original_text": "五日一元，遇甲己日为气交，而非甲己则以超接之，即拆局补局之法。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "qimen.term.t020",
+        "qimen.term.t016"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "qimen.concept.palace1",
+      "domain": "qimen",
+      "name": "坎宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 1,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/1"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.palace2",
+      "domain": "qimen",
+      "name": "坤宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 2,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/2"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.palace3",
+      "domain": "qimen",
+      "name": "震宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 3,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/3"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.palace4",
+      "domain": "qimen",
+      "name": "巽宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 4,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/4"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.palace5",
+      "domain": "qimen",
+      "name": "中宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 5,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/5"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.palace6",
+      "domain": "qimen",
+      "name": "乾宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 6,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/6"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.palace7",
+      "domain": "qimen",
+      "name": "兑宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 7,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/7"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.palace8",
+      "domain": "qimen",
+      "name": "艮宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 8,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/8"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.palace9",
+      "domain": "qimen",
+      "name": "离宫",
+      "kind": "palace_reference",
+      "attributes": {
+        "number": 9,
+        "existing_reference": "data/canonical/qimen/qfdk_maoshan_v1.json#/nine_palaces/9"
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s001",
+          "original_text": "五数为中，戴九履一、左三右七、二四为上、六八为下，符于遁甲。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "qimen.concept.pipeline",
+      "domain": "qimen",
+      "name": "时间到基础各盘",
+      "kind": "pipeline",
+      "attributes": {
+        "steps": [
+          "timezone_datetime",
+          "solar_term_instant",
+          "futou_yuan",
+          "yin_yang_bureau",
+          "earth_plate",
+          "sky_plate",
+          "nine_stars",
+          "eight_doors",
+          "eight_deities"
+        ],
+        "ruleset": "qfdk-table-exact-term-v1",
+        "provider": "tianji_kb.operations.qimen.chart_from_datetime",
+        "missing": [
+          "置闰",
+          "超神接气",
+          "年家/月家/日家",
+          "暗干",
+          "格局占断"
+        ]
+      },
+      "source_refs": [
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s013",
+          "original_text": "一节三元、二十四气备矣。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.tongzong",
+          "section_id": "qimen.section.s012",
+          "original_text": "一元五日，以甲己二干为一元之首，谓之符头。",
+          "role": "classical"
+        },
+        {
+          "source_id": "qimen.source.baojian",
+          "section_id": "qimen.section.s007",
+          "original_text": "本局地盘不动，以天盘甲子戊加乙于九宫。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

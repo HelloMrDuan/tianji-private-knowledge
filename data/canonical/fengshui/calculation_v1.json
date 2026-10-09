@@ -1,0 +1,280 @@
+{
+  "schema_version": "0.1",
+  "domain": "fengshui",
+  "topic": "deterministic_calculation",
+  "ruleset": "fengshui-master-mit-v1",
+  "source_level": "L1-deterministic-rules",
+  "license": "MIT",
+  "provenance": {
+    "repo": "JackieL233/fengshui-master",
+    "commit": "2666304c5cb4ac13091c8c1fcdd4e40c218b275a",
+    "paths": [
+      "fengshui-master/scripts/flying_stars.py",
+      "fengshui-master/scripts/minggua.py",
+      "fengshui-master/scripts/bagua_map.py"
+    ]
+  },
+  "san_yuan_periods": [
+    {
+      "period": 1,
+      "start": 1864,
+      "end": 1883
+    },
+    {
+      "period": 2,
+      "start": 1884,
+      "end": 1903
+    },
+    {
+      "period": 3,
+      "start": 1904,
+      "end": 1923
+    },
+    {
+      "period": 4,
+      "start": 1924,
+      "end": 1943
+    },
+    {
+      "period": 5,
+      "start": 1944,
+      "end": 1963
+    },
+    {
+      "period": 6,
+      "start": 1964,
+      "end": 1983
+    },
+    {
+      "period": 7,
+      "start": 1984,
+      "end": 2003
+    },
+    {
+      "period": 8,
+      "start": 2004,
+      "end": 2023
+    },
+    {
+      "period": 9,
+      "start": 2024,
+      "end": 2043
+    }
+  ],
+  "luoshu": {
+    "palace_numbers": {
+      "north": 1,
+      "southwest": 2,
+      "east": 3,
+      "southeast": 4,
+      "center": 5,
+      "northwest": 6,
+      "west": 7,
+      "northeast": 8,
+      "south": 9
+    },
+    "palace_trigrams": {
+      "north": "坎",
+      "southwest": "坤",
+      "east": "震",
+      "southeast": "巽",
+      "center": "中宫",
+      "northwest": "乾",
+      "west": "兑",
+      "northeast": "艮",
+      "south": "离"
+    },
+    "flight_path": [
+      "center",
+      "northwest",
+      "west",
+      "northeast",
+      "south",
+      "north",
+      "southwest",
+      "east",
+      "southeast"
+    ],
+    "forward_rule": "以中宫星数为起点，按飞星路径每宫 +1，9 后回 1。",
+    "reverse_rule": "以中宫星数为起点，按飞星路径每宫 -1，1 前回 9。",
+    "limitation": "该上游脚本只实现 period-number Luo Shu scaffold，不是完整玄空宅盘；未计算山星、向星、替卦、年飞星、月飞星。"
+  },
+  "ming_gua": {
+    "supported_years": [
+      1900,
+      2099
+    ],
+    "year_boundary_note": "上游简化公式使用公历出生年；临近立春时应按所选流派进一步校正。",
+    "formula": {
+      "before_2000": {
+        "male": "10 - 出生年末两位数字根",
+        "female": "5 + 出生年末两位数字根"
+      },
+      "from_2000": {
+        "male": "9 - 出生年末两位数字根",
+        "female": "6 + 出生年末两位数字根"
+      },
+      "reduce": "结果继续取数字根；0 转 9；5 宫男转坤2、女转艮8。"
+    },
+    "directions": {
+      "1": {
+        "gua": "坎",
+        "group": "东四",
+        "element": "水",
+        "生气": "东南",
+        "天医": "东",
+        "延年": "南",
+        "伏位": "北",
+        "绝命": "西南",
+        "五鬼": "东北",
+        "六煞": "西北",
+        "祸害": "西"
+      },
+      "2": {
+        "gua": "坤",
+        "group": "西四",
+        "element": "土",
+        "生气": "东北",
+        "天医": "西",
+        "延年": "西北",
+        "伏位": "西南",
+        "绝命": "北",
+        "五鬼": "东南",
+        "六煞": "南",
+        "祸害": "东"
+      },
+      "3": {
+        "gua": "震",
+        "group": "东四",
+        "element": "木",
+        "生气": "南",
+        "天医": "北",
+        "延年": "东南",
+        "伏位": "东",
+        "绝命": "西",
+        "五鬼": "西北",
+        "六煞": "东北",
+        "祸害": "西南"
+      },
+      "4": {
+        "gua": "巽",
+        "group": "东四",
+        "element": "木",
+        "生气": "北",
+        "天医": "南",
+        "延年": "东",
+        "伏位": "东南",
+        "绝命": "东北",
+        "五鬼": "西南",
+        "六煞": "西",
+        "祸害": "西北"
+      },
+      "6": {
+        "gua": "乾",
+        "group": "西四",
+        "element": "金",
+        "生气": "西",
+        "天医": "东北",
+        "延年": "西南",
+        "伏位": "西北",
+        "绝命": "南",
+        "五鬼": "东",
+        "六煞": "北",
+        "祸害": "东南"
+      },
+      "7": {
+        "gua": "兑",
+        "group": "西四",
+        "element": "金",
+        "生气": "西北",
+        "天医": "西南",
+        "延年": "东北",
+        "伏位": "西",
+        "绝命": "东",
+        "五鬼": "南",
+        "六煞": "东南",
+        "祸害": "北"
+      },
+      "8": {
+        "gua": "艮",
+        "group": "西四",
+        "element": "土",
+        "生气": "西南",
+        "天医": "西北",
+        "延年": "西",
+        "伏位": "东北",
+        "绝命": "东南",
+        "五鬼": "北",
+        "六煞": "东",
+        "祸害": "南"
+      },
+      "9": {
+        "gua": "离",
+        "group": "东四",
+        "element": "火",
+        "生气": "东",
+        "天医": "东南",
+        "延年": "北",
+        "伏位": "南",
+        "绝命": "西北",
+        "五鬼": "西",
+        "六煞": "西南",
+        "祸害": "东北"
+      }
+    }
+  },
+  "bagua_compass": {
+    "sectors": [
+      {
+        "gua": "坎",
+        "direction": "北",
+        "center_degrees": 0,
+        "element": "水"
+      },
+      {
+        "gua": "艮",
+        "direction": "东北",
+        "center_degrees": 45,
+        "element": "土"
+      },
+      {
+        "gua": "震",
+        "direction": "东",
+        "center_degrees": 90,
+        "element": "木"
+      },
+      {
+        "gua": "巽",
+        "direction": "东南",
+        "center_degrees": 135,
+        "element": "木"
+      },
+      {
+        "gua": "离",
+        "direction": "南",
+        "center_degrees": 180,
+        "element": "火"
+      },
+      {
+        "gua": "坤",
+        "direction": "西南",
+        "center_degrees": 225,
+        "element": "土"
+      },
+      {
+        "gua": "兑",
+        "direction": "西",
+        "center_degrees": 270,
+        "element": "金"
+      },
+      {
+        "gua": "乾",
+        "direction": "西北",
+        "center_degrees": 315,
+        "element": "金"
+      }
+    ],
+    "sector_width_degrees": 45,
+    "boundary_rule": "每个方位以中心角 ±22.5° 为区间；应同时保存罗盘测量误差。"
+  }
+}

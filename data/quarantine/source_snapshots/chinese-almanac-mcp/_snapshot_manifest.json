@@ -1,0 +1,30 @@
+{
+  "source_id": "chinese-almanac-mcp",
+  "repo": "yonlandwu/chinese-almanac-mcp",
+  "branch": "main",
+  "commit": "959670751703a4a70db91e479c67b80b3c60514a",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "zeri",
+    "almanac",
+    "ganzhi"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "src/scoring.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/chinese-almanac-mcp/src/scoring.ts",
+      "sha256": "1004c575d93add8a9d3a8e993e24e50a0985058f7e676a8cd99280252d2196f3",
+      "bytes": 6959
+    },
+    {
+      "source_path": "scripts/test-vectors.json",
+      "snapshot_path": "data/quarantine/source_snapshots/chinese-almanac-mcp/scripts/test-vectors.json",
+      "sha256": "d69860ff508963858f05420b71137d042d3c15e4854a1e491518618ffa05066a",
+      "bytes": 28254
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

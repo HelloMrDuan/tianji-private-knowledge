@@ -1,0 +1,42 @@
+{
+  "source_id": "zeri-mcp",
+  "repo": "shunshi-ai/zeri-mcp",
+  "branch": "main",
+  "commit": "40c75a89361dd563086099a5c3cee2cb04dd6501",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "zeri",
+    "almanac",
+    "calendar"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "packages/zeri-core/src/index.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/zeri-mcp/packages/zeri-core/src/index.ts",
+      "sha256": "80d93fd77a315e184024a9045b980936bd3d42c9424535d12d4fcf27d2f55973",
+      "bytes": 1055
+    },
+    {
+      "source_path": "packages/zeri-core/src/lib/day.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/zeri-mcp/packages/zeri-core/src/lib/day.ts",
+      "sha256": "bd42b525cb08349a3b3fd3bd8b41ee6a4a6fb2f4519574a90dc3366ecf2c764b",
+      "bytes": 5027
+    },
+    {
+      "source_path": "packages/zeri-core/src/lib/events.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/zeri-mcp/packages/zeri-core/src/lib/events.ts",
+      "sha256": "3b4413f839a59a7f0b12f6f03c3bd698a425885f236bde85b57b9d6e00697d76",
+      "bytes": 4794
+    },
+    {
+      "source_path": "packages/zeri-core/src/lib/select.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/zeri-mcp/packages/zeri-core/src/lib/select.ts",
+      "sha256": "4957cff05f806be01d4f4d9c54a3a82e799d9ad97a5a5d55537ca7870b6e18fb",
+      "bytes": 6826
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

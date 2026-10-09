@@ -1,0 +1,765 @@
+{
+  "schema_version": "0.1",
+  "domain": "liuren",
+  "source_level": "bibliography",
+  "license": "MIT",
+  "provenance": {
+    "repo": "kentang2017/kinliuren",
+    "path": "docs/guji.md",
+    "commit": "3ba45a9540f08269b56d81508a061c7d46938785"
+  },
+  "record_count": 125,
+  "records": [
+    {
+      "era": "晉",
+      "author": "郭璞",
+      "title": "大六壬五變中黃經",
+      "notes": null
+    },
+    {
+      "era": "晉",
+      "author": "郭璞",
+      "title": "大六壬九天中黃經三卷",
+      "notes": "清鈔本"
+    },
+    {
+      "era": "晉",
+      "author": "葛洪",
+      "title": "龍首經",
+      "notes": null
+    },
+    {
+      "era": "隋",
+      "author": "佚名",
+      "title": "六壬式經雜占九卷",
+      "notes": "散佚"
+    },
+    {
+      "era": "隋",
+      "author": "佚名",
+      "title": "六壬釋兆",
+      "notes": "散佚"
+    },
+    {
+      "era": "唐",
+      "author": "佚名",
+      "title": "六壬歷一卷",
+      "notes": "散佚"
+    },
+    {
+      "era": "唐",
+      "author": "佚名",
+      "title": "六壬擇非經六卷",
+      "notes": "散佚"
+    },
+    {
+      "era": "唐",
+      "author": "佚名",
+      "title": "六壬明鏡連珠歌一卷",
+      "notes": "散佚"
+    },
+    {
+      "era": "唐",
+      "author": "佚名",
+      "title": "六壬髓經三卷",
+      "notes": "散佚"
+    },
+    {
+      "era": "唐",
+      "author": "李筌",
+      "title": "六壬大玉帳歌十卷",
+      "notes": "散佚"
+    },
+    {
+      "era": "唐",
+      "author": "呂才",
+      "title": "六壬軌限照心神鑑經三卷",
+      "notes": null
+    },
+    {
+      "era": "宋",
+      "author": "徐道符",
+      "title": "大六壬心鏡八卷",
+      "notes": "實事求是齋鈔本（存卷一至七）"
+    },
+    {
+      "era": "宋",
+      "author": "劉啓明",
+      "title": "六壬軍帳賦一卷",
+      "notes": null
+    },
+    {
+      "era": "宋",
+      "author": "楊維德",
+      "title": "景祐六壬神定經二卷",
+      "notes": null
+    },
+    {
+      "era": "宋",
+      "author": "祝泌",
+      "title": "六壬大占一卷",
+      "notes": null
+    },
+    {
+      "era": "金",
+      "author": "徐次賓",
+      "title": "大六壬一字訣玉連環一卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "適適子",
+      "title": "大六壬神課金口訣六卷別錄一卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "徐陰",
+      "title": "雲南劉雨府六壬心鏡集注三卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "大六壬通天銀河棹八卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "大六壬搜原真訣銀河棹不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "劉基",
+      "title": "大六壬銀河棹不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "張松源",
+      "title": "銀河棹",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬行軍指南不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "占候六壬遁法不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "陳公獻",
+      "title": "大六壬五變中黃經正文一卷釋義四卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "陳公獻",
+      "title": "大六壬苗公射覆鬼撮腳",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬兵法書不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬決勝兵機不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬兵帳不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "陳應選",
+      "title": "大六壬兵機確論出師全書不分卷",
+      "notes": "明崇禎二年木活字印朱墨套印本"
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬兵機不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "朱恆",
+      "title": "大六壬會要全集十二卷",
+      "notes": "清經鉏堂鈔本"
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "大六壬翠羽歌三卷",
+      "notes": "明嘉靖三十七年高大器鈔本"
+    },
+    {
+      "era": "明",
+      "author": "官應震",
+      "title": "六壬統宗十卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "官應震",
+      "title": "六壬成式",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "官應震",
+      "title": "大六壬雜釋八卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "官應震",
+      "title": "大六壬管見全書十二卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "大六壬金櫃經一卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "新編詳註大六壬斷經祕訣十卷課起例口訣一卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬課經集四卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬兵占一卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬三黔集覽不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "新訂六壬總要不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬集要四卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬分野一卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬龜甲統宗不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬鈐說釋義不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "大六壬彙纂十二卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "榮陽子",
+      "title": "大六壬叢書",
+      "notes": "明末藍格鈔本"
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "彙纂大六壬玉鑰匙心訣",
+      "notes": "明清間鈔本"
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬集應鈐不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬日占不分卷",
+      "notes": null
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "六壬雲開觀月經一卷",
+      "notes": "始豐山房鈔本"
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "大六壬大全十二卷",
+      "notes": "文淵閣四庫全書本"
+    },
+    {
+      "era": "明",
+      "author": "佚名",
+      "title": "太上六壬明鑑符陰經四卷",
+      "notes": "道藏本（正統刻）"
+    },
+    {
+      "era": "明",
+      "author": "黃賓廷",
+      "title": "大六壬集應鈐六十卷首一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "程樹勳",
+      "title": "精鈔歷代六壬占驗匯選",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬正易軍帳勾玄鈐",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬軍帳神機六十卷",
+      "notes": "清藍格鈔本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬軍帳賦一卷",
+      "notes": "〖明〗王鳴鶴著"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬九種",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "程起鸞、陳良謨",
+      "title": "大六壬指南五卷",
+      "notes": "順治九年刻"
+    },
+    {
+      "era": "清",
+      "author": "郭載騋",
+      "title": "大六壬大全十三卷",
+      "notes": "清康熙四十三年刻本"
+    },
+    {
+      "era": "清",
+      "author": "巫國匡",
+      "title": "訂正六壬金口訣四卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "毛志道",
+      "title": "六壬經緯六卷",
+      "notes": "清雍正二年山淵堂刻本"
+    },
+    {
+      "era": "清",
+      "author": "張鳳藻",
+      "title": "儀度六壬選日要訣三卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "紀大奎",
+      "title": "六壬類聚四卷",
+      "notes": "紀慎齋先牛全集本（嘉慶刻、同治刻）"
+    },
+    {
+      "era": "清",
+      "author": "張純照",
+      "title": "大六壬尋原",
+      "notes": "清嘉慶二十三年樂淳堂張氏刻本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬精蘊",
+      "notes": "清嘉慶間鈔本"
+    },
+    {
+      "era": "清",
+      "author": "劉赤江",
+      "title": "六壬粹言六卷首一卷",
+      "notes": "清道光六年知止齋刻本"
+    },
+    {
+      "era": "清",
+      "author": "張官德",
+      "title": "六壬辨疑四卷",
+      "notes": "清同治八年源堂刻本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬口華百章歌一卷",
+      "notes": "清同治間梁承誥鈔本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬占例不分卷",
+      "notes": "清同治十二年梁承誥鈔本"
+    },
+    {
+      "era": "清",
+      "author": "李沺",
+      "title": "六壬摘要六卷附罪言一卷",
+      "notes": "游藝錄本（光緒刻）"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬全課占斷集成",
+      "notes": "清光緒間鈔本"
+    },
+    {
+      "era": "清",
+      "author": "苗公達",
+      "title": "大六壬斷章祕訣一卷",
+      "notes": "實事求是齋鈔本"
+    },
+    {
+      "era": "清",
+      "author": "葉悔亭",
+      "title": "六壬眎斯四卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "錢耕畸",
+      "title": "六壬精蘊二十卷",
+      "notes": "鈔本（清李培南藏）"
+    },
+    {
+      "era": "清",
+      "author": "知空子",
+      "title": "六壬捷步不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "李雲龍",
+      "title": "大六壬合纂八卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬類占二卷",
+      "notes": "清同治十二年梁承誥鈔本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬占身命摘要一卷",
+      "notes": "清同治年梁承誥鈔本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬聚玉集不分卷",
+      "notes": "清乾隆間鈔本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "黃帝大六壬鬼撮腳",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬淵鑑不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬正義口訣斷章不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬會通摘要不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬神煞全圖",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬彙鈐十二卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬盤式一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬會通摘要不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬課義二卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬課式一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬雜輯",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬統畧",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬課鈐一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬類纂神課",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬占斷書",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬課傳集解十二卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "程樹勛",
+      "title": "壬學瑣記一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬軌跡照心經不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬金璧二卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬掌鏡不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬準繩一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬精要不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬祕占不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬說約不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬袖傳捷要一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬獨悟絕法不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬隔山照不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬鬼料竅不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬初學便覽不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "邵彥和先生六壬斷案分編不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬總論",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬集鈐不分卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "六壬通仙四卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "俞樾",
+      "title": "遊藝錄六卷-六壬篇",
+      "notes": "載於春在堂全書。"
+    },
+    {
+      "era": "清",
+      "author": "劉克猷",
+      "title": "六壬捷錄",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "高修纂",
+      "title": "大六壬明體經",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "雲湖樂道人",
+      "title": "大六壬神妙要書六卷",
+      "notes": "清末民國初鈔本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "太乙六壬雷公運式遁甲通神經一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "楊克讓",
+      "title": "六壬鉗斷一卷",
+      "notes": null
+    },
+    {
+      "era": "清",
+      "author": "張廷楨",
+      "title": "嚴陵張九儀儀度六壬選日要訣不分卷",
+      "notes": "清末刻本"
+    },
+    {
+      "era": "清",
+      "author": "佚名",
+      "title": "大六壬未語書",
+      "notes": "清末刻本"
+    },
+    {
+      "era": "現代",
+      "author": "吳師青",
+      "title": "大六壬靈覺經四卷",
+      "notes": null
+    }
+  ],
+  "note": "此目录用于指导后续公版古籍发现与版本校对；书目条目本身不等于已取得全文。"
+}

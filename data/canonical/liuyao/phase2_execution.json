@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-execution",
+  "domain": "liuyao",
+  "variant": "jingfang-eight-palaces-v1",
+  "provider": "tianji_kb.operations.liuyao_chart.chart",
+  "rules": [
+    {
+      "id": "liuyao.phase2.najia",
+      "domain": "liuyao",
+      "name": "najia",
+      "variant": "jingfang-eight-palaces-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuyao.rule.r001"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuyao.qian-static",
+        "liuyao.qian-to-gou",
+        "liuyao.tai-to-sheng"
+      ],
+      "regression_test": "tests/test_phase2_liuyao.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuyao.phase2.relatives",
+      "domain": "liuyao",
+      "name": "relatives",
+      "variant": "jingfang-eight-palaces-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuyao.rule.r002"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuyao.qian-static",
+        "liuyao.qian-to-gou",
+        "liuyao.tai-to-sheng"
+      ],
+      "regression_test": "tests/test_phase2_liuyao.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuyao.phase2.palace",
+      "domain": "liuyao",
+      "name": "palace",
+      "variant": "jingfang-eight-palaces-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuyao.rule.r004"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuyao.qian-static",
+        "liuyao.qian-to-gou",
+        "liuyao.tai-to-sheng"
+      ],
+      "regression_test": "tests/test_phase2_liuyao.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuyao.phase2.spirits",
+      "domain": "liuyao",
+      "name": "spirits",
+      "variant": "jingfang-eight-palaces-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuyao.rule.r003"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuyao.qian-static",
+        "liuyao.qian-to-gou",
+        "liuyao.tai-to-sheng"
+      ],
+      "regression_test": "tests/test_phase2_liuyao.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuyao.phase2.empty",
+      "domain": "liuyao",
+      "name": "empty",
+      "variant": "jingfang-eight-palaces-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuyao.rule.r005"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuyao.qian-static",
+        "liuyao.qian-to-gou",
+        "liuyao.tai-to-sheng"
+      ],
+      "regression_test": "tests/test_phase2_liuyao.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuyao.phase2.month_break",
+      "domain": "liuyao",
+      "name": "month_break",
+      "variant": "jingfang-eight-palaces-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuyao.rule.r019"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuyao.qian-static",
+        "liuyao.qian-to-gou",
+        "liuyao.tai-to-sheng"
+      ],
+      "regression_test": "tests/test_phase2_liuyao.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuyao.phase2.motion",
+      "domain": "liuyao",
+      "name": "motion",
+      "variant": "jingfang-eight-palaces-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "yijing.rule.r002"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuyao.qian-static",
+        "liuyao.qian-to-gou",
+        "liuyao.tai-to-sheng"
+      ],
+      "regression_test": "tests/test_phase2_liuyao.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    }
+  ],
+  "scope": "；动变仅逐爻阴阳翻转，不宣称月建/日辰/旺衰解释规则已 executable。"
+}

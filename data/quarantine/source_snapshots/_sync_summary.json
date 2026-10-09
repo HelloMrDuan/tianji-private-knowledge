@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-10-01T22:46:20.974207+00:00",
+  "sources": {
+    "bazi-skill": {
+      "repo": "jinchenma94/bazi-skill",
+      "commit": "112a5d84cd1a001a0038cafca3be68d93e4c0cc9",
+      "file_count": 5,
+      "status": "ok"
+    },
+    "chinese-almanac-mcp": {
+      "repo": "yonlandwu/chinese-almanac-mcp",
+      "commit": "959670751703a4a70db91e479c67b80b3c60514a",
+      "file_count": 2,
+      "status": "ok"
+    },
+    "fengshui-master-jackie": {
+      "repo": "JackieL233/fengshui-master",
+      "commit": "2666304c5cb4ac13091c8c1fcdd4e40c218b275a",
+      "file_count": 6,
+      "status": "ok"
+    },
+    "hetu-luoshu-jbbom": {
+      "repo": "JbBom/hetu-cube-3d",
+      "commit": "928c82e45fc3fb854c639ad1fa1deddd39930edc",
+      "file_count": 3,
+      "status": "ok"
+    },
+    "hetu-luoshu-wuji": {
+      "repo": "wuji-labs/hetu-luoshu",
+      "commit": "6fd644c8a45d984da6bd885cd5d981525a3ddff6",
+      "file_count": 1,
+      "status": "ok"
+    },
+    "iztro": {
+      "repo": "SylarLong/iztro",
+      "commit": "2c7ef9be669df7b19d1799f4dce335fed3794f78",
+      "file_count": 7,
+      "status": "ok"
+    },
+    "kinliuren": {
+      "repo": "kentang2017/kinliuren",
+      "commit": "3ba45a9540f08269b56d81508a061c7d46938785",
+      "file_count": 2,
+      "status": "ok"
+    },
+    "kintaiyi": {
+      "repo": "kentang2017/kintaiyi",
+      "commit": "626d8a5bd0f707fec2ed613c83d4b6611f56441d",
+      "file_count": 4,
+      "status": "ok"
+    },
+    "metaphysics-steward": {
+      "repo": "superzhang21/metaphysics-steward",
+      "commit": "0c1dcf5fd27c68debe5607f5caa697722319aed8",
+      "file_count": 3,
+      "status": "ok"
+    },
+    "mikaboshi-compass": {
+      "repo": "minagawah/mikaboshi",
+      "commit": "b958205ce1a0402c033c0ea890b9c6d7a02a89b8",
+      "file_count": 5,
+      "status": "ok"
+    },
+    "qimen-qfdk": {
+      "repo": "qfdk/qimen",
+      "commit": "1d0d1c5b39755e67525a11e68bab9b73baae1937",
+      "file_count": 6,
+      "status": "ok"
+    },
+    "tarot-nonebot": {
+      "repo": "MinatoAquaCrews/nonebot_plugin_tarot",
+      "commit": "5b8638f0e9421bc6b04ecc501d8d999e90e1cd79",
+      "file_count": 1,
+      "status": "ok"
+    },
+    "zeri-mcp": {
+      "repo": "shunshi-ai/zeri-mcp",
+      "commit": "40c75a89361dd563086099a5c3cee2cb04dd6501",
+      "file_count": 4,
+      "status": "ok"
+    }
+  },
+  "failure_count": 0,
+  "failures": []
+}

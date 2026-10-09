@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-golden",
+  "domain": "yijing",
+  "provider": "tianji_kb.operations.yijing_chart.chart",
+  "review_basis": "固定卦名编号与自下而上爻结构手工对照；64卦全体代数关系与4096动爻掩码一致性。",
+  "cases": [
+    {
+      "id": "yijing.qian-first-change",
+      "variant": "bottom-up-six-lines-v1",
+      "input": {
+        "bits": "111111",
+        "changing_lines": [
+          1
+        ]
+      },
+      "expected": {
+        "original": {
+          "number": 1
+        },
+        "opposite": {
+          "number": 2
+        },
+        "inverse": {
+          "number": 1
+        },
+        "nuclear": {
+          "number": 1
+        },
+        "change": {
+          "number": 44
+        }
+      }
+    },
+    {
+      "id": "yijing.tai-relations",
+      "variant": "bottom-up-six-lines-v1",
+      "input": {
+        "bits": "111000",
+        "changing_lines": [
+          1
+        ]
+      },
+      "expected": {
+        "original": {
+          "number": 11
+        },
+        "opposite": {
+          "number": 12
+        },
+        "inverse": {
+          "number": 12
+        },
+        "nuclear": {
+          "number": 54
+        },
+        "change": {
+          "number": 46
+        }
+      }
+    },
+    {
+      "id": "yijing.zhun-nuclear",
+      "variant": "bottom-up-six-lines-v1",
+      "input": {
+        "bits": "100010"
+      },
+      "expected": {
+        "original": {
+          "number": 3
+        },
+        "opposite": {
+          "number": 50
+        },
+        "inverse": {
+          "number": 4
+        },
+        "nuclear": {
+          "number": 23
+        },
+        "change": {
+          "number": 3
+        }
+      }
+    }
+  ]
+}

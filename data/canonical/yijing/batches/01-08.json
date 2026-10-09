@@ -1,0 +1,312 @@
+{
+  "schema_version": "0.1",
+  "domain": "yijing",
+  "batch": "01-08",
+  "source_level": "L0-public-domain-classic",
+  "records": [
+    {
+      "number": 1,
+      "full_name": "乾为天",
+      "judgment": "乾。 元亨利貞。",
+      "image": "天行健，君子以自強不息。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "潛龍勿用。"
+        },
+        {
+          "position": "九二",
+          "text": "見龍在田，利見大人。"
+        },
+        {
+          "position": "九三",
+          "text": "君子終日乾乾，夕惕若;厲，無咎。"
+        },
+        {
+          "position": "九四",
+          "text": "或躍在淵，無咎。"
+        },
+        {
+          "position": "九五",
+          "text": "飛龍在天，利見大人。"
+        },
+        {
+          "position": "上九",
+          "text": "亢龍有悔。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/01.乾为天/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 2,
+      "full_name": "坤为地",
+      "judgment": "坤。 元亨，利牝馬之貞。君子有攸往，先迷後得主。利西南得朋，東北喪朋。安貞吉。",
+      "image": "地勢坤，君子以厚德載物。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "履霜，堅冰至。"
+        },
+        {
+          "position": "六二",
+          "text": "直方大，不習，無不利。"
+        },
+        {
+          "position": "六三",
+          "text": "含章可貞。或從王事，無成有終。"
+        },
+        {
+          "position": "六四",
+          "text": "括囊，無咎無譽。"
+        },
+        {
+          "position": "六五",
+          "text": "黃裳，元吉。"
+        },
+        {
+          "position": "上六",
+          "text": "龍戰於野，其血玄黃。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/02.坤为地/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 3,
+      "full_name": "水雷屯",
+      "judgment": "屯。 元亨利貞。勿用有攸往，利建侯。",
+      "image": "雲雷屯，君子以經綸。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "盤桓，利居貞，利建侯。"
+        },
+        {
+          "position": "六二",
+          "text": "屯如邅如，乘馬班如。匪寇婚媾，女子貞不字，十年乃字。"
+        },
+        {
+          "position": "六三",
+          "text": "即鹿無虞，唯入於林中。君子幾，不如舍。往吝。"
+        },
+        {
+          "position": "六四",
+          "text": "乘馬班如，求婚媾，往吉，無不利。"
+        },
+        {
+          "position": "九五",
+          "text": "屯其膏，小貞吉，大貞凶。"
+        },
+        {
+          "position": "上六",
+          "text": "乘馬班如，泣血漣如。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/03.水雷屯/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 4,
+      "full_name": "山水蒙",
+      "judgment": "蒙。 亨。匪我求童蒙，童蒙求我。初筮告，再三瀆，瀆則不告。利貞。",
+      "image": "山下出泉，蒙。君子以果行育德。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "發蒙，利用刑人，用說桎梏。以往，吝。"
+        },
+        {
+          "position": "九二",
+          "text": "包蒙，吉。納婦吉。子克家。"
+        },
+        {
+          "position": "六三",
+          "text": "勿用取女，見金夫，不有躬。無攸利。"
+        },
+        {
+          "position": "六四",
+          "text": "困蒙，吝。"
+        },
+        {
+          "position": "六五",
+          "text": "童蒙，吉。"
+        },
+        {
+          "position": "上九",
+          "text": "擊蒙。不利為寇，利禦寇。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/04.山水蒙/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 5,
+      "full_name": "水天需",
+      "judgment": "需。 有孚，光亨，貞吉。利涉大川。",
+      "image": "雲上於天，需。君子以飲食宴樂。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "需於郊，利用恆，無咎。"
+        },
+        {
+          "position": "九二",
+          "text": "需於沙，小有言，終吉。"
+        },
+        {
+          "position": "九三",
+          "text": "需於泥，致寇至。"
+        },
+        {
+          "position": "六四",
+          "text": "需於血，出自穴。"
+        },
+        {
+          "position": "九五",
+          "text": "需於酒食，貞吉。"
+        },
+        {
+          "position": "上六",
+          "text": "入於穴，有不速之客三人來，敬之終吉。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/05.水天需/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 6,
+      "full_name": "天水讼",
+      "judgment": "訟。 有孚，窒惕，中吉，終凶。利見大人，不利涉大川。",
+      "image": "天與水違行，訟。君子以做事謀始。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "不永所事，小有言，終吉。"
+        },
+        {
+          "position": "九二",
+          "text": "不克訟，歸而逋，其邑人三百戶無眚。"
+        },
+        {
+          "position": "六三",
+          "text": "食舊德，貞厲，終吉。或從王事，無成。"
+        },
+        {
+          "position": "九四",
+          "text": "不克訟，復即命，渝安貞，吉。"
+        },
+        {
+          "position": "九五",
+          "text": "訟，元吉。"
+        },
+        {
+          "position": "上九",
+          "text": "或錫之鞶帶，終朝三褫之。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/06.天水讼/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 7,
+      "full_name": "地水师",
+      "judgment": "師。 貞，丈人吉，無咎。",
+      "image": "地中有水，師。君子以容民畜眾。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "師出以律，否臧，凶。"
+        },
+        {
+          "position": "九二",
+          "text": "在師中，吉無咎，王三錫命。"
+        },
+        {
+          "position": "六三",
+          "text": "師或輿屍，凶。"
+        },
+        {
+          "position": "六四",
+          "text": "師左次，無咎。"
+        },
+        {
+          "position": "六五",
+          "text": "田有禽，利執言，無咎。長子帥師，弟子輿屍，貞凶。"
+        },
+        {
+          "position": "上六",
+          "text": "大君有命，開國承家，小人勿用。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/07.地水师/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 8,
+      "full_name": "水地比",
+      "judgment": "比。 吉。原筮，元永貞，無咎。不寧方來，後夫凶。",
+      "image": "地上有水，比。先王以建萬國，親諸侯。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "有孚，比之，無咎。有孚盈缶，終來有它吉。"
+        },
+        {
+          "position": "六二",
+          "text": "比之自內，貞吉。"
+        },
+        {
+          "position": "六三",
+          "text": "比之匪人。"
+        },
+        {
+          "position": "六四",
+          "text": "外比之，貞吉。"
+        },
+        {
+          "position": "九五",
+          "text": "顯比，王用三驅，失前禽。邑人不誡，吉。"
+        },
+        {
+          "position": "上六",
+          "text": "比之無首，凶。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/08.水地比/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "schema_version": "0.1",
+  "domain": "tarot",
+  "deck_system": "Rider-Waite-Smith-compatible Chinese keyword dataset",
+  "source_level": "L1-structured-rules",
+  "license": "MIT",
+  "record_count": 78,
+  "spread_count": 9,
+  "provenance": {
+    "repo": "MinatoAquaCrews/nonebot_plugin_tarot",
+    "path": "nonebot_plugin_tarot/tarot.json",
+    "commit": "5b8638f0e9421bc6b04ecc501d8d999e90e1cd79"
+  },
+  "copyright_policy": {
+    "text": "Included textual card metadata is sourced from the MIT repository.",
+    "images": "Image assets are intentionally excluded from Tianji KB; artwork may have separate rights/provenance."
+  },
+  "counts": {
+    "MajorArcana": 22,
+    "Swords": 14,
+    "Wands": 14,
+    "Cups": 14,
+    "Pentacles": 14
+  },
+  "cards": [
+    {
+      "id": 0,
+      "name_cn": "愚者",
+      "name_en": "The Fool",
+      "arcana_type": "MajorArcana",
+      "upright": "新的开始、冒险、自信、乐观、好的时机",
+      "reversed": "时机不对、鲁莽、轻信、承担风险"
+    },
+    {
+      "id": 1,
+      "name_cn": "魔术师",
+      "name_en": "The Magician",
+      "arcana_type": "MajorArcana",
+      "upright": "创造力、主见、激情、发展潜力",
+      "reversed": "缺乏创造力、优柔寡断、才能平庸、计划不周"
+    },
+    {
+      "id": 2,
+      "name_cn": "女祭司",
+      "name_en": "The High Priestess",
+      "arcana_type": "MajorArcana",
+      "upright": "潜意识、洞察力、知性、研究精神",
+      "reversed": "自我封闭、内向、神经质、缺乏理性"
+    },
+    {
+      "id": 3,
+      "name_cn": "女皇",
+      "name_en": "The Empress",
+      "arcana_type": "MajorArcana",
+      "upright": "母性、女性特质、生命力、接纳",
+      "reversed": "生育问题、不安全感、敏感、困扰于细枝末节"
+    },
+    {
+      "id": 4,
+      "name_cn": "皇帝",
+      "name_en": "The Emperor",
+      "arcana_type": "MajorArcana",
+      "upright": "控制、意志、领导力、权力、影响力",
+      "reversed": "混乱、固执、暴政、管理不善、不务实"
+    },
+    {
+      "id": 5,
+      "name_cn": "教皇",
+      "name_en": "The Hierophant",
+      "arcana_type": "MajorArcana",
+      "upright": "值得信赖的、顺从、遵守规则",
+      "reversed": "失去信赖、固步自封、质疑权威、恶意的规劝"
+    },
+    {
+      "id": 6,
+      "name_cn": "恋人",
+      "name_en": "The Lovers",
+      "arcana_type": "MajorArcana",
+      "upright": "爱、肉体的连接、新的关系、美好时光、互相支持",
+      "reversed": "纵欲过度、不忠、违背诺言、情感的抉择"
+    },
+    {
+      "id": 7,
+      "name_cn": "战车",
+      "name_en": "The Chariot",
+      "arcana_type": "MajorArcana",
+      "upright": "高效率、把握先机、坚韧、决心、力量、克服障碍",
+      "reversed": "失控、挫折、诉诸暴力、冲动"
+    },
+    {
+      "id": 8,
+      "name_cn": "力量",
+      "name_en": "Strength",
+      "arcana_type": "MajorArcana",
+      "upright": "勇气、决断、克服阻碍、胆识过人",
+      "reversed": "恐惧、精力不足、自我怀疑、懦弱"
+    },
+    {
+      "id": 9,
+      "name_cn": "隐士",
+      "name_en": "The Hermit",
+      "arcana_type": "MajorArcana",
+      "upright": "内省、审视自我、探索内心、平静",
+      "reversed": "孤独、孤立、过分慎重、逃避"
+    },
+    {
+      "id": 10,
+      "name_cn": "命运之轮",
+      "name_en": "The Wheel of Fortune",
+      "arcana_type": "MajorArcana",
+      "upright": "把握时机、新的机会、幸运降临、即将迎来改变",
+      "reversed": "厄运、时机未到、计划泡汤"
+    },
+    {
+      "id": 11,
+      "name_cn": "正义",
+      "name_en": "Justice",
+      "arcana_type": "MajorArcana",
+      "upright": "公平、正直、诚实、正义、表里如一",
+      "reversed": "失衡、偏见、不诚实、表里不一"
+    },
+    {
+      "id": 12,
+      "name_cn": "倒吊人",
+      "name_en": "The Hanged Man",
+      "arcana_type": "MajorArcana",
+      "upright": "进退两难、接受考验、因祸得福、舍弃行动追求顿悟",
+      "reversed": "无畏的牺牲、利己主义、内心抗拒、缺乏远见"
+    },
+    {
+      "id": 13,
+      "name_cn": "死神",
+      "name_en": "Death",
+      "arcana_type": "MajorArcana",
+      "upright": "失去、舍弃、离别、死亡、新生事物的来临",
+      "reversed": "起死回生、回心转意、逃避现实"
+    },
+    {
+      "id": 14,
+      "name_cn": "节制",
+      "name_en": "Temperance",
+      "arcana_type": "MajorArcana",
+      "upright": "平衡、和谐、治愈、节制",
+      "reversed": "失衡、失谐、沉溺愉悦、过度放纵"
+    },
+    {
+      "id": 15,
+      "name_cn": "恶魔",
+      "name_en": "The Devil",
+      "arcana_type": "MajorArcana",
+      "upright": "负面影响、贪婪的欲望、物质主义、固执己见",
+      "reversed": "逃离束缚、拒绝诱惑、治愈病痛、直面现实"
+    },
+    {
+      "id": 16,
+      "name_cn": "高塔",
+      "name_en": "The Tower",
+      "arcana_type": "MajorArcana",
+      "upright": "急剧的转变、突然的动荡、毁灭后的重生、政权更迭",
+      "reversed": "悬崖勒马、害怕转变、发生内讧、风暴前的寂静"
+    },
+    {
+      "id": 17,
+      "name_cn": "星星",
+      "name_en": "The Star",
+      "arcana_type": "MajorArcana",
+      "upright": "希望、前途光明、曙光出现",
+      "reversed": "好高骛远、异想天开、事与愿违、失去目标"
+    },
+    {
+      "id": 18,
+      "name_cn": "月亮",
+      "name_en": "The Moon",
+      "arcana_type": "MajorArcana",
+      "upright": "虚幻、不安与动摇、迷惘、欺骗",
+      "reversed": "状况逐渐好转、疑虑渐消、排解恐惧"
+    },
+    {
+      "id": 19,
+      "name_cn": "太阳",
+      "name_en": "The Sun",
+      "arcana_type": "MajorArcana",
+      "upright": "活力充沛、生机、远景明朗、积极",
+      "reversed": "意志消沉、情绪低落、无助、消极"
+    },
+    {
+      "id": 20,
+      "name_cn": "审判",
+      "name_en": "Judgement",
+      "arcana_type": "MajorArcana",
+      "upright": "命运好转、复活的喜悦、恢复健康",
+      "reversed": "一蹶不振、尚未开始便已结束、自我怀疑、不予理睬"
+    },
+    {
+      "id": 21,
+      "name_cn": "世界",
+      "name_en": "The World",
+      "arcana_type": "MajorArcana",
+      "upright": "愿望达成、获得成功、到达目的地",
+      "reversed": "无法投入、不安现状、半途而废、盲目接受"
+    },
+    {
+      "id": 22,
+      "name_cn": "宝剑ACE",
+      "name_en": "Ace of Swords",
+      "arcana_type": "Swords",
+      "upright": "有进取心和攻击性、敏锐、理性、成功的开始",
+      "reversed": "易引起争端、逞强而招致灾难、偏激专横、不公正的想法"
+    },
+    {
+      "id": 23,
+      "name_cn": "宝剑2",
+      "name_en": "II of Swords",
+      "arcana_type": "Swords",
+      "upright": "想法的对立、选择的时机、意见不合且暗流汹涌",
+      "reversed": "做出选择但流言与欺诈会浮出水面、犹豫不决导致错失机会"
+    },
+    {
+      "id": 24,
+      "name_cn": "宝剑3",
+      "name_en": "III of Swords",
+      "arcana_type": "Swords",
+      "upright": "感情受到伤害、生活中出现麻烦、自怜自哀",
+      "reversed": "心理封闭、情绪不安、逃避、伤害周边的人"
+    },
+    {
+      "id": 25,
+      "name_cn": "宝剑4",
+      "name_en": "IV of Swords",
+      "arcana_type": "Swords",
+      "upright": "养精蓄锐、以退为进、放缓行动、留意总结",
+      "reversed": "即刻行动、投入生活、未充分准备却慌忙应对"
+    },
+    {
+      "id": 26,
+      "name_cn": "宝剑5",
+      "name_en": "V of Swords",
+      "arcana_type": "Swords",
+      "upright": "矛盾冲突、不择手段伤害对方、赢得比赛却失去关系",
+      "reversed": "找到应对方法、冲突有解决的可能性、双方愿意放下武器"
+    },
+    {
+      "id": 27,
+      "name_cn": "宝剑6",
+      "name_en": "VI of Swords",
+      "arcana_type": "Swords",
+      "upright": "伤口迟迟没能痊愈、现在没有很好的对策、未来存在更多的艰难",
+      "reversed": "深陷于困难、鲁莽地解决却忽视背后更大的问题、需要其他人的帮助或救援"
+    },
+    {
+      "id": 28,
+      "name_cn": "宝剑7",
+      "name_en": "VII of Swords",
+      "arcana_type": "Swords",
+      "upright": "疏忽大意、有隐藏很深的敌人、泄密、非常手段或小伎俩无法久用",
+      "reversed": "意想不到的好运、计划不周全、掩耳盗铃"
+    },
+    {
+      "id": 29,
+      "name_cn": "宝剑8",
+      "name_en": "VIII of Swords",
+      "arcana_type": "Swords",
+      "upright": "孤立无助、陷入艰难处境、受困于想法导致行动受阻",
+      "reversed": "摆脱束缚、脱离危机、重新起步"
+    },
+    {
+      "id": 30,
+      "name_cn": "宝剑9",
+      "name_en": "IX of Swords",
+      "arcana_type": "Swords",
+      "upright": "精神上的恐惧、害怕、焦虑、前路不顺的预兆",
+      "reversed": "事情出现转机、逐渐摆脱困境、沉溺于过去、正视现实"
+    },
+    {
+      "id": 31,
+      "name_cn": "宝剑10",
+      "name_en": "X of Swords",
+      "arcana_type": "Swords",
+      "upright": "进展严重受阻、无路可走、面临绝境、重新归零的机会",
+      "reversed": "绝处逢生、东山再起的希望、物极必反"
+    },
+    {
+      "id": 32,
+      "name_cn": "宝剑国王",
+      "name_en": "King of Swords",
+      "arcana_type": "Swords",
+      "upright": "公正、权威、领导力、冷静",
+      "reversed": "思想偏颇、强加观念、极端、不择手段"
+    },
+    {
+      "id": 33,
+      "name_cn": "宝剑王后",
+      "name_en": "Queen of Swords",
+      "arcana_type": "Swords",
+      "upright": "理性、思考敏捷、有距离感、公正不阿",
+      "reversed": "固执、想法偏激、高傲、盛气凌人"
+    },
+    {
+      "id": 34,
+      "name_cn": "宝剑骑士",
+      "name_en": "Knight of Swords",
+      "arcana_type": "Swords",
+      "upright": "勇往直前的行动力、充满激情",
+      "reversed": "计划不周、天马行空、缺乏耐心、做事轻率、自负"
+    },
+    {
+      "id": 35,
+      "name_cn": "宝剑侍从",
+      "name_en": "Page of Swords",
+      "arcana_type": "Swords",
+      "upright": "思维发散、洞察力、谨慎的判断",
+      "reversed": "短见、做事虎头蛇尾、对信息不加以过滤分析"
+    },
+    {
+      "id": 36,
+      "name_cn": "权杖ACE",
+      "name_en": "Ace of Wands",
+      "arcana_type": "Wands",
+      "upright": "新的开端、新的机遇、燃烧的激情、创造力",
+      "reversed": "新行动失败的可能性比较大、开端不佳、意志力薄弱"
+    },
+    {
+      "id": 37,
+      "name_cn": "权杖2",
+      "name_en": "II of Wands",
+      "arcana_type": "Wands",
+      "upright": "高瞻远瞩、规划未来、在习惯与希望间做选择",
+      "reversed": "犹豫不决、行动受阻、花费太多时间在选择上"
+    },
+    {
+      "id": 38,
+      "name_cn": "权杖3",
+      "name_en": "II of Wands",
+      "arcana_type": "Wands",
+      "upright": "探索的好时机、身心灵的契合、领导能力、主导地位",
+      "reversed": "合作不顺、欠缺领导能力、团队不和谐"
+    },
+    {
+      "id": 39,
+      "name_cn": "权杖4",
+      "name_en": "IV of Wands",
+      "arcana_type": "Wands",
+      "upright": "和平繁荣、关系稳固、学业或事业发展稳定",
+      "reversed": "局势失衡、稳固的基础被打破、人际关系不佳、收成不佳"
+    },
+    {
+      "id": 40,
+      "name_cn": "权杖5",
+      "name_en": "V of Wands",
+      "arcana_type": "Wands",
+      "upright": "竞争、冲突、内心的矛盾、缺乏共识",
+      "reversed": "不公平的竞争、达成共识"
+    },
+    {
+      "id": 41,
+      "name_cn": "权杖6",
+      "name_en": "VI of Wands",
+      "arcana_type": "Wands",
+      "upright": "获得胜利、成功得到回报、进展顺利、有望水到渠成",
+      "reversed": "短暂的成功、骄傲自满、失去自信"
+    },
+    {
+      "id": 42,
+      "name_cn": "权杖7",
+      "name_en": "VII of Wands",
+      "arcana_type": "Wands",
+      "upright": "坚定信念、态度坚定、内芯的权衡与决断、相信自己的观点与能力",
+      "reversed": "对自己的能力产生怀疑、缺乏自信与动力、缺乏意志力"
+    },
+    {
+      "id": 43,
+      "name_cn": "权杖8",
+      "name_en": "VIII of Wands",
+      "arcana_type": "Wands",
+      "upright": "目标明确、一鼓作气、进展神速、趁热打铁、旅行",
+      "reversed": "方向错误、行动不一致、急躁冲动、计划延误"
+    },
+    {
+      "id": 44,
+      "name_cn": "权杖9",
+      "name_en": "IX of Wands",
+      "arcana_type": "Wands",
+      "upright": "做好准备以应对困难、自我防御、蓄势待发、力量的对立",
+      "reversed": "遭遇逆境、失去自信、士气低落"
+    },
+    {
+      "id": 45,
+      "name_cn": "权杖10",
+      "name_en": "X of Wands",
+      "arcana_type": "Wands",
+      "upright": "责任感、内芯的热忱、过重的负担、过度劳累",
+      "reversed": "难以承受的压力、高估自身的能力、调整自己的步调、逃避责任"
+    },
+    {
+      "id": 46,
+      "name_cn": "权杖国王",
+      "name_en": "King of Wands",
+      "arcana_type": "Wands",
+      "upright": "行动力强、态度明确、运筹帷幄、领袖魅力",
+      "reversed": "独断专行、严苛、态度傲慢"
+    },
+    {
+      "id": 47,
+      "name_cn": "权杖王后",
+      "name_en": "Queen of Wands",
+      "arcana_type": "Wands",
+      "upright": "刚柔并济、热情而温和、乐观而活泼",
+      "reversed": "情绪化、信心不足、热情消退、孤独"
+    },
+    {
+      "id": 48,
+      "name_cn": "权杖骑士",
+      "name_en": "Knight of Wands",
+      "arcana_type": "Wands",
+      "upright": "行动力、精力充沛、新的旅程、对现状不满足的改变",
+      "reversed": "有勇无谋、鲁莽、行动延迟、计划不周、急躁"
+    },
+    {
+      "id": 49,
+      "name_cn": "权杖侍从",
+      "name_en": "Page of Wands",
+      "arcana_type": "Wands",
+      "upright": "新计划的开始、尝试新事物、好消息传来",
+      "reversed": "三分钟热度、规划太久导致进展不顺、坏消息传来"
+    },
+    {
+      "id": 50,
+      "name_cn": "圣杯ACE",
+      "name_en": "Ace of Cups",
+      "arcana_type": "Cups",
+      "upright": "新恋情或新友情、精神愉悦、心灵满足",
+      "reversed": "情感缺失、缺乏交流、虚情假意"
+    },
+    {
+      "id": 51,
+      "name_cn": "圣杯2",
+      "name_en": "II of Cups",
+      "arcana_type": "Cups",
+      "upright": "和谐对等的关系、情侣间的相互喜爱、合作顺利",
+      "reversed": "两性关系趋于极端、情感的割裂、双方不平等、冲突"
+    },
+    {
+      "id": 52,
+      "name_cn": "圣杯3",
+      "name_en": "III of Cups",
+      "arcana_type": "Cups",
+      "upright": "达成合作、努力取得成果",
+      "reversed": "乐极生悲、无法达成共识、团队不和"
+    },
+    {
+      "id": 53,
+      "name_cn": "圣杯4",
+      "name_en": "IV of Cups",
+      "arcana_type": "Cups",
+      "upright": "身心俱疲、缺乏动力、对事物缺乏兴趣、情绪低潮",
+      "reversed": "新的人际关系、有所行动、脱离低潮期"
+    },
+    {
+      "id": 54,
+      "name_cn": "圣杯5",
+      "name_en": "V of Cups",
+      "arcana_type": "Cups",
+      "upright": "过度注意失去的事物、自责、自我怀疑、因孤傲而拒绝外界帮助",
+      "reversed": "走出悲伤、破釜沉舟、东山再起"
+    },
+    {
+      "id": 55,
+      "name_cn": "圣杯6",
+      "name_en": "VI of Cups",
+      "arcana_type": "Cups",
+      "upright": "思乡、美好的回忆、纯真的情感、简单的快乐、安全感",
+      "reversed": "沉溺于过去、不美好的回忆、不甘受束缚"
+    },
+    {
+      "id": 56,
+      "name_cn": "圣杯7",
+      "name_en": "VII of Cups",
+      "arcana_type": "Cups",
+      "upright": "不切实际的幻想、不踏实的人际关系、虚幻的情感、生活混乱",
+      "reversed": "看清现实、对物质的不满足、做出明智的选择"
+    },
+    {
+      "id": 57,
+      "name_cn": "圣杯8",
+      "name_en": "VIII of Cups",
+      "arcana_type": "Cups",
+      "upright": "离开熟悉的人事物、不沉醉于目前的成果、经考虑后的行动",
+      "reversed": "犹豫不决、失去未来的规划、维持现状"
+    },
+    {
+      "id": 58,
+      "name_cn": "圣杯9",
+      "name_en": "IX of Cups",
+      "arcana_type": "Cups",
+      "upright": "愿望极有可能实现、满足现状、物质与精神富足",
+      "reversed": "物质受损失、不懂节制、寻求更高层次的快乐"
+    },
+    {
+      "id": 59,
+      "name_cn": "圣杯10",
+      "name_en": "X of Cups",
+      "arcana_type": "Cups",
+      "upright": "团队和谐、人际关系融洽、家庭和睦",
+      "reversed": "团队不和、人际关系不和、冲突"
+    },
+    {
+      "id": 60,
+      "name_cn": "圣杯国王",
+      "name_en": "King of Cups",
+      "arcana_type": "Cups",
+      "upright": "创造力、决策力、某方面的专家、有条件的分享或交换",
+      "reversed": "表里不一、行为另有所图、对自我创造力的不信任"
+    },
+    {
+      "id": 61,
+      "name_cn": "圣杯王后",
+      "name_en": "Queen of Cups",
+      "arcana_type": "Cups",
+      "upright": "感情丰富而细腻、重视直觉、感性的思考",
+      "reversed": "过度情绪化、用情不专、心灵的孤立"
+    },
+    {
+      "id": 62,
+      "name_cn": "圣杯骑士",
+      "name_en": "Knight of Cups",
+      "arcana_type": "Cups",
+      "upright": "在等待与行动之间做出决定、新的机会即将到来",
+      "reversed": "用情不专、消极的等待、对于情感的行动错误"
+    },
+    {
+      "id": 63,
+      "name_cn": "圣杯侍从",
+      "name_en": "Page of Cups",
+      "arcana_type": "Cups",
+      "upright": "情感的表达与奉献、积极的消息即将传来、情感的追求但不成熟",
+      "reversed": "情感的追求但错误、感情暧昧、过度执着于情感或问题"
+    },
+    {
+      "id": 64,
+      "name_cn": "星币ACE",
+      "name_en": "Ace of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "新的机遇、顺利发展、物质回报",
+      "reversed": "金钱上的损失、发展不顺、物质丰富但精神虚空"
+    },
+    {
+      "id": 65,
+      "name_cn": "星币2",
+      "name_en": "II of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "收支平衡、财富的流通、生活的波动与平衡",
+      "reversed": "用钱过度、难以维持平衡、面临物质的损失"
+    },
+    {
+      "id": 66,
+      "name_cn": "星币3",
+      "name_en": "III of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "团队合作、沟通顺畅、工作熟练、关系稳定",
+      "reversed": "分工不明确、人际关系不和、专业技能不足"
+    },
+    {
+      "id": 67,
+      "name_cn": "星币4",
+      "name_en": "IV of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "安于现状、吝啬、守财奴、财富停滞、精神匮乏",
+      "reversed": "入不敷出、奢侈无度、挥霍"
+    },
+    {
+      "id": 68,
+      "name_cn": "星币5",
+      "name_en": "V of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "经济危机、同甘共苦、艰难时刻",
+      "reversed": "居住问题、生活混乱、劳燕分飞"
+    },
+    {
+      "id": 69,
+      "name_cn": "星币6",
+      "name_en": "VI of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "慷慨、给予、礼尚往来、财务稳定且乐观",
+      "reversed": "自私、暗藏心机、负债或在情义上亏欠于人"
+    },
+    {
+      "id": 70,
+      "name_cn": "星币7",
+      "name_en": "VII of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "等待时机成熟、取得阶段性成果、思考计划",
+      "reversed": "事倍功半、投资失利、踟蹰不决"
+    },
+    {
+      "id": 71,
+      "name_cn": "星币8",
+      "name_en": "VIII of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "工作专注、技能娴熟、进取心、做事有条理",
+      "reversed": "精力分散、工作乏味、工作产出不佳"
+    },
+    {
+      "id": 72,
+      "name_cn": "星币9",
+      "name_en": "IX of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "事业收获、持续为自己创造有利条件、懂得理财储蓄",
+      "reversed": "失去财富、舍弃金钱追求生活、管理能力欠缺"
+    },
+    {
+      "id": 73,
+      "name_cn": "星币10",
+      "name_en": "X of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "团队和谐、成功的事业伙伴、家族和谐",
+      "reversed": "团队不和、投资合伙暂缓、家庭陷入不和"
+    },
+    {
+      "id": 74,
+      "name_cn": "星币国王",
+      "name_en": "King of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "成功人士、追求物质、善于经营、值得信赖、成熟务实",
+      "reversed": "缺乏经济头脑、缺乏信任、管理不善、失去信赖"
+    },
+    {
+      "id": 75,
+      "name_cn": "星币王后",
+      "name_en": "Queen of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "成熟、繁荣、值得信赖、温暖、安宁",
+      "reversed": "爱慕虚荣、生活浮华、态度恶劣"
+    },
+    {
+      "id": 76,
+      "name_cn": "星币骑士",
+      "name_en": "Knight of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "讲究效率、责任感赖、稳重、有计划",
+      "reversed": "懈怠、思想保守、发展停滞不前"
+    },
+    {
+      "id": 77,
+      "name_cn": "星币侍从",
+      "name_en": "Page of Pentacles",
+      "arcana_type": "Pentacles",
+      "upright": "善于思考和学习、求知欲旺盛、与知识或者研究工作有关的好消息",
+      "reversed": "知识贫乏、自我认知不足、金钱上面临损失、视野狭窄"
+    }
+  ],
+  "spreads": [
+    {
+      "name": "圣三角牌阵",
+      "cards_num": 3,
+      "cut": false,
+      "representations": [
+        [
+          "处境",
+          "行动",
+          "结果"
+        ],
+        [
+          "现状",
+          "愿望",
+          "行动"
+        ]
+      ]
+    },
+    {
+      "name": "时间之流牌阵",
+      "cards_num": 3,
+      "cut": true,
+      "representations": [
+        [
+          "过去",
+          "现在",
+          "未来",
+          "问卜者的主观想法"
+        ]
+      ]
+    },
+    {
+      "name": "四要素牌阵",
+      "cards_num": 4,
+      "cut": false,
+      "representations": [
+        [
+          "火，象征行动，行动上的建议",
+          "气，象征言语，言语上的对策",
+          "水，象征感情，感情上的态度",
+          "土，象征物质，物质上的准备"
+        ]
+      ]
+    },
+    {
+      "name": "五牌阵",
+      "cards_num": 5,
+      "cut": true,
+      "representations": [
+        [
+          "现在或主要问题",
+          "过去的影响",
+          "未来",
+          "主要原因",
+          "行动可能带来的结果"
+        ]
+      ]
+    },
+    {
+      "name": "吉普赛十字阵",
+      "cards_num": 5,
+      "cut": false,
+      "representations": [
+        [
+          "对方的想法",
+          "你的想法",
+          "相处中存在的问题",
+          "二人目前的环境",
+          "关系发展的结果"
+        ]
+      ]
+    },
+    {
+      "name": "马蹄牌阵",
+      "cards_num": 6,
+      "cut": true,
+      "representations": [
+        [
+          "现状",
+          "可预知的情况",
+          "不可预知的情况",
+          "即将发生的",
+          "结果",
+          "问卜者的主观想法"
+        ]
+      ]
+    },
+    {
+      "name": "六芒星牌阵",
+      "cards_num": 7,
+      "cut": true,
+      "representations": [
+        [
+          "过去",
+          "现在",
+          "未来",
+          "对策",
+          "环境",
+          "态度",
+          "预测结果"
+        ]
+      ]
+    },
+    {
+      "name": "平安扇牌阵",
+      "cards_num": 4,
+      "cut": false,
+      "representations": [
+        [
+          "人际关系现状",
+          "与对方结识的因缘",
+          "双方关系的发展",
+          "双方关系的结论"
+        ]
+      ]
+    },
+    {
+      "name": "沙迪若之星牌阵",
+      "cards_num": 6,
+      "cut": true,
+      "representations": [
+        [
+          "问卜者的感受",
+          "问卜者的问题",
+          "问题下的影响因素",
+          "将问卜者与问题纠缠在一起的往事",
+          "需要注意/考虑的",
+          "可能的结果"
+        ]
+      ]
+    }
+  ]
+}

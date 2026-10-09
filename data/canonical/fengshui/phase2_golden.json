@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-golden",
+  "domain": "fengshui",
+  "provider": "tianji_kb.operations.fengshui_chart.chart",
+  "review_basis": "手工固定角度分区边界；原文20年长度；绝对1864锚点仅调用方研究假设，未核实。",
+  "cases": [
+    {
+      "id": "fengshui.north-wrap",
+      "variant": "compass-half-open-explicit-epoch-v1",
+      "input": {
+        "degrees": 360
+      },
+      "expected": {
+        "mountain": "子",
+        "mountain_element": "水",
+        "trigram": "坎",
+        "trigram_element": "水",
+        "opposite": "午",
+        "period": null
+      }
+    },
+    {
+      "id": "fengshui.boundary-gui",
+      "variant": "compass-half-open-explicit-epoch-v1",
+      "input": {
+        "degrees": 7.5
+      },
+      "expected": {
+        "mountain": "癸",
+        "trigram": "坎",
+        "opposite": "丁"
+      }
+    },
+    {
+      "id": "fengshui.gen-boundary",
+      "variant": "compass-half-open-explicit-epoch-v1",
+      "input": {
+        "degrees": 37.5
+      },
+      "expected": {
+        "mountain": "艮",
+        "trigram": "艮",
+        "trigram_element": "土",
+        "opposite": "坤"
+      }
+    },
+    {
+      "id": "fengshui.research-period-transition",
+      "variant": "compass-half-open-explicit-epoch-v1",
+      "input": {
+        "degrees": 180,
+        "year": 2024,
+        "epoch_year": 1864,
+        "research": true
+      },
+      "expected": {
+        "mountain": "午",
+        "trigram": "离",
+        "period": {
+          "yuan": "下元",
+          "period": 9,
+          "start_year": 2024,
+          "end_year": 2043,
+          "production_eligible": false,
+          "epoch_evidence_level": "D"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "hetu-luoshu-jbbom",
+  "repo": "JbBom/hetu-cube-3d",
+  "branch": "main",
+  "commit": "928c82e45fc3fb854c639ad1fa1deddd39930edc",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "hetu",
+    "luoshu",
+    "bagua",
+    "foundations"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "README.md",
+      "snapshot_path": "data/quarantine/source_snapshots/hetu-luoshu-jbbom/README.md",
+      "sha256": "2749c6000b5b9e2fc40b3a9e9c22eb58614c600ec682f9866244aa1a0e91edee",
+      "bytes": 10046
+    },
+    {
+      "source_path": "luoshu-magic.html",
+      "snapshot_path": "data/quarantine/source_snapshots/hetu-luoshu-jbbom/luoshu-magic.html",
+      "sha256": "6f3da23bf64a83dcf184de615a6f8c29b402a209059e1398b94c9e1d4ac61bce",
+      "bytes": 14713
+    },
+    {
+      "source_path": "hetu-cube.html",
+      "snapshot_path": "data/quarantine/source_snapshots/hetu-luoshu-jbbom/hetu-cube.html",
+      "sha256": "b7931ff9d36c94d966bc6c8338340261880abde918ff488a1ac67b377e4e2e24",
+      "bytes": 58707
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

@@ -1,0 +1,633 @@
+{
+  "generated_at": "2026-10-01T22:46:20.878746+00:00",
+  "changed_sources": 0,
+  "sources": {
+    "bazi-skill": {
+      "repo": "jinchenma94/bazi-skill",
+      "branch": "main",
+      "head_sha": "112a5d84cd1a001a0038cafca3be68d93e4c0cc9",
+      "previous_sha": "112a5d84cd1a001a0038cafca3be68d93e4c0cc9",
+      "changed": false,
+      "updated_at": "2026-10-01T19:49:08Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "bazi",
+        "foundations"
+      ],
+      "sync_status": "ok"
+    },
+    "chinese-almanac-mcp": {
+      "repo": "yonlandwu/chinese-almanac-mcp",
+      "branch": "main",
+      "head_sha": "959670751703a4a70db91e479c67b80b3c60514a",
+      "previous_sha": "959670751703a4a70db91e479c67b80b3c60514a",
+      "changed": false,
+      "updated_at": "2026-08-28T09:21:21Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "zeri",
+        "almanac",
+        "ganzhi"
+      ],
+      "sync_status": "ok"
+    },
+    "chinese-literature-dataset": {
+      "repo": "nursery42/ChineseliteratureDataset",
+      "branch": "main",
+      "head_sha": "a17ee61652828dfe3580cea9c6f9db5f45f20a1f",
+      "previous_sha": "a17ee61652828dfe3580cea9c6f9db5f45f20a1f",
+      "changed": false,
+      "updated_at": "2026-08-25T02:01:12Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY",
+      "domains": [
+        "yijing",
+        "classics"
+      ],
+      "sync_status": "ok"
+    },
+    "daizhigev20": {
+      "repo": "garychowcmu/daizhigev20",
+      "branch": "master",
+      "head_sha": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "previous_sha": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "changed": false,
+      "updated_at": "2026-10-01T11:58:31Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY",
+      "domains": [
+        "yijing",
+        "classics",
+        "bazi",
+        "qimen",
+        "meihua",
+        "fengshui",
+        "liuren",
+        "taiyi"
+      ],
+      "sync_status": "ok"
+    },
+    "divination-liuyao": {
+      "repo": "SmallTeddyGames/divination-liuyao",
+      "branch": "main",
+      "head_sha": "518b14a4a2cf8d3ad57bf665e48328783c2f3ac6",
+      "previous_sha": "518b14a4a2cf8d3ad57bf665e48328783c2f3ac6",
+      "changed": false,
+      "updated_at": "2026-09-25T13:26:07Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "REFERENCE_ONLY",
+      "domains": [
+        "liuyao",
+        "bagua",
+        "yijing"
+      ],
+      "sync_status": "ok"
+    },
+    "fengshui-master-jackie": {
+      "repo": "JackieL233/fengshui-master",
+      "branch": "main",
+      "head_sha": "2666304c5cb4ac13091c8c1fcdd4e40c218b275a",
+      "previous_sha": "2666304c5cb4ac13091c8c1fcdd4e40c218b275a",
+      "changed": false,
+      "updated_at": "2026-09-29T04:46:53Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "fengshui",
+        "bagua",
+        "bazhai",
+        "xuan-kong",
+        "minggua"
+      ],
+      "sync_status": "ok"
+    },
+    "fengshui-skill": {
+      "repo": "voidforall/fengshui.skill",
+      "branch": "main",
+      "head_sha": "91762ccda4ea106260ff43f336df14adf08ae57d",
+      "previous_sha": "91762ccda4ea106260ff43f336df14adf08ae57d",
+      "changed": false,
+      "updated_at": "2026-10-01T14:52:09Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "REFERENCE_ONLY",
+      "domains": [
+        "fengshui",
+        "zeri",
+        "foundations"
+      ],
+      "sync_status": "ok"
+    },
+    "fundgao-zhouyi": {
+      "repo": "fundgao/DAO_DE_JING",
+      "branch": "main",
+      "head_sha": "79c241f01064778fa85f7a532073f3bfb1f779c3",
+      "previous_sha": "79c241f01064778fa85f7a532073f3bfb1f779c3",
+      "changed": false,
+      "updated_at": "2026-09-30T09:04:11Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "yijing",
+        "bagua",
+        "classics"
+      ],
+      "sync_status": "ok"
+    },
+    "godcong-yi": {
+      "repo": "godcong/yi",
+      "branch": "master",
+      "head_sha": "517293838bd49a7ad22edf47422074c6bf9cd656",
+      "previous_sha": "517293838bd49a7ad22edf47422074c6bf9cd656",
+      "changed": false,
+      "updated_at": "2026-07-06T22:50:45Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "yijing",
+        "bagua",
+        "liuyao",
+        "meihua"
+      ],
+      "sync_status": "ok"
+    },
+    "hetu-luoshu-jbbom": {
+      "repo": "JbBom/hetu-cube-3d",
+      "branch": "main",
+      "head_sha": "928c82e45fc3fb854c639ad1fa1deddd39930edc",
+      "previous_sha": "928c82e45fc3fb854c639ad1fa1deddd39930edc",
+      "changed": false,
+      "updated_at": "2026-09-13T06:43:20Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "hetu",
+        "luoshu",
+        "bagua",
+        "foundations"
+      ],
+      "sync_status": "ok"
+    },
+    "hetu-luoshu-wuji": {
+      "repo": "wuji-labs/hetu-luoshu",
+      "branch": "main",
+      "head_sha": "6fd644c8a45d984da6bd885cd5d981525a3ddff6",
+      "previous_sha": "6fd644c8a45d984da6bd885cd5d981525a3ddff6",
+      "changed": false,
+      "updated_at": "2026-09-28T13:57:30Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "yijing",
+        "methodology"
+      ],
+      "sync_status": "ok"
+    },
+    "iztro": {
+      "repo": "SylarLong/iztro",
+      "branch": "main",
+      "head_sha": "2c7ef9be669df7b19d1799f4dce335fed3794f78",
+      "previous_sha": "2c7ef9be669df7b19d1799f4dce335fed3794f78",
+      "changed": false,
+      "updated_at": "2026-09-30T16:12:24Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "ziwei"
+      ],
+      "sync_status": "ok"
+    },
+    "kinliuren": {
+      "repo": "kentang2017/kinliuren",
+      "branch": "master",
+      "head_sha": "3ba45a9540f08269b56d81508a061c7d46938785",
+      "previous_sha": "3ba45a9540f08269b56d81508a061c7d46938785",
+      "changed": false,
+      "updated_at": "2026-09-30T16:19:57Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "liuren"
+      ],
+      "sync_status": "ok"
+    },
+    "kintaiyi": {
+      "repo": "kentang2017/kintaiyi",
+      "branch": "master",
+      "head_sha": "626d8a5bd0f707fec2ed613c83d4b6611f56441d",
+      "previous_sha": "626d8a5bd0f707fec2ed613c83d4b6611f56441d",
+      "changed": false,
+      "updated_at": "2026-09-30T16:20:34Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "taiyi"
+      ],
+      "sync_status": "ok"
+    },
+    "liuyao-engine": {
+      "repo": "yaomancy/liuyao-engine",
+      "branch": "main",
+      "head_sha": "53291663a4c733c4cbdfa174a8d3075475c07fd3",
+      "previous_sha": "53291663a4c733c4cbdfa174a8d3075475c07fd3",
+      "changed": false,
+      "updated_at": "2026-09-30T12:03:46Z",
+      "detected_license_spdx": "Apache-2.0",
+      "registry_license_spdx": "Apache-2.0",
+      "license_policy": "ALLOW",
+      "domains": [
+        "liuyao",
+        "yijing",
+        "bagua",
+        "classics"
+      ],
+      "sync_status": "ok"
+    },
+    "lunar-python": {
+      "repo": "6tail/lunar-python",
+      "branch": "master",
+      "head_sha": "448f397c1695cadab3899bf460e0042cab7f0e66",
+      "previous_sha": "448f397c1695cadab3899bf460e0042cab7f0e66",
+      "changed": false,
+      "updated_at": "2026-09-30T07:26:34Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "calendar",
+        "ganzhi",
+        "bazi",
+        "foundations"
+      ],
+      "sync_status": "ok"
+    },
+    "master-skill": {
+      "repo": "xr843/Master-skill",
+      "branch": "main",
+      "head_sha": "77296f6f07228513b8c37dba822a77b17e520c37",
+      "previous_sha": "77296f6f07228513b8c37dba822a77b17e520c37",
+      "changed": false,
+      "updated_at": "2026-09-29T12:39:12Z",
+      "detected_license_spdx": "NOASSERTION",
+      "registry_license_spdx": "MIT/CC-BY-NC-SA-4.0/mixed",
+      "license_policy": "NON_COMMERCIAL",
+      "domains": [
+        "buddhism",
+        "classics",
+        "provenance"
+      ],
+      "sync_status": "ok"
+    },
+    "meihua-mhynbnb": {
+      "repo": "mhynbnb/meihua",
+      "branch": "master",
+      "head_sha": "20790f5575e30f03937a8824290fe682671211ef",
+      "previous_sha": "20790f5575e30f03937a8824290fe682671211ef",
+      "changed": false,
+      "updated_at": "2026-07-28T12:22:34Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "REFERENCE_ONLY",
+      "domains": [
+        "meihua"
+      ],
+      "sync_status": "ok"
+    },
+    "metaphysics-steward": {
+      "repo": "superzhang21/metaphysics-steward",
+      "branch": "main",
+      "head_sha": "0c1dcf5fd27c68debe5607f5caa697722319aed8",
+      "previous_sha": "0c1dcf5fd27c68debe5607f5caa697722319aed8",
+      "changed": false,
+      "updated_at": "2026-09-30T17:28:23Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "liuyao",
+        "meihua",
+        "yinyuan"
+      ],
+      "sync_status": "ok"
+    },
+    "mikaboshi-compass": {
+      "repo": "minagawah/mikaboshi",
+      "branch": "main",
+      "head_sha": "b958205ce1a0402c033c0ea890b9c6d7a02a89b8",
+      "previous_sha": "b958205ce1a0402c033c0ea890b9c6d7a02a89b8",
+      "changed": false,
+      "updated_at": "2026-09-25T02:21:54Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "fengshui",
+        "compass",
+        "bagua",
+        "ganzhi"
+      ],
+      "sync_status": "ok"
+    },
+    "numerologist-skills": {
+      "repo": "FANzR-arch/Numerologist_skills",
+      "branch": "main",
+      "head_sha": "ea28c3fb7e808fa74f6b8e7b4c9ac8c8a9d44c39",
+      "previous_sha": "ea28c3fb7e808fa74f6b8e7b4c9ac8c8a9d44c39",
+      "changed": false,
+      "updated_at": "2026-10-01T16:37:50Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "REFERENCE_ONLY",
+      "domains": [
+        "bazi",
+        "ziwei",
+        "qimen"
+      ],
+      "sync_status": "ok"
+    },
+    "open-iching-classics": {
+      "repo": "john-walks-slow/open-iching",
+      "branch": "main",
+      "head_sha": "4c5f00f8cb62c6e0d2471243d28150b473ef592f",
+      "previous_sha": "4c5f00f8cb62c6e0d2471243d28150b473ef592f",
+      "changed": false,
+      "updated_at": "2026-09-09T01:36:44Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY",
+      "domains": [
+        "yijing",
+        "classics"
+      ],
+      "sync_status": "ok"
+    },
+    "qimen-qfdk": {
+      "repo": "qfdk/qimen",
+      "branch": "master",
+      "head_sha": "1d0d1c5b39755e67525a11e68bab9b73baae1937",
+      "previous_sha": "1d0d1c5b39755e67525a11e68bab9b73baae1937",
+      "changed": false,
+      "updated_at": "2026-09-29T12:34:57Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "qimen"
+      ],
+      "sync_status": "ok"
+    },
+    "reading-yijing": {
+      "repo": "damaainan/Reading",
+      "branch": "master",
+      "head_sha": "556a1098bf1ad30ed152aa4186aaef20fb136268",
+      "previous_sha": "556a1098bf1ad30ed152aa4186aaef20fb136268",
+      "changed": false,
+      "updated_at": "2023-01-09T01:24:25Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY",
+      "domains": [
+        "yijing",
+        "classics"
+      ],
+      "sync_status": "ok"
+    },
+    "taibu": {
+      "repo": "hhszzzz/taibu",
+      "branch": "master",
+      "head_sha": "0d188be179d4ea0d938d2b73d351bf6f51afa60a",
+      "previous_sha": "0d188be179d4ea0d938d2b73d351bf6f51afa60a",
+      "changed": false,
+      "updated_at": "2026-10-01T16:38:14Z",
+      "detected_license_spdx": "NOASSERTION",
+      "registry_license_spdx": "AGPL-3.0-only/MIT-mixed",
+      "license_policy": "COPYLEFT",
+      "domains": [
+        "bazi",
+        "ziwei",
+        "liuyao",
+        "meihua",
+        "qimen",
+        "liuren",
+        "taiyi",
+        "tarot",
+        "yinyuan"
+      ],
+      "sync_status": "ok"
+    },
+    "taiyipython": {
+      "repo": "wlhyl/taiyipython",
+      "branch": "master",
+      "head_sha": "5fd078994dc6b96641d87d9f0331a0304541ee01",
+      "previous_sha": "5fd078994dc6b96641d87d9f0331a0304541ee01",
+      "changed": false,
+      "updated_at": "2026-07-22T06:19:58Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "REFERENCE_ONLY",
+      "domains": [
+        "taiyi"
+      ],
+      "sync_status": "ok"
+    },
+    "tarot-nonebot": {
+      "repo": "MinatoAquaCrews/nonebot_plugin_tarot",
+      "branch": "master",
+      "head_sha": "5b8638f0e9421bc6b04ecc501d8d999e90e1cd79",
+      "previous_sha": "5b8638f0e9421bc6b04ecc501d8d999e90e1cd79",
+      "changed": false,
+      "updated_at": "2026-08-25T03:51:31Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "tarot"
+      ],
+      "sync_status": "ok"
+    },
+    "tarot-skill": {
+      "repo": "daman-ovo-0404/tarot-skill",
+      "branch": "main",
+      "head_sha": "a9f59f02b3df8a539e9ec618fb4757d481443803",
+      "previous_sha": "a9f59f02b3df8a539e9ec618fb4757d481443803",
+      "changed": false,
+      "updated_at": "2026-10-01T16:38:22Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "REFERENCE_ONLY",
+      "domains": [
+        "tarot"
+      ],
+      "sync_status": "ok"
+    },
+    "tarot-smallteddy": {
+      "repo": "SmallTeddyGames/divination-tarot",
+      "branch": "main",
+      "head_sha": "6b393a3f6fa6ec4c29a5a1d9ac73f191a8265a1f",
+      "previous_sha": "6b393a3f6fa6ec4c29a5a1d9ac73f191a8265a1f",
+      "changed": false,
+      "updated_at": "2024-11-22T17:16:07Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "tarot"
+      ],
+      "sync_status": "ok"
+    },
+    "xuanxue-youngzs": {
+      "repo": "youngzs/xuanxue",
+      "branch": "main",
+      "head_sha": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+      "previous_sha": "aa7bc942602d2d88ef94778a726c0d19a4d286ff",
+      "changed": false,
+      "updated_at": "2026-09-26T05:55:31Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY",
+      "domains": [
+        "yijing",
+        "classics"
+      ],
+      "sync_status": "ok"
+    },
+    "yijing-bazi-mcp": {
+      "repo": "SiwuXue/yijing-bazi-mcp-server",
+      "branch": "main",
+      "head_sha": "c71d6485169218e0ec9b755214f3875b3ffc13a2",
+      "previous_sha": "c71d6485169218e0ec9b755214f3875b3ffc13a2",
+      "changed": false,
+      "updated_at": "2026-09-20T07:41:18Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "REFERENCE_ONLY",
+      "domains": [
+        "yijing",
+        "bagua",
+        "bazi",
+        "foundations"
+      ],
+      "sync_status": "ok"
+    },
+    "yinyuan-skills": {
+      "repo": "Ming-H/yinyuan-skills",
+      "branch": "main",
+      "head_sha": "b091c8861a148b8260dedfbd06fc10daf7f886fc",
+      "previous_sha": "b091c8861a148b8260dedfbd06fc10daf7f886fc",
+      "changed": false,
+      "updated_at": "2026-10-01T16:38:29Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "REFERENCE_ONLY",
+      "domains": [
+        "yinyuan",
+        "bazi",
+        "ziwei",
+        "zodiac"
+      ],
+      "sync_status": "ok"
+    },
+    "zeri-mcp": {
+      "repo": "shunshi-ai/zeri-mcp",
+      "branch": "main",
+      "head_sha": "40c75a89361dd563086099a5c3cee2cb04dd6501",
+      "previous_sha": "40c75a89361dd563086099a5c3cee2cb04dd6501",
+      "changed": false,
+      "updated_at": "2026-08-15T10:32:59Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "zeri",
+        "almanac",
+        "calendar"
+      ],
+      "sync_status": "ok"
+    },
+    "zhouyi-64": {
+      "repo": "sunls2/zhouyi",
+      "branch": "main",
+      "head_sha": "695013f277dc0548eadf608a6cbabadfbb420312",
+      "previous_sha": "695013f277dc0548eadf608a6cbabadfbb420312",
+      "changed": false,
+      "updated_at": "2026-09-28T00:58:13Z",
+      "detected_license_spdx": null,
+      "registry_license_spdx": null,
+      "license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY",
+      "domains": [
+        "yijing",
+        "bagua"
+      ],
+      "sync_status": "ok"
+    },
+    "zhouyi-skill-qbdx": {
+      "repo": "qbdx-hub/zhouyi-skill",
+      "branch": "main",
+      "head_sha": "bacda91453fb0d6a9b0427103c0117f5a128fe69",
+      "previous_sha": "bacda91453fb0d6a9b0427103c0117f5a128fe69",
+      "changed": false,
+      "updated_at": "2026-08-26T04:04:02Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "yijing",
+        "decision_patterns"
+      ],
+      "sync_status": "ok"
+    },
+    "zhouyilab": {
+      "repo": "banderzhm/ZhouYiLab",
+      "branch": "main",
+      "head_sha": "d8aea5d18c940e7f616b07144cc2b76325727519",
+      "previous_sha": "d8aea5d18c940e7f616b07144cc2b76325727519",
+      "changed": false,
+      "updated_at": "2026-09-30T16:14:23Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "yijing",
+        "bazi",
+        "ziwei",
+        "qimen",
+        "liuyao",
+        "meihua",
+        "liuren"
+      ],
+      "sync_status": "ok"
+    },
+    "niutrans-classical-modern": {
+      "repo": "NiuTrans/Classical-Modern",
+      "branch": "main",
+      "head_sha": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+      "previous_sha": "4e746ea9fa99c3c0d7051c45397330bef7b0962d",
+      "changed": false,
+      "updated_at": "2026-09-29T02:33:36Z",
+      "detected_license_spdx": "MIT",
+      "registry_license_spdx": "MIT",
+      "license_policy": "ALLOW",
+      "domains": [
+        "bazi",
+        "classics",
+        "collation"
+      ],
+      "sync_status": "ok"
+    }
+  }
+}

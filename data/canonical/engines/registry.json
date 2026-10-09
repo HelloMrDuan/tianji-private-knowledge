@@ -1,0 +1,127 @@
+{
+  "schema_version": "0.1",
+  "purpose": "Deterministic computation engines used before RAG/LLM interpretation.",
+  "engines": [
+    {
+      "domain": [
+        "calendar",
+        "ganzhi",
+        "bazi"
+      ],
+      "repo": "6tail/lunar-python",
+      "license": "MIT",
+      "language": "Python",
+      "role": "历法/节气/干支/八字基础计算",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "ziwei"
+      ],
+      "repo": "SylarLong/iztro",
+      "license": "MIT",
+      "language": "TypeScript",
+      "role": "紫微斗数确定性排盘",
+      "ruleset": "iztro-default-v2",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "qimen"
+      ],
+      "repo": "qfdk/qimen",
+      "license": "MIT",
+      "language": "JavaScript",
+      "role": "茅山派转盘奇门确定性排盘",
+      "ruleset": "qfdk-maoshan-zhuanpan-v1",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "liuyao",
+        "meihua",
+        "yinyuan"
+      ],
+      "repo": "superzhang21/metaphysics-steward",
+      "license": "MIT",
+      "language": "Python",
+      "role": "六爻纳甲/梅花/合婚规则与黄金案例",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "liuren"
+      ],
+      "repo": "kentang2017/kinliuren",
+      "license": "MIT",
+      "language": "Python",
+      "role": "大六壬天地盘/四课三传计算",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "taiyi"
+      ],
+      "repo": "kentang2017/kintaiyi",
+      "license": "MIT",
+      "language": "Python",
+      "role": "太乙年/月/日/时局等确定性计算",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "zeri"
+      ],
+      "repo": "shunshi-ai/zeri-mcp",
+      "license": "MIT",
+      "language": "TypeScript",
+      "role": "黄历宜忌驱动的确定性择日",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "almanac",
+        "zeri"
+      ],
+      "repo": "yonlandwu/chinese-almanac-mcp",
+      "license": "MIT",
+      "language": "TypeScript",
+      "role": "透明黄历评分与固定忌日规则",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "fengshui",
+        "bazhai",
+        "xuan-kong"
+      ],
+      "repo": "JackieL233/fengshui-master",
+      "license": "MIT",
+      "language": "Python",
+      "role": "八宅命卦与基础洛书飞星脚手架",
+      "adapter_status": "planned"
+    },
+    {
+      "domain": [
+        "tarot"
+      ],
+      "repo": "MinatoAquaCrews/nonebot_plugin_tarot",
+      "license": "MIT",
+      "language": "Python/JSON",
+      "role": "78张塔罗及牌阵结构化数据",
+      "adapter_status": "knowledge_only"
+    },
+    {
+      "domain": [
+        "hetu",
+        "luoshu"
+      ],
+      "repo": "JbBom/hetu-cube-3d",
+      "license": "MIT",
+      "language": "JavaScript",
+      "role": "河图/洛书结构化数理关系交叉源",
+      "adapter_status": "knowledge_only"
+    }
+  ],
+  "invariant": "Platform must never ask the LLM to invent deterministic chart/pan results when an engine is available."
+}

@@ -1,0 +1,312 @@
+{
+  "schema_version": "0.1",
+  "domain": "yijing",
+  "batch": "25-32",
+  "source_level": "L0-public-domain-classic",
+  "records": [
+    {
+      "number": 25,
+      "full_name": "天雷无妄",
+      "judgment": "無妄。 元亨利貞。其匪正有眚，不利有攸往。",
+      "image": "天下雷行，物與無妄。先王以茂對時，育萬物。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "無妄，往吉。"
+        },
+        {
+          "position": "六二",
+          "text": "不耕穫，不菑畲，則利有攸往。"
+        },
+        {
+          "position": "六三",
+          "text": "無妄之災。或系之牛，行人之得，邑人之災。"
+        },
+        {
+          "position": "九四",
+          "text": "可貞，無咎。"
+        },
+        {
+          "position": "九五",
+          "text": "無妄之疾，勿藥有喜。"
+        },
+        {
+          "position": "上九",
+          "text": "無妄，行有眚，無攸利。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/25.天雷无妄/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 26,
+      "full_name": "山天大畜",
+      "judgment": "大畜。 利貞，不家食，吉。利涉大川。",
+      "image": "天在山中，大畜。君子以多識前言往行，以畜其德。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "有厲，利已。"
+        },
+        {
+          "position": "九二",
+          "text": "輿說輹。"
+        },
+        {
+          "position": "九三",
+          "text": "良馬逐，利艱貞。曰閒輿衛，利有攸往。"
+        },
+        {
+          "position": "六四",
+          "text": "童牛之牿，元吉。"
+        },
+        {
+          "position": "六五",
+          "text": "豶豕之牙，吉。"
+        },
+        {
+          "position": "上九",
+          "text": "何天之衢，亨。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/26.山天大畜/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 27,
+      "full_name": "山雷颐",
+      "judgment": "頤。 貞吉。觀頤，自求口實。",
+      "image": "山下有雷，頤。君子以慎言語，節飲食。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "舍爾靈龜，觀我朵頤，凶。"
+        },
+        {
+          "position": "六二",
+          "text": "顛頤，拂經;於丘頤，征凶。"
+        },
+        {
+          "position": "六三",
+          "text": "拂頤，貞凶。十年勿用，無攸利。"
+        },
+        {
+          "position": "六四",
+          "text": "顛頤，吉。虎視眈眈，其欲逐逐，無咎。"
+        },
+        {
+          "position": "六五",
+          "text": "拂經，居貞吉。不可涉大川。"
+        },
+        {
+          "position": "上九",
+          "text": "由頤，厲吉。利涉大川。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/27.山雷颐/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 28,
+      "full_name": "泽风大过",
+      "judgment": "大過。 棟橈。利有攸往，亨。",
+      "image": "澤滅木，大過。君子以獨立不懼，遁世無悶。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "藉用白茅，無咎。"
+        },
+        {
+          "position": "九二",
+          "text": "枯楊生稊，老夫得其女妻，無不利。"
+        },
+        {
+          "position": "九三",
+          "text": "棟橈，凶。"
+        },
+        {
+          "position": "九四",
+          "text": "棟隆，吉。有它吝。"
+        },
+        {
+          "position": "九五",
+          "text": "枯楊生花，老婦得其士夫，無咎無譽。"
+        },
+        {
+          "position": "上六",
+          "text": "過涉滅頂，凶，無咎。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/28.泽风大过/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 29,
+      "full_name": "坎为水",
+      "judgment": "習坎。 有孚，維心亨，行有尚。",
+      "image": "水洊至，習坎。君子以常德行，習教事。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "習坎，入於坎窞。凶。"
+        },
+        {
+          "position": "九二",
+          "text": "坎有險，求小得。"
+        },
+        {
+          "position": "六三",
+          "text": "來之坎坎，險且枕，入於坎窞，勿用。"
+        },
+        {
+          "position": "六四",
+          "text": "樽酒簋貳，用缶，納約自牖，終無咎。"
+        },
+        {
+          "position": "九五",
+          "text": "坎不盈，祗既平，無咎。"
+        },
+        {
+          "position": "上六",
+          "text": "系用徵纆，寘於叢棘，三歲不得，凶。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/29.坎为水/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 30,
+      "full_name": "离为火",
+      "judgment": "離。 利貞，亨。畜牝牛，吉。",
+      "image": "明兩作，離。大人以繼明照四方。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "履錯然，敬之，無咎。"
+        },
+        {
+          "position": "六二",
+          "text": "黃離，元吉。"
+        },
+        {
+          "position": "九三",
+          "text": "日昃之離。不鼓缶而歌，則大耋之嗟，凶。"
+        },
+        {
+          "position": "九四",
+          "text": "突如其來如，焚如，死如，棄如。"
+        },
+        {
+          "position": "六五",
+          "text": "出涕沱若，戚嗟若，吉。"
+        },
+        {
+          "position": "上九",
+          "text": "王用出征，有嘉。折首，獲匪其醜，無咎。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/30.离为火/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 31,
+      "full_name": "泽山咸",
+      "judgment": "鹹。 亨，利貞。取女吉。",
+      "image": "山上有澤，鹹。君子以虛受人。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "鹹其拇。"
+        },
+        {
+          "position": "六二",
+          "text": "鹹其腓，凶，居吉。"
+        },
+        {
+          "position": "九三",
+          "text": "鹹其股，執其隨，往吝。"
+        },
+        {
+          "position": "九四",
+          "text": "貞吉悔亡，憧憧往來，朋從爾思。"
+        },
+        {
+          "position": "九五",
+          "text": "鹹其脢，無悔。"
+        },
+        {
+          "position": "上六",
+          "text": "鹹其輔、頰、舌。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/31.泽山咸/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 32,
+      "full_name": "雷风恒",
+      "judgment": "恆。 亨，無咎，利貞。利有攸往。",
+      "image": "雷風恆。君子以立不易方。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "浚恆，貞凶，無攸利。"
+        },
+        {
+          "position": "九二",
+          "text": "悔亡。"
+        },
+        {
+          "position": "九三",
+          "text": "不恆其德，或承之羞，貞吝。"
+        },
+        {
+          "position": "九四",
+          "text": "田無禽。"
+        },
+        {
+          "position": "六五",
+          "text": "恆其德，貞。婦人吉，夫子凶。"
+        },
+        {
+          "position": "上六",
+          "text": "振恆，凶。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/32.雷风恒/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    }
+  ]
+}

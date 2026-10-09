@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-evidence",
+  "domain": "liuyao",
+  "records": [
+    {
+      "id": "liuyao.evidence.phase2.zs01",
+      "rule_ids": [
+        "liuyao.phase2.relatives"
+      ],
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_title": "六親歌章第五",
+      "locator": "UTF-8 text chars [14445,14578); edited excerpt boundary, original chapter heading",
+      "original_text": "乾兌宮金兄、土父、木財、火鬼、水子。乾兌宮八卦都屬金\n坎宮水兄、火財、土鬼、金父、木子。坎宮八卦都屬水。\n坤艮宮土兄、火父、木鬼、水財、金子。坤艮宮八卦都屬土。\n離宮火兄、水鬼、土子、木父﹐金財。離宮八卦都屬火。\n震巽木兄、水父、金鬼、火子、土財。震巽宮八卦都屬木。",
+      "review_status": "approved",
+      "independence_status": "different_work_unverified_edition",
+      "variants": [
+        "jingfang-eight-palaces-v1"
+      ]
+    },
+    {
+      "id": "liuyao.evidence.phase2.zs02",
+      "rule_ids": [
+        "liuyao.phase2.palace"
+      ],
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_title": "世應章第六",
+      "locator": "UTF-8 text chars [14811,14901); edited excerpt boundary, original chapter heading",
+      "original_text": "乾為天「世」在六﹐天風姤「世」在初﹐天山遁「世」在二﹐天地否「世」在三﹐天地觀「世」在四﹐山地剝「世」在五﹐火地晉「世」在四﹐火天大有「世」退在三。\n隔世爻兩位卽是應爻﹐餘卦仿此。",
+      "review_status": "approved",
+      "independence_status": "different_work_unverified_edition",
+      "variants": [
+        "jingfang-eight-palaces-v1"
+      ]
+    },
+    {
+      "id": "liuyao.evidence.phase2.zs03",
+      "rule_ids": [
+        "liuyao.phase2.spirits"
+      ],
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_title": "六神章第十八",
+      "locator": "UTF-8 text chars [22246,22372); edited excerpt boundary, original chapter heading",
+      "original_text": "甲乙日丙丁日戊日　己日　庚辛日壬癸日\n元武　靑龍　朱雀　勾陳　滕蛇　白虎\n白虎　元武　靑龍　朱雀　勾陳　滕蛇\n滕蛇　白虎　元武　靑龍　朱雀　勾陳\n勾陳　滕蛇　白虎　元武　靑龍　朱雀\n朱雀　勾陳　滕蛇　白虎　元武　靑龍\n靑龍　朱雀　勾陳　滕蛇　白虎　元武",
+      "review_status": "approved",
+      "independence_status": "different_work_unverified_edition",
+      "variants": [
+        "jingfang-eight-palaces-v1"
+      ]
+    },
+    {
+      "id": "liuyao.evidence.phase2.zs04",
+      "rule_ids": [
+        "liuyao.phase2.empty"
+      ],
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_title": "旬空章第二十六",
+      "locator": "UTF-8 text chars [29389,29434); edited excerpt boundary, original chapter heading",
+      "original_text": "何謂旬空？如甲子至癸酉日為一旬﹐此十日之內﹐並無戌亥﹐以爻逢戌亥為空亡﹐又名旬空﹐餘仿此。",
+      "review_status": "approved",
+      "independence_status": "different_work_unverified_edition",
+      "variants": [
+        "jingfang-eight-palaces-v1"
+      ]
+    },
+    {
+      "id": "liuyao.evidence.phase2.zs05",
+      "rule_ids": [
+        "liuyao.phase2.month_break"
+      ],
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_title": "月破章第二十七",
+      "locator": "UTF-8 text chars [33044,33098); edited excerpt boundary, original chapter heading",
+      "original_text": "正申、二酉、三戌﹐四亥、五子、六丑、七寅、八卯、九辰﹐十巳、十一午、十二未﹐月建沖之為月破﹐逐月之破日是也。",
+      "review_status": "approved",
+      "independence_status": "different_work_unverified_edition",
+      "variants": [
+        "jingfang-eight-palaces-v1"
+      ]
+    },
+    {
+      "id": "liuyao.evidence.phase2.zs06",
+      "rule_ids": [
+        "liuyao.phase2.motion"
+      ],
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_title": "動變章第七",
+      "locator": "UTF-8 text chars [14908,14946); edited excerpt boundary, original chapter heading",
+      "original_text": "六爻不動則不變﹐動則必變﹐「○」為陽動則變「⚋」﹐「ㄨ』』為陰動則變「⚊」。",
+      "review_status": "approved",
+      "independence_status": "different_work_unverified_edition",
+      "variants": [
+        "jingfang-eight-palaces-v1"
+      ]
+    },
+    {
+      "id": "liuyao.evidence.phase2.zs07",
+      "rule_ids": [
+        "liuyao.phase2.motion"
+      ],
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_title": "動變章第七",
+      "locator": "UTF-8 text chars [15112,15212); edited excerpt boundary, original chapter heading",
+      "original_text": "上三爻坎卦卽是坎在外卦：申金、戌土、子水。四爻申金、五爻戌土、六爻子水﹐變為乾卦。卽是乾在外卦：午火、申金、戌土所以申金變出午火﹐子水變出戌土﹐申爻不動則不變。變出之爻安六親者仍照正卦而推﹐餘卦仿此。",
+      "review_status": "approved",
+      "independence_status": "different_work_unverified_edition",
+      "variants": [
+        "jingfang-eight-palaces-v1"
+      ]
+    },
+    {
+      "id": "liuyao.evidence.phase2.bs-shiying",
+      "rule_ids": [
+        "liuyao.phase2.palace"
+      ],
+      "source_id": "liuyao.source.bushi",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_title": "安世應訣",
+      "locator": "UTF-8 chars [9199,9231)",
+      "original_text": "八卦之首世六當，以下初爻輪上揚，游魂八宮四爻立，歸魂八卦三爻詳。",
+      "review_status": "approved",
+      "independence_status": "different_work_unverified_edition",
+      "variants": [
+        "jingfang-eight-palaces-v1"
+      ]
+    }
+  ]
+}

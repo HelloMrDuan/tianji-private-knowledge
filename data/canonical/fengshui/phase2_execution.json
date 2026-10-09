@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-execution",
+  "domain": "fengshui",
+  "variant": "compass-half-open-explicit-epoch-v1",
+  "provider": "tianji_kb.operations.fengshui_chart.chart",
+  "scope": "角度确定性生产链；元运仅显式epoch研究链",
+  "unresolved": [
+    "1864/1804绝对纪元未证；元运交界立春/农历/公历未裁定；飞星与吉凶不实施"
+  ],
+  "rules": [
+    {
+      "id": "fengshui.phase2.compass",
+      "domain": "fengshui",
+      "name": "compass",
+      "variant": "compass-half-open-explicit-epoch-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "fengshui.rule.r002"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "fengshui.north-wrap",
+        "fengshui.boundary-gui",
+        "fengshui.gen-boundary",
+        "fengshui.research-period-transition"
+      ],
+      "regression_test": "tests/test_phase2_fengshui.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "fengshui.phase2.relative_period",
+      "domain": "fengshui",
+      "name": "relative_period",
+      "variant": "compass-half-open-explicit-epoch-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "fengshui.rule.r008"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "fengshui.north-wrap",
+        "fengshui.boundary-gui",
+        "fengshui.gen-boundary",
+        "fengshui.research-period-transition"
+      ],
+      "regression_test": "tests/test_phase2_fengshui.py",
+      "evidence_scope": "C 原文证明每元60年、每运20年及顺序；绝对epoch与年界假设未核，D，production_eligible=false。"
+    }
+  ]
+}

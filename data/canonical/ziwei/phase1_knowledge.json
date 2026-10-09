@@ -1,0 +1,2650 @@
+{
+  "schema_version": "1.0",
+  "model": "phase1-knowledge",
+  "domain": "ziwei",
+  "classics": [
+    {
+      "id": "ziwei.classic.quanshu",
+      "domain": "ziwei",
+      "name": "紫微斗数全书·古籍短选段（非现代白话）",
+      "source_id": "ziwei.source.quanshu",
+      "body_stage": "quarantine"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ziwei.chapter.quanshu.a5d6b669",
+      "domain": "ziwei",
+      "name": "安十二宮例",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安十二宮例"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.095367bf",
+      "domain": "ziwei",
+      "name": "諸星問答論",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "諸星問答論"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.9ef959c9",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.1b79f86d",
+      "domain": "ziwei",
+      "name": "安左輔右弼星訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安左輔右弼星訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.cd5d8fb5",
+      "domain": "ziwei",
+      "name": "安文昌文曲星訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安文昌文曲星訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.9e5b7633",
+      "domain": "ziwei",
+      "name": "安天魁天鉞訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安天魁天鉞訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.66fd14a6",
+      "domain": "ziwei",
+      "name": "安擎羊陀羅二星訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安擎羊陀羅二星訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.b3ad5913",
+      "domain": "ziwei",
+      "name": "安火鈴二星訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安火鈴二星訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.0779037f",
+      "domain": "ziwei",
+      "name": "天空地劫訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "天空地劫訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.f66de07e",
+      "domain": "ziwei",
+      "name": "安祿存星訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安祿存星訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.ed0eee28",
+      "domain": "ziwei",
+      "name": "安天馬星訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安天馬星訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.9c30cee1",
+      "domain": "ziwei",
+      "name": "安祿權科忌四星變化訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安祿權科忌四星變化訣"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.974e8b4f",
+      "domain": "ziwei",
+      "name": "安長生沐浴十二宮",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安長生沐浴十二宮"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.c0e4b184",
+      "domain": "ziwei",
+      "name": "太微賦",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "太微賦"
+    },
+    {
+      "id": "ziwei.chapter.quanshu.7e289a11",
+      "domain": "ziwei",
+      "name": "安南北斗諸星訣",
+      "classic_id": "ziwei.classic.quanshu",
+      "locator": "安南北斗諸星訣"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ziwei.section.s001",
+      "domain": "ziwei",
+      "name": "安十二宮例·选段1",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.a5d6b669",
+      "source_id": "ziwei.source.quanshu",
+      "text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+      "locator": "安十二宮例; decoded-character interval [51577,51627)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s002",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段2",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "紫微屬土，乃中天之尊星為帝座，主掌造化樞機，人生主宰。",
+      "locator": "諸星問答論; decoded-character interval [10471,10498)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s003",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段3",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "紫微屬土中天星南北斗化帝座為官祿主",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59303,59320)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s004",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段4",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天機屬木，南斗第三益算之善星也。",
+      "locator": "諸星問答論; decoded-character interval [11514,11530)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s005",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段5",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天機屬木南斗化善為兄弟主",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59328,59340)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s006",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段6",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "太陽星屬火，日之精也。",
+      "locator": "諸星問答論; decoded-character interval [12152,12163)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s007",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段7",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "太陽屬火南北斗化貴為官祿主",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59367,59380)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s008",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段8",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "武曲北斗第六星，屬金，乃財帛宮主。",
+      "locator": "諸星問答論; decoded-character interval [13142,13159)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s009",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段9",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "武曲屬金北斗化財為財帛主",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59440,59452)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s010",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段10",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天同星屬水，乃南方第四星也，為福德宮之主宰。",
+      "locator": "諸星問答論; decoded-character interval [13575,13597)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s011",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段11",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天同屬水金南斗化福為福德主",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59388,59401)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s012",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段12",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "廉貞屬火，北斗第五星也。",
+      "locator": "諸星問答論; decoded-character interval [13866,13878)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s013",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段13",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天府屬土，南斗主令第一星也。",
+      "locator": "諸星問答論; decoded-character interval [14195,14209)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s014",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段14",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天府屬土南斗化令星為財帛田宅主",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59460,59475)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s015",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段15",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "太陰乃水之精，為田宅主，化富，與日為配。",
+      "locator": "諸星問答論; decoded-character interval [14608,14628)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s016",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段16",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "太陰屬水南北斗化富為財帛田宅主",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59483,59498)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s017",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段17",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "貪狼北斗解厄之神，第一星也。",
+      "locator": "諸星問答論; decoded-character interval [15097,15111)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s018",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段18",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "貪狼屬水木北斗化桃花殺主禍福",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59506,59520)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s019",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段19",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "巨門屬水、金。",
+      "locator": "諸星問答論; decoded-character interval [15855,15862)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s020",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段20",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "巨門屬水北斗化暗主是非",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59528,59539)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s021",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段21",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天相屬水，南斗第五星也。",
+      "locator": "諸星問答論; decoded-character interval [16265,16277)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s022",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段22",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天相屬水南斗化印為官祿主",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59547,59559)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s023",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段23",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天梁屬土，南斗第二星也。",
+      "locator": "諸星問答論; decoded-character interval [16690,16702)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s024",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段24",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "天梁屬土南斗化蔭主壽星",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59567,59578)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s025",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段25",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "七殺南斗第六星也，屬火、金。",
+      "locator": "諸星問答論; decoded-character interval [17366,17380)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s026",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段26",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "七殺屬火金南斗降星遇帝為權",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59586,59599)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s027",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段27",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "破軍屬水，北斗第七星也，司夫妻、子息、奴僕之神。",
+      "locator": "諸星問答論; decoded-character interval [18055,18079)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s028",
+      "domain": "ziwei",
+      "name": "論諸星分屬南北斗化吉凶並分屬五行·选段28",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9ef959c9",
+      "source_id": "ziwei.source.quanshu",
+      "text": "破軍屬水北斗化耗司夫妻子女奴僕",
+      "locator": "論諸星分屬南北斗化吉凶並分屬五行; decoded-character interval [59607,59622)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s029",
+      "domain": "ziwei",
+      "name": "安左輔右弼星訣·选段29",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.1b79f86d",
+      "source_id": "ziwei.source.quanshu",
+      "text": "左輔正月起於辰",
+      "locator": "安左輔右弼星訣; decoded-character interval [52942,52949)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s030",
+      "domain": "ziwei",
+      "name": "安左輔右弼星訣·选段30",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.1b79f86d",
+      "source_id": "ziwei.source.quanshu",
+      "text": "右弼正月宮尋戌",
+      "locator": "安左輔右弼星訣; decoded-character interval [52958,52965)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s031",
+      "domain": "ziwei",
+      "name": "安文昌文曲星訣·选段31",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.cd5d8fb5",
+      "source_id": "ziwei.source.quanshu",
+      "text": "子時戌上起文昌，逆到生時是貴鄉，文曲數從辰上起，順到生時是本鄉。",
+      "locator": "安文昌文曲星訣; decoded-character interval [52668,52700)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s032",
+      "domain": "ziwei",
+      "name": "安天魁天鉞訣·选段32",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9e5b7633",
+      "source_id": "ziwei.source.quanshu",
+      "text": "甲戊庚牛羊，乙己鼠猴鄉，六辛逢虎馬，壬癸免蛇藏，丙丁豬狗位，此是貴人方。",
+      "locator": "安天魁天鉞訣; decoded-character interval [53187,53223)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s033",
+      "domain": "ziwei",
+      "name": "安擎羊陀羅二星訣·选段33",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.66fd14a6",
+      "source_id": "ziwei.source.quanshu",
+      "text": "祿前擎羊後陀羅",
+      "locator": "安擎羊陀羅二星訣; decoded-character interval [53740,53747)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s034",
+      "domain": "ziwei",
+      "name": "安火鈴二星訣·选段34",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.b3ad5913",
+      "source_id": "ziwei.source.quanshu",
+      "text": "寅午戌人丑卯方，申子辰人寅戌揚，巳酉丑人卯戌位，亥卯未人酉戌房。",
+      "locator": "安火鈴二星訣; decoded-character interval [53952,53984)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s035",
+      "domain": "ziwei",
+      "name": "天空地劫訣·选段35",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.0779037f",
+      "source_id": "ziwei.source.quanshu",
+      "text": "亥上起子順安劫，逆向便是天空鄉。",
+      "locator": "天空地劫訣; decoded-character interval [54414,54430)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s036",
+      "domain": "ziwei",
+      "name": "安祿存星訣·选段36",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.f66de07e",
+      "source_id": "ziwei.source.quanshu",
+      "text": "甲生祿存在寅宮，乙生在卯丙戊巳，丁己祿存停午方，庚祿居申辛祿酉，壬祿在亥癸祿子。",
+      "locator": "安祿存星訣; decoded-character interval [53601,53641)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s037",
+      "domain": "ziwei",
+      "name": "安天馬星訣·选段37",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.ed0eee28",
+      "source_id": "ziwei.source.quanshu",
+      "text": "寅午戍人馬居申，申子辰人馬居寅，巳酉丑人馬居亥，亥卯未人馬居巳。",
+      "locator": "安天馬星訣; decoded-character interval [53368,53400)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s038",
+      "domain": "ziwei",
+      "name": "安祿權科忌四星變化訣·选段38",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.9c30cee1",
+      "source_id": "ziwei.source.quanshu",
+      "text": "如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+      "locator": "安祿權科忌四星變化訣; decoded-character interval [54194,54224)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s039",
+      "domain": "ziwei",
+      "name": "安長生沐浴十二宮·选段39",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.974e8b4f",
+      "source_id": "ziwei.source.quanshu",
+      "text": "安長生、沐浴、冠帶、臨官、帝旺、衰、病、死、墓、絕、胎、養 男命順數、女命逆數。",
+      "locator": "安長生沐浴十二宮; decoded-character interval [55805,55845)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s040",
+      "domain": "ziwei",
+      "name": "太微賦·选段40",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.c0e4b184",
+      "source_id": "ziwei.source.quanshu",
+      "text": "星臨廟旺，再觀生克之機。命坐強宮，細察制化之理。",
+      "locator": "太微賦; decoded-character interval [393,417)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s041",
+      "domain": "ziwei",
+      "name": "諸星問答論·选段41",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.095367bf",
+      "source_id": "ziwei.source.quanshu",
+      "text": "其臨地有廟、旺、陷宮。",
+      "locator": "諸星問答論; decoded-character interval [13176,13187)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s042",
+      "domain": "ziwei",
+      "name": "安南北斗諸星訣·选段42",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.7e289a11",
+      "source_id": "ziwei.source.quanshu",
+      "text": "紫微天機逆行旁，隔一陽武天同當，又隔二位廉貞地，空三復見紫微郎，",
+      "locator": "安南北斗諸星訣; decoded-character interval [52470,52502)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s043",
+      "domain": "ziwei",
+      "name": "安左輔右弼星訣·选段43",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.1b79f86d",
+      "source_id": "ziwei.source.quanshu",
+      "text": "左輔正月起於辰，順逢生月是貴方，右弼正月宮尋戌，逆至正月便調停。",
+      "locator": "安左輔右弼星訣; decoded-character interval [52942,52974)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "ziwei.section.s044",
+      "domain": "ziwei",
+      "name": "安長生沐浴十二宮·选段44",
+      "classic_id": "ziwei.classic.quanshu",
+      "chapter_id": "ziwei.chapter.quanshu.974e8b4f",
+      "source_id": "ziwei.source.quanshu",
+      "text": "火局命寅起長生。木局命亥起長生。水局命申起長生。金局命巳起長生。土局命申起長生。",
+      "locator": "安長生沐浴十二宮; decoded-character interval [55853,55893)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "ziwei.term.t001",
+      "domain": "ziwei",
+      "name": "命宫",
+      "aliases": [
+        "命宮"
+      ],
+      "definition": "十二宫之一；该原典宫序第 1 位，称“命宮”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "命宮",
+        "sequence": 1
+      }
+    },
+    {
+      "id": "ziwei.term.t002",
+      "domain": "ziwei",
+      "name": "兄弟",
+      "aliases": [
+        "兄弟"
+      ],
+      "definition": "十二宫之一；该原典宫序第 2 位，称“兄弟”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "兄弟",
+        "sequence": 2
+      }
+    },
+    {
+      "id": "ziwei.term.t003",
+      "domain": "ziwei",
+      "name": "夫妻",
+      "aliases": [
+        "妻妾"
+      ],
+      "definition": "十二宫之一；该原典宫序第 3 位，称“妻妾”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "妻妾",
+        "sequence": 3
+      }
+    },
+    {
+      "id": "ziwei.term.t004",
+      "domain": "ziwei",
+      "name": "子女",
+      "aliases": [
+        "子女"
+      ],
+      "definition": "十二宫之一；该原典宫序第 4 位，称“子女”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "子女",
+        "sequence": 4
+      }
+    },
+    {
+      "id": "ziwei.term.t005",
+      "domain": "ziwei",
+      "name": "财帛",
+      "aliases": [
+        "財帛"
+      ],
+      "definition": "十二宫之一；该原典宫序第 5 位，称“財帛”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "財帛",
+        "sequence": 5
+      }
+    },
+    {
+      "id": "ziwei.term.t006",
+      "domain": "ziwei",
+      "name": "疾厄",
+      "aliases": [
+        "疾厄"
+      ],
+      "definition": "十二宫之一；该原典宫序第 6 位，称“疾厄”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "疾厄",
+        "sequence": 6
+      }
+    },
+    {
+      "id": "ziwei.term.t007",
+      "domain": "ziwei",
+      "name": "迁移",
+      "aliases": [
+        "遷移"
+      ],
+      "definition": "十二宫之一；该原典宫序第 7 位，称“遷移”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "遷移",
+        "sequence": 7
+      }
+    },
+    {
+      "id": "ziwei.term.t008",
+      "domain": "ziwei",
+      "name": "交友",
+      "aliases": [
+        "奴僕",
+        "仆役",
+        "奴仆"
+      ],
+      "definition": "十二宫之一；该原典宫序第 8 位，称“奴僕”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "奴僕",
+        "sequence": 8
+      }
+    },
+    {
+      "id": "ziwei.term.t009",
+      "domain": "ziwei",
+      "name": "官禄",
+      "aliases": [
+        "官祿"
+      ],
+      "definition": "十二宫之一；该原典宫序第 9 位，称“官祿”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "官祿",
+        "sequence": 9
+      }
+    },
+    {
+      "id": "ziwei.term.t010",
+      "domain": "ziwei",
+      "name": "田宅",
+      "aliases": [
+        "田宅"
+      ],
+      "definition": "十二宫之一；该原典宫序第 10 位，称“田宅”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "田宅",
+        "sequence": 10
+      }
+    },
+    {
+      "id": "ziwei.term.t011",
+      "domain": "ziwei",
+      "name": "福德",
+      "aliases": [
+        "福德"
+      ],
+      "definition": "十二宫之一；该原典宫序第 11 位，称“福德”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "福德",
+        "sequence": 11
+      }
+    },
+    {
+      "id": "ziwei.term.t012",
+      "domain": "ziwei",
+      "name": "父母",
+      "aliases": [
+        "父母"
+      ],
+      "definition": "十二宫之一；该原典宫序第 12 位，称“父母”。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "十二宫",
+        "source_name": "父母",
+        "sequence": 12
+      }
+    },
+    {
+      "id": "ziwei.term.t013",
+      "domain": "ziwei",
+      "name": "紫微",
+      "aliases": [],
+      "definition": "紫微屬土，乃中天之尊星為帝座，主掌造化樞機，人生主宰。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s002",
+          "original_text": "紫微屬土，乃中天之尊星為帝座，主掌造化樞機，人生主宰。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t014",
+      "domain": "ziwei",
+      "name": "天机",
+      "aliases": [
+        "天機"
+      ],
+      "definition": "天機屬木，南斗第三益算之善星也。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s004",
+          "original_text": "天機屬木，南斗第三益算之善星也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t015",
+      "domain": "ziwei",
+      "name": "太阳",
+      "aliases": [
+        "太陽"
+      ],
+      "definition": "太陽星屬火，日之精也。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s006",
+          "original_text": "太陽星屬火，日之精也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t016",
+      "domain": "ziwei",
+      "name": "武曲",
+      "aliases": [],
+      "definition": "武曲北斗第六星，屬金，乃財帛宮主。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s008",
+          "original_text": "武曲北斗第六星，屬金，乃財帛宮主。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t017",
+      "domain": "ziwei",
+      "name": "天同",
+      "aliases": [],
+      "definition": "天同星屬水，乃南方第四星也，為福德宮之主宰。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s010",
+          "original_text": "天同星屬水，乃南方第四星也，為福德宮之主宰。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t018",
+      "domain": "ziwei",
+      "name": "廉贞",
+      "aliases": [
+        "廉貞"
+      ],
+      "definition": "廉貞屬火，北斗第五星也。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s012",
+          "original_text": "廉貞屬火，北斗第五星也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t019",
+      "domain": "ziwei",
+      "name": "天府",
+      "aliases": [],
+      "definition": "天府屬土，南斗主令第一星也。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s013",
+          "original_text": "天府屬土，南斗主令第一星也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t020",
+      "domain": "ziwei",
+      "name": "太阴",
+      "aliases": [
+        "太陰"
+      ],
+      "definition": "太陰乃水之精，為田宅主，化富，與日為配。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s015",
+          "original_text": "太陰乃水之精，為田宅主，化富，與日為配。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t021",
+      "domain": "ziwei",
+      "name": "贪狼",
+      "aliases": [
+        "貪狼"
+      ],
+      "definition": "貪狼北斗解厄之神，第一星也。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s017",
+          "original_text": "貪狼北斗解厄之神，第一星也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t022",
+      "domain": "ziwei",
+      "name": "巨门",
+      "aliases": [
+        "巨門"
+      ],
+      "definition": "巨門屬水、金。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s019",
+          "original_text": "巨門屬水、金。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t023",
+      "domain": "ziwei",
+      "name": "天相",
+      "aliases": [],
+      "definition": "天相屬水，南斗第五星也。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s021",
+          "original_text": "天相屬水，南斗第五星也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t024",
+      "domain": "ziwei",
+      "name": "天梁",
+      "aliases": [],
+      "definition": "天梁屬土，南斗第二星也。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s023",
+          "original_text": "天梁屬土，南斗第二星也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t025",
+      "domain": "ziwei",
+      "name": "七杀",
+      "aliases": [
+        "七殺"
+      ],
+      "definition": "七殺南斗第六星也，屬火、金。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s025",
+          "original_text": "七殺南斗第六星也，屬火、金。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t026",
+      "domain": "ziwei",
+      "name": "破军",
+      "aliases": [
+        "破軍"
+      ],
+      "definition": "破軍屬水，北斗第七星也，司夫妻、子息、奴僕之神。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s027",
+          "original_text": "破軍屬水，北斗第七星也，司夫妻、子息、奴僕之神。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "十四主星"
+      }
+    },
+    {
+      "id": "ziwei.term.t027",
+      "domain": "ziwei",
+      "name": "左辅",
+      "aliases": [],
+      "definition": "左輔正月起於辰",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s029",
+          "original_text": "左輔正月起於辰",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t028",
+      "domain": "ziwei",
+      "name": "右弼",
+      "aliases": [],
+      "definition": "右弼正月宮尋戌",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s030",
+          "original_text": "右弼正月宮尋戌",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t029",
+      "domain": "ziwei",
+      "name": "文昌",
+      "aliases": [],
+      "definition": "子時戌上起文昌，逆到生時是貴鄉，文曲數從辰上起，順到生時是本鄉。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s031",
+          "original_text": "子時戌上起文昌，逆到生時是貴鄉，文曲數從辰上起，順到生時是本鄉。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t030",
+      "domain": "ziwei",
+      "name": "文曲",
+      "aliases": [],
+      "definition": "子時戌上起文昌，逆到生時是貴鄉，文曲數從辰上起，順到生時是本鄉。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s031",
+          "original_text": "子時戌上起文昌，逆到生時是貴鄉，文曲數從辰上起，順到生時是本鄉。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t031",
+      "domain": "ziwei",
+      "name": "天魁",
+      "aliases": [],
+      "definition": "甲戊庚牛羊，乙己鼠猴鄉，六辛逢虎馬，壬癸免蛇藏，丙丁豬狗位，此是貴人方。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s032",
+          "original_text": "甲戊庚牛羊，乙己鼠猴鄉，六辛逢虎馬，壬癸免蛇藏，丙丁豬狗位，此是貴人方。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t032",
+      "domain": "ziwei",
+      "name": "天钺",
+      "aliases": [],
+      "definition": "甲戊庚牛羊，乙己鼠猴鄉，六辛逢虎馬，壬癸免蛇藏，丙丁豬狗位，此是貴人方。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s032",
+          "original_text": "甲戊庚牛羊，乙己鼠猴鄉，六辛逢虎馬，壬癸免蛇藏，丙丁豬狗位，此是貴人方。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t033",
+      "domain": "ziwei",
+      "name": "擎羊",
+      "aliases": [],
+      "definition": "祿前擎羊後陀羅",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s033",
+          "original_text": "祿前擎羊後陀羅",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t034",
+      "domain": "ziwei",
+      "name": "陀罗",
+      "aliases": [],
+      "definition": "祿前擎羊後陀羅",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s033",
+          "original_text": "祿前擎羊後陀羅",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t035",
+      "domain": "ziwei",
+      "name": "火星",
+      "aliases": [],
+      "definition": "寅午戌人丑卯方，申子辰人寅戌揚，巳酉丑人卯戌位，亥卯未人酉戌房。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s034",
+          "original_text": "寅午戌人丑卯方，申子辰人寅戌揚，巳酉丑人卯戌位，亥卯未人酉戌房。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t036",
+      "domain": "ziwei",
+      "name": "铃星",
+      "aliases": [],
+      "definition": "寅午戌人丑卯方，申子辰人寅戌揚，巳酉丑人卯戌位，亥卯未人酉戌房。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s034",
+          "original_text": "寅午戌人丑卯方，申子辰人寅戌揚，巳酉丑人卯戌位，亥卯未人酉戌房。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t037",
+      "domain": "ziwei",
+      "name": "地空",
+      "aliases": [],
+      "definition": "本书安空劫诀的“天空”；本库以“地空”作为该星的现代检索名，不与其他小星天空合并。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s035",
+          "original_text": "亥上起子順安劫，逆向便是天空鄉。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "category": "辅助星曜",
+        "alias_scope": "仅全书安空劫诀"
+      }
+    },
+    {
+      "id": "ziwei.term.t038",
+      "domain": "ziwei",
+      "name": "地劫",
+      "aliases": [],
+      "definition": "亥上起子順安劫，逆向便是天空鄉。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s035",
+          "original_text": "亥上起子順安劫，逆向便是天空鄉。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t039",
+      "domain": "ziwei",
+      "name": "禄存",
+      "aliases": [],
+      "definition": "甲生祿存在寅宮，乙生在卯丙戊巳，丁己祿存停午方，庚祿居申辛祿酉，壬祿在亥癸祿子。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s036",
+          "original_text": "甲生祿存在寅宮，乙生在卯丙戊巳，丁己祿存停午方，庚祿居申辛祿酉，壬祿在亥癸祿子。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t040",
+      "domain": "ziwei",
+      "name": "天马",
+      "aliases": [],
+      "definition": "寅午戍人馬居申，申子辰人馬居寅，巳酉丑人馬居亥，亥卯未人馬居巳。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s037",
+          "original_text": "寅午戍人馬居申，申子辰人馬居寅，巳酉丑人馬居亥，亥卯未人馬居巳。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "辅助星曜",
+        "alias_scope": "该选段"
+      }
+    },
+    {
+      "id": "ziwei.term.t041",
+      "domain": "ziwei",
+      "name": "化禄",
+      "aliases": [],
+      "definition": "四化之一，原典示例以甲年为例：如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s038",
+          "original_text": "如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary"
+      }
+    },
+    {
+      "id": "ziwei.term.t042",
+      "domain": "ziwei",
+      "name": "化权",
+      "aliases": [],
+      "definition": "四化之一，原典示例以甲年为例：如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s038",
+          "original_text": "如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary"
+      }
+    },
+    {
+      "id": "ziwei.term.t043",
+      "domain": "ziwei",
+      "name": "化科",
+      "aliases": [],
+      "definition": "四化之一，原典示例以甲年为例：如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s038",
+          "original_text": "如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary"
+      }
+    },
+    {
+      "id": "ziwei.term.t044",
+      "domain": "ziwei",
+      "name": "化忌",
+      "aliases": [],
+      "definition": "四化之一，原典示例以甲年为例：如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s038",
+          "original_text": "如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary"
+      }
+    },
+    {
+      "id": "ziwei.term.t045",
+      "domain": "ziwei",
+      "name": "十二长生",
+      "aliases": [],
+      "definition": "安長生、沐浴、冠帶、臨官、帝旺、衰、病、死、墓、絕、胎、養 男命順數、女命逆數。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s039",
+          "original_text": "安長生、沐浴、冠帶、臨官、帝旺、衰、病、死、墓、絕、胎、養 男命順數、女命逆數。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "ziwei.term.t046",
+      "domain": "ziwei",
+      "name": "庙",
+      "aliases": [],
+      "definition": "星臨廟旺，再觀生克之機。命坐強宮，細察制化之理。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s040",
+          "original_text": "星臨廟旺，再觀生克之機。命坐強宮，細察制化之理。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "亮度概念",
+        "variant": "具体星曜与宫位对照按版本绑定，不声称统一"
+      }
+    },
+    {
+      "id": "ziwei.term.t047",
+      "domain": "ziwei",
+      "name": "旺",
+      "aliases": [],
+      "definition": "星臨廟旺，再觀生克之機。命坐強宮，細察制化之理。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s040",
+          "original_text": "星臨廟旺，再觀生克之機。命坐強宮，細察制化之理。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "亮度概念",
+        "variant": "具体星曜与宫位对照按版本绑定，不声称统一"
+      }
+    },
+    {
+      "id": "ziwei.term.t048",
+      "domain": "ziwei",
+      "name": "陷",
+      "aliases": [],
+      "definition": "其臨地有廟、旺、陷宮。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s041",
+          "original_text": "其臨地有廟、旺、陷宮。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "亮度概念",
+        "variant": "具体星曜与宫位对照按版本绑定，不声称统一"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "ziwei.rule.r001",
+      "domain": "ziwei",
+      "name": "禄存按年干",
+      "conditions": [],
+      "inputs": {
+        "year_stem": "十干"
+      },
+      "operation": {
+        "kind": "table_lookup",
+        "parameters": {},
+        "provider": "tianji_kb.operations.ziwei.lucun",
+        "source_id": "ziwei.source.iztro-implementation"
+      },
+      "result": {
+        "branch": "地支"
+      },
+      "exceptions": [
+        "仅基础星位，不构成完整命盘。"
+      ],
+      "execution_status": "executable",
+      "school": "全书基础安星",
+      "variant": "existing-iztro-table",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s036",
+          "original_text": "甲生祿存在寅宮，乙生在卯丙戊巳，丁己祿存停午方，庚祿居申辛祿酉，壬祿在亥癸祿子。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "ziwei.term.t039"
+      ]
+    },
+    {
+      "id": "ziwei.rule.r002",
+      "domain": "ziwei",
+      "name": "天马按年支",
+      "conditions": [],
+      "inputs": {
+        "year_branch": "十二支"
+      },
+      "operation": {
+        "kind": "table_lookup",
+        "parameters": {},
+        "provider": "tianji_kb.operations.ziwei.tianma",
+        "source_id": "ziwei.source.iztro-implementation"
+      },
+      "result": {
+        "branch": "地支"
+      },
+      "exceptions": [
+        "仅基础星位，不构成完整命盘。"
+      ],
+      "execution_status": "executable",
+      "school": "全书基础安星",
+      "variant": "existing-iztro-table",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s037",
+          "original_text": "寅午戍人馬居申，申子辰人馬居寅，巳酉丑人馬居亥，亥卯未人馬居巳。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "ziwei.term.t040"
+      ]
+    },
+    {
+      "id": "ziwei.rule.r003",
+      "domain": "ziwei",
+      "name": "十二宫宫序",
+      "conditions": [],
+      "inputs": {
+        "birth_components": "所需年月日时及流派配置"
+      },
+      "operation": {
+        "kind": "placement_contract",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母"
+      },
+      "exceptions": [
+        "电子本文字和流派适用范围须分别复核，不自动套用现代引擎。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "该全书电子本",
+      "variant": "选段；未实现完整排盘",
+      "difference": "本书长生方向写男顺女逆；现代实现可另依阴阳男女，需绑定版本。天魁钺歌丙丁猪狗与既有实现猪鸡有异文，未强行统一。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s001",
+          "original_text": "一 命宮、二兄弟、三妻妾、四子女、五財帛、六疾厄、七遷移、八奴僕、九官祿、十田宅、十一福德、十二父母",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "ziwei.rule.r004",
+      "domain": "ziwei",
+      "name": "十四主星分布",
+      "conditions": [],
+      "inputs": {
+        "birth_components": "所需年月日时及流派配置"
+      },
+      "operation": {
+        "kind": "placement_contract",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "紫微天機逆行旁，隔一陽武天同當，又隔二位廉貞地，空三復見紫微郎，"
+      },
+      "exceptions": [
+        "电子本文字和流派适用范围须分别复核，不自动套用现代引擎。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "该全书电子本",
+      "variant": "选段；未实现完整排盘",
+      "difference": "本书长生方向写男顺女逆；现代实现可另依阴阳男女，需绑定版本。天魁钺歌丙丁猪狗与既有实现猪鸡有异文，未强行统一。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s042",
+          "original_text": "紫微天機逆行旁，隔一陽武天同當，又隔二位廉貞地，空三復見紫微郎，",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "ziwei.rule.r005",
+      "domain": "ziwei",
+      "name": "左辅右弼排法",
+      "conditions": [],
+      "inputs": {
+        "birth_components": "所需年月日时及流派配置"
+      },
+      "operation": {
+        "kind": "placement_contract",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "左輔正月起於辰，順逢生月是貴方，右弼正月宮尋戌，逆至正月便調停。"
+      },
+      "exceptions": [
+        "电子本文字和流派适用范围须分别复核，不自动套用现代引擎。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "该全书电子本",
+      "variant": "选段；未实现完整排盘",
+      "difference": "本书长生方向写男顺女逆；现代实现可另依阴阳男女，需绑定版本。天魁钺歌丙丁猪狗与既有实现猪鸡有异文，未强行统一。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s043",
+          "original_text": "左輔正月起於辰，順逢生月是貴方，右弼正月宮尋戌，逆至正月便調停。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "ziwei.rule.r006",
+      "domain": "ziwei",
+      "name": "文昌文曲排法",
+      "conditions": [],
+      "inputs": {
+        "birth_components": "所需年月日时及流派配置"
+      },
+      "operation": {
+        "kind": "placement_contract",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "子時戌上起文昌，逆到生時是貴鄉，文曲數從辰上起，順到生時是本鄉。"
+      },
+      "exceptions": [
+        "电子本文字和流派适用范围须分别复核，不自动套用现代引擎。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "该全书电子本",
+      "variant": "选段；未实现完整排盘",
+      "difference": "本书长生方向写男顺女逆；现代实现可另依阴阳男女，需绑定版本。天魁钺歌丙丁猪狗与既有实现猪鸡有异文，未强行统一。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s031",
+          "original_text": "子時戌上起文昌，逆到生時是貴鄉，文曲數從辰上起，順到生時是本鄉。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "ziwei.rule.r007",
+      "domain": "ziwei",
+      "name": "天魁天钺异文",
+      "conditions": [],
+      "inputs": {
+        "birth_components": "所需年月日时及流派配置"
+      },
+      "operation": {
+        "kind": "placement_contract",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "甲戊庚牛羊，乙己鼠猴鄉，六辛逢虎馬，壬癸免蛇藏，丙丁豬狗位，此是貴人方。"
+      },
+      "exceptions": [
+        "电子本文字和流派适用范围须分别复核，不自动套用现代引擎。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "该全书电子本",
+      "variant": "选段；未实现完整排盘",
+      "difference": "本书长生方向写男顺女逆；现代实现可另依阴阳男女，需绑定版本。天魁钺歌丙丁猪狗与既有实现猪鸡有异文，未强行统一。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s032",
+          "original_text": "甲戊庚牛羊，乙己鼠猴鄉，六辛逢虎馬，壬癸免蛇藏，丙丁豬狗位，此是貴人方。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "ziwei.rule.r008",
+      "domain": "ziwei",
+      "name": "火铃安星",
+      "conditions": [],
+      "inputs": {
+        "birth_components": "所需年月日时及流派配置"
+      },
+      "operation": {
+        "kind": "placement_contract",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "寅午戌人丑卯方，申子辰人寅戌揚，巳酉丑人卯戌位，亥卯未人酉戌房。"
+      },
+      "exceptions": [
+        "电子本文字和流派适用范围须分别复核，不自动套用现代引擎。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "该全书电子本",
+      "variant": "选段；未实现完整排盘",
+      "difference": "本书长生方向写男顺女逆；现代实现可另依阴阳男女，需绑定版本。天魁钺歌丙丁猪狗与既有实现猪鸡有异文，未强行统一。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s034",
+          "original_text": "寅午戌人丑卯方，申子辰人寅戌揚，巳酉丑人卯戌位，亥卯未人酉戌房。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "ziwei.rule.r009",
+      "domain": "ziwei",
+      "name": "天空地劫安星",
+      "conditions": [],
+      "inputs": {
+        "birth_components": "所需年月日时及流派配置"
+      },
+      "operation": {
+        "kind": "placement_contract",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "亥上起子順安劫，逆向便是天空鄉。"
+      },
+      "exceptions": [
+        "电子本文字和流派适用范围须分别复核，不自动套用现代引擎。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "该全书电子本",
+      "variant": "选段；未实现完整排盘",
+      "difference": "本书长生方向写男顺女逆；现代实现可另依阴阳男女，需绑定版本。天魁钺歌丙丁猪狗与既有实现猪鸡有异文，未强行统一。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s035",
+          "original_text": "亥上起子順安劫，逆向便是天空鄉。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "ziwei.rule.r010",
+      "domain": "ziwei",
+      "name": "十二长生方向",
+      "conditions": [],
+      "inputs": {
+        "birth_components": "所需年月日时及流派配置"
+      },
+      "operation": {
+        "kind": "placement_contract",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "火局命寅起長生。木局命亥起長生。水局命申起長生。金局命巳起長生。土局命申起長生。"
+      },
+      "exceptions": [
+        "电子本文字和流派适用范围须分别复核，不自动套用现代引擎。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "该全书电子本",
+      "variant": "选段；未实现完整排盘",
+      "difference": "本书长生方向写男顺女逆；现代实现可另依阴阳男女，需绑定版本。天魁钺歌丙丁猪狗与既有实现猪鸡有异文，未强行统一。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s044",
+          "original_text": "火局命寅起長生。木局命亥起長生。水局命申起長生。金局命巳起長生。土局命申起長生。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "ziwei.rule.r011",
+      "domain": "ziwei",
+      "name": "四化版本绑定",
+      "conditions": [],
+      "inputs": {
+        "year_stem": "十干",
+        "variant": "必须显式选择"
+      },
+      "operation": {
+        "kind": "variant_lookup",
+        "parameters": {}
+      },
+      "result": {
+        "iztro_default": "data/canonical/ziwei/iztro_rules_v1.json#/four_transformations",
+        "quanshu_excerpt": "甲年示例可直接核对；壬年府/辅异文留隔离，暂不编译全表"
+      },
+      "exceptions": [],
+      "execution_status": "partially_structured",
+      "school": "原典与现代实现比较",
+      "variant": "iztro-default-v2 / 全书字面异文",
+      "difference": "原典电子本壬句作府，现有实现壬科为左辅；未按刊本核定，该字不晋级 executable。",
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s038",
+          "original_text": "如甲生人廉貞化祿、破軍化權、武曲化科、太陽化忌是也，餘仿此。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "ziwei.term.t041",
+        "ziwei.term.t042",
+        "ziwei.term.t043",
+        "ziwei.term.t044"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "ziwei.concept.star1",
+      "domain": "ziwei",
+      "name": "紫微·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "紫微",
+        "classical_definition": "紫微屬土，乃中天之尊星為帝座，主掌造化樞機，人生主宰。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "紫微屬土中天星南北斗化帝座為官祿主",
+        "element_statement": "土"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s002",
+          "original_text": "紫微屬土，乃中天之尊星為帝座，主掌造化樞機，人生主宰。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s003",
+          "original_text": "紫微屬土中天星南北斗化帝座為官祿主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star2",
+      "domain": "ziwei",
+      "name": "天机·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "天机",
+        "classical_definition": "天機屬木，南斗第三益算之善星也。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "天機屬木南斗化善為兄弟主",
+        "element_statement": "木"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s004",
+          "original_text": "天機屬木，南斗第三益算之善星也。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s005",
+          "original_text": "天機屬木南斗化善為兄弟主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star3",
+      "domain": "ziwei",
+      "name": "太阳·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "太阳",
+        "classical_definition": "太陽星屬火，日之精也。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "太陽屬火南北斗化貴為官祿主",
+        "element_statement": "火"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s006",
+          "original_text": "太陽星屬火，日之精也。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s007",
+          "original_text": "太陽屬火南北斗化貴為官祿主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star4",
+      "domain": "ziwei",
+      "name": "武曲·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "武曲",
+        "classical_definition": "武曲北斗第六星，屬金，乃財帛宮主。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "武曲屬金北斗化財為財帛主",
+        "element": "金"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s008",
+          "original_text": "武曲北斗第六星，屬金，乃財帛宮主。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s009",
+          "original_text": "武曲屬金北斗化財為財帛主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star5",
+      "domain": "ziwei",
+      "name": "天同·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "天同",
+        "classical_definition": "天同星屬水，乃南方第四星也，為福德宮之主宰。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "天同屬水金南斗化福為福德主",
+        "element_statement": "水"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s010",
+          "original_text": "天同星屬水，乃南方第四星也，為福德宮之主宰。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s011",
+          "original_text": "天同屬水金南斗化福為福德主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star6",
+      "domain": "ziwei",
+      "name": "廉贞·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "廉贞",
+        "classical_definition": "廉貞屬火，北斗第五星也。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "element_statement": "火"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s012",
+          "original_text": "廉貞屬火，北斗第五星也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star7",
+      "domain": "ziwei",
+      "name": "天府·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "天府",
+        "classical_definition": "天府屬土，南斗主令第一星也。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "天府屬土南斗化令星為財帛田宅主",
+        "element_statement": "土"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s013",
+          "original_text": "天府屬土，南斗主令第一星也。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s014",
+          "original_text": "天府屬土南斗化令星為財帛田宅主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star8",
+      "domain": "ziwei",
+      "name": "太阴·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "太阴",
+        "classical_definition": "太陰乃水之精，為田宅主，化富，與日為配。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "太陰屬水南北斗化富為財帛田宅主",
+        "element_statement": "水之精"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s015",
+          "original_text": "太陰乃水之精，為田宅主，化富，與日為配。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s016",
+          "original_text": "太陰屬水南北斗化富為財帛田宅主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star9",
+      "domain": "ziwei",
+      "name": "贪狼·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "贪狼",
+        "classical_definition": "貪狼北斗解厄之神，第一星也。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "貪狼屬水木北斗化桃花殺主禍福",
+        "element_statement": null
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s017",
+          "original_text": "貪狼北斗解厄之神，第一星也。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s018",
+          "original_text": "貪狼屬水木北斗化桃花殺主禍福",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star10",
+      "domain": "ziwei",
+      "name": "巨门·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "巨门",
+        "classical_definition": "巨門屬水、金。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "巨門屬水北斗化暗主是非",
+        "element_statement": "水、金"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s019",
+          "original_text": "巨門屬水、金。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s020",
+          "original_text": "巨門屬水北斗化暗主是非",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star11",
+      "domain": "ziwei",
+      "name": "天相·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "天相",
+        "classical_definition": "天相屬水，南斗第五星也。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "天相屬水南斗化印為官祿主",
+        "element_statement": "水"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s021",
+          "original_text": "天相屬水，南斗第五星也。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s022",
+          "original_text": "天相屬水南斗化印為官祿主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star12",
+      "domain": "ziwei",
+      "name": "天梁·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "天梁",
+        "classical_definition": "天梁屬土，南斗第二星也。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "天梁屬土南斗化蔭主壽星",
+        "element_statement": "土"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s023",
+          "original_text": "天梁屬土，南斗第二星也。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s024",
+          "original_text": "天梁屬土南斗化蔭主壽星",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star13",
+      "domain": "ziwei",
+      "name": "七杀·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "七杀",
+        "classical_definition": "七殺南斗第六星也，屬火、金。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "七殺屬火金南斗降星遇帝為權",
+        "element_statement": "火、金"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s025",
+          "original_text": "七殺南斗第六星也，屬火、金。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s026",
+          "original_text": "七殺屬火金南斗降星遇帝為權",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "ziwei.concept.star14",
+      "domain": "ziwei",
+      "name": "破军·原典属性",
+      "kind": "major_star",
+      "attributes": {
+        "name": "破军",
+        "classical_definition": "破軍屬水，北斗第七星也，司夫妻、子息、奴僕之神。",
+        "legacy_reference": "data/canonical/ziwei/iztro_rules_v1.json#/major_stars",
+        "variant": "全书问答论选段；现代 iztro 属性独立保留",
+        "other_classical_property": "破軍屬水北斗化耗司夫妻子女奴僕",
+        "element_statement": "水"
+      },
+      "source_refs": [
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s027",
+          "original_text": "破軍屬水，北斗第七星也，司夫妻、子息、奴僕之神。",
+          "role": "classical"
+        },
+        {
+          "source_id": "ziwei.source.quanshu",
+          "section_id": "ziwei.section.s028",
+          "original_text": "破軍屬水北斗化耗司夫妻子女奴僕",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

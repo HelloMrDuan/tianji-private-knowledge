@@ -1,0 +1,73 @@
+{
+  "schema_version": "0.1",
+  "domain": "bazi",
+  "topic": "dayun",
+  "school": "ziping_general",
+  "license": "MIT",
+  "provenance": {
+    "repo": "jinchenma94/bazi-skill",
+    "path": "references/dayun-rules.md",
+    "commit": "112a5d84cd1a001a0038cafca3be68d93e4c0cc9"
+  },
+  "yang_year_stems": [
+    "甲",
+    "丙",
+    "戊",
+    "庚",
+    "壬"
+  ],
+  "yin_year_stems": [
+    "乙",
+    "丁",
+    "己",
+    "辛",
+    "癸"
+  ],
+  "direction_rules": [
+    {
+      "year_polarity": "阳",
+      "gender": "男",
+      "direction": "顺"
+    },
+    {
+      "year_polarity": "阳",
+      "gender": "女",
+      "direction": "逆"
+    },
+    {
+      "year_polarity": "阴",
+      "gender": "男",
+      "direction": "逆"
+    },
+    {
+      "year_polarity": "阴",
+      "gender": "女",
+      "direction": "顺"
+    }
+  ],
+  "start_age": {
+    "forward": "出生日起顺数到下一个节，天数÷3",
+    "backward": "出生日起逆数到上一个节，天数÷3",
+    "jie": [
+      "立春",
+      "惊蛰",
+      "清明",
+      "立夏",
+      "芒种",
+      "小暑",
+      "立秋",
+      "白露",
+      "寒露",
+      "立冬",
+      "大雪",
+      "小寒"
+    ],
+    "conversion_note": "余1天约4个月，余2天约8个月，余0天为整岁。"
+  },
+  "cycle_years": 10,
+  "caveats": [
+    "交运年通常视为变化较明显的年份。",
+    "“天干前五年、地支后五年”是部分流派口径，并非唯一规则。",
+    "大运判断必须与原局格局和喜忌结合。"
+  ]
+}

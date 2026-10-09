@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-execution",
+  "domain": "qimen",
+  "variant": "qfdk-exact-term-midnight-v2",
+  "provider": "tianji_kb.operations.qimen_chart.chart",
+  "scope": "单一精确节气转盘；午夜换日配套五鼠遁时干；天禽寄坤。",
+  "unresolved": [
+    "置闰/超接未实现；古八神名单差异保留",
+    "与 Phase 1 混合23时日/时干口径为不同 variant，不覆盖旧算法"
+  ],
+  "rules": [
+    {
+      "id": "qimen.phase2.calendar",
+      "domain": "qimen",
+      "name": "calendar",
+      "variant": "qfdk-exact-term-midnight-v2",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "qimen.rule.r004"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "qimen.jiazi-winter",
+        "qimen.summer-before",
+        "qimen.summer-at",
+        "qimen.late-zi-midnight"
+      ],
+      "regression_test": "tests/test_phase2_qimen.py",
+      "evidence_scope": "C 古典节气选择关系；精确节气时刻、历法转换由 lunar-python 1.4.8 软件提供，现代实现证据 D。"
+    },
+    {
+      "id": "qimen.phase2.bureau",
+      "domain": "qimen",
+      "name": "bureau",
+      "variant": "qfdk-exact-term-midnight-v2",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "qimen.rule.r001"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "qimen.jiazi-winter",
+        "qimen.summer-before",
+        "qimen.summer-at",
+        "qimen.late-zi-midnight"
+      ],
+      "regression_test": "tests/test_phase2_qimen.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "qimen.phase2.earth",
+      "domain": "qimen",
+      "name": "earth",
+      "variant": "qfdk-exact-term-midnight-v2",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "qimen.rule.r002"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "qimen.jiazi-winter",
+        "qimen.summer-before",
+        "qimen.summer-at",
+        "qimen.late-zi-midnight"
+      ],
+      "regression_test": "tests/test_phase2_qimen.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "qimen.phase2.chiefs",
+      "domain": "qimen",
+      "name": "chiefs",
+      "variant": "qfdk-exact-term-midnight-v2",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "qimen.rule.r003"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "qimen.jiazi-winter",
+        "qimen.summer-before",
+        "qimen.summer-at",
+        "qimen.late-zi-midnight"
+      ],
+      "regression_test": "tests/test_phase2_qimen.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "qimen.phase2.plates",
+      "domain": "qimen",
+      "name": "plates",
+      "variant": "qfdk-exact-term-midnight-v2",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "qimen.rule.r003"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "qimen.jiazi-winter",
+        "qimen.summer-before",
+        "qimen.summer-at",
+        "qimen.late-zi-midnight"
+      ],
+      "regression_test": "tests/test_phase2_qimen.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    }
+  ]
+}

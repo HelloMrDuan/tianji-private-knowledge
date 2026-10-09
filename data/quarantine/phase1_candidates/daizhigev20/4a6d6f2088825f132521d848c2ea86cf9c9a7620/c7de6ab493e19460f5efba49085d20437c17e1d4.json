@@ -1,0 +1,22 @@
+{
+  "source_id": "daizhigev20",
+  "repository": "garychowcmu/daizhigev20",
+  "source_path": "易藏/术数/渊海子平.txt",
+  "pinned_commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+  "candidate_commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+  "baseline_blob_sha": "c7de6ab493e19460f5efba49085d20437c17e1d4",
+  "blob_sha": "c7de6ab493e19460f5efba49085d20437c17e1d4",
+  "sha256": "247dcf36bb948714abe3bf8a014267dddc6970bef0c35a47cb7f2becdab82af4",
+  "bytes": 179388,
+  "raw_path": "data/raw/phase1_candidates/daizhigev20/4a6d6f2088825f132521d848c2ea86cf9c9a7620/c7de6ab493e19460f5efba49085d20437c17e1d4.raw",
+  "stage": "quarantine",
+  "evidence_level": "D",
+  "review_status": "pending",
+  "promotion_allowed": false,
+  "body_saved_to_quarantine": false,
+  "file_changed": false,
+  "rights_scope": "沿用现有 PUBLIC_DOMAIN_EXTRACT_ONLY 采纳范围；仅复核固定来源，正文不发布。电子本现代按语不能随原典晋级。",
+  "rights_status": "approved_acquisition_scope_only",
+  "retrieved_at": "2026-10-04T10:15:27.941787+00:00",
+  "review_note": "RAW 忽略缓存；这里只存来源与差异元数据。正文、版权、异文均须另开审核 PR；不写 Canonical 或已审核证据。"
+}

@@ -1,0 +1,312 @@
+{
+  "schema_version": "0.1",
+  "domain": "yijing",
+  "batch": "17-24",
+  "source_level": "L0-public-domain-classic",
+  "records": [
+    {
+      "number": 17,
+      "full_name": "泽雷随",
+      "judgment": "隨。 元亨，利貞，無咎。",
+      "image": "澤中有雷，隨。君子以向晦入宴息。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "官有渝，貞吉。 出門交有功。"
+        },
+        {
+          "position": "六二",
+          "text": "系小子，失丈夫。"
+        },
+        {
+          "position": "六三",
+          "text": "系丈夫，失小子。隨有求，得，利居貞。"
+        },
+        {
+          "position": "九四",
+          "text": "隨有獲，貞凶。有孚，在道以明，何咎?"
+        },
+        {
+          "position": "九五",
+          "text": "孚於嘉，吉。"
+        },
+        {
+          "position": "上六",
+          "text": "拘系之，乃從維之;王用亨於西山。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/17.泽雷随/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 18,
+      "full_name": "山风蛊",
+      "judgment": "蠱。 元亨，利涉大川。先甲三日，後甲三日。",
+      "image": "山下有風，蠱。君子以振民育德。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "幹父之蠱，有子，考無咎。厲，終吉。"
+        },
+        {
+          "position": "九二",
+          "text": "乾母之蠱，不可貞。"
+        },
+        {
+          "position": "九三",
+          "text": "幹父之蠱，小有悔，無大咎。"
+        },
+        {
+          "position": "六四",
+          "text": "裕父之蠱，往見吝。"
+        },
+        {
+          "position": "六五",
+          "text": "幹父之蠱，用譽。"
+        },
+        {
+          "position": "上九",
+          "text": "不事王侯，高尚其事。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/18.山风蛊/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 19,
+      "full_name": "地泽临",
+      "judgment": "臨。 元亨利貞。至於八月有凶。",
+      "image": "澤上有地，臨。君子以教思無窮，客保民無疆。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "鹹臨，貞吉。"
+        },
+        {
+          "position": "九二",
+          "text": "鹹臨，吉，無不利。"
+        },
+        {
+          "position": "六三",
+          "text": "甘臨，無攸利。即憂之，無咎。"
+        },
+        {
+          "position": "六四",
+          "text": "至臨，無咎。"
+        },
+        {
+          "position": "六五",
+          "text": "知臨，大君之宜，吉。"
+        },
+        {
+          "position": "上六",
+          "text": "敦臨，吉，無咎。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/19.地泽临/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 20,
+      "full_name": "风地观",
+      "judgment": "觀。 盥而不薦，有孚顒若。",
+      "image": "風行地上，觀。先王以省方觀民設教。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "童觀，小人無咎，君子吝。"
+        },
+        {
+          "position": "六二",
+          "text": "窺觀，利女貞。"
+        },
+        {
+          "position": "六三",
+          "text": "觀我生，進退。"
+        },
+        {
+          "position": "六四",
+          "text": "觀國之光，利用賓於王。"
+        },
+        {
+          "position": "九五",
+          "text": "觀我生，君子無咎。"
+        },
+        {
+          "position": "上九",
+          "text": "觀其生，君子無咎。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/20.风地观/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 21,
+      "full_name": "火雷噬嗑",
+      "judgment": "噬嗑。 亨。利用獄。",
+      "image": "雷電噬嗑。先王以明罰敕法。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "屨校滅趾，無咎。"
+        },
+        {
+          "position": "六二",
+          "text": "噬膚滅鼻，無咎。"
+        },
+        {
+          "position": "六三",
+          "text": "噬臘肉，遇毒。小吝，無咎。"
+        },
+        {
+          "position": "九四",
+          "text": "噬乾胏，得金矢。利艱貞，吉。"
+        },
+        {
+          "position": "六五",
+          "text": "噬乾肉，得黃金。貞厲，無咎。"
+        },
+        {
+          "position": "上九",
+          "text": "何校滅耳，凶。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/21.火雷噬嗑/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 22,
+      "full_name": "山火贲",
+      "judgment": "賁。 亨。小利有攸往。",
+      "image": "山下有火，賁。君子以明庶政，無敢折獄。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "賁其趾，舍車而徒。"
+        },
+        {
+          "position": "六二",
+          "text": "賁其須。"
+        },
+        {
+          "position": "九三",
+          "text": "賁如，濡如，永貞吉。"
+        },
+        {
+          "position": "六四",
+          "text": "賁如，皤如，白馬翰如，匪寇婚媾。"
+        },
+        {
+          "position": "六五",
+          "text": "賁於丘園，束帛戔戔。吝，終吉。"
+        },
+        {
+          "position": "上九",
+          "text": "白賁，無咎。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/22.山火贲/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 23,
+      "full_name": "山地剥",
+      "judgment": "剝。 不利有攸往。",
+      "image": "山附於地，剝。上以厚下安宅。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "剝床以足，蔑貞，凶。"
+        },
+        {
+          "position": "六二",
+          "text": "剝床以辨，蔑貞，凶。"
+        },
+        {
+          "position": "六三",
+          "text": "剝之，無咎。"
+        },
+        {
+          "position": "六四",
+          "text": "剝床以膚，凶。"
+        },
+        {
+          "position": "六五",
+          "text": "貫魚，以宮人寵，無不利。"
+        },
+        {
+          "position": "上九",
+          "text": "碩果不食，君子得輿，小人剝廬。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/23.山地剥/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 24,
+      "full_name": "地雷复",
+      "judgment": "復。 亨。出入無疾，朋來無咎。反覆其道，七日來復，利有攸往。",
+      "image": "雷在地中，復。先王以至日閉關，商旅不行，後不省方。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "不遠復，無祇悔，元吉。"
+        },
+        {
+          "position": "六二",
+          "text": "休復，吉。"
+        },
+        {
+          "position": "六三",
+          "text": "頻復，厲，無咎。"
+        },
+        {
+          "position": "六四",
+          "text": "中行獨復。"
+        },
+        {
+          "position": "六五",
+          "text": "敦復，無悔。"
+        },
+        {
+          "position": "上六",
+          "text": "迷復，凶，有災眚。用行師，終有大敗，以其國君凶，至於十年不克征。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/24.地雷复/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    }
+  ]
+}

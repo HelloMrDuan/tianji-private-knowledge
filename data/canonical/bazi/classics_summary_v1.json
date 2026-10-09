@@ -1,0 +1,125 @@
+{
+  "schema_version": "0.1",
+  "domain": "bazi",
+  "topic": "classics_summary",
+  "source_level": "L2-secondary-summary",
+  "license": "MIT",
+  "provenance": {
+    "repo": "jinchenma94/bazi-skill",
+    "path": "references/classical-texts.md",
+    "commit": "112a5d84cd1a001a0038cafca3be68d93e4c0cc9"
+  },
+  "warning": "本文件是 MIT 上游对经典的二级摘要，不是古籍原文。生产回答应优先引用未来的 L0 公版原典；此摘要只作索引和解释辅助。",
+  "works": [
+    {
+      "title": "穷通宝典",
+      "focus": [
+        "调候用神",
+        "季节寒暖燥湿"
+      ],
+      "rules": [
+        "夏生火旺常取水调候",
+        "冬生水旺常取火调候"
+      ],
+      "source_status": "secondary_summary"
+    },
+    {
+      "title": "三命通会",
+      "focus": [
+        "格局",
+        "神煞",
+        "干支关系"
+      ],
+      "rules": [
+        "正官、七杀、财、印、食神、伤官等格局需结合成败条件"
+      ],
+      "source_status": "secondary_summary"
+    },
+    {
+      "title": "滴天髓",
+      "focus": [
+        "旺衰",
+        "气势流通",
+        "天道地道人道"
+      ],
+      "rules": [
+        "旺衰需看得令、得地、得势",
+        "五行流通与通关是重要判断维度"
+      ],
+      "source_status": "secondary_summary"
+    },
+    {
+      "title": "渊海子平",
+      "focus": [
+        "四柱",
+        "十神",
+        "六亲",
+        "格局"
+      ],
+      "rules": [
+        "取用可分扶抑、调候、通关、顺势等思路"
+      ],
+      "source_status": "secondary_summary"
+    },
+    {
+      "title": "千里命稿",
+      "focus": [
+        "实断方法",
+        "大运流年",
+        "宫位"
+      ],
+      "rules": [
+        "先看原局，再看大运与流年引动",
+        "宫位和年龄段用于辅助"
+      ],
+      "source_status": "secondary_summary"
+    },
+    {
+      "title": "协纪辨方书",
+      "focus": [
+        "神煞",
+        "择日"
+      ],
+      "rules": [
+        "神煞作为辅助，不单独决定结论"
+      ],
+      "source_status": "secondary_summary"
+    },
+    {
+      "title": "子平真诠",
+      "focus": [
+        "格局",
+        "用神",
+        "相神"
+      ],
+      "rules": [
+        "格局需看用神是否得力、相神是否辅助、忌神是否有制"
+      ],
+      "source_status": "secondary_summary"
+    },
+    {
+      "title": "神峰通考",
+      "focus": [
+        "病药说",
+        "五行生克",
+        "命理考辨"
+      ],
+      "rules": [
+        "强调病药与五行生克，不机械套神煞"
+      ],
+      "source_status": "secondary_summary"
+    },
+    {
+      "title": "果老星宗",
+      "focus": [
+        "七政四余",
+        "命宫身宫",
+        "星命"
+      ],
+      "rules": [
+        "属于星命体系，与八字有交叉但不可混作同一体系"
+      ],
+      "source_status": "secondary_summary"
+    }
+  ]
+}

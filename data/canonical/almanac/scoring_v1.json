@@ -1,0 +1,237 @@
+{
+  "schema_version": "0.1",
+  "domain": "almanac",
+  "topic": "transparent_auspicious_scoring",
+  "ruleset": "chinese-almanac-mcp-v1",
+  "source_level": "L1-deterministic-rules",
+  "license": "MIT",
+  "provenance": {
+    "repo": "yonlandwu/chinese-almanac-mcp",
+    "path": "src/scoring.ts",
+    "commit": "959670751703a4a70db91e479c67b80b3c60514a"
+  },
+  "fixed_inauspicious": {
+    "yang_gong_13_avoid": [
+      [
+        1,
+        13
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        3,
+        9
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        29
+      ],
+      [
+        8,
+        27
+      ],
+      [
+        9,
+        25
+      ],
+      [
+        10,
+        23
+      ],
+      [
+        11,
+        21
+      ],
+      [
+        12,
+        19
+      ]
+    ],
+    "san_niang_sha_lunar_days": [
+      3,
+      7,
+      13,
+      18,
+      22,
+      27
+    ],
+    "shi_e_da_bai_jiazi": [
+      "甲辰",
+      "乙巳",
+      "丙申",
+      "丁亥",
+      "戊戌",
+      "己丑",
+      "庚辰",
+      "辛巳",
+      "壬申",
+      "癸亥"
+    ],
+    "si_li_term_next_day": [
+      "春分",
+      "夏至",
+      "秋分",
+      "冬至"
+    ],
+    "si_jue_term_next_day": [
+      "立春",
+      "立夏",
+      "立秋",
+      "立冬"
+    ]
+  },
+  "patron_zodiac_relation": {
+    "冲": {
+      "action": "veto",
+      "points": 0
+    },
+    "害": {
+      "action": "veto",
+      "points": 0
+    },
+    "三合": {
+      "action": "bonus",
+      "points": 15
+    },
+    "六合": {
+      "action": "bonus",
+      "points": 15
+    },
+    "本位": {
+      "action": "fuyin",
+      "points": 0
+    },
+    "平": {
+      "action": "none",
+      "points": 0
+    }
+  },
+  "event_profiles": [
+    {
+      "key": "wedding",
+      "label": "婚嫁",
+      "aliases": [
+        "结婚",
+        "嫁娶",
+        "领证",
+        "婚"
+      ],
+      "veto_sanniang": true
+    },
+    {
+      "key": "moving-house",
+      "label": "入宅",
+      "aliases": [
+        "搬家",
+        "乔迁",
+        "入宅",
+        "移徙"
+      ],
+      "veto_sanniang": false
+    },
+    {
+      "key": "grand-opening",
+      "label": "开业",
+      "aliases": [
+        "开业",
+        "开市",
+        "剪彩"
+      ],
+      "veto_sanniang": false
+    },
+    {
+      "key": "renovation",
+      "label": "装修动土",
+      "aliases": [
+        "装修",
+        "动土",
+        "修造"
+      ],
+      "veto_sanniang": false
+    },
+    {
+      "key": "signing-contracts",
+      "label": "签约交易",
+      "aliases": [
+        "签约",
+        "交易",
+        "买车",
+        "买房"
+      ],
+      "veto_sanniang": false
+    },
+    {
+      "key": "travel",
+      "label": "出行",
+      "aliases": [
+        "出行",
+        "旅游",
+        "出差"
+      ],
+      "veto_sanniang": false
+    },
+    {
+      "key": "starting-a-new-job",
+      "label": "入职赴任",
+      "aliases": [
+        "入职",
+        "赴任",
+        "上任"
+      ],
+      "veto_sanniang": false
+    },
+    {
+      "key": "c-section",
+      "label": "剖腹产",
+      "aliases": [
+        "剖腹产",
+        "生子"
+      ],
+      "veto_sanniang": false
+    },
+    {
+      "key": "burial",
+      "label": "安葬",
+      "aliases": [
+        "下葬",
+        "安葬",
+        "落葬"
+      ],
+      "veto_sanniang": false
+    },
+    {
+      "key": "ancestor-worship",
+      "label": "祭祀",
+      "aliases": [
+        "祭祀",
+        "祭拜",
+        "上坟"
+      ],
+      "veto_sanniang": false
+    }
+  ],
+  "notes": [
+    "上游用六十甲子 CRT 索引避免干支错误组合。",
+    "四离/四绝按“目标日次日是否为对应节气”判断。",
+    "生肖出生年离线回退以 2 月 4 日近似立春边界，仅适合作为 fallback；精确系统应使用真实节气时刻。",
+    "评分规则属于明确实现口径，不应包装成统一传统标准。"
+  ]
+}

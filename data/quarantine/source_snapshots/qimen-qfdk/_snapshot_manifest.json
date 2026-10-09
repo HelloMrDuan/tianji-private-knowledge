@@ -1,0 +1,52 @@
+{
+  "source_id": "qimen-qfdk",
+  "repo": "qfdk/qimen",
+  "branch": "master",
+  "commit": "1d0d1c5b39755e67525a11e68bab9b73baae1937",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "qimen"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "README.md",
+      "snapshot_path": "data/quarantine/source_snapshots/qimen-qfdk/README.md",
+      "sha256": "c17a3fa10b08eadfe7d216ede4352b02949073cebfa8599e96fd3fdbac300265",
+      "bytes": 2885
+    },
+    {
+      "source_path": "lib/qimen.js",
+      "snapshot_path": "data/quarantine/source_snapshots/qimen-qfdk/lib/qimen.js",
+      "sha256": "564e385fd0bf3456eb9772da35a186bca62bee8821b043a26558414ae50ad40a",
+      "bytes": 27962
+    },
+    {
+      "source_path": "lib/dipan.js",
+      "snapshot_path": "data/quarantine/source_snapshots/qimen-qfdk/lib/dipan.js",
+      "sha256": "2006a66df8172d63c1101fa240bce745217fe5d894e1a81c62de272f9b9840c8",
+      "bytes": 1745
+    },
+    {
+      "source_path": "lib/jiuxing.js",
+      "snapshot_path": "data/quarantine/source_snapshots/qimen-qfdk/lib/jiuxing.js",
+      "sha256": "c3bc16cdde78aaaeed9558d2c30563f85a68d6e86dc23fec55daf623233c8452",
+      "bytes": 2738
+    },
+    {
+      "source_path": "lib/bamen.js",
+      "snapshot_path": "data/quarantine/source_snapshots/qimen-qfdk/lib/bamen.js",
+      "sha256": "25fa72ca03334318e7ceda35af082e41b7ceebd56d2becd0de9c895307f49645",
+      "bytes": 2537
+    },
+    {
+      "source_path": "lib/bashen.js",
+      "snapshot_path": "data/quarantine/source_snapshots/qimen-qfdk/lib/bashen.js",
+      "sha256": "9916eb262603640a67159ccdbe5fb051ab5f26f9510164d06d36fa4eccb0c3fe",
+      "bytes": 1678
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

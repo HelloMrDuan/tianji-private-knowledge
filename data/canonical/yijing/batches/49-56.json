@@ -1,0 +1,312 @@
+{
+  "schema_version": "0.1",
+  "domain": "yijing",
+  "batch": "49-56",
+  "source_level": "L0-public-domain-classic",
+  "records": [
+    {
+      "number": 49,
+      "full_name": "泽火革",
+      "judgment": "革。 己日乃孚。元亨利貞。悔亡。",
+      "image": "澤中有火，革。君子以治歷明時。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "鞏用黃牛之革。"
+        },
+        {
+          "position": "六二",
+          "text": "己日乃革之。征吉，無咎。"
+        },
+        {
+          "position": "九三",
+          "text": "征凶貞厲。革言三就，有孚。"
+        },
+        {
+          "position": "九四",
+          "text": "悔亡，有孚，改命，吉。"
+        },
+        {
+          "position": "九五",
+          "text": "大人虎變，未占有孚。"
+        },
+        {
+          "position": "上六",
+          "text": "君子豹變，小人革面。征凶，居貞吉。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/49.泽火革/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 50,
+      "full_name": "火风鼎",
+      "judgment": "鼎。 元吉，亨。",
+      "image": "木上有火，鼎。君子以正位凝命。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "鼎顛趾，利出否。得妾以其子，無咎。"
+        },
+        {
+          "position": "九二",
+          "text": "鼎有實，我仇有疾，不我能即，吉。"
+        },
+        {
+          "position": "九三",
+          "text": "鼎耳革，其行塞，雉膏不食。方雨，虧悔，終吉。"
+        },
+        {
+          "position": "九四",
+          "text": "鼎折足，覆公餗，其形渥，凶。"
+        },
+        {
+          "position": "六五",
+          "text": "鼎黃耳金鉉，利貞。"
+        },
+        {
+          "position": "上九",
+          "text": "鼎玉鉉，大吉，無不利。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/50.火风鼎/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 51,
+      "full_name": "震为雷",
+      "judgment": "震。 亨。震來虩虩，笑言啞啞。震驚百里，不喪匕鬯。",
+      "image": "洊雷，震。君子以恐懼修省。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "震來虩虩，後笑言啞啞，吉。"
+        },
+        {
+          "position": "六二",
+          "text": "震來厲，億喪貝。躋於九陵，勿逐，七日得。"
+        },
+        {
+          "position": "六三",
+          "text": "震蘇蘇，震行無眚。"
+        },
+        {
+          "position": "九四",
+          "text": "震遂泥。"
+        },
+        {
+          "position": "六五",
+          "text": "震往來厲，億無喪，有事。"
+        },
+        {
+          "position": "上六",
+          "text": "震索索，視矍矍，征凶。震不於其躬，於其鄰，無咎。婚媾有言。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/51.震为雷/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 52,
+      "full_name": "艮为山",
+      "judgment": "艮。 艮其背，不獲其身。行其庭，不見其人。無咎。",
+      "image": "兼山，艮。君子以思不出其位。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "艮其趾，無咎。利永貞。"
+        },
+        {
+          "position": "六二",
+          "text": "艮其腓，不拯其隨，其心不快。"
+        },
+        {
+          "position": "九三",
+          "text": "艮其限，列其夤，厲薰心。"
+        },
+        {
+          "position": "六四",
+          "text": "艮其身，無咎。"
+        },
+        {
+          "position": "六五",
+          "text": "艮其輔，言有序，悔亡。"
+        },
+        {
+          "position": "上九",
+          "text": "敦艮，吉。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/52.艮为山/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 53,
+      "full_name": "风山渐",
+      "judgment": "漸。 女歸吉，利貞。",
+      "image": "山上有木，漸。君子以居賢德善俗。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "鴻漸於乾，小子厲。有言，無咎。"
+        },
+        {
+          "position": "六二",
+          "text": "鴻漸於磐，飲食衎衎，吉。"
+        },
+        {
+          "position": "九三",
+          "text": "鴻漸於陸，夫征不復，婦孕不育，凶。利禦寇。"
+        },
+        {
+          "position": "六四",
+          "text": "鴻漸於木，或得其桷，無咎。"
+        },
+        {
+          "position": "九五",
+          "text": "鴻漸於陵，婦三歲不孕，終莫之勝，吉。"
+        },
+        {
+          "position": "上九",
+          "text": "鴻漸於陸，其羽可用為儀，吉。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/53.风山渐/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 54,
+      "full_name": "雷泽归妹",
+      "judgment": "歸妹。 征凶，無攸利。",
+      "image": "澤上有雷，歸妹。君子以永終知敝。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "歸妹以娣，跛能履，征吉。"
+        },
+        {
+          "position": "九二",
+          "text": "眇能視，利幽人之貞。"
+        },
+        {
+          "position": "六三",
+          "text": "歸妹以須，反歸以娣。"
+        },
+        {
+          "position": "九四",
+          "text": "歸妹愆期，遲歸有時。"
+        },
+        {
+          "position": "六五",
+          "text": "帝乙歸妹，其君之袂不如其娣之袂良。月幾望，吉。"
+        },
+        {
+          "position": "上六",
+          "text": "女承筐無實，士刲羊無血，無攸利。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/54.雷泽归妹/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 55,
+      "full_name": "雷火丰",
+      "judgment": "豐。 亨。王假之，勿憂，宜日中。",
+      "image": "雷電皆至，豐。君子以折獄致刑。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "遇其配主，雖旬無咎;往有尚。"
+        },
+        {
+          "position": "六二",
+          "text": "豐其蔀，日中見斗。往得疑疾。有孚發若，吉。"
+        },
+        {
+          "position": "九三",
+          "text": "豐其沛，日中見沬。折其右肱，無咎。"
+        },
+        {
+          "position": "九四",
+          "text": "豐其蔀，日中見斗。遇其夷主，吉。"
+        },
+        {
+          "position": "六五",
+          "text": "來章，有慶譽，吉。"
+        },
+        {
+          "position": "上六",
+          "text": "豐其屋，蔀其家，窺其戶，闃其無人，三歲不覿，凶。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/55.雷火丰/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 56,
+      "full_name": "火山旅",
+      "judgment": "旅。 小亨，旅貞吉。",
+      "image": "山上有火，旅。君子以明慎用刑而不留獄。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "旅瑣瑣，斯其所取災。"
+        },
+        {
+          "position": "六二",
+          "text": "旅即次，懷其資，得童僕，貞。"
+        },
+        {
+          "position": "九三",
+          "text": "旅焚其次，喪其童僕，貞厲。"
+        },
+        {
+          "position": "九四",
+          "text": "旅於處，得其資斧，我心不快。"
+        },
+        {
+          "position": "六五",
+          "text": "射雉，一矢亡，終以譽命。"
+        },
+        {
+          "position": "上九",
+          "text": "鳥焚其巢，旅人先笑後號啕。喪牛於易，凶。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/56.火山旅/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    }
+  ]
+}

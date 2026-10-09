@@ -1,0 +1,23 @@
+{
+  "source_id": "hetu-luoshu-wuji",
+  "repo": "wuji-labs/hetu-luoshu",
+  "branch": "main",
+  "commit": "6fd644c8a45d984da6bd885cd5d981525a3ddff6",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "yijing",
+    "methodology"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "reference/yijing.md",
+      "snapshot_path": "data/quarantine/source_snapshots/hetu-luoshu-wuji/reference/yijing.md",
+      "sha256": "7a77a21a1b511188848895b7266ebbca65875b66990592c811a79730a68d076b",
+      "bytes": 5697
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

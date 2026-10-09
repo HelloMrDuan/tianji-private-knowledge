@@ -1,0 +1,1557 @@
+{
+  "schema_version": "1.0",
+  "model": "phase1-knowledge",
+  "domain": "fengshui",
+  "classics": [
+    {
+      "id": "fengshui.classic.zangshu",
+      "domain": "fengshui",
+      "name": "葬书",
+      "source_id": "fengshui.source.zangshu",
+      "body_stage": "quarantine"
+    },
+    {
+      "id": "fengshui.classic.dibian",
+      "domain": "fengshui",
+      "name": "地理辨正",
+      "source_id": "fengshui.source.dibian",
+      "body_stage": "quarantine"
+    },
+    {
+      "id": "fengshui.classic.yangzhai",
+      "domain": "fengshui",
+      "name": "阳宅指南",
+      "source_id": "fengshui.source.yangzhai",
+      "body_stage": "quarantine"
+    },
+    {
+      "id": "fengshui.classic.benyi",
+      "domain": "fengshui",
+      "name": "原本周易本义",
+      "source_id": "fengshui.source.benyi",
+      "body_stage": "quarantine"
+    },
+    {
+      "id": "fengshui.classic.hanlong",
+      "domain": "fengshui",
+      "name": "撼龙经",
+      "source_id": "fengshui.source.hanlong",
+      "body_stage": "quarantine"
+    },
+    {
+      "id": "fengshui.classic.meihua",
+      "domain": "fengshui",
+      "name": "梅花易数",
+      "source_id": "fengshui.source.meihua",
+      "body_stage": "quarantine"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "fengshui.chapter.zangshu.8cff2b9d",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）",
+      "classic_id": "fengshui.classic.zangshu",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "fengshui.chapter.hanlong.8cff2b9d",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）",
+      "classic_id": "fengshui.classic.hanlong",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "fengshui.chapter.dibian.8cff2b9d",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）",
+      "classic_id": "fengshui.classic.dibian",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "fengshui.chapter.yangzhai.8cff2b9d",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）",
+      "classic_id": "fengshui.classic.yangzhai",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "fengshui.chapter.benyi.8cff2b9d",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）",
+      "classic_id": "fengshui.classic.benyi",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "fengshui.chapter.hanlong.df2b745e",
+      "domain": "fengshui",
+      "name": "疑龙经·官星与朝山",
+      "classic_id": "fengshui.classic.hanlong",
+      "locator": "疑龙经·官星与朝山"
+    },
+    {
+      "id": "fengshui.chapter.meihua.988756a3",
+      "domain": "fengshui",
+      "name": "卷一·天干",
+      "classic_id": "fengshui.classic.meihua",
+      "locator": "卷一·天干"
+    },
+    {
+      "id": "fengshui.chapter.meihua.cdaecc1d",
+      "domain": "fengshui",
+      "name": "卷一·地支",
+      "classic_id": "fengshui.classic.meihua",
+      "locator": "卷一·地支"
+    },
+    {
+      "id": "fengshui.chapter.benyi.444332b7",
+      "domain": "fengshui",
+      "name": "说卦传·后天方位",
+      "classic_id": "fengshui.classic.benyi",
+      "locator": "说卦传·后天方位"
+    }
+  ],
+  "sections": [
+    {
+      "id": "fengshui.section.s001",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段1",
+      "classic_id": "fengshui.classic.zangshu",
+      "chapter_id": "fengshui.chapter.zangshu.8cff2b9d",
+      "source_id": "fengshui.source.zangshu",
+      "text": "古人聚之使不散，行之使有止，故谓之风水。",
+      "locator": "基础选段（编者定位）; decoded-character interval [1616,1636)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s002",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段2",
+      "classic_id": "fengshui.classic.zangshu",
+      "chapter_id": "fengshui.chapter.zangshu.8cff2b9d",
+      "source_id": "fengshui.source.zangshu",
+      "text": "龙脉抱卫",
+      "locator": "基础选段（编者定位）; decoded-character interval [631,635)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s003",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段3",
+      "classic_id": "fengshui.classic.zangshu",
+      "chapter_id": "fengshui.chapter.zangshu.8cff2b9d",
+      "source_id": "fengshui.source.zangshu",
+      "text": "形穴既就",
+      "locator": "基础选段（编者定位）; decoded-character interval [641,645)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s004",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段4",
+      "classic_id": "fengshui.classic.zangshu",
+      "chapter_id": "fengshui.chapter.zangshu.8cff2b9d",
+      "source_id": "fengshui.source.zangshu",
+      "text": "龙脉抱卫，砂水贫聚。",
+      "locator": "基础选段（编者定位）; decoded-character interval [631,641)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s005",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段5",
+      "classic_id": "fengshui.classic.zangshu",
+      "chapter_id": "fengshui.chapter.zangshu.8cff2b9d",
+      "source_id": "fengshui.source.zangshu",
+      "text": "前有拦截之水",
+      "locator": "基础选段（编者定位）; decoded-character interval [9272,9278)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s006",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段6",
+      "classic_id": "fengshui.classic.zangshu",
+      "chapter_id": "fengshui.chapter.zangshu.8cff2b9d",
+      "source_id": "fengshui.source.zangshu",
+      "text": "明堂惜水如惜血，堂里避风如避贼。",
+      "locator": "基础选段（编者定位）; decoded-character interval [1593,1609)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s007",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段7",
+      "classic_id": "fengshui.classic.zangshu",
+      "chapter_id": "fengshui.chapter.zangshu.8cff2b9d",
+      "source_id": "fengshui.source.zangshu",
+      "text": "夫千里来龙",
+      "locator": "基础选段（编者定位）; decoded-character interval [3271,3276)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s008",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段8",
+      "classic_id": "fengshui.classic.hanlong",
+      "chapter_id": "fengshui.chapter.hanlong.8cff2b9d",
+      "source_id": "fengshui.source.hanlong",
+      "text": "水去明堂聚气多",
+      "locator": "基础选段（编者定位）; decoded-character interval [840,847)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s009",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段9",
+      "classic_id": "fengshui.classic.hanlong",
+      "chapter_id": "fengshui.chapter.hanlong.8cff2b9d",
+      "source_id": "fengshui.source.hanlong",
+      "text": "纒水纒山作案山",
+      "locator": "基础选段（编者定位）; decoded-character interval [14062,14069)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s010",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段10",
+      "classic_id": "fengshui.classic.zangshu",
+      "chapter_id": "fengshui.chapter.zangshu.8cff2b9d",
+      "source_id": "fengshui.source.zangshu",
+      "text": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+      "locator": "基础选段（编者定位）; decoded-character interval [10448,10488)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s011",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段11",
+      "classic_id": "fengshui.classic.dibian",
+      "chapter_id": "fengshui.chapter.dibian.8cff2b9d",
+      "source_id": "fengshui.source.dibian",
+      "text": "坐向须知病",
+      "locator": "基础选段（编者定位）; decoded-character interval [5927,5932)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s012",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段12",
+      "classic_id": "fengshui.classic.dibian",
+      "chapter_id": "fengshui.chapter.dibian.8cff2b9d",
+      "source_id": "fengshui.source.dibian",
+      "text": "二十四山阴阳不一，吉凶无定",
+      "locator": "基础选段（编者定位）; decoded-character interval [1178,1191)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s013",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段13",
+      "classic_id": "fengshui.classic.dibian",
+      "chapter_id": "fengshui.chapter.dibian.8cff2b9d",
+      "source_id": "fengshui.source.dibian",
+      "text": "以元空之理气，用五行之星体",
+      "locator": "基础选段（编者定位）; decoded-character interval [50,63)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s014",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段14",
+      "classic_id": "fengshui.classic.dibian",
+      "chapter_id": "fengshui.chapter.dibian.8cff2b9d",
+      "source_id": "fengshui.source.dibian",
+      "text": "天干从申子辰三合为水局",
+      "locator": "基础选段（编者定位）; decoded-character interval [603,614)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s015",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段15",
+      "classic_id": "fengshui.classic.yangzhai",
+      "chapter_id": "fengshui.chapter.yangzhai.8cff2b9d",
+      "source_id": "fengshui.source.yangzhai",
+      "text": "八宅因门坐向空，一元衰旺定真踪。",
+      "locator": "基础选段（编者定位）; decoded-character interval [2338,2354)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s016",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段16",
+      "classic_id": "fengshui.classic.yangzhai",
+      "chapter_id": "fengshui.chapter.yangzhai.8cff2b9d",
+      "source_id": "fengshui.source.yangzhai",
+      "text": "轮转三元无替谢",
+      "locator": "基础选段（编者定位）; decoded-character interval [620,627)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s017",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段17",
+      "classic_id": "fengshui.classic.benyi",
+      "chapter_id": "fengshui.chapter.benyi.8cff2b9d",
+      "source_id": "fengshui.source.benyi",
+      "text": "其位一六居下二七居上三八居左四九居右五十居中",
+      "locator": "基础选段（编者定位）; decoded-character interval [50984,51006)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s018",
+      "domain": "fengshui",
+      "name": "基础选段（编者定位）·选段18",
+      "classic_id": "fengshui.classic.benyi",
+      "chapter_id": "fengshui.chapter.benyi.8cff2b9d",
+      "source_id": "fengshui.source.benyi",
+      "text": "数戴九履一左三右七二四为肩六八为足",
+      "locator": "基础选段（编者定位）; decoded-character interval [1052,1069)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s019",
+      "domain": "fengshui",
+      "name": "疑龙经·官星与朝山·选段19",
+      "classic_id": "fengshui.classic.hanlong",
+      "chapter_id": "fengshui.chapter.hanlong.df2b745e",
+      "source_id": "fengshui.source.hanlong",
+      "text": "问君如何谓之官朝山背后逆拖山此是朝山有余气",
+      "locator": "疑龙经·官星与朝山; decoded-character interval [6586,6607)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s020",
+      "domain": "fengshui",
+      "name": "卷一·天干·选段20",
+      "classic_id": "fengshui.classic.meihua",
+      "chapter_id": "fengshui.chapter.meihua.988756a3",
+      "source_id": "fengshui.source.meihua",
+      "text": "甲乙东方木，丙丁南方火，戊己中央土，庚辛西方金，壬癸北方水。",
+      "locator": "卷一·天干; decoded-character interval [2018,2048)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s021",
+      "domain": "fengshui",
+      "name": "卷一·地支·选段21",
+      "classic_id": "fengshui.classic.meihua",
+      "chapter_id": "fengshui.chapter.meihua.cdaecc1d",
+      "source_id": "fengshui.source.meihua",
+      "text": "子水鼠，丑土牛，寅木虎，卯木兔，辰土龙，巳火蛇，午火马，未土羊，申猴金，酉金鸡，戌土犬，亥水猪。",
+      "locator": "卷一·地支; decoded-character interval [2058,2106)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.section.s022",
+      "domain": "fengshui",
+      "name": "说卦传·后天方位·选段22",
+      "classic_id": "fengshui.classic.benyi",
+      "chapter_id": "fengshui.chapter.benyi.444332b7",
+      "source_id": "fengshui.source.benyi",
+      "text": "震东方也齐乎巽巽东南也",
+      "locator": "说卦传·后天方位; decoded-character interval [61581,61592)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "fengshui.term.t001",
+      "domain": "fengshui",
+      "name": "风水",
+      "aliases": [],
+      "definition": "古人聚之使不散，行之使有止，故谓之风水。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s001",
+          "original_text": "古人聚之使不散，行之使有止，故谓之风水。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t002",
+      "domain": "fengshui",
+      "name": "龙",
+      "aliases": [],
+      "definition": "龙脉抱卫",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s002",
+          "original_text": "龙脉抱卫",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t003",
+      "domain": "fengshui",
+      "name": "穴",
+      "aliases": [],
+      "definition": "形穴既就",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s003",
+          "original_text": "形穴既就",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t004",
+      "domain": "fengshui",
+      "name": "砂",
+      "aliases": [],
+      "definition": "龙脉抱卫，砂水贫聚。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s004",
+          "original_text": "龙脉抱卫，砂水贫聚。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t005",
+      "domain": "fengshui",
+      "name": "水",
+      "aliases": [],
+      "definition": "前有拦截之水",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s005",
+          "original_text": "前有拦截之水",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t006",
+      "domain": "fengshui",
+      "name": "明堂",
+      "aliases": [],
+      "definition": "明堂惜水如惜血，堂里避风如避贼。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s006",
+          "original_text": "明堂惜水如惜血，堂里避风如避贼。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t007",
+      "domain": "fengshui",
+      "name": "来龙",
+      "aliases": [],
+      "definition": "夫千里来龙",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s007",
+          "original_text": "夫千里来龙",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t008",
+      "domain": "fengshui",
+      "name": "去水",
+      "aliases": [],
+      "definition": "水去明堂聚气多",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.hanlong",
+          "section_id": "fengshui.section.s008",
+          "original_text": "水去明堂聚气多",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t009",
+      "domain": "fengshui",
+      "name": "朝案",
+      "aliases": [],
+      "definition": "以“朝案”汇集朝山、案山两类术语；本选段仅说明案山，另附朝山原文。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.hanlong",
+          "section_id": "fengshui.section.s009",
+          "original_text": "纒水纒山作案山",
+          "role": "classical"
+        },
+        {
+          "source_id": "fengshui.source.hanlong",
+          "section_id": "fengshui.section.s019",
+          "original_text": "问君如何谓之官朝山背后逆拖山此是朝山有余气",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t010",
+      "domain": "fengshui",
+      "name": "青龙",
+      "aliases": [],
+      "definition": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s010",
+          "original_text": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t011",
+      "domain": "fengshui",
+      "name": "白虎",
+      "aliases": [],
+      "definition": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s010",
+          "original_text": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t012",
+      "domain": "fengshui",
+      "name": "朱雀",
+      "aliases": [],
+      "definition": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s010",
+          "original_text": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t013",
+      "domain": "fengshui",
+      "name": "玄武",
+      "aliases": [],
+      "definition": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s010",
+          "original_text": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t014",
+      "domain": "fengshui",
+      "name": "坐",
+      "aliases": [],
+      "definition": "坐向须知病",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s011",
+          "original_text": "坐向须知病",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t015",
+      "domain": "fengshui",
+      "name": "向",
+      "aliases": [],
+      "definition": "坐向须知病",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s011",
+          "original_text": "坐向须知病",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t016",
+      "domain": "fengshui",
+      "name": "二十四山",
+      "aliases": [],
+      "definition": "二十四山阴阳不一，吉凶无定",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s012",
+          "original_text": "二十四山阴阳不一，吉凶无定",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t017",
+      "domain": "fengshui",
+      "name": "玄空",
+      "aliases": [
+        "元空"
+      ],
+      "definition": "元空/玄空理气名称；本选段出自蒋氏说明，不合并全部现代玄空派。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s013",
+          "original_text": "以元空之理气，用五行之星体",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t018",
+      "domain": "fengshui",
+      "name": "三合",
+      "aliases": [],
+      "definition": "申子辰合水局的三合名称；所引为蒋氏评论语境，不代表三合派全部规则。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s014",
+          "original_text": "天干从申子辰三合为水局",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t019",
+      "domain": "fengshui",
+      "name": "八宅",
+      "aliases": [],
+      "definition": "传统宅法名称；所引为蒋氏批评语境，不当作该派自身算法。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.yangzhai",
+          "section_id": "fengshui.section.s015",
+          "original_text": "八宅因门坐向空，一元衰旺定真踪。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t020",
+      "domain": "fengshui",
+      "name": "三元",
+      "aliases": [],
+      "definition": "轮转三元无替谢",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.yangzhai",
+          "section_id": "fengshui.section.s016",
+          "original_text": "轮转三元无替谢",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t021",
+      "domain": "fengshui",
+      "name": "河图",
+      "aliases": [],
+      "definition": "其位一六居下二七居上三八居左四九居右五十居中",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.benyi",
+          "section_id": "fengshui.section.s017",
+          "original_text": "其位一六居下二七居上三八居左四九居右五十居中",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t022",
+      "domain": "fengshui",
+      "name": "洛书",
+      "aliases": [],
+      "definition": "数戴九履一左三右七二四为肩六八为足",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.benyi",
+          "section_id": "fengshui.section.s018",
+          "original_text": "数戴九履一左三右七二四为肩六八为足",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "definition_scope": "原典选段或明确注明的简短释名，非现实吉凶结论。"
+      }
+    },
+    {
+      "id": "fengshui.term.t023",
+      "domain": "fengshui",
+      "name": "五行",
+      "aliases": [],
+      "definition": "干、兑，金；坤、艮，土；震、巽，木；坎，水；离，火。",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.meihua",
+          "section_id": "yijing.section.s014",
+          "original_text": "干、兑，金；坤、艮，土；震、巽，木；坎，水；离，火。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "fengshui.term.t024",
+      "domain": "fengshui",
+      "name": "天干",
+      "aliases": [],
+      "definition": "甲乙东方木，丙丁南方火，戊己中央土，庚辛西方金，壬癸北方水。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.meihua",
+          "section_id": "fengshui.section.s020",
+          "original_text": "甲乙东方木，丙丁南方火，戊己中央土，庚辛西方金，壬癸北方水。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "fengshui.term.t025",
+      "domain": "fengshui",
+      "name": "地支",
+      "aliases": [],
+      "definition": "子水鼠，丑土牛，寅木虎，卯木兔，辰土龙，巳火蛇，午火马，未土羊，申猴金，酉金鸡，戌土犬，亥水猪。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.meihua",
+          "section_id": "fengshui.section.s021",
+          "original_text": "子水鼠，丑土牛，寅木虎，卯木兔，辰土龙，巳火蛇，午火马，未土羊，申猴金，酉金鸡，戌土犬，亥水猪。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "fengshui.term.t026",
+      "domain": "fengshui",
+      "name": "先天八卦",
+      "aliases": [],
+      "definition": "邵子曰干南坤北离东坎西震东北兊东南巽西南艮西北",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.benyi",
+          "section_id": "yijing.section.s013",
+          "original_text": "邵子曰干南坤北离东坎西震东北兊东南巽西南艮西北",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "fengshui.term.t027",
+      "domain": "fengshui",
+      "name": "后天八卦",
+      "aliases": [],
+      "definition": "震东方也齐乎巽巽东南也",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.benyi",
+          "section_id": "fengshui.section.s022",
+          "original_text": "震东方也齐乎巽巽东南也",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "fengshui.term.t028",
+      "domain": "fengshui",
+      "name": "乾",
+      "aliases": [],
+      "definition": "乾为天，为圆，为君，为父",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.shuogua",
+          "section_id": "yijing.section.s017",
+          "original_text": "乾为天，为圆，为君，为父",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "shared_entity": "yijing.concept.trigram1"
+      }
+    },
+    {
+      "id": "fengshui.term.t029",
+      "domain": "fengshui",
+      "name": "兑",
+      "aliases": [],
+      "definition": "兑为泽，为少女",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.shuogua",
+          "section_id": "yijing.section.s018",
+          "original_text": "兑为泽，为少女",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "shared_entity": "yijing.concept.trigram2"
+      }
+    },
+    {
+      "id": "fengshui.term.t030",
+      "domain": "fengshui",
+      "name": "离",
+      "aliases": [],
+      "definition": "离为火，为日，为电，为中女",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.shuogua",
+          "section_id": "yijing.section.s020",
+          "original_text": "离为火，为日，为电，为中女",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "shared_entity": "yijing.concept.trigram3"
+      }
+    },
+    {
+      "id": "fengshui.term.t031",
+      "domain": "fengshui",
+      "name": "震",
+      "aliases": [],
+      "definition": "震为雷，为龙，为玄黄",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.shuogua",
+          "section_id": "yijing.section.s022",
+          "original_text": "震为雷，为龙，为玄黄",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "shared_entity": "yijing.concept.trigram4"
+      }
+    },
+    {
+      "id": "fengshui.term.t032",
+      "domain": "fengshui",
+      "name": "巽",
+      "aliases": [],
+      "definition": "巽为木，为风，为长女",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.shuogua",
+          "section_id": "yijing.section.s024",
+          "original_text": "巽为木，为风，为长女",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "shared_entity": "yijing.concept.trigram5"
+      }
+    },
+    {
+      "id": "fengshui.term.t033",
+      "domain": "fengshui",
+      "name": "坎",
+      "aliases": [],
+      "definition": "坎为水，为沟渎",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.shuogua",
+          "section_id": "yijing.section.s025",
+          "original_text": "坎为水，为沟渎",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "shared_entity": "yijing.concept.trigram6"
+      }
+    },
+    {
+      "id": "fengshui.term.t034",
+      "domain": "fengshui",
+      "name": "艮",
+      "aliases": [],
+      "definition": "艮为山，为径路",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.shuogua",
+          "section_id": "yijing.section.s027",
+          "original_text": "艮为山，为径路",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "shared_entity": "yijing.concept.trigram7"
+      }
+    },
+    {
+      "id": "fengshui.term.t035",
+      "domain": "fengshui",
+      "name": "坤",
+      "aliases": [],
+      "definition": "坤为地，为母",
+      "source_refs": [
+        {
+          "source_id": "yijing.source.shuogua",
+          "section_id": "yijing.section.s029",
+          "original_text": "坤为地，为母",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "shared_entity": "yijing.concept.trigram8"
+      }
+    },
+    {
+      "id": "fengshui.term.t036",
+      "domain": "fengshui",
+      "name": "八卦",
+      "aliases": [],
+      "definition": "八个三画卦的共享基础实体；先后天方位分开记录。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.benyi",
+          "section_id": "fengshui.section.s022",
+          "original_text": "震东方也齐乎巽巽东南也",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary"
+      }
+    },
+    {
+      "id": "fengshui.term.t037",
+      "domain": "fengshui",
+      "name": "三元九运",
+      "aliases": [],
+      "definition": "现有软件的时间分组名称；九运数值表另存研究隔离数据，古籍选段仅证实三元术语，未核定二十年规则。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.yangzhai",
+          "section_id": "fengshui.section.s016",
+          "original_text": "轮转三元无替谢",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "source_grounded_summary"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "fengshui.rule.r001",
+      "domain": "fengshui",
+      "name": "洛书宫数网格",
+      "conditions": [],
+      "inputs": {
+        "orientation": "south_up / north_up"
+      },
+      "operation": {
+        "kind": "grid_coordinates",
+        "parameters": {},
+        "provider": "tianji_kb.operations.fengshui.luoshu_grid"
+      },
+      "result": {
+        "matrix": "3x3宫数；数学行列与对角线和15"
+      },
+      "exceptions": [],
+      "execution_status": "executable",
+      "school": "河洛基础",
+      "variant": "传统南上图；现代二维坐标形式化",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.benyi",
+          "section_id": "fengshui.section.s018",
+          "original_text": "数戴九履一左三右七二四为肩六八为足",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "fengshui.term.t022"
+      ]
+    },
+    {
+      "id": "fengshui.rule.r002",
+      "domain": "fengshui",
+      "name": "二十四山既有分区查找",
+      "conditions": [],
+      "inputs": {
+        "degrees": "finite compass degree; 0 north, clockwise"
+      },
+      "operation": {
+        "kind": "existing_sector_lookup",
+        "parameters": {},
+        "provider": "tianji_kb.operations.fengshui.mountain_at",
+        "source_id": "fengshui.source.fengshui-implementation"
+      },
+      "result": {
+        "record": "既有二十四山记录"
+      },
+      "exceptions": [],
+      "execution_status": "executable",
+      "school": "罗盘方位基础",
+      "variant": "existing-24mountains-v1",
+      "difference": "15度均分与角度坐标是已有罗盘模型的数学接口，所引原典不直接规定现代角度区间。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s012",
+          "original_text": "二十四山阴阳不一，吉凶无定",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "fengshui.term.t016",
+        "fengshui.term.t014",
+        "fengshui.term.t015"
+      ]
+    },
+    {
+      "id": "fengshui.rule.r003",
+      "domain": "fengshui",
+      "name": "四兽相对方位",
+      "conditions": [],
+      "inputs": {
+        "observer": "穴处向前"
+      },
+      "operation": {
+        "kind": "relative_position",
+        "parameters": {},
+        "provider": "tianji_kb.operations.fengshui.four_beasts"
+      },
+      "result": {
+        "left": "青龙",
+        "right": "白虎",
+        "front": "朱雀",
+        "back": "玄武"
+      },
+      "exceptions": [
+        "相对前后左右，不转换为固定罗盘方位或吉凶。"
+      ],
+      "execution_status": "executable",
+      "school": "葬书形法",
+      "variant": "相对穴处；非固定东南西北",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s010",
+          "original_text": "夫葬以左为青龙，右为白虎，前为朱雀，后为玄武。此言前后左右之四兽，皆自穴处言之。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "fengshui.term.t010",
+        "fengshui.term.t011",
+        "fengshui.term.t012",
+        "fengshui.term.t013"
+      ]
+    },
+    {
+      "id": "fengshui.rule.r004",
+      "domain": "fengshui",
+      "name": "形势观察",
+      "conditions": [],
+      "inputs": {
+        "school": "形法"
+      },
+      "operation": {
+        "kind": "textual",
+        "parameters": {}
+      },
+      "result": {
+        "scope": "原典选段；保留流派边界，不自动混用"
+      },
+      "exceptions": [],
+      "execution_status": "descriptive_only",
+      "school": "形法",
+      "variant": "选段与研究边界",
+      "difference": "不把蒋氏对其他流派的批评改写为该派自身结论。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.zangshu",
+          "section_id": "fengshui.section.s003",
+          "original_text": "形穴既就",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "fengshui.rule.r005",
+      "domain": "fengshui",
+      "name": "元空术语范围",
+      "conditions": [],
+      "inputs": {
+        "school": "玄空"
+      },
+      "operation": {
+        "kind": "school_contract",
+        "parameters": {}
+      },
+      "result": {
+        "scope": "原典选段；保留流派边界，不自动混用"
+      },
+      "exceptions": [],
+      "execution_status": "partially_structured",
+      "school": "玄空",
+      "variant": "选段与研究边界",
+      "difference": "不把蒋氏对其他流派的批评改写为该派自身结论。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s013",
+          "original_text": "以元空之理气，用五行之星体",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "fengshui.rule.r006",
+      "domain": "fengshui",
+      "name": "三合关系语境",
+      "conditions": [],
+      "inputs": {
+        "school": "三合"
+      },
+      "operation": {
+        "kind": "school_contract",
+        "parameters": {}
+      },
+      "result": {
+        "scope": "原典选段；保留流派边界，不自动混用"
+      },
+      "exceptions": [],
+      "execution_status": "partially_structured",
+      "school": "三合",
+      "variant": "选段与研究边界",
+      "difference": "不把蒋氏对其他流派的批评改写为该派自身结论。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s014",
+          "original_text": "天干从申子辰三合为水局",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "fengshui.rule.r007",
+      "domain": "fengshui",
+      "name": "八宅评论语境",
+      "conditions": [],
+      "inputs": {
+        "school": "八宅"
+      },
+      "operation": {
+        "kind": "school_contract",
+        "parameters": {}
+      },
+      "result": {
+        "scope": "原典选段；保留流派边界，不自动混用"
+      },
+      "exceptions": [],
+      "execution_status": "partially_structured",
+      "school": "八宅",
+      "variant": "选段与研究边界",
+      "difference": "不把蒋氏对其他流派的批评改写为该派自身结论。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.yangzhai",
+          "section_id": "fengshui.section.s015",
+          "original_text": "八宅因门坐向空，一元衰旺定真踪。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "fengshui.rule.r008",
+      "domain": "fengshui",
+      "name": "三元术语与时间表审核边界",
+      "conditions": [],
+      "inputs": {
+        "school": "三元"
+      },
+      "operation": {
+        "kind": "school_contract",
+        "parameters": {}
+      },
+      "result": {
+        "scope": "原典选段；保留流派边界，不自动混用"
+      },
+      "exceptions": [],
+      "execution_status": "partially_structured",
+      "school": "三元",
+      "variant": "选段与研究边界",
+      "difference": "三元九运20年数值表目前只有软件依据D，研究区保存；不提升为新 Canonical 古籍规则。",
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.yangzhai",
+          "section_id": "fengshui.section.s016",
+          "original_text": "轮转三元无替谢",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    }
+  ],
+  "concepts": [
+    {
+      "id": "fengshui.concept.shared_hetu",
+      "domain": "fengshui",
+      "name": "河图共享基础",
+      "kind": "foundation_reference",
+      "attributes": {
+        "canonical_path": "data/canonical/foundations/hetu_luoshu_v1.json",
+        "json_pointer": "/hetu",
+        "scope": "数对与图式；生成数五行对应保留既有来源"
+      },
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.benyi",
+          "section_id": "fengshui.section.s017",
+          "original_text": "其位一六居下二七居上三八居左四九居右五十居中",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "fengshui.concept.shared_luoshu",
+      "domain": "fengshui",
+      "name": "洛书共享基础",
+      "kind": "foundation_reference",
+      "attributes": {
+        "canonical_path": "data/canonical/foundations/hetu_luoshu_v1.json",
+        "json_pointer": "/luoshu"
+      },
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.benyi",
+          "section_id": "fengshui.section.s018",
+          "original_text": "数戴九履一左三右七二四为肩六八为足",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "fengshui.concept.shared_24mountains",
+      "domain": "fengshui",
+      "name": "二十四山共享基础",
+      "kind": "foundation_reference",
+      "attributes": {
+        "canonical_path": "data/canonical/fengshui/twenty_four_mountains_v1.json",
+        "record_count": 24,
+        "scope": "直接引用，不重建旧数据"
+      },
+      "source_refs": [
+        {
+          "source_id": "fengshui.source.dibian",
+          "section_id": "fengshui.section.s012",
+          "original_text": "二十四山阴阳不一，吉凶无定",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "source_id": "fengshui-master-jackie",
+  "repo": "JackieL233/fengshui-master",
+  "branch": "main",
+  "commit": "2666304c5cb4ac13091c8c1fcdd4e40c218b275a",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "fengshui",
+    "bagua",
+    "bazhai",
+    "xuan-kong",
+    "minggua"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "fengshui-master/references/sources.md",
+      "snapshot_path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/references/sources.md",
+      "sha256": "f6d10d7ea53b7de76fc58f26393cf9efd3ca092b4cf4a677af64d647628bc797",
+      "bytes": 1806
+    },
+    {
+      "source_path": "fengshui-master/references/schools.md",
+      "snapshot_path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/references/schools.md",
+      "sha256": "f2bd90aa69e70fd2e13bad12cf4cfab24dd8896e15d2db1d5e6ba9cb3656affb",
+      "bytes": 6169
+    },
+    {
+      "source_path": "fengshui-master/references/xuan-kong-flying-stars.md",
+      "snapshot_path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/references/xuan-kong-flying-stars.md",
+      "sha256": "25fbfbfcd60afe2f23c27c25dc25240d620cb0710e73cdd47a31383a29e513a0",
+      "bytes": 4636
+    },
+    {
+      "source_path": "fengshui-master/scripts/flying_stars.py",
+      "snapshot_path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/scripts/flying_stars.py",
+      "sha256": "4f951376f508b8d77ab68307cd25a78eb4ac9b43e2128f2c20bea799280c3d7f",
+      "bytes": 3807
+    },
+    {
+      "source_path": "fengshui-master/scripts/minggua.py",
+      "snapshot_path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/scripts/minggua.py",
+      "sha256": "c46c05bd270157bda739504163b2b3bb427f34eea77e46852d90e9add333419f",
+      "bytes": 4319
+    },
+    {
+      "source_path": "fengshui-master/scripts/bagua_map.py",
+      "snapshot_path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/scripts/bagua_map.py",
+      "sha256": "6a7f972413f26b79486539efa89bc7b789850ab8bfcefb5c8577a2dd817bc626",
+      "bytes": 12340
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

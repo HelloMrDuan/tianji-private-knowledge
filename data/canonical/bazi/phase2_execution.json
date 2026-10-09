@@ -1,0 +1,605 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-execution",
+  "domain": "bazi",
+  "variant": "ziping-structural-v1",
+  "provider": "tianji_kb.operations.bazi_chart.chart",
+  "scope": "生产范围为四柱、日主、十神、藏干及可选已审核咸池、干支关系、传统配偶星结构。旧 strength_variant 仅列因素或未裁定条件。显式研究 bazi-strength-adjudication-v1 在木月卯纯印比、木月酉无根无扶充分语境可判 strong/weak，其他 indeterminate；一般旺衰及喜用、格局、关系吉凶、评分和公开深度解释未完成。",
+  "unresolved": [
+    "真太阳时未实现。",
+    "旺衰、格局、喜用神、调候与大运起运规则尚未完成证据裁定。",
+    "咸池四组目标支已核；年支与日支只分别报告，不裁定单一优先基准；纳音附加条件及桃花/婚恋解释仍未裁定。",
+    "本轮新增六冲与三合结构：六冲只按固定对宫配对；三合只按四组完整成员检测。半合、拱合、成化条件与吉凶解释未裁定。",
+    "三刑存在明确流派分歧，当前不进入统一 executable 规则。",
+    "五合/六合命中不代表化气成立；六害/六冲命中不代表现实关系受害、分手、争执或凶断。",
+    "传统配偶星 lens 只在调用方显式选择 traditional_role=male|female 时启用；不推断用户性别，也不把古籍妻妾/偏夫身份标签映射到现代关系身份。",
+    "《滴天髓阐微》明确反对女命机械专执官星论夫；本规则仅定位候选十神位置，不执行配偶质量、正缘、婚期或婚恋吉凶。",
+    "三刑存在明确流派分歧，当前不进入统一 executable 规则。",
+    "月令/通根/透藏因素已执行，不等于完整旺衰算法；司令分日原典异文未裁定，旧因素/条件口径仍未裁定；独立本气充分条件强弱仅在显式研究 Variant 中执行。",
+    "指定年份的流年干支参照仅采用公历7月1日中午真实日历采样；立春精确起止时间、交运与完整年度岁运作用未审核，不得等同运势解释。",
+    "研究模式可列出立春秒级历法区间；边界来自已固定但未独立天文精度校核的历法库；起运法、行运与原局作用以及流年吉凶仍不支持。"
+  ],
+  "rules": [
+    {
+      "id": "bazi.phase2.pillars",
+      "domain": "bazi",
+      "name": "四柱与日主结构",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r001"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.structural-basic"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：单一可追溯《渊海子平》短引；仅结构事实。"
+    },
+    {
+      "id": "bazi.phase2.ten_gods",
+      "domain": "bazi",
+      "name": "十神结构映射",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r002"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.structural-basic"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：单一可追溯《渊海子平》短引；禁止据单项十神直接占断。"
+    },
+    {
+      "id": "bazi.phase2.hidden_stems",
+      "domain": "bazi",
+      "name": "地支藏干与相对十神",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r003"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.structural-basic"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：单一可追溯《渊海子平》藏遁歌；仅固定表。"
+    },
+    {
+      "id": "bazi.phase2.xianchi_lookup",
+      "domain": "bazi",
+      "name": "咸池四组结构查表",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r004"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.xianchi-explicit-dual-basis"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：《三命通会·卷二·论咸池》固定短引；只确认四组目标支。年支与日支分别起查，不据命中直接生成桃花或婚恋吉凶。"
+    },
+    {
+      "id": "bazi.phase2.stem_five_combinations",
+      "domain": "bazi",
+      "name": "天干五合固定配对",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r005"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.relations-core"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：《钦定协纪辨方书》固定短引；只确认甲己、乙庚、丙辛、丁壬、戊癸五组配对，不判断化气成败或吉凶。"
+    },
+    {
+      "id": "bazi.phase2.branch_six_harmonies",
+      "domain": "bazi",
+      "name": "地支六合固定配对",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r006"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.relations-core"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：《钦定协纪辨方书》固定短引；只确认六组六合配对，不解释关系适配、吉凶或婚姻结果。"
+    },
+    {
+      "id": "bazi.phase2.branch_six_harms",
+      "domain": "bazi",
+      "name": "地支六害固定配对",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r007"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.relations-core"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：《钦定协纪辨方书》月害条固定短引；只确认六组相害配对，不输出现实关系伤害或凶断。"
+    },
+    {
+      "id": "bazi.phase2.spouse_palace_day_branch",
+      "domain": "bazi",
+      "name": "日支传统配偶宫结构位",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r008"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.relations-core"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：《渊海子平·络绎赋》固定短引；只标记日支的传统结构角色，产品使用中性“配偶宫结构位”称呼。"
+    },
+    {
+      "id": "bazi.phase2.branch_six_clashes",
+      "domain": "bazi",
+      "name": "地支六冲固定配对",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r009"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.relations-expanded"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：《钦定协纪辨方书》“对七为冲”及卯酉/辰戌实例；只确认六组固定对冲，不输出吉凶或关系事件。"
+    },
+    {
+      "id": "bazi.phase2.branch_triple_harmonies",
+      "domain": "bazi",
+      "name": "地支三合四局",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r010"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.relations-expanded"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：《钦定协纪辨方书》固定短引；只确认申子辰水、巳酉丑金、寅午戌火、亥卯未木四组三合完整结构，不判断半合、成化或吉凶。"
+    },
+    {
+      "id": "bazi.phase2.spouse_star_lens",
+      "domain": "bazi",
+      "name": "传统配偶星候选定位",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r011"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.spouse-star-lens-male",
+        "bazi.spouse-star-lens-female"
+      ],
+      "regression_test": "tests/test_phase2_bazi.py",
+      "evidence_scope": "C：《渊海子平》六亲总篇 + 《滴天髓阐微》夫妻/女命边界短引；只做用户显式选择后的财星或官杀候选位置扫描，不输出婚恋结论。"
+    },
+    {
+      "id": "bazi.phase2.month_command_factors",
+      "domain": "bazi",
+      "name": "月支藏干观察",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r013"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.factors-normal",
+        "bazi.factors-tomb-boundary",
+        "bazi.factors-many-stems-no-root",
+        "bazi.factors-few-stems-with-root",
+        "bazi.factors-clash-not-erasure",
+        "bazi.factors-siling-unresolved"
+      ],
+      "regression_test": "tests/test_phase2_bazistrength.py",
+      "evidence_scope": "C：已核原典短引和藏遁歌；因素子范围 ditiansui-root-visibility-v1；只核结构，不输出整体旺衰、喜用或权重。"
+    },
+    {
+      "id": "bazi.phase2.root_candidates",
+      "domain": "bazi",
+      "name": "通根候选观察",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r014"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.factors-normal",
+        "bazi.factors-tomb-boundary",
+        "bazi.factors-many-stems-no-root",
+        "bazi.factors-few-stems-with-root",
+        "bazi.factors-clash-not-erasure",
+        "bazi.factors-siling-unresolved"
+      ],
+      "regression_test": "tests/test_phase2_bazistrength.py",
+      "evidence_scope": "C：已核原典短引和藏遁歌；因素子范围 ditiansui-root-visibility-v1；只核结构，不输出整体旺衰、喜用或权重。"
+    },
+    {
+      "id": "bazi.phase2.hidden_to_visible",
+      "domain": "bazi",
+      "name": "透藏观察",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r015"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.factors-normal",
+        "bazi.factors-tomb-boundary",
+        "bazi.factors-many-stems-no-root",
+        "bazi.factors-few-stems-with-root",
+        "bazi.factors-clash-not-erasure",
+        "bazi.factors-siling-unresolved"
+      ],
+      "regression_test": "tests/test_phase2_bazistrength.py",
+      "evidence_scope": "C：已核原典短引和藏遁歌；因素子范围 ditiansui-root-visibility-v1；只核结构，不输出整体旺衰、喜用或权重。"
+    },
+    {
+      "id": "bazi.phase2.support_relations",
+      "domain": "bazi",
+      "name": "生扶克泄耗方向位置",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r016"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.support-normal",
+        "bazi.support-yin",
+        "bazi.support-visible-peers",
+        "bazi.support-conflict"
+      ],
+      "regression_test": "tests/test_phase2_bazisupport.py",
+      "evidence_scope": "C：十干阴阳五行、生克方向、十神与藏干短引；只核位置，不判效力、得势、旺衰或喜用。"
+    },
+    {
+      "id": "bazi.phase2.month_command_variant",
+      "domain": "bazi",
+      "name": "月令本气与司令候选审计",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r017"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.commander-conflict",
+        "bazi.commander-single-hidden",
+        "bazi.commander-principal-not-first",
+        "bazi.commander-unreviewed-tomb"
+      ],
+      "regression_test": "tests/test_phase2_bazicommander.py",
+      "evidence_scope": "C：既有藏遁及任氏本气、寅月分日、渊海节气歌短引；显式 bazi-strength-month-command-v1，候选不等于某日司令，根力与旺衰未裁定。"
+    },
+    {
+      "id": "bazi.phase2.root_conditions",
+      "domain": "bazi",
+      "name": "通根类型与冲合条件审计",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r018"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.roots-growth",
+        "bazi.roots-residual",
+        "bazi.roots-clash-not-erasure",
+        "bazi.roots-harmony-not-transformation",
+        "bazi.roots-absent"
+      ],
+      "regression_test": "tests/test_phase2_baziroots.py",
+      "evidence_scope": "C：根、余气例、四库与冲的条件短引及既有关系证据；显式 ditiansui-root-conditions-v1；保留类型重复段冲突，不裁定根力、消根或旺衰。"
+    },
+    {
+      "id": "bazi.phase2.action_conditions",
+      "domain": "bazi",
+      "name": "显藏有根与生克作用条件链",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r019"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.actions-visible-rooted",
+        "bazi.actions-visible-unrooted",
+        "bazi.actions-root-clash",
+        "bazi.actions-yin-reference"
+      ],
+      "regression_test": "tests/test_phase2_baziactions.py",
+      "evidence_scope": "C：生克方向、根气、透藏、贴身远隔的喜忌前提与真实合冲结构；ditiansui-action-conditions-v1 只记录条件，效力及得势 unresolved，显藏不等价。"
+    },
+    {
+      "id": "bazi.phase2.strength_adjudication",
+      "domain": "bazi",
+      "name": "旺衰证据缺口与未裁定出口",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r020"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.strength-reference-strong",
+        "bazi.strength-reference-weak",
+        "bazi.strength-boundary",
+        "bazi.strength-commander-conflict",
+        "bazi.strength-principal-unreviewed",
+        "bazi.strength-root-conflict",
+        "bazi.strength-action-unresolved"
+      ],
+      "regression_test": "tests/test_phase2_baziadjudication.py",
+      "evidence_scope": "C：月令非单因子、根气及喜忌条件边界；汇总真实未裁定条件。强弱古例独立复核，不按四柱记忆标签；仍无通用强弱分类。"
+    },
+    {
+      "id": "bazi.phase2.principal_month",
+      "domain": "bazi",
+      "name": "月支本气关系",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r021"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.principal-same",
+        "bazi.principal-generate",
+        "bazi.principal-control",
+        "bazi.principal-unreviewed"
+      ],
+      "regression_test": "tests/test_phase2_baziavailability.py",
+      "evidence_scope": "C：仅已审核本气关系或任氏木根条件；分日冲突保留，冲合不消根，整体旺衰未裁定。"
+    },
+    {
+      "id": "bazi.phase2.root_availability",
+      "domain": "bazi",
+      "name": "通根可用性",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r022"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.availability-wood",
+        "bazi.availability-clash",
+        "bazi.availability-harmony"
+      ],
+      "regression_test": "tests/test_phase2_baziavailability.py",
+      "evidence_scope": "C：仅已审核本气关系或任氏木根条件；分日冲突保留，冲合不消根，整体旺衰未裁定。"
+    },
+    {
+      "id": "bazi.phase2.action_effects",
+      "domain": "bazi",
+      "name": "有限条件实际作用",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r023"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.effects-pure-support",
+        "bazi.effects-isolated-control",
+        "bazi.effects-five-combination",
+        "bazi.effects-clashed-root"
+      ],
+      "regression_test": "tests/test_phase2_bazieffects.py",
+      "evidence_scope": "C：任氏从象、众寡与既有根本气结构短引；有限作用，不执行从格、整体旺衰或喜用。"
+    },
+    {
+      "id": "bazi.phase2.strength_pure_support",
+      "domain": "bazi",
+      "name": "纯印比木月卯强状态充分裁决",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r024"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.adjudication-strong-wood-sites",
+        "bazi.adjudication-strong-water-sites"
+      ],
+      "regression_test": "tests/test_phase2_bazipositive.py",
+      "evidence_scope": "C：仅显式任氏木日主有限充分条件；完整实际条件链及真实 trace/Evidence，研究用途，不授权 AI/产品或从格、喜用、行运。"
+    },
+    {
+      "id": "bazi.phase2.strength_isolated_control",
+      "domain": "bazi",
+      "name": "孤立无根无扶木月酉弱状态充分裁决",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r025"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.adjudication-weak-yang",
+        "bazi.adjudication-weak-yin"
+      ],
+      "regression_test": "tests/test_phase2_bazipositive.py",
+      "evidence_scope": "C：仅显式任氏木日主有限充分条件；完整实际条件链及真实 trace/Evidence，研究用途，不授权 AI/产品或从格、喜用、行运。"
+    },
+    {
+      "id": "bazi.phase2.strength_bounded_adjudication",
+      "domain": "bazi",
+      "name": "有限旺衰证据裁决与条件弃判出口",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r026"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.adjudication-strong-wood-sites",
+        "bazi.adjudication-strong-water-sites",
+        "bazi.adjudication-weak-yang",
+        "bazi.adjudication-weak-yin",
+        "bazi.adjudication-abstain-unrooted-resource",
+        "bazi.adjudication-abstain-nonwood",
+        "bazi.adjudication-abstain-five-combination",
+        "bazi.adjudication-conflict-root-reading",
+        "bazi.adjudication-conflict-mao-residual"
+      ],
+      "regression_test": "tests/test_phase2_bazipositive.py",
+      "evidence_scope": "C：仅显式任氏木日主有限充分条件；完整实际条件链及真实 trace/Evidence，研究用途，不授权 AI/产品或从格、喜用、行运。"
+    },
+    {
+      "id": "bazi.phase2.official_pattern_candidates",
+      "domain": "bazi",
+      "name": "正官结构候选研究观察",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r027"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.pattern-official-exposed",
+        "bazi.pattern-resource-zheng",
+        "bazi.pattern-resource-pian",
+        "bazi.pattern-yin-day",
+        "bazi.pattern-not-month",
+        "bazi.pattern-unexposed",
+        "bazi.pattern-miscellaneous",
+        "bazi.pattern-commander-conflict",
+        "bazi.pattern-yuanhai-full-unexposed",
+        "bazi.pattern-yuanhai-missing-branch",
+        "bazi.pattern-yuanhai-exposed-xin",
+        "bazi.pattern-yuanhai-non-you-month",
+        "bazi.pattern-yuanhai-non-jia-day",
+        "bazi.pattern-hour-killing-hour-visible",
+        "bazi.pattern-hour-killing-hour-hidden",
+        "bazi.pattern-hour-killing-hour-both",
+        "bazi.pattern-hour-killing-hour-none",
+        "bazi.pattern-hour-killing-non-month",
+        "bazi.pattern-hour-killing-other-pillar-killing",
+        "bazi.pattern-hour-killing-hour-official-not-killing"
+      ],
+      "regression_test": "tests/test_phase2_bazipattern.py",
+      "evidence_scope": "C：显式研究月藏十神与逐字透干位置；司令、禄刃杂气、官杀/破印、真假成败喜用均未裁定；AI 和公开产品不授权。；新增《渊海》甲日酉月辛未透但地支巳酉丑齐备的单例完整成员观察，仅研究，不定格。；s055 月令藏正官而时干或时支含七杀仅标注追加审核要求，不定官杀混杂或破格。"
+    },
+    {
+      "id": "bazi.phase2.resource_pattern_candidates",
+      "domain": "bazi",
+      "name": "印绶结构候选研究观察",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r028"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.pattern-official-exposed",
+        "bazi.pattern-resource-zheng",
+        "bazi.pattern-resource-pian",
+        "bazi.pattern-yin-day",
+        "bazi.pattern-not-month",
+        "bazi.pattern-unexposed",
+        "bazi.pattern-miscellaneous",
+        "bazi.pattern-commander-conflict",
+        "bazi.pattern-resource-month-jia-hai",
+        "bazi.pattern-resource-month-bing-yin",
+        "bazi.pattern-resource-month-wu-si",
+        "bazi.pattern-resource-month-geng-chen",
+        "bazi.pattern-resource-month-ren-shen",
+        "bazi.pattern-resource-month-jia-si",
+        "bazi.pattern-resource-month-bing-you",
+        "bazi.pattern-resource-month-wu-hai",
+        "bazi.pattern-resource-month-geng-mao",
+        "bazi.pattern-resource-month-ren-chou",
+        "bazi.resource-context-none",
+        "bazi.resource-context-visible-wealth",
+        "bazi.resource-context-hidden-wealth",
+        "bazi.resource-context-visible-official",
+        "bazi.resource-context-hidden-official",
+        "bazi.resource-context-visible-killing",
+        "bazi.resource-context-hidden-killing",
+        "bazi.resource-context-no-month-resource",
+        "bazi.resource-direction-none",
+        "bazi.resource-direction-wealth-visible",
+        "bazi.resource-direction-wealth-hidden",
+        "bazi.resource-direction-official-visible",
+        "bazi.resource-direction-official-hidden",
+        "bazi.resource-direction-killing-only",
+        "bazi.resource-direction-no-month-resource",
+        "bazi.resource-sites-unexposed",
+        "bazi.resource-sites-correspondence",
+        "bazi.resource-element-roots-no-actor",
+        "bazi.resource-element-roots-same-and-other",
+        "bazi.resource-element-roots-clashed",
+        "bazi.resource-element-roots-no-month",
+        "bazi.resource-reviewed-root-types-residual-growth",
+        "bazi.resource-reviewed-root-types-uncovered",
+        "bazi.resource-reviewed-root-types-disputed-water-residual"
+      ],
+      "regression_test": "tests/test_phase2_bazipattern.py",
+      "evidence_scope": "C：显式研究月藏十神与逐字透干位置；司令、禄刃杂气、官杀/破印、真假成败喜用均未裁定；AI 和公开产品不授权。；并观察《渊海》s059已有的十日干/月支月份生我例（不定印格）。；s057/s058 月令印及财/官杀显藏共现的条件事实，财旺破印、官印相生、官鬼多均 indeterminate。；财对月藏印五行克方向、正官/七杀对印五行生方向仅作为结构候选；成效门控始终拒判。；对财/官与月藏印额外登记同五行藏干根候选及实际落支冲合的 Phase2 Fact/Evidence 指针；同干/同五行根候选不等于根力有效、受冲消根或发生财克印、官印相生。；经审 s026/s027/s041 作为通根类型例、必要司令条件与余气异文证据，只给根型候选和来源冲突，不裁定具体根力或成对财印生克。；余气 s026/s041 双文本分别列举，不覆盖另一口径，原典未裁定时保持冲突及作用拒判。"
+    },
+    {
+      "id": "bazi.phase2.annual_reference_facts",
+      "domain": "bazi",
+      "name": "指定公历年份七月一日干支与日主十神研究参照",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r001",
+        "bazi.rule.r002"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.annual-reference-midyear-2024-2026",
+        "bazi.annual-reference-midyear-2026-2027"
+      ],
+      "regression_test": "tests/test_phase2_baziannual.py",
+      "evidence_scope": "C：既有四柱日主/十神映射短引；干支纪年具体计算由固定 lunar-python==1.4.8 的 7月1日中国时区中午真实历法输出。仅研究代表时点，不声称元旦至年末同干支、立春精确界、起运、岁运作用或吉凶。"
+    },
+    {
+      "id": "bazi.phase2.annual_li_chun_boundaries",
+      "domain": "bazi",
+      "name": "立春到次年立春秒级历法年干支区间（研究）",
+      "variant": "ziping-structural-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "bazi.rule.r001",
+        "bazi.rule.r017"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "bazi.annual-lichun-boundary-2025",
+        "bazi.annual-lichun-boundaries-2024-2026"
+      ],
+      "regression_test": "tests/test_phase2_bazilichun.py",
+      "evidence_scope": "C：四柱日干与立春月令原典只用于传统结构语境；秒级交节时刻由固定 lunar-python==1.4.8 getJieQiTable 计算，不冒充古籍原文。半开区间 [立春,次年立春) 以 provider 的 getYearInGanZhiExact 在两边界一秒前/后一刻交叉核验；仅研究结构年柱，未经独立天文精度核定；大运、旺衰、流年吉凶均不支持。"
+    }
+  ]
+}

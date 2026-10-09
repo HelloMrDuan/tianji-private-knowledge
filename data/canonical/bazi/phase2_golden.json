@@ -1,0 +1,5695 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-golden",
+  "domain": "bazi",
+  "provider": "tianji_kb.operations.bazi_chart.chart",
+  "review_basis": "固定四柱人工核对：逐项核对天干十神、藏干、咸池、五合/六合/六害/六冲/三合、日支传统配偶宫结构位，以及用户显式选择后的传统配偶星候选位置；不含旺衰、喜用、婚恋吉凶。 月令/通根/透藏因素v1按原典短引和藏干表人工固定期望；新增正常、墓库边界、干多无根、干少有根、冲根未裁定、司令异文六例；整体旺衰保持未支持。",
+  "cases": [
+    {
+      "id": "bazi.structural-basic",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚辰",
+        "month_ganzhi": "己丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚午"
+      },
+      "expected": {
+        "day_master": {
+          "stem": "甲",
+          "element": "木",
+          "polarity": "阳"
+        },
+        "pillars": [
+          {
+            "name": "year",
+            "ganzhi": "庚辰",
+            "stem": {
+              "value": "庚",
+              "ten_god": "七杀"
+            },
+            "branch": {
+              "value": "辰",
+              "hidden_stems": [
+                {
+                  "stem": "戊",
+                  "ten_god": "偏财"
+                },
+                {
+                  "stem": "乙",
+                  "ten_god": "劫财"
+                },
+                {
+                  "stem": "癸",
+                  "ten_god": "正印"
+                }
+              ]
+            }
+          },
+          {
+            "name": "month",
+            "ganzhi": "己丑",
+            "stem": {
+              "value": "己",
+              "ten_god": "正财"
+            },
+            "branch": {
+              "value": "丑",
+              "hidden_stems": [
+                {
+                  "stem": "己",
+                  "ten_god": "正财"
+                },
+                {
+                  "stem": "癸",
+                  "ten_god": "正印"
+                },
+                {
+                  "stem": "辛",
+                  "ten_god": "正官"
+                }
+              ]
+            }
+          },
+          {
+            "name": "day",
+            "ganzhi": "甲子",
+            "stem": {
+              "value": "甲",
+              "ten_god": "日主"
+            },
+            "branch": {
+              "value": "子",
+              "hidden_stems": [
+                {
+                  "stem": "癸",
+                  "ten_god": "正印"
+                }
+              ]
+            }
+          },
+          {
+            "name": "hour",
+            "ganzhi": "庚午",
+            "stem": {
+              "value": "庚",
+              "ten_god": "七杀"
+            },
+            "branch": {
+              "value": "午",
+              "hidden_stems": [
+                {
+                  "stem": "丁",
+                  "ten_god": "伤官"
+                },
+                {
+                  "stem": "己",
+                  "ten_god": "正财"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "bazi.xianchi-explicit-dual-basis",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "甲子",
+        "day_ganzhi": "甲申",
+        "hour_ganzhi": "乙卯",
+        "include_xianchi": true
+      },
+      "expected": {
+        "day_master": {
+          "stem": "甲",
+          "element": "木",
+          "polarity": "阳"
+        },
+        "xianchi_lookup": {
+          "targets": {
+            "year_branch": "卯",
+            "day_branch": "酉"
+          },
+          "matches": [
+            {
+              "basis": "year_branch",
+              "target_branch": "卯",
+              "pillar": "hour"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bazi.relations-core",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "己丑",
+        "day_ganzhi": "丙寅",
+        "hour_ganzhi": "辛巳",
+        "include_relations": true
+      },
+      "expected": {
+        "reviewed_relations": {
+          "stem_five_combinations": [
+            {
+              "pillars": [
+                "year",
+                "month"
+              ],
+              "stems": [
+                "甲",
+                "己"
+              ],
+              "traditional_result_element": "土"
+            },
+            {
+              "pillars": [
+                "day",
+                "hour"
+              ],
+              "stems": [
+                "丙",
+                "辛"
+              ],
+              "traditional_result_element": "水"
+            }
+          ],
+          "branch_six_harmonies": [
+            {
+              "pillars": [
+                "year",
+                "month"
+              ],
+              "branches": [
+                "子",
+                "丑"
+              ],
+              "traditional_result_element": "土"
+            }
+          ],
+          "branch_six_harms": [
+            {
+              "pillars": [
+                "day",
+                "hour"
+              ],
+              "branches": [
+                "寅",
+                "巳"
+              ]
+            }
+          ],
+          "spouse_palace": {
+            "pillar": "day",
+            "day_branch": "寅",
+            "label": "日支（传统配偶宫结构位）"
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.relations-expanded",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "戊子",
+        "day_ganzhi": "壬辰",
+        "hour_ganzhi": "庚午",
+        "include_relations": true
+      },
+      "expected": {
+        "reviewed_relations": {
+          "branch_six_clashes": [
+            {
+              "pillars": [
+                "month",
+                "hour"
+              ],
+              "branches": [
+                "子",
+                "午"
+              ]
+            }
+          ],
+          "branch_triple_harmonies": [
+            {
+              "pillars": [
+                "year",
+                "month",
+                "day"
+              ],
+              "branches": [
+                "申",
+                "子",
+                "辰"
+              ],
+              "traditional_result_element": "水"
+            }
+          ],
+          "spouse_palace": {
+            "pillar": "day",
+            "day_branch": "辰",
+            "label": "日支（传统配偶宫结构位）"
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.spouse-star-lens-male",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "己丑",
+        "month_ganzhi": "戊辰",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚申",
+        "traditional_role": "male"
+      },
+      "expected": {
+        "traditional_spouse_star_lens": {
+          "traditional_role": "male",
+          "role_basis": "user_selected_traditional_lens",
+          "candidate_ten_gods": [
+            "正财",
+            "偏财"
+          ],
+          "visible_positions": [
+            {
+              "pillar": "year",
+              "stem": "己",
+              "ten_god": "正财"
+            },
+            {
+              "pillar": "month",
+              "stem": "戊",
+              "ten_god": "偏财"
+            }
+          ],
+          "hidden_positions": [
+            {
+              "pillar": "year",
+              "branch": "丑",
+              "stem": "己",
+              "ten_god": "正财"
+            },
+            {
+              "pillar": "month",
+              "branch": "辰",
+              "stem": "戊",
+              "ten_god": "偏财"
+            },
+            {
+              "pillar": "hour",
+              "branch": "申",
+              "stem": "戊",
+              "ten_god": "偏财"
+            }
+          ],
+          "interpretation_allowed": false
+        }
+      }
+    },
+    {
+      "id": "bazi.spouse-star-lens-female",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "己丑",
+        "month_ganzhi": "戊辰",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚申",
+        "traditional_role": "female"
+      },
+      "expected": {
+        "traditional_spouse_star_lens": {
+          "traditional_role": "female",
+          "role_basis": "user_selected_traditional_lens",
+          "candidate_ten_gods": [
+            "正官",
+            "七杀"
+          ],
+          "visible_positions": [
+            {
+              "pillar": "hour",
+              "stem": "庚",
+              "ten_god": "七杀"
+            }
+          ],
+          "hidden_positions": [
+            {
+              "pillar": "year",
+              "branch": "丑",
+              "stem": "辛",
+              "ten_god": "正官"
+            },
+            {
+              "pillar": "hour",
+              "branch": "申",
+              "stem": "庚",
+              "ten_god": "七杀"
+            }
+          ],
+          "interpretation_allowed": false
+        }
+      }
+    },
+    {
+      "id": "bazi.factors-normal",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙丑",
+        "strength_variant": "ditiansui-root-visibility-v1"
+      },
+      "expected": {
+        "strength_factors": {
+          "factor_variant": "ditiansui-root-visibility-v1",
+          "maturity": "PARTIAL",
+          "overall_strength": null,
+          "full_strength_classifier_ready": false,
+          "month_command": {
+            "month_branch": "寅",
+            "siling_by_days": null,
+            "de_ling": null,
+            "hidden_stems": [
+              "甲",
+              "丙",
+              "戊"
+            ]
+          },
+          "root_candidates": {
+            "positions": [
+              {
+                "pillar": "year",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "same_stem": true
+              },
+              {
+                "pillar": "month",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "same_stem": true
+              }
+            ],
+            "present_structurally": true,
+            "effective_strength": null
+          },
+          "hidden_to_visible": {
+            "day_stem_excluded": true,
+            "siling_proven": false,
+            "positions": [
+              {
+                "hidden_pillar": "year",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "visible_pillars": [
+                  "year"
+                ]
+              },
+              {
+                "hidden_pillar": "year",
+                "branch": "寅",
+                "hidden_stem": "丙",
+                "visible_pillars": [
+                  "month"
+                ]
+              },
+              {
+                "hidden_pillar": "month",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "visible_pillars": [
+                  "year"
+                ]
+              },
+              {
+                "hidden_pillar": "month",
+                "branch": "寅",
+                "hidden_stem": "丙",
+                "visible_pillars": [
+                  "month"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.factors-tomb-boundary",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "乙未",
+        "hour_ganzhi": "壬辰",
+        "strength_variant": "ditiansui-root-visibility-v1"
+      },
+      "expected": {
+        "strength_factors": {
+          "factor_variant": "ditiansui-root-visibility-v1",
+          "maturity": "PARTIAL",
+          "overall_strength": null,
+          "full_strength_classifier_ready": false,
+          "month_command": {
+            "month_branch": "酉",
+            "siling_by_days": null,
+            "de_ling": null
+          },
+          "root_candidates": {
+            "positions": [
+              {
+                "pillar": "day",
+                "branch": "未",
+                "hidden_stem": "乙",
+                "same_stem": true
+              },
+              {
+                "pillar": "hour",
+                "branch": "辰",
+                "hidden_stem": "乙",
+                "same_stem": true
+              }
+            ],
+            "present_structurally": true,
+            "effective_strength": null
+          },
+          "hidden_to_visible": {
+            "day_stem_excluded": true,
+            "siling_proven": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.factors-many-stems-no-root",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲申",
+        "month_ganzhi": "甲子",
+        "day_ganzhi": "甲申",
+        "hour_ganzhi": "甲戌",
+        "strength_variant": "ditiansui-root-visibility-v1"
+      },
+      "expected": {
+        "strength_factors": {
+          "factor_variant": "ditiansui-root-visibility-v1",
+          "maturity": "PARTIAL",
+          "overall_strength": null,
+          "full_strength_classifier_ready": false,
+          "month_command": {
+            "month_branch": "子",
+            "siling_by_days": null,
+            "de_ling": null
+          },
+          "root_candidates": {
+            "positions": [],
+            "present_structurally": false,
+            "effective_strength": null
+          },
+          "hidden_to_visible": {
+            "day_stem_excluded": true,
+            "siling_proven": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.factors-few-stems-with-root",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲寅",
+        "hour_ganzhi": "壬子",
+        "strength_variant": "ditiansui-root-visibility-v1"
+      },
+      "expected": {
+        "strength_factors": {
+          "factor_variant": "ditiansui-root-visibility-v1",
+          "maturity": "PARTIAL",
+          "overall_strength": null,
+          "full_strength_classifier_ready": false,
+          "month_command": {
+            "month_branch": "酉",
+            "siling_by_days": null,
+            "de_ling": null
+          },
+          "root_candidates": {
+            "positions": [
+              {
+                "pillar": "day",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "same_stem": true
+              }
+            ],
+            "present_structurally": true,
+            "effective_strength": null
+          },
+          "hidden_to_visible": {
+            "day_stem_excluded": true,
+            "siling_proven": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.factors-clash-not-erasure",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "庚申",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "辛酉",
+        "strength_variant": "ditiansui-root-visibility-v1",
+        "include_relations": true
+      },
+      "expected": {
+        "strength_factors": {
+          "factor_variant": "ditiansui-root-visibility-v1",
+          "maturity": "PARTIAL",
+          "overall_strength": null,
+          "full_strength_classifier_ready": false,
+          "month_command": {
+            "month_branch": "申",
+            "siling_by_days": null,
+            "de_ling": null
+          },
+          "root_candidates": {
+            "positions": [
+              {
+                "pillar": "year",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "same_stem": true
+              }
+            ],
+            "present_structurally": true,
+            "effective_strength": null
+          },
+          "hidden_to_visible": {
+            "day_stem_excluded": true,
+            "siling_proven": false
+          }
+        },
+        "reviewed_relations": {
+          "branch_six_clashes": [
+            {
+              "pillars": [
+                "year",
+                "month"
+              ],
+              "branches": [
+                "寅",
+                "申"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bazi.factors-siling-unresolved",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊寅",
+        "month_ganzhi": "丁巳",
+        "day_ganzhi": "庚申",
+        "hour_ganzhi": "己卯",
+        "strength_variant": "ditiansui-root-visibility-v1",
+        "include_relations": true
+      },
+      "expected": {
+        "strength_factors": {
+          "factor_variant": "ditiansui-root-visibility-v1",
+          "maturity": "PARTIAL",
+          "overall_strength": null,
+          "full_strength_classifier_ready": false,
+          "month_command": {
+            "month_branch": "巳",
+            "siling_by_days": null,
+            "de_ling": null
+          },
+          "root_candidates": {
+            "positions": [
+              {
+                "pillar": "month",
+                "branch": "巳",
+                "hidden_stem": "庚",
+                "same_stem": true
+              },
+              {
+                "pillar": "day",
+                "branch": "申",
+                "hidden_stem": "庚",
+                "same_stem": true
+              }
+            ],
+            "present_structurally": true,
+            "effective_strength": null
+          },
+          "hidden_to_visible": {
+            "day_stem_excluded": true,
+            "siling_proven": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.support-normal",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "戊辰",
+        "strength_variant": "ditiansui-root-visibility-v1"
+      },
+      "expected": {
+        "strength_factors": {
+          "support_relations": {
+            "visible_positions": [
+              {
+                "pillar": "year",
+                "stem": "甲",
+                "element": "木",
+                "polarity": "阳",
+                "relation": "same_element",
+                "ten_god": "比肩"
+              },
+              {
+                "pillar": "month",
+                "stem": "丙",
+                "element": "火",
+                "polarity": "阳",
+                "relation": "i_generate",
+                "ten_god": "食神"
+              },
+              {
+                "pillar": "hour",
+                "stem": "戊",
+                "element": "土",
+                "polarity": "阳",
+                "relation": "i_control",
+                "ten_god": "偏财"
+              }
+            ],
+            "day_stem_excluded_from_visible": true,
+            "effective_support": null,
+            "de_shi": null,
+            "overall_strength": null,
+            "hidden_positions": [
+              {
+                "branch": "寅",
+                "pillar": "year",
+                "stem": "甲",
+                "element": "木",
+                "polarity": "阳",
+                "relation": "same_element",
+                "ten_god": "比肩"
+              },
+              {
+                "branch": "寅",
+                "pillar": "year",
+                "stem": "丙",
+                "element": "火",
+                "polarity": "阳",
+                "relation": "i_generate",
+                "ten_god": "食神"
+              },
+              {
+                "branch": "寅",
+                "pillar": "year",
+                "stem": "戊",
+                "element": "土",
+                "polarity": "阳",
+                "relation": "i_control",
+                "ten_god": "偏财"
+              },
+              {
+                "branch": "寅",
+                "pillar": "month",
+                "stem": "甲",
+                "element": "木",
+                "polarity": "阳",
+                "relation": "same_element",
+                "ten_god": "比肩"
+              },
+              {
+                "branch": "寅",
+                "pillar": "month",
+                "stem": "丙",
+                "element": "火",
+                "polarity": "阳",
+                "relation": "i_generate",
+                "ten_god": "食神"
+              },
+              {
+                "branch": "寅",
+                "pillar": "month",
+                "stem": "戊",
+                "element": "土",
+                "polarity": "阳",
+                "relation": "i_control",
+                "ten_god": "偏财"
+              },
+              {
+                "branch": "子",
+                "pillar": "day",
+                "stem": "癸",
+                "element": "水",
+                "polarity": "阴",
+                "relation": "generates_me",
+                "ten_god": "正印"
+              },
+              {
+                "branch": "辰",
+                "pillar": "hour",
+                "stem": "戊",
+                "element": "土",
+                "polarity": "阳",
+                "relation": "i_control",
+                "ten_god": "偏财"
+              },
+              {
+                "branch": "辰",
+                "pillar": "hour",
+                "stem": "乙",
+                "element": "木",
+                "polarity": "阴",
+                "relation": "same_element",
+                "ten_god": "劫财"
+              },
+              {
+                "branch": "辰",
+                "pillar": "hour",
+                "stem": "癸",
+                "element": "水",
+                "polarity": "阴",
+                "relation": "generates_me",
+                "ten_god": "正印"
+              }
+            ]
+          },
+          "overall_strength": null,
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.support-yin",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "壬寅",
+        "day_ganzhi": "乙酉",
+        "hour_ganzhi": "庚子",
+        "strength_variant": "ditiansui-root-visibility-v1"
+      },
+      "expected": {
+        "strength_factors": {
+          "support_relations": {
+            "visible_positions": [
+              {
+                "pillar": "year",
+                "stem": "庚",
+                "element": "金",
+                "polarity": "阳",
+                "relation": "controls_me",
+                "ten_god": "正官"
+              },
+              {
+                "pillar": "month",
+                "stem": "壬",
+                "element": "水",
+                "polarity": "阳",
+                "relation": "generates_me",
+                "ten_god": "正印"
+              },
+              {
+                "pillar": "hour",
+                "stem": "庚",
+                "element": "金",
+                "polarity": "阳",
+                "relation": "controls_me",
+                "ten_god": "正官"
+              }
+            ],
+            "day_stem_excluded_from_visible": true,
+            "effective_support": null,
+            "de_shi": null,
+            "overall_strength": null
+          },
+          "overall_strength": null,
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.support-visible-peers",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲申",
+        "month_ganzhi": "甲子",
+        "day_ganzhi": "甲申",
+        "hour_ganzhi": "甲戌",
+        "strength_variant": "ditiansui-root-visibility-v1"
+      },
+      "expected": {
+        "strength_factors": {
+          "support_relations": {
+            "visible_positions": [
+              {
+                "pillar": "year",
+                "stem": "甲",
+                "element": "木",
+                "polarity": "阳",
+                "relation": "same_element",
+                "ten_god": "比肩"
+              },
+              {
+                "pillar": "month",
+                "stem": "甲",
+                "element": "木",
+                "polarity": "阳",
+                "relation": "same_element",
+                "ten_god": "比肩"
+              },
+              {
+                "pillar": "hour",
+                "stem": "甲",
+                "element": "木",
+                "polarity": "阳",
+                "relation": "same_element",
+                "ten_god": "比肩"
+              }
+            ],
+            "day_stem_excluded_from_visible": true,
+            "effective_support": null,
+            "de_shi": null,
+            "overall_strength": null
+          },
+          "overall_strength": null,
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.support-conflict",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "庚申",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "辛酉",
+        "strength_variant": "ditiansui-root-visibility-v1",
+        "include_relations": true
+      },
+      "expected": {
+        "strength_factors": {
+          "support_relations": {
+            "visible_positions": [
+              {
+                "pillar": "year",
+                "stem": "甲",
+                "element": "木",
+                "polarity": "阳",
+                "relation": "same_element",
+                "ten_god": "比肩"
+              },
+              {
+                "pillar": "month",
+                "stem": "庚",
+                "element": "金",
+                "polarity": "阳",
+                "relation": "controls_me",
+                "ten_god": "七杀"
+              },
+              {
+                "pillar": "hour",
+                "stem": "辛",
+                "element": "金",
+                "polarity": "阴",
+                "relation": "controls_me",
+                "ten_god": "正官"
+              }
+            ],
+            "day_stem_excluded_from_visible": true,
+            "effective_support": null,
+            "de_shi": null,
+            "overall_strength": null
+          },
+          "overall_strength": null,
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.commander-conflict",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙丑",
+        "month_command_variant": "bazi-strength-month-command-v1"
+      },
+      "expected": {
+        "month_command_variant": {
+          "month_branch": "寅",
+          "hidden_stems": [
+            "甲",
+            "丙",
+            "戊"
+          ],
+          "principal_qi": "甲",
+          "principal_qi_status": "reviewed_structural",
+          "commander_status": "unresolved",
+          "commander": null,
+          "source_conflict": [
+            "bazi.concept.conflict_siling_days"
+          ],
+          "de_ling": null,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false,
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.commander-single-hidden",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丁卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙丑",
+        "month_command_variant": "bazi-strength-month-command-v1"
+      },
+      "expected": {
+        "month_command_variant": {
+          "month_branch": "卯",
+          "hidden_stems": [
+            "乙"
+          ],
+          "principal_qi": "乙",
+          "principal_qi_status": "reviewed_structural",
+          "commander_status": "unresolved",
+          "commander": null,
+          "source_conflict": [],
+          "de_ling": null,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false,
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.commander-principal-not-first",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "己亥",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙丑",
+        "month_command_variant": "bazi-strength-month-command-v1"
+      },
+      "expected": {
+        "month_command_variant": {
+          "month_branch": "亥",
+          "hidden_stems": [
+            "壬",
+            "甲"
+          ],
+          "principal_qi": "壬",
+          "principal_qi_status": "reviewed_structural",
+          "commander_status": "unresolved",
+          "commander": null,
+          "source_conflict": [],
+          "de_ling": null,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false,
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.commander-unreviewed-tomb",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "戊辰",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙丑",
+        "month_command_variant": "bazi-strength-month-command-v1"
+      },
+      "expected": {
+        "month_command_variant": {
+          "month_branch": "辰",
+          "hidden_stems": [
+            "戊",
+            "乙",
+            "癸"
+          ],
+          "principal_qi": null,
+          "principal_qi_status": "not_reviewed",
+          "commander_status": "unresolved",
+          "commander": null,
+          "source_conflict": [],
+          "de_ling": null,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false,
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.roots-growth",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲寅",
+        "hour_ganzhi": "壬子",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "root_conditions": {
+          "roots": [
+            {
+              "fact": {
+                "pillar": "day",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "present_structurally": true
+              },
+              "availability_status": "unresolved",
+              "effective_strength": null,
+              "interpretation_candidates": [
+                {
+                  "kind": "growth_luwang_example",
+                  "status": "candidate_only",
+                  "section_ids": [
+                    "bazi.section.s026"
+                  ]
+                }
+              ]
+            }
+          ],
+          "present_structurally": true,
+          "root_erasure_applied": false,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.roots-residual",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "乙未",
+        "hour_ganzhi": "壬辰",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "root_conditions": {
+          "roots": [
+            {
+              "fact": {
+                "pillar": "day",
+                "branch": "未",
+                "hidden_stem": "乙",
+                "present_structurally": true
+              },
+              "availability_status": "unresolved",
+              "effective_strength": null
+            },
+            {
+              "fact": {
+                "pillar": "hour",
+                "branch": "辰",
+                "hidden_stem": "乙",
+                "present_structurally": true
+              },
+              "availability_status": "unresolved",
+              "effective_strength": null,
+              "interpretation_candidates": [
+                {
+                  "kind": "residual_qi_candidate",
+                  "status": "candidate_only",
+                  "section_ids": [
+                    "bazi.section.s026"
+                  ]
+                }
+              ]
+            }
+          ],
+          "present_structurally": true,
+          "root_erasure_applied": false,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.roots-clash-not-erasure",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "庚申",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "辛酉",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "root_conditions": {
+          "roots": [
+            {
+              "fact": {
+                "pillar": "year",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "present_structurally": true
+              },
+              "availability_status": "unresolved",
+              "effective_strength": null,
+              "interpretation_candidates": [
+                {
+                  "kind": "growth_luwang_example",
+                  "status": "candidate_only",
+                  "section_ids": [
+                    "bazi.section.s026"
+                  ]
+                }
+              ]
+            }
+          ],
+          "present_structurally": true,
+          "root_erasure_applied": false,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.roots-harmony-not-transformation",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "丁亥",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "辛酉",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "root_conditions": {
+          "roots": [
+            {
+              "fact": {
+                "pillar": "year",
+                "branch": "寅",
+                "hidden_stem": "甲",
+                "present_structurally": true
+              },
+              "availability_status": "unresolved",
+              "effective_strength": null,
+              "interpretation_candidates": [
+                {
+                  "kind": "growth_luwang_example",
+                  "status": "candidate_only",
+                  "section_ids": [
+                    "bazi.section.s026"
+                  ]
+                }
+              ]
+            },
+            {
+              "fact": {
+                "pillar": "month",
+                "branch": "亥",
+                "hidden_stem": "甲",
+                "present_structurally": true
+              },
+              "availability_status": "unresolved",
+              "effective_strength": null,
+              "interpretation_candidates": [
+                {
+                  "kind": "growth_luwang_example",
+                  "status": "candidate_only",
+                  "section_ids": [
+                    "bazi.section.s026"
+                  ]
+                }
+              ]
+            }
+          ],
+          "present_structurally": true,
+          "root_erasure_applied": false,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.roots-absent",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲申",
+        "month_ganzhi": "甲子",
+        "day_ganzhi": "甲申",
+        "hour_ganzhi": "甲戌",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "root_conditions": {
+          "roots": [],
+          "present_structurally": false,
+          "root_erasure_applied": false,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "full_strength_classifier_ready": false
+        }
+      }
+    },
+    {
+      "id": "bazi.actions-visible-rooted",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "戊辰",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "action_conditions": {
+          "visible_relations": [
+            {
+              "fact": {
+                "pillar": "year",
+                "stem": "甲",
+                "visibility": "visible",
+                "pillar_distance_to_day": 2,
+                "adjacent_to_day": false,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            },
+            {
+              "fact": {
+                "pillar": "month",
+                "stem": "丙",
+                "visibility": "visible",
+                "pillar_distance_to_day": 1,
+                "adjacent_to_day": true,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            },
+            {
+              "fact": {
+                "pillar": "hour",
+                "stem": "戊",
+                "visibility": "visible",
+                "pillar_distance_to_day": 1,
+                "adjacent_to_day": true,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            }
+          ],
+          "hidden_visible_equivalence_applied": false,
+          "de_shi": null,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.actions-visible-unrooted",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲申",
+        "month_ganzhi": "甲子",
+        "day_ganzhi": "甲申",
+        "hour_ganzhi": "甲戌",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "action_conditions": {
+          "visible_relations": [
+            {
+              "fact": {
+                "pillar": "year",
+                "stem": "甲",
+                "visibility": "visible",
+                "pillar_distance_to_day": 2,
+                "adjacent_to_day": false,
+                "rooted_visible_candidate": false
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            },
+            {
+              "fact": {
+                "pillar": "month",
+                "stem": "甲",
+                "visibility": "visible",
+                "pillar_distance_to_day": 1,
+                "adjacent_to_day": true,
+                "rooted_visible_candidate": false
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            },
+            {
+              "fact": {
+                "pillar": "hour",
+                "stem": "甲",
+                "visibility": "visible",
+                "pillar_distance_to_day": 1,
+                "adjacent_to_day": true,
+                "rooted_visible_candidate": false
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            }
+          ],
+          "hidden_visible_equivalence_applied": false,
+          "de_shi": null,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.actions-root-clash",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "庚申",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "辛酉",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "action_conditions": {
+          "visible_relations": [
+            {
+              "fact": {
+                "pillar": "year",
+                "stem": "甲",
+                "visibility": "visible",
+                "pillar_distance_to_day": 2,
+                "adjacent_to_day": false,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            },
+            {
+              "fact": {
+                "pillar": "month",
+                "stem": "庚",
+                "visibility": "visible",
+                "pillar_distance_to_day": 1,
+                "adjacent_to_day": true,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            },
+            {
+              "fact": {
+                "pillar": "hour",
+                "stem": "辛",
+                "visibility": "visible",
+                "pillar_distance_to_day": 1,
+                "adjacent_to_day": true,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            }
+          ],
+          "hidden_visible_equivalence_applied": false,
+          "de_shi": null,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.actions-yin-reference",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "壬寅",
+        "day_ganzhi": "乙酉",
+        "hour_ganzhi": "庚子",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "action_conditions": {
+          "visible_relations": [
+            {
+              "fact": {
+                "pillar": "year",
+                "stem": "庚",
+                "visibility": "visible",
+                "pillar_distance_to_day": 2,
+                "adjacent_to_day": false,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            },
+            {
+              "fact": {
+                "pillar": "month",
+                "stem": "壬",
+                "visibility": "visible",
+                "pillar_distance_to_day": 1,
+                "adjacent_to_day": true,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            },
+            {
+              "fact": {
+                "pillar": "hour",
+                "stem": "庚",
+                "visibility": "visible",
+                "pillar_distance_to_day": 1,
+                "adjacent_to_day": true,
+                "rooted_visible_candidate": true
+              },
+              "effective_action": null,
+              "effect_status": "unresolved"
+            }
+          ],
+          "hidden_visible_equivalence_applied": false,
+          "de_shi": null,
+          "overall_strength": null
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.strength-reference-strong",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊寅",
+        "month_ganzhi": "甲寅",
+        "day_ganzhi": "甲辰",
+        "hour_ganzhi": "丁卯",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "classification": "indeterminate",
+          "decision_status": "insufficient_reviewed_rules",
+          "supported_classifications": [],
+          "maturity": "PARTIAL",
+          "full_strength_classifier_ready": false,
+          "source_case_lookup_used": false,
+          "ai_enabled": false
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.strength-reference-weak",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "乙酉",
+        "day_ganzhi": "丙申",
+        "hour_ganzhi": "丙申",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "classification": "indeterminate",
+          "decision_status": "insufficient_reviewed_rules",
+          "supported_classifications": [],
+          "maturity": "PARTIAL",
+          "full_strength_classifier_ready": false,
+          "source_case_lookup_used": false,
+          "ai_enabled": false
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.strength-boundary",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲辰",
+        "hour_ganzhi": "丁卯",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "classification": "indeterminate",
+          "decision_status": "insufficient_reviewed_rules",
+          "supported_classifications": [],
+          "maturity": "PARTIAL",
+          "full_strength_classifier_ready": false,
+          "source_case_lookup_used": false,
+          "ai_enabled": false
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.strength-commander-conflict",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "戊辰",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "classification": "indeterminate",
+          "decision_status": "insufficient_reviewed_rules",
+          "supported_classifications": [],
+          "maturity": "PARTIAL",
+          "full_strength_classifier_ready": false,
+          "source_case_lookup_used": false,
+          "ai_enabled": false
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.strength-principal-unreviewed",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "戊辰",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚午",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "classification": "indeterminate",
+          "decision_status": "insufficient_reviewed_rules",
+          "supported_classifications": [],
+          "maturity": "PARTIAL",
+          "full_strength_classifier_ready": false,
+          "source_case_lookup_used": false,
+          "ai_enabled": false
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.strength-root-conflict",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲辰",
+        "hour_ganzhi": "戊辰",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "classification": "indeterminate",
+          "decision_status": "insufficient_reviewed_rules",
+          "supported_classifications": [],
+          "maturity": "PARTIAL",
+          "full_strength_classifier_ready": false,
+          "source_case_lookup_used": false,
+          "ai_enabled": false
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.strength-action-unresolved",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲申",
+        "month_ganzhi": "丙午",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚戌",
+        "strength_variant": "bazi-strength-conditions-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "classification": "indeterminate",
+          "decision_status": "insufficient_reviewed_rules",
+          "supported_classifications": [],
+          "maturity": "PARTIAL",
+          "full_strength_classifier_ready": false,
+          "source_case_lookup_used": false,
+          "ai_enabled": false
+        },
+        "strength_factor_graph": {
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.principal-same",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸亥",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙亥",
+        "month_command_variant": "month-command-principal-qi-v1"
+      },
+      "expected": {
+        "principal_month": {
+          "principal_qi": "乙",
+          "relation": "same_element",
+          "dated_commander_required": false
+        }
+      }
+    },
+    {
+      "id": "bazi.principal-generate",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丙子",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚午",
+        "month_command_variant": "month-command-principal-qi-v1"
+      },
+      "expected": {
+        "principal_month": {
+          "principal_qi": "癸",
+          "relation": "generates_me"
+        }
+      }
+    },
+    {
+      "id": "bazi.principal-control",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚午",
+        "month_command_variant": "month-command-principal-qi-v1"
+      },
+      "expected": {
+        "principal_month": {
+          "principal_qi": "辛",
+          "relation": "controls_me"
+        }
+      }
+    },
+    {
+      "id": "bazi.principal-unreviewed",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "戊辰",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚午",
+        "month_command_variant": "month-command-principal-qi-v1"
+      },
+      "expected": {
+        "principal_month": {
+          "principal_qi": null,
+          "relation": null,
+          "status": "not_reviewed"
+        }
+      }
+    },
+    {
+      "id": "bazi.availability-wood",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸亥",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙亥",
+        "strength_variant": "bazi-strength-conditions-v1",
+        "root_availability_variant": "ditiansui-wood-root-availability-v1"
+      },
+      "expected": {
+        "root_availability": {
+          "root_erasure_applied": false,
+          "weights_available": false,
+          "root_presence": true,
+          "roots": [
+            {
+              "root_availability": "effective",
+              "same_stem": true
+            },
+            {
+              "root_availability": "effective",
+              "same_stem": false
+            },
+            {
+              "root_availability": "effective",
+              "same_stem": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bazi.availability-clash",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲寅",
+        "month_ganzhi": "庚申",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "辛酉",
+        "strength_variant": "bazi-strength-conditions-v1",
+        "root_availability_variant": "ditiansui-wood-root-availability-v1"
+      },
+      "expected": {
+        "root_availability": {
+          "root_erasure_applied": false,
+          "weights_available": false,
+          "root_presence": true,
+          "roots": [
+            {
+              "root_availability": "conditional",
+              "root_effect": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bazi.availability-harmony",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸亥",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲戌",
+        "hour_ganzhi": "乙亥",
+        "strength_variant": "bazi-strength-conditions-v1",
+        "root_availability_variant": "ditiansui-wood-root-availability-v1"
+      },
+      "expected": {
+        "root_availability": {
+          "root_erasure_applied": false,
+          "weights_available": false,
+          "root_presence": true,
+          "roots": [
+            {
+              "root_availability": "effective"
+            },
+            {
+              "root_availability": "conditional"
+            },
+            {
+              "root_availability": "effective"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bazi.effects-pure-support",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸卯",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙亥",
+        "strength_variant": "bazi-strength-conditions-v1",
+        "action_effect_variant": "ditiansui-bounded-action-effects-v1"
+      },
+      "expected": {
+        "action_effects": {
+          "weights_available": false,
+          "hidden_visible_equivalence_applied": false,
+          "stem_erasure_applied": false,
+          "overall_strength": null,
+          "pure_support_scope_met": true,
+          "isolated_control_scope_met": false,
+          "transformation_status": "not_present"
+        }
+      }
+    },
+    {
+      "id": "bazi.effects-isolated-control",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚午",
+        "strength_variant": "bazi-strength-conditions-v1",
+        "action_effect_variant": "ditiansui-bounded-action-effects-v1"
+      },
+      "expected": {
+        "action_effects": {
+          "weights_available": false,
+          "hidden_visible_equivalence_applied": false,
+          "stem_erasure_applied": false,
+          "overall_strength": null,
+          "pure_support_scope_met": false,
+          "isolated_control_scope_met": true,
+          "transformation_status": "not_present"
+        }
+      }
+    },
+    {
+      "id": "bazi.effects-five-combination",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸卯",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "己巳",
+        "strength_variant": "bazi-strength-conditions-v1",
+        "action_effect_variant": "ditiansui-bounded-action-effects-v1"
+      },
+      "expected": {
+        "action_effects": {
+          "weights_available": false,
+          "hidden_visible_equivalence_applied": false,
+          "stem_erasure_applied": false,
+          "overall_strength": null,
+          "pure_support_scope_met": false,
+          "isolated_control_scope_met": false,
+          "transformation_status": "unresolved"
+        }
+      }
+    },
+    {
+      "id": "bazi.effects-clashed-root",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸卯",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "癸酉",
+        "strength_variant": "bazi-strength-conditions-v1",
+        "action_effect_variant": "ditiansui-bounded-action-effects-v1"
+      },
+      "expected": {
+        "action_effects": {
+          "weights_available": false,
+          "hidden_visible_equivalence_applied": false,
+          "stem_erasure_applied": false,
+          "overall_strength": null,
+          "pure_support_scope_met": false,
+          "isolated_control_scope_met": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-strong-wood-sites",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸卯",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙亥",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "strong",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "strong",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-strong-water-sites",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸亥",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "乙亥",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "strong",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "strong",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-weak-yang",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚午",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "weak",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "weak",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-weak-yin",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "乙酉",
+        "hour_ganzhi": "辛巳",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "weak",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "weak",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-abstain-unrooted-resource",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "癸酉",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "indeterminate",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-abstain-nonwood",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "丙午",
+        "month_ganzhi": "甲午",
+        "day_ganzhi": "丙午",
+        "hour_ganzhi": "甲午",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "indeterminate",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-abstain-five-combination",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸卯",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "己巳",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "indeterminate",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-conflict-root-reading",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲辰",
+        "hour_ganzhi": "戊辰",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "indeterminate",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.adjudication-conflict-mao-residual",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸卯",
+        "month_ganzhi": "乙卯",
+        "day_ganzhi": "甲辰",
+        "hour_ganzhi": "乙亥",
+        "strength_variant": "bazi-strength-adjudication-v1"
+      },
+      "expected": {
+        "strength_assessment": {
+          "variant": "bazi-strength-adjudication-v1",
+          "classification": "indeterminate",
+          "supported_classifications": [
+            "strong",
+            "weak",
+            "indeterminate"
+          ],
+          "maturity": "PARTIAL",
+          "source_case_lookup_used": false,
+          "weights_available": false,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "full_strength_classifier_ready": false
+        },
+        "strength_factor_graph": {
+          "variant": "bazi-strength-adjudication-v1",
+          "overall_strength": "indeterminate",
+          "weights_available": false
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-official-exposed",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚午",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "official",
+            "month_branch": "酉",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "辛",
+                "ten_god": "正官",
+                "exposed": true,
+                "visible_positions": [
+                  {
+                    "pillar": "month",
+                    "stem": "辛",
+                    "ten_god": "正官"
+                  }
+                ]
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          },
+          "resource": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "resource",
+            "month_branch": "酉",
+            "status": "no_month_candidate",
+            "observations": [],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-zheng",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "癸亥",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲寅",
+        "hour_ganzhi": "癸酉",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "official",
+            "month_branch": "子",
+            "status": "no_month_candidate",
+            "observations": [],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          },
+          "resource": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "resource",
+            "month_branch": "子",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "癸",
+                "ten_god": "正印",
+                "exposed": true,
+                "visible_positions": [
+                  {
+                    "pillar": "year",
+                    "stem": "癸",
+                    "ten_god": "正印"
+                  },
+                  {
+                    "pillar": "hour",
+                    "stem": "癸",
+                    "ten_god": "正印"
+                  }
+                ]
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-pian",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "壬申",
+        "month_ganzhi": "丁亥",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬申",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "official",
+            "month_branch": "亥",
+            "status": "no_month_candidate",
+            "observations": [],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          },
+          "resource": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "resource",
+            "month_branch": "亥",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "壬",
+                "ten_god": "偏印",
+                "exposed": true,
+                "visible_positions": [
+                  {
+                    "pillar": "year",
+                    "stem": "壬",
+                    "ten_god": "偏印"
+                  },
+                  {
+                    "pillar": "hour",
+                    "stem": "壬",
+                    "ten_god": "偏印"
+                  }
+                ]
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-yin-day",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "甲申",
+        "day_ganzhi": "乙丑",
+        "hour_ganzhi": "壬午",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "official",
+            "month_branch": "申",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "庚",
+                "ten_god": "正官",
+                "exposed": true,
+                "visible_positions": [
+                  {
+                    "pillar": "year",
+                    "stem": "庚",
+                    "ten_god": "正官"
+                  }
+                ]
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          },
+          "resource": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "resource",
+            "month_branch": "申",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "壬",
+                "ten_god": "正印",
+                "exposed": true,
+                "visible_positions": [
+                  {
+                    "pillar": "hour",
+                    "stem": "壬",
+                    "ten_god": "正印"
+                  }
+                ]
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-not-month",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "辛酉",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚午",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "official",
+            "month_branch": "寅",
+            "status": "no_month_candidate",
+            "observations": [],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [
+                "bazi.concept.conflict_siling_days"
+              ],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          },
+          "resource": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "resource",
+            "month_branch": "寅",
+            "status": "no_month_candidate",
+            "observations": [],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [
+                "bazi.concept.conflict_siling_days"
+              ],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-unexposed",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "丁酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "丙午",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "official",
+            "month_branch": "酉",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "辛",
+                "ten_god": "正官",
+                "exposed": false,
+                "visible_positions": []
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          },
+          "resource": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "resource",
+            "month_branch": "酉",
+            "status": "no_month_candidate",
+            "observations": [],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-miscellaneous",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "辛酉",
+        "month_ganzhi": "丁丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "癸亥",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "official",
+            "month_branch": "丑",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "辛",
+                "ten_god": "正官",
+                "exposed": true,
+                "visible_positions": [
+                  {
+                    "pillar": "year",
+                    "stem": "辛",
+                    "ten_god": "正官"
+                  }
+                ]
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          },
+          "resource": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "resource",
+            "month_branch": "丑",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "癸",
+                "ten_god": "正印",
+                "exposed": true,
+                "visible_positions": [
+                  {
+                    "pillar": "hour",
+                    "stem": "癸",
+                    "ten_god": "正印"
+                  }
+                ]
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-commander-conflict",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "丙午",
+        "hour_ganzhi": "乙亥",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "official",
+            "month_branch": "寅",
+            "status": "no_month_candidate",
+            "observations": [],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [
+                "bazi.concept.conflict_siling_days"
+              ],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          },
+          "resource": {
+            "variant": "bazi-pattern-structure-candidates-v1",
+            "family": "resource",
+            "month_branch": "寅",
+            "status": "structural_observation_only",
+            "observations": [
+              {
+                "stem": "甲",
+                "ten_god": "偏印",
+                "exposed": true,
+                "visible_positions": [
+                  {
+                    "pillar": "year",
+                    "stem": "甲",
+                    "ten_god": "偏印"
+                  }
+                ]
+              }
+            ],
+            "dated_commander": {
+              "status": "unresolved",
+              "value": null,
+              "conflict_ids": [
+                "bazi.concept.conflict_siling_days"
+              ],
+              "required_for_ren_pattern_determination": true,
+              "blocks_structural_observation": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            },
+            "special_month_conditions_reviewed": false,
+            "research_only": true,
+            "public_enabled": false,
+            "ai_enabled": false
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-yuanhai-full-unexposed",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "丁巳",
+        "month_ganzhi": "己酉",
+        "day_ganzhi": "甲寅",
+        "hour_ganzhi": "乙丑",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_unexposed_official_branch": {
+              "variant": "bazi-pattern-structure-candidates-v1",
+              "status": "reviewed_structural_candidate",
+              "source_section_id": "bazi.section.s056",
+              "conditions": [
+                {
+                  "id": "jia_day",
+                  "observed": true
+                },
+                {
+                  "id": "you_month",
+                  "observed": true
+                },
+                {
+                  "id": "no_visible_xin",
+                  "observed": true
+                },
+                {
+                  "id": "complete_si_you_chou",
+                  "observed": true
+                }
+              ],
+              "full_metal_group": [
+                "巳",
+                "酉",
+                "丑"
+              ],
+              "determination": null,
+              "qualified_for_determination": false,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-yuanhai-missing-branch",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "丁巳",
+        "month_ganzhi": "己酉",
+        "day_ganzhi": "甲寅",
+        "hour_ganzhi": "乙亥",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_unexposed_official_branch": {
+              "variant": "bazi-pattern-structure-candidates-v1",
+              "status": "not_observed",
+              "source_section_id": "bazi.section.s056",
+              "conditions": [
+                {
+                  "id": "jia_day",
+                  "observed": true
+                },
+                {
+                  "id": "you_month",
+                  "observed": true
+                },
+                {
+                  "id": "no_visible_xin",
+                  "observed": true
+                },
+                {
+                  "id": "complete_si_you_chou",
+                  "observed": false
+                }
+              ],
+              "full_metal_group": [],
+              "determination": null,
+              "qualified_for_determination": false,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-yuanhai-exposed-xin",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "辛巳",
+        "month_ganzhi": "己酉",
+        "day_ganzhi": "甲寅",
+        "hour_ganzhi": "乙丑",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_unexposed_official_branch": {
+              "variant": "bazi-pattern-structure-candidates-v1",
+              "status": "not_observed",
+              "source_section_id": "bazi.section.s056",
+              "conditions": [
+                {
+                  "id": "jia_day",
+                  "observed": true
+                },
+                {
+                  "id": "you_month",
+                  "observed": true
+                },
+                {
+                  "id": "no_visible_xin",
+                  "observed": false
+                },
+                {
+                  "id": "complete_si_you_chou",
+                  "observed": true
+                }
+              ],
+              "full_metal_group": [
+                "巳",
+                "酉",
+                "丑"
+              ],
+              "determination": null,
+              "qualified_for_determination": false,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-yuanhai-non-you-month",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "丁巳",
+        "month_ganzhi": "己丑",
+        "day_ganzhi": "甲寅",
+        "hour_ganzhi": "乙酉",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_unexposed_official_branch": {
+              "variant": "bazi-pattern-structure-candidates-v1",
+              "status": "not_observed",
+              "source_section_id": "bazi.section.s056",
+              "conditions": [
+                {
+                  "id": "jia_day",
+                  "observed": true
+                },
+                {
+                  "id": "you_month",
+                  "observed": false
+                },
+                {
+                  "id": "no_visible_xin",
+                  "observed": true
+                },
+                {
+                  "id": "complete_si_you_chou",
+                  "observed": true
+                }
+              ],
+              "full_metal_group": [
+                "巳",
+                "酉",
+                "丑"
+              ],
+              "determination": null,
+              "qualified_for_determination": false,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-yuanhai-non-jia-day",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "丁巳",
+        "month_ganzhi": "己酉",
+        "day_ganzhi": "乙卯",
+        "hour_ganzhi": "乙丑",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_unexposed_official_branch": {
+              "variant": "bazi-pattern-structure-candidates-v1",
+              "status": "not_observed",
+              "source_section_id": "bazi.section.s056",
+              "conditions": [
+                {
+                  "id": "jia_day",
+                  "observed": false
+                },
+                {
+                  "id": "you_month",
+                  "observed": true
+                },
+                {
+                  "id": "no_visible_xin",
+                  "observed": true
+                },
+                {
+                  "id": "complete_si_you_chou",
+                  "observed": true
+                }
+              ],
+              "full_metal_group": [
+                "巳",
+                "酉",
+                "丑"
+              ],
+              "determination": null,
+              "qualified_for_determination": false,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-jia-hai",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "乙亥",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "丙寅",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "reviewed_month_example",
+              "day_stem": "甲",
+              "month_branch": "亥",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": true
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": true
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-bing-yin",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "庚寅",
+        "day_ganzhi": "丙子",
+        "hour_ganzhi": "戊戌",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "reviewed_month_example",
+              "day_stem": "丙",
+              "month_branch": "寅",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": true
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": true
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-wu-si",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "己巳",
+        "day_ganzhi": "戊子",
+        "hour_ganzhi": "庚申",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "reviewed_month_example",
+              "day_stem": "戊",
+              "month_branch": "巳",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": true
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": true
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-geng-chen",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "戊辰",
+        "day_ganzhi": "庚子",
+        "hour_ganzhi": "丙寅",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "reviewed_month_example",
+              "day_stem": "庚",
+              "month_branch": "辰",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": true
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": true
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-ren-shen",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "戊申",
+        "day_ganzhi": "壬子",
+        "hour_ganzhi": "庚辰",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "reviewed_month_example",
+              "day_stem": "壬",
+              "month_branch": "申",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": true
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": true
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-jia-si",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "己巳",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "丁卯",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "not_observed",
+              "day_stem": "甲",
+              "month_branch": "巳",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": false
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-bing-you",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丁酉",
+        "day_ganzhi": "丙子",
+        "hour_ganzhi": "甲午",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "not_observed",
+              "day_stem": "丙",
+              "month_branch": "酉",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": false
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-wu-hai",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "乙亥",
+        "day_ganzhi": "戊子",
+        "hour_ganzhi": "庚午",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "not_observed",
+              "day_stem": "戊",
+              "month_branch": "亥",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": false
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-geng-mao",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "丁卯",
+        "day_ganzhi": "庚子",
+        "hour_ganzhi": "丙寅",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "not_observed",
+              "day_stem": "庚",
+              "month_branch": "卯",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": false
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-resource-month-ren-chou",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "己丑",
+        "day_ganzhi": "壬子",
+        "hour_ganzhi": "庚辰",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_month_example": {
+              "source_section_id": "bazi.section.s059",
+              "status": "not_observed",
+              "day_stem": "壬",
+              "month_branch": "丑",
+              "conditions": [
+                {
+                  "id": "reviewed_day_stem_month_group",
+                  "observed": false
+                },
+                {
+                  "id": "reviewed_month_hidden_resource",
+                  "observed": true
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-hour-killing-hour-visible",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚午",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_hour_killing_restriction": {
+              "status": "restriction_observed",
+              "source_section_id": "bazi.section.s055",
+              "conditions": [
+                {
+                  "id": "month_hidden_official",
+                  "observed": true
+                },
+                {
+                  "id": "hour_visible_seven_killing",
+                  "observed": true
+                },
+                {
+                  "id": "hour_hidden_seven_killing",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-hour-killing-hour-hidden",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "壬申",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_hour_killing_restriction": {
+              "status": "restriction_observed",
+              "source_section_id": "bazi.section.s055",
+              "conditions": [
+                {
+                  "id": "month_hidden_official",
+                  "observed": true
+                },
+                {
+                  "id": "hour_visible_seven_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hour_hidden_seven_killing",
+                  "observed": true
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-hour-killing-hour-both",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚申",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_hour_killing_restriction": {
+              "status": "restriction_observed",
+              "source_section_id": "bazi.section.s055",
+              "conditions": [
+                {
+                  "id": "month_hidden_official",
+                  "observed": true
+                },
+                {
+                  "id": "hour_visible_seven_killing",
+                  "observed": true
+                },
+                {
+                  "id": "hour_hidden_seven_killing",
+                  "observed": true
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-hour-killing-hour-none",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "丙寅",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_hour_killing_restriction": {
+              "status": "not_observed",
+              "source_section_id": "bazi.section.s055",
+              "conditions": [
+                {
+                  "id": "month_hidden_official",
+                  "observed": true
+                },
+                {
+                  "id": "hour_visible_seven_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hour_hidden_seven_killing",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-hour-killing-non-month",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "庚午",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_hour_killing_restriction": {
+              "status": "not_observed",
+              "source_section_id": "bazi.section.s055",
+              "conditions": [
+                {
+                  "id": "month_hidden_official",
+                  "observed": false
+                },
+                {
+                  "id": "hour_visible_seven_killing",
+                  "observed": true
+                },
+                {
+                  "id": "hour_hidden_seven_killing",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-hour-killing-other-pillar-killing",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚申",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "丙寅",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_hour_killing_restriction": {
+              "status": "not_observed",
+              "source_section_id": "bazi.section.s055",
+              "conditions": [
+                {
+                  "id": "month_hidden_official",
+                  "observed": true
+                },
+                {
+                  "id": "hour_visible_seven_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hour_hidden_seven_killing",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.pattern-hour-killing-hour-official-not-killing",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "辛酉",
+        "day_ganzhi": "甲午",
+        "hour_ganzhi": "辛酉",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "official": {
+            "yuanhai_hour_killing_restriction": {
+              "status": "not_observed",
+              "source_section_id": "bazi.section.s055",
+              "conditions": [
+                {
+                  "id": "month_hidden_official",
+                  "observed": true
+                },
+                {
+                  "id": "hour_visible_seven_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hour_hidden_seven_killing",
+                  "observed": false
+                }
+              ],
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "true_false": null,
+              "success_failure": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-context-none",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "status": "no_related_facts_observed",
+              "source_section_ids": [
+                "bazi.section.s057",
+                "bazi.section.s058"
+              ],
+              "conditions": [
+                {
+                  "id": "month_resource",
+                  "observed": true
+                },
+                {
+                  "id": "visible_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "visible_official",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_official",
+                  "observed": false
+                },
+                {
+                  "id": "visible_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_killing",
+                  "observed": false
+                }
+              ],
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-context-visible-wealth",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "status": "related_facts_observed",
+              "source_section_ids": [
+                "bazi.section.s057",
+                "bazi.section.s058"
+              ],
+              "conditions": [
+                {
+                  "id": "month_resource",
+                  "observed": true
+                },
+                {
+                  "id": "visible_wealth",
+                  "observed": true
+                },
+                {
+                  "id": "hidden_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "visible_official",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_official",
+                  "observed": false
+                },
+                {
+                  "id": "visible_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_killing",
+                  "observed": false
+                }
+              ],
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-context-hidden-wealth",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "丙辰",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "status": "related_facts_observed",
+              "source_section_ids": [
+                "bazi.section.s057",
+                "bazi.section.s058"
+              ],
+              "conditions": [
+                {
+                  "id": "month_resource",
+                  "observed": true
+                },
+                {
+                  "id": "visible_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_wealth",
+                  "observed": true
+                },
+                {
+                  "id": "visible_official",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_official",
+                  "observed": false
+                },
+                {
+                  "id": "visible_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_killing",
+                  "observed": false
+                }
+              ],
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-context-visible-official",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "辛亥",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "status": "related_facts_observed",
+              "source_section_ids": [
+                "bazi.section.s057",
+                "bazi.section.s058"
+              ],
+              "conditions": [
+                {
+                  "id": "month_resource",
+                  "observed": true
+                },
+                {
+                  "id": "visible_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "visible_official",
+                  "observed": true
+                },
+                {
+                  "id": "hidden_official",
+                  "observed": false
+                },
+                {
+                  "id": "visible_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_killing",
+                  "observed": false
+                }
+              ],
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-context-hidden-official",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "乙酉",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "status": "related_facts_observed",
+              "source_section_ids": [
+                "bazi.section.s057",
+                "bazi.section.s058"
+              ],
+              "conditions": [
+                {
+                  "id": "month_resource",
+                  "observed": true
+                },
+                {
+                  "id": "visible_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "visible_official",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_official",
+                  "observed": true
+                },
+                {
+                  "id": "visible_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_killing",
+                  "observed": false
+                }
+              ],
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-context-visible-killing",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "status": "related_facts_observed",
+              "source_section_ids": [
+                "bazi.section.s057",
+                "bazi.section.s058"
+              ],
+              "conditions": [
+                {
+                  "id": "month_resource",
+                  "observed": true
+                },
+                {
+                  "id": "visible_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "visible_official",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_official",
+                  "observed": false
+                },
+                {
+                  "id": "visible_killing",
+                  "observed": true
+                },
+                {
+                  "id": "hidden_killing",
+                  "observed": false
+                }
+              ],
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-context-hidden-killing",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲申",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "status": "related_facts_observed",
+              "source_section_ids": [
+                "bazi.section.s057",
+                "bazi.section.s058"
+              ],
+              "conditions": [
+                {
+                  "id": "month_resource",
+                  "observed": true
+                },
+                {
+                  "id": "visible_wealth",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_wealth",
+                  "observed": true
+                },
+                {
+                  "id": "visible_official",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_official",
+                  "observed": false
+                },
+                {
+                  "id": "visible_killing",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_killing",
+                  "observed": true
+                }
+              ],
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-context-no-month-resource",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "status": "outside_month_resource_branch",
+              "source_section_ids": [
+                "bazi.section.s057",
+                "bazi.section.s058"
+              ],
+              "conditions": [
+                {
+                  "id": "month_resource",
+                  "observed": false
+                },
+                {
+                  "id": "visible_wealth",
+                  "observed": true
+                },
+                {
+                  "id": "hidden_wealth",
+                  "observed": true
+                },
+                {
+                  "id": "visible_official",
+                  "observed": false
+                },
+                {
+                  "id": "hidden_official",
+                  "observed": false
+                },
+                {
+                  "id": "visible_killing",
+                  "observed": true
+                },
+                {
+                  "id": "hidden_killing",
+                  "observed": false
+                }
+              ],
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "qualified_for_determination": false,
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-none",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "甲子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "no_relevant_elemental_pair",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": false,
+                  "visible_wealth_direction": false,
+                  "hidden_wealth_direction": false,
+                  "official_element_generates_resource": false,
+                  "visible_official_direction": false,
+                  "hidden_official_direction": false,
+                  "killing_element_generates_resource_only": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              }
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-wealth-visible",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": true,
+                  "visible_wealth_direction": true,
+                  "hidden_wealth_direction": false,
+                  "official_element_generates_resource": false,
+                  "visible_official_direction": false,
+                  "hidden_official_direction": false,
+                  "killing_element_generates_resource_only": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              }
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-wealth-hidden",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "丙辰",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": true,
+                  "visible_wealth_direction": false,
+                  "hidden_wealth_direction": true,
+                  "official_element_generates_resource": false,
+                  "visible_official_direction": false,
+                  "hidden_official_direction": false,
+                  "killing_element_generates_resource_only": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              }
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-official-visible",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "辛亥",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": false,
+                  "visible_wealth_direction": false,
+                  "hidden_wealth_direction": false,
+                  "official_element_generates_resource": true,
+                  "visible_official_direction": true,
+                  "hidden_official_direction": false,
+                  "killing_element_generates_resource_only": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              }
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-official-hidden",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "乙酉",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": false,
+                  "visible_wealth_direction": false,
+                  "hidden_wealth_direction": false,
+                  "official_element_generates_resource": true,
+                  "visible_official_direction": false,
+                  "hidden_official_direction": true,
+                  "killing_element_generates_resource_only": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              }
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-killing-only",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": false,
+                  "visible_wealth_direction": false,
+                  "hidden_wealth_direction": false,
+                  "official_element_generates_resource": false,
+                  "visible_official_direction": false,
+                  "hidden_official_direction": false,
+                  "killing_element_generates_resource_only": true
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              }
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-no-month-resource",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "outside_month_resource_branch",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": false,
+                  "visible_wealth_direction": false,
+                  "hidden_wealth_direction": false,
+                  "official_element_generates_resource": false,
+                  "visible_official_direction": false,
+                  "hidden_official_direction": false,
+                  "killing_element_generates_resource_only": false
+                },
+                "effect_gate": {
+                  "status": "not_applicable_without_month_resource",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              }
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-wealth-and-official",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "辛酉",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": true,
+                  "visible_wealth_direction": true,
+                  "hidden_wealth_direction": false,
+                  "official_element_generates_resource": true,
+                  "visible_official_direction": true,
+                  "hidden_official_direction": true,
+                  "killing_element_generates_resource_only": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-clash-effect-unresolved",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": true,
+                  "visible_wealth_direction": true,
+                  "hidden_wealth_direction": true,
+                  "official_element_generates_resource": false,
+                  "visible_official_direction": false,
+                  "hidden_official_direction": false,
+                  "killing_element_generates_resource_only": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-direction-wealth-with-killing",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚申",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "source_section_ids": [
+                  "bazi.section.s057",
+                  "bazi.section.s058"
+                ],
+                "relation_summary": {
+                  "wealth_element_controls_resource": true,
+                  "visible_wealth_direction": true,
+                  "hidden_wealth_direction": true,
+                  "official_element_generates_resource": false,
+                  "visible_official_direction": false,
+                  "hidden_official_direction": false,
+                  "killing_element_generates_resource_only": true
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "killing_equivalent_to_official_in_source": null,
+                  "general_day_master_action_effects_reused": false,
+                  "numeric_weights_applied": false,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "determination": null,
+              "research_only": true,
+              "public_enabled": false,
+              "ai_enabled": false
+            },
+            "determination": {
+              "status": "unresolved",
+              "pattern": null,
+              "useful_god": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-sites-unexposed",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "exact_stem_site_summary": {
+                  "visible_actor_with_same_stem_hidden_site": false,
+                  "month_resource_with_same_stem_visible_site": false,
+                  "effective_root_inferred": false,
+                  "numeric_root_weight_applied": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null
+                }
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-sites-correspondence",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊辰",
+        "month_ganzhi": "癸丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "癸酉",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "exact_stem_site_summary": {
+                  "visible_actor_with_same_stem_hidden_site": true,
+                  "month_resource_with_same_stem_visible_site": true,
+                  "effective_root_inferred": false,
+                  "numeric_root_weight_applied": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null
+                }
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-element-roots-no-actor",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "element_root_candidate_summary": {
+                  "actor_candidate_observed": false,
+                  "resource_candidate_observed": true,
+                  "other_stem_same_element_observed": false,
+                  "root_branch_interaction_observed": false,
+                  "actual_root_strength_inferred": false,
+                  "actual_effect_inferred": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "numeric_weights_applied": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "determination": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-element-roots-same-and-other",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊辰",
+        "month_ganzhi": "癸丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "癸酉",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "element_root_candidate_summary": {
+                  "actor_candidate_observed": true,
+                  "resource_candidate_observed": true,
+                  "other_stem_same_element_observed": true,
+                  "root_branch_interaction_observed": true,
+                  "actual_root_strength_inferred": false,
+                  "actual_effect_inferred": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "numeric_weights_applied": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "determination": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-element-roots-clashed",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊午",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "element_root_candidate_summary": {
+                  "actor_candidate_observed": true,
+                  "resource_candidate_observed": true,
+                  "other_stem_same_element_observed": true,
+                  "root_branch_interaction_observed": true,
+                  "actual_root_strength_inferred": false,
+                  "actual_effect_inferred": false
+                },
+                "effect_gate": {
+                  "status": "indeterminate",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "numeric_weights_applied": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "determination": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-element-roots-no-month",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "丙寅",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "outside_month_resource_branch",
+                "element_root_candidate_summary": {
+                  "actor_candidate_observed": false,
+                  "resource_candidate_observed": false,
+                  "other_stem_same_element_observed": false,
+                  "root_branch_interaction_observed": false,
+                  "actual_root_strength_inferred": false,
+                  "actual_effect_inferred": false
+                },
+                "effect_gate": {
+                  "status": "not_applicable_without_month_resource",
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "numeric_weights_applied": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              },
+              "determination": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-reviewed-root-types-residual-growth",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚戌",
+        "month_ganzhi": "甲寅",
+        "day_ganzhi": "丙午",
+        "hour_ganzhi": "戊子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "reviewed_root_type_summary": {
+                  "actor_reviewed_examples_observed": true,
+                  "resource_reviewed_examples_observed": true,
+                  "residual_source_conflict_observed": true,
+                  "unreviewed_principal_qi_observed": true,
+                  "effective_strength_established": false,
+                  "effective_pairwise_action_established": false
+                },
+                "effect_gate": {
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-reviewed-root-types-uncovered",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊子",
+        "month_ganzhi": "壬子",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "壬子",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "reviewed_root_type_summary": {
+                  "actor_reviewed_examples_observed": false,
+                  "resource_reviewed_examples_observed": false,
+                  "residual_source_conflict_observed": false,
+                  "unreviewed_principal_qi_observed": false,
+                  "effective_strength_established": false,
+                  "effective_pairwise_action_established": false
+                },
+                "effect_gate": {
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null,
+                  "source_case_lookup_used": false
+                },
+                "research_only": true,
+                "public_enabled": false,
+                "ai_enabled": false
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate",
+                "many_officials_or_competing_pattern": "indeterminate"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.resource-reviewed-root-types-disputed-water-residual",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "戊辰",
+        "month_ganzhi": "癸丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "癸酉",
+        "pattern_variant": "bazi-pattern-structure-candidates-v1"
+      },
+      "expected": {
+        "pattern_candidates": {
+          "resource": {
+            "yuanhai_resource_competing_context": {
+              "elemental_causal_gate": {
+                "status": "direction_observed_effect_unresolved",
+                "reviewed_root_type_summary": {
+                  "actor_reviewed_examples_observed": true,
+                  "resource_reviewed_examples_observed": true,
+                  "residual_source_conflict_observed": true,
+                  "unreviewed_principal_qi_observed": true,
+                  "effective_strength_established": false,
+                  "effective_pairwise_action_established": false
+                },
+                "effect_gate": {
+                  "wealth_damages_resource": null,
+                  "official_actually_generates_resource": null
+                }
+              },
+              "adjudications": {
+                "wealth_strong_enough_to_damage_resource": "indeterminate",
+                "official_actually_generates_resource": "indeterminate"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bazi.annual-reference-midyear-2024-2026",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚辰",
+        "month_ganzhi": "己丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚午",
+        "annual_reference_years": [
+          2024,
+          2025,
+          2026
+        ]
+      },
+      "expected": {
+        "annual_reference": {
+          "variant": "bazi-annual-midyear-reference-v1",
+          "calendar_provider": "lunar-python==1.4.8",
+          "annual_boundary_calculated": false,
+          "dayun_start_age_calculated": false,
+          "dayun_direction_calculated": false,
+          "annual_luck_assessment": null,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "rows": [
+            {
+              "calendar_year": 2024,
+              "reference_datetime": "2024-07-01T12:00:00+08:00",
+              "year_ganzhi_at_reference": "甲辰",
+              "year_stem": "甲",
+              "year_branch": "辰",
+              "relative_ten_god": "比肩",
+              "calendar_provider": "lunar-python==1.4.8",
+              "jieqi_boundary_of_year_resolved": false,
+              "intra_year_ganzhi_not_asserted": true,
+              "annual_natal_interaction_status": "not_evaluated",
+              "annual_luck_prediction": null
+            },
+            {
+              "calendar_year": 2025,
+              "reference_datetime": "2025-07-01T12:00:00+08:00",
+              "year_ganzhi_at_reference": "乙巳",
+              "year_stem": "乙",
+              "year_branch": "巳",
+              "relative_ten_god": "劫财",
+              "calendar_provider": "lunar-python==1.4.8",
+              "jieqi_boundary_of_year_resolved": false,
+              "intra_year_ganzhi_not_asserted": true,
+              "annual_natal_interaction_status": "not_evaluated",
+              "annual_luck_prediction": null
+            },
+            {
+              "calendar_year": 2026,
+              "reference_datetime": "2026-07-01T12:00:00+08:00",
+              "year_ganzhi_at_reference": "丙午",
+              "year_stem": "丙",
+              "year_branch": "午",
+              "relative_ten_god": "食神",
+              "calendar_provider": "lunar-python==1.4.8",
+              "jieqi_boundary_of_year_resolved": false,
+              "intra_year_ganzhi_not_asserted": true,
+              "annual_natal_interaction_status": "not_evaluated",
+              "annual_luck_prediction": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bazi.annual-reference-midyear-2026-2027",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚辰",
+        "month_ganzhi": "己丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚午",
+        "annual_reference_years": [
+          2026,
+          2027
+        ]
+      },
+      "expected": {
+        "annual_reference": {
+          "variant": "bazi-annual-midyear-reference-v1",
+          "calendar_provider": "lunar-python==1.4.8",
+          "annual_boundary_calculated": false,
+          "dayun_start_age_calculated": false,
+          "dayun_direction_calculated": false,
+          "annual_luck_assessment": null,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "rows": [
+            {
+              "calendar_year": 2026,
+              "reference_datetime": "2026-07-01T12:00:00+08:00",
+              "year_ganzhi_at_reference": "丙午",
+              "year_stem": "丙",
+              "year_branch": "午",
+              "relative_ten_god": "食神",
+              "calendar_provider": "lunar-python==1.4.8",
+              "jieqi_boundary_of_year_resolved": false,
+              "intra_year_ganzhi_not_asserted": true,
+              "annual_natal_interaction_status": "not_evaluated",
+              "annual_luck_prediction": null
+            },
+            {
+              "calendar_year": 2027,
+              "reference_datetime": "2027-07-01T12:00:00+08:00",
+              "year_ganzhi_at_reference": "丁未",
+              "year_stem": "丁",
+              "year_branch": "未",
+              "relative_ten_god": "伤官",
+              "calendar_provider": "lunar-python==1.4.8",
+              "jieqi_boundary_of_year_resolved": false,
+              "intra_year_ganzhi_not_asserted": true,
+              "annual_natal_interaction_status": "not_evaluated",
+              "annual_luck_prediction": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bazi.annual-lichun-boundary-2025",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚辰",
+        "month_ganzhi": "己丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚午",
+        "annual_boundary_years": [
+          2025
+        ]
+      },
+      "expected": {
+        "annual_li_chun_boundaries": {
+          "variant": "bazi-annual-lichun-boundary-v1",
+          "day_master": "甲",
+          "calendar_provider": "lunar-python==1.4.8",
+          "annual_boundary_calculated": true,
+          "astronomical_precision_independently_verified": false,
+          "dayun_start_age_calculated": false,
+          "dayun_direction_calculated": false,
+          "annual_luck_assessment": null,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "rows": [
+            {
+              "gregorian_lichun_year": 2025,
+              "ganzhi_in_interval": "乙巳",
+              "year_stem": "乙",
+              "year_branch": "巳",
+              "ten_god_relative_to_natal_day_stem": "劫财",
+              "ganzhi_one_second_before_start": "甲辰",
+              "ganzhi_at_start": "乙巳",
+              "ganzhi_one_second_before_end": "乙巳",
+              "ganzhi_at_end": "丙午",
+              "boundary_precision": "provider_seconds",
+              "timezone": "Asia/Shanghai",
+              "calendar_provider": "lunar-python==1.4.8",
+              "effective_natal_interaction": null,
+              "annual_luck_prediction": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bazi.annual-lichun-boundaries-2024-2026",
+      "variant": "ziping-structural-v1",
+      "input": {
+        "year_ganzhi": "庚辰",
+        "month_ganzhi": "己丑",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚午",
+        "annual_boundary_years": [
+          2024,
+          2025,
+          2026
+        ]
+      },
+      "expected": {
+        "annual_li_chun_boundaries": {
+          "variant": "bazi-annual-lichun-boundary-v1",
+          "day_master": "甲",
+          "calendar_provider": "lunar-python==1.4.8",
+          "annual_boundary_calculated": true,
+          "astronomical_precision_independently_verified": false,
+          "dayun_start_age_calculated": false,
+          "dayun_direction_calculated": false,
+          "annual_luck_assessment": null,
+          "research_only": true,
+          "public_enabled": false,
+          "ai_enabled": false,
+          "rows": [
+            {
+              "gregorian_lichun_year": 2024,
+              "ganzhi_in_interval": "甲辰",
+              "year_stem": "甲",
+              "year_branch": "辰",
+              "ten_god_relative_to_natal_day_stem": "比肩",
+              "ganzhi_one_second_before_start": "癸卯",
+              "ganzhi_at_start": "甲辰",
+              "ganzhi_one_second_before_end": "甲辰",
+              "ganzhi_at_end": "乙巳",
+              "boundary_precision": "provider_seconds",
+              "timezone": "Asia/Shanghai",
+              "calendar_provider": "lunar-python==1.4.8",
+              "effective_natal_interaction": null,
+              "annual_luck_prediction": null
+            },
+            {
+              "gregorian_lichun_year": 2025,
+              "ganzhi_in_interval": "乙巳",
+              "year_stem": "乙",
+              "year_branch": "巳",
+              "ten_god_relative_to_natal_day_stem": "劫财",
+              "ganzhi_one_second_before_start": "甲辰",
+              "ganzhi_at_start": "乙巳",
+              "ganzhi_one_second_before_end": "乙巳",
+              "ganzhi_at_end": "丙午",
+              "boundary_precision": "provider_seconds",
+              "timezone": "Asia/Shanghai",
+              "calendar_provider": "lunar-python==1.4.8",
+              "effective_natal_interaction": null,
+              "annual_luck_prediction": null
+            },
+            {
+              "gregorian_lichun_year": 2026,
+              "ganzhi_in_interval": "丙午",
+              "year_stem": "丙",
+              "year_branch": "午",
+              "ten_god_relative_to_natal_day_stem": "食神",
+              "ganzhi_one_second_before_start": "乙巳",
+              "ganzhi_at_start": "丙午",
+              "ganzhi_one_second_before_end": "丙午",
+              "ganzhi_at_end": "丁未",
+              "boundary_precision": "provider_seconds",
+              "timezone": "Asia/Shanghai",
+              "calendar_provider": "lunar-python==1.4.8",
+              "effective_natal_interaction": null,
+              "annual_luck_prediction": null
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

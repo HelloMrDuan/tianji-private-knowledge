@@ -1,0 +1,58 @@
+{
+  "source_id": "iztro",
+  "repo": "SylarLong/iztro",
+  "branch": "main",
+  "commit": "2c7ef9be669df7b19d1799f4dce335fed3794f78",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "ziwei"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "src/data/constants.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/iztro/src/data/constants.ts",
+      "sha256": "ea238c71eca1fbc7fb61bdf4298ad23018d8e3efa3f442cfbe542d41695b568d",
+      "bytes": 3729
+    },
+    {
+      "source_path": "src/data/heavenlyStems.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/iztro/src/data/heavenlyStems.ts",
+      "sha256": "cdcade3b9e41b717268caeea4d1f278917c899e2f0be2b52bd5408e2ce825c4c",
+      "bytes": 2087
+    },
+    {
+      "source_path": "src/data/stars.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/iztro/src/data/stars.ts",
+      "sha256": "3a90aa80ae5dc2a46869b4fbd3fe40ed71795b208910a59e446e52d388b92311",
+      "bytes": 3258
+    },
+    {
+      "source_path": "src/star/location.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/iztro/src/star/location.ts",
+      "sha256": "e96e31595821e25654b3f5f724b563d4a7f11d566a1252cf794164164b8721a1",
+      "bytes": 27296
+    },
+    {
+      "source_path": "src/astro/astro.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/iztro/src/astro/astro.ts",
+      "sha256": "3598a30f145cfd5af16498edb29c2698c53a8415fe4c6e319b5e14da484a4a05",
+      "bytes": 17897
+    },
+    {
+      "source_path": "src/i18n/locales/zh-CN/palace.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/iztro/src/i18n/locales/zh-CN/palace.ts",
+      "sha256": "e5f969c75c78ea8562bc0265dfc96bad025ef2323b838c6020a6f0bc07fe95d3",
+      "bytes": 386
+    },
+    {
+      "source_path": "src/i18n/locales/zh-CN/star.ts",
+      "snapshot_path": "data/quarantine/source_snapshots/iztro/src/i18n/locales/zh-CN/star.ts",
+      "sha256": "7d1693ce6504704ef2aba83e9a259e0392f2ed9f498e9894e68bce0787ae2791",
+      "bytes": 3195
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

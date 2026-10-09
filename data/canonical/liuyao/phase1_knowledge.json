@@ -1,0 +1,2370 @@
+{
+  "schema_version": "1.0",
+  "model": "phase1-knowledge",
+  "domain": "liuyao",
+  "classics": [
+    {
+      "id": "liuyao.classic.bushi",
+      "domain": "liuyao",
+      "name": "卜筮正宗",
+      "source_id": "liuyao.source.bushi",
+      "body_stage": "canonical"
+    },
+    {
+      "id": "liuyao.classic.zengshan",
+      "domain": "liuyao",
+      "name": "增删卜易",
+      "source_id": "liuyao.source.zengshan",
+      "body_stage": "canonical"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "liuyao.chapter.zengshan.8cff2b9d",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）",
+      "classic_id": "liuyao.classic.zengshan",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "liuyao.chapter.bushi.8cff2b9d",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）",
+      "classic_id": "liuyao.classic.bushi",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "liuyao.chapter.zengshan.7a63b997",
+      "domain": "liuyao",
+      "name": "五行相生章第十一",
+      "classic_id": "liuyao.classic.zengshan",
+      "locator": "五行相生章第十一"
+    },
+    {
+      "id": "liuyao.chapter.zengshan.dbd0ea54",
+      "domain": "liuyao",
+      "name": "五行相克章第十二",
+      "classic_id": "liuyao.classic.zengshan",
+      "locator": "五行相克章第十二"
+    }
+  ],
+  "sections": [
+    {
+      "id": "liuyao.section.s001",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段1",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "六爻不動則不變﹐動則必變",
+      "locator": "基础选段（编者定位）; decoded-character interval [14908,14920)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s002",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段2",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "點卦由下而上﹐故裝五行也由下而上﹐餘仿此。",
+      "locator": "基础选段（编者定位）; decoded-character interval [14392,14413)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s003",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段3",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "乾為天「世」在六﹐天風姤「世」在初﹐天山遁「世」在二﹐天地否「世」在三﹐天地觀「世」在四﹐山地剝「世」在五﹐火地晉「世」在四﹐火天大有「世」退在三。",
+      "locator": "基础选段（编者定位）; decoded-character interval [14811,14885)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s004",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段4",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "隔世爻兩位卽是應爻﹐餘卦仿此。",
+      "locator": "基础选段（编者定位）; decoded-character interval [14886,14901)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s005",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段5",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "source_id": "liuyao.source.bushi",
+      "text": "生我者為父母，我生者為子孫，克我者為官鬼，我克者為妻財．比和者為兄弟．",
+      "locator": "基础选段（编者定位）; decoded-character interval [4018,4053)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s006",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段6",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "source_id": "liuyao.source.bushi",
+      "text": "甲乙起青龍，丙丁起朱雀，戊日起勾陳，己日起騰蛇，庚辛起白虎，壬癸起玄武。",
+      "locator": "基础选段（编者定位）; decoded-character interval [9236,9272)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s007",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段7",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "乾在內：子水寅木辰土。乾在外：午火申金戌土。",
+      "locator": "基础选段（编者定位）; decoded-character interval [14163,14185)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s008",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段8",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "月將卽是月建又為月令。掌一月之權﹐司三旬之令。",
+      "locator": "基础选段（编者定位）; decoded-character interval [19189,19212)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s009",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段9",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "日辰為六爻之主宰﹐司四時之旺相。",
+      "locator": "基础选段（编者定位）; decoded-character interval [21358,21374)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s010",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段10",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "爻之旺而靜者沖之則為暗動",
+      "locator": "基础选段（编者定位）; decoded-character interval [21451,21463)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s011",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段11",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "變出之爻安六親者仍照正卦而推",
+      "locator": "基础选段（编者定位）; decoded-character interval [14788,14802)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s012",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段12",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也",
+      "locator": "基础选段（编者定位）; decoded-character interval [19368,19395)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s013",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段13",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "用神﹐卽前各類之用神也。",
+      "locator": "基础选段（编者定位）; decoded-character interval [15722,15734)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s014",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段14",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "元神﹐生用神之神卽為元神。",
+      "locator": "基础选段（编者定位）; decoded-character interval [15734,15747)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s015",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段15",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "忌神克用神之爻也。",
+      "locator": "基础选段（编者定位）; decoded-character interval [15747,15756)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s016",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段16",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "仇神者克元神而生忌神也。",
+      "locator": "基础选段（编者定位）; decoded-character interval [15756,15768)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s017",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段17",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "source_id": "liuyao.source.bushi",
+      "text": "凡卦中亥變子，醜變辰，寅變卯，辰變未，巳變午，未變戌，申變酉，戌變丑，乃進神也",
+      "locator": "基础选段（编者定位）; decoded-character interval [29889,29928)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s018",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段18",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "source_id": "liuyao.source.bushi",
+      "text": "凡卦中子變亥，戌變未，酉變申，未變辰，午變巳，辰變丑，卯變寅，醜變戌，乃退神也",
+      "locator": "基础选段（编者定位）; decoded-character interval [29942,29981)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s019",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段19",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "source_id": "liuyao.source.bushi",
+      "text": "假如甲子日至癸酉十日為一旬，旬內無戍亥故曰戍亥空．",
+      "locator": "基础选段（编者定位）; decoded-character interval [13706,13731)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s020",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段20",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "source_id": "liuyao.source.bushi",
+      "text": "凡月建所衝之爻名為月破．",
+      "locator": "基础选段（编者定位）; decoded-character interval [13888,13900)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s021",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段21",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "爻之衰而靜者﹐沖之則為日破",
+      "locator": "基础选段（编者定位）; decoded-character interval [21469,21482)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s022",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段22",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "子與丑合、寅與亥合、卯與戌合、辰與酉合、巳與申合﹐午與未合。",
+      "locator": "基础选段（编者定位）; decoded-character interval [22912,22942)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s023",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段23",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "子午相沖、丑未相沖、寅申相沖、卯酉相沖、辰戌相沖、巳亥相沖。",
+      "locator": "基础选段（编者定位）; decoded-character interval [25223,25253)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s024",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段24",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "又云：辰午酉亥謂之自刑",
+      "locator": "基础选段（编者定位）; decoded-character interval [26347,26358)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s025",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段25",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "source_id": "liuyao.source.bushi",
+      "text": "六害屢試無驗，故不錄．",
+      "locator": "基础选段（编者定位）; decoded-character interval [92411,92422)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s026",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段26",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "金長生在巳﹐旺在酉﹐墓在丑﹐絕在寅。",
+      "locator": "基础选段（编者定位）; decoded-character interval [30676,30694)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s027",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段27",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "source_id": "liuyao.source.bushi",
+      "text": "金絕於寅，木絕於申，水土絕於巳，火絕於亥．",
+      "locator": "基础选段（编者定位）; decoded-character interval [29600,29621)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s028",
+      "domain": "liuyao",
+      "name": "基础选段（编者定位）·选段28",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "source_id": "liuyao.source.zengshan",
+      "text": "爻之衰弱者能生之合之、比之、拱之、扶之﹐衰而亦旺。",
+      "locator": "基础选段（编者定位）; decoded-character interval [19285,19310)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s029",
+      "domain": "liuyao",
+      "name": "五行相生章第十一·选段29",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.7a63b997",
+      "source_id": "liuyao.source.zengshan",
+      "text": "金生水﹐水生木﹐木生火﹐火生土﹐土生金。",
+      "locator": "五行相生章第十一; decoded-character interval [17195,17215)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s030",
+      "domain": "liuyao",
+      "name": "五行相克章第十二·选段30",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.dbd0ea54",
+      "source_id": "liuyao.source.zengshan",
+      "text": "金克木﹐木克土﹐土克水﹐水克火﹐火克金。",
+      "locator": "五行相克章第十二; decoded-character interval [17423,17443)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuyao.section.s031",
+      "domain": "liuyao",
+      "name": "乾纳甲·限定原文",
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "text": "乾在內：子水寅木辰土。乾在外：午火申金戌土。",
+      "locator": "渾天甲子章第四",
+      "review": {
+        "status": "approved",
+        "method": "核对原典原文与既有规则；阴卦按自下而上，未采用另一电子本中方向相反的表格。",
+        "scope": "本选段；艮行采用卜筮正宗，增删电子本该字作辰，不擅改旧文件。"
+      }
+    },
+    {
+      "id": "liuyao.section.s032",
+      "domain": "liuyao",
+      "name": "兑纳甲·限定原文",
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "text": "兌在內：巳火卯木丑土。兌在外：亥水酉金未土。",
+      "locator": "渾天甲子章第四",
+      "review": {
+        "status": "approved",
+        "method": "核对原典原文与既有规则；阴卦按自下而上，未采用另一电子本中方向相反的表格。",
+        "scope": "本选段；艮行采用卜筮正宗，增删电子本该字作辰，不擅改旧文件。"
+      }
+    },
+    {
+      "id": "liuyao.section.s033",
+      "domain": "liuyao",
+      "name": "离纳甲·限定原文",
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "text": "離在內：卯木丑土亥水。離在外：酉金未土巳火。",
+      "locator": "渾天甲子章第四",
+      "review": {
+        "status": "approved",
+        "method": "核对原典原文与既有规则；阴卦按自下而上，未采用另一电子本中方向相反的表格。",
+        "scope": "本选段；艮行采用卜筮正宗，增删电子本该字作辰，不擅改旧文件。"
+      }
+    },
+    {
+      "id": "liuyao.section.s034",
+      "domain": "liuyao",
+      "name": "震纳甲·限定原文",
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "text": "震在內：子水寅木辰土。震在外；午火申金戌土。",
+      "locator": "渾天甲子章第四",
+      "review": {
+        "status": "approved",
+        "method": "核对原典原文与既有规则；阴卦按自下而上，未采用另一电子本中方向相反的表格。",
+        "scope": "本选段；艮行采用卜筮正宗，增删电子本该字作辰，不擅改旧文件。"
+      }
+    },
+    {
+      "id": "liuyao.section.s035",
+      "domain": "liuyao",
+      "name": "巽纳甲·限定原文",
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "text": "巽在內：丑土亥水酉金。巽在外：未土巳火卯木。",
+      "locator": "渾天甲子章第四",
+      "review": {
+        "status": "approved",
+        "method": "核对原典原文与既有规则；阴卦按自下而上，未采用另一电子本中方向相反的表格。",
+        "scope": "本选段；艮行采用卜筮正宗，增删电子本该字作辰，不擅改旧文件。"
+      }
+    },
+    {
+      "id": "liuyao.section.s036",
+      "domain": "liuyao",
+      "name": "坎纳甲·限定原文",
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "text": "坎在內：寅木辰土午火。坎在外：申金戌土子水。",
+      "locator": "渾天甲子章第四",
+      "review": {
+        "status": "approved",
+        "method": "核对原典原文与既有规则；阴卦按自下而上，未采用另一电子本中方向相反的表格。",
+        "scope": "本选段；艮行采用卜筮正宗，增删电子本该字作辰，不擅改旧文件。"
+      }
+    },
+    {
+      "id": "liuyao.section.s037",
+      "domain": "liuyao",
+      "name": "艮纳甲·限定原文",
+      "source_id": "liuyao.source.bushi",
+      "classic_id": "liuyao.classic.bushi",
+      "chapter_id": "liuyao.chapter.bushi.8cff2b9d",
+      "text": "艮　納丙\t辰，午，申\t艮　納丙\t戌，子，寅",
+      "locator": "纳甲表·艮阳卦行",
+      "review": {
+        "status": "approved",
+        "method": "核对原典原文与既有规则；阴卦按自下而上，未采用另一电子本中方向相反的表格。",
+        "scope": "本选段；艮行采用卜筮正宗，增删电子本该字作辰，不擅改旧文件。"
+      }
+    },
+    {
+      "id": "liuyao.section.s038",
+      "domain": "liuyao",
+      "name": "坤纳甲·限定原文",
+      "source_id": "liuyao.source.zengshan",
+      "classic_id": "liuyao.classic.zengshan",
+      "chapter_id": "liuyao.chapter.zengshan.8cff2b9d",
+      "text": "坤在內：未土巳火卯木。坤在外：丑土亥水酉金。",
+      "locator": "渾天甲子章第四",
+      "review": {
+        "status": "approved",
+        "method": "核对原典原文与既有规则；阴卦按自下而上，未采用另一电子本中方向相反的表格。",
+        "scope": "本选段；艮行采用卜筮正宗，增删电子本该字作辰，不擅改旧文件。"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "liuyao.term.t001",
+      "domain": "liuyao",
+      "name": "卦",
+      "aliases": [],
+      "definition": "六爻不動則不變﹐動則必變",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s001",
+          "original_text": "六爻不動則不變﹐動則必變",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t002",
+      "domain": "liuyao",
+      "name": "爻",
+      "aliases": [],
+      "definition": "點卦由下而上﹐故裝五行也由下而上﹐餘仿此。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s002",
+          "original_text": "點卦由下而上﹐故裝五行也由下而上﹐餘仿此。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t003",
+      "domain": "liuyao",
+      "name": "世",
+      "aliases": [],
+      "definition": "乾為天「世」在六﹐天風姤「世」在初﹐天山遁「世」在二﹐天地否「世」在三﹐天地觀「世」在四﹐山地剝「世」在五﹐火地晉「世」在四﹐火天大有「世」退在三。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s003",
+          "original_text": "乾為天「世」在六﹐天風姤「世」在初﹐天山遁「世」在二﹐天地否「世」在三﹐天地觀「世」在四﹐山地剝「世」在五﹐火地晉「世」在四﹐火天大有「世」退在三。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t004",
+      "domain": "liuyao",
+      "name": "应",
+      "aliases": [
+        "應"
+      ],
+      "definition": "隔世爻兩位卽是應爻﹐餘卦仿此。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s004",
+          "original_text": "隔世爻兩位卽是應爻﹐餘卦仿此。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t005",
+      "domain": "liuyao",
+      "name": "六亲",
+      "aliases": [],
+      "definition": "生我者為父母，我生者為子孫，克我者為官鬼，我克者為妻財．比和者為兄弟．",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s005",
+          "original_text": "生我者為父母，我生者為子孫，克我者為官鬼，我克者為妻財．比和者為兄弟．",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t006",
+      "domain": "liuyao",
+      "name": "六神",
+      "aliases": [
+        "六兽"
+      ],
+      "definition": "甲乙起青龍，丙丁起朱雀，戊日起勾陳，己日起騰蛇，庚辛起白虎，壬癸起玄武。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s006",
+          "original_text": "甲乙起青龍，丙丁起朱雀，戊日起勾陳，己日起騰蛇，庚辛起白虎，壬癸起玄武。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t007",
+      "domain": "liuyao",
+      "name": "纳甲",
+      "aliases": [],
+      "definition": "乾在內：子水寅木辰土。乾在外：午火申金戌土。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s007",
+          "original_text": "乾在內：子水寅木辰土。乾在外：午火申金戌土。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t008",
+      "domain": "liuyao",
+      "name": "月建",
+      "aliases": [],
+      "definition": "月將卽是月建又為月令。掌一月之權﹐司三旬之令。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s008",
+          "original_text": "月將卽是月建又為月令。掌一月之權﹐司三旬之令。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t009",
+      "domain": "liuyao",
+      "name": "日辰",
+      "aliases": [],
+      "definition": "日辰為六爻之主宰﹐司四時之旺相。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s009",
+          "original_text": "日辰為六爻之主宰﹐司四時之旺相。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t010",
+      "domain": "liuyao",
+      "name": "动爻",
+      "aliases": [],
+      "definition": "六爻不動則不變﹐動則必變",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s001",
+          "original_text": "六爻不動則不變﹐動則必變",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t011",
+      "domain": "liuyao",
+      "name": "静爻",
+      "aliases": [],
+      "definition": "爻之旺而靜者沖之則為暗動",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s010",
+          "original_text": "爻之旺而靜者沖之則為暗動",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t012",
+      "domain": "liuyao",
+      "name": "变爻",
+      "aliases": [],
+      "definition": "變出之爻安六親者仍照正卦而推",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s011",
+          "original_text": "變出之爻安六親者仍照正卦而推",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t013",
+      "domain": "liuyao",
+      "name": "伏神",
+      "aliases": [],
+      "definition": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s012",
+          "original_text": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t014",
+      "domain": "liuyao",
+      "name": "飞神",
+      "aliases": [],
+      "definition": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s012",
+          "original_text": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t015",
+      "domain": "liuyao",
+      "name": "用神",
+      "aliases": [],
+      "definition": "用神﹐卽前各類之用神也。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s013",
+          "original_text": "用神﹐卽前各類之用神也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t016",
+      "domain": "liuyao",
+      "name": "原神",
+      "aliases": [
+        "元神"
+      ],
+      "definition": "元神﹐生用神之神卽為元神。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s014",
+          "original_text": "元神﹐生用神之神卽為元神。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t017",
+      "domain": "liuyao",
+      "name": "忌神",
+      "aliases": [],
+      "definition": "忌神克用神之爻也。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s015",
+          "original_text": "忌神克用神之爻也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t018",
+      "domain": "liuyao",
+      "name": "仇神",
+      "aliases": [],
+      "definition": "仇神者克元神而生忌神也。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s016",
+          "original_text": "仇神者克元神而生忌神也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t019",
+      "domain": "liuyao",
+      "name": "进神",
+      "aliases": [],
+      "definition": "凡卦中亥變子，醜變辰，寅變卯，辰變未，巳變午，未變戌，申變酉，戌變丑，乃進神也",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s017",
+          "original_text": "凡卦中亥變子，醜變辰，寅變卯，辰變未，巳變午，未變戌，申變酉，戌變丑，乃進神也",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t020",
+      "domain": "liuyao",
+      "name": "退神",
+      "aliases": [],
+      "definition": "凡卦中子變亥，戌變未，酉變申，未變辰，午變巳，辰變丑，卯變寅，醜變戌，乃退神也",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s018",
+          "original_text": "凡卦中子變亥，戌變未，酉變申，未變辰，午變巳，辰變丑，卯變寅，醜變戌，乃退神也",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t021",
+      "domain": "liuyao",
+      "name": "空亡",
+      "aliases": [
+        "旬空"
+      ],
+      "definition": "假如甲子日至癸酉十日為一旬，旬內無戍亥故曰戍亥空．",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s019",
+          "original_text": "假如甲子日至癸酉十日為一旬，旬內無戍亥故曰戍亥空．",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t022",
+      "domain": "liuyao",
+      "name": "月破",
+      "aliases": [],
+      "definition": "凡月建所衝之爻名為月破．",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s020",
+          "original_text": "凡月建所衝之爻名為月破．",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t023",
+      "domain": "liuyao",
+      "name": "日破",
+      "aliases": [],
+      "definition": "爻之衰而靜者﹐沖之則為日破",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s021",
+          "original_text": "爻之衰而靜者﹐沖之則為日破",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t024",
+      "domain": "liuyao",
+      "name": "合",
+      "aliases": [],
+      "definition": "子與丑合、寅與亥合、卯與戌合、辰與酉合、巳與申合﹐午與未合。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s022",
+          "original_text": "子與丑合、寅與亥合、卯與戌合、辰與酉合、巳與申合﹐午與未合。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t025",
+      "domain": "liuyao",
+      "name": "冲",
+      "aliases": [],
+      "definition": "子午相沖、丑未相沖、寅申相沖、卯酉相沖、辰戌相沖、巳亥相沖。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s023",
+          "original_text": "子午相沖、丑未相沖、寅申相沖、卯酉相沖、辰戌相沖、巳亥相沖。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t026",
+      "domain": "liuyao",
+      "name": "刑",
+      "aliases": [],
+      "definition": "又云：辰午酉亥謂之自刑",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s024",
+          "original_text": "又云：辰午酉亥謂之自刑",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t027",
+      "domain": "liuyao",
+      "name": "害",
+      "aliases": [],
+      "definition": "六害屢試無驗，故不錄．",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s025",
+          "original_text": "六害屢試無驗，故不錄．",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t028",
+      "domain": "liuyao",
+      "name": "墓",
+      "aliases": [],
+      "definition": "金長生在巳﹐旺在酉﹐墓在丑﹐絕在寅。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s026",
+          "original_text": "金長生在巳﹐旺在酉﹐墓在丑﹐絕在寅。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t029",
+      "domain": "liuyao",
+      "name": "绝",
+      "aliases": [],
+      "definition": "金絕於寅，木絕於申，水土絕於巳，火絕於亥．",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s027",
+          "original_text": "金絕於寅，木絕於申，水土絕於巳，火絕於亥．",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuyao.term.t030",
+      "domain": "liuyao",
+      "name": "旺衰",
+      "aliases": [],
+      "definition": "爻之衰弱者能生之合之、比之、拱之、扶之﹐衰而亦旺。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s028",
+          "original_text": "爻之衰弱者能生之合之、比之、拱之、扶之﹐衰而亦旺。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "liuyao.rule.r001",
+      "domain": "liuyao",
+      "name": "八卦纳甲装卦",
+      "conditions": [
+        "输入必须为所声明的传统符号，排爻自下而上"
+      ],
+      "inputs": {
+        "lower": "八卦名",
+        "upper": "八卦名"
+      },
+      "operation": {
+        "kind": "table_lookup",
+        "parameters": {
+          "data_path": "data/canonical/liuyao/najia_v1.json"
+        },
+        "provider": "tianji_kb.operations.liuyao.assign_najia",
+        "source_id": "liuyao.source.najia-implementation"
+      },
+      "result": {
+        "ganzhi": "初至上六个干支"
+      },
+      "exceptions": [
+        "只计算结构关系，不判吉凶。",
+        "纳甲依照本库已有审定表；世应输入已判定宫序，不声称完成寻宫。"
+      ],
+      "execution_status": "executable",
+      "school": "京房八宫/纳甲基础",
+      "variant": "existing-najia-v1",
+      "difference": "卜筮正宗电子本阴卦表方向与增删卜易逐卦说明不同；采用既有审定表与增删支序。艮行增删文本作辰，引用卜筮阳卦艮行，不改旧电子本。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s031",
+          "original_text": "乾在內：子水寅木辰土。乾在外：午火申金戌土。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s032",
+          "original_text": "兌在內：巳火卯木丑土。兌在外：亥水酉金未土。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s033",
+          "original_text": "離在內：卯木丑土亥水。離在外：酉金未土巳火。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s034",
+          "original_text": "震在內：子水寅木辰土。震在外；午火申金戌土。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s035",
+          "original_text": "巽在內：丑土亥水酉金。巽在外：未土巳火卯木。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s036",
+          "original_text": "坎在內：寅木辰土午火。坎在外：申金戌土子水。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s037",
+          "original_text": "艮　納丙\t辰，午，申\t艮　納丙\t戌，子，寅",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s038",
+          "original_text": "坤在內：未土巳火卯木。坤在外：丑土亥水酉金。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t007",
+        "liuyao.term.t001"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r002",
+      "domain": "liuyao",
+      "name": "五行六亲映射",
+      "conditions": [
+        "输入必须为所声明的传统符号，排爻自下而上"
+      ],
+      "inputs": {
+        "palace_element": "木火土金水",
+        "line_element": "木火土金水"
+      },
+      "operation": {
+        "kind": "relation",
+        "parameters": {
+          "data_path": "data/canonical/liuyao/najia_v1.json"
+        },
+        "provider": "tianji_kb.operations.liuyao.six_relative",
+        "source_id": "liuyao.source.najia-implementation"
+      },
+      "result": {
+        "relative": "兄弟/子孙/父母/妻财/官鬼"
+      },
+      "exceptions": [
+        "只计算结构关系，不判吉凶。",
+        "纳甲依照本库已有审定表；世应输入已判定宫序，不声称完成寻宫。"
+      ],
+      "execution_status": "executable",
+      "school": "京房八宫/纳甲基础",
+      "variant": "existing-najia-v1",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s005",
+          "original_text": "生我者為父母，我生者為子孫，克我者為官鬼，我克者為妻財．比和者為兄弟．",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t005"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r003",
+      "domain": "liuyao",
+      "name": "六神起例",
+      "conditions": [
+        "输入必须为所声明的传统符号，排爻自下而上"
+      ],
+      "inputs": {
+        "day_stem": "甲乙丙丁戊己庚辛壬癸"
+      },
+      "operation": {
+        "kind": "rotation",
+        "parameters": {
+          "data_path": "data/canonical/liuyao/najia_v1.json"
+        },
+        "provider": "tianji_kb.operations.liuyao.six_spirits",
+        "source_id": "liuyao.source.najia-implementation"
+      },
+      "result": {
+        "spirits": "初爻至上爻"
+      },
+      "exceptions": [
+        "只计算结构关系，不判吉凶。",
+        "纳甲依照本库已有审定表；世应输入已判定宫序，不声称完成寻宫。"
+      ],
+      "execution_status": "executable",
+      "school": "京房八宫/纳甲基础",
+      "variant": "existing-najia-v1",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s006",
+          "original_text": "甲乙起青龍，丙丁起朱雀，戊日起勾陳，己日起騰蛇，庚辛起白虎，壬癸起玄武。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t006"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r004",
+      "domain": "liuyao",
+      "name": "世应定位",
+      "conditions": [
+        "输入必须为所声明的传统符号，排爻自下而上"
+      ],
+      "inputs": {
+        "sequence": "本宫/一世/二世/三世/四世/五世/游魂/归魂"
+      },
+      "operation": {
+        "kind": "table_lookup",
+        "parameters": {
+          "data_path": "data/canonical/liuyao/najia_v1.json"
+        },
+        "provider": "tianji_kb.operations.liuyao.shi_ying",
+        "source_id": "liuyao.source.najia-implementation"
+      },
+      "result": {
+        "shi": "1..6",
+        "ying": "1..6"
+      },
+      "exceptions": [
+        "只计算结构关系，不判吉凶。",
+        "纳甲依照本库已有审定表；世应输入已判定宫序，不声称完成寻宫。"
+      ],
+      "execution_status": "executable",
+      "school": "京房八宫/纳甲基础",
+      "variant": "existing-najia-v1",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s003",
+          "original_text": "乾為天「世」在六﹐天風姤「世」在初﹐天山遁「世」在二﹐天地否「世」在三﹐天地觀「世」在四﹐山地剝「世」在五﹐火地晉「世」在四﹐火天大有「世」退在三。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s004",
+          "original_text": "隔世爻兩位卽是應爻﹐餘卦仿此。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t003",
+        "liuyao.term.t004"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r005",
+      "domain": "liuyao",
+      "name": "干支旬空",
+      "conditions": [
+        "输入必须为所声明的传统符号，排爻自下而上"
+      ],
+      "inputs": {
+        "day_ganzhi": "合法六十甲子"
+      },
+      "operation": {
+        "kind": "cycle",
+        "parameters": {
+          "data_path": "data/canonical/liuyao/najia_v1.json"
+        },
+        "provider": "tianji_kb.operations.liuyao.xunkong",
+        "source_id": "liuyao.source.najia-implementation"
+      },
+      "result": {
+        "empty_branches": "两个空支"
+      },
+      "exceptions": [
+        "只计算结构关系，不判吉凶。",
+        "纳甲依照本库已有审定表；世应输入已判定宫序，不声称完成寻宫。"
+      ],
+      "execution_status": "executable",
+      "school": "京房八宫/纳甲基础",
+      "variant": "existing-najia-v1",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s019",
+          "original_text": "假如甲子日至癸酉十日為一旬，旬內無戍亥故曰戍亥空．",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t021"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r006",
+      "domain": "liuyao",
+      "name": "地支六合六冲",
+      "conditions": [
+        "输入必须为所声明的传统符号，排爻自下而上"
+      ],
+      "inputs": {
+        "a": "地支",
+        "b": "地支"
+      },
+      "operation": {
+        "kind": "relation",
+        "parameters": {
+          "data_path": "data/canonical/liuyao/najia_v1.json"
+        },
+        "provider": "tianji_kb.operations.liuyao.branch_relation",
+        "source_id": "liuyao.source.najia-implementation"
+      },
+      "result": {
+        "combine": "bool",
+        "clash": "bool"
+      },
+      "exceptions": [
+        "只计算结构关系，不判吉凶。",
+        "纳甲依照本库已有审定表；世应输入已判定宫序，不声称完成寻宫。"
+      ],
+      "execution_status": "executable",
+      "school": "京房八宫/纳甲基础",
+      "variant": "existing-najia-v1",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s022",
+          "original_text": "子與丑合、寅與亥合、卯與戌合、辰與酉合、巳與申合﹐午與未合。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s023",
+          "original_text": "子午相沖、丑未相沖、寅申相沖、卯酉相沖、辰戌相沖、巳亥相沖。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t024",
+        "liuyao.term.t025"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r007",
+      "domain": "liuyao",
+      "name": "五行相生相克",
+      "conditions": [],
+      "inputs": {
+        "a": "木火土金水",
+        "b": "木火土金水"
+      },
+      "operation": {
+        "kind": "relation",
+        "parameters": {},
+        "provider": "tianji_kb.operations.liuyao.element_relation"
+      },
+      "result": {
+        "relation": "同我/我生/生我/我克/克我"
+      },
+      "exceptions": [],
+      "execution_status": "executable",
+      "school": "五行关系",
+      "variant": "五元素有向图",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s029",
+          "original_text": "金生水﹐水生木﹐木生火﹐火生土﹐土生金。",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s030",
+          "original_text": "金克木﹐木克土﹐土克水﹐水克火﹐火克金。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": []
+    },
+    {
+      "id": "liuyao.rule.r008",
+      "domain": "liuyao",
+      "name": "月建基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "月建",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "月將卽是月建又為月令。掌一月之權﹐司三旬之令。"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s008",
+          "original_text": "月將卽是月建又為月令。掌一月之權﹐司三旬之令。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t008"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r009",
+      "domain": "liuyao",
+      "name": "日辰基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "日辰",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "日辰為六爻之主宰﹐司四時之旺相。"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s009",
+          "original_text": "日辰為六爻之主宰﹐司四時之旺相。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t009"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r010",
+      "domain": "liuyao",
+      "name": "旺衰基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "旺衰",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "爻之衰弱者能生之合之、比之、拱之、扶之﹐衰而亦旺。"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s028",
+          "original_text": "爻之衰弱者能生之合之、比之、拱之、扶之﹐衰而亦旺。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t030"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r011",
+      "domain": "liuyao",
+      "name": "伏神基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "伏神",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s012",
+          "original_text": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t013"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r012",
+      "domain": "liuyao",
+      "name": "飞神基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "飞神",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s012",
+          "original_text": "用神伏藏被飛神壓住者﹐月建能沖克飛神﹐生助伏神而為用也",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t014"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r013",
+      "domain": "liuyao",
+      "name": "用神基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "用神",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "用神﹐卽前各類之用神也。"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s013",
+          "original_text": "用神﹐卽前各類之用神也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t015"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r014",
+      "domain": "liuyao",
+      "name": "原神基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "原神",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "元神﹐生用神之神卽為元神。"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s014",
+          "original_text": "元神﹐生用神之神卽為元神。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t016"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r015",
+      "domain": "liuyao",
+      "name": "忌神基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "忌神",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "忌神克用神之爻也。"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s015",
+          "original_text": "忌神克用神之爻也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t017"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r016",
+      "domain": "liuyao",
+      "name": "仇神基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "仇神",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "仇神者克元神而生忌神也。"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s016",
+          "original_text": "仇神者克元神而生忌神也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t018"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r017",
+      "domain": "liuyao",
+      "name": "进神基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "进神",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "凡卦中亥變子，醜變辰，寅變卯，辰變未，巳變午，未變戌，申變酉，戌變丑，乃進神也"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "卜筮正宗",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s017",
+          "original_text": "凡卦中亥變子，醜變辰，寅變卯，辰變未，巳變午，未變戌，申變酉，戌變丑，乃進神也",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t019"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r018",
+      "domain": "liuyao",
+      "name": "退神基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "退神",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "凡卦中子變亥，戌變未，酉變申，未變辰，午變巳，辰變丑，卯變寅，醜變戌，乃退神也"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "卜筮正宗",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s018",
+          "original_text": "凡卦中子變亥，戌變未，酉變申，未變辰，午變巳，辰變丑，卯變寅，醜變戌，乃退神也",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t020"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r019",
+      "domain": "liuyao",
+      "name": "月破基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "月破",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "凡月建所衝之爻名為月破．"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "卜筮正宗",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s020",
+          "original_text": "凡月建所衝之爻名為月破．",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t022"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r020",
+      "domain": "liuyao",
+      "name": "日破基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "日破",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "爻之衰而靜者﹐沖之則為日破"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s021",
+          "original_text": "爻之衰而靜者﹐沖之則為日破",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t023"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r021",
+      "domain": "liuyao",
+      "name": "刑基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "刑",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "textual",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "又云：辰午酉亥謂之自刑"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "descriptive_only",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s024",
+          "original_text": "又云：辰午酉亥謂之自刑",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t026"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r022",
+      "domain": "liuyao",
+      "name": "害基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "害",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "textual",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "六害屢試無驗，故不錄．"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "descriptive_only",
+      "school": "卜筮正宗",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s025",
+          "original_text": "六害屢試無驗，故不錄．",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t027"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r023",
+      "domain": "liuyao",
+      "name": "墓基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "墓",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "金長生在巳﹐旺在酉﹐墓在丑﹐絕在寅。"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "增删卜易",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s026",
+          "original_text": "金長生在巳﹐旺在酉﹐墓在丑﹐絕在寅。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t028"
+      ]
+    },
+    {
+      "id": "liuyao.rule.r024",
+      "domain": "liuyao",
+      "name": "绝基础关系",
+      "conditions": [],
+      "inputs": {
+        "context": "绝",
+        "missing": "需另行判定旺衰、动静、日月及其他相关条件"
+      },
+      "operation": {
+        "kind": "conditional_relation",
+        "parameters": {}
+      },
+      "result": {
+        "original_relation": "金絕於寅，木絕於申，水土絕於巳，火絕於亥．"
+      },
+      "exceptions": [
+        "仅保留该原典条件；不得把单条关系当作完整吉凶判据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "卜筮正宗",
+      "variant": "选段原文",
+      "difference": "刑害作用和土之生旺墓绝存在原典争议，未合并成唯一算法。",
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s027",
+          "original_text": "金絕於寅，木絕於申，水土絕於巳，火絕於亥．",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuyao.term.t029"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "liuyao.concept.najia1",
+      "domain": "liuyao",
+      "name": "乾纳甲表",
+      "kind": "najia_reference",
+      "attributes": {
+        "trigram": "乾",
+        "existing_path": "data/canonical/liuyao/najia_v1.json",
+        "json_pointer": "/najia/乾",
+        "line_order": "bottom-to-top"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s031",
+          "original_text": "乾在內：子水寅木辰土。乾在外：午火申金戌土。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuyao.concept.najia2",
+      "domain": "liuyao",
+      "name": "兑纳甲表",
+      "kind": "najia_reference",
+      "attributes": {
+        "trigram": "兑",
+        "existing_path": "data/canonical/liuyao/najia_v1.json",
+        "json_pointer": "/najia/兑",
+        "line_order": "bottom-to-top"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s032",
+          "original_text": "兌在內：巳火卯木丑土。兌在外：亥水酉金未土。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuyao.concept.najia3",
+      "domain": "liuyao",
+      "name": "离纳甲表",
+      "kind": "najia_reference",
+      "attributes": {
+        "trigram": "离",
+        "existing_path": "data/canonical/liuyao/najia_v1.json",
+        "json_pointer": "/najia/离",
+        "line_order": "bottom-to-top"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s033",
+          "original_text": "離在內：卯木丑土亥水。離在外：酉金未土巳火。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuyao.concept.najia4",
+      "domain": "liuyao",
+      "name": "震纳甲表",
+      "kind": "najia_reference",
+      "attributes": {
+        "trigram": "震",
+        "existing_path": "data/canonical/liuyao/najia_v1.json",
+        "json_pointer": "/najia/震",
+        "line_order": "bottom-to-top"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s034",
+          "original_text": "震在內：子水寅木辰土。震在外；午火申金戌土。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuyao.concept.najia5",
+      "domain": "liuyao",
+      "name": "巽纳甲表",
+      "kind": "najia_reference",
+      "attributes": {
+        "trigram": "巽",
+        "existing_path": "data/canonical/liuyao/najia_v1.json",
+        "json_pointer": "/najia/巽",
+        "line_order": "bottom-to-top"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s035",
+          "original_text": "巽在內：丑土亥水酉金。巽在外：未土巳火卯木。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuyao.concept.najia6",
+      "domain": "liuyao",
+      "name": "坎纳甲表",
+      "kind": "najia_reference",
+      "attributes": {
+        "trigram": "坎",
+        "existing_path": "data/canonical/liuyao/najia_v1.json",
+        "json_pointer": "/najia/坎",
+        "line_order": "bottom-to-top"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s036",
+          "original_text": "坎在內：寅木辰土午火。坎在外：申金戌土子水。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuyao.concept.najia7",
+      "domain": "liuyao",
+      "name": "艮纳甲表",
+      "kind": "najia_reference",
+      "attributes": {
+        "trigram": "艮",
+        "existing_path": "data/canonical/liuyao/najia_v1.json",
+        "json_pointer": "/najia/艮",
+        "line_order": "bottom-to-top"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.bushi",
+          "section_id": "liuyao.section.s037",
+          "original_text": "艮　納丙\t辰，午，申\t艮　納丙\t戌，子，寅",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuyao.concept.najia8",
+      "domain": "liuyao",
+      "name": "坤纳甲表",
+      "kind": "najia_reference",
+      "attributes": {
+        "trigram": "坤",
+        "existing_path": "data/canonical/liuyao/najia_v1.json",
+        "json_pointer": "/najia/坤",
+        "line_order": "bottom-to-top"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuyao.source.zengshan",
+          "section_id": "liuyao.section.s038",
+          "original_text": "坤在內：未土巳火卯木。坤在外：丑土亥水酉金。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

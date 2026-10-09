@@ -1,0 +1,458 @@
+{
+  "schema_version": "0.1",
+  "domain": "fengshui",
+  "topic": "twenty_four_mountains",
+  "source_level": "L1-deterministic-rules",
+  "license": "MIT",
+  "provenance": {
+    "primary": {
+      "repo": "minagawah/mikaboshi",
+      "commit": "b958205ce1a0402c033c0ea890b9c6d7a02a89b8",
+      "paths": [
+        "src/compass.rs",
+        "docs/compass.md"
+      ],
+      "license": "MIT"
+    },
+    "cross_checks": [
+      {
+        "canonical_path": "data/canonical/seed.json",
+        "scope": "八卦/干支五行"
+      },
+      {
+        "canonical_path": "data/canonical/fengshui/calculation_v1.json",
+        "scope": "八方/洛书宫位"
+      }
+    ]
+  },
+  "conventions": {
+    "sector_width_degrees": 15,
+    "zero_degrees": "正北",
+    "clockwise": true,
+    "order_note": "按 mikaboshi TWENTYFOUR_ORDER_START_NORTH，从子(N2)起顺时针，壬(N1)为末项。",
+    "degree_boundary_rule": "每山以中心角±7.5°。子山跨 0°，范围 352.5°..360° 与 0°..7.5°。",
+    "facing_sitting_rule": "坐向相差180°，即 index + 12 mod 24。"
+  },
+  "records": [
+    {
+      "index": 0,
+      "mountain": "子",
+      "type": "branch",
+      "element": "水",
+      "compass_label": "N2",
+      "direction": "北",
+      "center_degrees": 0,
+      "start_degrees": 352.5,
+      "end_degrees": 7.5,
+      "wraps_zero": true,
+      "opposite": {
+        "index": 12,
+        "mountain": "午",
+        "compass_label": "S2"
+      }
+    },
+    {
+      "index": 1,
+      "mountain": "癸",
+      "type": "stem",
+      "element": "水",
+      "compass_label": "N3",
+      "direction": "北",
+      "center_degrees": 15,
+      "start_degrees": 7.5,
+      "end_degrees": 22.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 13,
+        "mountain": "丁",
+        "compass_label": "S3"
+      }
+    },
+    {
+      "index": 2,
+      "mountain": "丑",
+      "type": "branch",
+      "element": "土",
+      "compass_label": "NE1",
+      "direction": "东北",
+      "center_degrees": 30,
+      "start_degrees": 22.5,
+      "end_degrees": 37.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 14,
+        "mountain": "未",
+        "compass_label": "SW1"
+      }
+    },
+    {
+      "index": 3,
+      "mountain": "艮",
+      "type": "trigram",
+      "element": "土",
+      "compass_label": "NE2",
+      "direction": "东北",
+      "center_degrees": 45,
+      "start_degrees": 37.5,
+      "end_degrees": 52.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 15,
+        "mountain": "坤",
+        "compass_label": "SW2"
+      }
+    },
+    {
+      "index": 4,
+      "mountain": "寅",
+      "type": "branch",
+      "element": "木",
+      "compass_label": "NE3",
+      "direction": "东北",
+      "center_degrees": 60,
+      "start_degrees": 52.5,
+      "end_degrees": 67.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 16,
+        "mountain": "申",
+        "compass_label": "SW3"
+      }
+    },
+    {
+      "index": 5,
+      "mountain": "甲",
+      "type": "stem",
+      "element": "木",
+      "compass_label": "E1",
+      "direction": "东",
+      "center_degrees": 75,
+      "start_degrees": 67.5,
+      "end_degrees": 82.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 17,
+        "mountain": "庚",
+        "compass_label": "W1"
+      }
+    },
+    {
+      "index": 6,
+      "mountain": "卯",
+      "type": "branch",
+      "element": "木",
+      "compass_label": "E2",
+      "direction": "东",
+      "center_degrees": 90,
+      "start_degrees": 82.5,
+      "end_degrees": 97.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 18,
+        "mountain": "酉",
+        "compass_label": "W2"
+      }
+    },
+    {
+      "index": 7,
+      "mountain": "乙",
+      "type": "stem",
+      "element": "木",
+      "compass_label": "E3",
+      "direction": "东",
+      "center_degrees": 105,
+      "start_degrees": 97.5,
+      "end_degrees": 112.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 19,
+        "mountain": "辛",
+        "compass_label": "W3"
+      }
+    },
+    {
+      "index": 8,
+      "mountain": "辰",
+      "type": "branch",
+      "element": "土",
+      "compass_label": "SE1",
+      "direction": "东南",
+      "center_degrees": 120,
+      "start_degrees": 112.5,
+      "end_degrees": 127.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 20,
+        "mountain": "戌",
+        "compass_label": "NW1"
+      }
+    },
+    {
+      "index": 9,
+      "mountain": "巽",
+      "type": "trigram",
+      "element": "木",
+      "compass_label": "SE2",
+      "direction": "东南",
+      "center_degrees": 135,
+      "start_degrees": 127.5,
+      "end_degrees": 142.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 21,
+        "mountain": "乾",
+        "compass_label": "NW2"
+      }
+    },
+    {
+      "index": 10,
+      "mountain": "巳",
+      "type": "branch",
+      "element": "火",
+      "compass_label": "SE3",
+      "direction": "东南",
+      "center_degrees": 150,
+      "start_degrees": 142.5,
+      "end_degrees": 157.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 22,
+        "mountain": "亥",
+        "compass_label": "NW3"
+      }
+    },
+    {
+      "index": 11,
+      "mountain": "丙",
+      "type": "stem",
+      "element": "火",
+      "compass_label": "S1",
+      "direction": "南",
+      "center_degrees": 165,
+      "start_degrees": 157.5,
+      "end_degrees": 172.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 23,
+        "mountain": "壬",
+        "compass_label": "N1"
+      }
+    },
+    {
+      "index": 12,
+      "mountain": "午",
+      "type": "branch",
+      "element": "火",
+      "compass_label": "S2",
+      "direction": "南",
+      "center_degrees": 180,
+      "start_degrees": 172.5,
+      "end_degrees": 187.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 0,
+        "mountain": "子",
+        "compass_label": "N2"
+      }
+    },
+    {
+      "index": 13,
+      "mountain": "丁",
+      "type": "stem",
+      "element": "火",
+      "compass_label": "S3",
+      "direction": "南",
+      "center_degrees": 195,
+      "start_degrees": 187.5,
+      "end_degrees": 202.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 1,
+        "mountain": "癸",
+        "compass_label": "N3"
+      }
+    },
+    {
+      "index": 14,
+      "mountain": "未",
+      "type": "branch",
+      "element": "土",
+      "compass_label": "SW1",
+      "direction": "西南",
+      "center_degrees": 210,
+      "start_degrees": 202.5,
+      "end_degrees": 217.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 2,
+        "mountain": "丑",
+        "compass_label": "NE1"
+      }
+    },
+    {
+      "index": 15,
+      "mountain": "坤",
+      "type": "trigram",
+      "element": "土",
+      "compass_label": "SW2",
+      "direction": "西南",
+      "center_degrees": 225,
+      "start_degrees": 217.5,
+      "end_degrees": 232.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 3,
+        "mountain": "艮",
+        "compass_label": "NE2"
+      }
+    },
+    {
+      "index": 16,
+      "mountain": "申",
+      "type": "branch",
+      "element": "金",
+      "compass_label": "SW3",
+      "direction": "西南",
+      "center_degrees": 240,
+      "start_degrees": 232.5,
+      "end_degrees": 247.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 4,
+        "mountain": "寅",
+        "compass_label": "NE3"
+      }
+    },
+    {
+      "index": 17,
+      "mountain": "庚",
+      "type": "stem",
+      "element": "金",
+      "compass_label": "W1",
+      "direction": "西",
+      "center_degrees": 255,
+      "start_degrees": 247.5,
+      "end_degrees": 262.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 5,
+        "mountain": "甲",
+        "compass_label": "E1"
+      }
+    },
+    {
+      "index": 18,
+      "mountain": "酉",
+      "type": "branch",
+      "element": "金",
+      "compass_label": "W2",
+      "direction": "西",
+      "center_degrees": 270,
+      "start_degrees": 262.5,
+      "end_degrees": 277.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 6,
+        "mountain": "卯",
+        "compass_label": "E2"
+      }
+    },
+    {
+      "index": 19,
+      "mountain": "辛",
+      "type": "stem",
+      "element": "金",
+      "compass_label": "W3",
+      "direction": "西",
+      "center_degrees": 285,
+      "start_degrees": 277.5,
+      "end_degrees": 292.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 7,
+        "mountain": "乙",
+        "compass_label": "E3"
+      }
+    },
+    {
+      "index": 20,
+      "mountain": "戌",
+      "type": "branch",
+      "element": "土",
+      "compass_label": "NW1",
+      "direction": "西北",
+      "center_degrees": 300,
+      "start_degrees": 292.5,
+      "end_degrees": 307.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 8,
+        "mountain": "辰",
+        "compass_label": "SE1"
+      }
+    },
+    {
+      "index": 21,
+      "mountain": "乾",
+      "type": "trigram",
+      "element": "金",
+      "compass_label": "NW2",
+      "direction": "西北",
+      "center_degrees": 315,
+      "start_degrees": 307.5,
+      "end_degrees": 322.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 9,
+        "mountain": "巽",
+        "compass_label": "SE2"
+      }
+    },
+    {
+      "index": 22,
+      "mountain": "亥",
+      "type": "branch",
+      "element": "水",
+      "compass_label": "NW3",
+      "direction": "西北",
+      "center_degrees": 330,
+      "start_degrees": 322.5,
+      "end_degrees": 337.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 10,
+        "mountain": "巳",
+        "compass_label": "SE3"
+      }
+    },
+    {
+      "index": 23,
+      "mountain": "壬",
+      "type": "stem",
+      "element": "水",
+      "compass_label": "N1",
+      "direction": "北",
+      "center_degrees": 345,
+      "start_degrees": 337.5,
+      "end_degrees": 352.5,
+      "wraps_zero": false,
+      "opposite": {
+        "index": 11,
+        "mountain": "丙",
+        "compass_label": "S1"
+      }
+    }
+  ],
+  "cleaning_audit": [
+    {
+      "source": "minagawah/mikaboshi json/bagua.json",
+      "issue": "兑卦 direction 字段为 e，与兑=西及其 compass.rs 罗盘结构冲突。",
+      "action": "Canonical 不复制该 direction 字段；方向由二十四山 compass label 与既有八卦基础表确定。"
+    }
+  ],
+  "excluded": [
+    "未有独立来源确认的三元山向阴阳属性",
+    "替卦/兼向规则",
+    "玄空山星/向星飞布方向"
+  ]
+}

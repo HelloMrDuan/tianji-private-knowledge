@@ -1,0 +1,28 @@
+{
+  "source_id": "kinliuren",
+  "repo": "kentang2017/kinliuren",
+  "branch": "master",
+  "commit": "3ba45a9540f08269b56d81508a061c7d46938785",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "liuren"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "docs/guji.md",
+      "snapshot_path": "data/quarantine/source_snapshots/kinliuren/docs/guji.md",
+      "sha256": "357bb62348c0dbf774869000239e4af01f23f9145295ed49018b82283c63e77b",
+      "bytes": 6971
+    },
+    {
+      "source_path": "src/kinliuren/kinliuren.py",
+      "snapshot_path": "data/quarantine/source_snapshots/kinliuren/src/kinliuren/kinliuren.py",
+      "sha256": "3463bf2c22a029d3940397cd8718f62ea648d89e988810baf07e36dcaccd6887",
+      "bytes": 112316
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

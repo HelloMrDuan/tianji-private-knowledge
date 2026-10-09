@@ -1,0 +1,49 @@
+{
+  "source_id": "mikaboshi-compass",
+  "repo": "minagawah/mikaboshi",
+  "branch": "main",
+  "commit": "b958205ce1a0402c033c0ea890b9c6d7a02a89b8",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "fengshui",
+    "compass",
+    "bagua",
+    "ganzhi"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "docs/compass.md",
+      "snapshot_path": "data/quarantine/source_snapshots/mikaboshi-compass/docs/compass.md",
+      "sha256": "0de0d22817f69968e3931a78d04da9c2cf4a565715c2d454993f9baafe3fb706",
+      "bytes": 7199
+    },
+    {
+      "source_path": "src/compass.rs",
+      "snapshot_path": "data/quarantine/source_snapshots/mikaboshi-compass/src/compass.rs",
+      "sha256": "7930978b2b51e7e3f3fca7f2cb46a916202f8dff3e8c9fbb99745954bad2ac9c",
+      "bytes": 13905
+    },
+    {
+      "source_path": "json/ganzhi_stems.json",
+      "snapshot_path": "data/quarantine/source_snapshots/mikaboshi-compass/json/ganzhi_stems.json",
+      "sha256": "c2c6fe7f7628423238f4048f262a81fdb49ed1d917d78fdc051dd009454592e1",
+      "bytes": 1591
+    },
+    {
+      "source_path": "json/ganzhi_branches.json",
+      "snapshot_path": "data/quarantine/source_snapshots/mikaboshi-compass/json/ganzhi_branches.json",
+      "sha256": "bfae38ce0b83117d4195dddfbcc7b0eb5144ec916c3ba909f2b81b1e32b280c6",
+      "bytes": 1809
+    },
+    {
+      "source_path": "json/bagua.json",
+      "snapshot_path": "data/quarantine/source_snapshots/mikaboshi-compass/json/bagua.json",
+      "sha256": "b767539e48afa83a0dea0d25060760b3feae9ee4db7fd096a73005b689ee11d9",
+      "bytes": 1607
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

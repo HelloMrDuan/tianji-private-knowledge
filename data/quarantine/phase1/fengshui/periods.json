@@ -1,0 +1,181 @@
+{
+  "domain": "fengshui",
+  "stage": "quarantine",
+  "evidence_level": "D",
+  "source_id": "fengshui.source.fengshui-implementation",
+  "existing_canonical_path": "data/canonical/fengshui/calculation_v1.json",
+  "periods": [
+    {
+      "id": "fengshui.research.period1",
+      "domain": "fengshui",
+      "yuan": "上元",
+      "period": 1,
+      "start_year": 1864,
+      "end_year": 1883,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 1,
+      "trigram": "坎",
+      "element": "水",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    },
+    {
+      "id": "fengshui.research.period2",
+      "domain": "fengshui",
+      "yuan": "上元",
+      "period": 2,
+      "start_year": 1884,
+      "end_year": 1903,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 2,
+      "trigram": "坤",
+      "element": "土",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    },
+    {
+      "id": "fengshui.research.period3",
+      "domain": "fengshui",
+      "yuan": "上元",
+      "period": 3,
+      "start_year": 1904,
+      "end_year": 1923,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 3,
+      "trigram": "震",
+      "element": "木",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    },
+    {
+      "id": "fengshui.research.period4",
+      "domain": "fengshui",
+      "yuan": "中元",
+      "period": 4,
+      "start_year": 1924,
+      "end_year": 1943,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 4,
+      "trigram": "巽",
+      "element": "木",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    },
+    {
+      "id": "fengshui.research.period5",
+      "domain": "fengshui",
+      "yuan": "中元",
+      "period": 5,
+      "start_year": 1944,
+      "end_year": 1963,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 5,
+      "trigram": "中宫",
+      "element": "土",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    },
+    {
+      "id": "fengshui.research.period6",
+      "domain": "fengshui",
+      "yuan": "中元",
+      "period": 6,
+      "start_year": 1964,
+      "end_year": 1983,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 6,
+      "trigram": "乾",
+      "element": "金",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    },
+    {
+      "id": "fengshui.research.period7",
+      "domain": "fengshui",
+      "yuan": "下元",
+      "period": 7,
+      "start_year": 1984,
+      "end_year": 2003,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 7,
+      "trigram": "兑",
+      "element": "金",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    },
+    {
+      "id": "fengshui.research.period8",
+      "domain": "fengshui",
+      "yuan": "下元",
+      "period": 8,
+      "start_year": 2004,
+      "end_year": 2023,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 8,
+      "trigram": "艮",
+      "element": "土",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    },
+    {
+      "id": "fengshui.research.period9",
+      "domain": "fengshui",
+      "yuan": "下元",
+      "period": 9,
+      "start_year": 2024,
+      "end_year": 2043,
+      "calendar_boundary": "Gregorian year, legacy implementation convention; Lichun boundary not verified",
+      "luoshu_palace": 9,
+      "trigram": "离",
+      "element": "火",
+      "attributes": "20-year grouping; no fate prediction",
+      "source_ids": [
+        "fengshui.source.fengshui-implementation"
+      ],
+      "evidence_level": "D",
+      "stage": "quarantine",
+      "review_status": "needs_classical_period_table_evidence"
+    }
+  ],
+  "review_note": "结构化复用已存在的软件表；不据此认定古籍已证实具体年份或每运二十年。"
+}

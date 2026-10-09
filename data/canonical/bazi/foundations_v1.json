@@ -1,0 +1,325 @@
+{
+  "schema_version": "0.1",
+  "domain": "bazi",
+  "school": "ziping_general",
+  "license": "MIT",
+  "provenance": {
+    "repo": "jinchenma94/bazi-skill",
+    "path": "references/wuxing-tables.md",
+    "commit": "112a5d84cd1a001a0038cafca3be68d93e4c0cc9"
+  },
+  "heavenly_stems": [
+    {
+      "stem": "甲",
+      "polarity": "阳",
+      "element": "木",
+      "direction": "东",
+      "season": "春"
+    },
+    {
+      "stem": "乙",
+      "polarity": "阴",
+      "element": "木",
+      "direction": "东",
+      "season": "春"
+    },
+    {
+      "stem": "丙",
+      "polarity": "阳",
+      "element": "火",
+      "direction": "南",
+      "season": "夏"
+    },
+    {
+      "stem": "丁",
+      "polarity": "阴",
+      "element": "火",
+      "direction": "南",
+      "season": "夏"
+    },
+    {
+      "stem": "戊",
+      "polarity": "阳",
+      "element": "土",
+      "direction": "中",
+      "season": "四季末"
+    },
+    {
+      "stem": "己",
+      "polarity": "阴",
+      "element": "土",
+      "direction": "中",
+      "season": "四季末"
+    },
+    {
+      "stem": "庚",
+      "polarity": "阳",
+      "element": "金",
+      "direction": "西",
+      "season": "秋"
+    },
+    {
+      "stem": "辛",
+      "polarity": "阴",
+      "element": "金",
+      "direction": "西",
+      "season": "秋"
+    },
+    {
+      "stem": "壬",
+      "polarity": "阳",
+      "element": "水",
+      "direction": "北",
+      "season": "冬"
+    },
+    {
+      "stem": "癸",
+      "polarity": "阴",
+      "element": "水",
+      "direction": "北",
+      "season": "冬"
+    }
+  ],
+  "stem_combinations": [
+    [
+      "甲",
+      "己",
+      "土"
+    ],
+    [
+      "乙",
+      "庚",
+      "金"
+    ],
+    [
+      "丙",
+      "辛",
+      "水"
+    ],
+    [
+      "丁",
+      "壬",
+      "木"
+    ],
+    [
+      "戊",
+      "癸",
+      "火"
+    ]
+  ],
+  "earthly_branch_relations": {
+    "clashes": [
+      [
+        "子",
+        "午"
+      ],
+      [
+        "丑",
+        "未"
+      ],
+      [
+        "寅",
+        "申"
+      ],
+      [
+        "卯",
+        "酉"
+      ],
+      [
+        "辰",
+        "戌"
+      ],
+      [
+        "巳",
+        "亥"
+      ]
+    ],
+    "triple_harmonies": [
+      [
+        "申",
+        "子",
+        "辰",
+        "水"
+      ],
+      [
+        "亥",
+        "卯",
+        "未",
+        "木"
+      ],
+      [
+        "寅",
+        "午",
+        "戌",
+        "火"
+      ],
+      [
+        "巳",
+        "酉",
+        "丑",
+        "金"
+      ]
+    ],
+    "directional_meetings": [
+      [
+        "寅",
+        "卯",
+        "辰",
+        "木"
+      ],
+      [
+        "巳",
+        "午",
+        "未",
+        "火"
+      ],
+      [
+        "申",
+        "酉",
+        "戌",
+        "金"
+      ],
+      [
+        "亥",
+        "子",
+        "丑",
+        "水"
+      ]
+    ],
+    "six_harmonies": [
+      [
+        "子",
+        "丑",
+        "土"
+      ],
+      [
+        "寅",
+        "亥",
+        "木"
+      ],
+      [
+        "卯",
+        "戌",
+        "火"
+      ],
+      [
+        "辰",
+        "酉",
+        "金"
+      ],
+      [
+        "巳",
+        "申",
+        "水"
+      ],
+      [
+        "午",
+        "未",
+        "火/土(有争议)"
+      ]
+    ],
+    "harms": [
+      [
+        "子",
+        "未"
+      ],
+      [
+        "丑",
+        "午"
+      ],
+      [
+        "寅",
+        "巳"
+      ],
+      [
+        "卯",
+        "辰"
+      ],
+      [
+        "申",
+        "亥"
+      ],
+      [
+        "酉",
+        "戌"
+      ]
+    ]
+  },
+  "ten_gods_rule": {
+    "generates_me": {
+      "same_polarity": "偏印",
+      "different_polarity": "正印"
+    },
+    "i_generate": {
+      "same_polarity": "食神",
+      "different_polarity": "伤官"
+    },
+    "controls_me": {
+      "same_polarity": "七杀",
+      "different_polarity": "正官"
+    },
+    "i_control": {
+      "same_polarity": "偏财",
+      "different_polarity": "正财"
+    },
+    "same_element": {
+      "same_polarity": "比肩",
+      "different_polarity": "劫财"
+    }
+  },
+  "hidden_stems": {
+    "子": [
+      "癸"
+    ],
+    "丑": [
+      "己",
+      "癸",
+      "辛"
+    ],
+    "寅": [
+      "甲",
+      "丙",
+      "戊"
+    ],
+    "卯": [
+      "乙"
+    ],
+    "辰": [
+      "戊",
+      "乙",
+      "癸"
+    ],
+    "巳": [
+      "丙",
+      "庚",
+      "戊"
+    ],
+    "午": [
+      "丁",
+      "己"
+    ],
+    "未": [
+      "己",
+      "丁",
+      "乙"
+    ],
+    "申": [
+      "庚",
+      "壬",
+      "戊"
+    ],
+    "酉": [
+      "辛"
+    ],
+    "戌": [
+      "戊",
+      "辛",
+      "丁"
+    ],
+    "亥": [
+      "壬",
+      "甲"
+    ]
+  },
+  "hidden_stem_weight_note": "上游规则使用本气约60%、中气约30%、余气约10%；这是该实现口径，不应当作为所有流派唯一真值。"
+}

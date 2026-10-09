@@ -1,0 +1,26 @@
+{
+  "domain": "ziwei",
+  "stage": "quarantine",
+  "evidence_level": "D",
+  "candidates": [
+    {
+      "title": "全书电子本壬年四化异文",
+      "source_id": "ziwei.source.quanshu",
+      "original_text": "壬梁紫府武宿是，癸破巨陰貪狼停。",
+      "status": "needs_printed_edition_check",
+      "difference": "壬梁紫府武 / iztro 壬梁紫左武；不得覆盖既有四化表。"
+    },
+    {
+      "title": "紫微斗数全集",
+      "status": "metadata_only",
+      "reason": "未取得版本来源、版权范围均足够明确的电子本；不收录现代全书。"
+    },
+    {
+      "title": "万历续道藏·紫微斗数",
+      "url": "https://github.com/garychowcmu/daizhigev20/blob/4a6d6f2088825f132521d848c2ea86cf9c9a7620/%E9%81%93%E8%97%8F/%E6%AD%A3%E7%BB%9F%E9%81%93%E8%97%8F%E7%BB%AD%E9%81%93%E8%97%8F/%E7%B4%AB%E5%BE%AE%E6%96%97%E6%95%B0.txt",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "status": "different_star_system",
+      "reason": "该三卷本采用另一套星曜系统；不与全书十四主星混合。"
+    }
+  ]
+}

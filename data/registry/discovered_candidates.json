@@ -1,0 +1,4106 @@
+{
+  "candidates": [
+    {
+      "repo": "Renhuai123/ziwei-doushu",
+      "html_url": "https://github.com/Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "stars": 4434,
+      "updated_at": "2026-10-08T09:15:53Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-06T17:14:27Z",
+      "forks_count": 878,
+      "open_issues_count": 4,
+      "license_audit_at": "2026-10-08T11:17:30.166850+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "Brhiza/mingyu",
+      "html_url": "https://github.com/Brhiza/mingyu",
+      "description": "八字、紫微、星盘、六爻、梅花、奇门、大六壬、小六壬、塔罗、雷诺曼、灵签、择日一站式玄学算命占卜工具包，输出结构化提示词与数据。提供公开 API、MCP Server 与 skill。",
+      "stars": 476,
+      "updated_at": "2026-10-08T04:06:40Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "六爻 liuyao",
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "AGPL-3.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-08T04:07:55Z",
+      "forks_count": 126,
+      "open_issues_count": 2,
+      "license_audit_at": "2026-10-08T11:17:30.754454+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "ziweiknows/ziwei-chart",
+      "html_url": "https://github.com/ziweiknows/ziwei-chart",
+      "description": "开源紫微斗数命盘工具：精准排盘、真太阳时、可视化分析与 AI 解读。 Open-source Zi Wei Dou Shu charting app.",
+      "stars": 458,
+      "updated_at": "2026-10-06T01:28:40Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "GPL-3.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-20T15:48:48Z",
+      "forks_count": 150,
+      "open_issues_count": 9,
+      "license_audit_at": "2026-10-08T11:17:31.366195+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS",
+      "html_url": "https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-MacOS",
+      "description": "十项全能玄学术数 Mac 工作站：命·卜·工具三区 26 门主技法、60+ 子技法流派。占星/八字/紫微/七政/印占/合盘/铁板神数/河洛/策天飞星/演禽/一掌经；含正统主限法在内 20+ 推运技法；六壬/奇门/六爻/太乙/三式合一/风水 17 派/金口诀/地占/塔罗/灵棋经等 15+ 卜法；多模型 AI 分析、3D 天文馆、黄历择日、玄学史、高质量生时数据库。技法全目录见 README。于旧星阙 Horosa 基础上改良制作，请不要忘记爽哥和郑大哥的贡献。",
+      "stars": 392,
+      "updated_at": "2026-10-07T03:05:15Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "风水 fengshui",
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "AGPL-3.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-07T03:05:10Z",
+      "forks_count": 58,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:31.868985+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows",
+      "html_url": "https://github.com/Horace-Maxwell/Horosa-Web-App-comprehensively-improved-Windows",
+      "description": "十项全能玄学术数 Windows 工作站：命·卜·工具三区 26 门主技法、60+ 子技法流派。占星/八字/紫微/七政/印占/合盘/铁板神数/河洛/策天飞星/演禽/一掌经；含正统主限法在内 20+ 推运技法；六壬/奇门/六爻/太乙/三式合一/风水 17 派/金口诀/地占/塔罗/灵棋经等 15+ 卜法；多模型 AI 分析、3D 天文馆、黄历择日、玄学史、高质量生时数据库。技法全目录见 README。于旧星阙 Horosa 基础上改良制作，请不要忘记爽哥和郑大哥的贡献。",
+      "stars": 387,
+      "updated_at": "2026-10-06T17:36:08Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "风水 fengshui",
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "AGPL-3.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-06T17:36:03Z",
+      "forks_count": 74,
+      "open_issues_count": 3,
+      "license_audit_at": "2026-10-08T11:17:32.411086+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "ChesterRa/mingpan",
+      "html_url": "https://github.com/ChesterRa/mingpan",
+      "description": "中华术数 MCP 排盘服务：八字・紫微斗数・六爻・梅花易数・大六壬・奇门遁甲｜Deterministic Chinese-metaphysics chart calculator for AI agents (MCP). Facts only — interpretation is left to the AI.",
+      "stars": 118,
+      "updated_at": "2026-10-08T09:15:44Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-29T16:03:29Z",
+      "forks_count": 37,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:17:32.943272+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "ml8s/liki",
+      "html_url": "https://github.com/ml8s/liki",
+      "description": "Liki — 专业命理 Skill，按命理师的专业标准构建：排盘走天文历算引擎，断语附经典出处，结论可验证， 八字 · 紫微 · 六爻 · 奇门 · 黄历择日 · 风水 · 起名。起名，问卦，风水。 Liki  —  Professional Skill for Chinese Metaphysics. Built to professional standards: astronomical-engine charting, classically-sourced judgments, verifiable conclusions BaZi · ZiWei · Liuyao · QiMen · Date Selection · Feng Shui · Naming.",
+      "stars": 77,
+      "updated_at": "2026-10-03T17:19:15Z",
+      "language": "Go",
+      "matched_queries": [
+        "八字 命理 bazi",
+        "六爻 liuyao",
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-27T22:42:40Z",
+      "forks_count": 12,
+      "open_issues_count": 9,
+      "license_audit_at": "2026-10-08T11:17:33.512463+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "masterai-top/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code",
+      "html_url": "https://github.com/masterai-top/Bazi-Ziwei-Qimen-Dunjia-Divination-System-Source-Code",
+      "description": "八字排盘、周易易经源码：HTML/JavaScript 与 Java 接口，涵盖四柱、五行、流年、大六壬、七政四余，并提供紫微斗数、奇门遁甲集成参考。Bazi and Chinese astrology source code.",
+      "stars": 67,
+      "updated_at": "2026-09-30T23:15:23Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "紫微斗数 ziwei",
+        "奇门遁甲 qimen",
+        "周易 易经 yijing"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-29T03:42:14Z",
+      "forks_count": 16,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:33.946898+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "dhicoc/dsh-chinese-traditional-wisdom-skill",
+      "html_url": "https://github.com/dhicoc/dsh-chinese-traditional-wisdom-skill",
+      "description": "中华传统智慧（玄枢）AI Agent 技能包的 DeepSeek Harness（dsh）Cordis 插件：八字/紫微/六爻/梅花/奇门/风水/五运六气/体质全融合，本地确定性引擎 + 可视化 Dashboard，一行 dsh plugin add 安装。",
+      "stars": 54,
+      "updated_at": "2026-10-07T10:12:03Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-08T10:21:59Z",
+      "forks_count": 10,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:17:34.404600+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "taynpg/csp",
+      "html_url": "https://github.com/taynpg/csp",
+      "description": "csp-(cpp shi pan，C++式盘)，一个cmd命令行奇门遁甲起盘工具。",
+      "stars": 50,
+      "updated_at": "2026-09-26T12:47:41Z",
+      "language": "C++",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-31T05:46:13Z",
+      "forks_count": 14,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:17:34.935353+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "HeiGeAi/HeiGe-SuanMing",
+      "html_url": "https://github.com/HeiGeAi/HeiGe-SuanMing",
+      "description": "黑哥算命：可复现、可审计的八字与紫微排盘，梅花、六爻、奇门占测，新增手机号八星结构分析。脚本先计算，方法论再解释，支持 CLI、JSON 与脱敏 HTML 报告。 | Reproducible Chinese astrology and divination engines that compute first, then reason.",
+      "stars": 48,
+      "updated_at": "2026-10-06T08:57:08Z",
+      "language": "Python",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-23T05:51:00Z",
+      "forks_count": 19,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:35.511393+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "ziweiknows/ziwei-chat",
+      "html_url": "https://github.com/ziweiknows/ziwei-chat",
+      "description": "开源紫微斗数 AI Agent：基于确定性命盘事实进行可追溯对话。 Evidence-backed chart conversations.",
+      "stars": 37,
+      "updated_at": "2026-10-07T16:34:57Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "Apache-2.0",
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-07T17:39:57Z",
+      "forks_count": 5,
+      "open_issues_count": 5,
+      "license_audit_at": "2026-10-08T11:17:36.068073+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "godisego/Way-of-Heaven-Agent",
+      "html_url": "https://github.com/godisego/Way-of-Heaven-Agent",
+      "description": "这个项目为两件事而生，重心是学AI代理：把RAG、引用校验、最大工具循环这些机制零框架亲手写一遍，再配一个「学习中心」把每个机制讲成课；其次是学命理——把八字排盘室外可的点击活教材，每个干支、十神问、大运追到底。就算不接api key，也可以体验到大部分。",
+      "stars": 36,
+      "updated_at": "2026-10-04T02:35:28Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-29T01:49:09Z",
+      "forks_count": 7,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:36.576641+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "Ficere/tianji",
+      "html_url": "https://github.com/Ficere/tianji",
+      "description": "中西合璧命理测算 Agent Skills 合集 — 八字五行 / 袁天罡称骨 / 紫微斗数 / 星座 / 三才五格姓名测算 / 合盘评分 | Chinese Fortune Analysis Skills (BaZi / Bone Weight / ZiWei / Zodiac / Name Numerology / Synastry)",
+      "stars": 34,
+      "updated_at": "2026-10-08T08:42:06Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi",
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-08T08:41:59Z",
+      "forks_count": 5,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:17:37.095567+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "oceanjustinlin/qimen",
+      "html_url": "https://github.com/oceanjustinlin/qimen",
+      "description": "基于AI的奇门遁甲在线起局，局势分析，定论分析和可视化",
+      "stars": 24,
+      "updated_at": "2026-09-11T09:32:34Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-11T09:32:29Z",
+      "forks_count": 10,
+      "open_issues_count": 2,
+      "license_audit_at": "2026-10-08T11:17:37.658384+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "jangviktor-web/zeng-shiqiang",
+      "html_url": "https://github.com/jangviktor-web/zeng-shiqiang",
+      "description": "曾仕强 AI Agent Skill，基于曾仕强书籍，电视节目及公开演讲等材料构建的大模型知识库 Skill 资源库。完整收录中国式管理全集 23 册、易经、周易、道德经、论语、财神文化、大易管理、三国智慧、家风家庭教育等人情世故与国学管理文本，全部整理为标准化 Markdown，完成实体书名与电子版别名映射、书目勘误、缺本标记。可直接用于 RAG 检索、LLM 微调、AI 蒸馏、Agent 调用、Obsidian 知识库构建、本地大模型私有 Skill 调用。覆盖修己安人、持经达变、领导统御、人际奥秘、亲子教养、易经中道思维、企业管理等场景，内置心智模型、口语范式与幻觉约束机制，规避 AI 编造输出，为 AI 提供准确的曾仕强国学思想输出素材，适合国学 RAG、私有大模型、中文 Agent",
+      "stars": 18,
+      "updated_at": "2026-10-04T03:06:49Z",
+      "language": "Python",
+      "matched_queries": [
+        "周易 易经 yijing"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "auto-optimize/20260825-zeng-srcquality",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-27T15:34:56Z",
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:38.271038+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "huzoukai/hui-gesture-bagua",
+      "html_url": "https://github.com/huzoukai/hui-gesture-bagua",
+      "description": "单手手势控制的生成式八卦动态体验 · A generative Bagua experience controlled by hand gestures.",
+      "stars": 16,
+      "updated_at": "2026-09-11T13:06:38Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-30T09:15:51Z",
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:38.914817+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "1eakkkk/liuyao-tool",
+      "html_url": "https://github.com/1eakkkk/liuyao-tool",
+      "description": "六爻排盘 + AI 解卦,基于火珠林纳甲法,网页/安卓/Windows 三端,打开即用",
+      "stars": 11,
+      "updated_at": "2026-10-07T08:21:10Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-07T08:21:05Z",
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:39.379579+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "Linden-TR/ziwei-doushu-skill",
+      "html_url": "https://github.com/Linden-TR/ziwei-doushu-skill",
+      "description": "Ziwei Doushu (Purple Star Astrology) — Claude Code skill for Chinese destiny analysis.      Multi-school: San He, Fei Xing, He Luo, Qin Tian Si Hua. Discover ancient Chinese           metaphysics, Taoist astrology, Eastern fortune-telling. Powered by @mingai/mcp. 紫微斗数 算命 命理",
+      "stars": 11,
+      "updated_at": "2026-10-05T15:46:02Z",
+      "language": null,
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-05-27T17:45:03Z",
+      "forks_count": 1,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:17:39.913955+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "liver-detox/bazi-ziwei-calculator",
+      "html_url": "https://github.com/liver-detox/bazi-ziwei-calculator",
+      "description": "本地优先的八字与紫微斗数基础排盘计算器，支持双盘计算、流年联动、核验修订与默认脱敏导出。",
+      "stars": 10,
+      "updated_at": "2026-09-17T11:39:54Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-17T11:43:35Z",
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:40.488416+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "2021291696/high-confidence-mingli-skill",
+      "html_url": "https://github.com/2021291696/high-confidence-mingli-skill",
+      "description": "高置信度命理 Skill —— 八字/紫微斗数/七政四余三盘互译的命理对话伴侣（Claude Code / Codex / Kimi 等支持 SKILL.md 的 agent CLI 通用）：置信度三道题 + 斯多葛语气 + 收束自校准，支持缺盘降级，数据全本地。A Chinese metaphysics companion for agent CLIs with three-chart cross-translation (BaZi/Ziwei/Qizheng), confidence-gated interpretation, stoic voice, and self-calibrating local memory.",
+      "stars": 8,
+      "updated_at": "2026-10-07T16:50:34Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi",
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-07T16:50:30Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:42.006245+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "Brhiza/sydf",
+      "html_url": "https://github.com/Brhiza/sydf",
+      "description": "融合东方术数、西方占卜、传统日历与 AI 解读的现代化 Web 应用",
+      "stars": 8,
+      "updated_at": "2026-09-30T05:37:59Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-10T18:45:19Z",
+      "forks_count": 7,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:42.476629+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "lemonteaau/binary-liuyao",
+      "html_url": "https://github.com/lemonteaau/binary-liuyao",
+      "description": "HEX//64 — 赛博风格的六爻排盘工具",
+      "stars": 8,
+      "updated_at": "2026-10-04T15:18:09Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-04T15:18:05Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:43.101507+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "Fyrgo8/meihua-divination-skill",
+      "html_url": "https://github.com/Fyrgo8/meihua-divination-skill",
+      "description": "面向 Codex 的公开梅花易数解卦 Skill：支持动静定体用、月令与卦气结合看旺衰，以及结构化逐步断卦输出。",
+      "stars": 7,
+      "updated_at": "2026-09-23T16:33:54Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-23T16:33:50Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:43.627689+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "Timmy9527/agentziwei",
+      "html_url": "https://github.com/Timmy9527/agentziwei",
+      "description": "紫微AI，是一个紫微斗数解盘AI应用。Ziwei AI is an AI application for Ziwei Doushu chart interpretation.紫微AIは、紫微斗数のチャート解読のためのAIアプリケーションです。",
+      "stars": 7,
+      "updated_at": "2026-10-01T14:42:29Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-01T14:42:16Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:44.092036+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "hedanbaomi/tarot-divination-site",
+      "html_url": "https://github.com/hedanbaomi/tarot-divination-site",
+      "description": "A static tarot divination site inspired by Quareia tarot reading practice.",
+      "stars": 7,
+      "updated_at": "2026-09-22T02:56:26Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-22T02:56:23Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:44.704847+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "matharts/ziwei",
+      "html_url": "https://github.com/matharts/ziwei",
+      "description": "MathArts 开源生态的标准驱动紫微斗数排盘引擎",
+      "stars": 7,
+      "updated_at": "2026-10-02T21:33:05Z",
+      "language": null,
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-02T21:33:00Z",
+      "forks_count": 4,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:17:45.208303+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "DeePingXian/BaGuaLiuGuangLu",
+      "html_url": "https://github.com/DeePingXian/BaGuaLiuGuangLu",
+      "description": "開源的八卦爐專案DA☆ZE",
+      "stars": 6,
+      "updated_at": "2026-06-19T23:45:53Z",
+      "language": "Python",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-06-19T23:45:47Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:45.773284+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "x3747991-ship-it/tieban-shenshu-skillpack",
+      "html_url": "https://github.com/x3747991-ship-it/tieban-shenshu-skillpack",
+      "description": "【野生你盘叔】铁板神数（邵子神数）条文断命 AI 技能包：12000 条铁板条文库、考刻定分、皇极值卦、十四表流年八字命理工具",
+      "stars": 5,
+      "updated_at": "2026-10-04T02:38:12Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-22T22:35:12Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:46.195438+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "985892345/astrbot_plugin_meihua",
+      "html_url": "https://github.com/985892345/astrbot_plugin_meihua",
+      "description": "AstrBot插件：梅花易数起卦断卦工具",
+      "stars": 4,
+      "updated_at": "2026-07-31T12:51:38Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-16T15:55:37Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:46.771757+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "RubyCcll/guanwei",
+      "html_url": "https://github.com/RubyCcll/guanwei",
+      "description": "九术排盘与 AI 深度解读开源项目：八字/紫微/星盘/奇门/六爻/六壬/梅花/小六壬/塔罗 · Chinese metaphysics: Bazi, Ziwei, Qimen, Tarot with AI interpretation",
+      "stars": 4,
+      "updated_at": "2026-10-06T11:48:25Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "六爻 liuyao",
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-06T11:48:20Z",
+      "forks_count": 1,
+      "open_issues_count": 10,
+      "license_audit_at": "2026-10-08T11:17:47.249492+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "YuHong-Cray/tianji-fengshui",
+      "html_url": "https://github.com/YuHong-Cray/tianji-fengshui",
+      "description": "  玄机子 - 风水大师智慧助手。专精风水命理、八字分析、掌纹解读、图像分析。   智能模型切换：图像分析使用豆包视觉模型，聊天对话使用DeepSeek模型。   新增专业压缩保持原貌分析功能，确保掌纹分析准确性。",
+      "stars": 4,
+      "updated_at": "2026-08-21T10:34:30Z",
+      "language": null,
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-21T10:34:14Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:47.752377+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "bingxinv5/Tarot-Cards-Birthday-Characters-Easy-Numbering-of-Plum-Blossoms-Da-Liuren-Ziping-Bazi-Qimen-Dunjia",
+      "html_url": "https://github.com/bingxinv5/Tarot-Cards-Birthday-Characters-Easy-Numbering-of-Plum-Blossoms-Da-Liuren-Ziping-Bazi-Qimen-Dunjia",
+      "description": "多术数 AI 占卜平台，集成塔罗、生辰八字、梅花易数、大六壬、紫平八字、奇门遁甲，基于 FastAPI + React + Tauri",
+      "stars": 4,
+      "updated_at": "2026-09-12T02:51:11Z",
+      "language": "Python",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-05-02T12:30:53Z",
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:48.267549+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "xuquangeo/ai-meihua-yishu-codex-plugin",
+      "html_url": "https://github.com/xuquangeo/ai-meihua-yishu-codex-plugin",
+      "description": "AI梅花易数 Codex 插件：用于梅花易数起卦、推演、教学图生成与结构化解读。",
+      "stars": 4,
+      "updated_at": "2026-08-11T03:25:24Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-02T08:03:37Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:48.899652+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "yueyinqiu/ZhouyiFramework",
+      "html_url": "https://github.com/yueyinqiu/ZhouyiFramework",
+      "description": "A C# library about I Ching (Zhouyi, Yijing, 《易经》, 《周易》).",
+      "stars": 4,
+      "updated_at": "2024-05-07T09:27:43Z",
+      "language": "C#",
+      "matched_queries": [
+        "周易 易经 yijing"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "master",
+      "archived": true,
+      "fork": false,
+      "pushed_at": "2023-08-10T03:26:17Z",
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:49.391341+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE_ARCHIVED"
+    },
+    {
+      "repo": "zlZayn/Tarot",
+      "html_url": "https://github.com/zlZayn/Tarot",
+      "description": "大阿尔卡纳 3D 塔罗牌：基于 Three.js 的 WebGL 占卜应用，支持鼠标拖拽浏览与摄像头手势抽牌。",
+      "stars": 4,
+      "updated_at": "2026-09-29T09:56:26Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-29T09:56:22Z",
+      "forks_count": 1,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:17:49.936621+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "LeslieAn726/qimen-assistant",
+      "html_url": "https://github.com/LeslieAn726/qimen-assistant",
+      "description": "给每天和实验、代码、模型、仪器、数据轮番斗法的理工科生准备的奇门遁甲桌面助手。物理开炉测样，化学配液合成，材料烧结表征，生物养菌培养，生化跑胶测序，医学做切片筛药，电子信息焊板调参，通信跑链路，自动化调控制，机械做仿真，土木算结构，环境测样分析，计算机训模型修Bug，AI调参炼丹，计算模拟苦等收敛……统统可以先看看今天宜不宜动手。科学负责解释世界，操作决定成败，玄学专门负责设备罢工、细胞污染、程序报错、模型发散、数据漂移和论文被拒后的情绪修复。愿诸位道友少炸炉、少宕机、少污染，代码一遍跑通，模型快速收敛，数据漂亮，项目顺利，论文早接收，毕业成功渡劫。",
+      "stars": 3,
+      "updated_at": "2026-09-21T11:51:21Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-21T10:53:38Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:50.456932+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "SpenserCai/qimen-rs",
+      "html_url": "https://github.com/SpenserCai/qimen-rs",
+      "description": "Rust 驱动的八字与奇门遁甲排盘引擎，默认时家拆补转盘，支持 Rust、Python、Node.js、WebAssembly，提供 Web、CLI 与 MCP 应用。",
+      "stars": 3,
+      "updated_at": "2026-10-08T02:09:29Z",
+      "language": "Rust",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-02T18:06:45Z",
+      "forks_count": 0,
+      "open_issues_count": 6,
+      "license_audit_at": "2026-10-08T11:17:50.872700+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "ctkqiang/YiJing",
+      "html_url": "https://github.com/ctkqiang/YiJing",
+      "description": "易经卦象系统是一个现代化的周易解卦工具，融合传统易学与现代技术，为求道者提供简便精确的卦象分析。本系统以开源形式呈现，秉承道家\"清净无为\"的理念，提供简洁而深邃的交互体验。",
+      "stars": 3,
+      "updated_at": "2026-09-29T08:39:23Z",
+      "language": "C++",
+      "matched_queries": [
+        "周易 易经 yijing"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2025-02-20T17:26:07Z",
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:51.358799+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "dglijin-oss/liuren-skill",
+      "html_url": "https://github.com/dglijin-oss/liuren-skill",
+      "description": "大六壬 - OpenClaw AgentSkill for Da Liu Ren divination",
+      "stars": 3,
+      "updated_at": "2026-09-13T23:37:42Z",
+      "language": "Python",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-02T08:20:20Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:51.939288+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "konglong87/xuanxue-skills",
+      "html_url": "https://github.com/konglong87/xuanxue-skills",
+      "description": "一站式中国传统玄学skills技能包。算命、大运流年、风水、手相、婚姻情感、事业财运。仅供娱乐，切勿沉迷哦",
+      "stars": 3,
+      "updated_at": "2026-09-28T00:21:17Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-28T00:21:13Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:53.550184+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "misakaikato/rime-shushu-dict",
+      "html_url": "https://github.com/misakaikato/rime-shushu-dict",
+      "description": "适用于 RIME 输入法的术数与神秘学中文词库（易经、八字、紫微、奇门、风水、占星、塔罗、卡巴拉等，约 960+ 词条）",
+      "stars": 3,
+      "updated_at": "2026-09-30T17:40:11Z",
+      "language": null,
+      "matched_queries": [
+        "风水 fengshui",
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-09T16:47:17Z",
+      "forks_count": 0,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:17:53.973594+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "y001j/zhouyi",
+      "html_url": "https://github.com/y001j/zhouyi",
+      "description": "周易三式 · 中式术数推演系统（周易六爻/奇门遁甲/大六壬/三式互参），含 CLI、Web 与 Claude Code Skill",
+      "stars": 3,
+      "updated_at": "2026-07-26T05:41:24Z",
+      "language": "Go",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-05-31T15:32:52Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:54.562021+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "13905394878/yijing-meihua",
+      "html_url": "https://github.com/13905394878/yijing-meihua",
+      "description": "易经六十四卦 · 梅花易数推演 · 算命解卦 · 周易占卜",
+      "stars": 2,
+      "updated_at": "2026-08-01T11:41:50Z",
+      "language": "Python",
+      "matched_queries": [
+        "周易 易经 yijing"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-05-08T10:32:24Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:55.029023+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "Goldmann1995/AIbazi",
+      "html_url": "https://github.com/Goldmann1995/AIbazi",
+      "description": "A professional Chinese astrology analysis platform built on modern technology stack, dedicated to perfectly combining traditional Eastern metaphysics with modern technology.",
+      "stars": 2,
+      "updated_at": "2026-04-24T22:56:32Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "AGPL-3.0",
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2025-01-13T06:11:45Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:55.468297+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "Jason-Lee051/Evander-s-Mysticism-Toolkit_qimen-meihua",
+      "html_url": "https://github.com/Jason-Lee051/Evander-s-Mysticism-Toolkit_qimen-meihua",
+      "description": "🔮 玄学排盘工具箱（PySide6）：奇门遁甲 · 梅花易数 · 塔罗牌，内置九宫/六爻/牌阵可视化与 LLM 智能解盘、多轮追问 | Cross-platform Chinese divination toolkit: Qi Men Dun Jia, Mei Hua Yi Shu & Tarot with AI analysis.",
+      "stars": 2,
+      "updated_at": "2026-09-29T04:52:30Z",
+      "language": "Python",
+      "matched_queries": [
+        "奇门遁甲 qimen",
+        "梅花易数 meihua",
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-16T09:23:16Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:56.214561+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "Jockeyvb/CompassEx",
+      "html_url": "https://github.com/Jockeyvb/CompassEx",
+      "description": "太乙玄空风水罗盘，包括24山、三合、三元、六十四卦、64卦、天机出卦、翻卦、京房纳甲、杨公纳甲、九星、鲁班尺、丁兰尺、紫白飞星、五鬼运财(风水)等各种算法开源类库",
+      "stars": 2,
+      "updated_at": "2026-10-07T04:08:09Z",
+      "language": "C#",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "AGPL-3.0",
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-07T04:08:05Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:56.763969+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "MickChu/bazi-analyzer",
+      "html_url": "https://github.com/MickChu/bazi-analyzer",
+      "description": "子平命理实战派宗师 · 八字排盘与命局分析系统，基于四大经典典籍，纯离线运行",
+      "stars": 2,
+      "updated_at": "2026-10-04T02:37:32Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-27T21:49:34Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:57.236869+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "PeiOrange888/meihua-lottery",
+      "html_url": "https://github.com/PeiOrange888/meihua-lottery",
+      "description": "梅花易数彩票预测",
+      "stars": 2,
+      "updated_at": "2026-08-14T06:08:55Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-22T04:26:29Z",
+      "forks_count": 2,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:57.748461+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "PimpinPumpkin/Arcana",
+      "html_url": "https://github.com/PimpinPumpkin/Arcana",
+      "description": "A Material 3 Expressive Tarot card dictionary and divination guide",
+      "stars": 2,
+      "updated_at": "2026-10-02T00:36:58Z",
+      "language": "Kotlin",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "GPL-3.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-03T12:49:01Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:58.603624+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "RedSC1/opendestiny-web",
+      "html_url": "https://github.com/RedSC1/opendestiny-web",
+      "description": "OpenDestiny Web：八字、紫微斗数支持天文年 −6000～10000，另含塔罗牌、万年历与气朔在线工具。",
+      "stars": 2,
+      "updated_at": "2026-09-16T13:53:38Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "Apache-2.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-12T15:34:28Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:17:59.107011+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "Yahao277/Webapp-liuren",
+      "html_url": "https://github.com/Yahao277/Webapp-liuren",
+      "description": "大六壬",
+      "stars": 2,
+      "updated_at": "2025-08-25T16:02:15Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2021-03-23T15:23:13Z",
+      "forks_count": 3,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:00.616736+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "airen3339/BaZiPaiPan",
+      "html_url": "https://github.com/airen3339/BaZiPaiPan",
+      "description": "**八字排盘系统**是一款基于传统命理学的综合分析桌面软件，采用 Delphi 12 开发，运行于 Windows 平台。软件集四柱排盘、大运流年、命理分析、每日运势、号码分析、姓名分析、智能取名等功能于一体，为命理爱好者提供全面、专业、便捷的命理工具。",
+      "stars": 2,
+      "updated_at": "2026-10-02T07:34:44Z",
+      "language": null,
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-02T07:34:40Z",
+      "forks_count": 0,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:18:01.081834+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "airp2018/fengshuidashi",
+      "html_url": "https://github.com/airp2018/fengshuidashi",
+      "description": "手机拍摄卧室、客厅、办公室或商铺，AI 识别空间与家具关系，结合罗盘方位和专门风水百科，生成具体的室内布局与摆放建议。",
+      "stars": 2,
+      "updated_at": "2026-10-06T10:07:27Z",
+      "language": "HTML",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-06T10:07:22Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:01.505104+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "alibabamayun888/CosmicChart-Metaphysics-Engine",
+      "html_url": "https://github.com/alibabamayun888/CosmicChart-Metaphysics-Engine",
+      "description": "中国传统易经周易八卦排盘计算引擎 | 紫微斗数 · 四柱八字 · 奇门遁甲 · 大六壬 · 七政四余 · 神煞体系 | 独创数字货币运势占星模块 | 前后端分离架构：Vue3/JavaScript 前端 + Spring Boot/Java 后端 + MySQL 数据持久化 | 开源命理排盘与运势分析平台，Chinese metaphysics chart engine for Bazi, Qimen Dunjia, Qi Zheng Si Yu, relationship visualization, Five Elements trends and chart history.",
+      "stars": 2,
+      "updated_at": "2026-10-04T04:30:41Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "奇门遁甲 qimen",
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-01T08:56:50Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:02.022736+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "fjyazsw-eng/qimen-analysis-skill",
+      "html_url": "https://github.com/fjyazsw-eng/qimen-analysis-skill",
+      "description": "结构化奇门遁甲实战分析 Codex Skill：取用、分层读局、专题模块、风险边界与案例回归。",
+      "stars": 2,
+      "updated_at": "2026-09-21T14:40:49Z",
+      "language": "Python",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-21T14:40:45Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:02.471571+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "read2017/ai-divination-benchmark",
+      "html_url": "https://github.com/read2017/ai-divination-benchmark",
+      "description": "24 个普通人的 46 件人生大事，实测 12 款开源命理工具：八字 BaZi、紫微斗数 Zi Wei Dou Shu、印度占星 Vedic Astrology、奇门遁甲 Qi Men、六爻 Liu Yao、塔罗 Tarot。工具组第一名没超过「四句好话」对照，原始回答与评分可离线复核。",
+      "stars": 2,
+      "updated_at": "2026-10-04T02:29:55Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi",
+        "六爻 liuyao",
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-03T15:04:07Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:02.947116+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "songgoldenwind-crypto/meihua-skills",
+      "html_url": "https://github.com/songgoldenwind-crypto/meihua-skills",
+      "description": "梅花易数 Agent Skill：时间、数字、文字、声音与外应起卦，分类占及体用应期方法。",
+      "stars": 2,
+      "updated_at": "2026-09-28T01:49:10Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-25T03:17:12Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:03.783096+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "wrz1911/daojiayinpan",
+      "html_url": "https://github.com/wrz1911/daojiayinpan",
+      "description": "道家阴盘奇门遁甲排盘系统，支持多种模式",
+      "stars": 2,
+      "updated_at": "2026-10-04T02:10:07Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-29T09:00:53Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:04.448761+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "x3747991-ship-it/mingli-yueyan-skillpack",
+      "html_url": "https://github.com/x3747991-ship-it/mingli-yueyan-skillpack",
+      "description": "【野生你盘叔】命学约言技能包：清初陈素庵《命理约言》（韦千里精选本）断法蒸馏，五席技能、519 条挂载四柱八字模型的规则，覆盖取格降级链/官煞去留/变格辨妄/断事/性情疾病女命小儿",
+      "stars": 2,
+      "updated_at": "2026-10-04T02:39:49Z",
+      "language": null,
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-21T05:13:08Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:04.933528+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "x3747991-ship-it/mingxue-zhendian",
+      "html_url": "https://github.com/x3747991-ship-it/mingxue-zhendian",
+      "description": "【野生你盘叔】命学真典 - 把命理书籍蒸馏成可被 AI 直接调用的八字分析技能包",
+      "stars": 2,
+      "updated_at": "2026-10-04T02:36:45Z",
+      "language": null,
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-27T07:43:04Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:06.362632+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "yuluo-feather/astrbot_plugin_star_feather",
+      "html_url": "https://github.com/yuluo-feather/astrbot_plugin_star_feather",
+      "description": "Star Feather Tarot: AI tarot divination plugin for AstrBot, 78 cards with rendered card art and AI interpretation",
+      "stars": 2,
+      "updated_at": "2026-10-03T09:31:45Z",
+      "language": "Python",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "AGPL-3.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-01T18:41:38Z",
+      "forks_count": 0,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:18:06.844522+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "AndyOliverR/FutureSeer",
+      "html_url": "https://github.com/AndyOliverR/FutureSeer",
+      "description": "Open-source AI divination: 50+ traditional systems (Vedic/Western astrology, tarot, numerology) with inspectable engines and a unified Ask the Seer layer.",
+      "stars": 1,
+      "updated_at": "2026-09-12T07:37:59Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-08T11:12:30Z",
+      "forks_count": 0,
+      "open_issues_count": 50,
+      "license_audit_at": "2026-10-08T11:18:07.324297+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "Biuegz/MeiHuaYiShuApp",
+      "html_url": "https://github.com/Biuegz/MeiHuaYiShuApp",
+      "description": "二狗梅花易数APP",
+      "stars": 1,
+      "updated_at": "2026-09-30T08:46:07Z",
+      "language": null,
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-30T08:45:59Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:07.695736+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "CHK768/fengshui-app",
+      "html_url": "https://github.com/CHK768/fengshui-app",
+      "description": "福音风水户型分析 — 二十四山罗盘工具",
+      "stars": 1,
+      "updated_at": "2026-10-06T13:42:17Z",
+      "language": "HTML",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-06T13:42:12Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:08.230590+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "GaoRenYouShu/XuanJiPaiPan",
+      "html_url": "https://github.com/GaoRenYouShu/XuanJiPaiPan",
+      "description": "玄机排盘：传统命理、历法与占卜文化研究演示站，35 个纯前端排盘工具（八字、紫微斗数、六爻、奇门遁甲、风水、老黄历等），打开即用、离线可用。Pure front-end, offline-ready Chinese divination toolkit. MIT 开源",
+      "stars": 1,
+      "updated_at": "2026-10-08T08:51:59Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "八字 命理 bazi",
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-08T08:51:54Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:08.783496+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "JuneLikesYogurt/liuyao-web",
+      "html_url": "https://github.com/JuneLikesYogurt/liuyao-web",
+      "description": "六爻项目-前端",
+      "stars": 1,
+      "updated_at": "2026-09-30T08:38:15Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-30T08:48:59Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:09.281560+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "LK666-A11Y/bazi-finance-skill",
+      "html_url": "https://github.com/LK666-A11Y/bazi-finance-skill",
+      "description": "把八字/紫微斗数用财务管理框架读成「出厂财报 + 年度行情」— 五行=资产类别、身强身弱=仓位风险偏好、流年流月=行情信号。面向新生的财商启蒙趣味工具",
+      "stars": 1,
+      "updated_at": "2026-09-30T08:39:38Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": true,
+      "fork": false,
+      "pushed_at": "2026-09-30T08:39:25Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:09.876210+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY_ARCHIVED"
+    },
+    {
+      "repo": "LucasYanzy/DAshi",
+      "html_url": "https://github.com/LucasYanzy/DAshi",
+      "description": "大师 DAshi — 确定性排盘引擎 + 按需加载古籍知识库的中国命理 Claude Skills：八字/紫微斗数/六爻/梅花/奇门/大六壬等 11 体系，零依赖 Python",
+      "stars": 1,
+      "updated_at": "2026-10-05T05:25:06Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi",
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-05T05:22:37Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:10.372923+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "Mikelee2022/liangpai-bazi-skill",
+      "html_url": "https://github.com/Mikelee2022/liangpai-bazi-skill",
+      "description": "梁派八字命理分析引擎 & Agent 技能库 (Liang-School Zi Ping BaZi Metaphysics Engine & AI Skill)",
+      "stars": 1,
+      "updated_at": "2026-10-04T02:34:27Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-29T11:02:28Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:10.902855+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "QF331816/hui-gesture-bagua",
+      "html_url": "https://github.com/QF331816/hui-gesture-bagua",
+      "description": "回 · 手势八卦 — 单手生成式八卦交互体验（forked from huzoukai/hui-gesture-bagua）",
+      "stars": 1,
+      "updated_at": "2026-09-15T11:39:57Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-02T08:12:02Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:12.354239+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "RioMaker/astrbot_plugin_liuyao",
+      "html_url": "https://github.com/RioMaker/astrbot_plugin_liuyao",
+      "description": "六爻插件，支持LLM调用",
+      "stars": 1,
+      "updated_at": "2026-10-04T00:50:38Z",
+      "language": "Python",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-02T12:56:30Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:12.977911+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "Seanding1998/yangzhai-fengshui",
+      "html_url": "https://github.com/Seanding1998/yangzhai-fengshui",
+      "description": "阳宅风水分析 Agent Skill - 开源免费版 | 三元九运·玄空飞星·八宅大游年·流年叠加·HTML报告 | 纯离线排盘",
+      "stars": 1,
+      "updated_at": "2026-10-01T14:51:43Z",
+      "language": "Python",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-19T12:19:30Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:13.550250+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "aicher-wang/desk-fengshui",
+      "html_url": "https://github.com/aicher-wang/desk-fengshui",
+      "description": "工位风水探测器 - 紫微斗数+风水分析",
+      "stars": 1,
+      "updated_at": "2026-09-10T10:18:59Z",
+      "language": "Python",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-10T10:18:52Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:14.139274+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "austinnie/meihua_yishu",
+      "html_url": "https://github.com/austinnie/meihua_yishu",
+      "description": "梅花易数",
+      "stars": 1,
+      "updated_at": "2026-08-23T06:23:24Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-16T12:39:07Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:14.673466+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "banxia-126/hexagram-lab",
+      "html_url": "https://github.com/banxia-126/hexagram-lab",
+      "description": "术数排盘工具：小六壬 · 六爻 · 梅花易数（面向方屏手表的网页 demo）",
+      "stars": 1,
+      "updated_at": "2026-10-03T08:16:15Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-19T11:12:58Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:15.113068+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "bigprince97/liuren",
+      "html_url": "https://github.com/bigprince97/liuren",
+      "description": "用ai探索大六壬的世界",
+      "stars": 1,
+      "updated_at": "2026-01-15T15:25:03Z",
+      "language": null,
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2025-02-09T13:14:11Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:15.500690+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "bigprince97/liuren_and_ai",
+      "html_url": "https://github.com/bigprince97/liuren_and_ai",
+      "description": "用ai探索大六壬的世界",
+      "stars": 1,
+      "updated_at": "2025-08-25T15:54:40Z",
+      "language": null,
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2024-11-09T10:11:07Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:15.963103+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "bingchuH/meihuayishu-skill",
+      "html_url": "https://github.com/bingchuH/meihuayishu-skill",
+      "description": "梅花易数skill",
+      "stars": 1,
+      "updated_at": "2026-08-01T14:45:23Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-02T02:25:23Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:16.590777+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "chenhanxue0831/Astrology-metaphysics",
+      "html_url": "https://github.com/chenhanxue0831/Astrology-metaphysics",
+      "description": "Western Astrology and Chinese Bazi study and analysis. 西洋命理和中國八字的學習與分析.",
+      "stars": 1,
+      "updated_at": "2026-06-09T21:43:52Z",
+      "language": null,
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2023-11-25T20:49:58Z",
+      "forks_count": 0,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:18:17.552033+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "chenyjie/qimen-predict-skill",
+      "html_url": "https://github.com/chenyjie/qimen-predict-skill",
+      "description": "奇门遁甲预测 AI Skill：拆补法排盘、十八类取用神、完整预测报告（基于《神奇之门》体系）",
+      "stars": 1,
+      "updated_at": "2026-08-10T09:13:51Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-10T08:59:08Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:19.098107+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "corinwe/jinjian-bazi",
+      "html_url": "https://github.com/corinwe/jinjian-bazi",
+      "description": "金鉴真人·八字命理确定性规则引擎 - 21§完整输出 | 零大模型推理·全确定性计算",
+      "stars": 1,
+      "updated_at": "2026-10-04T02:35:16Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-29T02:48:08Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:19.537593+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "dglijin-oss/taiyi-skill",
+      "html_url": "https://github.com/dglijin-oss/taiyi-skill",
+      "description": "太乙神数 - OpenClaw AgentSkill for Taiyi Shenshu divination",
+      "stars": 1,
+      "updated_at": "2026-07-02T08:20:34Z",
+      "language": "Python",
+      "matched_queries": [
+        "太乙神数 taiyi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-02T08:20:30Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:20.134790+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "hackninety/python-taiyi",
+      "html_url": "https://github.com/hackninety/python-taiyi",
+      "description": "太乙神数排盘 API —— 直接引用 kentang2017/kintaiyi（MIT，事实上的太乙权威开源实现）作为计算内核，FastAPI 只做输入校验、序列化与 HTTP 封装，不改写任何算法。",
+      "stars": 1,
+      "updated_at": "2026-07-22T06:20:06Z",
+      "language": "Python",
+      "matched_queries": [
+        "太乙神数 taiyi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-03T17:41:11Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:20.608962+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "hackninety/react-liuren",
+      "html_url": "https://github.com/hackninety/react-liuren",
+      "description": "现代化的大六壬排盘 Web 应用：大六壬 · 金口诀 · 小六壬 · 流年，多引擎流派切换 + 插件式扩展架构。",
+      "stars": 1,
+      "updated_at": "2026-07-31T15:29:26Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-31T15:29:22Z",
+      "forks_count": 1,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:21.093968+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "jinlio/liuyao-skill",
+      "html_url": "https://github.com/jinlio/liuyao-skill",
+      "description": "六爻占卜与解卦 skill — 基于周易原理，支持铜钱法、蓍草法和手动起卦",
+      "stars": 1,
+      "updated_at": "2026-09-30T08:15:38Z",
+      "language": "Python",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-30T08:15:53Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:21.869228+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "kaecer68/liuren-zenith",
+      "html_url": "https://github.com/kaecer68/liuren-zenith",
+      "description": "源自天文曆法精算，大六壬，三式之首 · 百占百驗 · 來人不用問。",
+      "stars": 1,
+      "updated_at": "2026-09-06T13:29:23Z",
+      "language": "Go",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-05-02T13:58:04Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:22.380813+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "lusing/liuren",
+      "html_url": "https://github.com/lusing/liuren",
+      "description": "大六壬",
+      "stars": 1,
+      "updated_at": "2026-05-30T15:09:01Z",
+      "language": "Rust",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "master",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2022-10-14T19:22:11Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:22.891571+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "masonweb3/liuyao",
+      "html_url": "https://github.com/masonweb3/liuyao",
+      "description": "中国风六爻起卦网站 · 程序排盘 + TypeSafe Jev 语义判断 · 源码公开，禁止商用",
+      "stars": 1,
+      "updated_at": "2026-10-02T01:44:08Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-02T02:37:31Z",
+      "forks_count": 0,
+      "open_issues_count": 1,
+      "license_audit_at": "2026-10-08T11:18:23.603308+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "minimal553/TenYearsOneRun-Balatro",
+      "html_url": "https://github.com/minimal553/TenYearsOneRun-Balatro",
+      "description": "十年一局：命运牌桌｜八字命理 × Balatro。输入生日获得格局小丑，在十年大运中体验命运起伏，靠出牌与构筑争取翻盘。Bazi & fate-inspired Balatro mod.",
+      "stars": 1,
+      "updated_at": "2026-09-23T04:56:03Z",
+      "language": "Lua",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-23T04:06:39Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:23.994826+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "oneliuss/astrbot_plugin_qimen_yunshi",
+      "html_url": "https://github.com/oneliuss/astrbot_plugin_qimen_yunshi",
+      "description": "一个适用于 [AstrBot](https://github.com/Soulter/AstrBot) 的奇门遁甲今日运势插件。按当前时间**自动起局排盘**，无需提问，**直接给出当日吉凶判断与实操建议**。",
+      "stars": 1,
+      "updated_at": "2026-08-04T07:40:25Z",
+      "language": "Python",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-04T07:39:33Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:24.425384+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "oneliuss/qimenduangua",
+      "html_url": "https://github.com/oneliuss/qimenduangua",
+      "description": "一个适用于 AstrBot 的奇门遁甲断卦插件。根据用户提出的问题和当前时间，起局排盘，并依古法与现代体系（以《御定奇门宝鉴》《奇门法窍》《烟波钓叟歌》及张志春《神奇之门》《开悟之门》《奇门真髓》《奇门精粹》为本）直接给出吉凶判断与实操建议。",
+      "stars": 1,
+      "updated_at": "2026-09-04T08:07:13Z",
+      "language": "Python",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "GPL-3.0",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-09-04T08:05:53Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:24.929712+00:00",
+      "audit_status": "COPYLEFT_REVIEW"
+    },
+    {
+      "repo": "red-fire-99/mingli-oracle",
+      "html_url": "https://github.com/red-fire-99/mingli-oracle",
+      "description": "命理神机 — 零依赖、纯本地、可离线的中式命理与西方占星排盘引擎（四柱八字 / 紫微斗数 / 西洋占星 / 六爻梅花）。Deterministic, zero-dependency, offline-first divination & astrology engine in pure Python stdlib.",
+      "stars": 1,
+      "updated_at": "2026-10-08T08:54:24Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-10-08T11:15:39Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:25.404514+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "richard3153/xiangshu-therapy",
+      "html_url": "https://github.com/richard3153/xiangshu-therapy",
+      "description": "八卦象数疗法查询系统",
+      "stars": 1,
+      "updated_at": "2026-08-09T09:31:20Z",
+      "language": "Python",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-09T09:31:06Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:25.841511+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "ruoxuer/Fuxi-64gua-Wu-Xing-Five-Elements",
+      "html_url": "https://github.com/ruoxuer/Fuxi-64gua-Wu-Xing-Five-Elements",
+      "description": "根据伏羲先天八卦的五行属性，将其映射为中国传统五声调式。Based on the Five Elements attributes of the Fuxi Pre-Heaven Bagua, it is mapped to the traditional Chinese five-tone scale.",
+      "stars": 1,
+      "updated_at": "2026-01-10T12:17:05Z",
+      "language": "Python",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-01-10T12:17:01Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:26.803719+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "shiyi-ly/stardao-platform",
+      "html_url": "https://github.com/shiyi-ly/stardao-platform",
+      "description": "StarDao is a cutting-edge platform dedicated to Zi Wei Dou Shu (Purple Star Astrology), bringing this profound Chinese metaphysical system to the digital age. Our platform provides personalized astrological readings based on traditional methods with a modern, accessible interface.",
+      "stars": 1,
+      "updated_at": "2026-04-24T22:57:47Z",
+      "language": null,
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2025-03-27T08:35:16Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:27.435230+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "the-404/meihua-skill",
+      "html_url": "https://github.com/the-404/meihua-skill",
+      "description": "梅花易数的skill，基于报数起卦，然后使用大模型进行分析。",
+      "stars": 1,
+      "updated_at": "2026-07-22T03:24:10Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-21T15:57:32Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:28.257554+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "uiYzzi/fengshui",
+      "html_url": "https://github.com/uiYzzi/fengshui",
+      "description": "上传户型图，AI 风水测算：九宫飞星排盘 + 3D 能量热力图 + 风水报告（Hono + SolidJS + Three.js）",
+      "stars": 1,
+      "updated_at": "2026-07-29T22:35:25Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-23T15:17:20Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:28.900093+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "wwwwklw/qimendunjia",
+      "html_url": "https://github.com/wwwwklw/qimendunjia",
+      "description": "奇门遁甲知识库",
+      "stars": 1,
+      "updated_at": "2026-10-02T12:04:39Z",
+      "language": "Python",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": null,
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-08-25T05:12:41Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:29.710924+00:00",
+      "audit_status": "NO_LICENSE_REFERENCE_ONLY"
+    },
+    {
+      "repo": "x2014903150-creator/meihua--app",
+      "html_url": "https://github.com/x2014903150-creator/meihua--app",
+      "description": "梅花易数 App - 集转盘起卦、八字排盘、紫微斗数排盘与 AI 解读于一体的 Android 应用（Capacitor + LangGraph RAG）",
+      "stars": 1,
+      "updated_at": "2026-07-17T08:27:29Z",
+      "language": "HTML",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE",
+      "license_spdx": "MIT",
+      "default_branch": "main",
+      "archived": false,
+      "fork": false,
+      "pushed_at": "2026-07-16T14:47:47Z",
+      "forks_count": 0,
+      "open_issues_count": 0,
+      "license_audit_at": "2026-10-08T11:18:30.554939+00:00",
+      "audit_status": "ELIGIBLE_PERMISSIVE"
+    },
+    {
+      "repo": "x3747991-ship-it/mingli-renge-dingwei-bazi-skillpack",
+      "html_url": "https://github.com/x3747991-ship-it/mingli-renge-dingwei-bazi-skillpack",
+      "description": "【野生你盘叔】命理·人格定位技能包：三旋钮×六原型人格理论，输入八字+性别输出人格原型/天赋潜能/事业方向",
+      "stars": 1,
+      "updated_at": "2026-10-04T02:39:06Z",
+      "language": null,
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "xiaoguaishou135/bazi-marriage-panel",
+      "html_url": "https://github.com/xiaoguaishou135/bazi-marriage-panel",
+      "description": "八字姻缘圆桌会诊 · AI命理技能｜Claude Code / Codex / WorkBuddy 可用：五位宗师（子平格局/盲派/神煞/现代心理/梁湘润流年应期）围桌激辩你的姻缘，产出感情三件套与逐年姻缘时间表，支持双人合盘",
+      "stars": 1,
+      "updated_at": "2026-10-04T02:36:34Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "xulei1280-rgb/qimen-app",
+      "html_url": "https://github.com/xulei1280-rgb/qimen-app",
+      "description": "自用奇门遁甲起盘与 AI 分析网页",
+      "stars": 1,
+      "updated_at": "2026-09-09T02:46:44Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "yanziqin5/MeihuaYiAI",
+      "html_url": "https://github.com/yanziqin5/MeihuaYiAI",
+      "description": "基于 PyQt5 的梅花易数起卦与 AI 解卦桌面软件，支持古法两数、农历时间、随机三种起卦方式，自动排出本卦互卦变卦，判定体用生克，接入AI大模型多轮解卦。",
+      "stars": 1,
+      "updated_at": "2026-08-28T08:21:16Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "zhuangli410-commits/metaphysics-toolkit",
+      "html_url": "https://github.com/zhuangli410-commits/metaphysics-toolkit",
+      "description": "八字排盘和六爻纳甲装卦，纯本地不联网。十神逻辑自己写的，大运顺逆排过三个命例校对。工具只负责把盘排对，断命的事别赖它。Python",
+      "stars": 1,
+      "updated_at": "2026-09-29T04:35:29Z",
+      "language": "Python",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "zitaiwang996/bazi-web",
+      "html_url": "https://github.com/zitaiwang996/bazi-web",
+      "description": "八字命理推算系统",
+      "stars": 1,
+      "updated_at": "2026-10-07T11:35:12Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "1506085843/BaguaDivination",
+      "html_url": "https://github.com/1506085843/BaguaDivination",
+      "description": "Divination、八卦、算命、占卜",
+      "stars": 0,
+      "updated_at": "2026-08-09T07:57:15Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "200839AAaaa/taiji-bagua-system",
+      "html_url": "https://github.com/200839AAaaa/taiji-bagua-system",
+      "description": "太极八卦问诊系统 - 优化动画版",
+      "stars": 0,
+      "updated_at": "2026-02-08T00:04:26Z",
+      "language": null,
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "2207bch/liuyao",
+      "html_url": "https://github.com/2207bch/liuyao",
+      "description": "六爻预测",
+      "stars": 0,
+      "updated_at": "2026-09-25T04:30:25Z",
+      "language": null,
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "27701197zack-jpg/bagua-shortvideo",
+      "html_url": "https://github.com/27701197zack-jpg/bagua-shortvideo",
+      "description": "八卦指环循环·短视频创作元框架H5",
+      "stars": 0,
+      "updated_at": "2026-05-05T06:08:40Z",
+      "language": "HTML",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "5Breeze/EightTrigrams",
+      "html_url": "https://github.com/5Breeze/EightTrigrams",
+      "description": "The EightTrigrams project integrates Zhouyi Bagua culture with electronic compass tech, digitizing Bagua direction display for accuracy and intuition. 八卦电子罗盘项目融合周易八卦文化与电子罗盘技术，数字化呈现八卦方位，识别展示更精准直观。",
+      "stars": 0,
+      "updated_at": "2026-01-21T08:55:43Z",
+      "language": "C",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "AIzenHi/yijing-qimen",
+      "html_url": "https://github.com/AIzenHi/yijing-qimen",
+      "description": "易学实验室：易经六十四卦交互图鉴 + 奇门遁甲排盘原理交互指南 + Python 排盘引擎（时家转盘 / 拆补无闰 / 中五寄坤）",
+      "stars": 0,
+      "updated_at": "2026-10-07T03:09:45Z",
+      "language": "HTML",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Aaron-gx/guanlan",
+      "html_url": "https://github.com/Aaron-gx/guanlan",
+      "description": "观澜 · 个人命理研究工作台：八字排盘 / 紫微斗数 / 六爻梅花奇门 / 合婚择日风水 / 人生K线 / 验证本命中率追踪",
+      "stars": 0,
+      "updated_at": "2026-09-28T12:20:03Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "八字 命理 bazi",
+        "紫微斗数 ziwei",
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "AiPassportFirmware/liuyao_firmware",
+      "html_url": "https://github.com/AiPassportFirmware/liuyao_firmware",
+      "description": "面向 AI Passport 的传统文王纳甲六爻算卦固件。心中默念所问之事，在设备上摇卦六次，即可得到完整卦盘与解读——全程离线。",
+      "stars": 0,
+      "updated_at": "2026-09-30T03:14:35Z",
+      "language": "C",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Alan1995v250/meihua-yishu",
+      "html_url": "https://github.com/Alan1995v250/meihua-yishu",
+      "description": "梅花易数自用小工具",
+      "stars": 0,
+      "updated_at": "2026-09-01T05:26:51Z",
+      "language": "HTML",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "AliothChen555-star/bazi-jiepan-skill",
+      "html_url": "https://github.com/AliothChen555-star/bazi-jiepan-skill",
+      "description": "八字命理的解盘skill",
+      "stars": 0,
+      "updated_at": "2026-09-21T02:28:31Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "AliothChen555-star/qimen-jiepan-skill",
+      "html_url": "https://github.com/AliothChen555-star/qimen-jiepan-skill",
+      "description": "奇门遁甲排盘+解盘的Agent Skill",
+      "stars": 0,
+      "updated_at": "2026-10-02T14:08:39Z",
+      "language": "Python",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "AliothChen555-star/ziwei-jiepan-skill",
+      "html_url": "https://github.com/AliothChen555-star/ziwei-jiepan-skill",
+      "description": "紫微斗数的命理起盘+解盘skill",
+      "stars": 0,
+      "updated_at": "2026-09-21T03:36:26Z",
+      "language": "Python",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Allynee20/xiaoqi-qimen-dunjia",
+      "html_url": "https://github.com/Allynee20/xiaoqi-qimen-dunjia",
+      "description": "小七奇门遁甲｜面向强推理 AI 的奇门遁甲问事推理参考底座",
+      "stars": 0,
+      "updated_at": "2026-10-01T08:56:28Z",
+      "language": null,
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Bastardki11er/moonlit",
+      "html_url": "https://github.com/Bastardki11er/moonlit",
+      "description": "Moonlit — Chinese online tarot & divination platform (tarot spreads, BaZi, ZiWei, star charts). Node.js + Express + SQLite + AI readings.",
+      "stars": 0,
+      "updated_at": "2026-09-29T01:31:30Z",
+      "language": "HTML",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "BlackcakeBro/liuyao-study",
+      "html_url": "https://github.com/BlackcakeBro/liuyao-study",
+      "description": "六爻学习网站",
+      "stars": 0,
+      "updated_at": "2026-09-30T01:32:28Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Felix350Li/Mystic-Counsel-East-West-Divination-Decision-Advisor",
+      "html_url": "https://github.com/Felix350Li/Mystic-Counsel-East-West-Divination-Decision-Advisor",
+      "description": "Mystic Counsel: East‑West cultural insight tool with I‑Ching, Zi‑Wei, Tarot & numerology. Entertainment only, not professional advice.",
+      "stars": 0,
+      "updated_at": "2026-10-04T17:18:21Z",
+      "language": "Python",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Fridolph/qimen-learning-app",
+      "html_url": "https://github.com/Fridolph/qimen-learning-app",
+      "description": "用来学习奇门遁甲起局和排盘的自制APP",
+      "stars": 0,
+      "updated_at": "2026-09-07T02:29:37Z",
+      "language": "Vue",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "GJY15965029538/fengshui-analyst",
+      "html_url": "https://github.com/GJY15965029538/fengshui-analyst",
+      "description": "风水智囊 AI地理师 - 本地离线分析 (纯前端，数据不上传)",
+      "stars": 0,
+      "updated_at": "2026-08-28T12:20:31Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Gazer-887/diviner",
+      "html_url": "https://github.com/Gazer-887/diviner",
+      "description": "🔮 Diviner · 卜兮 —— 去古板化的现代占卜算卦网站 | 八字 / 姓名 / 每日运势 / 塔罗 / 抽签 / 六爻八卦 | Next.js 16 + React 19 静态导出",
+      "stars": 0,
+      "updated_at": "2026-09-21T17:46:50Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Guxin62768/xuanya-bazi",
+      "html_url": "https://github.com/Guxin62768/xuanya-bazi",
+      "description": "玄曜 八字命理系统 - 八字 x 紫微 x 易经 x 玄学 全融合专业工具",
+      "stars": 0,
+      "updated_at": "2026-09-12T16:01:50Z",
+      "language": "HTML",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "JohnnyHaiYoung/liuyao",
+      "html_url": "https://github.com/JohnnyHaiYoung/liuyao",
+      "description": "六爻",
+      "stars": 0,
+      "updated_at": "2026-10-07T15:22:17Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "KDBSUN/meihuayishu",
+      "html_url": "https://github.com/KDBSUN/meihuayishu",
+      "description": "自己做的梅花易数",
+      "stars": 0,
+      "updated_at": "2026-06-30T15:45:04Z",
+      "language": null,
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Kico-Tachagemofet/symbol-anchor-check",
+      "html_url": "https://github.com/Kico-Tachagemofet/symbol-anchor-check",
+      "description": "Tarot symbol anchor check skill — Book T property-layer verification for AI-assisted divination interpretation",
+      "stars": 0,
+      "updated_at": "2026-09-13T10:52:33Z",
+      "language": "Python",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Leon-Drq/fengshui-skill",
+      "html_url": "https://github.com/Leon-Drq/fengshui-skill",
+      "description": "住宅、办公室和店铺的现实空间检查与八卦方位分析工作流。",
+      "stars": 0,
+      "updated_at": "2026-09-02T15:24:35Z",
+      "language": "Python",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Leon-Drq/meihua-yishu-skill",
+      "html_url": "https://github.com/Leon-Drq/meihua-yishu-skill",
+      "description": "支持时间、数字和随机起卦的梅花易数即时问事工作流。",
+      "stars": 0,
+      "updated_at": "2026-09-02T15:23:02Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Leon-Drq/qimen-dunjia-skill",
+      "html_url": "https://github.com/Leon-Drq/qimen-dunjia-skill",
+      "description": "面向时机、方向、谈判和复杂行动选择的奇门遁甲工作流。",
+      "stars": 0,
+      "updated_at": "2026-09-02T15:25:17Z",
+      "language": "Python",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "LinBoomBoom/liuren-web",
+      "html_url": "https://github.com/LinBoomBoom/liuren-web",
+      "description": "大六壬起课及分析",
+      "stars": 0,
+      "updated_at": "2026-06-13T06:39:15Z",
+      "language": "HTML",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "LinJiangjin/fengshui-backend",
+      "html_url": "https://github.com/LinJiangjin/fengshui-backend",
+      "description": "现代风水布局，根据房子坐向，根据国学风水摆放家具，房间布置等。",
+      "stars": 0,
+      "updated_at": "2026-10-07T15:44:12Z",
+      "language": "Python",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "LinJiangjin/fengshui-frontend",
+      "html_url": "https://github.com/LinJiangjin/fengshui-frontend",
+      "description": "现代风水布局，根据房子坐向，根据国学风水摆放家具，房间布置等。",
+      "stars": 0,
+      "updated_at": "2026-10-07T15:44:14Z",
+      "language": "Dart",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Majie5833/liuyao-app",
+      "html_url": "https://github.com/Majie5833/liuyao-app",
+      "description": "六爻断卦助手",
+      "stars": 0,
+      "updated_at": "2026-10-01T12:10:07Z",
+      "language": "HTML",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Mao-jh/ziwei-forge",
+      "html_url": "https://github.com/Mao-jh/ziwei-forge",
+      "description": "紫微斗数排盘·十四主星与四化｜有人要排紫微斗数命盘或问自己的命宫在哪里 / 要核对某个出生时间的十二宫干支与五行局 / 要看某个盘的主星、辅星落在哪一宫｜按次付费 AI Skill（¥1.99/次，无订阅），已内置支付宝 AI 收，clone 即装",
+      "stars": 0,
+      "updated_at": "2026-09-20T17:10:49Z",
+      "language": "Python",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Mike-develop-4/meihua-research-studio",
+      "html_url": "https://github.com/Mike-develop-4/meihua-research-studio",
+      "description": "可解释、可复核的梅花易数起卦与解卦研究工具",
+      "stars": 0,
+      "updated_at": "2026-07-12T07:03:22Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "NeverGiveUp0618/liuren-course",
+      "html_url": "https://github.com/NeverGiveUp0618/liuren-course",
+      "description": "六壬课程 · 按知识依赖顺序重排的大六壬自学教程",
+      "stars": 0,
+      "updated_at": "2026-09-14T01:30:14Z",
+      "language": "Python",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "NeverGiveUp0618/liuren-game",
+      "html_url": "https://github.com/NeverGiveUp0618/liuren-game",
+      "description": "大六壬日学 · 壬式神煞学习App",
+      "stars": 0,
+      "updated_at": "2026-10-03T02:28:45Z",
+      "language": "HTML",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "RICHRAN2030/meihua-yishu",
+      "html_url": "https://github.com/RICHRAN2030/meihua-yishu",
+      "description": "梅花易数预测 Agent Skill — 个人学习用私有知识库",
+      "stars": 0,
+      "updated_at": "2026-06-22T08:12:14Z",
+      "language": null,
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Rapman007/bazi-agent-skill",
+      "html_url": "https://github.com/Rapman007/bazi-agent-skill",
+      "description": "Agent Skill：四柱八字排盘与命理分析 —— 排盘不靠 AI、断语必须可证伪、不打档不排名",
+      "stars": 0,
+      "updated_at": "2026-10-06T12:05:52Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "RioMaker/astrbot_plugin_ziwei",
+      "html_url": "https://github.com/RioMaker/astrbot_plugin_ziwei",
+      "description": "紫微斗数插件",
+      "stars": 0,
+      "updated_at": "2026-10-07T08:52:24Z",
+      "language": "Python",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "SHUPENG-SHI/Destiny-Pattern-Analysis",
+      "html_url": "https://github.com/SHUPENG-SHI/Destiny-Pattern-Analysis",
+      "description": "A professional Bazi (Four Pillars of Destiny) pattern analysis tool. This project provides a comprehensive framework for analyzing Chinese astrological charts, interpreting destiny patterns, and generating detailed readings based on traditional metaphysics.",
+      "stars": 0,
+      "updated_at": "2026-08-18T09:27:40Z",
+      "language": "HTML",
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "Si-Bu-Xiu/qimendunjia-api",
+      "html_url": "https://github.com/Si-Bu-Xiu/qimendunjia-api",
+      "description": "奇门遁甲排盘API",
+      "stars": 0,
+      "updated_at": "2026-08-19T08:55:42Z",
+      "language": "Python",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "SongShuai-ui/sizhu-bagua-api",
+      "html_url": "https://github.com/SongShuai-ui/sizhu-bagua-api",
+      "description": "四柱八卦命理计算 API",
+      "stars": 0,
+      "updated_at": "2026-08-04T03:46:58Z",
+      "language": "Python",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "WT-Agent/ai-bagua",
+      "html_url": "https://github.com/WT-Agent/ai-bagua",
+      "description": "网腾无限AI 易经八卦 - 专注于【你是一个精通周易命理与现代心理咨询的易经解卦大师。用户向你求问了具体的事情，并录入了求问的时间，随后在前端通过起卦算法随机起得了一卦。你需要根据用户提供的信息进行深度解卦。要求：结合求问事项、求问日期时辰、所起得的卦名与卦象符号、以及用户选择的解卦流派进行分析。解",
+      "stars": 0,
+      "updated_at": "2026-08-22T05:07:40Z",
+      "language": "Vue",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "WT-Agent/ai-yijing",
+      "html_url": "https://github.com/WT-Agent/ai-yijing",
+      "description": "网腾无限AI - 易经周易哲学与卦象专家 - 专注于【你是一位周易国学名家、易经哲学研究员兼传统文化决策顾问。你需要针对用户提供的六十四卦卦象（如乾卦/坤卦/泰卦/否卦/坎卦）、问卦诉求（事业决策/人生困顿/人际相处/抉择处事），为用户生成一份古朴雅致、微言大义且提供理性哲学智慧的【易经周易哲学与卦",
+      "stars": 0,
+      "updated_at": "2026-08-07T11:05:48Z",
+      "language": "Vue",
+      "matched_queries": [
+        "周易 易经 yijing"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "YWS0224/ziwei-paipan",
+      "html_url": "https://github.com/YWS0224/ziwei-paipan",
+      "description": "紫微斗数排盘 - 纯本地离线排盘工具",
+      "stars": 0,
+      "updated_at": "2026-09-20T09:38:42Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "ZZq114514/MeihuaYishu",
+      "html_url": "https://github.com/ZZq114514/MeihuaYishu",
+      "description": "一个关于梅花易数的Python第三方库，可以用在各个平台的聊天机器人中的占卜模块",
+      "stars": 0,
+      "updated_at": "2026-08-02T11:37:05Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "abcwds/bagua-assistant-ai-version",
+      "html_url": "https://github.com/abcwds/bagua-assistant-ai-version",
+      "description": "八卦小助手 AI 版",
+      "stars": 0,
+      "updated_at": "2026-07-03T03:06:03Z",
+      "language": "Java",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "abcx1233/TarotApp",
+      "html_url": "https://github.com/abcx1233/TarotApp",
+      "description": "deepblue divination",
+      "stars": 0,
+      "updated_at": "2026-09-16T13:15:38Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "aiyangdie/ziwei-chat",
+      "html_url": "https://github.com/aiyangdie/ziwei-chat",
+      "description": "紫微斗数排盘 + Agnes AI 对话解读（基于 ziwei-doushu 开源引擎）",
+      "stars": 0,
+      "updated_at": "2026-10-02T12:13:40Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "anjing0524/liuyao-h5",
+      "html_url": "https://github.com/anjing0524/liuyao-h5",
+      "description": "六爻卜卦 H5 项目（Vite + PixiJS + Rust/Wasm）",
+      "stars": 0,
+      "updated_at": "2026-09-28T01:15:48Z",
+      "language": "Rust",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "arlen-liang/liuren-bench",
+      "html_url": "https://github.com/arlen-liang/liuren-bench",
+      "description": "拿大六壬考大模型：起课自动判分，外加一本先下注后开奖的实占账本。An LLM benchmark built on Da Liu Ren chart casting, plus a public call-it-first scorebook.",
+      "stars": 0,
+      "updated_at": "2026-10-01T04:26:37Z",
+      "language": "Python",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "b9b4ymiN/myBaZi",
+      "html_url": "https://github.com/b9b4ymiN/myBaZi",
+      "description": "All Chinese metaphysical arts in one app — Chinese Astrology (BaZi)",
+      "stars": 0,
+      "updated_at": "2026-07-07T13:49:20Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "bagua4d/bagua",
+      "html_url": "https://github.com/bagua4d/bagua",
+      "description": "八卦四维",
+      "stars": 0,
+      "updated_at": "2026-07-29T13:20:18Z",
+      "language": "Python",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "bobominitt-prog/ziwei-shiyu-core-chart",
+      "html_url": "https://github.com/bobominitt-prog/ziwei-shiyu-core-chart",
+      "description": "紫微时域：基于本地规则与 iztro 的核心紫微斗数排盘与年运、月运、日时解读网站。",
+      "stars": 0,
+      "updated_at": "2026-10-05T08:42:56Z",
+      "language": null,
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "buyaodaohao/liuren-divination-skill",
+      "html_url": "https://github.com/buyaodaohao/liuren-divination-skill",
+      "description": "大六壬排盘与断课系统",
+      "stars": 0,
+      "updated_at": "2026-07-31T02:57:43Z",
+      "language": "Python",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "buyaodaohao/liurenshenke-divination-skill",
+      "html_url": "https://github.com/buyaodaohao/liurenshenke-divination-skill",
+      "description": "大六壬是中国古代三式（太乙、奇门、六壬）之首，以占卜人事最为精妙。本技能为 Marvis AI 助手提供完整的大六壬排盘与断课能力。",
+      "stars": 0,
+      "updated_at": "2026-08-03T02:36:20Z",
+      "language": "Python",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "cdgiser/Bagua-Rotating",
+      "html_url": "https://github.com/cdgiser/Bagua-Rotating",
+      "description": "旋转的八卦图形",
+      "stars": 0,
+      "updated_at": "2026-08-12T08:54:13Z",
+      "language": "HTML",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "chanhhuynhgia-star/bagua",
+      "html_url": "https://github.com/chanhhuynhgia-star/bagua",
+      "description": "八卦",
+      "stars": 0,
+      "updated_at": "2026-09-01T16:53:47Z",
+      "language": "HTML",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "dao-ai/bagua",
+      "html_url": "https://github.com/dao-ai/bagua",
+      "description": "八卦学习",
+      "stars": 0,
+      "updated_at": "2026-07-04T16:00:06Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "digital-moss/pocket-mystic",
+      "html_url": "https://github.com/digital-moss/pocket-mystic",
+      "description": "pocket mystic - divination tool - tarot, runes, i-ching",
+      "stars": 0,
+      "updated_at": "2026-09-17T15:48:10Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "digital-moss/pocket-mystic-divination",
+      "html_url": "https://github.com/digital-moss/pocket-mystic-divination",
+      "description": "pocket mystic - divination tool - tarot, runes, i-ching",
+      "stars": 0,
+      "updated_at": "2026-09-18T17:35:19Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "dujianchi/meihua",
+      "html_url": "https://github.com/dujianchi/meihua",
+      "description": "梅花易数flutter",
+      "stars": 0,
+      "updated_at": "2026-09-29T17:24:59Z",
+      "language": "Dart",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "evoluteur/tarot-reading",
+      "html_url": "https://github.com/evoluteur/tarot-reading",
+      "description": "Draw an online tarot reading: a ten-card Celtic Cross with the Rider-Waite-Smith deck. Click through the deck, let it deal for you, or enter the cards you drew.",
+      "stars": 0,
+      "updated_at": "2026-10-08T06:36:00Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "fanxiang273/bazi-reading",
+      "html_url": "https://github.com/fanxiang273/bazi-reading",
+      "description": "开源的四柱八字排盘与命理解读技能：自带节气历算引擎、判读规则与报告模板",
+      "stars": 0,
+      "updated_at": "2026-09-28T05:02:02Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "feeltheambience/runecast",
+      "html_url": "https://github.com/feeltheambience/runecast",
+      "description": "Rune & Tarot spread Mini App for Telegram | Mini App для раскладов рун и Таро в Telegram",
+      "stars": 0,
+      "updated_at": "2026-09-18T20:46:00Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "fyapeng/liuyao",
+      "html_url": "https://github.com/fyapeng/liuyao",
+      "description": "六爻排盘：铜钱摇卦 / 时间起卦 / 数字起卦",
+      "stars": 0,
+      "updated_at": "2026-10-07T03:40:59Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "hackninety/react-qimen",
+      "html_url": "https://github.com/hackninety/react-qimen",
+      "description": "奇门遁甲在线排盘。插件式多引擎架构：算法层全部来自 npm 开源上游（零 fork）， 通过适配器归一为统一盘面模型，支持流派与定局法一键切换、多家引擎互相验证。",
+      "stars": 0,
+      "updated_at": "2026-07-30T20:49:56Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "hampshirecottage-ai/ootk-thoth-engine",
+      "html_url": "https://github.com/hampshirecottage-ai/ootk-thoth-engine",
+      "description": "Free AI tarot readings that respect the Golden Dawn system. OOTK calculates Thoth dignities, decans and Liber 777 correspondences, up to the full Opening of the Key, and writes a prompt for ChatGPT, Claude or any LLM to interpret. Web app and CLI.",
+      "stars": 0,
+      "updated_at": "2026-10-08T03:11:49Z",
+      "language": "Python",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "hanliang33-cyber/liuren-paipan",
+      "html_url": "https://github.com/hanliang33-cyber/liuren-paipan",
+      "description": "大六壬排盘系统 - Flask API + HTML前端",
+      "stars": 0,
+      "updated_at": "2026-05-14T06:53:39Z",
+      "language": "Python",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "hechushitaoyuan/fengshui_AI",
+      "html_url": "https://github.com/hechushitaoyuan/fengshui_AI",
+      "description": "京张气脉 · 风水AI — 百年京张 AI 创新带城市设计独立作品站（第二次堪舆 · Qi as Data）",
+      "stars": 0,
+      "updated_at": "2026-08-26T10:31:25Z",
+      "language": "HTML",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "himydearfriends1934-cmyk/meihua-yishu",
+      "html_url": "https://github.com/himydearfriends1934-cmyk/meihua-yishu",
+      "description": "梅间 · 梅花易数: a lightweight divination and record management web app",
+      "stars": 0,
+      "updated_at": "2026-09-30T15:09:13Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "idavailable/liuyao",
+      "html_url": "https://github.com/idavailable/liuyao",
+      "description": "六爻排盘 · 京房纳甲 · CF Pages + D1 + LLM 断卦",
+      "stars": 0,
+      "updated_at": "2026-10-08T00:55:50Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "iphoneyoung01-byte/ziwei-demo",
+      "html_url": "https://github.com/iphoneyoung01-byte/ziwei-demo",
+      "description": "紫微斗数 demo：TypeScript React 命盘演示应用",
+      "stars": 0,
+      "updated_at": "2026-10-02T03:55:38Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "jjb81620101-cloud/quantum-liuren",
+      "html_url": "https://github.com/jjb81620101-cloud/quantum-liuren",
+      "description": "量子隨機數起課的六壬問事網站：小六壬、大六壬盤、六爻、梅花易數，附白話解讀",
+      "stars": 0,
+      "updated_at": "2026-07-06T12:10:41Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "jnklj369/tianji-ziwei",
+      "html_url": "https://github.com/jnklj369/tianji-ziwei",
+      "description": "天纪紫微斗数排盘与阳宅批断",
+      "stars": 0,
+      "updated_at": "2026-10-03T08:49:42Z",
+      "language": null,
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "juanjuan-netizen/tarot-divination",
+      "html_url": "https://github.com/juanjuan-netizen/tarot-divination",
+      "description": null,
+      "stars": 0,
+      "updated_at": "2026-09-17T13:54:22Z",
+      "language": "Python",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "junhao-ye/bazi-ziwei-skills",
+      "html_url": "https://github.com/junhao-ye/bazi-ziwei-skills",
+      "description": "AI 八字 + 紫微斗数 排盘与综合印证 Skill｜四语 README｜命宫显示修复",
+      "stars": 0,
+      "updated_at": "2026-10-08T08:11:21Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "kai1124717-bot/guoxue-fengshui-guide",
+      "html_url": "https://github.com/kai1124717-bot/guoxue-fengshui-guide",
+      "description": "风水国学自学包（含图解速查页）",
+      "stars": 0,
+      "updated_at": "2026-10-01T05:33:26Z",
+      "language": "HTML",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "kaki2021/liuyao-divination-android",
+      "html_url": "https://github.com/kaki2021/liuyao-divination-android",
+      "description": "离线排盘与 AI 辅助解读的六爻 Android 应用；真实规则通过加密规则包单独分发",
+      "stars": 0,
+      "updated_at": "2026-10-08T07:08:19Z",
+      "language": "Python",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "kennycaiguo/Qimen-Dunjia-Techniques",
+      "html_url": "https://github.com/kennycaiguo/Qimen-Dunjia-Techniques",
+      "description": "学习奇门遁甲",
+      "stars": 0,
+      "updated_at": "2026-10-06T15:33:31Z",
+      "language": null,
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "kklight-kk/yijing-bagua",
+      "html_url": "https://github.com/kklight-kk/yijing-bagua",
+      "description": "易经八卦本地版",
+      "stars": 0,
+      "updated_at": "2026-06-26T08:21:07Z",
+      "language": "HTML",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "koehltany95-sudo/meihua-decision-model",
+      "html_url": "https://github.com/koehltany95-sudo/meihua-decision-model",
+      "description": "非宿命论的梅花易数现代决策反思 Skill：三组数字起卦、体用分析与现实行动建议。",
+      "stars": 0,
+      "updated_at": "2026-08-02T09:23:57Z",
+      "language": null,
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "lakeofsky347/dsh-meihua",
+      "html_url": "https://github.com/lakeofsky347/dsh-meihua",
+      "description": "梅花易数 plugin for DeepSeek Harness desktop",
+      "stars": 0,
+      "updated_at": "2026-10-08T07:54:55Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "lctfwyt/dsh-liuyao",
+      "html_url": "https://github.com/lctfwyt/dsh-liuyao",
+      "description": "Six-Line Divination (liuyao) for DeepSeek Harness — one-click casting, eight-palace najia chart, AI interpretation, chart card and case archive. DeepSeek Harness 六爻插件：六爻起卦 · AI 解卦：一键起卦、纳甲装卦、按所问事项断卦。",
+      "stars": 0,
+      "updated_at": "2026-10-02T17:25:00Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "lizhongzhen11/zhenguan-ziwei",
+      "html_url": "https://github.com/lizhongzhen11/zhenguan-ziwei",
+      "description": "面向 AI Agent 的紫微斗数解盘 Skill：内置排盘引擎（真太阳时校正）+ 完整判定知识库",
+      "stars": 0,
+      "updated_at": "2026-10-07T14:54:31Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "llheal/ziwei-miniapp",
+      "html_url": "https://github.com/llheal/ziwei-miniapp",
+      "description": "紫微斗数 命盤診断（LINEミニアプリ）",
+      "stars": 0,
+      "updated_at": "2026-09-28T22:27:35Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "lmy-hhh/wenshixuan-meihua-yishu",
+      "html_url": "https://github.com/lmy-hhh/wenshixuan-meihua-yishu",
+      "description": "问时轩：面向中文用户的梅花易数问事 Agent，提供结构化起卦、卦象解读、趋势参考与行动建议，并通过按次 API 服务支持 Agent 调用。",
+      "stars": 0,
+      "updated_at": "2026-07-14T15:47:40Z",
+      "language": "HTML",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "lxlj69/fengshui",
+      "html_url": "https://github.com/lxlj69/fengshui",
+      "description": "居家风水罗盘",
+      "stars": 0,
+      "updated_at": "2026-08-22T17:30:31Z",
+      "language": "HTML",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "lyuhui115/bagua-crypto",
+      "html_url": "https://github.com/lyuhui115/bagua-crypto",
+      "description": "BAGUA [Easy] Crypto - 八卦/二进制 writeup & solver",
+      "stars": 0,
+      "updated_at": "2026-07-19T09:24:34Z",
+      "language": "Python",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "majiabin2020/fengshuibuju",
+      "html_url": "https://github.com/majiabin2020/fengshuibuju",
+      "description": "AI 全屋空间照片识别与风水布局分析工具",
+      "stars": 0,
+      "updated_at": "2026-07-22T17:14:30Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "merely-made/cleromancy",
+      "html_url": "https://github.com/merely-made/cleromancy",
+      "description": "A local-first divination journal for replayable Tarot, dice, and astrology readings.",
+      "stars": 0,
+      "updated_at": "2026-09-27T13:43:28Z",
+      "language": "Rust",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "molpass/mcp-liuren",
+      "html_url": "https://github.com/molpass/mcp-liuren",
+      "description": "Hermes Agent용 MCP — 대육임(大六壬) — 천지반·삼전사과로 길흉 보는 시간 점법. molpass · zeolinex.com · vibe-coded with Claude",
+      "stars": 0,
+      "updated_at": "2026-06-20T13:50:51Z",
+      "language": "Python",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "muphy222/bagua-assistant",
+      "html_url": "https://github.com/muphy222/bagua-assistant",
+      "description": "八卦解卦助手",
+      "stars": 0,
+      "updated_at": "2026-03-26T04:25:03Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "neilyonglu/tarot-tg-bot",
+      "html_url": "https://github.com/neilyonglu/tarot-tg-bot",
+      "description": "A Telegram bot for Tarot divination utilizing the classic Rider-Waite deck, featuring multiple card spreads and providing personalized, in-depth readings powered by Gemini AI.",
+      "stars": 0,
+      "updated_at": "2026-10-08T07:31:01Z",
+      "language": "Python",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "nftsharing/bazi_youdaopaipan_com",
+      "html_url": "https://github.com/nftsharing/bazi_youdaopaipan_com",
+      "description": "八字排盘 AI解卦 有道八字排盘，有道排盘，国学，易学，六爻，八字，奇门，命理，占卜，风水，排盘，婚姻，财运，工作",
+      "stars": 0,
+      "updated_at": "2026-09-22T07:59:57Z",
+      "language": null,
+      "matched_queries": [
+        "八字 命理 bazi",
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "nftsharing/liuyao_youdaopaipan_com",
+      "html_url": "https://github.com/nftsharing/liuyao_youdaopaipan_com",
+      "description": "六爻排盘 AI解卦 有道六爻排盘，有道排盘，国学，易学，六爻，八字，奇门，命理，占卜，风水，排盘，婚姻，财运，工作",
+      "stars": 0,
+      "updated_at": "2026-09-22T07:58:56Z",
+      "language": null,
+      "matched_queries": [
+        "八字 命理 bazi",
+        "六爻 liuyao",
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "nftsharing/qimen_youdaopaipan_com",
+      "html_url": "https://github.com/nftsharing/qimen_youdaopaipan_com",
+      "description": "奇门排盘 AI帮解卦 有道奇门排盘，有道排盘，国学，易学，六爻，八字，奇门，命理，占卜，风水，排盘，婚姻，财运，工作",
+      "stars": 0,
+      "updated_at": "2026-09-22T08:00:24Z",
+      "language": null,
+      "matched_queries": [
+        "八字 命理 bazi",
+        "六爻 liuyao",
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "nftsharing/youdaopaipan_com",
+      "html_url": "https://github.com/nftsharing/youdaopaipan_com",
+      "description": "有道排盘，AI解卦，国学，易学，六爻，八字，奇门，命理，占卜，风水，排盘，婚姻，财运，工作",
+      "stars": 0,
+      "updated_at": "2026-09-22T07:16:52Z",
+      "language": null,
+      "matched_queries": [
+        "八字 命理 bazi",
+        "六爻 liuyao",
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "nosleepcassette/augury",
+      "html_url": "https://github.com/nosleepcassette/augury",
+      "description": "Tarot & I Ching divination in your terminal with a robust set of related tools & integrations",
+      "stars": 0,
+      "updated_at": "2026-10-02T17:45:00Z",
+      "language": "Python",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "orikami048/bazi-liuyao-database",
+      "html_url": "https://github.com/orikami048/bazi-liuyao-database",
+      "description": "🔮 中华易学全息权威数据库 | 四柱八字与六爻纳甲全量数据 (60甲子/十神/神煞/64卦全息纳甲/SQLite/JSON) · Authoritative BaZi & Liu Yao (I Ching) Metaphysics Database",
+      "stars": 0,
+      "updated_at": "2026-10-07T16:10:33Z",
+      "language": "Python",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "orikami048/real-fengshui-db",
+      "html_url": "https://github.com/orikami048/real-fengshui-db",
+      "description": "面向现代住宅与商业空间的实战风水数据库与排盘引擎（包含玄空飞星、八宅明镜、三元纳气、峦头形煞与空间化解）",
+      "stars": 0,
+      "updated_at": "2026-10-05T22:44:09Z",
+      "language": "HTML",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "pangguoming/Wuxing-Bagua-skill",
+      "html_url": "https://github.com/pangguoming/Wuxing-Bagua-skill",
+      "description": "一个完整的五行八卦skill，本质上是一个结构化的推理系统，它的核心挑战不在于让AI“说”什么，而在于让AI能准确计算和可靠推理",
+      "stars": 0,
+      "updated_at": "2026-07-10T02:30:52Z",
+      "language": null,
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "panming-dev/qimen-mingfa-blog",
+      "html_url": "https://github.com/panming-dev/qimen-mingfa-blog",
+      "description": "奇门遁甲经典解读",
+      "stars": 0,
+      "updated_at": "2026-09-16T07:31:54Z",
+      "language": "HTML",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "pipishen/cezi-fengshui",
+      "html_url": "https://github.com/pipishen/cezi-fengshui",
+      "description": "测字风水",
+      "stars": 0,
+      "updated_at": "2026-09-27T04:52:41Z",
+      "language": "HTML",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "plhm88/bazi-match",
+      "html_url": "https://github.com/plhm88/bazi-match",
+      "description": "Matchmaking app based on Chinese metaphysics and Bazi astrology",
+      "stars": 0,
+      "updated_at": "2026-04-04T04:52:26Z",
+      "language": null,
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "q1z2q3-debug/meihua-yishu-app",
+      "html_url": "https://github.com/q1z2q3-debug/meihua-yishu-app",
+      "description": "梅花易数·全息占 v1.3.0｜三元九维19683认知架构 × 梅花易数（单机离线安卓 App：时间/铜钱起卦、全息排盘、九维观照、三段断语）",
+      "stars": 0,
+      "updated_at": "2026-09-29T16:01:24Z",
+      "language": "HTML",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "qigegenb/fengshui_master",
+      "html_url": "https://github.com/qigegenb/fengshui_master",
+      "description": "风水大师",
+      "stars": 0,
+      "updated_at": "2026-07-30T16:47:14Z",
+      "language": "Python",
+      "matched_queries": [
+        "风水 fengshui"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "renrensmile/meihua",
+      "html_url": "https://github.com/renrensmile/meihua",
+      "description": "梅花易数学习笔记",
+      "stars": 0,
+      "updated_at": "2026-09-22T03:36:44Z",
+      "language": null,
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "rli228/qimen-dunjia",
+      "html_url": "https://github.com/rli228/qimen-dunjia",
+      "description": "开源奇门遁甲排盘与解盘系统 — Open-source Qimen Dunjia charting and interpretation platform",
+      "stars": 0,
+      "updated_at": "2026-09-25T03:44:23Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "sanqiushu/bagua-daily",
+      "html_url": "https://github.com/sanqiushu/bagua-daily",
+      "description": "八卦日报 - AI/Crypto/Finance 每日新闻速递",
+      "stars": 0,
+      "updated_at": "2026-04-12T03:42:41Z",
+      "language": "HTML",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "settyyds/bagua-divination",
+      "html_url": "https://github.com/settyyds/bagua-divination",
+      "description": "八卦推演系统 - 传统命理学 × AI 全栈平台（Render 部署版）",
+      "stars": 0,
+      "updated_at": "2026-07-07T09:34:11Z",
+      "language": "Python",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "shaoyanji/bagua-console",
+      "html_url": "https://github.com/shaoyanji/bagua-console",
+      "description": "Classified Neo-CIA Cyber-Physical Risk & Wind Intermittency Intelligence Terminal (Go 1.19, Kelly Criterion, Bagua 八卦, SCADA Defense)",
+      "stars": 0,
+      "updated_at": "2026-09-30T10:00:43Z",
+      "language": "Go",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "shenqs0403/ziweidoushu",
+      "html_url": "https://github.com/shenqs0403/ziweidoushu",
+      "description": "AI写的紫微斗数排星软件",
+      "stars": 0,
+      "updated_at": "2026-10-07T15:23:13Z",
+      "language": "Rust",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "shenqs0403/ziweidoushu_all",
+      "html_url": "https://github.com/shenqs0403/ziweidoushu_all",
+      "description": "紫微斗数全平台",
+      "stars": 0,
+      "updated_at": "2026-10-07T06:56:30Z",
+      "language": "Vue",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "songgoldenwind-crypto/ziwei-skills",
+      "html_url": "https://github.com/songgoldenwind-crypto/ziwei-skills",
+      "description": "紫微斗数 Agent Skills：排盘、核盘与分层断盘",
+      "stars": 0,
+      "updated_at": "2026-09-14T13:07:22Z",
+      "language": "Python",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "sthsci/zhouyi-bagua-ios",
+      "html_url": "https://github.com/sthsci/zhouyi-bagua-ios",
+      "description": "周易八卦報 · Zhouyi Gossip — offline-first bilingual I Ching oracle for iOS, styled as a classical editorial magazine",
+      "stars": 0,
+      "updated_at": "2026-07-10T06:52:22Z",
+      "language": "Swift",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "theadventuresofrav/Fairway-Dreams",
+      "html_url": "https://github.com/theadventuresofrav/Fairway-Dreams",
+      "description": "An AI-powered metaphysical analysis platform that generates a personal cosmic blueprint based on your name and birth date, combining numerology, astrology, and Chinese zodiac insights.",
+      "stars": 0,
+      "updated_at": "2025-10-18T07:07:33Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "toastedqu/meihua",
+      "html_url": "https://github.com/toastedqu/meihua",
+      "description": "梅花易数双数与三数排盘：本互变、体用生克、万物类象及卦爻辞。",
+      "stars": 0,
+      "updated_at": "2026-09-19T18:18:58Z",
+      "language": "Python",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "tom365a/ziwei",
+      "html_url": "https://github.com/tom365a/ziwei",
+      "description": "紫微斗数",
+      "stars": 0,
+      "updated_at": "2026-10-02T15:11:49Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "vabpf/omnifate",
+      "html_url": "https://github.com/vabpf/omnifate",
+      "description": "A comprehensive metaphysical portal integrating Eastern and Western systems: Numerology, Astrology, Birth Charts, Zi Wei (Chinese Astrology), BaZi, and Human Design, with AI-powered interpretations.",
+      "stars": 0,
+      "updated_at": "2026-07-06T16:44:03Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "chinese astrology metaphysics"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "veker007/bagua-detector-preview",
+      "html_url": "https://github.com/veker007/bagua-detector-preview",
+      "description": "八卦检测仪在线演示成品；完整开发源码保存在独立私有仓库",
+      "stars": 0,
+      "updated_at": "2026-10-08T06:45:26Z",
+      "language": "HTML",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "wangyi-fudan/Interleukins",
+      "html_url": "https://github.com/wangyi-fudan/Interleukins",
+      "description": "五行八卦白介素",
+      "stars": 0,
+      "updated_at": "2026-03-25T05:37:24Z",
+      "language": null,
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "wangzhiming1999/wuxing-web",
+      "html_url": "https://github.com/wangzhiming1999/wuxing-web",
+      "description": "五行八卦 AI 命理分析 Web 版 · 八字 / 六爻 / 紫微斗数 + AI 流式解读 · Next.js 16 + Tailwind v4",
+      "stars": 0,
+      "updated_at": "2026-09-19T03:28:55Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "weidhuash/bagua-agent",
+      "html_url": "https://github.com/weidhuash/bagua-agent",
+      "description": "专注于八卦测算的AI智能体 本智能体仅供娱乐",
+      "stars": 0,
+      "updated_at": "2026-07-29T09:38:00Z",
+      "language": null,
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "wu123-cloud/qimen-liuren",
+      "html_url": "https://github.com/wu123-cloud/qimen-liuren",
+      "description": "奇门遁甲（时家转盘）· 大六壬 在线排盘",
+      "stars": 0,
+      "updated_at": "2026-09-27T13:17:30Z",
+      "language": "HTML",
+      "matched_queries": [
+        "奇门遁甲 qimen",
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "wyl743405571-cpu/qimen-dunjia",
+      "html_url": "https://github.com/wyl743405571-cpu/qimen-dunjia",
+      "description": "Qimen Dunjia (奇门遁甲) divination chart calculator — standard time-plate rotating method, zhirun + chaibu. Verified, deterministic, dependency-light.",
+      "stars": 0,
+      "updated_at": "2026-09-25T15:16:30Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "wyl743405571-cpu/qimen-dunjia-engine",
+      "html_url": "https://github.com/wyl743405571-cpu/qimen-dunjia-engine",
+      "description": "Qimen Dunjia (奇门遁甲) chart engine for Node.js — rotating-plate method, futou-based Zhirun, independent Zhi-Shi door rotation. Measured: 44,064-chart sweep with 0 crashes and 0 invariant violations, 41 computed formations, reproducible scripts in verify/.",
+      "stars": 0,
+      "updated_at": "2026-10-08T04:18:37Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "wyoming2021/xuanxue",
+      "html_url": "https://github.com/wyoming2021/xuanxue",
+      "description": "玄学工具站模板：八字/紫微/星盘/六爻/梅花/合婚/塔罗/每日运势 + 登录会员支付（Next.js 16）",
+      "stars": 0,
+      "updated_at": "2026-10-04T08:47:48Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "tarot divination"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "xautsoilwater/liuyao-miniprogram",
+      "html_url": "https://github.com/xautsoilwater/liuyao-miniprogram",
+      "description": "周易研习 · 六爻卜卦微信小程序（独立仓）",
+      "stars": 0,
+      "updated_at": "2026-10-06T16:26:57Z",
+      "language": "HTML",
+      "matched_queries": [
+        "六爻 liuyao"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "xiaoguaishou404/baguatu",
+      "html_url": "https://github.com/xiaoguaishou404/baguatu",
+      "description": "会动的代码-八卦图 预览链接⬇️",
+      "stars": 0,
+      "updated_at": "2022-07-19T13:18:01Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "xiaoqiannb/QimenDunjia-minecraft",
+      "html_url": "https://github.com/xiaoqiannb/QimenDunjia-minecraft",
+      "description": "一个minecraft 1.20.1 forge的奇门遁甲法术系统mod，采用排盘踏罡的方式施法",
+      "stars": 0,
+      "updated_at": "2026-09-13T10:57:53Z",
+      "language": "Java",
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "xiaozisheng123/meihua",
+      "html_url": "https://github.com/xiaozisheng123/meihua",
+      "description": "梅花易数",
+      "stars": 0,
+      "updated_at": "2026-07-03T09:18:33Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "yongwun/ZiWeiDouShu",
+      "html_url": "https://github.com/yongwun/ZiWeiDouShu",
+      "description": "紫微斗数命盘计算工具 - Python实现",
+      "stars": 0,
+      "updated_at": "2026-09-20T04:15:03Z",
+      "language": "Python",
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "yu1303064532-eng/liuren",
+      "html_url": "https://github.com/yu1303064532-eng/liuren",
+      "description": "大六壬排盘",
+      "stars": 0,
+      "updated_at": "2026-02-08T15:31:55Z",
+      "language": "HTML",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "yycderek/metaphysics-web",
+      "html_url": "https://github.com/yycderek/metaphysics-web",
+      "description": "大六壬起课引擎 Web 可视化平台：天地盘/四课/九宗门/三传/天将六亲，Next.js 16 + Tailwind 4，与 liuren-py 同源",
+      "stars": 0,
+      "updated_at": "2026-10-06T10:04:38Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "大六壬 liuren"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "z736429522/hongyi-qimen-dunjia-paipan",
+      "html_url": "https://github.com/z736429522/hongyi-qimen-dunjia-paipan",
+      "description": "洪易奇门遁甲排盘 Skill：时家拆补转盘法",
+      "stars": 0,
+      "updated_at": "2026-08-27T08:51:51Z",
+      "language": null,
+      "matched_queries": [
+        "奇门遁甲 qimen"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "zexijhan/meihua-divination",
+      "html_url": "https://github.com/zexijhan/meihua-divination",
+      "description": "梅花易数起卦、四值记录与断卦学习工具",
+      "stars": 0,
+      "updated_at": "2026-08-26T22:48:14Z",
+      "language": "TypeScript",
+      "matched_queries": [
+        "梅花易数 meihua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "zhangqile1986/bagua-paipan",
+      "html_url": "https://github.com/zhangqile1986/bagua-paipan",
+      "description": "先天八卦排盘工具 - 基于易经八卦的姓名时空能量分析系统",
+      "stars": 0,
+      "updated_at": "2026-01-30T03:13:12Z",
+      "language": "JavaScript",
+      "matched_queries": [
+        "八卦 bagua"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "zmdld11/How-Fortune-Am-I",
+      "html_url": "https://github.com/zmdld11/How-Fortune-Am-I",
+      "description": "命理计算 agent skill(ZCode/Claude Code):真实星历 + 八字引擎的标准化排盘——西占本命盘/行运合盘/八字紫微/梅花六爻/合婚择日，可复核、反巴纳姆 | A Barnum-free fortune-telling skill with real ephemeris & BaZi engines",
+      "stars": 0,
+      "updated_at": "2026-09-24T01:47:15Z",
+      "language": "Python",
+      "matched_queries": [
+        "八字 命理 bazi"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    },
+    {
+      "repo": "zwgecn-commits/ziwei-skill",
+      "html_url": "https://github.com/zwgecn-commits/ziwei-skill",
+      "description": "钦天门紫微斗数 SKILL（基础公开版）— 面向 AI Agent 的结构化技法底座 · 知识层（姊妹库 ziwei-chart / ziwei-pipeline）",
+      "stars": 0,
+      "updated_at": "2026-09-23T04:31:02Z",
+      "language": null,
+      "matched_queries": [
+        "紫微斗数 ziwei"
+      ],
+      "status": "candidate",
+      "license_policy": "QUARANTINE"
+    }
+  ],
+  "license_audit_generated_at": "2026-10-08T11:18:31.555099+00:00",
+  "license_audited_count": 100
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-execution",
+  "domain": "ziwei",
+  "variant": "quanshu-lunar-iztro-mutagen-v1",
+  "provider": "tianji_kb.operations.ziwei_chart.chart",
+  "scope": "非闰月农历输入的基本安星链；年界与换日由调用方明确提供。",
+  "unresolved": [
+    "四化使用命名 iztro 版本，D 软件辅助证据未升古籍等级；壬府/辅仍隔离",
+    "天魁钺、火铃疑文和十二长生方向仍待版本核定",
+    "闰月、历法转换、大限流年、亮度与吉凶不在此基本盘中"
+  ],
+  "rules": [
+    {
+      "id": "ziwei.phase2.life_body",
+      "domain": "ziwei",
+      "name": "life_body",
+      "variant": "quanshu-lunar-iztro-mutagen-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "ziwei.rule.r003"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "ziwei.quanshu-fire-first-day",
+        "ziwei.chou-hour-mirror",
+        "ziwei.ren-explicit-iztro"
+      ],
+      "regression_test": "tests/test_phase2_ziwei.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "ziwei.phase2.bureau",
+      "domain": "ziwei",
+      "name": "bureau",
+      "variant": "quanshu-lunar-iztro-mutagen-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "ziwei.rule.r004"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "ziwei.quanshu-fire-first-day",
+        "ziwei.chou-hour-mirror",
+        "ziwei.ren-explicit-iztro"
+      ],
+      "regression_test": "tests/test_phase2_ziwei.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "ziwei.phase2.palaces",
+      "domain": "ziwei",
+      "name": "palaces",
+      "variant": "quanshu-lunar-iztro-mutagen-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "ziwei.rule.r003"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "ziwei.quanshu-fire-first-day",
+        "ziwei.chou-hour-mirror",
+        "ziwei.ren-explicit-iztro"
+      ],
+      "regression_test": "tests/test_phase2_ziwei.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "ziwei.phase2.major_stars",
+      "domain": "ziwei",
+      "name": "major_stars",
+      "variant": "quanshu-lunar-iztro-mutagen-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "ziwei.rule.r004"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "ziwei.quanshu-fire-first-day",
+        "ziwei.chou-hour-mirror",
+        "ziwei.ren-explicit-iztro"
+      ],
+      "regression_test": "tests/test_phase2_ziwei.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "ziwei.phase2.auxiliary_stars",
+      "domain": "ziwei",
+      "name": "auxiliary_stars",
+      "variant": "quanshu-lunar-iztro-mutagen-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "ziwei.rule.r001",
+        "ziwei.rule.r002",
+        "ziwei.rule.r005",
+        "ziwei.rule.r006",
+        "ziwei.rule.r009"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "ziwei.quanshu-fire-first-day",
+        "ziwei.chou-hour-mirror",
+        "ziwei.ren-explicit-iztro"
+      ],
+      "regression_test": "tests/test_phase2_ziwei.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "ziwei.phase2.mutagens",
+      "domain": "ziwei",
+      "name": "mutagens",
+      "variant": "quanshu-lunar-iztro-mutagen-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "ziwei.rule.r011"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "ziwei.quanshu-fire-first-day",
+        "ziwei.chou-hour-mirror",
+        "ziwei.ren-explicit-iztro"
+      ],
+      "regression_test": "tests/test_phase2_ziwei.py",
+      "evidence_scope": "C 仅证明四化类型；逐干四化星表为 iztro-default-v2 软件约定 D；壬府/辅尚未裁定。"
+    }
+  ]
+}

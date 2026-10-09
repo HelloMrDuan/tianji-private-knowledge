@@ -1,0 +1,2750 @@
+{
+  "schema_version": "1.0",
+  "model": "phase1-knowledge",
+  "domain": "liuren",
+  "classics": [
+    {
+      "id": "liuren.classic.daquan",
+      "domain": "liuren",
+      "name": "六壬大全",
+      "source_id": "liuren.source.daquan",
+      "body_stage": "quarantine"
+    },
+    {
+      "id": "liuren.classic.zhinan",
+      "domain": "liuren",
+      "name": "六壬指南",
+      "source_id": "liuren.source.zhinan",
+      "body_stage": "quarantine"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "liuren.chapter.daquan.8cff2b9d",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "liuren.chapter.zhinan.8cff2b9d",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）",
+      "classic_id": "liuren.classic.zhinan",
+      "locator": "基础选段（编者定位）"
+    },
+    {
+      "id": "liuren.chapter.daquan.75256c4a",
+      "domain": "liuren",
+      "name": "九宗门·贼克",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·贼克"
+    },
+    {
+      "id": "liuren.chapter.daquan.8f700081",
+      "domain": "liuren",
+      "name": "九宗门·比用",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·比用"
+    },
+    {
+      "id": "liuren.chapter.daquan.3a0e437c",
+      "domain": "liuren",
+      "name": "九宗门·涉害",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·涉害"
+    },
+    {
+      "id": "liuren.chapter.daquan.aeebd92d",
+      "domain": "liuren",
+      "name": "九宗门·遥克",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·遥克"
+    },
+    {
+      "id": "liuren.chapter.daquan.f4af35a9",
+      "domain": "liuren",
+      "name": "九宗门·昴星",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·昴星"
+    },
+    {
+      "id": "liuren.chapter.daquan.94c64d1d",
+      "domain": "liuren",
+      "name": "九宗门·别责",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·别责"
+    },
+    {
+      "id": "liuren.chapter.daquan.df396a5c",
+      "domain": "liuren",
+      "name": "九宗门·八专",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·八专"
+    },
+    {
+      "id": "liuren.chapter.daquan.043cd9d1",
+      "domain": "liuren",
+      "name": "九宗门·伏吟",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·伏吟"
+    },
+    {
+      "id": "liuren.chapter.daquan.848fde73",
+      "domain": "liuren",
+      "name": "九宗门·返吟",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "九宗门·返吟"
+    },
+    {
+      "id": "liuren.chapter.daquan.4401f6ea",
+      "domain": "liuren",
+      "name": "卷二·神将释·登明",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·登明"
+    },
+    {
+      "id": "liuren.chapter.daquan.a1ebd06c",
+      "domain": "liuren",
+      "name": "卷二·神将释·河魁",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·河魁"
+    },
+    {
+      "id": "liuren.chapter.daquan.b81c683b",
+      "domain": "liuren",
+      "name": "卷二·神将释·从魁",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·从魁"
+    },
+    {
+      "id": "liuren.chapter.daquan.ad6ef16f",
+      "domain": "liuren",
+      "name": "卷二·神将释·传送",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·传送"
+    },
+    {
+      "id": "liuren.chapter.daquan.498f376a",
+      "domain": "liuren",
+      "name": "卷二·神将释·小吉",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·小吉"
+    },
+    {
+      "id": "liuren.chapter.daquan.5a5ee596",
+      "domain": "liuren",
+      "name": "卷二·神将释·胜光",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·胜光"
+    },
+    {
+      "id": "liuren.chapter.daquan.8b5195eb",
+      "domain": "liuren",
+      "name": "卷二·神将释·太乙",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·太乙"
+    },
+    {
+      "id": "liuren.chapter.daquan.b665b622",
+      "domain": "liuren",
+      "name": "卷二·神将释·天罡",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·天罡"
+    },
+    {
+      "id": "liuren.chapter.daquan.62153d68",
+      "domain": "liuren",
+      "name": "卷二·神将释·太冲",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·太冲"
+    },
+    {
+      "id": "liuren.chapter.daquan.772e9855",
+      "domain": "liuren",
+      "name": "卷二·神将释·功曹",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·功曹"
+    },
+    {
+      "id": "liuren.chapter.daquan.28786429",
+      "domain": "liuren",
+      "name": "卷二·神将释·大吉",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·大吉"
+    },
+    {
+      "id": "liuren.chapter.daquan.0679c0b9",
+      "domain": "liuren",
+      "name": "卷二·神将释·神后",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·神将释·神后"
+    },
+    {
+      "id": "liuren.chapter.daquan.8ac691e6",
+      "domain": "liuren",
+      "name": "卷二·十二将释·贵人论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·贵人论"
+    },
+    {
+      "id": "liuren.chapter.daquan.357a6d09",
+      "domain": "liuren",
+      "name": "卷二·十二将释·螣蛇论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·螣蛇论"
+    },
+    {
+      "id": "liuren.chapter.daquan.5329a127",
+      "domain": "liuren",
+      "name": "卷二·十二将释·朱雀论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·朱雀论"
+    },
+    {
+      "id": "liuren.chapter.daquan.222fae14",
+      "domain": "liuren",
+      "name": "卷二·十二将释·六合论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·六合论"
+    },
+    {
+      "id": "liuren.chapter.daquan.e187a464",
+      "domain": "liuren",
+      "name": "卷二·十二将释·勾陈论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·勾陈论"
+    },
+    {
+      "id": "liuren.chapter.daquan.348d07c9",
+      "domain": "liuren",
+      "name": "卷二·十二将释·青龙论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·青龙论"
+    },
+    {
+      "id": "liuren.chapter.daquan.6f66f2d3",
+      "domain": "liuren",
+      "name": "卷二·十二将释·天空论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·天空论"
+    },
+    {
+      "id": "liuren.chapter.daquan.509d91a1",
+      "domain": "liuren",
+      "name": "卷二·十二将释·白虎论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·白虎论"
+    },
+    {
+      "id": "liuren.chapter.daquan.e181c3b4",
+      "domain": "liuren",
+      "name": "卷二·十二将释·太常论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·太常论"
+    },
+    {
+      "id": "liuren.chapter.daquan.c55590e2",
+      "domain": "liuren",
+      "name": "卷二·十二将释·玄武论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·玄武论"
+    },
+    {
+      "id": "liuren.chapter.daquan.0dcedb13",
+      "domain": "liuren",
+      "name": "卷二·十二将释·太阴论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·太阴论"
+    },
+    {
+      "id": "liuren.chapter.daquan.1a398461",
+      "domain": "liuren",
+      "name": "卷二·十二将释·天后论",
+      "classic_id": "liuren.classic.daquan",
+      "locator": "卷二·十二将释·天后论"
+    }
+  ],
+  "sections": [
+    {
+      "id": "liuren.section.s001",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段1",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.8cff2b9d",
+      "source_id": "liuren.source.daquan",
+      "text": "月将加于正时，用五行论其克贼。",
+      "locator": "基础选段（编者定位）; decoded-character interval [70888,70903)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s002",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段2",
+      "classic_id": "liuren.classic.zhinan",
+      "chapter_id": "liuren.chapter.zhinan.8cff2b9d",
+      "source_id": "liuren.source.zhinan",
+      "text": "加时而有天盘动而生阳，地盘静而生阴",
+      "locator": "基础选段（编者定位）; decoded-character interval [1655,1672)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s003",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段3",
+      "classic_id": "liuren.classic.zhinan",
+      "chapter_id": "liuren.chapter.zhinan.8cff2b9d",
+      "source_id": "liuren.source.zhinan",
+      "text": "干上阳神为第一课，乃阳中之阳也；地支阴也，支上得者曰辰，支上阳神为第三课，乃阴中之阳也；干上阴神为第二课，乃阳中之阴也；支上阴神为第四课，乃阴中之阴也。",
+      "locator": "基础选段（编者定位）; decoded-character interval [1566,1642)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s004",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段4",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.8cff2b9d",
+      "source_id": "liuren.source.daquan",
+      "text": "初传之上名中次，中上加临是末居。",
+      "locator": "基础选段（编者定位）; decoded-character interval [1206,1222)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s005",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段5",
+      "classic_id": "liuren.classic.zhinan",
+      "chapter_id": "liuren.chapter.zhinan.8cff2b9d",
+      "source_id": "liuren.source.zhinan",
+      "text": "其神后有六位，乃天空、白虎、太常、玄武、太阴、天后也；前有五位，乃腾蛇、朱雀、六合、勾陈、青龙也。",
+      "locator": "基础选段（编者定位）; decoded-character interval [3457,3506)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s006",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段6",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.8cff2b9d",
+      "source_id": "liuren.source.daquan",
+      "text": "天乙贵人，己丑土，吉将也。为神将之主",
+      "locator": "基础选段（编者定位）; decoded-character interval [33625,33643)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s007",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段7",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.8cff2b9d",
+      "source_id": "liuren.source.daquan",
+      "text": "甲课寅兮乙课辰，丙戊课巳不须论。丁己课未庚申上，辛戌壬亥是其真。癸课原来丑宫坐",
+      "locator": "基础选段（编者定位）; decoded-character interval [1120,1159)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s008",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段8",
+      "classic_id": "liuren.classic.zhinan",
+      "chapter_id": "liuren.chapter.zhinan.8cff2b9d",
+      "source_id": "liuren.source.zhinan",
+      "text": "地支阴也，支上得者曰辰",
+      "locator": "基础选段（编者定位）; decoded-character interval [1582,1593)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s009",
+      "domain": "liuren",
+      "name": "基础选段（编者定位）·选段9",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.8cff2b9d",
+      "source_id": "liuren.source.daquan",
+      "text": "支冲 即对宫。",
+      "locator": "基础选段（编者定位）; decoded-character interval [2668,2675)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s010",
+      "domain": "liuren",
+      "name": "九宗门·贼克·选段10",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.75256c4a",
+      "source_id": "liuren.source.daquan",
+      "text": "取课先从下贼呼，如无下贼上克初。",
+      "locator": "九宗门·贼克; decoded-character interval [1190,1206)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s011",
+      "domain": "liuren",
+      "name": "九宗门·比用·选段11",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.8f700081",
+      "source_id": "liuren.source.daquan",
+      "text": "常将天日比神用，阳日用阳阴用阴。",
+      "locator": "九宗门·比用; decoded-character interval [1265,1281)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s012",
+      "domain": "liuren",
+      "name": "九宗门·涉害·选段12",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.3a0e437c",
+      "source_id": "liuren.source.daquan",
+      "text": "渉害行来本家止，路逢多克为用取。孟深仲浅季当休，复等柔辰刚日宜。",
+      "locator": "九宗门·涉害; decoded-character interval [1304,1336)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s013",
+      "domain": "liuren",
+      "name": "九宗门·遥克·选段13",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.aeebd92d",
+      "source_id": "liuren.source.daquan",
+      "text": "四课无克号为遥，日与神兮逓互招。先取神遥克其日，如无方取日来遥。",
+      "locator": "九宗门·遥克; decoded-character interval [1359,1391)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s014",
+      "domain": "liuren",
+      "name": "九宗门·昴星·选段14",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.f4af35a9",
+      "source_id": "liuren.source.daquan",
+      "text": "无遥无克昴星穷，阳仰阴俯酉位中",
+      "locator": "九宗门·昴星; decoded-character interval [1430,1445)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s015",
+      "domain": "liuren",
+      "name": "九宗门·别责·选段15",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.94c64d1d",
+      "source_id": "liuren.source.daquan",
+      "text": "四课不全三课备，无遥无克别责例。刚日干合上头神，柔日支前三合取。",
+      "locator": "九宗门·别责; decoded-character interval [1510,1542)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s016",
+      "domain": "liuren",
+      "name": "九宗门·八专·选段16",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.df396a5c",
+      "source_id": "liuren.source.daquan",
+      "text": "两课无克号八专，阳日日阳顺行三连本位数。阴日辰阴逆三位，中末总向日上眠。",
+      "locator": "九宗门·八专; decoded-character interval [1634,1670)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s017",
+      "domain": "liuren",
+      "name": "九宗门·伏吟·选段17",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.043cd9d1",
+      "source_id": "liuren.source.daquan",
+      "text": "伏吟有克还为用，无克刚干柔取辰。迤逦刑之作中末",
+      "locator": "九宗门·伏吟; decoded-character interval [1677,1700)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s018",
+      "domain": "liuren",
+      "name": "九宗门·返吟·选段18",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.848fde73",
+      "source_id": "liuren.source.daquan",
+      "text": "返吟有克亦为用，无克别有井栏名。",
+      "locator": "九宗门·返吟; decoded-character interval [1750,1766)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s019",
+      "domain": "liuren",
+      "name": "卷二·神将释·登明·选段19",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.4401f6ea",
+      "source_id": "liuren.source.daquan",
+      "text": "登明亥\n水神，雨水后日躔娵訾，正月将。",
+      "locator": "卷二·神将释·登明; decoded-character interval [24179,24198)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s020",
+      "domain": "liuren",
+      "name": "卷二·神将释·河魁·选段20",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.a1ebd06c",
+      "source_id": "liuren.source.daquan",
+      "text": "河魁戍\n土神，春分后日躔降娄，二月将。",
+      "locator": "卷二·神将释·河魁; decoded-character interval [25016,25035)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s021",
+      "domain": "liuren",
+      "name": "卷二·神将释·从魁·选段21",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.b81c683b",
+      "source_id": "liuren.source.daquan",
+      "text": "从魁酉\n金神，谷雨后日躔大梁，三月将。",
+      "locator": "卷二·神将释·从魁; decoded-character interval [25813,25832)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s022",
+      "domain": "liuren",
+      "name": "卷二·神将释·传送·选段22",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.ad6ef16f",
+      "source_id": "liuren.source.daquan",
+      "text": "传送申\n金神，小满后日躔实沉，四月将。",
+      "locator": "卷二·神将释·传送; decoded-character interval [26854,26873)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s023",
+      "domain": "liuren",
+      "name": "卷二·神将释·小吉·选段23",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.498f376a",
+      "source_id": "liuren.source.daquan",
+      "text": "小吉未\n土神，夏至后日躔鹑首，五月将。",
+      "locator": "卷二·神将释·小吉; decoded-character interval [27782,27801)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s024",
+      "domain": "liuren",
+      "name": "卷二·神将释·胜光·选段24",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.5a5ee596",
+      "source_id": "liuren.source.daquan",
+      "text": "胜光午\n火神，大暑后日躔鹑火，六月将。",
+      "locator": "卷二·神将释·胜光; decoded-character interval [28513,28532)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s025",
+      "domain": "liuren",
+      "name": "卷二·神将释·太乙·选段25",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.8b5195eb",
+      "source_id": "liuren.source.daquan",
+      "text": "太乙巳\n火神，处暑后日躔鹑首，七月将。",
+      "locator": "卷二·神将释·太乙; decoded-character interval [29234,29253)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s026",
+      "domain": "liuren",
+      "name": "卷二·神将释·天罡·选段26",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.b665b622",
+      "source_id": "liuren.source.daquan",
+      "text": "天罡辰\n土神，秋分后日躔寿星，八月将。",
+      "locator": "卷二·神将释·天罡; decoded-character interval [29936,29955)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s027",
+      "domain": "liuren",
+      "name": "卷二·神将释·太冲·选段27",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.62153d68",
+      "source_id": "liuren.source.daquan",
+      "text": "太冲卯\n木神，霜降后日躔大火，九月将。",
+      "locator": "卷二·神将释·太冲; decoded-character interval [30571,30590)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s028",
+      "domain": "liuren",
+      "name": "卷二·神将释·功曹·选段28",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.772e9855",
+      "source_id": "liuren.source.daquan",
+      "text": "功曹寅\n木神，大雪后日躔析木，十月将。",
+      "locator": "卷二·神将释·功曹; decoded-character interval [31140,31159)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s029",
+      "domain": "liuren",
+      "name": "卷二·神将释·大吉·选段29",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.28786429",
+      "source_id": "liuren.source.daquan",
+      "text": "大吉丑\n土神，冬至后日躔星纪，十一月将。",
+      "locator": "卷二·神将释·大吉; decoded-character interval [31677,31697)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s030",
+      "domain": "liuren",
+      "name": "卷二·神将释·神后·选段30",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.0679c0b9",
+      "source_id": "liuren.source.daquan",
+      "text": "神后子\n水神，大寒后日躔元枵，十二月将。",
+      "locator": "卷二·神将释·神后; decoded-character interval [32304,32324)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s031",
+      "domain": "liuren",
+      "name": "卷二·十二将释·贵人论·选段31",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.8ac691e6",
+      "source_id": "liuren.source.daquan",
+      "text": "天乙贵人，己丑土，吉将也。",
+      "locator": "卷二·十二将释·贵人论; decoded-character interval [33625,33638)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s032",
+      "domain": "liuren",
+      "name": "卷二·十二将释·螣蛇论·选段32",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.357a6d09",
+      "source_id": "liuren.source.daquan",
+      "text": "螣蛇在天事天乙为车骑都尉，雷部鞭驭之神，位居前一家，丁巳火旺六十日，凶将也。",
+      "locator": "卷二·十二将释·螣蛇论; decoded-character interval [35095,35133)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s033",
+      "domain": "liuren",
+      "name": "卷二·十二将释·朱雀论·选段33",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.5329a127",
+      "source_id": "liuren.source.daquan",
+      "text": "朱雀在天事天乙为羽林将军，在雷部行火，亦名招风神。位居前二家，丙午火，夏旺春相，凶将也。",
+      "locator": "卷二·十二将释·朱雀论; decoded-character interval [36093,36137)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s034",
+      "domain": "liuren",
+      "name": "卷二·十二将释·六合论·选段34",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.222fae14",
+      "source_id": "liuren.source.daquan",
+      "text": "六合在天为光禄大夫，雷部中雨师也。家乙卯木位，居前三，旺春三月、六乙日，吉将也。",
+      "locator": "卷二·十二将释·六合论; decoded-character interval [37230,37270)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s035",
+      "domain": "liuren",
+      "name": "卷二·十二将释·勾陈论·选段35",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.e187a464",
+      "source_id": "liuren.source.daquan",
+      "text": "勾陈在天为大将军，雷部中作唤云神。位居前四，家戊辰，土旺四季，凶将也。",
+      "locator": "卷二·十二将释·勾陈论; decoded-character interval [38263,38298)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s036",
+      "domain": "liuren",
+      "name": "卷二·十二将释·青龙论·选段36",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.348d07c9",
+      "source_id": "liuren.source.daquan",
+      "text": "青龙在天为左丞相，雷部中作甘雨之神。位居前五，家甲寅，木旺春三月，吉将也。",
+      "locator": "卷二·十二将释·青龙论; decoded-character interval [39327,39364)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s037",
+      "domain": "liuren",
+      "name": "卷二·十二将释·天空论·选段37",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.6f66f2d3",
+      "source_id": "liuren.source.daquan",
+      "text": "天空在天为司直官，雷部中为黄埃尘雾之神。又为渴雨神。位居后六，家戊戌，土旺四季，凶将也。",
+      "locator": "卷二·十二将释·天空论; decoded-character interval [40306,40350)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s038",
+      "domain": "liuren",
+      "name": "卷二·十二将释·白虎论·选段38",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.509d91a1",
+      "source_id": "liuren.source.daquan",
+      "text": "白虎在天为廷尉卿，雷部者霹雳之神。又为风伯，位居后五，家庚申，金旺秋三月，凶将也。",
+      "locator": "卷二·十二将释·白虎论; decoded-character interval [41516,41557)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s039",
+      "domain": "liuren",
+      "name": "卷二·十二将释·太常论·选段39",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.e181c3b4",
+      "source_id": "liuren.source.daquan",
+      "text": "太常在天为太常卿，一云少府，雷部中养物之雨，淑气之风。位居后四，家己未，土旺四季各十八日，吉将也。",
+      "locator": "卷二·十二将释·太常论; decoded-character interval [42581,42630)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s040",
+      "domain": "liuren",
+      "name": "卷二·十二将释·玄武论·选段40",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.c55590e2",
+      "source_id": "liuren.source.daquan",
+      "text": "玄武在天为后军，一云又将军，雷部中为苦雨神。位居后三，家癸亥，水旺冬三月，凶将也。",
+      "locator": "卷二·十二将释·玄武论; decoded-character interval [43475,43516)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s041",
+      "domain": "liuren",
+      "name": "卷二·十二将释·太阴论·选段41",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.0dcedb13",
+      "source_id": "liuren.source.daquan",
+      "text": "太阴在天为御史大夫、中丞，又云天乙嫔妃彩女也，雷部中霜雪氷冻之神。位居后二，家辛酉，金旺秋三月，吉将也。",
+      "locator": "卷二·十二将释·太阴论; decoded-character interval [44528,44580)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    },
+    {
+      "id": "liuren.section.s042",
+      "domain": "liuren",
+      "name": "卷二·十二将释·天后论·选段42",
+      "classic_id": "liuren.classic.daquan",
+      "chapter_id": "liuren.chapter.daquan.1a398461",
+      "source_id": "liuren.source.daquan",
+      "text": "天后在天事天乙为后妃，雷部阴霖雾雨之神。位居前一，家壬子，水旺冬三月，吉将也。",
+      "locator": "卷二·十二将释·天后论; decoded-character interval [45574,45613)",
+      "review": {
+        "status": "approved",
+        "method": "逐字核对固定证据文件；限定选段；显著缺文、PUA 和现代注释不晋级。",
+        "scope": "仅本选段；不推广为整本校勘或现实吉凶结论。"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "liuren.term.t001",
+      "domain": "liuren",
+      "name": "月将",
+      "aliases": [],
+      "definition": "月将加于正时，用五行论其克贼。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s001",
+          "original_text": "月将加于正时，用五行论其克贼。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t002",
+      "domain": "liuren",
+      "name": "天盘",
+      "aliases": [],
+      "definition": "加时而有天盘动而生阳，地盘静而生阴",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.zhinan",
+          "section_id": "liuren.section.s002",
+          "original_text": "加时而有天盘动而生阳，地盘静而生阴",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t003",
+      "domain": "liuren",
+      "name": "地盘",
+      "aliases": [],
+      "definition": "加时而有天盘动而生阳，地盘静而生阴",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.zhinan",
+          "section_id": "liuren.section.s002",
+          "original_text": "加时而有天盘动而生阳，地盘静而生阴",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t004",
+      "domain": "liuren",
+      "name": "四课",
+      "aliases": [],
+      "definition": "干上阳神为第一课，乃阳中之阳也；地支阴也，支上得者曰辰，支上阳神为第三课，乃阴中之阳也；干上阴神为第二课，乃阳中之阴也；支上阴神为第四课，乃阴中之阴也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.zhinan",
+          "section_id": "liuren.section.s003",
+          "original_text": "干上阳神为第一课，乃阳中之阳也；地支阴也，支上得者曰辰，支上阳神为第三课，乃阴中之阳也；干上阴神为第二课，乃阳中之阴也；支上阴神为第四课，乃阴中之阴也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t005",
+      "domain": "liuren",
+      "name": "三传",
+      "aliases": [],
+      "definition": "初传之上名中次，中上加临是末居。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s004",
+          "original_text": "初传之上名中次，中上加临是末居。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t006",
+      "domain": "liuren",
+      "name": "十二天将",
+      "aliases": [],
+      "definition": "其神后有六位，乃天空、白虎、太常、玄武、太阴、天后也；前有五位，乃腾蛇、朱雀、六合、勾陈、青龙也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.zhinan",
+          "section_id": "liuren.section.s005",
+          "original_text": "其神后有六位，乃天空、白虎、太常、玄武、太阴、天后也；前有五位，乃腾蛇、朱雀、六合、勾陈、青龙也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t007",
+      "domain": "liuren",
+      "name": "贵人",
+      "aliases": [
+        "天乙"
+      ],
+      "definition": "天乙贵人，己丑土，吉将也。为神将之主",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s006",
+          "original_text": "天乙贵人，己丑土，吉将也。为神将之主",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t008",
+      "domain": "liuren",
+      "name": "日干",
+      "aliases": [],
+      "definition": "甲课寅兮乙课辰，丙戊课巳不须论。丁己课未庚申上，辛戌壬亥是其真。癸课原来丑宫坐",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s007",
+          "original_text": "甲课寅兮乙课辰，丙戊课巳不须论。丁己课未庚申上，辛戌壬亥是其真。癸课原来丑宫坐",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t009",
+      "domain": "liuren",
+      "name": "日支",
+      "aliases": [
+        "辰（本书日支用法）"
+      ],
+      "definition": "地支阴也，支上得者曰辰",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.zhinan",
+          "section_id": "liuren.section.s008",
+          "original_text": "地支阴也，支上得者曰辰",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t010",
+      "domain": "liuren",
+      "name": "地支关系",
+      "aliases": [],
+      "definition": "支冲 即对宫。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s009",
+          "original_text": "支冲 即对宫。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t011",
+      "domain": "liuren",
+      "name": "贼克",
+      "aliases": [],
+      "definition": "取课先从下贼呼，如无下贼上克初。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s010",
+          "original_text": "取课先从下贼呼，如无下贼上克初。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t012",
+      "domain": "liuren",
+      "name": "比用",
+      "aliases": [],
+      "definition": "常将天日比神用，阳日用阳阴用阴。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s011",
+          "original_text": "常将天日比神用，阳日用阳阴用阴。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t013",
+      "domain": "liuren",
+      "name": "涉害",
+      "aliases": [
+        "渉害"
+      ],
+      "definition": "渉害行来本家止，路逢多克为用取。孟深仲浅季当休，复等柔辰刚日宜。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s012",
+          "original_text": "渉害行来本家止，路逢多克为用取。孟深仲浅季当休，复等柔辰刚日宜。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t014",
+      "domain": "liuren",
+      "name": "遥克",
+      "aliases": [],
+      "definition": "四课无克号为遥，日与神兮逓互招。先取神遥克其日，如无方取日来遥。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s013",
+          "original_text": "四课无克号为遥，日与神兮逓互招。先取神遥克其日，如无方取日来遥。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t015",
+      "domain": "liuren",
+      "name": "昴星",
+      "aliases": [],
+      "definition": "无遥无克昴星穷，阳仰阴俯酉位中",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s014",
+          "original_text": "无遥无克昴星穷，阳仰阴俯酉位中",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t016",
+      "domain": "liuren",
+      "name": "别责",
+      "aliases": [],
+      "definition": "四课不全三课备，无遥无克别责例。刚日干合上头神，柔日支前三合取。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s015",
+          "original_text": "四课不全三课备，无遥无克别责例。刚日干合上头神，柔日支前三合取。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t017",
+      "domain": "liuren",
+      "name": "八专",
+      "aliases": [],
+      "definition": "两课无克号八专，阳日日阳顺行三连本位数。阴日辰阴逆三位，中末总向日上眠。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s016",
+          "original_text": "两课无克号八专，阳日日阳顺行三连本位数。阴日辰阴逆三位，中末总向日上眠。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t018",
+      "domain": "liuren",
+      "name": "伏吟",
+      "aliases": [],
+      "definition": "伏吟有克还为用，无克刚干柔取辰。迤逦刑之作中末",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s017",
+          "original_text": "伏吟有克还为用，无克刚干柔取辰。迤逦刑之作中末",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t019",
+      "domain": "liuren",
+      "name": "返吟",
+      "aliases": [],
+      "definition": "返吟有克亦为用，无克别有井栏名。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s018",
+          "original_text": "返吟有克亦为用，无克别有井栏名。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt"
+      }
+    },
+    {
+      "id": "liuren.term.t020",
+      "domain": "liuren",
+      "name": "登明",
+      "aliases": [],
+      "definition": "登明亥\n水神，雨水后日躔娵訾，正月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s019",
+          "original_text": "登明亥\n水神，雨水后日躔娵訾，正月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t021",
+      "domain": "liuren",
+      "name": "河魁",
+      "aliases": [],
+      "definition": "河魁戍\n土神，春分后日躔降娄，二月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s020",
+          "original_text": "河魁戍\n土神，春分后日躔降娄，二月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t022",
+      "domain": "liuren",
+      "name": "从魁",
+      "aliases": [],
+      "definition": "从魁酉\n金神，谷雨后日躔大梁，三月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s021",
+          "original_text": "从魁酉\n金神，谷雨后日躔大梁，三月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t023",
+      "domain": "liuren",
+      "name": "传送",
+      "aliases": [],
+      "definition": "传送申\n金神，小满后日躔实沉，四月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s022",
+          "original_text": "传送申\n金神，小满后日躔实沉，四月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t024",
+      "domain": "liuren",
+      "name": "小吉",
+      "aliases": [],
+      "definition": "小吉未\n土神，夏至后日躔鹑首，五月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s023",
+          "original_text": "小吉未\n土神，夏至后日躔鹑首，五月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t025",
+      "domain": "liuren",
+      "name": "胜光",
+      "aliases": [],
+      "definition": "胜光午\n火神，大暑后日躔鹑火，六月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s024",
+          "original_text": "胜光午\n火神，大暑后日躔鹑火，六月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t026",
+      "domain": "liuren",
+      "name": "太乙",
+      "aliases": [],
+      "definition": "太乙巳\n火神，处暑后日躔鹑首，七月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s025",
+          "original_text": "太乙巳\n火神，处暑后日躔鹑首，七月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t027",
+      "domain": "liuren",
+      "name": "天罡",
+      "aliases": [],
+      "definition": "天罡辰\n土神，秋分后日躔寿星，八月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s026",
+          "original_text": "天罡辰\n土神，秋分后日躔寿星，八月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t028",
+      "domain": "liuren",
+      "name": "太冲",
+      "aliases": [],
+      "definition": "太冲卯\n木神，霜降后日躔大火，九月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s027",
+          "original_text": "太冲卯\n木神，霜降后日躔大火，九月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t029",
+      "domain": "liuren",
+      "name": "功曹",
+      "aliases": [],
+      "definition": "功曹寅\n木神，大雪后日躔析木，十月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s028",
+          "original_text": "功曹寅\n木神，大雪后日躔析木，十月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t030",
+      "domain": "liuren",
+      "name": "大吉",
+      "aliases": [],
+      "definition": "大吉丑\n土神，冬至后日躔星纪，十一月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s029",
+          "original_text": "大吉丑\n土神，冬至后日躔星纪，十一月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t031",
+      "domain": "liuren",
+      "name": "神后",
+      "aliases": [],
+      "definition": "神后子\n水神，大寒后日躔元枵，十二月将。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s030",
+          "original_text": "神后子\n水神，大寒后日躔元枵，十二月将。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "月将",
+        "existing_table": "data/canonical/liuren/rules_v1.json#/month_general_by_solar_terms"
+      }
+    },
+    {
+      "id": "liuren.term.t032",
+      "domain": "liuren",
+      "name": "腾蛇",
+      "aliases": [
+        "螣蛇"
+      ],
+      "definition": "螣蛇在天事天乙为车骑都尉，雷部鞭驭之神，位居前一家，丁巳火旺六十日，凶将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s032",
+          "original_text": "螣蛇在天事天乙为车骑都尉，雷部鞭驭之神，位居前一家，丁巳火旺六十日，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t033",
+      "domain": "liuren",
+      "name": "朱雀",
+      "aliases": [],
+      "definition": "朱雀在天事天乙为羽林将军，在雷部行火，亦名招风神。位居前二家，丙午火，夏旺春相，凶将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s033",
+          "original_text": "朱雀在天事天乙为羽林将军，在雷部行火，亦名招风神。位居前二家，丙午火，夏旺春相，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t034",
+      "domain": "liuren",
+      "name": "六合",
+      "aliases": [],
+      "definition": "六合在天为光禄大夫，雷部中雨师也。家乙卯木位，居前三，旺春三月、六乙日，吉将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s034",
+          "original_text": "六合在天为光禄大夫，雷部中雨师也。家乙卯木位，居前三，旺春三月、六乙日，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t035",
+      "domain": "liuren",
+      "name": "勾陈",
+      "aliases": [],
+      "definition": "勾陈在天为大将军，雷部中作唤云神。位居前四，家戊辰，土旺四季，凶将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s035",
+          "original_text": "勾陈在天为大将军，雷部中作唤云神。位居前四，家戊辰，土旺四季，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t036",
+      "domain": "liuren",
+      "name": "青龙",
+      "aliases": [],
+      "definition": "青龙在天为左丞相，雷部中作甘雨之神。位居前五，家甲寅，木旺春三月，吉将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s036",
+          "original_text": "青龙在天为左丞相，雷部中作甘雨之神。位居前五，家甲寅，木旺春三月，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t037",
+      "domain": "liuren",
+      "name": "天空",
+      "aliases": [],
+      "definition": "天空在天为司直官，雷部中为黄埃尘雾之神。又为渴雨神。位居后六，家戊戌，土旺四季，凶将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s037",
+          "original_text": "天空在天为司直官，雷部中为黄埃尘雾之神。又为渴雨神。位居后六，家戊戌，土旺四季，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t038",
+      "domain": "liuren",
+      "name": "白虎",
+      "aliases": [],
+      "definition": "白虎在天为廷尉卿，雷部者霹雳之神。又为风伯，位居后五，家庚申，金旺秋三月，凶将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s038",
+          "original_text": "白虎在天为廷尉卿，雷部者霹雳之神。又为风伯，位居后五，家庚申，金旺秋三月，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t039",
+      "domain": "liuren",
+      "name": "太常",
+      "aliases": [],
+      "definition": "太常在天为太常卿，一云少府，雷部中养物之雨，淑气之风。位居后四，家己未，土旺四季各十八日，吉将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s039",
+          "original_text": "太常在天为太常卿，一云少府，雷部中养物之雨，淑气之风。位居后四，家己未，土旺四季各十八日，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t040",
+      "domain": "liuren",
+      "name": "玄武",
+      "aliases": [],
+      "definition": "玄武在天为后军，一云又将军，雷部中为苦雨神。位居后三，家癸亥，水旺冬三月，凶将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s040",
+          "original_text": "玄武在天为后军，一云又将军，雷部中为苦雨神。位居后三，家癸亥，水旺冬三月，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t041",
+      "domain": "liuren",
+      "name": "太阴",
+      "aliases": [],
+      "definition": "太阴在天为御史大夫、中丞，又云天乙嫔妃彩女也，雷部中霜雪氷冻之神。位居后二，家辛酉，金旺秋三月，吉将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s041",
+          "original_text": "太阴在天为御史大夫、中丞，又云天乙嫔妃彩女也，雷部中霜雪氷冻之神。位居后二，家辛酉，金旺秋三月，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    },
+    {
+      "id": "liuren.term.t042",
+      "domain": "liuren",
+      "name": "天后",
+      "aliases": [],
+      "definition": "天后在天事天乙为后妃，雷部阴霖雾雨之神。位居前一，家壬子，水旺冬三月，吉将也。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s042",
+          "original_text": "天后在天事天乙为后妃，雷部阴霖雾雨之神。位居前一，家壬子，水旺冬三月，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "definition_kind": "classical_excerpt",
+        "category": "天将"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "liuren.rule.r001",
+      "domain": "liuren",
+      "name": "贼克取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "lower_controls_upper": "prefer",
+            "upper_controls_lower": "fallback"
+          },
+          "method": "贼克"
+        }
+      },
+      "result": {
+        "selection": "single controlling upper branch"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s010",
+          "original_text": "取课先从下贼呼，如无下贼上克初。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t011",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r002",
+      "domain": "liuren",
+      "name": "比用取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "controlling_candidates": ">=2",
+            "match_day_polarity": true
+          },
+          "method": "比用"
+        }
+      },
+      "result": {
+        "selection": "candidate matching day-stem polarity; unresolved ties go to 涉害"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s011",
+          "original_text": "常将天日比神用，阳日用阳阴用阴。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t012",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r003",
+      "domain": "liuren",
+      "name": "涉害取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "all_candidates_match_or_none_match": true,
+            "compare": "harm_depth"
+          },
+          "method": "涉害"
+        }
+      },
+      "result": {
+        "selection": "requires harm-depth and tie-break school policy"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s012",
+          "original_text": "渉害行来本家止，路逢多克为用取。孟深仲浅季当休，复等柔辰刚日宜。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t013",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r004",
+      "domain": "liuren",
+      "name": "遥克取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "lesson_controls": 0,
+            "remote_controls": ">0"
+          },
+          "method": "遥克"
+        }
+      },
+      "result": {
+        "selection": "upper controls day first; reverse remote control fallback"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s013",
+          "original_text": "四课无克号为遥，日与神兮逓互招。先取神遥克其日，如无方取日来遥。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t014",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r005",
+      "domain": "liuren",
+      "name": "昴星取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "lesson_controls": 0,
+            "remote_controls": 0,
+            "distinct_lessons": 4
+          },
+          "method": "昴星"
+        }
+      },
+      "result": {
+        "selection": "酉位阴俯阳仰；中末另据日辰，not compiled"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s014",
+          "original_text": "无遥无克昴星穷，阳仰阴俯酉位中",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t015",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r006",
+      "domain": "liuren",
+      "name": "别责取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "lesson_controls": 0,
+            "remote_controls": 0,
+            "distinct_lessons": 3
+          },
+          "method": "别责"
+        }
+      },
+      "result": {
+        "selection": "day stem/branch relationship determines initial; not compiled"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s015",
+          "original_text": "四课不全三课备，无遥无克别责例。刚日干合上头神，柔日支前三合取。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t016",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r007",
+      "domain": "liuren",
+      "name": "八专取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "lesson_controls": 0,
+            "distinct_lessons": 2,
+            "remote_controls": "ignored per this text"
+          },
+          "method": "八专"
+        }
+      },
+      "result": {
+        "selection": "three-count clockwise/anticlockwise inclusive; middle/final return day upper"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s016",
+          "original_text": "两课无克号八专，阳日日阳顺行三连本位数。阴日辰阴逆三位，中末总向日上眠。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t017",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r008",
+      "domain": "liuren",
+      "name": "伏吟取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "sky_equals_earth": true
+          },
+          "method": "伏吟"
+        }
+      },
+      "result": {
+        "selection": "control first; otherwise yang stem/yin branch; middle/final use punishments"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s017",
+          "original_text": "伏吟有克还为用，无克刚干柔取辰。迤逦刑之作中末",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t018",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r009",
+      "domain": "liuren",
+      "name": "返吟取传条件",
+      "conditions": [
+        "九宗门按所引版本判别；不能任意交换优先级"
+      ],
+      "inputs": {
+        "lessons": "4 upper/lower pairs",
+        "day_stem": "10 stems",
+        "day_branch": "12 branches",
+        "sky_plate": "earth→sky permutation"
+      },
+      "operation": {
+        "kind": "transmission_selection",
+        "parameters": {
+          "predicates": {
+            "sky_opposes_earth": true
+          },
+          "method": "返吟"
+        }
+      },
+      "result": {
+        "selection": "control branch or specialized no-control six-day case; not generic follow-sky"
+      },
+      "exceptions": [
+        "此规则仅结构化选择条件；复杂初传取法未重新实现。",
+        "现有引擎八个分支函数包含返吟逻辑；本书九法分类不改写旧分支数。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "六壬大全九宗门",
+      "variant": "入式九法选段",
+      "difference": "",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s018",
+          "original_text": "返吟有克亦为用，无克别有井栏名。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t019",
+        "liuren.term.t004",
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r010",
+      "domain": "liuren",
+      "name": "月将节气表",
+      "conditions": [],
+      "inputs": {
+        "solar_term": "24节气之一"
+      },
+      "operation": {
+        "kind": "deterministic_base_step",
+        "parameters": {},
+        "provider": "tianji_kb.operations.liuren.month_general",
+        "source_id": "liuren.source.kinliuren-implementation"
+      },
+      "result": {
+        "general": "月将地支及名"
+      },
+      "exceptions": [
+        "顺取中末只适用于所引贼克常规关系，不用于伏吟、返吟等特殊课。",
+        "贵人变体仅为既有实现接口，不新增原典唯一正确断言。"
+      ],
+      "execution_status": "executable",
+      "school": "kinliuren 基础数据接口",
+      "variant": "existing-rules-v1；贵人须显式指定",
+      "difference": "不改旧规则；九宗门其他中末算法不可套用普通顺取。贵人版本是既有引擎选择，不声称四库先天贵人已统一。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s001",
+          "original_text": "月将加于正时，用五行论其克贼。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t001"
+      ]
+    },
+    {
+      "id": "liuren.rule.r011",
+      "domain": "liuren",
+      "name": "月将加时天地盘",
+      "conditions": [],
+      "inputs": {
+        "month_general": "地支",
+        "hour_branch": "地支"
+      },
+      "operation": {
+        "kind": "deterministic_base_step",
+        "parameters": {},
+        "provider": "tianji_kb.operations.liuren.sky_plate",
+        "source_id": "liuren.source.kinliuren-implementation"
+      },
+      "result": {
+        "sky": "地支→上神"
+      },
+      "exceptions": [
+        "顺取中末只适用于所引贼克常规关系，不用于伏吟、返吟等特殊课。",
+        "贵人变体仅为既有实现接口，不新增原典唯一正确断言。"
+      ],
+      "execution_status": "executable",
+      "school": "kinliuren 基础数据接口",
+      "variant": "existing-rules-v1；贵人须显式指定",
+      "difference": "不改旧规则；九宗门其他中末算法不可套用普通顺取。贵人版本是既有引擎选择，不声称四库先天贵人已统一。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s001",
+          "original_text": "月将加于正时，用五行论其克贼。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t001",
+        "liuren.term.t002",
+        "liuren.term.t003"
+      ]
+    },
+    {
+      "id": "liuren.rule.r012",
+      "domain": "liuren",
+      "name": "干支四课",
+      "conditions": [],
+      "inputs": {
+        "day_stem": "十干",
+        "day_branch": "地支",
+        "sky": "完整天地盘映射"
+      },
+      "operation": {
+        "kind": "deterministic_base_step",
+        "parameters": {},
+        "provider": "tianji_kb.operations.liuren.four_lessons",
+        "source_id": "liuren.source.kinliuren-implementation"
+      },
+      "result": {
+        "lessons": "一二三四课，upper/lower"
+      },
+      "exceptions": [
+        "顺取中末只适用于所引贼克常规关系，不用于伏吟、返吟等特殊课。",
+        "贵人变体仅为既有实现接口，不新增原典唯一正确断言。"
+      ],
+      "execution_status": "executable",
+      "school": "kinliuren 基础数据接口",
+      "variant": "existing-rules-v1；贵人须显式指定",
+      "difference": "不改旧规则；九宗门其他中末算法不可套用普通顺取。贵人版本是既有引擎选择，不声称四库先天贵人已统一。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s007",
+          "original_text": "甲课寅兮乙课辰，丙戊课巳不须论。丁己课未庚申上，辛戌壬亥是其真。癸课原来丑宫坐",
+          "role": "classical"
+        },
+        {
+          "source_id": "liuren.source.zhinan",
+          "section_id": "liuren.section.s003",
+          "original_text": "干上阳神为第一课，乃阳中之阳也；地支阴也，支上得者曰辰，支上阳神为第三课，乃阴中之阳也；干上阴神为第二课，乃阳中之阴也；支上阴神为第四课，乃阴中之阴也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t004",
+        "liuren.term.t008",
+        "liuren.term.t009"
+      ]
+    },
+    {
+      "id": "liuren.rule.r013",
+      "domain": "liuren",
+      "name": "已给初传的顺取中末",
+      "conditions": [],
+      "inputs": {
+        "initial": "已按适用方法确定的初传",
+        "sky": "天地盘映射"
+      },
+      "operation": {
+        "kind": "deterministic_base_step",
+        "parameters": {},
+        "provider": "tianji_kb.operations.liuren.follow_transmissions",
+        "source_id": "liuren.source.kinliuren-implementation"
+      },
+      "result": {
+        "transmissions": "初、sky[初]、sky[中]"
+      },
+      "exceptions": [
+        "顺取中末只适用于所引贼克常规关系，不用于伏吟、返吟等特殊课。",
+        "贵人变体仅为既有实现接口，不新增原典唯一正确断言。"
+      ],
+      "execution_status": "executable",
+      "school": "kinliuren 基础数据接口",
+      "variant": "existing-rules-v1；贵人须显式指定",
+      "difference": "不改旧规则；九宗门其他中末算法不可套用普通顺取。贵人版本是既有引擎选择，不声称四库先天贵人已统一。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s004",
+          "original_text": "初传之上名中次，中上加临是末居。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t005"
+      ]
+    },
+    {
+      "id": "liuren.rule.r014",
+      "domain": "liuren",
+      "name": "贵人起例显式版本",
+      "conditions": [],
+      "inputs": {
+        "day_stem": "十干",
+        "day_night": "昼/夜",
+        "variant": "0 or 1 required"
+      },
+      "operation": {
+        "kind": "deterministic_base_step",
+        "parameters": {},
+        "provider": "tianji_kb.operations.liuren.noble_start",
+        "source_id": "liuren.source.kinliuren-implementation"
+      },
+      "result": {
+        "branch": "既有版本贵人支",
+        "classical_review": "各日昼夜贵人全表尚待逐条古籍审核；接口可查旧表，但新增知识不标作全表已原典核定。"
+      },
+      "exceptions": [
+        "顺取中末只适用于所引贼克常规关系，不用于伏吟、返吟等特殊课。",
+        "贵人变体仅为既有实现接口，不新增原典唯一正确断言。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "kinliuren 基础数据接口",
+      "variant": "existing-rules-v1；贵人须显式指定",
+      "difference": "不改旧规则；九宗门其他中末算法不可套用普通顺取。贵人版本是既有引擎选择，不声称四库先天贵人已统一。",
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s006",
+          "original_text": "天乙贵人，己丑土，吉将也。为神将之主",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "liuren.term.t007"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "liuren.concept.general1",
+      "domain": "liuren",
+      "name": "贵人·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "贵人",
+        "element": "土",
+        "basic_connotation": "天乙贵人，己丑土，吉将也",
+        "traditional_luck_attribute": "吉将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "为神将之主",
+        "ganzhi_ascribed": "己丑",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s031",
+          "original_text": "天乙贵人，己丑土，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general2",
+      "domain": "liuren",
+      "name": "腾蛇·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "腾蛇",
+        "element": "火",
+        "basic_connotation": "螣蛇在天事天乙为车骑都尉，雷部鞭驭之神，位居前一家，丁巳火旺六十日，凶将也",
+        "traditional_luck_attribute": "凶将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居前一家",
+        "ganzhi_ascribed": "丁巳",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s032",
+          "original_text": "螣蛇在天事天乙为车骑都尉，雷部鞭驭之神，位居前一家，丁巳火旺六十日，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general3",
+      "domain": "liuren",
+      "name": "朱雀·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "朱雀",
+        "element": "火",
+        "basic_connotation": "朱雀在天事天乙为羽林将军，在雷部行火，亦名招风神",
+        "traditional_luck_attribute": "凶将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居前二家",
+        "ganzhi_ascribed": "丙午",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s033",
+          "original_text": "朱雀在天事天乙为羽林将军，在雷部行火，亦名招风神。位居前二家，丙午火，夏旺春相，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general4",
+      "domain": "liuren",
+      "name": "六合·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "六合",
+        "element": "木",
+        "basic_connotation": "六合在天为光禄大夫，雷部中雨师也",
+        "traditional_luck_attribute": "吉将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "为神将之主",
+        "ganzhi_ascribed": "乙卯",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s034",
+          "original_text": "六合在天为光禄大夫，雷部中雨师也。家乙卯木位，居前三，旺春三月、六乙日，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general5",
+      "domain": "liuren",
+      "name": "勾陈·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "勾陈",
+        "element": "土",
+        "basic_connotation": "勾陈在天为大将军，雷部中作唤云神",
+        "traditional_luck_attribute": "凶将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居前四",
+        "ganzhi_ascribed": "戊辰",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s035",
+          "original_text": "勾陈在天为大将军，雷部中作唤云神。位居前四，家戊辰，土旺四季，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general6",
+      "domain": "liuren",
+      "name": "青龙·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "青龙",
+        "element": "木",
+        "basic_connotation": "青龙在天为左丞相，雷部中作甘雨之神",
+        "traditional_luck_attribute": "吉将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居前五",
+        "ganzhi_ascribed": "甲寅",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s036",
+          "original_text": "青龙在天为左丞相，雷部中作甘雨之神。位居前五，家甲寅，木旺春三月，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general7",
+      "domain": "liuren",
+      "name": "天空·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "天空",
+        "element": "土",
+        "basic_connotation": "天空在天为司直官，雷部中为黄埃尘雾之神",
+        "traditional_luck_attribute": "凶将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居后六",
+        "ganzhi_ascribed": "戊戌",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s037",
+          "original_text": "天空在天为司直官，雷部中为黄埃尘雾之神。又为渴雨神。位居后六，家戊戌，土旺四季，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general8",
+      "domain": "liuren",
+      "name": "白虎·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "白虎",
+        "element": "金",
+        "basic_connotation": "白虎在天为廷尉卿，雷部者霹雳之神",
+        "traditional_luck_attribute": "凶将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居后五",
+        "ganzhi_ascribed": "庚申",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s038",
+          "original_text": "白虎在天为廷尉卿，雷部者霹雳之神。又为风伯，位居后五，家庚申，金旺秋三月，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general9",
+      "domain": "liuren",
+      "name": "太常·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "太常",
+        "element": "土",
+        "basic_connotation": "太常在天为太常卿，一云少府，雷部中养物之雨，淑气之风",
+        "traditional_luck_attribute": "吉将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居后四",
+        "ganzhi_ascribed": "己未",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s039",
+          "original_text": "太常在天为太常卿，一云少府，雷部中养物之雨，淑气之风。位居后四，家己未，土旺四季各十八日，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general10",
+      "domain": "liuren",
+      "name": "玄武·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "玄武",
+        "element": "水",
+        "basic_connotation": "玄武在天为后军，一云又将军，雷部中为苦雨神",
+        "traditional_luck_attribute": "凶将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居后三",
+        "ganzhi_ascribed": "癸亥",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s040",
+          "original_text": "玄武在天为后军，一云又将军，雷部中为苦雨神。位居后三，家癸亥，水旺冬三月，凶将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general11",
+      "domain": "liuren",
+      "name": "太阴·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "太阴",
+        "element": "金",
+        "basic_connotation": "太阴在天为御史大夫、中丞，又云天乙嫔妃彩女也，雷部中霜雪氷冻之神",
+        "traditional_luck_attribute": "吉将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居后二",
+        "ganzhi_ascribed": "辛酉",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": ""
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s041",
+          "original_text": "太阴在天为御史大夫、中丞，又云天乙嫔妃彩女也，雷部中霜雪氷冻之神。位居后二，家辛酉，金旺秋三月，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "liuren.concept.general12",
+      "domain": "liuren",
+      "name": "天后·原典天将属性",
+      "kind": "heavenly_general",
+      "attributes": {
+        "name": "天后",
+        "element": "水",
+        "basic_connotation": "天后在天事天乙为后妃，雷部阴霖雾雨之神",
+        "traditional_luck_attribute": "吉将",
+        "luck_scope": "仅记录原典分类，实际课中仍有生克旺衰条件；不生成现实断语。",
+        "position_statement": "位居前一",
+        "ganzhi_ascribed": "壬子",
+        "relationship_reference": "data/canonical/liuren/rules_v1.json#/heavenly_generals",
+        "variant_note": "天后段电子本写前一；其他总论列后一。保留文字，位置暂不编译。"
+      },
+      "source_refs": [
+        {
+          "source_id": "liuren.source.daquan",
+          "section_id": "liuren.section.s042",
+          "original_text": "天后在天事天乙为后妃，雷部阴霖雾雨之神。位居前一，家壬子，水旺冬三月，吉将也。",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

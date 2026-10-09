@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-10-01T22:46:34.146866+00:00",
+  "works": {
+    "ditiansui_chanwei": {
+      "title": "滴天髓阐微",
+      "domain": "bazi",
+      "repo": "garychowcmu/daizhigev20",
+      "source_path": "易藏/术数/滴天髓阐微.txt",
+      "snapshot_path": "data/quarantine/public_domain_snapshots/daizhigev20/ditiansui_chanwei.txt",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "sha256": "cabf39dc2aa08c71246f961b1d88a3a49d2b672b750e670dcc6a3f0bced15d85",
+      "bytes": 368684,
+      "promotion": "canonical",
+      "status": "ok"
+    },
+    "qiongtong_baojian": {
+      "title": "穷通宝鉴",
+      "domain": "bazi",
+      "repo": "garychowcmu/daizhigev20",
+      "source_path": "易藏/术数/穷通宝鉴.txt",
+      "snapshot_path": "data/quarantine/public_domain_snapshots/daizhigev20/qiongtong_baojian.txt",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "sha256": "e03f15b2a3e01b3c0e14c4ae2adb8b64f4bef1f2ad04cb71f62bd66707d0ef09",
+      "bytes": 87430,
+      "promotion": "canonical",
+      "status": "ok"
+    },
+    "sanming_tonghui": {
+      "title": "三命通会",
+      "domain": "bazi",
+      "repo": "garychowcmu/daizhigev20",
+      "source_path": "易藏/术数/三命通会.txt",
+      "snapshot_path": "data/quarantine/public_domain_snapshots/daizhigev20/sanming_tonghui.txt",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "sha256": "3808d56d1f226f89cec0c8c35627c156cd624e092c4e556a9c7e565593790bcf",
+      "bytes": 1342659,
+      "promotion": "quarantine_only",
+      "status": "ok"
+    },
+    "shenfeng_tongkao": {
+      "title": "神峰通考",
+      "domain": "bazi",
+      "repo": "garychowcmu/daizhigev20",
+      "source_path": "易藏/术数/神峰通考.txt",
+      "snapshot_path": "data/quarantine/public_domain_snapshots/daizhigev20/shenfeng_tongkao.txt",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "sha256": "81a6a348dba3d9692027872ebc55e4954ac25ff1d6c81300b5f32b2fb4143f63",
+      "bytes": 422432,
+      "promotion": "quarantine_only",
+      "status": "ok"
+    },
+    "xieji_bianfang": {
+      "title": "钦定协纪辨方书",
+      "domain": "zeri",
+      "repo": "garychowcmu/daizhigev20",
+      "source_path": "易藏/术数/钦定协纪辨方书.txt",
+      "snapshot_path": "data/quarantine/public_domain_snapshots/daizhigev20/xieji_bianfang.txt",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "sha256": "2678fde4c1100edea30101f9e64ee6a138b314c6c2a93d1e24d3f110a88c8bfe",
+      "bytes": 762673,
+      "promotion": "quarantine_only",
+      "status": "ok"
+    },
+    "yuanhai_ziping": {
+      "title": "渊海子平",
+      "domain": "bazi",
+      "repo": "garychowcmu/daizhigev20",
+      "source_path": "易藏/术数/渊海子平.txt",
+      "snapshot_path": "data/quarantine/public_domain_snapshots/daizhigev20/yuanhai_ziping.txt",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "sha256": "8773e648f89eb4e6ca114afe46e0d12e11f2115a737111d701bdb538d67658b1",
+      "bytes": 154655,
+      "promotion": "canonical",
+      "status": "ok"
+    },
+    "zhouyi_combined": {
+      "title": "周易经传合本",
+      "domain": "yijing",
+      "repo": "garychowcmu/daizhigev20",
+      "source_path": "易藏/易经/周易.txt",
+      "snapshot_path": "data/quarantine/public_domain_snapshots/daizhigev20/zhouyi_combined.txt",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "sha256": "d00aae9cb2df56db5765cee0253d38b393c32a1a56154730e74c0cd9ac2a9a9d",
+      "bytes": 86900,
+      "promotion": "manual_collated",
+      "status": "ok"
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,6798 @@
+{
+  "schema_version": "0.1",
+  "domain": "yijing",
+  "topic": "hexagram_relations",
+  "derivation": "Deterministically derived from lower/upper trigram binary forms; line order is bottom-to-top.",
+  "conventions": {
+    "opposite": "错卦：六爻阴阳全部反转",
+    "reversed": "综卦：六爻上下倒置",
+    "nuclear": "互卦：二三四爻组成下互，三四五爻组成上互",
+    "line_changes": "逐爻变：分别翻转初爻至上爻"
+  },
+  "records": [
+    {
+      "number": 1,
+      "short_name": "乾",
+      "full_name": "乾为天",
+      "upper_trigram": "乾",
+      "lower_trigram": "乾",
+      "binary_bottom_to_top": "111111",
+      "opposite": {
+        "number": 2,
+        "short_name": "坤",
+        "full_name": "坤为地",
+        "upper": "坤",
+        "lower": "坤",
+        "binary_bottom_to_top": "000000"
+      },
+      "reversed": {
+        "number": 1,
+        "short_name": "乾",
+        "full_name": "乾为天",
+        "upper": "乾",
+        "lower": "乾",
+        "binary_bottom_to_top": "111111"
+      },
+      "nuclear": {
+        "number": 1,
+        "short_name": "乾",
+        "full_name": "乾为天",
+        "upper": "乾",
+        "lower": "乾",
+        "binary_bottom_to_top": "111111"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "011111",
+          "target": {
+            "number": 44,
+            "short_name": "姤",
+            "full_name": "天风姤",
+            "upper": "乾",
+            "lower": "巽",
+            "binary_bottom_to_top": "011111"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "101111",
+          "target": {
+            "number": 13,
+            "short_name": "同人",
+            "full_name": "天火同人",
+            "upper": "乾",
+            "lower": "离",
+            "binary_bottom_to_top": "101111"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "110111",
+          "target": {
+            "number": 10,
+            "short_name": "履",
+            "full_name": "天泽履",
+            "upper": "乾",
+            "lower": "兑",
+            "binary_bottom_to_top": "110111"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "111011",
+          "target": {
+            "number": 9,
+            "short_name": "小畜",
+            "full_name": "风天小畜",
+            "upper": "巽",
+            "lower": "乾",
+            "binary_bottom_to_top": "111011"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "111101",
+          "target": {
+            "number": 14,
+            "short_name": "大有",
+            "full_name": "火天大有",
+            "upper": "离",
+            "lower": "乾",
+            "binary_bottom_to_top": "111101"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "111110",
+          "target": {
+            "number": 43,
+            "short_name": "夬",
+            "full_name": "泽天夬",
+            "upper": "兑",
+            "lower": "乾",
+            "binary_bottom_to_top": "111110"
+          }
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "short_name": "坤",
+      "full_name": "坤为地",
+      "upper_trigram": "坤",
+      "lower_trigram": "坤",
+      "binary_bottom_to_top": "000000",
+      "opposite": {
+        "number": 1,
+        "short_name": "乾",
+        "full_name": "乾为天",
+        "upper": "乾",
+        "lower": "乾",
+        "binary_bottom_to_top": "111111"
+      },
+      "reversed": {
+        "number": 2,
+        "short_name": "坤",
+        "full_name": "坤为地",
+        "upper": "坤",
+        "lower": "坤",
+        "binary_bottom_to_top": "000000"
+      },
+      "nuclear": {
+        "number": 2,
+        "short_name": "坤",
+        "full_name": "坤为地",
+        "upper": "坤",
+        "lower": "坤",
+        "binary_bottom_to_top": "000000"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "100000",
+          "target": {
+            "number": 24,
+            "short_name": "复",
+            "full_name": "地雷复",
+            "upper": "坤",
+            "lower": "震",
+            "binary_bottom_to_top": "100000"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "010000",
+          "target": {
+            "number": 7,
+            "short_name": "师",
+            "full_name": "地水师",
+            "upper": "坤",
+            "lower": "坎",
+            "binary_bottom_to_top": "010000"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "001000",
+          "target": {
+            "number": 15,
+            "short_name": "谦",
+            "full_name": "地山谦",
+            "upper": "坤",
+            "lower": "艮",
+            "binary_bottom_to_top": "001000"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "000100",
+          "target": {
+            "number": 16,
+            "short_name": "豫",
+            "full_name": "雷地豫",
+            "upper": "震",
+            "lower": "坤",
+            "binary_bottom_to_top": "000100"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "000010",
+          "target": {
+            "number": 8,
+            "short_name": "比",
+            "full_name": "水地比",
+            "upper": "坎",
+            "lower": "坤",
+            "binary_bottom_to_top": "000010"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "000001",
+          "target": {
+            "number": 23,
+            "short_name": "剥",
+            "full_name": "山地剥",
+            "upper": "艮",
+            "lower": "坤",
+            "binary_bottom_to_top": "000001"
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "short_name": "屯",
+      "full_name": "水雷屯",
+      "upper_trigram": "坎",
+      "lower_trigram": "震",
+      "binary_bottom_to_top": "100010",
+      "opposite": {
+        "number": 50,
+        "short_name": "鼎",
+        "full_name": "火风鼎",
+        "upper": "离",
+        "lower": "巽",
+        "binary_bottom_to_top": "011101"
+      },
+      "reversed": {
+        "number": 4,
+        "short_name": "蒙",
+        "full_name": "山水蒙",
+        "upper": "艮",
+        "lower": "坎",
+        "binary_bottom_to_top": "010001"
+      },
+      "nuclear": {
+        "number": 23,
+        "short_name": "剥",
+        "full_name": "山地剥",
+        "upper": "艮",
+        "lower": "坤",
+        "binary_bottom_to_top": "000001"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "000010",
+          "target": {
+            "number": 8,
+            "short_name": "比",
+            "full_name": "水地比",
+            "upper": "坎",
+            "lower": "坤",
+            "binary_bottom_to_top": "000010"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "110010",
+          "target": {
+            "number": 60,
+            "short_name": "节",
+            "full_name": "水泽节",
+            "upper": "坎",
+            "lower": "兑",
+            "binary_bottom_to_top": "110010"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "101010",
+          "target": {
+            "number": 63,
+            "short_name": "既济",
+            "full_name": "水火既济",
+            "upper": "坎",
+            "lower": "离",
+            "binary_bottom_to_top": "101010"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "100110",
+          "target": {
+            "number": 17,
+            "short_name": "随",
+            "full_name": "泽雷随",
+            "upper": "兑",
+            "lower": "震",
+            "binary_bottom_to_top": "100110"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "100000",
+          "target": {
+            "number": 24,
+            "short_name": "复",
+            "full_name": "地雷复",
+            "upper": "坤",
+            "lower": "震",
+            "binary_bottom_to_top": "100000"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "100011",
+          "target": {
+            "number": 42,
+            "short_name": "益",
+            "full_name": "风雷益",
+            "upper": "巽",
+            "lower": "震",
+            "binary_bottom_to_top": "100011"
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "short_name": "蒙",
+      "full_name": "山水蒙",
+      "upper_trigram": "艮",
+      "lower_trigram": "坎",
+      "binary_bottom_to_top": "010001",
+      "opposite": {
+        "number": 49,
+        "short_name": "革",
+        "full_name": "泽火革",
+        "upper": "兑",
+        "lower": "离",
+        "binary_bottom_to_top": "101110"
+      },
+      "reversed": {
+        "number": 3,
+        "short_name": "屯",
+        "full_name": "水雷屯",
+        "upper": "坎",
+        "lower": "震",
+        "binary_bottom_to_top": "100010"
+      },
+      "nuclear": {
+        "number": 24,
+        "short_name": "复",
+        "full_name": "地雷复",
+        "upper": "坤",
+        "lower": "震",
+        "binary_bottom_to_top": "100000"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "110001",
+          "target": {
+            "number": 41,
+            "short_name": "损",
+            "full_name": "山泽损",
+            "upper": "艮",
+            "lower": "兑",
+            "binary_bottom_to_top": "110001"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "000001",
+          "target": {
+            "number": 23,
+            "short_name": "剥",
+            "full_name": "山地剥",
+            "upper": "艮",
+            "lower": "坤",
+            "binary_bottom_to_top": "000001"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "011001",
+          "target": {
+            "number": 18,
+            "short_name": "蛊",
+            "full_name": "山风蛊",
+            "upper": "艮",
+            "lower": "巽",
+            "binary_bottom_to_top": "011001"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "010101",
+          "target": {
+            "number": 64,
+            "short_name": "未济",
+            "full_name": "火水未济",
+            "upper": "离",
+            "lower": "坎",
+            "binary_bottom_to_top": "010101"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "010011",
+          "target": {
+            "number": 59,
+            "short_name": "涣",
+            "full_name": "风水涣",
+            "upper": "巽",
+            "lower": "坎",
+            "binary_bottom_to_top": "010011"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "010000",
+          "target": {
+            "number": 7,
+            "short_name": "师",
+            "full_name": "地水师",
+            "upper": "坤",
+            "lower": "坎",
+            "binary_bottom_to_top": "010000"
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "short_name": "需",
+      "full_name": "水天需",
+      "upper_trigram": "坎",
+      "lower_trigram": "乾",
+      "binary_bottom_to_top": "111010",
+      "opposite": {
+        "number": 35,
+        "short_name": "晋",
+        "full_name": "火地晋",
+        "upper": "离",
+        "lower": "坤",
+        "binary_bottom_to_top": "000101"
+      },
+      "reversed": {
+        "number": 6,
+        "short_name": "讼",
+        "full_name": "天水讼",
+        "upper": "乾",
+        "lower": "坎",
+        "binary_bottom_to_top": "010111"
+      },
+      "nuclear": {
+        "number": 38,
+        "short_name": "睽",
+        "full_name": "火泽睽",
+        "upper": "离",
+        "lower": "兑",
+        "binary_bottom_to_top": "110101"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "011010",
+          "target": {
+            "number": 48,
+            "short_name": "井",
+            "full_name": "水风井",
+            "upper": "坎",
+            "lower": "巽",
+            "binary_bottom_to_top": "011010"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "101010",
+          "target": {
+            "number": 63,
+            "short_name": "既济",
+            "full_name": "水火既济",
+            "upper": "坎",
+            "lower": "离",
+            "binary_bottom_to_top": "101010"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "110010",
+          "target": {
+            "number": 60,
+            "short_name": "节",
+            "full_name": "水泽节",
+            "upper": "坎",
+            "lower": "兑",
+            "binary_bottom_to_top": "110010"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "111110",
+          "target": {
+            "number": 43,
+            "short_name": "夬",
+            "full_name": "泽天夬",
+            "upper": "兑",
+            "lower": "乾",
+            "binary_bottom_to_top": "111110"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "111000",
+          "target": {
+            "number": 11,
+            "short_name": "泰",
+            "full_name": "地天泰",
+            "upper": "坤",
+            "lower": "乾",
+            "binary_bottom_to_top": "111000"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "111011",
+          "target": {
+            "number": 9,
+            "short_name": "小畜",
+            "full_name": "风天小畜",
+            "upper": "巽",
+            "lower": "乾",
+            "binary_bottom_to_top": "111011"
+          }
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "short_name": "讼",
+      "full_name": "天水讼",
+      "upper_trigram": "乾",
+      "lower_trigram": "坎",
+      "binary_bottom_to_top": "010111",
+      "opposite": {
+        "number": 36,
+        "short_name": "明夷",
+        "full_name": "地火明夷",
+        "upper": "坤",
+        "lower": "离",
+        "binary_bottom_to_top": "101000"
+      },
+      "reversed": {
+        "number": 5,
+        "short_name": "需",
+        "full_name": "水天需",
+        "upper": "坎",
+        "lower": "乾",
+        "binary_bottom_to_top": "111010"
+      },
+      "nuclear": {
+        "number": 37,
+        "short_name": "家人",
+        "full_name": "风火家人",
+        "upper": "巽",
+        "lower": "离",
+        "binary_bottom_to_top": "101011"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "110111",
+          "target": {
+            "number": 10,
+            "short_name": "履",
+            "full_name": "天泽履",
+            "upper": "乾",
+            "lower": "兑",
+            "binary_bottom_to_top": "110111"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "000111",
+          "target": {
+            "number": 12,
+            "short_name": "否",
+            "full_name": "天地否",
+            "upper": "乾",
+            "lower": "坤",
+            "binary_bottom_to_top": "000111"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "011111",
+          "target": {
+            "number": 44,
+            "short_name": "姤",
+            "full_name": "天风姤",
+            "upper": "乾",
+            "lower": "巽",
+            "binary_bottom_to_top": "011111"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "010011",
+          "target": {
+            "number": 59,
+            "short_name": "涣",
+            "full_name": "风水涣",
+            "upper": "巽",
+            "lower": "坎",
+            "binary_bottom_to_top": "010011"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "010101",
+          "target": {
+            "number": 64,
+            "short_name": "未济",
+            "full_name": "火水未济",
+            "upper": "离",
+            "lower": "坎",
+            "binary_bottom_to_top": "010101"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "010110",
+          "target": {
+            "number": 47,
+            "short_name": "困",
+            "full_name": "泽水困",
+            "upper": "兑",
+            "lower": "坎",
+            "binary_bottom_to_top": "010110"
+          }
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "short_name": "师",
+      "full_name": "地水师",
+      "upper_trigram": "坤",
+      "lower_trigram": "坎",
+      "binary_bottom_to_top": "010000",
+      "opposite": {
+        "number": 13,
+        "short_name": "同人",
+        "full_name": "天火同人",
+        "upper": "乾",
+        "lower": "离",
+        "binary_bottom_to_top": "101111"
+      },
+      "reversed": {
+        "number": 8,
+        "short_name": "比",
+        "full_name": "水地比",
+        "upper": "坎",
+        "lower": "坤",
+        "binary_bottom_to_top": "000010"
+      },
+      "nuclear": {
+        "number": 24,
+        "short_name": "复",
+        "full_name": "地雷复",
+        "upper": "坤",
+        "lower": "震",
+        "binary_bottom_to_top": "100000"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "110000",
+          "target": {
+            "number": 19,
+            "short_name": "临",
+            "full_name": "地泽临",
+            "upper": "坤",
+            "lower": "兑",
+            "binary_bottom_to_top": "110000"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "000000",
+          "target": {
+            "number": 2,
+            "short_name": "坤",
+            "full_name": "坤为地",
+            "upper": "坤",
+            "lower": "坤",
+            "binary_bottom_to_top": "000000"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "011000",
+          "target": {
+            "number": 46,
+            "short_name": "升",
+            "full_name": "地风升",
+            "upper": "坤",
+            "lower": "巽",
+            "binary_bottom_to_top": "011000"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "010100",
+          "target": {
+            "number": 40,
+            "short_name": "解",
+            "full_name": "雷水解",
+            "upper": "震",
+            "lower": "坎",
+            "binary_bottom_to_top": "010100"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "010010",
+          "target": {
+            "number": 29,
+            "short_name": "坎",
+            "full_name": "坎为水",
+            "upper": "坎",
+            "lower": "坎",
+            "binary_bottom_to_top": "010010"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "010001",
+          "target": {
+            "number": 4,
+            "short_name": "蒙",
+            "full_name": "山水蒙",
+            "upper": "艮",
+            "lower": "坎",
+            "binary_bottom_to_top": "010001"
+          }
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "short_name": "比",
+      "full_name": "水地比",
+      "upper_trigram": "坎",
+      "lower_trigram": "坤",
+      "binary_bottom_to_top": "000010",
+      "opposite": {
+        "number": 14,
+        "short_name": "大有",
+        "full_name": "火天大有",
+        "upper": "离",
+        "lower": "乾",
+        "binary_bottom_to_top": "111101"
+      },
+      "reversed": {
+        "number": 7,
+        "short_name": "师",
+        "full_name": "地水师",
+        "upper": "坤",
+        "lower": "坎",
+        "binary_bottom_to_top": "010000"
+      },
+      "nuclear": {
+        "number": 23,
+        "short_name": "剥",
+        "full_name": "山地剥",
+        "upper": "艮",
+        "lower": "坤",
+        "binary_bottom_to_top": "000001"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "100010",
+          "target": {
+            "number": 3,
+            "short_name": "屯",
+            "full_name": "水雷屯",
+            "upper": "坎",
+            "lower": "震",
+            "binary_bottom_to_top": "100010"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "010010",
+          "target": {
+            "number": 29,
+            "short_name": "坎",
+            "full_name": "坎为水",
+            "upper": "坎",
+            "lower": "坎",
+            "binary_bottom_to_top": "010010"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "001010",
+          "target": {
+            "number": 39,
+            "short_name": "蹇",
+            "full_name": "水山蹇",
+            "upper": "坎",
+            "lower": "艮",
+            "binary_bottom_to_top": "001010"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "000110",
+          "target": {
+            "number": 45,
+            "short_name": "萃",
+            "full_name": "泽地萃",
+            "upper": "兑",
+            "lower": "坤",
+            "binary_bottom_to_top": "000110"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "000000",
+          "target": {
+            "number": 2,
+            "short_name": "坤",
+            "full_name": "坤为地",
+            "upper": "坤",
+            "lower": "坤",
+            "binary_bottom_to_top": "000000"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "000011",
+          "target": {
+            "number": 20,
+            "short_name": "观",
+            "full_name": "风地观",
+            "upper": "巽",
+            "lower": "坤",
+            "binary_bottom_to_top": "000011"
+          }
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "short_name": "小畜",
+      "full_name": "风天小畜",
+      "upper_trigram": "巽",
+      "lower_trigram": "乾",
+      "binary_bottom_to_top": "111011",
+      "opposite": {
+        "number": 16,
+        "short_name": "豫",
+        "full_name": "雷地豫",
+        "upper": "震",
+        "lower": "坤",
+        "binary_bottom_to_top": "000100"
+      },
+      "reversed": {
+        "number": 10,
+        "short_name": "履",
+        "full_name": "天泽履",
+        "upper": "乾",
+        "lower": "兑",
+        "binary_bottom_to_top": "110111"
+      },
+      "nuclear": {
+        "number": 38,
+        "short_name": "睽",
+        "full_name": "火泽睽",
+        "upper": "离",
+        "lower": "兑",
+        "binary_bottom_to_top": "110101"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "011011",
+          "target": {
+            "number": 57,
+            "short_name": "巽",
+            "full_name": "巽为风",
+            "upper": "巽",
+            "lower": "巽",
+            "binary_bottom_to_top": "011011"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "101011",
+          "target": {
+            "number": 37,
+            "short_name": "家人",
+            "full_name": "风火家人",
+            "upper": "巽",
+            "lower": "离",
+            "binary_bottom_to_top": "101011"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "110011",
+          "target": {
+            "number": 61,
+            "short_name": "中孚",
+            "full_name": "风泽中孚",
+            "upper": "巽",
+            "lower": "兑",
+            "binary_bottom_to_top": "110011"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "111111",
+          "target": {
+            "number": 1,
+            "short_name": "乾",
+            "full_name": "乾为天",
+            "upper": "乾",
+            "lower": "乾",
+            "binary_bottom_to_top": "111111"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "111001",
+          "target": {
+            "number": 26,
+            "short_name": "大畜",
+            "full_name": "山天大畜",
+            "upper": "艮",
+            "lower": "乾",
+            "binary_bottom_to_top": "111001"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "111010",
+          "target": {
+            "number": 5,
+            "short_name": "需",
+            "full_name": "水天需",
+            "upper": "坎",
+            "lower": "乾",
+            "binary_bottom_to_top": "111010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "short_name": "履",
+      "full_name": "天泽履",
+      "upper_trigram": "乾",
+      "lower_trigram": "兑",
+      "binary_bottom_to_top": "110111",
+      "opposite": {
+        "number": 15,
+        "short_name": "谦",
+        "full_name": "地山谦",
+        "upper": "坤",
+        "lower": "艮",
+        "binary_bottom_to_top": "001000"
+      },
+      "reversed": {
+        "number": 9,
+        "short_name": "小畜",
+        "full_name": "风天小畜",
+        "upper": "巽",
+        "lower": "乾",
+        "binary_bottom_to_top": "111011"
+      },
+      "nuclear": {
+        "number": 37,
+        "short_name": "家人",
+        "full_name": "风火家人",
+        "upper": "巽",
+        "lower": "离",
+        "binary_bottom_to_top": "101011"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "010111",
+          "target": {
+            "number": 6,
+            "short_name": "讼",
+            "full_name": "天水讼",
+            "upper": "乾",
+            "lower": "坎",
+            "binary_bottom_to_top": "010111"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "100111",
+          "target": {
+            "number": 25,
+            "short_name": "无妄",
+            "full_name": "天雷无妄",
+            "upper": "乾",
+            "lower": "震",
+            "binary_bottom_to_top": "100111"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "111111",
+          "target": {
+            "number": 1,
+            "short_name": "乾",
+            "full_name": "乾为天",
+            "upper": "乾",
+            "lower": "乾",
+            "binary_bottom_to_top": "111111"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "110011",
+          "target": {
+            "number": 61,
+            "short_name": "中孚",
+            "full_name": "风泽中孚",
+            "upper": "巽",
+            "lower": "兑",
+            "binary_bottom_to_top": "110011"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "110101",
+          "target": {
+            "number": 38,
+            "short_name": "睽",
+            "full_name": "火泽睽",
+            "upper": "离",
+            "lower": "兑",
+            "binary_bottom_to_top": "110101"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "110110",
+          "target": {
+            "number": 58,
+            "short_name": "兑",
+            "full_name": "兑为泽",
+            "upper": "兑",
+            "lower": "兑",
+            "binary_bottom_to_top": "110110"
+          }
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "short_name": "泰",
+      "full_name": "地天泰",
+      "upper_trigram": "坤",
+      "lower_trigram": "乾",
+      "binary_bottom_to_top": "111000",
+      "opposite": {
+        "number": 12,
+        "short_name": "否",
+        "full_name": "天地否",
+        "upper": "乾",
+        "lower": "坤",
+        "binary_bottom_to_top": "000111"
+      },
+      "reversed": {
+        "number": 12,
+        "short_name": "否",
+        "full_name": "天地否",
+        "upper": "乾",
+        "lower": "坤",
+        "binary_bottom_to_top": "000111"
+      },
+      "nuclear": {
+        "number": 54,
+        "short_name": "归妹",
+        "full_name": "雷泽归妹",
+        "upper": "震",
+        "lower": "兑",
+        "binary_bottom_to_top": "110100"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "011000",
+          "target": {
+            "number": 46,
+            "short_name": "升",
+            "full_name": "地风升",
+            "upper": "坤",
+            "lower": "巽",
+            "binary_bottom_to_top": "011000"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "101000",
+          "target": {
+            "number": 36,
+            "short_name": "明夷",
+            "full_name": "地火明夷",
+            "upper": "坤",
+            "lower": "离",
+            "binary_bottom_to_top": "101000"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "110000",
+          "target": {
+            "number": 19,
+            "short_name": "临",
+            "full_name": "地泽临",
+            "upper": "坤",
+            "lower": "兑",
+            "binary_bottom_to_top": "110000"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "111100",
+          "target": {
+            "number": 34,
+            "short_name": "大壮",
+            "full_name": "雷天大壮",
+            "upper": "震",
+            "lower": "乾",
+            "binary_bottom_to_top": "111100"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "111010",
+          "target": {
+            "number": 5,
+            "short_name": "需",
+            "full_name": "水天需",
+            "upper": "坎",
+            "lower": "乾",
+            "binary_bottom_to_top": "111010"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "111001",
+          "target": {
+            "number": 26,
+            "short_name": "大畜",
+            "full_name": "山天大畜",
+            "upper": "艮",
+            "lower": "乾",
+            "binary_bottom_to_top": "111001"
+          }
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "short_name": "否",
+      "full_name": "天地否",
+      "upper_trigram": "乾",
+      "lower_trigram": "坤",
+      "binary_bottom_to_top": "000111",
+      "opposite": {
+        "number": 11,
+        "short_name": "泰",
+        "full_name": "地天泰",
+        "upper": "坤",
+        "lower": "乾",
+        "binary_bottom_to_top": "111000"
+      },
+      "reversed": {
+        "number": 11,
+        "short_name": "泰",
+        "full_name": "地天泰",
+        "upper": "坤",
+        "lower": "乾",
+        "binary_bottom_to_top": "111000"
+      },
+      "nuclear": {
+        "number": 53,
+        "short_name": "渐",
+        "full_name": "风山渐",
+        "upper": "巽",
+        "lower": "艮",
+        "binary_bottom_to_top": "001011"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "100111",
+          "target": {
+            "number": 25,
+            "short_name": "无妄",
+            "full_name": "天雷无妄",
+            "upper": "乾",
+            "lower": "震",
+            "binary_bottom_to_top": "100111"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "010111",
+          "target": {
+            "number": 6,
+            "short_name": "讼",
+            "full_name": "天水讼",
+            "upper": "乾",
+            "lower": "坎",
+            "binary_bottom_to_top": "010111"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "001111",
+          "target": {
+            "number": 33,
+            "short_name": "遁",
+            "full_name": "天山遁",
+            "upper": "乾",
+            "lower": "艮",
+            "binary_bottom_to_top": "001111"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "000011",
+          "target": {
+            "number": 20,
+            "short_name": "观",
+            "full_name": "风地观",
+            "upper": "巽",
+            "lower": "坤",
+            "binary_bottom_to_top": "000011"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "000101",
+          "target": {
+            "number": 35,
+            "short_name": "晋",
+            "full_name": "火地晋",
+            "upper": "离",
+            "lower": "坤",
+            "binary_bottom_to_top": "000101"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "000110",
+          "target": {
+            "number": 45,
+            "short_name": "萃",
+            "full_name": "泽地萃",
+            "upper": "兑",
+            "lower": "坤",
+            "binary_bottom_to_top": "000110"
+          }
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "short_name": "同人",
+      "full_name": "天火同人",
+      "upper_trigram": "乾",
+      "lower_trigram": "离",
+      "binary_bottom_to_top": "101111",
+      "opposite": {
+        "number": 7,
+        "short_name": "师",
+        "full_name": "地水师",
+        "upper": "坤",
+        "lower": "坎",
+        "binary_bottom_to_top": "010000"
+      },
+      "reversed": {
+        "number": 14,
+        "short_name": "大有",
+        "full_name": "火天大有",
+        "upper": "离",
+        "lower": "乾",
+        "binary_bottom_to_top": "111101"
+      },
+      "nuclear": {
+        "number": 44,
+        "short_name": "姤",
+        "full_name": "天风姤",
+        "upper": "乾",
+        "lower": "巽",
+        "binary_bottom_to_top": "011111"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "001111",
+          "target": {
+            "number": 33,
+            "short_name": "遁",
+            "full_name": "天山遁",
+            "upper": "乾",
+            "lower": "艮",
+            "binary_bottom_to_top": "001111"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "111111",
+          "target": {
+            "number": 1,
+            "short_name": "乾",
+            "full_name": "乾为天",
+            "upper": "乾",
+            "lower": "乾",
+            "binary_bottom_to_top": "111111"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "100111",
+          "target": {
+            "number": 25,
+            "short_name": "无妄",
+            "full_name": "天雷无妄",
+            "upper": "乾",
+            "lower": "震",
+            "binary_bottom_to_top": "100111"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "101011",
+          "target": {
+            "number": 37,
+            "short_name": "家人",
+            "full_name": "风火家人",
+            "upper": "巽",
+            "lower": "离",
+            "binary_bottom_to_top": "101011"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "101101",
+          "target": {
+            "number": 30,
+            "short_name": "离",
+            "full_name": "离为火",
+            "upper": "离",
+            "lower": "离",
+            "binary_bottom_to_top": "101101"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "101110",
+          "target": {
+            "number": 49,
+            "short_name": "革",
+            "full_name": "泽火革",
+            "upper": "兑",
+            "lower": "离",
+            "binary_bottom_to_top": "101110"
+          }
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "short_name": "大有",
+      "full_name": "火天大有",
+      "upper_trigram": "离",
+      "lower_trigram": "乾",
+      "binary_bottom_to_top": "111101",
+      "opposite": {
+        "number": 8,
+        "short_name": "比",
+        "full_name": "水地比",
+        "upper": "坎",
+        "lower": "坤",
+        "binary_bottom_to_top": "000010"
+      },
+      "reversed": {
+        "number": 13,
+        "short_name": "同人",
+        "full_name": "天火同人",
+        "upper": "乾",
+        "lower": "离",
+        "binary_bottom_to_top": "101111"
+      },
+      "nuclear": {
+        "number": 43,
+        "short_name": "夬",
+        "full_name": "泽天夬",
+        "upper": "兑",
+        "lower": "乾",
+        "binary_bottom_to_top": "111110"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "011101",
+          "target": {
+            "number": 50,
+            "short_name": "鼎",
+            "full_name": "火风鼎",
+            "upper": "离",
+            "lower": "巽",
+            "binary_bottom_to_top": "011101"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "101101",
+          "target": {
+            "number": 30,
+            "short_name": "离",
+            "full_name": "离为火",
+            "upper": "离",
+            "lower": "离",
+            "binary_bottom_to_top": "101101"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "110101",
+          "target": {
+            "number": 38,
+            "short_name": "睽",
+            "full_name": "火泽睽",
+            "upper": "离",
+            "lower": "兑",
+            "binary_bottom_to_top": "110101"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "111001",
+          "target": {
+            "number": 26,
+            "short_name": "大畜",
+            "full_name": "山天大畜",
+            "upper": "艮",
+            "lower": "乾",
+            "binary_bottom_to_top": "111001"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "111111",
+          "target": {
+            "number": 1,
+            "short_name": "乾",
+            "full_name": "乾为天",
+            "upper": "乾",
+            "lower": "乾",
+            "binary_bottom_to_top": "111111"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "111100",
+          "target": {
+            "number": 34,
+            "short_name": "大壮",
+            "full_name": "雷天大壮",
+            "upper": "震",
+            "lower": "乾",
+            "binary_bottom_to_top": "111100"
+          }
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "short_name": "谦",
+      "full_name": "地山谦",
+      "upper_trigram": "坤",
+      "lower_trigram": "艮",
+      "binary_bottom_to_top": "001000",
+      "opposite": {
+        "number": 10,
+        "short_name": "履",
+        "full_name": "天泽履",
+        "upper": "乾",
+        "lower": "兑",
+        "binary_bottom_to_top": "110111"
+      },
+      "reversed": {
+        "number": 16,
+        "short_name": "豫",
+        "full_name": "雷地豫",
+        "upper": "震",
+        "lower": "坤",
+        "binary_bottom_to_top": "000100"
+      },
+      "nuclear": {
+        "number": 40,
+        "short_name": "解",
+        "full_name": "雷水解",
+        "upper": "震",
+        "lower": "坎",
+        "binary_bottom_to_top": "010100"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "101000",
+          "target": {
+            "number": 36,
+            "short_name": "明夷",
+            "full_name": "地火明夷",
+            "upper": "坤",
+            "lower": "离",
+            "binary_bottom_to_top": "101000"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "011000",
+          "target": {
+            "number": 46,
+            "short_name": "升",
+            "full_name": "地风升",
+            "upper": "坤",
+            "lower": "巽",
+            "binary_bottom_to_top": "011000"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "000000",
+          "target": {
+            "number": 2,
+            "short_name": "坤",
+            "full_name": "坤为地",
+            "upper": "坤",
+            "lower": "坤",
+            "binary_bottom_to_top": "000000"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "001100",
+          "target": {
+            "number": 62,
+            "short_name": "小过",
+            "full_name": "雷山小过",
+            "upper": "震",
+            "lower": "艮",
+            "binary_bottom_to_top": "001100"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "001010",
+          "target": {
+            "number": 39,
+            "short_name": "蹇",
+            "full_name": "水山蹇",
+            "upper": "坎",
+            "lower": "艮",
+            "binary_bottom_to_top": "001010"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "001001",
+          "target": {
+            "number": 52,
+            "short_name": "艮",
+            "full_name": "艮为山",
+            "upper": "艮",
+            "lower": "艮",
+            "binary_bottom_to_top": "001001"
+          }
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "short_name": "豫",
+      "full_name": "雷地豫",
+      "upper_trigram": "震",
+      "lower_trigram": "坤",
+      "binary_bottom_to_top": "000100",
+      "opposite": {
+        "number": 9,
+        "short_name": "小畜",
+        "full_name": "风天小畜",
+        "upper": "巽",
+        "lower": "乾",
+        "binary_bottom_to_top": "111011"
+      },
+      "reversed": {
+        "number": 15,
+        "short_name": "谦",
+        "full_name": "地山谦",
+        "upper": "坤",
+        "lower": "艮",
+        "binary_bottom_to_top": "001000"
+      },
+      "nuclear": {
+        "number": 39,
+        "short_name": "蹇",
+        "full_name": "水山蹇",
+        "upper": "坎",
+        "lower": "艮",
+        "binary_bottom_to_top": "001010"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "100100",
+          "target": {
+            "number": 51,
+            "short_name": "震",
+            "full_name": "震为雷",
+            "upper": "震",
+            "lower": "震",
+            "binary_bottom_to_top": "100100"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "010100",
+          "target": {
+            "number": 40,
+            "short_name": "解",
+            "full_name": "雷水解",
+            "upper": "震",
+            "lower": "坎",
+            "binary_bottom_to_top": "010100"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "001100",
+          "target": {
+            "number": 62,
+            "short_name": "小过",
+            "full_name": "雷山小过",
+            "upper": "震",
+            "lower": "艮",
+            "binary_bottom_to_top": "001100"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "000000",
+          "target": {
+            "number": 2,
+            "short_name": "坤",
+            "full_name": "坤为地",
+            "upper": "坤",
+            "lower": "坤",
+            "binary_bottom_to_top": "000000"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "000110",
+          "target": {
+            "number": 45,
+            "short_name": "萃",
+            "full_name": "泽地萃",
+            "upper": "兑",
+            "lower": "坤",
+            "binary_bottom_to_top": "000110"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "000101",
+          "target": {
+            "number": 35,
+            "short_name": "晋",
+            "full_name": "火地晋",
+            "upper": "离",
+            "lower": "坤",
+            "binary_bottom_to_top": "000101"
+          }
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "short_name": "随",
+      "full_name": "泽雷随",
+      "upper_trigram": "兑",
+      "lower_trigram": "震",
+      "binary_bottom_to_top": "100110",
+      "opposite": {
+        "number": 18,
+        "short_name": "蛊",
+        "full_name": "山风蛊",
+        "upper": "艮",
+        "lower": "巽",
+        "binary_bottom_to_top": "011001"
+      },
+      "reversed": {
+        "number": 18,
+        "short_name": "蛊",
+        "full_name": "山风蛊",
+        "upper": "艮",
+        "lower": "巽",
+        "binary_bottom_to_top": "011001"
+      },
+      "nuclear": {
+        "number": 53,
+        "short_name": "渐",
+        "full_name": "风山渐",
+        "upper": "巽",
+        "lower": "艮",
+        "binary_bottom_to_top": "001011"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "000110",
+          "target": {
+            "number": 45,
+            "short_name": "萃",
+            "full_name": "泽地萃",
+            "upper": "兑",
+            "lower": "坤",
+            "binary_bottom_to_top": "000110"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "110110",
+          "target": {
+            "number": 58,
+            "short_name": "兑",
+            "full_name": "兑为泽",
+            "upper": "兑",
+            "lower": "兑",
+            "binary_bottom_to_top": "110110"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "101110",
+          "target": {
+            "number": 49,
+            "short_name": "革",
+            "full_name": "泽火革",
+            "upper": "兑",
+            "lower": "离",
+            "binary_bottom_to_top": "101110"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "100010",
+          "target": {
+            "number": 3,
+            "short_name": "屯",
+            "full_name": "水雷屯",
+            "upper": "坎",
+            "lower": "震",
+            "binary_bottom_to_top": "100010"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "100100",
+          "target": {
+            "number": 51,
+            "short_name": "震",
+            "full_name": "震为雷",
+            "upper": "震",
+            "lower": "震",
+            "binary_bottom_to_top": "100100"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "100111",
+          "target": {
+            "number": 25,
+            "short_name": "无妄",
+            "full_name": "天雷无妄",
+            "upper": "乾",
+            "lower": "震",
+            "binary_bottom_to_top": "100111"
+          }
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "short_name": "蛊",
+      "full_name": "山风蛊",
+      "upper_trigram": "艮",
+      "lower_trigram": "巽",
+      "binary_bottom_to_top": "011001",
+      "opposite": {
+        "number": 17,
+        "short_name": "随",
+        "full_name": "泽雷随",
+        "upper": "兑",
+        "lower": "震",
+        "binary_bottom_to_top": "100110"
+      },
+      "reversed": {
+        "number": 17,
+        "short_name": "随",
+        "full_name": "泽雷随",
+        "upper": "兑",
+        "lower": "震",
+        "binary_bottom_to_top": "100110"
+      },
+      "nuclear": {
+        "number": 54,
+        "short_name": "归妹",
+        "full_name": "雷泽归妹",
+        "upper": "震",
+        "lower": "兑",
+        "binary_bottom_to_top": "110100"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "111001",
+          "target": {
+            "number": 26,
+            "short_name": "大畜",
+            "full_name": "山天大畜",
+            "upper": "艮",
+            "lower": "乾",
+            "binary_bottom_to_top": "111001"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "001001",
+          "target": {
+            "number": 52,
+            "short_name": "艮",
+            "full_name": "艮为山",
+            "upper": "艮",
+            "lower": "艮",
+            "binary_bottom_to_top": "001001"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "010001",
+          "target": {
+            "number": 4,
+            "short_name": "蒙",
+            "full_name": "山水蒙",
+            "upper": "艮",
+            "lower": "坎",
+            "binary_bottom_to_top": "010001"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "011101",
+          "target": {
+            "number": 50,
+            "short_name": "鼎",
+            "full_name": "火风鼎",
+            "upper": "离",
+            "lower": "巽",
+            "binary_bottom_to_top": "011101"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "011011",
+          "target": {
+            "number": 57,
+            "short_name": "巽",
+            "full_name": "巽为风",
+            "upper": "巽",
+            "lower": "巽",
+            "binary_bottom_to_top": "011011"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "011000",
+          "target": {
+            "number": 46,
+            "short_name": "升",
+            "full_name": "地风升",
+            "upper": "坤",
+            "lower": "巽",
+            "binary_bottom_to_top": "011000"
+          }
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "short_name": "临",
+      "full_name": "地泽临",
+      "upper_trigram": "坤",
+      "lower_trigram": "兑",
+      "binary_bottom_to_top": "110000",
+      "opposite": {
+        "number": 33,
+        "short_name": "遁",
+        "full_name": "天山遁",
+        "upper": "乾",
+        "lower": "艮",
+        "binary_bottom_to_top": "001111"
+      },
+      "reversed": {
+        "number": 20,
+        "short_name": "观",
+        "full_name": "风地观",
+        "upper": "巽",
+        "lower": "坤",
+        "binary_bottom_to_top": "000011"
+      },
+      "nuclear": {
+        "number": 24,
+        "short_name": "复",
+        "full_name": "地雷复",
+        "upper": "坤",
+        "lower": "震",
+        "binary_bottom_to_top": "100000"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "010000",
+          "target": {
+            "number": 7,
+            "short_name": "师",
+            "full_name": "地水师",
+            "upper": "坤",
+            "lower": "坎",
+            "binary_bottom_to_top": "010000"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "100000",
+          "target": {
+            "number": 24,
+            "short_name": "复",
+            "full_name": "地雷复",
+            "upper": "坤",
+            "lower": "震",
+            "binary_bottom_to_top": "100000"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "111000",
+          "target": {
+            "number": 11,
+            "short_name": "泰",
+            "full_name": "地天泰",
+            "upper": "坤",
+            "lower": "乾",
+            "binary_bottom_to_top": "111000"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "110100",
+          "target": {
+            "number": 54,
+            "short_name": "归妹",
+            "full_name": "雷泽归妹",
+            "upper": "震",
+            "lower": "兑",
+            "binary_bottom_to_top": "110100"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "110010",
+          "target": {
+            "number": 60,
+            "short_name": "节",
+            "full_name": "水泽节",
+            "upper": "坎",
+            "lower": "兑",
+            "binary_bottom_to_top": "110010"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "110001",
+          "target": {
+            "number": 41,
+            "short_name": "损",
+            "full_name": "山泽损",
+            "upper": "艮",
+            "lower": "兑",
+            "binary_bottom_to_top": "110001"
+          }
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "short_name": "观",
+      "full_name": "风地观",
+      "upper_trigram": "巽",
+      "lower_trigram": "坤",
+      "binary_bottom_to_top": "000011",
+      "opposite": {
+        "number": 34,
+        "short_name": "大壮",
+        "full_name": "雷天大壮",
+        "upper": "震",
+        "lower": "乾",
+        "binary_bottom_to_top": "111100"
+      },
+      "reversed": {
+        "number": 19,
+        "short_name": "临",
+        "full_name": "地泽临",
+        "upper": "坤",
+        "lower": "兑",
+        "binary_bottom_to_top": "110000"
+      },
+      "nuclear": {
+        "number": 23,
+        "short_name": "剥",
+        "full_name": "山地剥",
+        "upper": "艮",
+        "lower": "坤",
+        "binary_bottom_to_top": "000001"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "100011",
+          "target": {
+            "number": 42,
+            "short_name": "益",
+            "full_name": "风雷益",
+            "upper": "巽",
+            "lower": "震",
+            "binary_bottom_to_top": "100011"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "010011",
+          "target": {
+            "number": 59,
+            "short_name": "涣",
+            "full_name": "风水涣",
+            "upper": "巽",
+            "lower": "坎",
+            "binary_bottom_to_top": "010011"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "001011",
+          "target": {
+            "number": 53,
+            "short_name": "渐",
+            "full_name": "风山渐",
+            "upper": "巽",
+            "lower": "艮",
+            "binary_bottom_to_top": "001011"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "000111",
+          "target": {
+            "number": 12,
+            "short_name": "否",
+            "full_name": "天地否",
+            "upper": "乾",
+            "lower": "坤",
+            "binary_bottom_to_top": "000111"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "000001",
+          "target": {
+            "number": 23,
+            "short_name": "剥",
+            "full_name": "山地剥",
+            "upper": "艮",
+            "lower": "坤",
+            "binary_bottom_to_top": "000001"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "000010",
+          "target": {
+            "number": 8,
+            "short_name": "比",
+            "full_name": "水地比",
+            "upper": "坎",
+            "lower": "坤",
+            "binary_bottom_to_top": "000010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "short_name": "噬嗑",
+      "full_name": "火雷噬嗑",
+      "upper_trigram": "离",
+      "lower_trigram": "震",
+      "binary_bottom_to_top": "100101",
+      "opposite": {
+        "number": 48,
+        "short_name": "井",
+        "full_name": "水风井",
+        "upper": "坎",
+        "lower": "巽",
+        "binary_bottom_to_top": "011010"
+      },
+      "reversed": {
+        "number": 22,
+        "short_name": "贲",
+        "full_name": "山火贲",
+        "upper": "艮",
+        "lower": "离",
+        "binary_bottom_to_top": "101001"
+      },
+      "nuclear": {
+        "number": 39,
+        "short_name": "蹇",
+        "full_name": "水山蹇",
+        "upper": "坎",
+        "lower": "艮",
+        "binary_bottom_to_top": "001010"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "000101",
+          "target": {
+            "number": 35,
+            "short_name": "晋",
+            "full_name": "火地晋",
+            "upper": "离",
+            "lower": "坤",
+            "binary_bottom_to_top": "000101"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "110101",
+          "target": {
+            "number": 38,
+            "short_name": "睽",
+            "full_name": "火泽睽",
+            "upper": "离",
+            "lower": "兑",
+            "binary_bottom_to_top": "110101"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "101101",
+          "target": {
+            "number": 30,
+            "short_name": "离",
+            "full_name": "离为火",
+            "upper": "离",
+            "lower": "离",
+            "binary_bottom_to_top": "101101"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "100001",
+          "target": {
+            "number": 27,
+            "short_name": "颐",
+            "full_name": "山雷颐",
+            "upper": "艮",
+            "lower": "震",
+            "binary_bottom_to_top": "100001"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "100111",
+          "target": {
+            "number": 25,
+            "short_name": "无妄",
+            "full_name": "天雷无妄",
+            "upper": "乾",
+            "lower": "震",
+            "binary_bottom_to_top": "100111"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "100100",
+          "target": {
+            "number": 51,
+            "short_name": "震",
+            "full_name": "震为雷",
+            "upper": "震",
+            "lower": "震",
+            "binary_bottom_to_top": "100100"
+          }
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "short_name": "贲",
+      "full_name": "山火贲",
+      "upper_trigram": "艮",
+      "lower_trigram": "离",
+      "binary_bottom_to_top": "101001",
+      "opposite": {
+        "number": 47,
+        "short_name": "困",
+        "full_name": "泽水困",
+        "upper": "兑",
+        "lower": "坎",
+        "binary_bottom_to_top": "010110"
+      },
+      "reversed": {
+        "number": 21,
+        "short_name": "噬嗑",
+        "full_name": "火雷噬嗑",
+        "upper": "离",
+        "lower": "震",
+        "binary_bottom_to_top": "100101"
+      },
+      "nuclear": {
+        "number": 40,
+        "short_name": "解",
+        "full_name": "雷水解",
+        "upper": "震",
+        "lower": "坎",
+        "binary_bottom_to_top": "010100"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "001001",
+          "target": {
+            "number": 52,
+            "short_name": "艮",
+            "full_name": "艮为山",
+            "upper": "艮",
+            "lower": "艮",
+            "binary_bottom_to_top": "001001"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "111001",
+          "target": {
+            "number": 26,
+            "short_name": "大畜",
+            "full_name": "山天大畜",
+            "upper": "艮",
+            "lower": "乾",
+            "binary_bottom_to_top": "111001"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "100001",
+          "target": {
+            "number": 27,
+            "short_name": "颐",
+            "full_name": "山雷颐",
+            "upper": "艮",
+            "lower": "震",
+            "binary_bottom_to_top": "100001"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "101101",
+          "target": {
+            "number": 30,
+            "short_name": "离",
+            "full_name": "离为火",
+            "upper": "离",
+            "lower": "离",
+            "binary_bottom_to_top": "101101"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "101011",
+          "target": {
+            "number": 37,
+            "short_name": "家人",
+            "full_name": "风火家人",
+            "upper": "巽",
+            "lower": "离",
+            "binary_bottom_to_top": "101011"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "101000",
+          "target": {
+            "number": 36,
+            "short_name": "明夷",
+            "full_name": "地火明夷",
+            "upper": "坤",
+            "lower": "离",
+            "binary_bottom_to_top": "101000"
+          }
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "short_name": "剥",
+      "full_name": "山地剥",
+      "upper_trigram": "艮",
+      "lower_trigram": "坤",
+      "binary_bottom_to_top": "000001",
+      "opposite": {
+        "number": 43,
+        "short_name": "夬",
+        "full_name": "泽天夬",
+        "upper": "兑",
+        "lower": "乾",
+        "binary_bottom_to_top": "111110"
+      },
+      "reversed": {
+        "number": 24,
+        "short_name": "复",
+        "full_name": "地雷复",
+        "upper": "坤",
+        "lower": "震",
+        "binary_bottom_to_top": "100000"
+      },
+      "nuclear": {
+        "number": 2,
+        "short_name": "坤",
+        "full_name": "坤为地",
+        "upper": "坤",
+        "lower": "坤",
+        "binary_bottom_to_top": "000000"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "100001",
+          "target": {
+            "number": 27,
+            "short_name": "颐",
+            "full_name": "山雷颐",
+            "upper": "艮",
+            "lower": "震",
+            "binary_bottom_to_top": "100001"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "010001",
+          "target": {
+            "number": 4,
+            "short_name": "蒙",
+            "full_name": "山水蒙",
+            "upper": "艮",
+            "lower": "坎",
+            "binary_bottom_to_top": "010001"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "001001",
+          "target": {
+            "number": 52,
+            "short_name": "艮",
+            "full_name": "艮为山",
+            "upper": "艮",
+            "lower": "艮",
+            "binary_bottom_to_top": "001001"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "000101",
+          "target": {
+            "number": 35,
+            "short_name": "晋",
+            "full_name": "火地晋",
+            "upper": "离",
+            "lower": "坤",
+            "binary_bottom_to_top": "000101"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "000011",
+          "target": {
+            "number": 20,
+            "short_name": "观",
+            "full_name": "风地观",
+            "upper": "巽",
+            "lower": "坤",
+            "binary_bottom_to_top": "000011"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "000000",
+          "target": {
+            "number": 2,
+            "short_name": "坤",
+            "full_name": "坤为地",
+            "upper": "坤",
+            "lower": "坤",
+            "binary_bottom_to_top": "000000"
+          }
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "short_name": "复",
+      "full_name": "地雷复",
+      "upper_trigram": "坤",
+      "lower_trigram": "震",
+      "binary_bottom_to_top": "100000",
+      "opposite": {
+        "number": 44,
+        "short_name": "姤",
+        "full_name": "天风姤",
+        "upper": "乾",
+        "lower": "巽",
+        "binary_bottom_to_top": "011111"
+      },
+      "reversed": {
+        "number": 23,
+        "short_name": "剥",
+        "full_name": "山地剥",
+        "upper": "艮",
+        "lower": "坤",
+        "binary_bottom_to_top": "000001"
+      },
+      "nuclear": {
+        "number": 2,
+        "short_name": "坤",
+        "full_name": "坤为地",
+        "upper": "坤",
+        "lower": "坤",
+        "binary_bottom_to_top": "000000"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "000000",
+          "target": {
+            "number": 2,
+            "short_name": "坤",
+            "full_name": "坤为地",
+            "upper": "坤",
+            "lower": "坤",
+            "binary_bottom_to_top": "000000"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "110000",
+          "target": {
+            "number": 19,
+            "short_name": "临",
+            "full_name": "地泽临",
+            "upper": "坤",
+            "lower": "兑",
+            "binary_bottom_to_top": "110000"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "101000",
+          "target": {
+            "number": 36,
+            "short_name": "明夷",
+            "full_name": "地火明夷",
+            "upper": "坤",
+            "lower": "离",
+            "binary_bottom_to_top": "101000"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "100100",
+          "target": {
+            "number": 51,
+            "short_name": "震",
+            "full_name": "震为雷",
+            "upper": "震",
+            "lower": "震",
+            "binary_bottom_to_top": "100100"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "100010",
+          "target": {
+            "number": 3,
+            "short_name": "屯",
+            "full_name": "水雷屯",
+            "upper": "坎",
+            "lower": "震",
+            "binary_bottom_to_top": "100010"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "100001",
+          "target": {
+            "number": 27,
+            "short_name": "颐",
+            "full_name": "山雷颐",
+            "upper": "艮",
+            "lower": "震",
+            "binary_bottom_to_top": "100001"
+          }
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "short_name": "无妄",
+      "full_name": "天雷无妄",
+      "upper_trigram": "乾",
+      "lower_trigram": "震",
+      "binary_bottom_to_top": "100111",
+      "opposite": {
+        "number": 46,
+        "short_name": "升",
+        "full_name": "地风升",
+        "upper": "坤",
+        "lower": "巽",
+        "binary_bottom_to_top": "011000"
+      },
+      "reversed": {
+        "number": 26,
+        "short_name": "大畜",
+        "full_name": "山天大畜",
+        "upper": "艮",
+        "lower": "乾",
+        "binary_bottom_to_top": "111001"
+      },
+      "nuclear": {
+        "number": 53,
+        "short_name": "渐",
+        "full_name": "风山渐",
+        "upper": "巽",
+        "lower": "艮",
+        "binary_bottom_to_top": "001011"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "000111",
+          "target": {
+            "number": 12,
+            "short_name": "否",
+            "full_name": "天地否",
+            "upper": "乾",
+            "lower": "坤",
+            "binary_bottom_to_top": "000111"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "110111",
+          "target": {
+            "number": 10,
+            "short_name": "履",
+            "full_name": "天泽履",
+            "upper": "乾",
+            "lower": "兑",
+            "binary_bottom_to_top": "110111"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "101111",
+          "target": {
+            "number": 13,
+            "short_name": "同人",
+            "full_name": "天火同人",
+            "upper": "乾",
+            "lower": "离",
+            "binary_bottom_to_top": "101111"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "100011",
+          "target": {
+            "number": 42,
+            "short_name": "益",
+            "full_name": "风雷益",
+            "upper": "巽",
+            "lower": "震",
+            "binary_bottom_to_top": "100011"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "100101",
+          "target": {
+            "number": 21,
+            "short_name": "噬嗑",
+            "full_name": "火雷噬嗑",
+            "upper": "离",
+            "lower": "震",
+            "binary_bottom_to_top": "100101"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "100110",
+          "target": {
+            "number": 17,
+            "short_name": "随",
+            "full_name": "泽雷随",
+            "upper": "兑",
+            "lower": "震",
+            "binary_bottom_to_top": "100110"
+          }
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "short_name": "大畜",
+      "full_name": "山天大畜",
+      "upper_trigram": "艮",
+      "lower_trigram": "乾",
+      "binary_bottom_to_top": "111001",
+      "opposite": {
+        "number": 45,
+        "short_name": "萃",
+        "full_name": "泽地萃",
+        "upper": "兑",
+        "lower": "坤",
+        "binary_bottom_to_top": "000110"
+      },
+      "reversed": {
+        "number": 25,
+        "short_name": "无妄",
+        "full_name": "天雷无妄",
+        "upper": "乾",
+        "lower": "震",
+        "binary_bottom_to_top": "100111"
+      },
+      "nuclear": {
+        "number": 54,
+        "short_name": "归妹",
+        "full_name": "雷泽归妹",
+        "upper": "震",
+        "lower": "兑",
+        "binary_bottom_to_top": "110100"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "011001",
+          "target": {
+            "number": 18,
+            "short_name": "蛊",
+            "full_name": "山风蛊",
+            "upper": "艮",
+            "lower": "巽",
+            "binary_bottom_to_top": "011001"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "101001",
+          "target": {
+            "number": 22,
+            "short_name": "贲",
+            "full_name": "山火贲",
+            "upper": "艮",
+            "lower": "离",
+            "binary_bottom_to_top": "101001"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "110001",
+          "target": {
+            "number": 41,
+            "short_name": "损",
+            "full_name": "山泽损",
+            "upper": "艮",
+            "lower": "兑",
+            "binary_bottom_to_top": "110001"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "111101",
+          "target": {
+            "number": 14,
+            "short_name": "大有",
+            "full_name": "火天大有",
+            "upper": "离",
+            "lower": "乾",
+            "binary_bottom_to_top": "111101"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "111011",
+          "target": {
+            "number": 9,
+            "short_name": "小畜",
+            "full_name": "风天小畜",
+            "upper": "巽",
+            "lower": "乾",
+            "binary_bottom_to_top": "111011"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "111000",
+          "target": {
+            "number": 11,
+            "short_name": "泰",
+            "full_name": "地天泰",
+            "upper": "坤",
+            "lower": "乾",
+            "binary_bottom_to_top": "111000"
+          }
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "short_name": "颐",
+      "full_name": "山雷颐",
+      "upper_trigram": "艮",
+      "lower_trigram": "震",
+      "binary_bottom_to_top": "100001",
+      "opposite": {
+        "number": 28,
+        "short_name": "大过",
+        "full_name": "泽风大过",
+        "upper": "兑",
+        "lower": "巽",
+        "binary_bottom_to_top": "011110"
+      },
+      "reversed": {
+        "number": 27,
+        "short_name": "颐",
+        "full_name": "山雷颐",
+        "upper": "艮",
+        "lower": "震",
+        "binary_bottom_to_top": "100001"
+      },
+      "nuclear": {
+        "number": 2,
+        "short_name": "坤",
+        "full_name": "坤为地",
+        "upper": "坤",
+        "lower": "坤",
+        "binary_bottom_to_top": "000000"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "000001",
+          "target": {
+            "number": 23,
+            "short_name": "剥",
+            "full_name": "山地剥",
+            "upper": "艮",
+            "lower": "坤",
+            "binary_bottom_to_top": "000001"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "110001",
+          "target": {
+            "number": 41,
+            "short_name": "损",
+            "full_name": "山泽损",
+            "upper": "艮",
+            "lower": "兑",
+            "binary_bottom_to_top": "110001"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "101001",
+          "target": {
+            "number": 22,
+            "short_name": "贲",
+            "full_name": "山火贲",
+            "upper": "艮",
+            "lower": "离",
+            "binary_bottom_to_top": "101001"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "100101",
+          "target": {
+            "number": 21,
+            "short_name": "噬嗑",
+            "full_name": "火雷噬嗑",
+            "upper": "离",
+            "lower": "震",
+            "binary_bottom_to_top": "100101"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "100011",
+          "target": {
+            "number": 42,
+            "short_name": "益",
+            "full_name": "风雷益",
+            "upper": "巽",
+            "lower": "震",
+            "binary_bottom_to_top": "100011"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "100000",
+          "target": {
+            "number": 24,
+            "short_name": "复",
+            "full_name": "地雷复",
+            "upper": "坤",
+            "lower": "震",
+            "binary_bottom_to_top": "100000"
+          }
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "short_name": "大过",
+      "full_name": "泽风大过",
+      "upper_trigram": "兑",
+      "lower_trigram": "巽",
+      "binary_bottom_to_top": "011110",
+      "opposite": {
+        "number": 27,
+        "short_name": "颐",
+        "full_name": "山雷颐",
+        "upper": "艮",
+        "lower": "震",
+        "binary_bottom_to_top": "100001"
+      },
+      "reversed": {
+        "number": 28,
+        "short_name": "大过",
+        "full_name": "泽风大过",
+        "upper": "兑",
+        "lower": "巽",
+        "binary_bottom_to_top": "011110"
+      },
+      "nuclear": {
+        "number": 1,
+        "short_name": "乾",
+        "full_name": "乾为天",
+        "upper": "乾",
+        "lower": "乾",
+        "binary_bottom_to_top": "111111"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "111110",
+          "target": {
+            "number": 43,
+            "short_name": "夬",
+            "full_name": "泽天夬",
+            "upper": "兑",
+            "lower": "乾",
+            "binary_bottom_to_top": "111110"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "001110",
+          "target": {
+            "number": 31,
+            "short_name": "咸",
+            "full_name": "泽山咸",
+            "upper": "兑",
+            "lower": "艮",
+            "binary_bottom_to_top": "001110"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "010110",
+          "target": {
+            "number": 47,
+            "short_name": "困",
+            "full_name": "泽水困",
+            "upper": "兑",
+            "lower": "坎",
+            "binary_bottom_to_top": "010110"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "011010",
+          "target": {
+            "number": 48,
+            "short_name": "井",
+            "full_name": "水风井",
+            "upper": "坎",
+            "lower": "巽",
+            "binary_bottom_to_top": "011010"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "011100",
+          "target": {
+            "number": 32,
+            "short_name": "恒",
+            "full_name": "雷风恒",
+            "upper": "震",
+            "lower": "巽",
+            "binary_bottom_to_top": "011100"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "011111",
+          "target": {
+            "number": 44,
+            "short_name": "姤",
+            "full_name": "天风姤",
+            "upper": "乾",
+            "lower": "巽",
+            "binary_bottom_to_top": "011111"
+          }
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "short_name": "坎",
+      "full_name": "坎为水",
+      "upper_trigram": "坎",
+      "lower_trigram": "坎",
+      "binary_bottom_to_top": "010010",
+      "opposite": {
+        "number": 30,
+        "short_name": "离",
+        "full_name": "离为火",
+        "upper": "离",
+        "lower": "离",
+        "binary_bottom_to_top": "101101"
+      },
+      "reversed": {
+        "number": 29,
+        "short_name": "坎",
+        "full_name": "坎为水",
+        "upper": "坎",
+        "lower": "坎",
+        "binary_bottom_to_top": "010010"
+      },
+      "nuclear": {
+        "number": 27,
+        "short_name": "颐",
+        "full_name": "山雷颐",
+        "upper": "艮",
+        "lower": "震",
+        "binary_bottom_to_top": "100001"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "110010",
+          "target": {
+            "number": 60,
+            "short_name": "节",
+            "full_name": "水泽节",
+            "upper": "坎",
+            "lower": "兑",
+            "binary_bottom_to_top": "110010"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "000010",
+          "target": {
+            "number": 8,
+            "short_name": "比",
+            "full_name": "水地比",
+            "upper": "坎",
+            "lower": "坤",
+            "binary_bottom_to_top": "000010"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "011010",
+          "target": {
+            "number": 48,
+            "short_name": "井",
+            "full_name": "水风井",
+            "upper": "坎",
+            "lower": "巽",
+            "binary_bottom_to_top": "011010"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "010110",
+          "target": {
+            "number": 47,
+            "short_name": "困",
+            "full_name": "泽水困",
+            "upper": "兑",
+            "lower": "坎",
+            "binary_bottom_to_top": "010110"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "010000",
+          "target": {
+            "number": 7,
+            "short_name": "师",
+            "full_name": "地水师",
+            "upper": "坤",
+            "lower": "坎",
+            "binary_bottom_to_top": "010000"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "010011",
+          "target": {
+            "number": 59,
+            "short_name": "涣",
+            "full_name": "风水涣",
+            "upper": "巽",
+            "lower": "坎",
+            "binary_bottom_to_top": "010011"
+          }
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "short_name": "离",
+      "full_name": "离为火",
+      "upper_trigram": "离",
+      "lower_trigram": "离",
+      "binary_bottom_to_top": "101101",
+      "opposite": {
+        "number": 29,
+        "short_name": "坎",
+        "full_name": "坎为水",
+        "upper": "坎",
+        "lower": "坎",
+        "binary_bottom_to_top": "010010"
+      },
+      "reversed": {
+        "number": 30,
+        "short_name": "离",
+        "full_name": "离为火",
+        "upper": "离",
+        "lower": "离",
+        "binary_bottom_to_top": "101101"
+      },
+      "nuclear": {
+        "number": 28,
+        "short_name": "大过",
+        "full_name": "泽风大过",
+        "upper": "兑",
+        "lower": "巽",
+        "binary_bottom_to_top": "011110"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "001101",
+          "target": {
+            "number": 56,
+            "short_name": "旅",
+            "full_name": "火山旅",
+            "upper": "离",
+            "lower": "艮",
+            "binary_bottom_to_top": "001101"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "111101",
+          "target": {
+            "number": 14,
+            "short_name": "大有",
+            "full_name": "火天大有",
+            "upper": "离",
+            "lower": "乾",
+            "binary_bottom_to_top": "111101"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "100101",
+          "target": {
+            "number": 21,
+            "short_name": "噬嗑",
+            "full_name": "火雷噬嗑",
+            "upper": "离",
+            "lower": "震",
+            "binary_bottom_to_top": "100101"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "101001",
+          "target": {
+            "number": 22,
+            "short_name": "贲",
+            "full_name": "山火贲",
+            "upper": "艮",
+            "lower": "离",
+            "binary_bottom_to_top": "101001"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "101111",
+          "target": {
+            "number": 13,
+            "short_name": "同人",
+            "full_name": "天火同人",
+            "upper": "乾",
+            "lower": "离",
+            "binary_bottom_to_top": "101111"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "101100",
+          "target": {
+            "number": 55,
+            "short_name": "丰",
+            "full_name": "雷火丰",
+            "upper": "震",
+            "lower": "离",
+            "binary_bottom_to_top": "101100"
+          }
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "short_name": "咸",
+      "full_name": "泽山咸",
+      "upper_trigram": "兑",
+      "lower_trigram": "艮",
+      "binary_bottom_to_top": "001110",
+      "opposite": {
+        "number": 41,
+        "short_name": "损",
+        "full_name": "山泽损",
+        "upper": "艮",
+        "lower": "兑",
+        "binary_bottom_to_top": "110001"
+      },
+      "reversed": {
+        "number": 32,
+        "short_name": "恒",
+        "full_name": "雷风恒",
+        "upper": "震",
+        "lower": "巽",
+        "binary_bottom_to_top": "011100"
+      },
+      "nuclear": {
+        "number": 44,
+        "short_name": "姤",
+        "full_name": "天风姤",
+        "upper": "乾",
+        "lower": "巽",
+        "binary_bottom_to_top": "011111"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "101110",
+          "target": {
+            "number": 49,
+            "short_name": "革",
+            "full_name": "泽火革",
+            "upper": "兑",
+            "lower": "离",
+            "binary_bottom_to_top": "101110"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "011110",
+          "target": {
+            "number": 28,
+            "short_name": "大过",
+            "full_name": "泽风大过",
+            "upper": "兑",
+            "lower": "巽",
+            "binary_bottom_to_top": "011110"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "000110",
+          "target": {
+            "number": 45,
+            "short_name": "萃",
+            "full_name": "泽地萃",
+            "upper": "兑",
+            "lower": "坤",
+            "binary_bottom_to_top": "000110"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "001010",
+          "target": {
+            "number": 39,
+            "short_name": "蹇",
+            "full_name": "水山蹇",
+            "upper": "坎",
+            "lower": "艮",
+            "binary_bottom_to_top": "001010"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "001100",
+          "target": {
+            "number": 62,
+            "short_name": "小过",
+            "full_name": "雷山小过",
+            "upper": "震",
+            "lower": "艮",
+            "binary_bottom_to_top": "001100"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "001111",
+          "target": {
+            "number": 33,
+            "short_name": "遁",
+            "full_name": "天山遁",
+            "upper": "乾",
+            "lower": "艮",
+            "binary_bottom_to_top": "001111"
+          }
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "short_name": "恒",
+      "full_name": "雷风恒",
+      "upper_trigram": "震",
+      "lower_trigram": "巽",
+      "binary_bottom_to_top": "011100",
+      "opposite": {
+        "number": 42,
+        "short_name": "益",
+        "full_name": "风雷益",
+        "upper": "巽",
+        "lower": "震",
+        "binary_bottom_to_top": "100011"
+      },
+      "reversed": {
+        "number": 31,
+        "short_name": "咸",
+        "full_name": "泽山咸",
+        "upper": "兑",
+        "lower": "艮",
+        "binary_bottom_to_top": "001110"
+      },
+      "nuclear": {
+        "number": 43,
+        "short_name": "夬",
+        "full_name": "泽天夬",
+        "upper": "兑",
+        "lower": "乾",
+        "binary_bottom_to_top": "111110"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "111100",
+          "target": {
+            "number": 34,
+            "short_name": "大壮",
+            "full_name": "雷天大壮",
+            "upper": "震",
+            "lower": "乾",
+            "binary_bottom_to_top": "111100"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "001100",
+          "target": {
+            "number": 62,
+            "short_name": "小过",
+            "full_name": "雷山小过",
+            "upper": "震",
+            "lower": "艮",
+            "binary_bottom_to_top": "001100"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "010100",
+          "target": {
+            "number": 40,
+            "short_name": "解",
+            "full_name": "雷水解",
+            "upper": "震",
+            "lower": "坎",
+            "binary_bottom_to_top": "010100"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "011000",
+          "target": {
+            "number": 46,
+            "short_name": "升",
+            "full_name": "地风升",
+            "upper": "坤",
+            "lower": "巽",
+            "binary_bottom_to_top": "011000"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "011110",
+          "target": {
+            "number": 28,
+            "short_name": "大过",
+            "full_name": "泽风大过",
+            "upper": "兑",
+            "lower": "巽",
+            "binary_bottom_to_top": "011110"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "011101",
+          "target": {
+            "number": 50,
+            "short_name": "鼎",
+            "full_name": "火风鼎",
+            "upper": "离",
+            "lower": "巽",
+            "binary_bottom_to_top": "011101"
+          }
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "short_name": "遁",
+      "full_name": "天山遁",
+      "upper_trigram": "乾",
+      "lower_trigram": "艮",
+      "binary_bottom_to_top": "001111",
+      "opposite": {
+        "number": 19,
+        "short_name": "临",
+        "full_name": "地泽临",
+        "upper": "坤",
+        "lower": "兑",
+        "binary_bottom_to_top": "110000"
+      },
+      "reversed": {
+        "number": 34,
+        "short_name": "大壮",
+        "full_name": "雷天大壮",
+        "upper": "震",
+        "lower": "乾",
+        "binary_bottom_to_top": "111100"
+      },
+      "nuclear": {
+        "number": 44,
+        "short_name": "姤",
+        "full_name": "天风姤",
+        "upper": "乾",
+        "lower": "巽",
+        "binary_bottom_to_top": "011111"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "101111",
+          "target": {
+            "number": 13,
+            "short_name": "同人",
+            "full_name": "天火同人",
+            "upper": "乾",
+            "lower": "离",
+            "binary_bottom_to_top": "101111"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "011111",
+          "target": {
+            "number": 44,
+            "short_name": "姤",
+            "full_name": "天风姤",
+            "upper": "乾",
+            "lower": "巽",
+            "binary_bottom_to_top": "011111"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "000111",
+          "target": {
+            "number": 12,
+            "short_name": "否",
+            "full_name": "天地否",
+            "upper": "乾",
+            "lower": "坤",
+            "binary_bottom_to_top": "000111"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "001011",
+          "target": {
+            "number": 53,
+            "short_name": "渐",
+            "full_name": "风山渐",
+            "upper": "巽",
+            "lower": "艮",
+            "binary_bottom_to_top": "001011"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "001101",
+          "target": {
+            "number": 56,
+            "short_name": "旅",
+            "full_name": "火山旅",
+            "upper": "离",
+            "lower": "艮",
+            "binary_bottom_to_top": "001101"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "001110",
+          "target": {
+            "number": 31,
+            "short_name": "咸",
+            "full_name": "泽山咸",
+            "upper": "兑",
+            "lower": "艮",
+            "binary_bottom_to_top": "001110"
+          }
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "short_name": "大壮",
+      "full_name": "雷天大壮",
+      "upper_trigram": "震",
+      "lower_trigram": "乾",
+      "binary_bottom_to_top": "111100",
+      "opposite": {
+        "number": 20,
+        "short_name": "观",
+        "full_name": "风地观",
+        "upper": "巽",
+        "lower": "坤",
+        "binary_bottom_to_top": "000011"
+      },
+      "reversed": {
+        "number": 33,
+        "short_name": "遁",
+        "full_name": "天山遁",
+        "upper": "乾",
+        "lower": "艮",
+        "binary_bottom_to_top": "001111"
+      },
+      "nuclear": {
+        "number": 43,
+        "short_name": "夬",
+        "full_name": "泽天夬",
+        "upper": "兑",
+        "lower": "乾",
+        "binary_bottom_to_top": "111110"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "011100",
+          "target": {
+            "number": 32,
+            "short_name": "恒",
+            "full_name": "雷风恒",
+            "upper": "震",
+            "lower": "巽",
+            "binary_bottom_to_top": "011100"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "101100",
+          "target": {
+            "number": 55,
+            "short_name": "丰",
+            "full_name": "雷火丰",
+            "upper": "震",
+            "lower": "离",
+            "binary_bottom_to_top": "101100"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "110100",
+          "target": {
+            "number": 54,
+            "short_name": "归妹",
+            "full_name": "雷泽归妹",
+            "upper": "震",
+            "lower": "兑",
+            "binary_bottom_to_top": "110100"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "111000",
+          "target": {
+            "number": 11,
+            "short_name": "泰",
+            "full_name": "地天泰",
+            "upper": "坤",
+            "lower": "乾",
+            "binary_bottom_to_top": "111000"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "111110",
+          "target": {
+            "number": 43,
+            "short_name": "夬",
+            "full_name": "泽天夬",
+            "upper": "兑",
+            "lower": "乾",
+            "binary_bottom_to_top": "111110"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "111101",
+          "target": {
+            "number": 14,
+            "short_name": "大有",
+            "full_name": "火天大有",
+            "upper": "离",
+            "lower": "乾",
+            "binary_bottom_to_top": "111101"
+          }
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "short_name": "晋",
+      "full_name": "火地晋",
+      "upper_trigram": "离",
+      "lower_trigram": "坤",
+      "binary_bottom_to_top": "000101",
+      "opposite": {
+        "number": 5,
+        "short_name": "需",
+        "full_name": "水天需",
+        "upper": "坎",
+        "lower": "乾",
+        "binary_bottom_to_top": "111010"
+      },
+      "reversed": {
+        "number": 36,
+        "short_name": "明夷",
+        "full_name": "地火明夷",
+        "upper": "坤",
+        "lower": "离",
+        "binary_bottom_to_top": "101000"
+      },
+      "nuclear": {
+        "number": 39,
+        "short_name": "蹇",
+        "full_name": "水山蹇",
+        "upper": "坎",
+        "lower": "艮",
+        "binary_bottom_to_top": "001010"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "100101",
+          "target": {
+            "number": 21,
+            "short_name": "噬嗑",
+            "full_name": "火雷噬嗑",
+            "upper": "离",
+            "lower": "震",
+            "binary_bottom_to_top": "100101"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "010101",
+          "target": {
+            "number": 64,
+            "short_name": "未济",
+            "full_name": "火水未济",
+            "upper": "离",
+            "lower": "坎",
+            "binary_bottom_to_top": "010101"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "001101",
+          "target": {
+            "number": 56,
+            "short_name": "旅",
+            "full_name": "火山旅",
+            "upper": "离",
+            "lower": "艮",
+            "binary_bottom_to_top": "001101"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "000001",
+          "target": {
+            "number": 23,
+            "short_name": "剥",
+            "full_name": "山地剥",
+            "upper": "艮",
+            "lower": "坤",
+            "binary_bottom_to_top": "000001"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "000111",
+          "target": {
+            "number": 12,
+            "short_name": "否",
+            "full_name": "天地否",
+            "upper": "乾",
+            "lower": "坤",
+            "binary_bottom_to_top": "000111"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "000100",
+          "target": {
+            "number": 16,
+            "short_name": "豫",
+            "full_name": "雷地豫",
+            "upper": "震",
+            "lower": "坤",
+            "binary_bottom_to_top": "000100"
+          }
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "short_name": "明夷",
+      "full_name": "地火明夷",
+      "upper_trigram": "坤",
+      "lower_trigram": "离",
+      "binary_bottom_to_top": "101000",
+      "opposite": {
+        "number": 6,
+        "short_name": "讼",
+        "full_name": "天水讼",
+        "upper": "乾",
+        "lower": "坎",
+        "binary_bottom_to_top": "010111"
+      },
+      "reversed": {
+        "number": 35,
+        "short_name": "晋",
+        "full_name": "火地晋",
+        "upper": "离",
+        "lower": "坤",
+        "binary_bottom_to_top": "000101"
+      },
+      "nuclear": {
+        "number": 40,
+        "short_name": "解",
+        "full_name": "雷水解",
+        "upper": "震",
+        "lower": "坎",
+        "binary_bottom_to_top": "010100"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "001000",
+          "target": {
+            "number": 15,
+            "short_name": "谦",
+            "full_name": "地山谦",
+            "upper": "坤",
+            "lower": "艮",
+            "binary_bottom_to_top": "001000"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "111000",
+          "target": {
+            "number": 11,
+            "short_name": "泰",
+            "full_name": "地天泰",
+            "upper": "坤",
+            "lower": "乾",
+            "binary_bottom_to_top": "111000"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "100000",
+          "target": {
+            "number": 24,
+            "short_name": "复",
+            "full_name": "地雷复",
+            "upper": "坤",
+            "lower": "震",
+            "binary_bottom_to_top": "100000"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "101100",
+          "target": {
+            "number": 55,
+            "short_name": "丰",
+            "full_name": "雷火丰",
+            "upper": "震",
+            "lower": "离",
+            "binary_bottom_to_top": "101100"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "101010",
+          "target": {
+            "number": 63,
+            "short_name": "既济",
+            "full_name": "水火既济",
+            "upper": "坎",
+            "lower": "离",
+            "binary_bottom_to_top": "101010"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "101001",
+          "target": {
+            "number": 22,
+            "short_name": "贲",
+            "full_name": "山火贲",
+            "upper": "艮",
+            "lower": "离",
+            "binary_bottom_to_top": "101001"
+          }
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "short_name": "家人",
+      "full_name": "风火家人",
+      "upper_trigram": "巽",
+      "lower_trigram": "离",
+      "binary_bottom_to_top": "101011",
+      "opposite": {
+        "number": 40,
+        "short_name": "解",
+        "full_name": "雷水解",
+        "upper": "震",
+        "lower": "坎",
+        "binary_bottom_to_top": "010100"
+      },
+      "reversed": {
+        "number": 38,
+        "short_name": "睽",
+        "full_name": "火泽睽",
+        "upper": "离",
+        "lower": "兑",
+        "binary_bottom_to_top": "110101"
+      },
+      "nuclear": {
+        "number": 64,
+        "short_name": "未济",
+        "full_name": "火水未济",
+        "upper": "离",
+        "lower": "坎",
+        "binary_bottom_to_top": "010101"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "001011",
+          "target": {
+            "number": 53,
+            "short_name": "渐",
+            "full_name": "风山渐",
+            "upper": "巽",
+            "lower": "艮",
+            "binary_bottom_to_top": "001011"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "111011",
+          "target": {
+            "number": 9,
+            "short_name": "小畜",
+            "full_name": "风天小畜",
+            "upper": "巽",
+            "lower": "乾",
+            "binary_bottom_to_top": "111011"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "100011",
+          "target": {
+            "number": 42,
+            "short_name": "益",
+            "full_name": "风雷益",
+            "upper": "巽",
+            "lower": "震",
+            "binary_bottom_to_top": "100011"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "101111",
+          "target": {
+            "number": 13,
+            "short_name": "同人",
+            "full_name": "天火同人",
+            "upper": "乾",
+            "lower": "离",
+            "binary_bottom_to_top": "101111"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "101001",
+          "target": {
+            "number": 22,
+            "short_name": "贲",
+            "full_name": "山火贲",
+            "upper": "艮",
+            "lower": "离",
+            "binary_bottom_to_top": "101001"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "101010",
+          "target": {
+            "number": 63,
+            "short_name": "既济",
+            "full_name": "水火既济",
+            "upper": "坎",
+            "lower": "离",
+            "binary_bottom_to_top": "101010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "short_name": "睽",
+      "full_name": "火泽睽",
+      "upper_trigram": "离",
+      "lower_trigram": "兑",
+      "binary_bottom_to_top": "110101",
+      "opposite": {
+        "number": 39,
+        "short_name": "蹇",
+        "full_name": "水山蹇",
+        "upper": "坎",
+        "lower": "艮",
+        "binary_bottom_to_top": "001010"
+      },
+      "reversed": {
+        "number": 37,
+        "short_name": "家人",
+        "full_name": "风火家人",
+        "upper": "巽",
+        "lower": "离",
+        "binary_bottom_to_top": "101011"
+      },
+      "nuclear": {
+        "number": 63,
+        "short_name": "既济",
+        "full_name": "水火既济",
+        "upper": "坎",
+        "lower": "离",
+        "binary_bottom_to_top": "101010"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "010101",
+          "target": {
+            "number": 64,
+            "short_name": "未济",
+            "full_name": "火水未济",
+            "upper": "离",
+            "lower": "坎",
+            "binary_bottom_to_top": "010101"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "100101",
+          "target": {
+            "number": 21,
+            "short_name": "噬嗑",
+            "full_name": "火雷噬嗑",
+            "upper": "离",
+            "lower": "震",
+            "binary_bottom_to_top": "100101"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "111101",
+          "target": {
+            "number": 14,
+            "short_name": "大有",
+            "full_name": "火天大有",
+            "upper": "离",
+            "lower": "乾",
+            "binary_bottom_to_top": "111101"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "110001",
+          "target": {
+            "number": 41,
+            "short_name": "损",
+            "full_name": "山泽损",
+            "upper": "艮",
+            "lower": "兑",
+            "binary_bottom_to_top": "110001"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "110111",
+          "target": {
+            "number": 10,
+            "short_name": "履",
+            "full_name": "天泽履",
+            "upper": "乾",
+            "lower": "兑",
+            "binary_bottom_to_top": "110111"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "110100",
+          "target": {
+            "number": 54,
+            "short_name": "归妹",
+            "full_name": "雷泽归妹",
+            "upper": "震",
+            "lower": "兑",
+            "binary_bottom_to_top": "110100"
+          }
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "short_name": "蹇",
+      "full_name": "水山蹇",
+      "upper_trigram": "坎",
+      "lower_trigram": "艮",
+      "binary_bottom_to_top": "001010",
+      "opposite": {
+        "number": 38,
+        "short_name": "睽",
+        "full_name": "火泽睽",
+        "upper": "离",
+        "lower": "兑",
+        "binary_bottom_to_top": "110101"
+      },
+      "reversed": {
+        "number": 40,
+        "short_name": "解",
+        "full_name": "雷水解",
+        "upper": "震",
+        "lower": "坎",
+        "binary_bottom_to_top": "010100"
+      },
+      "nuclear": {
+        "number": 64,
+        "short_name": "未济",
+        "full_name": "火水未济",
+        "upper": "离",
+        "lower": "坎",
+        "binary_bottom_to_top": "010101"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "101010",
+          "target": {
+            "number": 63,
+            "short_name": "既济",
+            "full_name": "水火既济",
+            "upper": "坎",
+            "lower": "离",
+            "binary_bottom_to_top": "101010"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "011010",
+          "target": {
+            "number": 48,
+            "short_name": "井",
+            "full_name": "水风井",
+            "upper": "坎",
+            "lower": "巽",
+            "binary_bottom_to_top": "011010"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "000010",
+          "target": {
+            "number": 8,
+            "short_name": "比",
+            "full_name": "水地比",
+            "upper": "坎",
+            "lower": "坤",
+            "binary_bottom_to_top": "000010"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "001110",
+          "target": {
+            "number": 31,
+            "short_name": "咸",
+            "full_name": "泽山咸",
+            "upper": "兑",
+            "lower": "艮",
+            "binary_bottom_to_top": "001110"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "001000",
+          "target": {
+            "number": 15,
+            "short_name": "谦",
+            "full_name": "地山谦",
+            "upper": "坤",
+            "lower": "艮",
+            "binary_bottom_to_top": "001000"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "001011",
+          "target": {
+            "number": 53,
+            "short_name": "渐",
+            "full_name": "风山渐",
+            "upper": "巽",
+            "lower": "艮",
+            "binary_bottom_to_top": "001011"
+          }
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "short_name": "解",
+      "full_name": "雷水解",
+      "upper_trigram": "震",
+      "lower_trigram": "坎",
+      "binary_bottom_to_top": "010100",
+      "opposite": {
+        "number": 37,
+        "short_name": "家人",
+        "full_name": "风火家人",
+        "upper": "巽",
+        "lower": "离",
+        "binary_bottom_to_top": "101011"
+      },
+      "reversed": {
+        "number": 39,
+        "short_name": "蹇",
+        "full_name": "水山蹇",
+        "upper": "坎",
+        "lower": "艮",
+        "binary_bottom_to_top": "001010"
+      },
+      "nuclear": {
+        "number": 63,
+        "short_name": "既济",
+        "full_name": "水火既济",
+        "upper": "坎",
+        "lower": "离",
+        "binary_bottom_to_top": "101010"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "110100",
+          "target": {
+            "number": 54,
+            "short_name": "归妹",
+            "full_name": "雷泽归妹",
+            "upper": "震",
+            "lower": "兑",
+            "binary_bottom_to_top": "110100"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "000100",
+          "target": {
+            "number": 16,
+            "short_name": "豫",
+            "full_name": "雷地豫",
+            "upper": "震",
+            "lower": "坤",
+            "binary_bottom_to_top": "000100"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "011100",
+          "target": {
+            "number": 32,
+            "short_name": "恒",
+            "full_name": "雷风恒",
+            "upper": "震",
+            "lower": "巽",
+            "binary_bottom_to_top": "011100"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "010000",
+          "target": {
+            "number": 7,
+            "short_name": "师",
+            "full_name": "地水师",
+            "upper": "坤",
+            "lower": "坎",
+            "binary_bottom_to_top": "010000"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "010110",
+          "target": {
+            "number": 47,
+            "short_name": "困",
+            "full_name": "泽水困",
+            "upper": "兑",
+            "lower": "坎",
+            "binary_bottom_to_top": "010110"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "010101",
+          "target": {
+            "number": 64,
+            "short_name": "未济",
+            "full_name": "火水未济",
+            "upper": "离",
+            "lower": "坎",
+            "binary_bottom_to_top": "010101"
+          }
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "short_name": "损",
+      "full_name": "山泽损",
+      "upper_trigram": "艮",
+      "lower_trigram": "兑",
+      "binary_bottom_to_top": "110001",
+      "opposite": {
+        "number": 31,
+        "short_name": "咸",
+        "full_name": "泽山咸",
+        "upper": "兑",
+        "lower": "艮",
+        "binary_bottom_to_top": "001110"
+      },
+      "reversed": {
+        "number": 42,
+        "short_name": "益",
+        "full_name": "风雷益",
+        "upper": "巽",
+        "lower": "震",
+        "binary_bottom_to_top": "100011"
+      },
+      "nuclear": {
+        "number": 24,
+        "short_name": "复",
+        "full_name": "地雷复",
+        "upper": "坤",
+        "lower": "震",
+        "binary_bottom_to_top": "100000"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "010001",
+          "target": {
+            "number": 4,
+            "short_name": "蒙",
+            "full_name": "山水蒙",
+            "upper": "艮",
+            "lower": "坎",
+            "binary_bottom_to_top": "010001"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "100001",
+          "target": {
+            "number": 27,
+            "short_name": "颐",
+            "full_name": "山雷颐",
+            "upper": "艮",
+            "lower": "震",
+            "binary_bottom_to_top": "100001"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "111001",
+          "target": {
+            "number": 26,
+            "short_name": "大畜",
+            "full_name": "山天大畜",
+            "upper": "艮",
+            "lower": "乾",
+            "binary_bottom_to_top": "111001"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "110101",
+          "target": {
+            "number": 38,
+            "short_name": "睽",
+            "full_name": "火泽睽",
+            "upper": "离",
+            "lower": "兑",
+            "binary_bottom_to_top": "110101"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "110011",
+          "target": {
+            "number": 61,
+            "short_name": "中孚",
+            "full_name": "风泽中孚",
+            "upper": "巽",
+            "lower": "兑",
+            "binary_bottom_to_top": "110011"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "110000",
+          "target": {
+            "number": 19,
+            "short_name": "临",
+            "full_name": "地泽临",
+            "upper": "坤",
+            "lower": "兑",
+            "binary_bottom_to_top": "110000"
+          }
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "short_name": "益",
+      "full_name": "风雷益",
+      "upper_trigram": "巽",
+      "lower_trigram": "震",
+      "binary_bottom_to_top": "100011",
+      "opposite": {
+        "number": 32,
+        "short_name": "恒",
+        "full_name": "雷风恒",
+        "upper": "震",
+        "lower": "巽",
+        "binary_bottom_to_top": "011100"
+      },
+      "reversed": {
+        "number": 41,
+        "short_name": "损",
+        "full_name": "山泽损",
+        "upper": "艮",
+        "lower": "兑",
+        "binary_bottom_to_top": "110001"
+      },
+      "nuclear": {
+        "number": 23,
+        "short_name": "剥",
+        "full_name": "山地剥",
+        "upper": "艮",
+        "lower": "坤",
+        "binary_bottom_to_top": "000001"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "000011",
+          "target": {
+            "number": 20,
+            "short_name": "观",
+            "full_name": "风地观",
+            "upper": "巽",
+            "lower": "坤",
+            "binary_bottom_to_top": "000011"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "110011",
+          "target": {
+            "number": 61,
+            "short_name": "中孚",
+            "full_name": "风泽中孚",
+            "upper": "巽",
+            "lower": "兑",
+            "binary_bottom_to_top": "110011"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "101011",
+          "target": {
+            "number": 37,
+            "short_name": "家人",
+            "full_name": "风火家人",
+            "upper": "巽",
+            "lower": "离",
+            "binary_bottom_to_top": "101011"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "100111",
+          "target": {
+            "number": 25,
+            "short_name": "无妄",
+            "full_name": "天雷无妄",
+            "upper": "乾",
+            "lower": "震",
+            "binary_bottom_to_top": "100111"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "100001",
+          "target": {
+            "number": 27,
+            "short_name": "颐",
+            "full_name": "山雷颐",
+            "upper": "艮",
+            "lower": "震",
+            "binary_bottom_to_top": "100001"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "100010",
+          "target": {
+            "number": 3,
+            "short_name": "屯",
+            "full_name": "水雷屯",
+            "upper": "坎",
+            "lower": "震",
+            "binary_bottom_to_top": "100010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "short_name": "夬",
+      "full_name": "泽天夬",
+      "upper_trigram": "兑",
+      "lower_trigram": "乾",
+      "binary_bottom_to_top": "111110",
+      "opposite": {
+        "number": 23,
+        "short_name": "剥",
+        "full_name": "山地剥",
+        "upper": "艮",
+        "lower": "坤",
+        "binary_bottom_to_top": "000001"
+      },
+      "reversed": {
+        "number": 44,
+        "short_name": "姤",
+        "full_name": "天风姤",
+        "upper": "乾",
+        "lower": "巽",
+        "binary_bottom_to_top": "011111"
+      },
+      "nuclear": {
+        "number": 1,
+        "short_name": "乾",
+        "full_name": "乾为天",
+        "upper": "乾",
+        "lower": "乾",
+        "binary_bottom_to_top": "111111"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "011110",
+          "target": {
+            "number": 28,
+            "short_name": "大过",
+            "full_name": "泽风大过",
+            "upper": "兑",
+            "lower": "巽",
+            "binary_bottom_to_top": "011110"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "101110",
+          "target": {
+            "number": 49,
+            "short_name": "革",
+            "full_name": "泽火革",
+            "upper": "兑",
+            "lower": "离",
+            "binary_bottom_to_top": "101110"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "110110",
+          "target": {
+            "number": 58,
+            "short_name": "兑",
+            "full_name": "兑为泽",
+            "upper": "兑",
+            "lower": "兑",
+            "binary_bottom_to_top": "110110"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "111010",
+          "target": {
+            "number": 5,
+            "short_name": "需",
+            "full_name": "水天需",
+            "upper": "坎",
+            "lower": "乾",
+            "binary_bottom_to_top": "111010"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "111100",
+          "target": {
+            "number": 34,
+            "short_name": "大壮",
+            "full_name": "雷天大壮",
+            "upper": "震",
+            "lower": "乾",
+            "binary_bottom_to_top": "111100"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "111111",
+          "target": {
+            "number": 1,
+            "short_name": "乾",
+            "full_name": "乾为天",
+            "upper": "乾",
+            "lower": "乾",
+            "binary_bottom_to_top": "111111"
+          }
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "short_name": "姤",
+      "full_name": "天风姤",
+      "upper_trigram": "乾",
+      "lower_trigram": "巽",
+      "binary_bottom_to_top": "011111",
+      "opposite": {
+        "number": 24,
+        "short_name": "复",
+        "full_name": "地雷复",
+        "upper": "坤",
+        "lower": "震",
+        "binary_bottom_to_top": "100000"
+      },
+      "reversed": {
+        "number": 43,
+        "short_name": "夬",
+        "full_name": "泽天夬",
+        "upper": "兑",
+        "lower": "乾",
+        "binary_bottom_to_top": "111110"
+      },
+      "nuclear": {
+        "number": 1,
+        "short_name": "乾",
+        "full_name": "乾为天",
+        "upper": "乾",
+        "lower": "乾",
+        "binary_bottom_to_top": "111111"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "111111",
+          "target": {
+            "number": 1,
+            "short_name": "乾",
+            "full_name": "乾为天",
+            "upper": "乾",
+            "lower": "乾",
+            "binary_bottom_to_top": "111111"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "001111",
+          "target": {
+            "number": 33,
+            "short_name": "遁",
+            "full_name": "天山遁",
+            "upper": "乾",
+            "lower": "艮",
+            "binary_bottom_to_top": "001111"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "010111",
+          "target": {
+            "number": 6,
+            "short_name": "讼",
+            "full_name": "天水讼",
+            "upper": "乾",
+            "lower": "坎",
+            "binary_bottom_to_top": "010111"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "011011",
+          "target": {
+            "number": 57,
+            "short_name": "巽",
+            "full_name": "巽为风",
+            "upper": "巽",
+            "lower": "巽",
+            "binary_bottom_to_top": "011011"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "011101",
+          "target": {
+            "number": 50,
+            "short_name": "鼎",
+            "full_name": "火风鼎",
+            "upper": "离",
+            "lower": "巽",
+            "binary_bottom_to_top": "011101"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "011110",
+          "target": {
+            "number": 28,
+            "short_name": "大过",
+            "full_name": "泽风大过",
+            "upper": "兑",
+            "lower": "巽",
+            "binary_bottom_to_top": "011110"
+          }
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "short_name": "萃",
+      "full_name": "泽地萃",
+      "upper_trigram": "兑",
+      "lower_trigram": "坤",
+      "binary_bottom_to_top": "000110",
+      "opposite": {
+        "number": 26,
+        "short_name": "大畜",
+        "full_name": "山天大畜",
+        "upper": "艮",
+        "lower": "乾",
+        "binary_bottom_to_top": "111001"
+      },
+      "reversed": {
+        "number": 46,
+        "short_name": "升",
+        "full_name": "地风升",
+        "upper": "坤",
+        "lower": "巽",
+        "binary_bottom_to_top": "011000"
+      },
+      "nuclear": {
+        "number": 53,
+        "short_name": "渐",
+        "full_name": "风山渐",
+        "upper": "巽",
+        "lower": "艮",
+        "binary_bottom_to_top": "001011"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "100110",
+          "target": {
+            "number": 17,
+            "short_name": "随",
+            "full_name": "泽雷随",
+            "upper": "兑",
+            "lower": "震",
+            "binary_bottom_to_top": "100110"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "010110",
+          "target": {
+            "number": 47,
+            "short_name": "困",
+            "full_name": "泽水困",
+            "upper": "兑",
+            "lower": "坎",
+            "binary_bottom_to_top": "010110"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "001110",
+          "target": {
+            "number": 31,
+            "short_name": "咸",
+            "full_name": "泽山咸",
+            "upper": "兑",
+            "lower": "艮",
+            "binary_bottom_to_top": "001110"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "000010",
+          "target": {
+            "number": 8,
+            "short_name": "比",
+            "full_name": "水地比",
+            "upper": "坎",
+            "lower": "坤",
+            "binary_bottom_to_top": "000010"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "000100",
+          "target": {
+            "number": 16,
+            "short_name": "豫",
+            "full_name": "雷地豫",
+            "upper": "震",
+            "lower": "坤",
+            "binary_bottom_to_top": "000100"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "000111",
+          "target": {
+            "number": 12,
+            "short_name": "否",
+            "full_name": "天地否",
+            "upper": "乾",
+            "lower": "坤",
+            "binary_bottom_to_top": "000111"
+          }
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "short_name": "升",
+      "full_name": "地风升",
+      "upper_trigram": "坤",
+      "lower_trigram": "巽",
+      "binary_bottom_to_top": "011000",
+      "opposite": {
+        "number": 25,
+        "short_name": "无妄",
+        "full_name": "天雷无妄",
+        "upper": "乾",
+        "lower": "震",
+        "binary_bottom_to_top": "100111"
+      },
+      "reversed": {
+        "number": 45,
+        "short_name": "萃",
+        "full_name": "泽地萃",
+        "upper": "兑",
+        "lower": "坤",
+        "binary_bottom_to_top": "000110"
+      },
+      "nuclear": {
+        "number": 54,
+        "short_name": "归妹",
+        "full_name": "雷泽归妹",
+        "upper": "震",
+        "lower": "兑",
+        "binary_bottom_to_top": "110100"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "111000",
+          "target": {
+            "number": 11,
+            "short_name": "泰",
+            "full_name": "地天泰",
+            "upper": "坤",
+            "lower": "乾",
+            "binary_bottom_to_top": "111000"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "001000",
+          "target": {
+            "number": 15,
+            "short_name": "谦",
+            "full_name": "地山谦",
+            "upper": "坤",
+            "lower": "艮",
+            "binary_bottom_to_top": "001000"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "010000",
+          "target": {
+            "number": 7,
+            "short_name": "师",
+            "full_name": "地水师",
+            "upper": "坤",
+            "lower": "坎",
+            "binary_bottom_to_top": "010000"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "011100",
+          "target": {
+            "number": 32,
+            "short_name": "恒",
+            "full_name": "雷风恒",
+            "upper": "震",
+            "lower": "巽",
+            "binary_bottom_to_top": "011100"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "011010",
+          "target": {
+            "number": 48,
+            "short_name": "井",
+            "full_name": "水风井",
+            "upper": "坎",
+            "lower": "巽",
+            "binary_bottom_to_top": "011010"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "011001",
+          "target": {
+            "number": 18,
+            "short_name": "蛊",
+            "full_name": "山风蛊",
+            "upper": "艮",
+            "lower": "巽",
+            "binary_bottom_to_top": "011001"
+          }
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "short_name": "困",
+      "full_name": "泽水困",
+      "upper_trigram": "兑",
+      "lower_trigram": "坎",
+      "binary_bottom_to_top": "010110",
+      "opposite": {
+        "number": 22,
+        "short_name": "贲",
+        "full_name": "山火贲",
+        "upper": "艮",
+        "lower": "离",
+        "binary_bottom_to_top": "101001"
+      },
+      "reversed": {
+        "number": 48,
+        "short_name": "井",
+        "full_name": "水风井",
+        "upper": "坎",
+        "lower": "巽",
+        "binary_bottom_to_top": "011010"
+      },
+      "nuclear": {
+        "number": 37,
+        "short_name": "家人",
+        "full_name": "风火家人",
+        "upper": "巽",
+        "lower": "离",
+        "binary_bottom_to_top": "101011"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "110110",
+          "target": {
+            "number": 58,
+            "short_name": "兑",
+            "full_name": "兑为泽",
+            "upper": "兑",
+            "lower": "兑",
+            "binary_bottom_to_top": "110110"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "000110",
+          "target": {
+            "number": 45,
+            "short_name": "萃",
+            "full_name": "泽地萃",
+            "upper": "兑",
+            "lower": "坤",
+            "binary_bottom_to_top": "000110"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "011110",
+          "target": {
+            "number": 28,
+            "short_name": "大过",
+            "full_name": "泽风大过",
+            "upper": "兑",
+            "lower": "巽",
+            "binary_bottom_to_top": "011110"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "010010",
+          "target": {
+            "number": 29,
+            "short_name": "坎",
+            "full_name": "坎为水",
+            "upper": "坎",
+            "lower": "坎",
+            "binary_bottom_to_top": "010010"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "010100",
+          "target": {
+            "number": 40,
+            "short_name": "解",
+            "full_name": "雷水解",
+            "upper": "震",
+            "lower": "坎",
+            "binary_bottom_to_top": "010100"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "010111",
+          "target": {
+            "number": 6,
+            "short_name": "讼",
+            "full_name": "天水讼",
+            "upper": "乾",
+            "lower": "坎",
+            "binary_bottom_to_top": "010111"
+          }
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "short_name": "井",
+      "full_name": "水风井",
+      "upper_trigram": "坎",
+      "lower_trigram": "巽",
+      "binary_bottom_to_top": "011010",
+      "opposite": {
+        "number": 21,
+        "short_name": "噬嗑",
+        "full_name": "火雷噬嗑",
+        "upper": "离",
+        "lower": "震",
+        "binary_bottom_to_top": "100101"
+      },
+      "reversed": {
+        "number": 47,
+        "short_name": "困",
+        "full_name": "泽水困",
+        "upper": "兑",
+        "lower": "坎",
+        "binary_bottom_to_top": "010110"
+      },
+      "nuclear": {
+        "number": 38,
+        "short_name": "睽",
+        "full_name": "火泽睽",
+        "upper": "离",
+        "lower": "兑",
+        "binary_bottom_to_top": "110101"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "111010",
+          "target": {
+            "number": 5,
+            "short_name": "需",
+            "full_name": "水天需",
+            "upper": "坎",
+            "lower": "乾",
+            "binary_bottom_to_top": "111010"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "001010",
+          "target": {
+            "number": 39,
+            "short_name": "蹇",
+            "full_name": "水山蹇",
+            "upper": "坎",
+            "lower": "艮",
+            "binary_bottom_to_top": "001010"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "010010",
+          "target": {
+            "number": 29,
+            "short_name": "坎",
+            "full_name": "坎为水",
+            "upper": "坎",
+            "lower": "坎",
+            "binary_bottom_to_top": "010010"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "011110",
+          "target": {
+            "number": 28,
+            "short_name": "大过",
+            "full_name": "泽风大过",
+            "upper": "兑",
+            "lower": "巽",
+            "binary_bottom_to_top": "011110"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "011000",
+          "target": {
+            "number": 46,
+            "short_name": "升",
+            "full_name": "地风升",
+            "upper": "坤",
+            "lower": "巽",
+            "binary_bottom_to_top": "011000"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "011011",
+          "target": {
+            "number": 57,
+            "short_name": "巽",
+            "full_name": "巽为风",
+            "upper": "巽",
+            "lower": "巽",
+            "binary_bottom_to_top": "011011"
+          }
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "short_name": "革",
+      "full_name": "泽火革",
+      "upper_trigram": "兑",
+      "lower_trigram": "离",
+      "binary_bottom_to_top": "101110",
+      "opposite": {
+        "number": 4,
+        "short_name": "蒙",
+        "full_name": "山水蒙",
+        "upper": "艮",
+        "lower": "坎",
+        "binary_bottom_to_top": "010001"
+      },
+      "reversed": {
+        "number": 50,
+        "short_name": "鼎",
+        "full_name": "火风鼎",
+        "upper": "离",
+        "lower": "巽",
+        "binary_bottom_to_top": "011101"
+      },
+      "nuclear": {
+        "number": 44,
+        "short_name": "姤",
+        "full_name": "天风姤",
+        "upper": "乾",
+        "lower": "巽",
+        "binary_bottom_to_top": "011111"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "001110",
+          "target": {
+            "number": 31,
+            "short_name": "咸",
+            "full_name": "泽山咸",
+            "upper": "兑",
+            "lower": "艮",
+            "binary_bottom_to_top": "001110"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "111110",
+          "target": {
+            "number": 43,
+            "short_name": "夬",
+            "full_name": "泽天夬",
+            "upper": "兑",
+            "lower": "乾",
+            "binary_bottom_to_top": "111110"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "100110",
+          "target": {
+            "number": 17,
+            "short_name": "随",
+            "full_name": "泽雷随",
+            "upper": "兑",
+            "lower": "震",
+            "binary_bottom_to_top": "100110"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "101010",
+          "target": {
+            "number": 63,
+            "short_name": "既济",
+            "full_name": "水火既济",
+            "upper": "坎",
+            "lower": "离",
+            "binary_bottom_to_top": "101010"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "101100",
+          "target": {
+            "number": 55,
+            "short_name": "丰",
+            "full_name": "雷火丰",
+            "upper": "震",
+            "lower": "离",
+            "binary_bottom_to_top": "101100"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "101111",
+          "target": {
+            "number": 13,
+            "short_name": "同人",
+            "full_name": "天火同人",
+            "upper": "乾",
+            "lower": "离",
+            "binary_bottom_to_top": "101111"
+          }
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "short_name": "鼎",
+      "full_name": "火风鼎",
+      "upper_trigram": "离",
+      "lower_trigram": "巽",
+      "binary_bottom_to_top": "011101",
+      "opposite": {
+        "number": 3,
+        "short_name": "屯",
+        "full_name": "水雷屯",
+        "upper": "坎",
+        "lower": "震",
+        "binary_bottom_to_top": "100010"
+      },
+      "reversed": {
+        "number": 49,
+        "short_name": "革",
+        "full_name": "泽火革",
+        "upper": "兑",
+        "lower": "离",
+        "binary_bottom_to_top": "101110"
+      },
+      "nuclear": {
+        "number": 43,
+        "short_name": "夬",
+        "full_name": "泽天夬",
+        "upper": "兑",
+        "lower": "乾",
+        "binary_bottom_to_top": "111110"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "111101",
+          "target": {
+            "number": 14,
+            "short_name": "大有",
+            "full_name": "火天大有",
+            "upper": "离",
+            "lower": "乾",
+            "binary_bottom_to_top": "111101"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "001101",
+          "target": {
+            "number": 56,
+            "short_name": "旅",
+            "full_name": "火山旅",
+            "upper": "离",
+            "lower": "艮",
+            "binary_bottom_to_top": "001101"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "010101",
+          "target": {
+            "number": 64,
+            "short_name": "未济",
+            "full_name": "火水未济",
+            "upper": "离",
+            "lower": "坎",
+            "binary_bottom_to_top": "010101"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "011001",
+          "target": {
+            "number": 18,
+            "short_name": "蛊",
+            "full_name": "山风蛊",
+            "upper": "艮",
+            "lower": "巽",
+            "binary_bottom_to_top": "011001"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "011111",
+          "target": {
+            "number": 44,
+            "short_name": "姤",
+            "full_name": "天风姤",
+            "upper": "乾",
+            "lower": "巽",
+            "binary_bottom_to_top": "011111"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "011100",
+          "target": {
+            "number": 32,
+            "short_name": "恒",
+            "full_name": "雷风恒",
+            "upper": "震",
+            "lower": "巽",
+            "binary_bottom_to_top": "011100"
+          }
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "short_name": "震",
+      "full_name": "震为雷",
+      "upper_trigram": "震",
+      "lower_trigram": "震",
+      "binary_bottom_to_top": "100100",
+      "opposite": {
+        "number": 57,
+        "short_name": "巽",
+        "full_name": "巽为风",
+        "upper": "巽",
+        "lower": "巽",
+        "binary_bottom_to_top": "011011"
+      },
+      "reversed": {
+        "number": 52,
+        "short_name": "艮",
+        "full_name": "艮为山",
+        "upper": "艮",
+        "lower": "艮",
+        "binary_bottom_to_top": "001001"
+      },
+      "nuclear": {
+        "number": 39,
+        "short_name": "蹇",
+        "full_name": "水山蹇",
+        "upper": "坎",
+        "lower": "艮",
+        "binary_bottom_to_top": "001010"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "000100",
+          "target": {
+            "number": 16,
+            "short_name": "豫",
+            "full_name": "雷地豫",
+            "upper": "震",
+            "lower": "坤",
+            "binary_bottom_to_top": "000100"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "110100",
+          "target": {
+            "number": 54,
+            "short_name": "归妹",
+            "full_name": "雷泽归妹",
+            "upper": "震",
+            "lower": "兑",
+            "binary_bottom_to_top": "110100"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "101100",
+          "target": {
+            "number": 55,
+            "short_name": "丰",
+            "full_name": "雷火丰",
+            "upper": "震",
+            "lower": "离",
+            "binary_bottom_to_top": "101100"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "100000",
+          "target": {
+            "number": 24,
+            "short_name": "复",
+            "full_name": "地雷复",
+            "upper": "坤",
+            "lower": "震",
+            "binary_bottom_to_top": "100000"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "100110",
+          "target": {
+            "number": 17,
+            "short_name": "随",
+            "full_name": "泽雷随",
+            "upper": "兑",
+            "lower": "震",
+            "binary_bottom_to_top": "100110"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "100101",
+          "target": {
+            "number": 21,
+            "short_name": "噬嗑",
+            "full_name": "火雷噬嗑",
+            "upper": "离",
+            "lower": "震",
+            "binary_bottom_to_top": "100101"
+          }
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "short_name": "艮",
+      "full_name": "艮为山",
+      "upper_trigram": "艮",
+      "lower_trigram": "艮",
+      "binary_bottom_to_top": "001001",
+      "opposite": {
+        "number": 58,
+        "short_name": "兑",
+        "full_name": "兑为泽",
+        "upper": "兑",
+        "lower": "兑",
+        "binary_bottom_to_top": "110110"
+      },
+      "reversed": {
+        "number": 51,
+        "short_name": "震",
+        "full_name": "震为雷",
+        "upper": "震",
+        "lower": "震",
+        "binary_bottom_to_top": "100100"
+      },
+      "nuclear": {
+        "number": 40,
+        "short_name": "解",
+        "full_name": "雷水解",
+        "upper": "震",
+        "lower": "坎",
+        "binary_bottom_to_top": "010100"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "101001",
+          "target": {
+            "number": 22,
+            "short_name": "贲",
+            "full_name": "山火贲",
+            "upper": "艮",
+            "lower": "离",
+            "binary_bottom_to_top": "101001"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "011001",
+          "target": {
+            "number": 18,
+            "short_name": "蛊",
+            "full_name": "山风蛊",
+            "upper": "艮",
+            "lower": "巽",
+            "binary_bottom_to_top": "011001"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "000001",
+          "target": {
+            "number": 23,
+            "short_name": "剥",
+            "full_name": "山地剥",
+            "upper": "艮",
+            "lower": "坤",
+            "binary_bottom_to_top": "000001"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "001101",
+          "target": {
+            "number": 56,
+            "short_name": "旅",
+            "full_name": "火山旅",
+            "upper": "离",
+            "lower": "艮",
+            "binary_bottom_to_top": "001101"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "001011",
+          "target": {
+            "number": 53,
+            "short_name": "渐",
+            "full_name": "风山渐",
+            "upper": "巽",
+            "lower": "艮",
+            "binary_bottom_to_top": "001011"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "001000",
+          "target": {
+            "number": 15,
+            "short_name": "谦",
+            "full_name": "地山谦",
+            "upper": "坤",
+            "lower": "艮",
+            "binary_bottom_to_top": "001000"
+          }
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "short_name": "渐",
+      "full_name": "风山渐",
+      "upper_trigram": "巽",
+      "lower_trigram": "艮",
+      "binary_bottom_to_top": "001011",
+      "opposite": {
+        "number": 54,
+        "short_name": "归妹",
+        "full_name": "雷泽归妹",
+        "upper": "震",
+        "lower": "兑",
+        "binary_bottom_to_top": "110100"
+      },
+      "reversed": {
+        "number": 54,
+        "short_name": "归妹",
+        "full_name": "雷泽归妹",
+        "upper": "震",
+        "lower": "兑",
+        "binary_bottom_to_top": "110100"
+      },
+      "nuclear": {
+        "number": 64,
+        "short_name": "未济",
+        "full_name": "火水未济",
+        "upper": "离",
+        "lower": "坎",
+        "binary_bottom_to_top": "010101"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "101011",
+          "target": {
+            "number": 37,
+            "short_name": "家人",
+            "full_name": "风火家人",
+            "upper": "巽",
+            "lower": "离",
+            "binary_bottom_to_top": "101011"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "011011",
+          "target": {
+            "number": 57,
+            "short_name": "巽",
+            "full_name": "巽为风",
+            "upper": "巽",
+            "lower": "巽",
+            "binary_bottom_to_top": "011011"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "000011",
+          "target": {
+            "number": 20,
+            "short_name": "观",
+            "full_name": "风地观",
+            "upper": "巽",
+            "lower": "坤",
+            "binary_bottom_to_top": "000011"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "001111",
+          "target": {
+            "number": 33,
+            "short_name": "遁",
+            "full_name": "天山遁",
+            "upper": "乾",
+            "lower": "艮",
+            "binary_bottom_to_top": "001111"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "001001",
+          "target": {
+            "number": 52,
+            "short_name": "艮",
+            "full_name": "艮为山",
+            "upper": "艮",
+            "lower": "艮",
+            "binary_bottom_to_top": "001001"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "001010",
+          "target": {
+            "number": 39,
+            "short_name": "蹇",
+            "full_name": "水山蹇",
+            "upper": "坎",
+            "lower": "艮",
+            "binary_bottom_to_top": "001010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "short_name": "归妹",
+      "full_name": "雷泽归妹",
+      "upper_trigram": "震",
+      "lower_trigram": "兑",
+      "binary_bottom_to_top": "110100",
+      "opposite": {
+        "number": 53,
+        "short_name": "渐",
+        "full_name": "风山渐",
+        "upper": "巽",
+        "lower": "艮",
+        "binary_bottom_to_top": "001011"
+      },
+      "reversed": {
+        "number": 53,
+        "short_name": "渐",
+        "full_name": "风山渐",
+        "upper": "巽",
+        "lower": "艮",
+        "binary_bottom_to_top": "001011"
+      },
+      "nuclear": {
+        "number": 63,
+        "short_name": "既济",
+        "full_name": "水火既济",
+        "upper": "坎",
+        "lower": "离",
+        "binary_bottom_to_top": "101010"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "010100",
+          "target": {
+            "number": 40,
+            "short_name": "解",
+            "full_name": "雷水解",
+            "upper": "震",
+            "lower": "坎",
+            "binary_bottom_to_top": "010100"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "100100",
+          "target": {
+            "number": 51,
+            "short_name": "震",
+            "full_name": "震为雷",
+            "upper": "震",
+            "lower": "震",
+            "binary_bottom_to_top": "100100"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "111100",
+          "target": {
+            "number": 34,
+            "short_name": "大壮",
+            "full_name": "雷天大壮",
+            "upper": "震",
+            "lower": "乾",
+            "binary_bottom_to_top": "111100"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "110000",
+          "target": {
+            "number": 19,
+            "short_name": "临",
+            "full_name": "地泽临",
+            "upper": "坤",
+            "lower": "兑",
+            "binary_bottom_to_top": "110000"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "110110",
+          "target": {
+            "number": 58,
+            "short_name": "兑",
+            "full_name": "兑为泽",
+            "upper": "兑",
+            "lower": "兑",
+            "binary_bottom_to_top": "110110"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "110101",
+          "target": {
+            "number": 38,
+            "short_name": "睽",
+            "full_name": "火泽睽",
+            "upper": "离",
+            "lower": "兑",
+            "binary_bottom_to_top": "110101"
+          }
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "short_name": "丰",
+      "full_name": "雷火丰",
+      "upper_trigram": "震",
+      "lower_trigram": "离",
+      "binary_bottom_to_top": "101100",
+      "opposite": {
+        "number": 59,
+        "short_name": "涣",
+        "full_name": "风水涣",
+        "upper": "巽",
+        "lower": "坎",
+        "binary_bottom_to_top": "010011"
+      },
+      "reversed": {
+        "number": 56,
+        "short_name": "旅",
+        "full_name": "火山旅",
+        "upper": "离",
+        "lower": "艮",
+        "binary_bottom_to_top": "001101"
+      },
+      "nuclear": {
+        "number": 28,
+        "short_name": "大过",
+        "full_name": "泽风大过",
+        "upper": "兑",
+        "lower": "巽",
+        "binary_bottom_to_top": "011110"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "001100",
+          "target": {
+            "number": 62,
+            "short_name": "小过",
+            "full_name": "雷山小过",
+            "upper": "震",
+            "lower": "艮",
+            "binary_bottom_to_top": "001100"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "111100",
+          "target": {
+            "number": 34,
+            "short_name": "大壮",
+            "full_name": "雷天大壮",
+            "upper": "震",
+            "lower": "乾",
+            "binary_bottom_to_top": "111100"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "100100",
+          "target": {
+            "number": 51,
+            "short_name": "震",
+            "full_name": "震为雷",
+            "upper": "震",
+            "lower": "震",
+            "binary_bottom_to_top": "100100"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "101000",
+          "target": {
+            "number": 36,
+            "short_name": "明夷",
+            "full_name": "地火明夷",
+            "upper": "坤",
+            "lower": "离",
+            "binary_bottom_to_top": "101000"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "101110",
+          "target": {
+            "number": 49,
+            "short_name": "革",
+            "full_name": "泽火革",
+            "upper": "兑",
+            "lower": "离",
+            "binary_bottom_to_top": "101110"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "101101",
+          "target": {
+            "number": 30,
+            "short_name": "离",
+            "full_name": "离为火",
+            "upper": "离",
+            "lower": "离",
+            "binary_bottom_to_top": "101101"
+          }
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "short_name": "旅",
+      "full_name": "火山旅",
+      "upper_trigram": "离",
+      "lower_trigram": "艮",
+      "binary_bottom_to_top": "001101",
+      "opposite": {
+        "number": 60,
+        "short_name": "节",
+        "full_name": "水泽节",
+        "upper": "坎",
+        "lower": "兑",
+        "binary_bottom_to_top": "110010"
+      },
+      "reversed": {
+        "number": 55,
+        "short_name": "丰",
+        "full_name": "雷火丰",
+        "upper": "震",
+        "lower": "离",
+        "binary_bottom_to_top": "101100"
+      },
+      "nuclear": {
+        "number": 28,
+        "short_name": "大过",
+        "full_name": "泽风大过",
+        "upper": "兑",
+        "lower": "巽",
+        "binary_bottom_to_top": "011110"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "101101",
+          "target": {
+            "number": 30,
+            "short_name": "离",
+            "full_name": "离为火",
+            "upper": "离",
+            "lower": "离",
+            "binary_bottom_to_top": "101101"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "011101",
+          "target": {
+            "number": 50,
+            "short_name": "鼎",
+            "full_name": "火风鼎",
+            "upper": "离",
+            "lower": "巽",
+            "binary_bottom_to_top": "011101"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "000101",
+          "target": {
+            "number": 35,
+            "short_name": "晋",
+            "full_name": "火地晋",
+            "upper": "离",
+            "lower": "坤",
+            "binary_bottom_to_top": "000101"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "001001",
+          "target": {
+            "number": 52,
+            "short_name": "艮",
+            "full_name": "艮为山",
+            "upper": "艮",
+            "lower": "艮",
+            "binary_bottom_to_top": "001001"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "001111",
+          "target": {
+            "number": 33,
+            "short_name": "遁",
+            "full_name": "天山遁",
+            "upper": "乾",
+            "lower": "艮",
+            "binary_bottom_to_top": "001111"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "001100",
+          "target": {
+            "number": 62,
+            "short_name": "小过",
+            "full_name": "雷山小过",
+            "upper": "震",
+            "lower": "艮",
+            "binary_bottom_to_top": "001100"
+          }
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "short_name": "巽",
+      "full_name": "巽为风",
+      "upper_trigram": "巽",
+      "lower_trigram": "巽",
+      "binary_bottom_to_top": "011011",
+      "opposite": {
+        "number": 51,
+        "short_name": "震",
+        "full_name": "震为雷",
+        "upper": "震",
+        "lower": "震",
+        "binary_bottom_to_top": "100100"
+      },
+      "reversed": {
+        "number": 58,
+        "short_name": "兑",
+        "full_name": "兑为泽",
+        "upper": "兑",
+        "lower": "兑",
+        "binary_bottom_to_top": "110110"
+      },
+      "nuclear": {
+        "number": 38,
+        "short_name": "睽",
+        "full_name": "火泽睽",
+        "upper": "离",
+        "lower": "兑",
+        "binary_bottom_to_top": "110101"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "111011",
+          "target": {
+            "number": 9,
+            "short_name": "小畜",
+            "full_name": "风天小畜",
+            "upper": "巽",
+            "lower": "乾",
+            "binary_bottom_to_top": "111011"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "001011",
+          "target": {
+            "number": 53,
+            "short_name": "渐",
+            "full_name": "风山渐",
+            "upper": "巽",
+            "lower": "艮",
+            "binary_bottom_to_top": "001011"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "010011",
+          "target": {
+            "number": 59,
+            "short_name": "涣",
+            "full_name": "风水涣",
+            "upper": "巽",
+            "lower": "坎",
+            "binary_bottom_to_top": "010011"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "011111",
+          "target": {
+            "number": 44,
+            "short_name": "姤",
+            "full_name": "天风姤",
+            "upper": "乾",
+            "lower": "巽",
+            "binary_bottom_to_top": "011111"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "011001",
+          "target": {
+            "number": 18,
+            "short_name": "蛊",
+            "full_name": "山风蛊",
+            "upper": "艮",
+            "lower": "巽",
+            "binary_bottom_to_top": "011001"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "011010",
+          "target": {
+            "number": 48,
+            "short_name": "井",
+            "full_name": "水风井",
+            "upper": "坎",
+            "lower": "巽",
+            "binary_bottom_to_top": "011010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "short_name": "兑",
+      "full_name": "兑为泽",
+      "upper_trigram": "兑",
+      "lower_trigram": "兑",
+      "binary_bottom_to_top": "110110",
+      "opposite": {
+        "number": 52,
+        "short_name": "艮",
+        "full_name": "艮为山",
+        "upper": "艮",
+        "lower": "艮",
+        "binary_bottom_to_top": "001001"
+      },
+      "reversed": {
+        "number": 57,
+        "short_name": "巽",
+        "full_name": "巽为风",
+        "upper": "巽",
+        "lower": "巽",
+        "binary_bottom_to_top": "011011"
+      },
+      "nuclear": {
+        "number": 37,
+        "short_name": "家人",
+        "full_name": "风火家人",
+        "upper": "巽",
+        "lower": "离",
+        "binary_bottom_to_top": "101011"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "010110",
+          "target": {
+            "number": 47,
+            "short_name": "困",
+            "full_name": "泽水困",
+            "upper": "兑",
+            "lower": "坎",
+            "binary_bottom_to_top": "010110"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "100110",
+          "target": {
+            "number": 17,
+            "short_name": "随",
+            "full_name": "泽雷随",
+            "upper": "兑",
+            "lower": "震",
+            "binary_bottom_to_top": "100110"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "111110",
+          "target": {
+            "number": 43,
+            "short_name": "夬",
+            "full_name": "泽天夬",
+            "upper": "兑",
+            "lower": "乾",
+            "binary_bottom_to_top": "111110"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "110010",
+          "target": {
+            "number": 60,
+            "short_name": "节",
+            "full_name": "水泽节",
+            "upper": "坎",
+            "lower": "兑",
+            "binary_bottom_to_top": "110010"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "110100",
+          "target": {
+            "number": 54,
+            "short_name": "归妹",
+            "full_name": "雷泽归妹",
+            "upper": "震",
+            "lower": "兑",
+            "binary_bottom_to_top": "110100"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "110111",
+          "target": {
+            "number": 10,
+            "short_name": "履",
+            "full_name": "天泽履",
+            "upper": "乾",
+            "lower": "兑",
+            "binary_bottom_to_top": "110111"
+          }
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "short_name": "涣",
+      "full_name": "风水涣",
+      "upper_trigram": "巽",
+      "lower_trigram": "坎",
+      "binary_bottom_to_top": "010011",
+      "opposite": {
+        "number": 55,
+        "short_name": "丰",
+        "full_name": "雷火丰",
+        "upper": "震",
+        "lower": "离",
+        "binary_bottom_to_top": "101100"
+      },
+      "reversed": {
+        "number": 60,
+        "short_name": "节",
+        "full_name": "水泽节",
+        "upper": "坎",
+        "lower": "兑",
+        "binary_bottom_to_top": "110010"
+      },
+      "nuclear": {
+        "number": 27,
+        "short_name": "颐",
+        "full_name": "山雷颐",
+        "upper": "艮",
+        "lower": "震",
+        "binary_bottom_to_top": "100001"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "110011",
+          "target": {
+            "number": 61,
+            "short_name": "中孚",
+            "full_name": "风泽中孚",
+            "upper": "巽",
+            "lower": "兑",
+            "binary_bottom_to_top": "110011"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "000011",
+          "target": {
+            "number": 20,
+            "short_name": "观",
+            "full_name": "风地观",
+            "upper": "巽",
+            "lower": "坤",
+            "binary_bottom_to_top": "000011"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "011011",
+          "target": {
+            "number": 57,
+            "short_name": "巽",
+            "full_name": "巽为风",
+            "upper": "巽",
+            "lower": "巽",
+            "binary_bottom_to_top": "011011"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "010111",
+          "target": {
+            "number": 6,
+            "short_name": "讼",
+            "full_name": "天水讼",
+            "upper": "乾",
+            "lower": "坎",
+            "binary_bottom_to_top": "010111"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "010001",
+          "target": {
+            "number": 4,
+            "short_name": "蒙",
+            "full_name": "山水蒙",
+            "upper": "艮",
+            "lower": "坎",
+            "binary_bottom_to_top": "010001"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "010010",
+          "target": {
+            "number": 29,
+            "short_name": "坎",
+            "full_name": "坎为水",
+            "upper": "坎",
+            "lower": "坎",
+            "binary_bottom_to_top": "010010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "short_name": "节",
+      "full_name": "水泽节",
+      "upper_trigram": "坎",
+      "lower_trigram": "兑",
+      "binary_bottom_to_top": "110010",
+      "opposite": {
+        "number": 56,
+        "short_name": "旅",
+        "full_name": "火山旅",
+        "upper": "离",
+        "lower": "艮",
+        "binary_bottom_to_top": "001101"
+      },
+      "reversed": {
+        "number": 59,
+        "short_name": "涣",
+        "full_name": "风水涣",
+        "upper": "巽",
+        "lower": "坎",
+        "binary_bottom_to_top": "010011"
+      },
+      "nuclear": {
+        "number": 27,
+        "short_name": "颐",
+        "full_name": "山雷颐",
+        "upper": "艮",
+        "lower": "震",
+        "binary_bottom_to_top": "100001"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "010010",
+          "target": {
+            "number": 29,
+            "short_name": "坎",
+            "full_name": "坎为水",
+            "upper": "坎",
+            "lower": "坎",
+            "binary_bottom_to_top": "010010"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "100010",
+          "target": {
+            "number": 3,
+            "short_name": "屯",
+            "full_name": "水雷屯",
+            "upper": "坎",
+            "lower": "震",
+            "binary_bottom_to_top": "100010"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "111010",
+          "target": {
+            "number": 5,
+            "short_name": "需",
+            "full_name": "水天需",
+            "upper": "坎",
+            "lower": "乾",
+            "binary_bottom_to_top": "111010"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "110110",
+          "target": {
+            "number": 58,
+            "short_name": "兑",
+            "full_name": "兑为泽",
+            "upper": "兑",
+            "lower": "兑",
+            "binary_bottom_to_top": "110110"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "110000",
+          "target": {
+            "number": 19,
+            "short_name": "临",
+            "full_name": "地泽临",
+            "upper": "坤",
+            "lower": "兑",
+            "binary_bottom_to_top": "110000"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "110011",
+          "target": {
+            "number": 61,
+            "short_name": "中孚",
+            "full_name": "风泽中孚",
+            "upper": "巽",
+            "lower": "兑",
+            "binary_bottom_to_top": "110011"
+          }
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "short_name": "中孚",
+      "full_name": "风泽中孚",
+      "upper_trigram": "巽",
+      "lower_trigram": "兑",
+      "binary_bottom_to_top": "110011",
+      "opposite": {
+        "number": 62,
+        "short_name": "小过",
+        "full_name": "雷山小过",
+        "upper": "震",
+        "lower": "艮",
+        "binary_bottom_to_top": "001100"
+      },
+      "reversed": {
+        "number": 61,
+        "short_name": "中孚",
+        "full_name": "风泽中孚",
+        "upper": "巽",
+        "lower": "兑",
+        "binary_bottom_to_top": "110011"
+      },
+      "nuclear": {
+        "number": 27,
+        "short_name": "颐",
+        "full_name": "山雷颐",
+        "upper": "艮",
+        "lower": "震",
+        "binary_bottom_to_top": "100001"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "010011",
+          "target": {
+            "number": 59,
+            "short_name": "涣",
+            "full_name": "风水涣",
+            "upper": "巽",
+            "lower": "坎",
+            "binary_bottom_to_top": "010011"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "100011",
+          "target": {
+            "number": 42,
+            "short_name": "益",
+            "full_name": "风雷益",
+            "upper": "巽",
+            "lower": "震",
+            "binary_bottom_to_top": "100011"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "111011",
+          "target": {
+            "number": 9,
+            "short_name": "小畜",
+            "full_name": "风天小畜",
+            "upper": "巽",
+            "lower": "乾",
+            "binary_bottom_to_top": "111011"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "110111",
+          "target": {
+            "number": 10,
+            "short_name": "履",
+            "full_name": "天泽履",
+            "upper": "乾",
+            "lower": "兑",
+            "binary_bottom_to_top": "110111"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "110001",
+          "target": {
+            "number": 41,
+            "short_name": "损",
+            "full_name": "山泽损",
+            "upper": "艮",
+            "lower": "兑",
+            "binary_bottom_to_top": "110001"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "110010",
+          "target": {
+            "number": 60,
+            "short_name": "节",
+            "full_name": "水泽节",
+            "upper": "坎",
+            "lower": "兑",
+            "binary_bottom_to_top": "110010"
+          }
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "short_name": "小过",
+      "full_name": "雷山小过",
+      "upper_trigram": "震",
+      "lower_trigram": "艮",
+      "binary_bottom_to_top": "001100",
+      "opposite": {
+        "number": 61,
+        "short_name": "中孚",
+        "full_name": "风泽中孚",
+        "upper": "巽",
+        "lower": "兑",
+        "binary_bottom_to_top": "110011"
+      },
+      "reversed": {
+        "number": 62,
+        "short_name": "小过",
+        "full_name": "雷山小过",
+        "upper": "震",
+        "lower": "艮",
+        "binary_bottom_to_top": "001100"
+      },
+      "nuclear": {
+        "number": 28,
+        "short_name": "大过",
+        "full_name": "泽风大过",
+        "upper": "兑",
+        "lower": "巽",
+        "binary_bottom_to_top": "011110"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "101100",
+          "target": {
+            "number": 55,
+            "short_name": "丰",
+            "full_name": "雷火丰",
+            "upper": "震",
+            "lower": "离",
+            "binary_bottom_to_top": "101100"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "011100",
+          "target": {
+            "number": 32,
+            "short_name": "恒",
+            "full_name": "雷风恒",
+            "upper": "震",
+            "lower": "巽",
+            "binary_bottom_to_top": "011100"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "000100",
+          "target": {
+            "number": 16,
+            "short_name": "豫",
+            "full_name": "雷地豫",
+            "upper": "震",
+            "lower": "坤",
+            "binary_bottom_to_top": "000100"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "001000",
+          "target": {
+            "number": 15,
+            "short_name": "谦",
+            "full_name": "地山谦",
+            "upper": "坤",
+            "lower": "艮",
+            "binary_bottom_to_top": "001000"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "001110",
+          "target": {
+            "number": 31,
+            "short_name": "咸",
+            "full_name": "泽山咸",
+            "upper": "兑",
+            "lower": "艮",
+            "binary_bottom_to_top": "001110"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "001101",
+          "target": {
+            "number": 56,
+            "short_name": "旅",
+            "full_name": "火山旅",
+            "upper": "离",
+            "lower": "艮",
+            "binary_bottom_to_top": "001101"
+          }
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "short_name": "既济",
+      "full_name": "水火既济",
+      "upper_trigram": "坎",
+      "lower_trigram": "离",
+      "binary_bottom_to_top": "101010",
+      "opposite": {
+        "number": 64,
+        "short_name": "未济",
+        "full_name": "火水未济",
+        "upper": "离",
+        "lower": "坎",
+        "binary_bottom_to_top": "010101"
+      },
+      "reversed": {
+        "number": 64,
+        "short_name": "未济",
+        "full_name": "火水未济",
+        "upper": "离",
+        "lower": "坎",
+        "binary_bottom_to_top": "010101"
+      },
+      "nuclear": {
+        "number": 64,
+        "short_name": "未济",
+        "full_name": "火水未济",
+        "upper": "离",
+        "lower": "坎",
+        "binary_bottom_to_top": "010101"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "001010",
+          "target": {
+            "number": 39,
+            "short_name": "蹇",
+            "full_name": "水山蹇",
+            "upper": "坎",
+            "lower": "艮",
+            "binary_bottom_to_top": "001010"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "111010",
+          "target": {
+            "number": 5,
+            "short_name": "需",
+            "full_name": "水天需",
+            "upper": "坎",
+            "lower": "乾",
+            "binary_bottom_to_top": "111010"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "100010",
+          "target": {
+            "number": 3,
+            "short_name": "屯",
+            "full_name": "水雷屯",
+            "upper": "坎",
+            "lower": "震",
+            "binary_bottom_to_top": "100010"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "101110",
+          "target": {
+            "number": 49,
+            "short_name": "革",
+            "full_name": "泽火革",
+            "upper": "兑",
+            "lower": "离",
+            "binary_bottom_to_top": "101110"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "101000",
+          "target": {
+            "number": 36,
+            "short_name": "明夷",
+            "full_name": "地火明夷",
+            "upper": "坤",
+            "lower": "离",
+            "binary_bottom_to_top": "101000"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "101011",
+          "target": {
+            "number": 37,
+            "short_name": "家人",
+            "full_name": "风火家人",
+            "upper": "巽",
+            "lower": "离",
+            "binary_bottom_to_top": "101011"
+          }
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "short_name": "未济",
+      "full_name": "火水未济",
+      "upper_trigram": "离",
+      "lower_trigram": "坎",
+      "binary_bottom_to_top": "010101",
+      "opposite": {
+        "number": 63,
+        "short_name": "既济",
+        "full_name": "水火既济",
+        "upper": "坎",
+        "lower": "离",
+        "binary_bottom_to_top": "101010"
+      },
+      "reversed": {
+        "number": 63,
+        "short_name": "既济",
+        "full_name": "水火既济",
+        "upper": "坎",
+        "lower": "离",
+        "binary_bottom_to_top": "101010"
+      },
+      "nuclear": {
+        "number": 63,
+        "short_name": "既济",
+        "full_name": "水火既济",
+        "upper": "坎",
+        "lower": "离",
+        "binary_bottom_to_top": "101010"
+      },
+      "line_changes": [
+        {
+          "line": 1,
+          "binary_bottom_to_top": "110101",
+          "target": {
+            "number": 38,
+            "short_name": "睽",
+            "full_name": "火泽睽",
+            "upper": "离",
+            "lower": "兑",
+            "binary_bottom_to_top": "110101"
+          }
+        },
+        {
+          "line": 2,
+          "binary_bottom_to_top": "000101",
+          "target": {
+            "number": 35,
+            "short_name": "晋",
+            "full_name": "火地晋",
+            "upper": "离",
+            "lower": "坤",
+            "binary_bottom_to_top": "000101"
+          }
+        },
+        {
+          "line": 3,
+          "binary_bottom_to_top": "011101",
+          "target": {
+            "number": 50,
+            "short_name": "鼎",
+            "full_name": "火风鼎",
+            "upper": "离",
+            "lower": "巽",
+            "binary_bottom_to_top": "011101"
+          }
+        },
+        {
+          "line": 4,
+          "binary_bottom_to_top": "010001",
+          "target": {
+            "number": 4,
+            "short_name": "蒙",
+            "full_name": "山水蒙",
+            "upper": "艮",
+            "lower": "坎",
+            "binary_bottom_to_top": "010001"
+          }
+        },
+        {
+          "line": 5,
+          "binary_bottom_to_top": "010111",
+          "target": {
+            "number": 6,
+            "short_name": "讼",
+            "full_name": "天水讼",
+            "upper": "乾",
+            "lower": "坎",
+            "binary_bottom_to_top": "010111"
+          }
+        },
+        {
+          "line": 6,
+          "binary_bottom_to_top": "010100",
+          "target": {
+            "number": 40,
+            "short_name": "解",
+            "full_name": "雷水解",
+            "upper": "震",
+            "lower": "坎",
+            "binary_bottom_to_top": "010100"
+          }
+        }
+      ]
+    }
+  ]
+}

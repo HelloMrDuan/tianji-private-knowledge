@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-golden",
+  "domain": "liuren",
+  "provider": "tianji_kb.operations.liuren_chart.chart",
+  "review_basis": "按四课五行手算：贼克优先下贼；同日阴阳比用；涉害逐支及寄干累计克数；别责戊癸合、阴昴取酉下、八专逆三、伏吟寅巳申相刑。辛丑返吟无克对应大全“丑日登明”；乙丑辰时独立手算卯戌巳修复旧算法无法处理的合法输入。",
+  "cases": [
+    {
+      "id": "liuren.zeike",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "甲子",
+        "hour_branch": "丑"
+      },
+      "expected": {
+        "method": "贼克",
+        "transmissions": [
+          "戌",
+          "申",
+          "午"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.biyong",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "甲子",
+        "hour_branch": "子"
+      },
+      "expected": {
+        "method": "比用",
+        "transmissions": [
+          "子",
+          "亥",
+          "戌"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.shehai",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "丁卯",
+        "hour_branch": "丑"
+      },
+      "expected": {
+        "method": "涉害",
+        "transmissions": [
+          "亥",
+          "酉",
+          "未"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.yaoke",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "丙寅",
+        "hour_branch": "寅"
+      },
+      "expected": {
+        "method": "遥克",
+        "transmissions": [
+          "亥",
+          "申",
+          "巳"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.maoxing",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "己巳",
+        "hour_branch": "戌"
+      },
+      "expected": {
+        "method": "昴星",
+        "transmissions": [
+          "申",
+          "申",
+          "午"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.bieze",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "戊辰",
+        "hour_branch": "戌"
+      },
+      "expected": {
+        "method": "别责",
+        "transmissions": [
+          "寅",
+          "午",
+          "午"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.bazhuan",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "丁未",
+        "hour_branch": "子"
+      },
+      "expected": {
+        "method": "八专",
+        "transmissions": [
+          "卯",
+          "午",
+          "午"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.fuyin",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "甲子",
+        "hour_branch": "亥"
+      },
+      "expected": {
+        "method": "伏吟",
+        "transmissions": [
+          "寅",
+          "巳",
+          "申"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.fanyin",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "甲子",
+        "hour_branch": "巳"
+      },
+      "expected": {
+        "method": "返吟",
+        "transmissions": [
+          "寅",
+          "申",
+          "寅"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.fanyin-no-controls",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "辛丑",
+        "hour_branch": "巳"
+      },
+      "expected": {
+        "method": "返吟",
+        "transmissions": [
+          "亥",
+          "未",
+          "辰"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    },
+    {
+      "id": "liuren.biyong-upstream-crash",
+      "input": {
+        "solar_term": "雨水",
+        "day_ganzhi": "乙丑",
+        "hour_branch": "辰"
+      },
+      "expected": {
+        "method": "比用",
+        "transmissions": [
+          "卯",
+          "戌",
+          "巳"
+        ]
+      },
+      "variant": "daquan-nine-methods-lodged-stems-v1"
+    }
+  ]
+}

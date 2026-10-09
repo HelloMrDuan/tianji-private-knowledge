@@ -1,0 +1,16 @@
+{
+  "domain": "liuren",
+  "stage": "quarantine",
+  "evidence_level": "D",
+  "candidates": [
+    {
+      "title": "六壬断案",
+      "repository": "garychowcmu/daizhigev20",
+      "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+      "path": "易藏/术数/六壬断案.txt",
+      "url": "https://github.com/garychowcmu/daizhigev20/blob/4a6d6f2088825f132521d848c2ea86cf9c9a7620/%E6%98%93%E8%97%8F/%E6%9C%AF%E6%95%B0/%E5%85%AD%E5%A3%AC%E6%96%AD%E6%A1%88.txt",
+      "body_saved": false,
+      "reason": "公版候选已定位；本轮仅选大全与指南基础章句，不展开断案深校。"
+    }
+  ]
+}

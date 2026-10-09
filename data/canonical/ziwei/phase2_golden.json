@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-golden",
+  "domain": "ziwei",
+  "provider": "tianji_kb.operations.ziwei_chart.chart",
+  "review_basis": "全书安身命例明载甲年寅命火六局初一紫微酉；丑命身卯手算，与图中紫丑府卯相照；十四星序及甲年四化逐项手算。壬年测试仅核固定 iztro 软件配置，未认定府/辅古籍异文。",
+  "cases": [
+    {
+      "id": "ziwei.quanshu-fire-first-day",
+      "input": {
+        "year_ganzhi": "甲子",
+        "lunar_month": 1,
+        "lunar_day": 1,
+        "hour_branch": "子"
+      },
+      "expected": {
+        "life_palace": "寅",
+        "body_palace": "寅",
+        "life_ganzhi": "丙寅",
+        "bureau": {
+          "element": "火",
+          "number": 6
+        },
+        "major_stars": {
+          "紫微": "酉",
+          "天府": "未",
+          "天机": "申",
+          "太阳": "午",
+          "武曲": "巳",
+          "天同": "辰",
+          "廉贞": "丑",
+          "太阴": "申",
+          "贪狼": "酉",
+          "巨门": "戌",
+          "天相": "亥",
+          "天梁": "子",
+          "七杀": "丑",
+          "破军": "巳"
+        },
+        "auxiliary_stars": {
+          "左辅": "辰",
+          "右弼": "戌",
+          "文昌": "戌",
+          "文曲": "辰",
+          "禄存": "寅",
+          "擎羊": "卯",
+          "陀罗": "丑",
+          "天马": "寅",
+          "地劫": "亥",
+          "天空": "亥"
+        },
+        "four_transformations": {
+          "化禄": "廉贞",
+          "化权": "破军",
+          "化科": "武曲",
+          "化忌": "太阳"
+        }
+      },
+      "variant": "quanshu-lunar-iztro-mutagen-v1"
+    },
+    {
+      "id": "ziwei.chou-hour-mirror",
+      "input": {
+        "year_ganzhi": "甲子",
+        "lunar_month": 1,
+        "lunar_day": 1,
+        "hour_branch": "丑"
+      },
+      "expected": {
+        "life_palace": "丑",
+        "body_palace": "卯",
+        "life_ganzhi": "丁丑",
+        "bureau": {
+          "element": "水",
+          "number": 2
+        },
+        "major_stars": {
+          "紫微": "丑",
+          "天府": "卯"
+        }
+      },
+      "variant": "quanshu-lunar-iztro-mutagen-v1"
+    },
+    {
+      "id": "ziwei.ren-explicit-iztro",
+      "input": {
+        "year_ganzhi": "壬申",
+        "lunar_month": 1,
+        "lunar_day": 30,
+        "hour_branch": "子"
+      },
+      "expected": {
+        "life_palace": "寅",
+        "life_ganzhi": "壬寅",
+        "bureau": {
+          "element": "金",
+          "number": 4
+        },
+        "four_transformations": {
+          "化禄": "天梁",
+          "化权": "紫微",
+          "化科": "左辅",
+          "化忌": "武曲"
+        },
+        "mutagen_variant": "iztro-default-v2"
+      },
+      "variant": "quanshu-lunar-iztro-mutagen-v1"
+    }
+  ]
+}

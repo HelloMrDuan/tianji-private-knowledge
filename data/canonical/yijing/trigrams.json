@@ -1,0 +1,173 @@
+{
+  "schema_version": "0.2",
+  "items": [
+    {
+      "id": "yijing.trigram.乾",
+      "name": "乾",
+      "symbol": "☰",
+      "xian_tian_num": 1,
+      "hou_tian_num": 6,
+      "mnemonic": "乾三连",
+      "wuxing": "阳金",
+      "image": "天",
+      "attribute": "刚健",
+      "direction": "西北方",
+      "family": "父、君",
+      "body": "头、首",
+      "season": "秋末",
+      "provenance": {
+        "repo": "godcong/yi",
+        "path": "data/bagua.json",
+        "commit": "517293838bd49a7ad22edf47422074c6bf9cd656",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "yijing.trigram.兑",
+      "name": "兑",
+      "symbol": "☱",
+      "xian_tian_num": 2,
+      "hou_tian_num": 7,
+      "mnemonic": "兑上缺",
+      "wuxing": "阴金",
+      "image": "泽",
+      "attribute": "喜悦",
+      "direction": "西方",
+      "family": "少女",
+      "body": "口",
+      "season": "秋",
+      "provenance": {
+        "repo": "godcong/yi",
+        "path": "data/bagua.json",
+        "commit": "517293838bd49a7ad22edf47422074c6bf9cd656",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "yijing.trigram.离",
+      "name": "离",
+      "symbol": "☲",
+      "xian_tian_num": 3,
+      "hou_tian_num": 9,
+      "mnemonic": "离中虚",
+      "wuxing": "阴火",
+      "image": "火",
+      "attribute": "明丽",
+      "direction": "南方",
+      "family": "中女",
+      "body": "眼睛(血液系统)",
+      "season": "夏",
+      "provenance": {
+        "repo": "godcong/yi",
+        "path": "data/bagua.json",
+        "commit": "517293838bd49a7ad22edf47422074c6bf9cd656",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "yijing.trigram.震",
+      "name": "震",
+      "symbol": "☳",
+      "xian_tian_num": 4,
+      "hou_tian_num": 3,
+      "mnemonic": "震仰盂",
+      "wuxing": "阳木",
+      "image": "雷",
+      "attribute": "活动",
+      "direction": "东方",
+      "family": "长男",
+      "body": "足(神经系统)",
+      "season": "春",
+      "provenance": {
+        "repo": "godcong/yi",
+        "path": "data/bagua.json",
+        "commit": "517293838bd49a7ad22edf47422074c6bf9cd656",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "yijing.trigram.巽",
+      "name": "巽",
+      "symbol": "☴",
+      "xian_tian_num": 5,
+      "hou_tian_num": 4,
+      "mnemonic": "巽下断",
+      "wuxing": "阴木",
+      "image": "风",
+      "attribute": "进入",
+      "direction": "东南方",
+      "family": "长女",
+      "body": "股",
+      "season": "春末",
+      "provenance": {
+        "repo": "godcong/yi",
+        "path": "data/bagua.json",
+        "commit": "517293838bd49a7ad22edf47422074c6bf9cd656",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "yijing.trigram.坎",
+      "name": "坎",
+      "symbol": "☵",
+      "xian_tian_num": 6,
+      "hou_tian_num": 1,
+      "mnemonic": "坎中满",
+      "wuxing": "阳水",
+      "image": "水",
+      "attribute": "险陷",
+      "direction": "北方",
+      "family": "中男",
+      "body": "耳",
+      "season": "冬",
+      "provenance": {
+        "repo": "godcong/yi",
+        "path": "data/bagua.json",
+        "commit": "517293838bd49a7ad22edf47422074c6bf9cd656",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "yijing.trigram.艮",
+      "name": "艮",
+      "symbol": "☶",
+      "xian_tian_num": 7,
+      "hou_tian_num": 8,
+      "mnemonic": "艮覆碗",
+      "wuxing": "阴土",
+      "image": "山",
+      "attribute": "停止",
+      "direction": "东北方",
+      "family": "少男",
+      "body": "手",
+      "season": "多末",
+      "provenance": {
+        "repo": "godcong/yi",
+        "path": "data/bagua.json",
+        "commit": "517293838bd49a7ad22edf47422074c6bf9cd656",
+        "license": "MIT"
+      }
+    },
+    {
+      "id": "yijing.trigram.坤",
+      "name": "坤",
+      "symbol": "☷",
+      "xian_tian_num": 8,
+      "hou_tian_num": 2,
+      "mnemonic": "坤六断",
+      "wuxing": "阴土",
+      "image": "地",
+      "attribute": "柔顺",
+      "direction": "西南方",
+      "family": "母",
+      "body": "腹",
+      "season": "夏末",
+      "provenance": {
+        "repo": "godcong/yi",
+        "path": "data/bagua.json",
+        "commit": "517293838bd49a7ad22edf47422074c6bf9cd656",
+        "license": "MIT"
+      }
+    }
+  ]
+}

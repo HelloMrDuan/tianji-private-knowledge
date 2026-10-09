@@ -1,0 +1,22 @@
+{
+  "source_id": "tarot-nonebot",
+  "repo": "MinatoAquaCrews/nonebot_plugin_tarot",
+  "branch": "master",
+  "commit": "5b8638f0e9421bc6b04ecc501d8d999e90e1cd79",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "tarot"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "nonebot_plugin_tarot/tarot.json",
+      "snapshot_path": "data/quarantine/source_snapshots/tarot-nonebot/nonebot_plugin_tarot/tarot.json",
+      "sha256": "988bc883de4037b94e15ec4ffaee7ab763089b9e6ab361b5be60ddc7cb58f6e3",
+      "bytes": 22177
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

@@ -1,0 +1,22 @@
+{
+  "source_id": "daizhigev20",
+  "repository": "garychowcmu/daizhigev20",
+  "source_path": "易藏/术数/周公解梦.txt",
+  "pinned_commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+  "candidate_commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+  "baseline_blob_sha": "0c7b0823265c4ff00465f833e0be28f1bf0f2175",
+  "blob_sha": "0c7b0823265c4ff00465f833e0be28f1bf0f2175",
+  "sha256": "d80c42b0b8f44f5b8cf2c4e1c286b200388b65dcd321347eb7ac1011d0be5e97",
+  "bytes": 23527,
+  "raw_path": "data/raw/phase1_candidates/daizhigev20/4a6d6f2088825f132521d848c2ea86cf9c9a7620/0c7b0823265c4ff00465f833e0be28f1bf0f2175.raw",
+  "stage": "quarantine",
+  "evidence_level": "D",
+  "review_status": "pending",
+  "promotion_allowed": false,
+  "body_saved_to_quarantine": false,
+  "file_changed": false,
+  "rights_scope": "沿用现有 PUBLIC_DOMAIN_EXTRACT_ONLY 的古典材料调查范围；RAW 仅作隔离复核缓存，不发布全文；仅传统条目可能采纳，底本、署名、电子编辑与现代注释权利须另审，不能因采集视为整本公版确证。",
+  "rights_status": "approved_acquisition_scope_only",
+  "retrieved_at": "2026-10-04T11:43:53.744772+00:00",
+  "review_note": "RAW 忽略缓存；这里只存来源与差异元数据。正文、版权、异文均须另开审核 PR；不写 Canonical 或已审核证据。"
+}

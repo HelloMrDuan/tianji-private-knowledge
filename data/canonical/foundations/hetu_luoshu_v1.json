@@ -1,0 +1,274 @@
+{
+  "schema_version": "0.1",
+  "domain": "foundations",
+  "topic": "hetu_luoshu",
+  "source_level": "L1-structured-traditional-relations",
+  "license": "MIT/multi-source",
+  "provenance": {
+    "primary": {
+      "repo": "JbBom/hetu-cube-3d",
+      "commit": "928c82e45fc3fb854c639ad1fa1deddd39930edc",
+      "paths": [
+        "README.md",
+        "luoshu-magic.html",
+        "hetu-cube.html"
+      ],
+      "license": "MIT"
+    },
+    "cross_checks": [
+      {
+        "repo": "JackieL233/fengshui-master",
+        "commit": "2666304c5cb4ac13091c8c1fcdd4e40c218b275a",
+        "path": "fengshui-master/scripts/flying_stars.py",
+        "license": "MIT",
+        "scope": "洛书九宫数与宫位/八卦"
+      },
+      {
+        "repo": "qfdk/qimen",
+        "commit": "1d0d1c5b39755e67525a11e68bab9b73baae1937",
+        "path": "lib/qimen.js",
+        "license": "MIT",
+        "scope": "九宫体系交叉校验"
+      }
+    ]
+  },
+  "hetu": {
+    "concept": "1-10 数的生数/成数配对",
+    "pairs": [
+      {
+        "element": "水",
+        "generating": 1,
+        "completing": 6,
+        "pair": [
+          1,
+          6
+        ]
+      },
+      {
+        "element": "火",
+        "generating": 2,
+        "completing": 7,
+        "pair": [
+          2,
+          7
+        ]
+      },
+      {
+        "element": "木",
+        "generating": 3,
+        "completing": 8,
+        "pair": [
+          3,
+          8
+        ]
+      },
+      {
+        "element": "金",
+        "generating": 4,
+        "completing": 9,
+        "pair": [
+          4,
+          9
+        ]
+      },
+      {
+        "element": "土",
+        "generating": 5,
+        "completing": 10,
+        "pair": [
+          5,
+          10
+        ]
+      }
+    ],
+    "invariants": {
+      "completing_minus_generating": 5,
+      "generating_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "completing_numbers": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "textual_attribution_status": "UNVERIFIED",
+    "textual_attribution_note": "上游把“天一生水，地六成之”等直接标为《尚书·洪范》。Tianji KB 暂不采纳该具体出处断言，待古籍原文校勘后另行建立 L0 引文。"
+  },
+  "luoshu": {
+    "matrix_south_up": [
+      [
+        4,
+        9,
+        2
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        8,
+        1,
+        6
+      ]
+    ],
+    "magic_constant": 15,
+    "verification": {
+      "rows": [
+        [
+          4,
+          9,
+          2
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          8,
+          1,
+          6
+        ]
+      ],
+      "columns": [
+        [
+          4,
+          3,
+          8
+        ],
+        [
+          9,
+          5,
+          1
+        ],
+        [
+          2,
+          7,
+          6
+        ]
+      ],
+      "diagonals": [
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          2,
+          5,
+          8
+        ]
+      ],
+      "opposite_pairs_sum_10": [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    "nine_palaces": [
+      {
+        "number": 1,
+        "palace": "坎",
+        "direction": "北",
+        "element": "水"
+      },
+      {
+        "number": 2,
+        "palace": "坤",
+        "direction": "西南",
+        "element": "土"
+      },
+      {
+        "number": 3,
+        "palace": "震",
+        "direction": "东",
+        "element": "木"
+      },
+      {
+        "number": 4,
+        "palace": "巽",
+        "direction": "东南",
+        "element": "木"
+      },
+      {
+        "number": 5,
+        "palace": "中宫",
+        "direction": "中",
+        "element": "土"
+      },
+      {
+        "number": 6,
+        "palace": "乾",
+        "direction": "西北",
+        "element": "金"
+      },
+      {
+        "number": 7,
+        "palace": "兑",
+        "direction": "西",
+        "element": "金"
+      },
+      {
+        "number": 8,
+        "palace": "艮",
+        "direction": "东北",
+        "element": "土"
+      },
+      {
+        "number": 9,
+        "palace": "离",
+        "direction": "南",
+        "element": "火"
+      }
+    ],
+    "flying_sequence": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "spatial_flight_path": [
+      "中宫",
+      "西北",
+      "正西",
+      "东北",
+      "正南",
+      "正北",
+      "西南",
+      "正东",
+      "东南"
+    ]
+  },
+  "excluded_from_canonical": [
+    "上游自定义的河图立方体三维几何模型",
+    "未经独立古籍校验的“鬼神生成关系”解释",
+    "未经独立古籍校验的阴阳旋转面与特定八卦数配对",
+    "未经校勘的古籍出处断言"
+  ]
+}

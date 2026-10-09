@@ -1,0 +1,120 @@
+{
+  "schema_version": "0.1",
+  "domain": "fengshui",
+  "topic": "school_separation",
+  "source_level": "L2-secondary-methodology",
+  "license": "MIT",
+  "provenance": {
+    "repo": "JackieL233/fengshui-master",
+    "commit": "2666304c5cb4ac13091c8c1fcdd4e40c218b275a",
+    "paths": [
+      "fengshui-master/references/schools.md",
+      "fengshui-master/references/xuan-kong-flying-stars.md",
+      "fengshui-master/references/sources.md"
+    ]
+  },
+  "schools": [
+    {
+      "name": "形势派",
+      "focus": [
+        "山水形势",
+        "道路",
+        "建筑体量",
+        "采光",
+        "通风",
+        "动线"
+      ],
+      "required_inputs": [
+        "现场/照片/户型/外部环境"
+      ]
+    },
+    {
+      "name": "罗盘派",
+      "focus": [
+        "方位",
+        "二十四山",
+        "坐向"
+      ],
+      "required_inputs": [
+        "可靠度数",
+        "测量位置",
+        "坐向定义"
+      ]
+    },
+    {
+      "name": "三合",
+      "focus": [
+        "形势",
+        "水法",
+        "二十四山",
+        "三合关系"
+      ],
+      "required_inputs": [
+        "精确方位",
+        "来水去水",
+        "外部形势"
+      ]
+    },
+    {
+      "name": "三元",
+      "focus": [
+        "时间周期",
+        "空间方位"
+      ],
+      "required_inputs": [
+        "建成/大修时间",
+        "入住时间",
+        "坐向"
+      ]
+    },
+    {
+      "name": "玄空飞星",
+      "focus": [
+        "元运",
+        "坐向",
+        "九宫飞星"
+      ],
+      "required_inputs": [
+        "建成或大修年份",
+        "可靠坐向",
+        "户型",
+        "当前时间层"
+      ]
+    },
+    {
+      "name": "八宅",
+      "focus": [
+        "命卦",
+        "宅卦",
+        "个人方向"
+      ],
+      "required_inputs": [
+        "出生年",
+        "传统性别口径",
+        "门/床/桌方向"
+      ]
+    },
+    {
+      "name": "象征八卦",
+      "focus": [
+        "现代象征分区"
+      ],
+      "required_inputs": [
+        "明确选择象征法"
+      ],
+      "warning": "不得与罗盘八卦默认为同一方法"
+    }
+  ],
+  "combination_order": [
+    "安全与实际功能",
+    "形势观察",
+    "有数据支撑的罗盘/个人方向",
+    "有数据支撑的时间法",
+    "象征性调整"
+  ],
+  "guardrails": [
+    "不同流派冲突时必须展示所用方法和假设，不能静默混合。",
+    "基础洛书飞星脚手架不能冒充完整玄空宅盘。",
+    "风水解释属于传统文化/象征性框架，不能替代工程、消防、医疗、法律或金融专业判断。"
+  ]
+}

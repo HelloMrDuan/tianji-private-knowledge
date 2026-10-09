@@ -1,0 +1,47 @@
+{
+  "source_id": "bazi-skill",
+  "repo": "jinchenma94/bazi-skill",
+  "branch": "main",
+  "commit": "112a5d84cd1a001a0038cafca3be68d93e4c0cc9",
+  "license_policy": "ALLOW",
+  "license_spdx": "MIT",
+  "domains": [
+    "bazi",
+    "foundations"
+  ],
+  "fetched_at": "2026-10-01T22:46:20.974207+00:00",
+  "files": [
+    {
+      "source_path": "references/wuxing-tables.md",
+      "snapshot_path": "data/quarantine/source_snapshots/bazi-skill/references/wuxing-tables.md",
+      "sha256": "b037ba1d051cc9590118961a66cc758e2e1ca4b40e9f74b6d4eb2d226dccaba7",
+      "bytes": 6120
+    },
+    {
+      "source_path": "references/shichen-table.md",
+      "snapshot_path": "data/quarantine/source_snapshots/bazi-skill/references/shichen-table.md",
+      "sha256": "0dea835b1fbbc401be7c0402796dd7c06aa86fd29508e4b293a44e8b70bc4f29",
+      "bytes": 2772
+    },
+    {
+      "source_path": "references/dayun-rules.md",
+      "snapshot_path": "data/quarantine/source_snapshots/bazi-skill/references/dayun-rules.md",
+      "sha256": "08d22f418c22e68ab8fd26c6f358226f259d1522bf01cf8e58d4f36baff5e33a",
+      "bytes": 3390
+    },
+    {
+      "source_path": "references/shensha-table.md",
+      "snapshot_path": "data/quarantine/source_snapshots/bazi-skill/references/shensha-table.md",
+      "sha256": "dc37880e2aff118cc2bb67252f20b954149345ccbd2214d8d785447bcddd50d1",
+      "bytes": 7218
+    },
+    {
+      "source_path": "references/classical-texts.md",
+      "snapshot_path": "data/quarantine/source_snapshots/bazi-skill/references/classical-texts.md",
+      "sha256": "8fcc2b56c9fd43c15247e474bcbf00a628623caf509936f78006afb9188e9e84",
+      "bytes": 6568
+    }
+  ],
+  "promotion_status": "QUARANTINE",
+  "promotion_note": "Snapshots are upstream evidence only; Canonical promotion requires cleaning, conflict review and validation."
+}

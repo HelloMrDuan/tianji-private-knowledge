@@ -1,0 +1,473 @@
+{
+  "schema_version": "1.0",
+  "scope": "既有七域与梦文化域最小骨架；不等于完整排盘、个人预测或整本校勘",
+  "domains": [
+    {
+      "domain": "yijing",
+      "name": "周易 / 易经",
+      "classics": {
+        "canonical": 2,
+        "quarantine": 2,
+        "metadata_only": 0,
+        "with_reviewed_excerpts": 4
+      },
+      "chapters": 85,
+      "sections": 104,
+      "terms": {
+        "canonical": 19
+      },
+      "concepts": 73,
+      "rules": {
+        "executable": 5,
+        "partially_structured": 0,
+        "descriptive_only": 1
+      },
+      "sources": {
+        "A": 0,
+        "B": 0,
+        "C": 72,
+        "D": 0
+      },
+      "source_ids": [
+        "yijing.source.benyi",
+        "yijing.source.meihua",
+        "yijing.source.shuogua",
+        "yijing.source.tuan_xiang_wenyan",
+        "yijing.source.xici",
+        "yijing.source.xici_xia",
+        "yijing.source.xugua",
+        "yijing.source.zagua",
+        "yijing.source.zhouyi01",
+        "yijing.source.zhouyi02",
+        "yijing.source.zhouyi03",
+        "yijing.source.zhouyi04",
+        "yijing.source.zhouyi05",
+        "yijing.source.zhouyi06",
+        "yijing.source.zhouyi07",
+        "yijing.source.zhouyi08",
+        "yijing.source.zhouyi09",
+        "yijing.source.zhouyi10",
+        "yijing.source.zhouyi11",
+        "yijing.source.zhouyi12",
+        "yijing.source.zhouyi13",
+        "yijing.source.zhouyi14",
+        "yijing.source.zhouyi15",
+        "yijing.source.zhouyi16",
+        "yijing.source.zhouyi17",
+        "yijing.source.zhouyi18",
+        "yijing.source.zhouyi19",
+        "yijing.source.zhouyi20",
+        "yijing.source.zhouyi21",
+        "yijing.source.zhouyi22",
+        "yijing.source.zhouyi23",
+        "yijing.source.zhouyi24",
+        "yijing.source.zhouyi25",
+        "yijing.source.zhouyi26",
+        "yijing.source.zhouyi27",
+        "yijing.source.zhouyi28",
+        "yijing.source.zhouyi29",
+        "yijing.source.zhouyi30",
+        "yijing.source.zhouyi31",
+        "yijing.source.zhouyi32",
+        "yijing.source.zhouyi33",
+        "yijing.source.zhouyi34",
+        "yijing.source.zhouyi35",
+        "yijing.source.zhouyi36",
+        "yijing.source.zhouyi37",
+        "yijing.source.zhouyi38",
+        "yijing.source.zhouyi39",
+        "yijing.source.zhouyi40",
+        "yijing.source.zhouyi41",
+        "yijing.source.zhouyi42",
+        "yijing.source.zhouyi43",
+        "yijing.source.zhouyi44",
+        "yijing.source.zhouyi45",
+        "yijing.source.zhouyi46",
+        "yijing.source.zhouyi47",
+        "yijing.source.zhouyi48",
+        "yijing.source.zhouyi49",
+        "yijing.source.zhouyi50",
+        "yijing.source.zhouyi51",
+        "yijing.source.zhouyi52",
+        "yijing.source.zhouyi53",
+        "yijing.source.zhouyi54",
+        "yijing.source.zhouyi55",
+        "yijing.source.zhouyi56",
+        "yijing.source.zhouyi57",
+        "yijing.source.zhouyi58",
+        "yijing.source.zhouyi59",
+        "yijing.source.zhouyi60",
+        "yijing.source.zhouyi61",
+        "yijing.source.zhouyi62",
+        "yijing.source.zhouyi63",
+        "yijing.source.zhouyi64"
+      ],
+      "tests": 3,
+      "production_chunks": 202,
+      "completion_criteria": {
+        "domain_definition": true,
+        "source_registry": true,
+        "reviewed_core_material": true,
+        "terms": true,
+        "structured_rules": true,
+        "resolved_evidence": true,
+        "domain_tests": true,
+        "coverage_report": true,
+        "production_isolation": true
+      },
+      "pending_evidence": [
+        "C 为可追溯电子本；十翼复用旧正式全文，不声明新刊本校勘。"
+      ],
+      "status": "phase1_complete"
+    },
+    {
+      "domain": "liuyao",
+      "name": "六爻",
+      "classics": {
+        "canonical": 2,
+        "quarantine": 0,
+        "metadata_only": 0,
+        "with_reviewed_excerpts": 2
+      },
+      "chapters": 4,
+      "sections": 38,
+      "terms": {
+        "canonical": 30
+      },
+      "concepts": 8,
+      "rules": {
+        "executable": 7,
+        "partially_structured": 15,
+        "descriptive_only": 2
+      },
+      "sources": {
+        "A": 0,
+        "B": 0,
+        "C": 2,
+        "D": 1
+      },
+      "source_ids": [
+        "liuyao.source.bushi",
+        "liuyao.source.najia-implementation",
+        "liuyao.source.zengshan"
+      ],
+      "tests": 5,
+      "production_chunks": 100,
+      "completion_criteria": {
+        "domain_definition": true,
+        "source_registry": true,
+        "reviewed_core_material": true,
+        "terms": true,
+        "structured_rules": true,
+        "resolved_evidence": true,
+        "domain_tests": true,
+        "coverage_report": true,
+        "production_isolation": true
+      },
+      "pending_evidence": [
+        "旺衰及日月条件、墓绝刑害等仍需分流派编译。"
+      ],
+      "status": "phase1_complete"
+    },
+    {
+      "domain": "qimen",
+      "name": "奇门遁甲",
+      "classics": {
+        "canonical": 0,
+        "quarantine": 2,
+        "metadata_only": 0,
+        "with_reviewed_excerpts": 2
+      },
+      "chapters": 6,
+      "sections": 33,
+      "terms": {
+        "canonical": 44
+      },
+      "concepts": 10,
+      "rules": {
+        "executable": 4,
+        "partially_structured": 1,
+        "descriptive_only": 1
+      },
+      "sources": {
+        "A": 0,
+        "B": 0,
+        "C": 2,
+        "D": 2
+      },
+      "source_ids": [
+        "qimen.source.baojian",
+        "qimen.source.lunar-calendar",
+        "qimen.source.qfdk-implementation",
+        "qimen.source.tongzong"
+      ],
+      "tests": 4,
+      "production_chunks": 93,
+      "completion_criteria": {
+        "domain_definition": true,
+        "source_registry": true,
+        "reviewed_core_material": true,
+        "terms": true,
+        "structured_rules": true,
+        "resolved_evidence": true,
+        "domain_tests": true,
+        "coverage_report": true,
+        "production_isolation": true
+      },
+      "pending_evidence": [
+        "精确节气转盘单一 variant；置闰/超接及其他盘法未实现。"
+      ],
+      "status": "phase1_complete"
+    },
+    {
+      "domain": "ziwei",
+      "name": "紫微斗数",
+      "classics": {
+        "canonical": 0,
+        "quarantine": 1,
+        "metadata_only": 0,
+        "with_reviewed_excerpts": 1
+      },
+      "chapters": 15,
+      "sections": 44,
+      "terms": {
+        "canonical": 48
+      },
+      "concepts": 14,
+      "rules": {
+        "executable": 2,
+        "partially_structured": 9,
+        "descriptive_only": 0
+      },
+      "sources": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 1
+      },
+      "source_ids": [
+        "ziwei.source.iztro-implementation",
+        "ziwei.source.quanshu"
+      ],
+      "tests": 3,
+      "production_chunks": 117,
+      "completion_criteria": {
+        "domain_definition": true,
+        "source_registry": true,
+        "reviewed_core_material": true,
+        "terms": true,
+        "structured_rules": true,
+        "resolved_evidence": true,
+        "domain_tests": true,
+        "coverage_report": true,
+        "production_isolation": true
+      },
+      "pending_evidence": [
+        "壬年府/辅疑字待刊本；四化、亮度、长生及完整排盘仍保留版本差异。"
+      ],
+      "status": "phase1_complete"
+    },
+    {
+      "domain": "fengshui",
+      "name": "风水",
+      "classics": {
+        "canonical": 0,
+        "quarantine": 6,
+        "metadata_only": 0,
+        "with_reviewed_excerpts": 6
+      },
+      "chapters": 9,
+      "sections": 22,
+      "terms": {
+        "canonical": 37
+      },
+      "concepts": 3,
+      "rules": {
+        "executable": 3,
+        "partially_structured": 4,
+        "descriptive_only": 1
+      },
+      "sources": {
+        "A": 0,
+        "B": 0,
+        "C": 9,
+        "D": 1
+      },
+      "source_ids": [
+        "fengshui.source.benyi",
+        "fengshui.source.dibian",
+        "fengshui.source.fengshui-implementation",
+        "fengshui.source.hanlong",
+        "fengshui.source.meihua",
+        "fengshui.source.yangzhai",
+        "fengshui.source.zangshu",
+        "yijing.source.benyi",
+        "yijing.source.meihua",
+        "yijing.source.shuogua"
+      ],
+      "tests": 5,
+      "production_chunks": 70,
+      "completion_criteria": {
+        "domain_definition": true,
+        "source_registry": true,
+        "reviewed_core_material": true,
+        "terms": true,
+        "structured_rules": true,
+        "resolved_evidence": true,
+        "domain_tests": true,
+        "coverage_report": true,
+        "production_isolation": true
+      },
+      "pending_evidence": [
+        "1864锚点/20年九运年份表为 D，显式研究模式；古籍与时间边界待核。"
+      ],
+      "status": "phase1_complete"
+    },
+    {
+      "domain": "liuren",
+      "name": "大六壬",
+      "classics": {
+        "canonical": 0,
+        "quarantine": 2,
+        "metadata_only": 0,
+        "with_reviewed_excerpts": 2
+      },
+      "chapters": 35,
+      "sections": 42,
+      "terms": {
+        "canonical": 42
+      },
+      "concepts": 12,
+      "rules": {
+        "executable": 4,
+        "partially_structured": 10,
+        "descriptive_only": 0
+      },
+      "sources": {
+        "A": 0,
+        "B": 0,
+        "C": 2,
+        "D": 1
+      },
+      "source_ids": [
+        "liuren.source.daquan",
+        "liuren.source.kinliuren-implementation",
+        "liuren.source.zhinan"
+      ],
+      "tests": 6,
+      "production_chunks": 110,
+      "completion_criteria": {
+        "domain_definition": true,
+        "source_registry": true,
+        "reviewed_core_material": true,
+        "terms": true,
+        "structured_rules": true,
+        "resolved_evidence": true,
+        "domain_tests": true,
+        "coverage_report": true,
+        "production_isolation": true
+      },
+      "pending_evidence": [
+        "九宗门初传分支未完整编译；贵人两表及天后位置异文待逐句核定。"
+      ],
+      "status": "phase1_complete"
+    },
+    {
+      "domain": "bazi",
+      "name": "八字 / 子平",
+      "classics": {
+        "canonical": 2,
+        "quarantine": 2,
+        "metadata_only": 0,
+        "with_reviewed_excerpts": 4
+      },
+      "chapters": 20,
+      "sections": 59,
+      "terms": {
+        "canonical": 30
+      },
+      "concepts": 18,
+      "rules": {
+        "executable": 16,
+        "partially_structured": 11,
+        "descriptive_only": 1
+      },
+      "sources": {
+        "A": 0,
+        "B": 0,
+        "C": 4,
+        "D": 0
+      },
+      "source_ids": [
+        "bazi.source.ditiansui-spouse",
+        "bazi.source.sanming-xianchi-niutrans",
+        "bazi.source.xieji-relations",
+        "bazi.source.yuanhai"
+      ],
+      "tests": 4,
+      "production_chunks": 135,
+      "completion_criteria": {
+        "domain_definition": true,
+        "source_registry": true,
+        "reviewed_core_material": true,
+        "terms": true,
+        "structured_rules": true,
+        "resolved_evidence": true,
+        "domain_tests": true,
+        "coverage_report": true,
+        "production_isolation": true
+      },
+      "pending_evidence": [
+        "生产范围含四柱、日主、十神、藏干；咸池、五合/六合/六害/六冲/三合、日支传统配偶宫结构位及用户显式选择的传统配偶星候选位置已核；配偶星口径差异已设受限边界，三刑/自刑已登记为未裁定流派冲突且禁止统一 executable；跨盘三合、旺衰、格局、喜用、调候、大运起运及婚恋解释尚未裁定。"
+      ],
+      "status": "phase1_complete"
+    },
+    {
+      "domain": "dream",
+      "name": "传统梦文化（研究检索）",
+      "classics": {
+        "canonical": 0,
+        "quarantine": 1,
+        "metadata_only": 0,
+        "with_reviewed_excerpts": 1
+      },
+      "chapters": 9,
+      "sections": 11,
+      "terms": {
+        "canonical": 10
+      },
+      "concepts": 1,
+      "rules": {
+        "executable": 0,
+        "partially_structured": 10,
+        "descriptive_only": 0
+      },
+      "sources": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 0
+      },
+      "source_ids": [
+        "dream.source.zhougong-scenes"
+      ],
+      "tests": 8,
+      "production_chunks": 32,
+      "completion_criteria": {
+        "domain_definition": true,
+        "source_registry": true,
+        "reviewed_core_material": true,
+        "terms": true,
+        "structured_rules": true,
+        "resolved_evidence": true,
+        "domain_tests": true,
+        "coverage_report": true,
+        "production_isolation": true
+      },
+      "pending_evidence": [
+        "仅五个具体传统梦场景；来源底本和独立性未核，通用梦象和现代心理尚缺，公开产品及 AI 未开放。"
+      ],
+      "status": "phase1_complete"
+    }
+  ]
+}

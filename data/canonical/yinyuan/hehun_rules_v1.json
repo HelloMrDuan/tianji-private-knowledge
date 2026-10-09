@@ -1,0 +1,60 @@
+{
+  "schema_version": "0.1",
+  "domain": "yinyuan",
+  "topic": "hehun",
+  "ruleset": "metaphysics-steward-v1",
+  "license": "MIT",
+  "provenance": {
+    "repo": "superzhang21/metaphysics-steward",
+    "path": "references/hehun_rules.md",
+    "commit": "0c1dcf5fd27c68debe5607f5caa697722319aed8"
+  },
+  "scoring_model": {
+    "baseline": 60,
+    "range": [
+      0,
+      100
+    ],
+    "dimensions": [
+      {
+        "name": "生肖",
+        "range": "-3..+10"
+      },
+      {
+        "name": "年命纳音",
+        "range": "-4..+5"
+      },
+      {
+        "name": "日干",
+        "range": "-4..+10"
+      },
+      {
+        "name": "夫妻宫(日支)",
+        "range": "-8..+10"
+      },
+      {
+        "name": "五行互补",
+        "range": "0..+6"
+      },
+      {
+        "name": "喜用神互补",
+        "range": "-2..+8"
+      },
+      {
+        "name": "神煞警示",
+        "range": "-7..+1"
+      },
+      {
+        "name": "大运同频",
+        "range": "0..+6"
+      }
+    ],
+    "ratings": {
+      "上等": ">=85",
+      "中上": "70-84",
+      "中等": "55-69",
+      "普通": "<55"
+    }
+  },
+  "warning": "这是一个开源实现的可解释评分口径，不代表传统命理存在统一客观百分比。平台必须显示“娱乐/传统文化参考”，不能把分数包装成科学婚配结论。"
+}

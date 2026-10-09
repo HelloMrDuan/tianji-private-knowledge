@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-execution",
+  "domain": "yijing",
+  "variant": "bottom-up-six-lines-v1",
+  "provider": "tianji_kb.operations.yijing_chart.chart",
+  "scope": "六爻结构；不编译断语；乾坤无互文本例外单独保留",
+  "unresolved": [],
+  "rules": [
+    {
+      "id": "yijing.phase2.structure",
+      "domain": "yijing",
+      "name": "structure",
+      "variant": "bottom-up-six-lines-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "yijing.rule.r001"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "yijing.qian-first-change",
+        "yijing.tai-relations",
+        "yijing.zhun-nuclear"
+      ],
+      "regression_test": "tests/test_phase2_yijing.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "yijing.phase2.change",
+      "domain": "yijing",
+      "name": "change",
+      "variant": "bottom-up-six-lines-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "yijing.rule.r002"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "yijing.qian-first-change",
+        "yijing.tai-relations",
+        "yijing.zhun-nuclear"
+      ],
+      "regression_test": "tests/test_phase2_yijing.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "yijing.phase2.opposite",
+      "domain": "yijing",
+      "name": "opposite",
+      "variant": "bottom-up-six-lines-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "yijing.rule.r003"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "yijing.qian-first-change",
+        "yijing.tai-relations",
+        "yijing.zhun-nuclear"
+      ],
+      "regression_test": "tests/test_phase2_yijing.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "yijing.phase2.inverse",
+      "domain": "yijing",
+      "name": "inverse",
+      "variant": "bottom-up-six-lines-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "yijing.rule.r004"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "yijing.qian-first-change",
+        "yijing.tai-relations",
+        "yijing.zhun-nuclear"
+      ],
+      "regression_test": "tests/test_phase2_yijing.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "yijing.phase2.nuclear",
+      "domain": "yijing",
+      "name": "nuclear",
+      "variant": "bottom-up-six-lines-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "yijing.rule.r005"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "yijing.qian-first-change",
+        "yijing.tai-relations",
+        "yijing.zhun-nuclear"
+      ],
+      "regression_test": "tests/test_phase2_yijing.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    }
+  ]
+}

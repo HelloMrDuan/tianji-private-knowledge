@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-execution",
+  "domain": "liuren",
+  "variant": "daquan-nine-methods-lodged-stems-v1",
+  "provider": "tianji_kb.operations.liuren_chart.chart",
+  "scope": "输入明确节气、日干支、时支；完成九宗门结构取传，不计算天将吉凶。",
+  "unresolved": [
+    "涉害寄干计数/孟仲季/同深取日辰的规则锁定此 variant",
+    "返吟沿用先下贼上后上克下，与旧 kinliuren 部分返回值有差异，旧输出不作为古籍真值",
+    "贵人昼夜双表与天后位置异文未核；不混入九宗门算法"
+  ],
+  "rules": [
+    {
+      "id": "liuren.phase2.month_general",
+      "domain": "liuren",
+      "name": "month_general",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r010"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.plates",
+      "domain": "liuren",
+      "name": "plates",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r011"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.lessons",
+      "domain": "liuren",
+      "name": "lessons",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r012"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.zeike",
+      "domain": "liuren",
+      "name": "zeike",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r001"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.biyong",
+      "domain": "liuren",
+      "name": "biyong",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r002"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.shehai",
+      "domain": "liuren",
+      "name": "shehai",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r003"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.yaoke",
+      "domain": "liuren",
+      "name": "yaoke",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r004"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.maoxing",
+      "domain": "liuren",
+      "name": "maoxing",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r005"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.bieze",
+      "domain": "liuren",
+      "name": "bieze",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r006"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.bazhuan",
+      "domain": "liuren",
+      "name": "bazhuan",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r007"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.fuyin",
+      "domain": "liuren",
+      "name": "fuyin",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r008"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    },
+    {
+      "id": "liuren.phase2.fanyin",
+      "domain": "liuren",
+      "name": "fanyin",
+      "variant": "daquan-nine-methods-lodged-stems-v1",
+      "execution_status": "executable",
+      "phase1_rule_refs": [
+        "liuren.rule.r009"
+      ],
+      "validation_status": "validated",
+      "golden_case_ids": [
+        "liuren.zeike",
+        "liuren.biyong",
+        "liuren.shehai",
+        "liuren.yaoke",
+        "liuren.maoxing",
+        "liuren.bieze",
+        "liuren.bazhuan",
+        "liuren.fuyin",
+        "liuren.fanyin",
+        "liuren.fanyin-no-controls",
+        "liuren.biyong-upstream-crash"
+      ],
+      "regression_test": "tests/test_phase2_liuren.py",
+      "evidence_scope": "C 可追溯古典关系与人工固定案例；现代数学形式化仅在指定 variant/输入范围内经回归验证。"
+    }
+  ]
+}

@@ -1,0 +1,1516 @@
+{
+  "schema_version": "1.0",
+  "model": "phase1-knowledge",
+  "domain": "dream",
+  "classics": [
+    {
+      "id": "dream.classic.zhougong",
+      "domain": "dream",
+      "name": "周公解梦（电子本题名）",
+      "source_id": "dream.source.zhougong-scenes",
+      "body_stage": "quarantine"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "dream.chapter.c001",
+      "domain": "dream",
+      "name": "梦文化原文语境",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "题名及开篇"
+    },
+    {
+      "id": "dream.chapter.c002",
+      "domain": "dream",
+      "name": "二十五、龙蛇 禽兽 等类",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "二十五、龙蛇 禽兽 等类"
+    },
+    {
+      "id": "dream.chapter.c003",
+      "domain": "dream",
+      "name": "二十三、水火 盗贼 灯烛",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "二十三、水火 盗贼 灯烛"
+    },
+    {
+      "id": "dream.chapter.c004",
+      "domain": "dream",
+      "name": "一、天地 日月 星辰",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "一、天地 日月 星辰"
+    },
+    {
+      "id": "dream.chapter.c005",
+      "domain": "dream",
+      "name": "八、门户 井灶 橱厕",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "八、门户 井灶 橱厕"
+    },
+    {
+      "id": "dream.chapter.c006",
+      "domain": "dream",
+      "name": "二十七、龟鳖 鱼虾 昆虫",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "二十七、龟鳖 鱼虾 昆虫"
+    },
+    {
+      "id": "dream.chapter.c007",
+      "domain": "dream",
+      "name": "七、宫室 屋宇 仓库",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "七、宫室 屋宇 仓库"
+    },
+    {
+      "id": "dream.chapter.c008",
+      "domain": "dream",
+      "name": "二十、杀害 斗伤 打骂",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "二十、杀害 斗伤 打骂"
+    },
+    {
+      "id": "dream.chapter.c009",
+      "domain": "dream",
+      "name": "九、金银 珠玉 绢帛",
+      "classic_id": "dream.classic.zhougong",
+      "locator": "九、金银 珠玉 绢帛"
+    }
+  ],
+  "sections": [
+    {
+      "id": "dream.section.s001",
+      "domain": "dream",
+      "name": "题名与梦语境",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c001",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+      "locator": "周公解梦·梦文化原文语境；RAW Unicode offset 0；line 1",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s002",
+      "domain": "dream",
+      "name": "蛇咬人的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c002",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "蛇咬人主得大财",
+      "locator": "周公解梦·二十五、龙蛇 禽兽 等类；RAW Unicode offset 7513；line 286",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s003",
+      "domain": "dream",
+      "name": "自在水中的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c003",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "自在水中大吉利",
+      "locator": "周公解梦·二十三、水火 盗贼 灯烛；RAW Unicode offset 7029；line 267",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s004",
+      "domain": "dream",
+      "name": "身在火中的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c003",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "身在火中贵人扶",
+      "locator": "周公解梦·二十三、水火 盗贼 灯烛；RAW Unicode offset 7165；line 271",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s005",
+      "domain": "dream",
+      "name": "人飞上天的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c004",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "飞上天富贵大吉",
+      "locator": "周公解梦·一、天地 日月 星辰；RAW Unicode offset 153；line 9",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s006",
+      "domain": "dream",
+      "name": "人坠井中的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c005",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "身坠井中疾病凶",
+      "locator": "周公解梦·八、门户 井灶 橱厕；RAW Unicode offset 3035；line 109",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s007",
+      "domain": "dream",
+      "name": "乘龙入水的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c002",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "乘龙入水有贵位",
+      "locator": "周公解梦·二十五、龙蛇 禽兽 等类；RAW Unicode offset 7403；line 283",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s008",
+      "domain": "dream",
+      "name": "群鱼游水的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c006",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "群鱼游水主有财",
+      "locator": "周公解梦·二十七、龟鳖 鱼虾 昆虫；RAW Unicode offset 8383；line 315",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s009",
+      "domain": "dream",
+      "name": "屋宅更新的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c007",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "屋宅更新主大吉",
+      "locator": "周公解梦·七、宫室 屋宇 仓库；RAW Unicode offset 2555；line 93",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s010",
+      "domain": "dream",
+      "name": "兄弟相打的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c008",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "兄弟相打大吉利",
+      "locator": "周公解梦·二十、杀害 斗伤 打骂；RAW Unicode offset 6315；line 238",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    },
+    {
+      "id": "dream.section.s011",
+      "domain": "dream",
+      "name": "拾得钱物的占梦条目",
+      "classic_id": "dream.classic.zhougong",
+      "chapter_id": "dream.chapter.c009",
+      "source_id": "dream.source.zhougong-scenes",
+      "text": "拾得钱物皆大吉",
+      "locator": "周公解梦·九、金银 珠玉 绢帛；RAW Unicode offset 3398；line 122",
+      "review": {
+        "status": "approved",
+        "method": "固定 UTF-8 RAW 与 blob/SHA256 复核，原句逐字唯一匹配；题名、梦语境、章节、具体场景及解释关系审核。",
+        "scope": "仅本电子版本传统文化解释；不生成个人预测、诊断或排盘。"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "dream.term.snake",
+      "domain": "dream",
+      "name": "蛇",
+      "aliases": [
+        "蛇梦",
+        "梦见蛇"
+      ],
+      "definition": "此条目将蛇咬人的梦象关联得财，是传统占梦文本中的象征说法。 仅蛇咬人，不涵盖一般蛇梦；咬/蛟电子异字未裁定，仅保留本固定版本读法。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s002",
+          "original_text": "蛇咬人主得大财",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "蛇",
+        "entity": {
+          "symbol": "蛇",
+          "type": "animal"
+        },
+        "entity_aliases": [
+          "蛇",
+          "蛇梦",
+          "梦见蛇"
+        ],
+        "scene": "蛇咬人",
+        "scene_aliases": [
+          "蛇咬我",
+          "被蛇咬",
+          "被一条蛇咬"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s002",
+        "locator": "周公解梦·二十五、龙蛇 禽兽 等类；RAW Unicode offset 7513；line 286",
+        "original_text_short_quote": "蛇咬人主得大财",
+        "interpretation": "此条目将蛇咬人的梦象关联得财，是传统占梦文本中的象征说法。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "仅蛇咬人，不涵盖一般蛇梦；咬/蛟电子异字未裁定，仅保留本固定版本读法。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.snake"
+      }
+    },
+    {
+      "id": "dream.term.water",
+      "domain": "dream",
+      "name": "水",
+      "aliases": [
+        "水梦",
+        "梦见水"
+      ],
+      "definition": "此条目将自在身处水中的梦象归入大吉利，是传统梦文化的吉象记载。 必须有自在身处水中的具体场景；不涵盖饮水、洪水、溺水或所有水梦。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s003",
+          "original_text": "自在水中大吉利",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "水",
+        "entity": {
+          "symbol": "水",
+          "type": "environment"
+        },
+        "entity_aliases": [
+          "水",
+          "水梦",
+          "梦见水"
+        ],
+        "scene": "自在水中",
+        "scene_aliases": [
+          "我在水中很自在",
+          "我在水里很自在",
+          "我自在地在水中"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s003",
+        "locator": "周公解梦·二十三、水火 盗贼 灯烛；RAW Unicode offset 7029；line 267",
+        "original_text_short_quote": "自在水中大吉利",
+        "interpretation": "此条目将自在身处水中的梦象归入大吉利，是传统梦文化的吉象记载。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "必须有自在身处水中的具体场景；不涵盖饮水、洪水、溺水或所有水梦。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.water"
+      }
+    },
+    {
+      "id": "dream.term.fire",
+      "domain": "dream",
+      "name": "火",
+      "aliases": [
+        "火焰",
+        "梦见火"
+      ],
+      "definition": "此条目将身在火中的梦象关联贵人扶助，是传统占梦中的助力象征。 仅身在火中；不推广到看见火、火车、火灾或现实安全保障。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s004",
+          "original_text": "身在火中贵人扶",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "火",
+        "entity": {
+          "symbol": "火",
+          "type": "environment"
+        },
+        "entity_aliases": [
+          "火",
+          "火焰",
+          "梦见火"
+        ],
+        "scene": "身在火中",
+        "scene_aliases": [
+          "我身在火中",
+          "我在火中",
+          "我被火包围"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s004",
+        "locator": "周公解梦·二十三、水火 盗贼 灯烛；RAW Unicode offset 7165；line 271",
+        "original_text_short_quote": "身在火中贵人扶",
+        "interpretation": "此条目将身在火中的梦象关联贵人扶助，是传统占梦中的助力象征。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "仅身在火中；不推广到看见火、火车、火灾或现实安全保障。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.fire"
+      }
+    },
+    {
+      "id": "dream.term.flying",
+      "domain": "dream",
+      "name": "飞翔",
+      "aliases": [
+        "飞行",
+        "飞上天"
+      ],
+      "definition": "此条目将人飞上天的梦象归入富贵大吉，是传统梦文化的上升意象。 仅人飞上天；不涵盖鸟飞、龙飞、乘飞机或所有飞翔梦。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s005",
+          "original_text": "飞上天富贵大吉",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "飞翔",
+        "entity": {
+          "symbol": "飞翔",
+          "type": "action"
+        },
+        "entity_aliases": [
+          "飞翔",
+          "飞行",
+          "飞上天"
+        ],
+        "scene": "人飞上天",
+        "scene_aliases": [
+          "我飞上天",
+          "我飞到了天上",
+          "自己飞上天"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s005",
+        "locator": "周公解梦·一、天地 日月 星辰；RAW Unicode offset 153；line 9",
+        "original_text_short_quote": "飞上天富贵大吉",
+        "interpretation": "此条目将人飞上天的梦象归入富贵大吉，是传统梦文化的上升意象。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "仅人飞上天；不涵盖鸟飞、龙飞、乘飞机或所有飞翔梦。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.flying"
+      }
+    },
+    {
+      "id": "dream.term.falling",
+      "domain": "dream",
+      "name": "坠落",
+      "aliases": [
+        "掉落",
+        "坠井",
+        "掉进井"
+      ],
+      "definition": "此条目把人坠井中的梦象记为疾病凶的传统负面象征；这里只说明古代文化文本的说法。 仅人坠井中，不涵盖高处坠落、摔倒或物品掉井；不得据此诊断疾病或预言现实灾祸。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s006",
+          "original_text": "身坠井中疾病凶",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "坠落",
+        "entity": {
+          "symbol": "坠落",
+          "type": "action"
+        },
+        "entity_aliases": [
+          "坠落",
+          "掉落",
+          "坠井",
+          "掉进井"
+        ],
+        "scene": "人坠井中",
+        "scene_aliases": [
+          "我掉进井里",
+          "我坠入井中",
+          "自己掉进井里"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s006",
+        "locator": "周公解梦·八、门户 井灶 橱厕；RAW Unicode offset 3035；line 109",
+        "original_text_short_quote": "身坠井中疾病凶",
+        "interpretation": "此条目把人坠井中的梦象记为疾病凶的传统负面象征；这里只说明古代文化文本的说法。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "仅人坠井中，不涵盖高处坠落、摔倒或物品掉井；不得据此诊断疾病或预言现实灾祸。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.falling"
+      }
+    },
+    {
+      "id": "dream.term.dragon",
+      "domain": "dream",
+      "name": "龙",
+      "aliases": [
+        "乘龙入水"
+      ],
+      "definition": "此条目将乘龙入水的梦象联系贵位，是该传统占梦文本的文化象征说法。 只涵盖乘龙入水，龙出现、龙飞或人在水里不等同此条目。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s007",
+          "original_text": "乘龙入水有贵位",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "龙",
+        "entity": {
+          "symbol": "龙",
+          "type": "animal"
+        },
+        "entity_aliases": [
+          "龙"
+        ],
+        "scene": "乘龙入水",
+        "scene_aliases": [
+          "我乘龙入水",
+          "我骑着龙进入水里"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s007",
+        "locator": "周公解梦·二十五、龙蛇 禽兽 等类；RAW Unicode offset 7403；line 283",
+        "original_text_short_quote": "乘龙入水有贵位",
+        "interpretation": "此条目将乘龙入水的梦象联系贵位，是该传统占梦文本的文化象征说法。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "只涵盖乘龙入水，龙出现、龙飞或人在水里不等同此条目。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.dragon",
+        "external_text_comparison": {
+          "url": "https://zh.wikisource.org/w/index.php?title=周公解夢&oldid=7907671",
+          "locator": "龙蛇禽兽等类",
+          "reviewed_at": "2026-10-07",
+          "short_quote_agrees": true,
+          "independent_edition_confirmed": false,
+          "scope": "仅所核短句一致；标题、邻近异文及底本独立性不据此裁定。"
+        }
+      }
+    },
+    {
+      "id": "dream.term.fish",
+      "domain": "dream",
+      "name": "鱼",
+      "aliases": [
+        "群鱼游水"
+      ],
+      "definition": "此条目将群鱼游水的梦象联系有财，仅记录该传统文化条目的文本释义。 只涵盖群鱼游水，不覆盖单鱼、捕鱼、钓鱼或怀孕等其他条目。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s008",
+          "original_text": "群鱼游水主有财",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "鱼",
+        "entity": {
+          "symbol": "鱼",
+          "type": "animal"
+        },
+        "entity_aliases": [
+          "鱼"
+        ],
+        "scene": "群鱼游水",
+        "scene_aliases": [
+          "一群鱼在水里游",
+          "群鱼在水中游"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s008",
+        "locator": "周公解梦·二十七、龟鳖 鱼虾 昆虫；RAW Unicode offset 8383；line 315",
+        "original_text_short_quote": "群鱼游水主有财",
+        "interpretation": "此条目将群鱼游水的梦象联系有财，仅记录该传统文化条目的文本释义。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "只涵盖群鱼游水，不覆盖单鱼、捕鱼、钓鱼或怀孕等其他条目。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.fish",
+        "external_text_comparison": {
+          "url": "https://zh.wikisource.org/w/index.php?title=周公解夢&oldid=7907671",
+          "locator": "龟鳖鱼虾昆虫",
+          "reviewed_at": "2026-10-07",
+          "short_quote_agrees": true,
+          "independent_edition_confirmed": false,
+          "scope": "仅所核短句一致；标题、邻近异文及底本独立性不据此裁定。"
+        }
+      }
+    },
+    {
+      "id": "dream.term.house",
+      "domain": "dream",
+      "name": "房屋",
+      "aliases": [
+        "屋宅更新"
+      ],
+      "definition": "此条目将屋宅更新的梦象归入大吉，属于传统占梦文本中的吉象记载。 只涵盖房屋更新，不泛化为所有房屋、搬家或房地产决策。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s009",
+          "original_text": "屋宅更新主大吉",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "房屋",
+        "entity": {
+          "symbol": "房屋",
+          "type": "place"
+        },
+        "entity_aliases": [
+          "房屋",
+          "屋宅",
+          "房子"
+        ],
+        "scene": "屋宅更新",
+        "scene_aliases": [
+          "我的房屋翻新了",
+          "我的房子翻新了"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s009",
+        "locator": "周公解梦·七、宫室 屋宇 仓库；RAW Unicode offset 2555；line 93",
+        "original_text_short_quote": "屋宅更新主大吉",
+        "interpretation": "此条目将屋宅更新的梦象归入大吉，属于传统占梦文本中的吉象记载。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "只涵盖房屋更新，不泛化为所有房屋、搬家或房地产决策。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.house",
+        "external_text_comparison": {
+          "url": "https://zh.wikisource.org/w/index.php?title=周公解夢&oldid=7907671",
+          "locator": "宫室屋宇仓库",
+          "reviewed_at": "2026-10-07",
+          "short_quote_agrees": true,
+          "independent_edition_confirmed": false,
+          "scope": "仅所核短句一致；标题、邻近异文及底本独立性不据此裁定。"
+        }
+      }
+    },
+    {
+      "id": "dream.term.family",
+      "domain": "dream",
+      "name": "家人",
+      "aliases": [
+        "兄弟相打"
+      ],
+      "definition": "此条目将兄弟相打的梦象归入大吉，只记录这一具体传统占梦条目。 兄弟相打与家中人斗等邻近条目的说法不同，不合并为一般家庭关系解释。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s010",
+          "original_text": "兄弟相打大吉利",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "家人",
+        "entity": {
+          "symbol": "家人",
+          "type": "person"
+        },
+        "entity_aliases": [
+          "兄弟",
+          "家人"
+        ],
+        "scene": "兄弟相打",
+        "scene_aliases": [
+          "我的兄弟相打",
+          "我的兄弟互相打架"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s010",
+        "locator": "周公解梦·二十、杀害 斗伤 打骂；RAW Unicode offset 6315；line 238",
+        "original_text_short_quote": "兄弟相打大吉利",
+        "interpretation": "此条目将兄弟相打的梦象归入大吉，只记录这一具体传统占梦条目。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "兄弟相打与家中人斗等邻近条目的说法不同，不合并为一般家庭关系解释。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.family",
+        "external_text_comparison": {
+          "url": "https://zh.wikisource.org/w/index.php?title=周公解夢&oldid=7907671",
+          "locator": "被害斗伤打骂",
+          "reviewed_at": "2026-10-07",
+          "short_quote_agrees": true,
+          "independent_edition_confirmed": false,
+          "scope": "仅所核短句一致；标题、邻近异文及底本独立性不据此裁定。"
+        }
+      }
+    },
+    {
+      "id": "dream.term.money",
+      "domain": "dream",
+      "name": "钱财",
+      "aliases": [
+        "拾得钱物"
+      ],
+      "definition": "此条目将拾得钱物的梦象归入大吉，属于传统梦文化中的文本释义。 只涵盖拾得钱物，不覆盖失钱、还钱、赠物或现实投资及财富预测。",
+      "variant": "traditional_chinese_dream",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s011",
+          "original_text": "拾得钱物皆大吉",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "related_terms": [],
+      "confidence": "medium",
+      "attributes": {
+        "symbol": "钱财",
+        "entity": {
+          "symbol": "钱财",
+          "type": "object"
+        },
+        "entity_aliases": [
+          "钱",
+          "财物"
+        ],
+        "scene": "拾得钱物",
+        "scene_aliases": [
+          "我捡到了钱",
+          "我捡到钱",
+          "我拾得钱物",
+          "我捡到了财物"
+        ],
+        "source": "dream.source.zhougong-scenes",
+        "section_id": "dream.section.s011",
+        "locator": "周公解梦·九、金银 珠玉 绢帛；RAW Unicode offset 3398；line 122",
+        "original_text_short_quote": "拾得钱物皆大吉",
+        "interpretation": "此条目将拾得钱物的梦象归入大吉，属于传统梦文化中的文本释义。",
+        "interpretation_type": "traditional_chinese_dream",
+        "limitations": [
+          "只涵盖拾得钱物，不覆盖失钱、还钱、赠物或现实投资及财富预测。",
+          "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+          "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+          "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+        ],
+        "confidence": "medium",
+        "cultural_context": "传统汉语占梦韵句，以梦象联系吉凶；仅作文化文本比较，不证明现实因果。",
+        "review_status": "approved_cultural_excerpt",
+        "quote_verification": "exact_pinned_raw",
+        "public_enabled": false,
+        "ai_enabled": false,
+        "rule_id": "dream.rule.money",
+        "external_text_comparison": {
+          "url": "https://zh.wikisource.org/w/index.php?title=周公解夢&oldid=7907671",
+          "locator": "金银珠玉绢帛",
+          "reviewed_at": "2026-10-07",
+          "short_quote_agrees": true,
+          "independent_edition_confirmed": false,
+          "scope": "仅所核短句一致；标题、邻近异文及底本独立性不据此裁定。"
+        }
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "dream.rule.snake",
+      "domain": "dream",
+      "name": "蛇咬人文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "蛇咬人；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将蛇咬人的梦象关联得财，是传统占梦文本中的象征说法。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "仅蛇咬人，不涵盖一般蛇梦；咬/蛟电子异字未裁定，仅保留本固定版本读法。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s002",
+          "original_text": "蛇咬人主得大财",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.snake"
+      ]
+    },
+    {
+      "id": "dream.rule.water",
+      "domain": "dream",
+      "name": "自在水中文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "自在水中；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将自在身处水中的梦象归入大吉利，是传统梦文化的吉象记载。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "必须有自在身处水中的具体场景；不涵盖饮水、洪水、溺水或所有水梦。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s003",
+          "original_text": "自在水中大吉利",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.water"
+      ]
+    },
+    {
+      "id": "dream.rule.fire",
+      "domain": "dream",
+      "name": "身在火中文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "身在火中；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将身在火中的梦象关联贵人扶助，是传统占梦中的助力象征。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "仅身在火中；不推广到看见火、火车、火灾或现实安全保障。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s004",
+          "original_text": "身在火中贵人扶",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.fire"
+      ]
+    },
+    {
+      "id": "dream.rule.flying",
+      "domain": "dream",
+      "name": "人飞上天文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "人飞上天；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将人飞上天的梦象归入富贵大吉，是传统梦文化的上升意象。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "仅人飞上天；不涵盖鸟飞、龙飞、乘飞机或所有飞翔梦。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s005",
+          "original_text": "飞上天富贵大吉",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.flying"
+      ]
+    },
+    {
+      "id": "dream.rule.falling",
+      "domain": "dream",
+      "name": "人坠井中文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "人坠井中；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目把人坠井中的梦象记为疾病凶的传统负面象征；这里只说明古代文化文本的说法。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "仅人坠井中，不涵盖高处坠落、摔倒或物品掉井；不得据此诊断疾病或预言现实灾祸。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s006",
+          "original_text": "身坠井中疾病凶",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.falling"
+      ]
+    },
+    {
+      "id": "dream.rule.dragon",
+      "domain": "dream",
+      "name": "乘龙入水文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "乘龙入水；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将乘龙入水的梦象联系贵位，是该传统占梦文本的文化象征说法。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "只涵盖乘龙入水，龙出现、龙飞或人在水里不等同此条目。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s007",
+          "original_text": "乘龙入水有贵位",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.dragon"
+      ]
+    },
+    {
+      "id": "dream.rule.fish",
+      "domain": "dream",
+      "name": "群鱼游水文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "群鱼游水；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将群鱼游水的梦象联系有财，仅记录该传统文化条目的文本释义。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "只涵盖群鱼游水，不覆盖单鱼、捕鱼、钓鱼或怀孕等其他条目。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s008",
+          "original_text": "群鱼游水主有财",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.fish"
+      ]
+    },
+    {
+      "id": "dream.rule.house",
+      "domain": "dream",
+      "name": "屋宅更新文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "屋宅更新；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将屋宅更新的梦象归入大吉，属于传统占梦文本中的吉象记载。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "只涵盖房屋更新，不泛化为所有房屋、搬家或房地产决策。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s009",
+          "original_text": "屋宅更新主大吉",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.house"
+      ]
+    },
+    {
+      "id": "dream.rule.family",
+      "domain": "dream",
+      "name": "兄弟相打文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "兄弟相打；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将兄弟相打的梦象归入大吉，只记录这一具体传统占梦条目。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "兄弟相打与家中人斗等邻近条目的说法不同，不合并为一般家庭关系解释。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s010",
+          "original_text": "兄弟相打大吉利",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.family"
+      ]
+    },
+    {
+      "id": "dream.rule.money",
+      "domain": "dream",
+      "name": "拾得钱物文化解释候选",
+      "conditions": [
+        "输入叙述具体梦境；实体出现不等于场景命中",
+        "拾得钱物；仅审核列出的明确场景，否定、假设或不明叙述不采纳",
+        "证据等级 C，文化检索；不调用 AI 或确定性排盘"
+      ],
+      "inputs": {
+        "dream_text": "用户梦境叙述"
+      },
+      "operation": {
+        "kind": "reviewed_cultural_scene_relation"
+      },
+      "result": {
+        "interpretation_candidate": "此条目将拾得钱物的梦象归入大吉，属于传统梦文化中的文本释义。",
+        "interpretation_type": "traditional_chinese_dream",
+        "personal_prediction": false
+      },
+      "exceptions": [
+        "只涵盖拾得钱物，不覆盖失钱、还钱、赠物或现实投资及财富预测。",
+        "证据仅为 C 级单一电子版本，底本、作者与独立性未核。",
+        "解释是传统梦文化条目的文本释义，不是个人未来、财富、婚姻、病孕或安全的确定结论。",
+        "现代心理研究未进入本 Variant；不以古代占梦条目作临床心理证据。"
+      ],
+      "execution_status": "partially_structured",
+      "school": "传统汉语占梦文本（单一电子版本）",
+      "variant": "traditional_chinese_dream",
+      "difference": "文化符号解释关系，不是 Phase2 确定性排盘或个人预测；词出现不足以命中。",
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s011",
+          "original_text": "拾得钱物皆大吉",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium",
+      "term_refs": [
+        "dream.term.money"
+      ]
+    }
+  ],
+  "concepts": [
+    {
+      "id": "dream.concept.traditional_variant_v1",
+      "domain": "dream",
+      "name": "传统梦文化具体场景检索v1",
+      "kind": "algorithm_variant",
+      "variant": "traditional_chinese_dream",
+      "attributes": {
+        "maturity": "PARTIAL",
+        "mode": "research",
+        "reviewed_term_ids": [
+          "dream.term.snake",
+          "dream.term.water",
+          "dream.term.fire",
+          "dream.term.flying",
+          "dream.term.falling",
+          "dream.term.dragon",
+          "dream.term.fish",
+          "dream.term.house",
+          "dream.term.family",
+          "dream.term.money"
+        ],
+        "modern_psychology_status": "source_audit_only_not_ingested",
+        "source_independence_confirmed": false,
+        "independent_source_count": 0,
+        "raw_sha256": "d80c42b0b8f44f5b8cf2c4e1c286b200388b65dcd321347eb7ac1011d0be5e97",
+        "raw_blob_sha": "0c7b0823265c4ff00465f833e0be28f1bf0f2175",
+        "full_book_canonical_ready": false,
+        "public_enabled": false,
+        "ai_enabled": false,
+        "fallback": "no_reviewed_interpretation",
+        "external_variant_review": {
+          "snake": "维基文库显示蛇蛟人主得大财，本固定版为蛇咬人主得大财；異字底本未决，不投独立票、不修改 RAW。",
+          "url": "https://zh.wikisource.org/zh-hans/周公解夢"
+        },
+        "combination_interpretation_status": "not_built_separate_matches_only"
+      },
+      "source_refs": [
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s001",
+          "original_text": "周公解梦\n　　诗曰:\n　　夜有纷纷梦 神魂预吉凶 庄周虚化蝶 吕望兆飞熊",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s002",
+          "original_text": "蛇咬人主得大财",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s003",
+          "original_text": "自在水中大吉利",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s004",
+          "original_text": "身在火中贵人扶",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s005",
+          "original_text": "飞上天富贵大吉",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s006",
+          "original_text": "身坠井中疾病凶",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s007",
+          "original_text": "乘龙入水有贵位",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s008",
+          "original_text": "群鱼游水主有财",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s009",
+          "original_text": "屋宅更新主大吉",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s010",
+          "original_text": "兄弟相打大吉利",
+          "role": "classical"
+        },
+        {
+          "source_id": "dream.source.zhougong-scenes",
+          "section_id": "dream.section.s011",
+          "original_text": "拾得钱物皆大吉",
+          "role": "classical"
+        }
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

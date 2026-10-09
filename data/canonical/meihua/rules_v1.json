@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "domain": "meihua",
+  "ruleset": "classic-implementation-v1",
+  "license": "MIT",
+  "provenance": {
+    "repo": "superzhang21/metaphysics-steward",
+    "path": "references/meihua_notes.md",
+    "commit": "0c1dcf5fd27c68debe5607f5caa697722319aed8"
+  },
+  "time_divination": {
+    "upper": "(年支序 + 农历月 + 农历日) % 8；0按8",
+    "lower": "(年支序 + 农历月 + 农历日 + 时支序) % 8；0按8",
+    "moving_line": "(年支序 + 农历月 + 农历日 + 时支序) % 6；0按6",
+    "branch_sequence": "子=1 … 亥=12"
+  },
+  "number_divination": "三数分别用于上卦、下卦、动爻，各自按8/8/6取余，0按8/8/6。",
+  "mutual_hexagram": "二三四爻为下互，三四五爻为上互。",
+  "changed_hexagram": "动爻阴阳翻转得到变卦。",
+  "body_use": "上游实现口径：动爻所在卦为用，另一卦为体。",
+  "warning": "该文件记录的是一个明确实现口径；平台必须显示 ruleset，不能宣称为所有梅花流派唯一算法。"
+}

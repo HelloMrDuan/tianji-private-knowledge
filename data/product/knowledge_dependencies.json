@@ -1,0 +1,555 @@
+{
+  "artifact_kind": "derived_product_dependency_graph",
+  "knowledge_authority": false,
+  "scope": "advanced_interpretation_requirements; existing structural claims do not require every advanced module",
+  "topics": {
+    "bazi-foundation": {
+      "name": "八字基础与十神映射",
+      "depends_on": [],
+      "ready_execution_rule_ids": [
+        "bazi.phase2.pillars",
+        "bazi.phase2.ten_gods",
+        "bazi.phase2.hidden_stems",
+        "bazi.phase2.support_relations"
+      ],
+      "missing": "十干阴阳五行、生克方向及四柱/日主/十神/藏干已有审核短引、执行与 Golden；仍缺十二长生、季节实际效力及基础结构到个人结论的条件规则，真太阳时未实现；旧表权重不作通用结论。"
+    },
+    "bazi-ten-gods": {
+      "name": "十神结构与条件解释",
+      "depends_on": [
+        "bazi-foundation"
+      ],
+      "ready_execution_rule_ids": [
+        "bazi.phase2.ten_gods",
+        "bazi.phase2.hidden_stems"
+      ],
+      "missing": "映射不等于组合、位置、透藏、月令条件下的解释；须补原典规则、限制及反例。"
+    },
+    "bazi-strength": {
+      "name": "旺衰及流派边界",
+      "depends_on": [
+        "bazi-foundation",
+        "bazi-ten-gods"
+      ],
+      "ready_execution_rule_ids": [
+        "bazi.phase2.month_command_factors",
+        "bazi.phase2.root_candidates",
+        "bazi.phase2.hidden_to_visible",
+        "bazi.phase2.support_relations",
+        "bazi.phase2.month_command_variant",
+        "bazi.phase2.root_conditions",
+        "bazi.phase2.action_conditions",
+        "bazi.phase2.strength_adjudication",
+        "bazi.phase2.principal_month",
+        "bazi.phase2.root_availability",
+        "bazi.phase2.action_effects",
+        "bazi.phase2.strength_pure_support",
+        "bazi.phase2.strength_isolated_control",
+        "bazi.phase2.strength_bounded_adjudication"
+      ],
+      "missing": "已有十四条已审执行规则；显式任氏研究 bazi-strength-adjudication-v1 在木月卯纯印比、有根实际生扶或木月酉无根无扶透辛的充分语境可判 strong/weak，其余 indeterminate，四类固定 Golden 同口径覆盖。整体仍 PARTIAL：仅有限研究范围，不是全覆盖分类；分日体系 BLOCKED，其他根型和一般作用未完成，无 balanced、评分或计票，格局/喜用/行运/前台及 AI 仍关闭。"
+    },
+    "bazi-pattern": {
+      "name": "格局",
+      "depends_on": [
+        "bazi-strength",
+        "bazi-ten-gods"
+      ],
+      "ready_execution_rule_ids": [
+        "bazi.phase2.official_pattern_candidates",
+        "bazi.phase2.resource_pattern_candidates"
+      ],
+      "missing": "已有正官/印绶月藏透干位置的显式研究候选，两条执行规则、四类固定 Golden；完整格局仍 NOT_BUILT。候选观察不定格，任氏真假仍依赖未解司令；禄刃杂气、官杀去留、财旺破印、一般旺衰/作用及成败喜用待原典/Variant/Conflict 审核。无评分、吉凶或喜用，公共 Scenario、产品 claim 与 AI 不开放。"
+    },
+    "bazi-useful-god": {
+      "name": "喜用神分体系治理",
+      "depends_on": [
+        "bazi-strength",
+        "bazi-pattern"
+      ],
+      "ready_execution_rule_ids": [],
+      "missing": "调候、扶抑、病药、格局用神未分别治理；依赖旺衰与格局；禁止输出喜用木火等具体结论。"
+    },
+    "bazi-dayun": {
+      "name": "大运",
+      "depends_on": [
+        "bazi-foundation"
+      ],
+      "ready_execution_rule_ids": [],
+      "missing": "旧说明不是执行；须核顺逆/起运法/节界/岁数换算/原局作用及不同 Variant。"
+    },
+    "bazi-annual": {
+      "name": "流年与岁运作用",
+      "depends_on": [
+        "bazi-dayun",
+        "bazi-strength",
+        "bazi-useful-god"
+      ],
+      "ready_execution_rule_ids": [],
+      "missing": "日历干支不等于运势；缺原局、大运、流年作用图及强弱/喜忌条件规则。"
+    },
+    "bazi-romance": {
+      "name": "婚恋专题",
+      "depends_on": [
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-annual"
+      ],
+      "ready_execution_rule_ids": [
+        "bazi.phase2.xianchi_lookup",
+        "bazi.phase2.spouse_palace_day_branch",
+        "bazi.phase2.spouse_star_lens",
+        "bazi.phase2.stem_five_combinations",
+        "bazi.phase2.branch_six_harmonies",
+        "bazi.phase2.branch_six_harms",
+        "bazi.phase2.branch_six_clashes",
+        "bazi.phase2.branch_triple_harmonies"
+      ],
+      "missing": "咸池、日支传统配偶宫结构位、显式财星/官杀lens及五合/六合/六害/六冲/三合结构已核；缺红鸾天喜天姚、旺衰格局喜用与岁运婚恋解释；三刑争议仍阻塞；禁止命中结构直接断现代婚姻。"
+    },
+    "bazi-career-wealth": {
+      "name": "事业财富专题",
+      "depends_on": [
+        "bazi-ten-gods",
+        "bazi-strength",
+        "bazi-pattern",
+        "bazi-useful-god",
+        "bazi-annual"
+      ],
+      "ready_execution_rule_ids": [
+        "bazi.phase2.ten_gods",
+        "bazi.phase2.hidden_stems"
+      ],
+      "missing": "缺组合、位置、强弱、格局、岁运解释规则；财多身弱须先完成旺衰，不能用财星数量推财富。"
+    },
+    "bazi-pair": {
+      "name": "双人关系",
+      "depends_on": [
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-romance",
+        "bazi-annual"
+      ],
+      "ready_execution_rule_ids": [
+        "bazi.phase2.ten_gods",
+        "bazi.phase2.xianchi_lookup",
+        "bazi.phase2.stem_five_combinations",
+        "bazi.phase2.branch_six_harmonies",
+        "bazi.phase2.branch_six_harms",
+        "bazi.phase2.branch_six_clashes",
+        "bazi.phase2.branch_triple_harmonies",
+        "bazi.phase2.spouse_palace_day_branch",
+        "bazi.phase2.spouse_star_lens"
+      ],
+      "missing": "已有真实双人Scenario、十神镜像、咸池交叉、干支关系矩阵与传统配偶星候选位置；缺双方旺衰/喜忌与共同岁运解释、用户关系结论Golden及发布授权；旧60分不可复用。"
+    },
+    "dream-traditional": {
+      "name": "传统梦文化",
+      "depends_on": [],
+      "ready_execution_rule_ids": [],
+      "missing": "已沿用既有 Phase1 模型审核十个具体场景，新增乘龙入水、群鱼游水、屋宅更新、兄弟相打、拾得钱物；C级文化检索 helper 返回独立 matched_interpretations，有限相邻句式可辨单蛇追我后咬我，被追只记输入观察。通用梦象、组合解释、版本独立性和现代心理仍缺，公开 Scenario 与 AI 未开放，不把实体出现当梦义或作个人预测。"
+    },
+    "dream-psychology": {
+      "name": "现代心理梦研究",
+      "depends_on": [],
+      "ready_execution_rule_ids": [],
+      "missing": "dream-modern-psychology 已有独立学术来源调查清单，含可核查研究及许可信息；尚未入既有 Source/Review 模型，未形成已审核证据或执行。文化梦书研究不作临床心理证据，不从梦诊断精神疾病、怀孕或预测必然未来。"
+    },
+    "liuyao-inquiry": {
+      "name": "六爻占问深化",
+      "depends_on": [],
+      "ready_execution_rule_ids": [
+        "liuyao.phase2.najia",
+        "liuyao.phase2.relatives",
+        "liuyao.phase2.palace",
+        "liuyao.phase2.spirits",
+        "liuyao.phase2.empty",
+        "liuyao.phase2.month_break",
+        "liuyao.phase2.motion"
+      ],
+      "missing": "排盘七项结构已执行；术语/描述规则不等于占断；缺用神选取、旺衰、生克动变与应期解释的可执行链路。"
+    },
+    "bazi-month": {
+      "name": "流月",
+      "depends_on": [
+        "bazi-annual"
+      ],
+      "ready_execution_rule_ids": [],
+      "missing": "缺节气月界/流月与原局、大运、流年作用；公历月复访范围与术数月界须分别记录。"
+    },
+    "bazi-day": {
+      "name": "流日",
+      "depends_on": [
+        "bazi-month"
+      ],
+      "ready_execution_rule_ids": [],
+      "missing": "缺流日与原局/岁运关系及时间窗；日历日干支不能直接推每日吉凶。"
+    },
+    "life-aggregation": {
+      "name": "人生聚合",
+      "depends_on": [
+        "bazi-pattern",
+        "bazi-useful-god",
+        "bazi-annual",
+        "bazi-romance",
+        "bazi-career-wealth"
+      ],
+      "ready_execution_rule_ids": [],
+      "missing": "只能组合已审核模块；缺模块授权、证据去重、冲突优先级、历史记录及综合指数依据；不另建人生算法。"
+    },
+    "ziwei-professional": {
+      "name": "紫微专业能力",
+      "depends_on": [],
+      "ready_execution_rule_ids": [
+        "ziwei.phase2.life_body",
+        "ziwei.phase2.bureau",
+        "ziwei.phase2.palaces",
+        "ziwei.phase2.major_stars",
+        "ziwei.phase2.auxiliary_stars",
+        "ziwei.phase2.mutagens"
+      ],
+      "missing": "基本星宫结构已执行；缺亮度/三方四正/宫位解释/大限流年；闰月未裁定，四化D约定不能升古籍结论。"
+    },
+    "qimen-professional": {
+      "name": "奇门专业能力",
+      "depends_on": [],
+      "ready_execution_rule_ids": [
+        "qimen.phase2.calendar",
+        "qimen.phase2.bureau",
+        "qimen.phase2.earth",
+        "qimen.phase2.chiefs",
+        "qimen.phase2.plates"
+      ],
+      "missing": "指定精确节气转盘结构已执行；缺格局/用神解释；置闰、超接及其他盘法未实现。"
+    },
+    "liuren-professional": {
+      "name": "六壬专业能力",
+      "depends_on": [],
+      "ready_execution_rule_ids": [
+        "liuren.phase2.month_general",
+        "liuren.phase2.plates",
+        "liuren.phase2.lessons",
+        "liuren.phase2.zeike",
+        "liuren.phase2.biyong",
+        "liuren.phase2.shehai",
+        "liuren.phase2.yaoke",
+        "liuren.phase2.maoxing",
+        "liuren.phase2.bieze",
+        "liuren.phase2.bazhuan",
+        "liuren.phase2.fuyin",
+        "liuren.phase2.fanyin"
+      ],
+      "missing": "九宗门结构已执行；贵人双表/天后异文保留，缺神将排布、类神、旺衰与占类解释。"
+    },
+    "fengshui-professional": {
+      "name": "风水专业能力",
+      "depends_on": [],
+      "ready_execution_rule_ids": [
+        "fengshui.phase2.compass"
+      ],
+      "missing": "生产计算只支持二十四山定位；三元绝对纪元仍研究，缺八宅/三元/玄空各自执行和解释，不串体系。"
+    },
+    "yijing-professional": {
+      "name": "周易专业能力",
+      "depends_on": [],
+      "ready_execution_rule_ids": [
+        "yijing.phase2.structure",
+        "yijing.phase2.change",
+        "yijing.phase2.opposite",
+        "yijing.phase2.inverse",
+        "yijing.phase2.nuclear"
+      ],
+      "missing": "结构和卦爻文本可追溯；缺面向事件的解释规则；经典原义与后世术数解释必须分开。"
+    }
+  },
+  "products": {
+    "bazi-reading": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-ten-gods",
+        "bazi-strength",
+        "bazi-pattern",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual"
+      ],
+      "ready_claims": [
+        "bazi.day_master",
+        "bazi.hidden_stems",
+        "bazi.hidden_to_visible",
+        "bazi.month_command_factors",
+        "bazi.pillars",
+        "bazi.root_candidates",
+        "bazi.support_relations",
+        "bazi.ten_gods"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-ten-gods",
+        "bazi-strength",
+        "bazi-pattern",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual"
+      ]
+    },
+    "daily-fortune": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-day"
+      ],
+      "ready_claims": [
+        "fortune.day_structure"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-day"
+      ]
+    },
+    "weekly-fortune": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-day"
+      ],
+      "ready_claims": [
+        "fortune.week_structure"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-day"
+      ]
+    },
+    "monthly-fortune": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-month",
+        "bazi-day"
+      ],
+      "ready_claims": [
+        "fortune.civil_month_structure"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-month",
+        "bazi-day"
+      ]
+    },
+    "annual-fortune": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual"
+      ],
+      "ready_claims": [
+        "fortune.year_stem_structure"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual"
+      ]
+    },
+    "romance": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-annual",
+        "bazi-romance"
+      ],
+      "ready_claims": [
+        "romance.xianchi_structure"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-useful-god",
+        "bazi-annual",
+        "bazi-romance"
+      ]
+    },
+    "career-wealth": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-ten-gods",
+        "bazi-strength",
+        "bazi-pattern",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-career-wealth"
+      ],
+      "ready_claims": [
+        "career.ten_god_positions"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-ten-gods",
+        "bazi-strength",
+        "bazi-pattern",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-career-wealth"
+      ]
+    },
+    "compatibility": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-romance",
+        "bazi-annual",
+        "bazi-pair"
+      ],
+      "ready_claims": [
+        "compatibility.a_sees_b",
+        "compatibility.b_sees_a",
+        "compatibility.cross_matrix_structure",
+        "relationship.branch_clash",
+        "relationship.branch_harm",
+        "relationship.branch_harmony",
+        "relationship.stem_combination"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-romance",
+        "bazi-annual",
+        "bazi-pair"
+      ]
+    },
+    "life-overview": {
+      "required_topics": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-pattern",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-romance",
+        "bazi-career-wealth",
+        "life-aggregation"
+      ],
+      "ready_claims": [
+        "bazi.day_master",
+        "bazi.pillars",
+        "career.ten_god_positions",
+        "romance.xianchi_structure"
+      ],
+      "missing_dependencies": [
+        "bazi-foundation",
+        "bazi-strength",
+        "bazi-pattern",
+        "bazi-useful-god",
+        "bazi-dayun",
+        "bazi-annual",
+        "bazi-romance",
+        "bazi-career-wealth",
+        "life-aggregation"
+      ]
+    },
+    "dream": {
+      "required_topics": [
+        "dream-traditional",
+        "dream-psychology"
+      ],
+      "ready_claims": [],
+      "missing_dependencies": [
+        "dream-traditional",
+        "dream-psychology"
+      ]
+    },
+    "one-question": {
+      "required_topics": [
+        "liuyao-inquiry",
+        "qimen-professional"
+      ],
+      "ready_claims": [
+        "liuyao.empty",
+        "liuyao.month_break",
+        "liuyao.motion",
+        "liuyao.najia",
+        "liuyao.palace",
+        "liuyao.relatives",
+        "liuyao.spirits"
+      ],
+      "missing_dependencies": [
+        "liuyao-inquiry",
+        "qimen-professional"
+      ]
+    },
+    "ziwei-tool": {
+      "required_topics": [
+        "ziwei-professional"
+      ],
+      "ready_claims": [],
+      "missing_dependencies": [
+        "ziwei-professional"
+      ]
+    },
+    "qimen-tool": {
+      "required_topics": [
+        "qimen-professional"
+      ],
+      "ready_claims": [],
+      "missing_dependencies": [
+        "qimen-professional"
+      ]
+    },
+    "liuren-tool": {
+      "required_topics": [
+        "liuren-professional"
+      ],
+      "ready_claims": [],
+      "missing_dependencies": [
+        "liuren-professional"
+      ]
+    },
+    "fengshui-tool": {
+      "required_topics": [
+        "fengshui-professional"
+      ],
+      "ready_claims": [],
+      "missing_dependencies": [
+        "fengshui-professional"
+      ]
+    },
+    "yijing-tool": {
+      "required_topics": [
+        "yijing-professional"
+      ],
+      "ready_claims": [],
+      "missing_dependencies": [
+        "yijing-professional"
+      ]
+    }
+  }
+}

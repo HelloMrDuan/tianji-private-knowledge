@@ -1,0 +1,312 @@
+{
+  "schema_version": "0.1",
+  "domain": "yijing",
+  "batch": "33-40",
+  "source_level": "L0-public-domain-classic",
+  "records": [
+    {
+      "number": 33,
+      "full_name": "天山遁",
+      "judgment": "遁。 亨。小利貞。",
+      "image": "天下有山，遁。君子以遠小人，不惡而嚴。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "遁尾，厲。勿用有攸往。"
+        },
+        {
+          "position": "六二",
+          "text": "執之用黃牛之革，莫之勝說。"
+        },
+        {
+          "position": "九三",
+          "text": "系遁，有疾厲。畜臣妾，吉。"
+        },
+        {
+          "position": "九四",
+          "text": "好遁，君子吉，小人否。"
+        },
+        {
+          "position": "九五",
+          "text": "嘉遁，貞吉。"
+        },
+        {
+          "position": "上九",
+          "text": "肥遁，無不利。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/33.天山遁/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 34,
+      "full_name": "雷天大壮",
+      "judgment": "大壯。 利貞。",
+      "image": "雷在天上，大壯。君子以非禮弗履。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "壯於趾，征凶，有孚。"
+        },
+        {
+          "position": "九二",
+          "text": "貞吉。"
+        },
+        {
+          "position": "九三",
+          "text": "小人用壯，君子用罔;貞厲，羝羊觸藩，羸其角。"
+        },
+        {
+          "position": "九四",
+          "text": "貞吉，悔亡;藩決不羸，壯於大輿之輹。"
+        },
+        {
+          "position": "六五",
+          "text": "喪羊於易，無悔。"
+        },
+        {
+          "position": "上六",
+          "text": "羝羊觸藩，不能退，不能遂，無攸利。艱則吉。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/34.雷天大壮/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 35,
+      "full_name": "火地晋",
+      "judgment": "晉。 康侯用錫馬蕃庶，晝日三接。",
+      "image": "明出地上，晉。君子以自昭明德。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "晉如，摧如，貞吉。罔孚，裕，無咎。"
+        },
+        {
+          "position": "六二",
+          "text": "晉如，愁如，貞吉。受茲介福，於其王母。"
+        },
+        {
+          "position": "六三",
+          "text": "眾允，悔亡。"
+        },
+        {
+          "position": "九四",
+          "text": "晉如鼫鼠，貞厲。"
+        },
+        {
+          "position": "六五",
+          "text": "悔亡，失得勿恤，往吉，無不利。"
+        },
+        {
+          "position": "上九",
+          "text": "晉其角，維用伐邑，厲吉無咎，貞吝。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/35.火地晋/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 36,
+      "full_name": "地火明夷",
+      "judgment": "明夷。 利艱貞。",
+      "image": "明入地中，明夷。君子以蒞眾用晦而明。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "明夷于飛，垂其翼。君子於行，三日不食。有攸往，主人有言。"
+        },
+        {
+          "position": "六二",
+          "text": "明夷，夷於左股，用拯馬壯，吉。"
+        },
+        {
+          "position": "九三",
+          "text": "明夷於南狩，得其大首，不可疾，貞。"
+        },
+        {
+          "position": "六四",
+          "text": "入於左腹，獲明夷之心，於出門庭。"
+        },
+        {
+          "position": "六五",
+          "text": "箕子之明夷，利貞。"
+        },
+        {
+          "position": "上六",
+          "text": "不明，晦。初登於天，後入於地。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/36.地火明夷/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 37,
+      "full_name": "风火家人",
+      "judgment": "家人。 利女貞。",
+      "image": "風自火出，家人。君子以言有物而行有恆。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "閒有家，悔亡。"
+        },
+        {
+          "position": "六二",
+          "text": "無攸遂，在中饋，貞吉。"
+        },
+        {
+          "position": "九三",
+          "text": "家人嗃嗃，悔厲，吉;婦子嘻嘻，終吝。"
+        },
+        {
+          "position": "六四",
+          "text": "富家，大吉。"
+        },
+        {
+          "position": "九五",
+          "text": "王假有家，勿恤，吉。"
+        },
+        {
+          "position": "上九",
+          "text": "有孚威如，終吉。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/37.风火家人/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 38,
+      "full_name": "火泽睽",
+      "judgment": "睽。 小事吉。",
+      "image": "上火下澤，睽。君子以同而異。",
+      "lines": [
+        {
+          "position": "初九",
+          "text": "悔亡，喪馬勿逐，自復。見惡人，無咎。"
+        },
+        {
+          "position": "九二",
+          "text": "遇主於巷，無咎。"
+        },
+        {
+          "position": "六三",
+          "text": "見輿曳，其牛掣。其人天且劓，無初有終。"
+        },
+        {
+          "position": "九四",
+          "text": "睽孤，遇元夫。交孚，厲無咎。"
+        },
+        {
+          "position": "六五",
+          "text": "悔亡，厥宗噬膚，往何咎?"
+        },
+        {
+          "position": "上九",
+          "text": "睽孤，見豕負塗，載鬼一車。先張之弧，後說之弧，匪寇婚媾。往遇雨則吉。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/38.火泽睽/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 39,
+      "full_name": "水山蹇",
+      "judgment": "蹇。 利西南，不利東北。利見大人，貞吉。",
+      "image": "山上有水，蹇。君子以反身修德。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "往蹇來譽。"
+        },
+        {
+          "position": "六二",
+          "text": "王臣蹇蹇，匪躬之故。"
+        },
+        {
+          "position": "九三",
+          "text": "往蹇來反。"
+        },
+        {
+          "position": "六四",
+          "text": "往蹇來連。"
+        },
+        {
+          "position": "九五",
+          "text": "大蹇，朋來。"
+        },
+        {
+          "position": "上六",
+          "text": "往蹇來碩，吉。利見大人。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/39.水山蹇/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    },
+    {
+      "number": 40,
+      "full_name": "雷水解",
+      "judgment": "解。 利西南。無所往，其來復吉。有攸往，夙吉。",
+      "image": "雷雨作，解。君子以赦過宥罪。",
+      "lines": [
+        {
+          "position": "初六",
+          "text": "無咎。"
+        },
+        {
+          "position": "九二",
+          "text": "田獲三狐，得黃矢，貞吉。"
+        },
+        {
+          "position": "六三",
+          "text": "負且乘，致寇至，貞吝。"
+        },
+        {
+          "position": "九四",
+          "text": "解而拇，朋至斯孚。"
+        },
+        {
+          "position": "六五",
+          "text": "君子維有解，吉，有孚於小人。"
+        },
+        {
+          "position": "上六",
+          "text": "公用射隼於高墉之上，獲之無不利。"
+        }
+      ],
+      "provenance": {
+        "repo": "sunls2/zhouyi",
+        "path": "docs/40.雷水解/index.md",
+        "upstream_commit": "695013f277dc0548eadf608a6cbabadfbb420312",
+        "source_license_policy": "PUBLIC_DOMAIN_EXTRACT_ONLY"
+      }
+    }
+  ]
+}

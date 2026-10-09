@@ -1,0 +1,1198 @@
+{
+  "schema_version": "private-data-snapshot-v2",
+  "areas": [
+    "audit",
+    "canonical",
+    "coverage",
+    "index",
+    "product",
+    "quarantine",
+    "reference",
+    "registry",
+    "research",
+    "state",
+    "upstream"
+  ],
+  "file_count": 235,
+  "total_bytes": 13518179,
+  "files": [
+    {
+      "path": "data/audit/yijing_crosscheck.json",
+      "bytes": 34380,
+      "sha256": "6f0d3f01fe137381ecbe79389ae25a82d7f0349f22043780817dfbc0b91e1c60"
+    },
+    {
+      "path": "data/canonical/almanac/scoring_v1.json",
+      "bytes": 4064,
+      "sha256": "55951c8219c9686da8d0829b9a01f68b6908c39e67f7c19ff5784192bc1ebbba"
+    },
+    {
+      "path": "data/canonical/bazi/classics_summary_v1.json",
+      "bytes": 2992,
+      "sha256": "aae95941a6e022075d66ca19f9b7b17cf85a488835d186ead48928828e045fde"
+    },
+    {
+      "path": "data/canonical/bazi/dayun_v1.json",
+      "bytes": 1527,
+      "sha256": "206ca91611a19c0b9121d58aa4306bca445f7c8ffa25c7b446211f464bf26a7a"
+    },
+    {
+      "path": "data/canonical/bazi/foundations_v1.json",
+      "bytes": 4903,
+      "sha256": "cb1c980127d0dfb210e91bf540ba7a4dc1092e7ea3ec34f510162e1e848398de"
+    },
+    {
+      "path": "data/canonical/bazi/phase1_knowledge.json",
+      "bytes": 294722,
+      "sha256": "a637e679bd6f6544835ae0ace18f5573c958ec7041fc181349cf9aa1dfbe7598"
+    },
+    {
+      "path": "data/canonical/bazi/phase2_execution.json",
+      "bytes": 26569,
+      "sha256": "e44cbd3c861cafa1fe68897cb03e801271a9965134838c513f0dbaff802acd21"
+    },
+    {
+      "path": "data/canonical/bazi/phase2_golden.json",
+      "bytes": 181253,
+      "sha256": "6def9822f8a7133ec9f2cb397979c426628b3a977a6288074d09caedf209bbe4"
+    },
+    {
+      "path": "data/canonical/bazi/shensha_v1.json",
+      "bytes": 6905,
+      "sha256": "29d1ce42c12d1ec2f1acb0394c8e5f2b935e300354b52ba7f0ceb0fca2015101"
+    },
+    {
+      "path": "data/canonical/classics/bazi/ditiansui_chanwei_v1.json",
+      "bytes": 377382,
+      "sha256": "ff848f7f7762f38e9480fe07dc3588f7939849d951741dcd17ee7153fb3c3dc2"
+    },
+    {
+      "path": "data/canonical/classics/bazi/qiongtong_baojian_v1.json",
+      "bytes": 95148,
+      "sha256": "60adbc0c45aca7875679dda900445556b4baf3176a680469584d24c96ff7ec62"
+    },
+    {
+      "path": "data/canonical/classics/bazi/yuanhai_ziping_v1.json",
+      "bytes": 168117,
+      "sha256": "b64d8cde6a0a166332381d31b9885ad7421177b3ef071ecc65900d922524a13a"
+    },
+    {
+      "path": "data/canonical/classics/liuyao/catalog.json",
+      "bytes": 892,
+      "sha256": "d77f03b36c901ba5415a9d5d290e49cd796dfef565a5f842ef334c513a29adb8"
+    },
+    {
+      "path": "data/canonical/classics/liuyao/卜筮正宗.txt",
+      "bytes": 255062,
+      "sha256": "638a17fcc05908524b6d49b897aa2bf3ab42c14926dd09c427f764124fcbfbe3"
+    },
+    {
+      "path": "data/canonical/classics/liuyao/增删卜易.txt",
+      "bytes": 390333,
+      "sha256": "74d854545b6424730244815d419b26246fb61f104015c4561278ed03de05c9c9"
+    },
+    {
+      "path": "data/canonical/classics/yijing/wenyan.json",
+      "bytes": 4930,
+      "sha256": "c4206ea628f15681a6363f6552d89d6717f6d558dadba0992ae9a20476b31f1b"
+    },
+    {
+      "path": "data/canonical/classics/yijing/yizhuan-supplement.json",
+      "bytes": 28278,
+      "sha256": "ad6910af9109d114404b00aafec8a12bd3d15e16ca09fbac1c0f0a48e43e2a50"
+    },
+    {
+      "path": "data/canonical/classics/yijing/zhouyi-64.json",
+      "bytes": 65695,
+      "sha256": "6dc6344cd3bc32ac8975b563964a3ee0c4732368586310fe3e0083cbaf226918"
+    },
+    {
+      "path": "data/canonical/classics/yijing/序卦.md",
+      "bytes": 3990,
+      "sha256": "aedd2c7b7c9b4dd4cd9adaafa810c505c639c3e087f11d597a10cc64c8a55775"
+    },
+    {
+      "path": "data/canonical/classics/yijing/杂卦.md",
+      "bytes": 1546,
+      "sha256": "af184d94c9006b6dd4a297e1e118fee342f16c196c9e1901d1d3bbf22c26b822"
+    },
+    {
+      "path": "data/canonical/classics/yijing/系辞.md",
+      "bytes": 16874,
+      "sha256": "0a941e2fc795040307402b992e2e4e54588d174b1abc2789131c4407d1e558e4"
+    },
+    {
+      "path": "data/canonical/classics/yijing/说卦.md",
+      "bytes": 3786,
+      "sha256": "1dab641bdc8a369d01899844f426c3f54abcb2a22299196bef4f9c976d91c8be"
+    },
+    {
+      "path": "data/canonical/dream/phase1_knowledge.json",
+      "bytes": 63990,
+      "sha256": "48712bf66389887177c32e3d5c6897f3b0ad4f3b7aab816ac77ebe4298f4b9d1"
+    },
+    {
+      "path": "data/canonical/engines/registry.json",
+      "bytes": 3154,
+      "sha256": "0b3bb59395119243909b2d5a31d001fcf9cb8ad6eb49d03a2fde5d64bb79304b"
+    },
+    {
+      "path": "data/canonical/fengshui/calculation_v1.json",
+      "bytes": 6391,
+      "sha256": "367df6d2803f966db1c3e2629b07897cf8de0087b76d5bc2ebf56683e09f0659"
+    },
+    {
+      "path": "data/canonical/fengshui/phase1_knowledge.json",
+      "bytes": 53325,
+      "sha256": "a93dde7660a2c488d0ba03d64233e0e29568871f984ec672c4b89f1fb2741613"
+    },
+    {
+      "path": "data/canonical/fengshui/phase2_evidence.json",
+      "bytes": 1582,
+      "sha256": "30467d73ae74231ff14c2a1ebafba3cb87fa019290ffb737dfe31e9da7dc3fb3"
+    },
+    {
+      "path": "data/canonical/fengshui/phase2_execution.json",
+      "bytes": 1810,
+      "sha256": "54ed877414d9e58d8a8de2b94eec70335bf42ca0ef64e49a8021be4878ad4cdb"
+    },
+    {
+      "path": "data/canonical/fengshui/phase2_golden.json",
+      "bytes": 1743,
+      "sha256": "7a757ea5f420fba413322d6406551a4e5b13709b999987eeb0cfdf8888a20159"
+    },
+    {
+      "path": "data/canonical/fengshui/schools_v1.json",
+      "bytes": 2645,
+      "sha256": "d5bc9dcb9e3d886b62b036ef947557bc70b041bea1d35b578fe9715c295cd7a4"
+    },
+    {
+      "path": "data/canonical/fengshui/twenty_four_mountains_v1.json",
+      "bytes": 10684,
+      "sha256": "1761c3717af9b7043c82516e030acf6d493d0f73cc550848b4d9f476513db889"
+    },
+    {
+      "path": "data/canonical/foundations/hetu_luoshu_v1.json",
+      "bytes": 4948,
+      "sha256": "913e7451d5c950f02adda20cb5a468c7f1fdaa1a344d6b89aaaee852853c8d31"
+    },
+    {
+      "path": "data/canonical/liuren/classics_catalog_v1.json",
+      "bytes": 16627,
+      "sha256": "36f9073b2feaecf903807bdec8119937f0b1e19bd4873cdb8cda55e44d01cd38"
+    },
+    {
+      "path": "data/canonical/liuren/phase1_knowledge.json",
+      "bytes": 101964,
+      "sha256": "9a9dc12f974a051b17ca6355e76b06ebe84317ec2383458dbcf85df8948f6591"
+    },
+    {
+      "path": "data/canonical/liuren/phase2_execution.json",
+      "bytes": 10701,
+      "sha256": "9dbafdebd1d0095a7b6039268b1deb49bdc0b2fc5d38a6b5d5a4f003395a8a8e"
+    },
+    {
+      "path": "data/canonical/liuren/phase2_golden.json",
+      "bytes": 4467,
+      "sha256": "423ce12569400ddf89f96eb506b3e0f2e808c95bb5183e9481322fcd83f9d833"
+    },
+    {
+      "path": "data/canonical/liuren/rules_v1.json",
+      "bytes": 7756,
+      "sha256": "af4c69b018bf9549ec77b4ddb53b4999d719feff3aef22ef4aa2bee50c1b2518"
+    },
+    {
+      "path": "data/canonical/liuyao/najia_v1.json",
+      "bytes": 3297,
+      "sha256": "d6b005a973bbb1803f295364f6fe9b8c59c70c6a9110c6672473b7a6b909a53d"
+    },
+    {
+      "path": "data/canonical/liuyao/phase1_knowledge.json",
+      "bytes": 83582,
+      "sha256": "ab5e922ac4f8ab3df186d0c538039dd411bda3cc8e491f7131ce20cc1da6f67b"
+    },
+    {
+      "path": "data/canonical/liuyao/phase2_evidence.json",
+      "bytes": 6261,
+      "sha256": "dd7765864dd53013e00634f7a8315b7fa8153db43d8f7a746f105ab948a9742c"
+    },
+    {
+      "path": "data/canonical/liuyao/phase2_execution.json",
+      "bytes": 4659,
+      "sha256": "97bc069629ae677b9c2b83f62e50b1a2ddb8fbbd1d67d333b1b15469883e53b3"
+    },
+    {
+      "path": "data/canonical/liuyao/phase2_golden.json",
+      "bytes": 3854,
+      "sha256": "6e9fa101e19be4398fb5e8985ec16a854b6eaebaa44a046dbe794bd7bf475d4c"
+    },
+    {
+      "path": "data/canonical/meihua/rules_v1.json",
+      "bytes": 1038,
+      "sha256": "dd8f5f943d89dc5c76459471d6925122c6a5f9e1244799315ced0fd114fedf63"
+    },
+    {
+      "path": "data/canonical/qimen/phase1_knowledge.json",
+      "bytes": 72274,
+      "sha256": "ea17f2354908d008453b76a54d1246d8c3b82859c1dc0b80923615fb51b10c0e"
+    },
+    {
+      "path": "data/canonical/qimen/phase2_execution.json",
+      "bytes": 3707,
+      "sha256": "82022ead45c3c81dc4da04a08389702a8520d8794af5bed8acdbc58db36d713d"
+    },
+    {
+      "path": "data/canonical/qimen/phase2_golden.json",
+      "bytes": 3014,
+      "sha256": "e44f108ca677dabbdac9b57ed23c3afb612bfa28cc8908f6720d0ea149a0f5de"
+    },
+    {
+      "path": "data/canonical/qimen/qfdk_maoshan_v1.json",
+      "bytes": 5705,
+      "sha256": "2dbfb0c3ff985573d94c618cd0ab2644bbd845dd23bec75c5c764d213e1954ed"
+    },
+    {
+      "path": "data/canonical/seed.json",
+      "bytes": 11850,
+      "sha256": "1ca871cb32791538c5100667fa3b87e0c6f34961f15726e57cdb1f1325251b88"
+    },
+    {
+      "path": "data/canonical/taiyi/classics_catalog_v1.json",
+      "bytes": 15699,
+      "sha256": "b932a617551f9d6a2f365f6d8207b37c14da500726e8c1c1bb3c4ba150154874"
+    },
+    {
+      "path": "data/canonical/taiyi/rules_v1.json",
+      "bytes": 5585,
+      "sha256": "7b25c80b2c4b9f0da97ba1c445623eec0e0c7d2d2deb309fa3f1230303d33c8b"
+    },
+    {
+      "path": "data/canonical/tarot/rws_cn_v1.json",
+      "bytes": 25278,
+      "sha256": "2753da64199885c7b4f2224b2021bd771380b15fbe2ffc2baf5f28e880f1de55"
+    },
+    {
+      "path": "data/canonical/yijing/batches/01-08.json",
+      "bytes": 9200,
+      "sha256": "78ba41d3559dc04b404adf88f1fa3253b1e7c1c033534e966e10e12d4d110d8e"
+    },
+    {
+      "path": "data/canonical/yijing/batches/09-16.json",
+      "bytes": 9089,
+      "sha256": "bfb07ea1c2e26ef58de8d7c05711fecb8bb33c77906866d3008fefbc207cd04c"
+    },
+    {
+      "path": "data/canonical/yijing/batches/17-24.json",
+      "bytes": 8955,
+      "sha256": "af5898688c1b9bfd911e259425525b4841bb32f9f23ade83885dd6799f3f982c"
+    },
+    {
+      "path": "data/canonical/yijing/batches/25-32.json",
+      "bytes": 9049,
+      "sha256": "c8e89cd11c19e6d4eb4609277e888ddbff7d5e1cce9872cb9b0dae4d350bf2d9"
+    },
+    {
+      "path": "data/canonical/yijing/batches/33-40.json",
+      "bytes": 9145,
+      "sha256": "8829763a022d0ad6680ddb8e0337e57d797dbb737a45ab3295827d29a6010479"
+    },
+    {
+      "path": "data/canonical/yijing/batches/41-48.json",
+      "bytes": 9555,
+      "sha256": "7b019c1152f8889b51dfac47aefbc84cae5b50ebc2e6d444c94b049c3fb38dc5"
+    },
+    {
+      "path": "data/canonical/yijing/batches/49-56.json",
+      "bytes": 9382,
+      "sha256": "c8777748c0854b469c0f6919b4ffc926f7b320d7392543c369cebd390aa858ed"
+    },
+    {
+      "path": "data/canonical/yijing/batches/57-64.json",
+      "bytes": 9126,
+      "sha256": "c362c1094c18d4ef06f79ee259f1df093d76eda06fa0d86c5423a0d082f87e2f"
+    },
+    {
+      "path": "data/canonical/yijing/hexagram_relations_v1.json",
+      "bytes": 176619,
+      "sha256": "909191730e03049a48c5a37ebd16db82214ed3dd256e203e20b7b2126977d3c8"
+    },
+    {
+      "path": "data/canonical/yijing/phase1_knowledge.json",
+      "bytes": 264702,
+      "sha256": "3d26e6c72095aa469ae66893544a9096839d76e3bb4a5e7ceb55003d46453715"
+    },
+    {
+      "path": "data/canonical/yijing/phase2_execution.json",
+      "bytes": 3439,
+      "sha256": "e3f280a538e1d3f6d200bd2300b5ad220c30b8b3f6d3238ac1c6d5e38eff4a34"
+    },
+    {
+      "path": "data/canonical/yijing/phase2_golden.json",
+      "bytes": 1723,
+      "sha256": "25eec52fad185faaee1d8b96e47248a6b5d41fc2cbfb3d779a201b9bc3a0f792"
+    },
+    {
+      "path": "data/canonical/yijing/ten_wings/shuogua.json",
+      "bytes": 8727,
+      "sha256": "1f4546753879edca4cacedb7bff114e0e45fc23fdcda0b091284fd0a0be673ce"
+    },
+    {
+      "path": "data/canonical/yijing/ten_wings/xici_shang.json",
+      "bytes": 19031,
+      "sha256": "b56476c1b61d54d861e75220b09b7a8daa4edf17460bc5d7f183f7c0abc90981"
+    },
+    {
+      "path": "data/canonical/yijing/ten_wings/xici_xia.json",
+      "bytes": 18058,
+      "sha256": "961fd7e1efb6b5183b5ce6e5064d886770e8b4c99cb7ac3371512f15f95d9413"
+    },
+    {
+      "path": "data/canonical/yijing/ten_wings/xugua.json",
+      "bytes": 8411,
+      "sha256": "82be23c57d6b7213cb87121bed0e8eaefb8ac1471bb4912f8a44ee32b72f1c70"
+    },
+    {
+      "path": "data/canonical/yijing/ten_wings/zagua.json",
+      "bytes": 3869,
+      "sha256": "05136cf7cf6d7cbfcfae9842876596634a6847d77565f95ae5339060edb54baa"
+    },
+    {
+      "path": "data/canonical/yijing/trigrams.json",
+      "bytes": 4356,
+      "sha256": "9b2b40d22b23d8635633bbef4545c1a0e3a48f2f433c55b6f3b2cfc8f01e53bd"
+    },
+    {
+      "path": "data/canonical/yijing/tuan-xiang.json",
+      "bytes": 48979,
+      "sha256": "57dcda38b3611da3546de1c6a9d4b556ddbad5cfaeb5d809d9f3ea2671098e67"
+    },
+    {
+      "path": "data/canonical/yijing/tuan_xiang_wenyan_v1.json",
+      "bytes": 76537,
+      "sha256": "35e95761782cef95bd10e29f112812e7ba6a4b58befdb734065c17c999d91fa4"
+    },
+    {
+      "path": "data/canonical/yijing/zhouyi_classic_core.json",
+      "bytes": 73829,
+      "sha256": "6dc81ad05bfe549d0dac44e99edd383534bb4b68cf87f8e0a8bff9218abda658"
+    },
+    {
+      "path": "data/canonical/yinyuan/hehun_rules_v1.json",
+      "bytes": 1346,
+      "sha256": "2e4f1ad471920a66077b738c3b528a272357fcb35dc1ac532b58e628e0b89de1"
+    },
+    {
+      "path": "data/canonical/zeri/zeri_core_v1.json",
+      "bytes": 2447,
+      "sha256": "9aaff886db0cd9fd605464dc89433403f48cfd6adc03862cde3f4105c9186281"
+    },
+    {
+      "path": "data/canonical/ziwei/iztro_rules_v1.json",
+      "bytes": 8248,
+      "sha256": "442fa3fb406045d35f8bde49d38510e7d68ac8ae6b61492bf9f385974135a3f3"
+    },
+    {
+      "path": "data/canonical/ziwei/phase1_knowledge.json",
+      "bytes": 96023,
+      "sha256": "e2af718b3c100c5f5c3b747fae1b2a21b707fead987fadd58411d52a475ccc75"
+    },
+    {
+      "path": "data/canonical/ziwei/phase2_evidence.json",
+      "bytes": 9679,
+      "sha256": "4d2396d6f33e5138696495a849039ebc740bc6ed193b776dee0e5f246b083273"
+    },
+    {
+      "path": "data/canonical/ziwei/phase2_execution.json",
+      "bytes": 4552,
+      "sha256": "11a8c0c1cd59e6eec004b5412726b12028a1a96431372a3f3936b6fdf3723c53"
+    },
+    {
+      "path": "data/canonical/ziwei/phase2_golden.json",
+      "bytes": 2895,
+      "sha256": "bbe84af86297a8a781267398f963ffa76dea51a0a16d894cd59f8901cade3fd8"
+    },
+    {
+      "path": "data/coverage/phase1.json",
+      "bytes": 12919,
+      "sha256": "d45e8d583774afa1505002b830ee7e8c166d408c65ca32b9aca29ba4219fcccd"
+    },
+    {
+      "path": "data/index/bazi-rules.jsonl",
+      "bytes": 60130,
+      "sha256": "601435f7da88d97df7e3f95d26d86c80d755c4825b9dcc28032f4cb903f5497a"
+    },
+    {
+      "path": "data/index/liuyao-classics.jsonl",
+      "bytes": 758208,
+      "sha256": "8c0d0fc9c927bff9a553fe367bd9c5b451467b51bb041a9b2b2d9108595742dd"
+    },
+    {
+      "path": "data/index/liuyao-rules.jsonl",
+      "bytes": 43052,
+      "sha256": "fa4c434f8576a6e119d93b30bbd9bab404c7aae5af9740f23c2b8340cfa5433a"
+    },
+    {
+      "path": "data/index/meihua-rules.jsonl",
+      "bytes": 1119,
+      "sha256": "7c450b575f68f3b89da31a629563101d001f8f49389cfa06aa499f42221258fc"
+    },
+    {
+      "path": "data/index/yijing-core.jsonl",
+      "bytes": 215080,
+      "sha256": "7b3144421d90f6123d5da7b9982a58c8d87010b6a131199e1e2676203460cb90"
+    },
+    {
+      "path": "data/index/yijing-crosscheck-sections.jsonl",
+      "bytes": 88219,
+      "sha256": "bcd0b3429d0dfa392605785bd2003652983eccebe3152ddfe578e4d9110ef65d"
+    },
+    {
+      "path": "data/index/yijing-yizhuan.jsonl",
+      "bytes": 31288,
+      "sha256": "918e7c8a6b33ea203903492a868d15d7b43e4ba3ab0adc66200c8379e139cd8b"
+    },
+    {
+      "path": "data/index/yinyuan-rules.jsonl",
+      "bytes": 6358,
+      "sha256": "7f08683622ad8d2a240ecaddf79362dc5ea53e066880330ba1f7ce346ceb8ec0"
+    },
+    {
+      "path": "data/product/knowledge_coverage.json",
+      "bytes": 1043109,
+      "sha256": "9908453202d6c2160130a241a8dde12cbb803089fde8737dc50dea34c863064f"
+    },
+    {
+      "path": "data/product/knowledge_dependencies.json",
+      "bytes": 17602,
+      "sha256": "0d2a06560db7ebaa6895443ec5d301f001482bf7abac249f302e0dffcb1acab4"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/benyi/excerpts.txt",
+      "bytes": 155,
+      "sha256": "10bca0bcae750dc59c24763982740c96363d46c23bb041955e2f786d488974ce"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/dibian/excerpts.txt",
+      "bytes": 133,
+      "sha256": "c4217bc6758311b18cde74c045dda585cf0cb220f2e151ceba4e536fcebfeb2b"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/hanlong/excerpts.txt",
+      "bytes": 110,
+      "sha256": "d4f16dba1147b3439f1741699706ab4532df1ad3ca20555696e678562c9207a1"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/implementations/fengshui-implementation/2666304c5cb4ac13091c8c1fcdd4e40c218b275a/LICENSE",
+      "bytes": 1085,
+      "sha256": "d467a5b49e8c37a290fd3f88126fe44d0e02c106ad1cf2c2bb4e1babaaa89020"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/implementations/fengshui-implementation/2666304c5cb4ac13091c8c1fcdd4e40c218b275a/flying_stars.py",
+      "bytes": 3807,
+      "sha256": "c17d1441de0619b293b432ae9e610606867fe2db18bac34b402486d835b862d0"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/meihua/excerpts.txt",
+      "bytes": 237,
+      "sha256": "53791d927c4f16d6555a1c38e069882ac0b7e2ddd6bd368088ca1bff3e83a49a"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/periods.json",
+      "bytes": 5936,
+      "sha256": "e516d8a0f930333517cb201b1a3ffdcca3a799112e601469a32c024a02821b3d"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/yangzhai/excerpts.txt",
+      "bytes": 72,
+      "sha256": "ec12f9b0fe8ece5cc57b396dcc16e9d5f62d24ac7df809fff0da0752763e5343"
+    },
+    {
+      "path": "data/quarantine/phase1/fengshui/zangshu/excerpts.txt",
+      "bytes": 330,
+      "sha256": "bfdad6b57f6f99308dcc784cb2323cd50c0f030538846e729d28a96eef8ee727"
+    },
+    {
+      "path": "data/quarantine/phase1/liuren/candidates.json",
+      "bytes": 616,
+      "sha256": "dc8b0afa58141e30232e38b42543a24f981cf74a1ce1d27df4651e6af049d3ad"
+    },
+    {
+      "path": "data/quarantine/phase1/liuren/daquan/excerpts.txt",
+      "bytes": 3097,
+      "sha256": "0c9259c09ba3247a60274b3151fea92c3e685846b657c462dcfe206838e48745"
+    },
+    {
+      "path": "data/quarantine/phase1/liuren/implementations/kinliuren-implementation/3ba45a9540f08269b56d81508a061c7d46938785/LICENSE",
+      "bytes": 1065,
+      "sha256": "e3bf50050f67e58c7025303f0e730c553662c029217fe132f3a8842bb2ba3b93"
+    },
+    {
+      "path": "data/quarantine/phase1/liuren/implementations/kinliuren-implementation/3ba45a9540f08269b56d81508a061c7d46938785/kinliuren.py",
+      "bytes": 112316,
+      "sha256": "f9d93f01239f29a9ed29e5595d7e90aebd363e7715d76f9a769370ffc09ff1a6"
+    },
+    {
+      "path": "data/quarantine/phase1/liuren/zhinan/excerpts.txt",
+      "bytes": 466,
+      "sha256": "d66de86b8648435bd5b14813727363750f6316d7881610b4b2c9803782c5aef3"
+    },
+    {
+      "path": "data/quarantine/phase1/liuyao/implementations/najia-implementation/0c1dcf5fd27c68debe5607f5caa697722319aed8/LICENSE",
+      "bytes": 1069,
+      "sha256": "e691f1ee0a6e907f0e98093067b0c328a9ddcc1e26a5ffa83a0118eb5674425f"
+    },
+    {
+      "path": "data/quarantine/phase1/liuyao/implementations/najia-implementation/0c1dcf5fd27c68debe5607f5caa697722319aed8/liuyao_najia.md",
+      "bytes": 3382,
+      "sha256": "c02d9f2a9abf81d1e1b3ee0bb5679d46b46bb6dd33dfee6f67d4c23ffccd5602"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/baojian/excerpts.txt",
+      "bytes": 1714,
+      "sha256": "cc9c0c982815d286032ccade12e8cad0677e0da5d42ed726f54de3073c87f6d4"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/implementations/qfdk-implementation/1d0d1c5b39755e67525a11e68bab9b73baae1937/LICENSE",
+      "bytes": 1057,
+      "sha256": "afb11426e09da40a1ae4f8fa17ddcc6b6a52d14df04c29bc5bcd06eb8730624d"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/implementations/qfdk-implementation/1d0d1c5b39755e67525a11e68bab9b73baae1937/bamen.js",
+      "bytes": 2537,
+      "sha256": "c0ae005e53def6f62a0c90e445ce99d5862a0535c2bc37685303153b684e039f"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/implementations/qfdk-implementation/1d0d1c5b39755e67525a11e68bab9b73baae1937/bashen.js",
+      "bytes": 1678,
+      "sha256": "d77c6376aedd79f38fe3b4efc99168d8d9bc8759f33c1ccc3afc2509c261306f"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/implementations/qfdk-implementation/1d0d1c5b39755e67525a11e68bab9b73baae1937/dipan.js",
+      "bytes": 1745,
+      "sha256": "c41846517edb2e2c2e8a052067652b1e921482fa9d251308d621ad01f9f453ad"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/implementations/qfdk-implementation/1d0d1c5b39755e67525a11e68bab9b73baae1937/jiuxing.js",
+      "bytes": 2738,
+      "sha256": "4ea6d4de86fc54ed206e752c56519bf90b74e328986a0e2836eb57bfe3834171"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/implementations/qfdk-implementation/1d0d1c5b39755e67525a11e68bab9b73baae1937/qimen.js",
+      "bytes": 27962,
+      "sha256": "acedf8169466efa668ca98a8613c6232dd8a2434130a47f61cecad657abf0768"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/lunar-python/LICENSE",
+      "bytes": 1061,
+      "sha256": "a9d04f47f0615c0ce48bdbe2ff58d5c174279d9f20f044ef29249632302a4ab3"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/lunar-python/README.md",
+      "bytes": 1749,
+      "sha256": "20104764507ed36a1287d217926925f158e1f873d5727881f5264c6203fe5462"
+    },
+    {
+      "path": "data/quarantine/phase1/qimen/tongzong/excerpts.txt",
+      "bytes": 735,
+      "sha256": "4c19f76534d4e1d0dbced23ac41df6264e7b1923b6939aae611ea141cb2cf866"
+    },
+    {
+      "path": "data/quarantine/phase1/yijing/benyi/excerpts.txt",
+      "bytes": 111,
+      "sha256": "e8000f8493f643eaea8bcf736b718ca66f14d78a4d54ca52d6c97f2e35d353fc"
+    },
+    {
+      "path": "data/quarantine/phase1/yijing/meihua/excerpts.txt",
+      "bytes": 495,
+      "sha256": "6b13e23373022006072603d1955e34919454ace12b60d9db28dbb2124e792c33"
+    },
+    {
+      "path": "data/quarantine/phase1/ziwei/implementations/iztro-implementation/2c7ef9be669df7b19d1799f4dce335fed3794f78/LICENSE",
+      "bytes": 1073,
+      "sha256": "e6c7b6e313cbda3135b41bccc66c98be132cb8319d0d465903d17e669e748b36"
+    },
+    {
+      "path": "data/quarantine/phase1/ziwei/implementations/iztro-implementation/2c7ef9be669df7b19d1799f4dce335fed3794f78/heavenlyStems.ts",
+      "bytes": 2087,
+      "sha256": "ad105e3d477750f122cd1756a0696c12e41ebbc6c444d408d39ff1017d7860a7"
+    },
+    {
+      "path": "data/quarantine/phase1/ziwei/quanshu/excerpts.txt",
+      "bytes": 2672,
+      "sha256": "3fc01609f6e1bbc3ea92b99dbd3e2665c879ace6e4a7a3ac0a38292ae3cb27a8"
+    },
+    {
+      "path": "data/quarantine/phase1/ziwei/variants.json",
+      "bytes": 1098,
+      "sha256": "63cc150ff75dd1a6721698c733db625843a39fb2bacb2745c3f18d1b8723b79b"
+    },
+    {
+      "path": "data/quarantine/phase1_candidates/daizhigev20/4a6d6f2088825f132521d848c2ea86cf9c9a7620/0c7b0823265c4ff00465f833e0be28f1bf0f2175.json",
+      "bytes": 1364,
+      "sha256": "a19ada3526e896e5bef8250e26985a605383fbd0b39b31997de7bc93bd9819ec"
+    },
+    {
+      "path": "data/quarantine/phase1_candidates/daizhigev20/4a6d6f2088825f132521d848c2ea86cf9c9a7620/c7de6ab493e19460f5efba49085d20437c17e1d4.json",
+      "bytes": 1231,
+      "sha256": "c39f18216b18c560ede3035259f6b26fa314dc1c4d95af379dd018fc466d28ce"
+    },
+    {
+      "path": "data/quarantine/phase1_candidates/daizhigev20/4a6d6f2088825f132521d848c2ea86cf9c9a7620/e269843d0544fd18ac7d7c97d4e0bd268a5240ef.json",
+      "bytes": 1234,
+      "sha256": "8ce5f30ea59ef3d869d1d2a782d62f40e9ce40c6ff5895e3612689fbe29d281b"
+    },
+    {
+      "path": "data/quarantine/phase2/fengshui/zhaifa/period-duration.txt",
+      "bytes": 721,
+      "sha256": "5535280683da785213390383ce27b9751d9853e2aad3cbd793d5e2412cb10090"
+    },
+    {
+      "path": "data/quarantine/phase2/ziwei/quanshu/additional-excerpts.txt",
+      "bytes": 1959,
+      "sha256": "433969d340f2988f43ac50972b967bb54fb47f4182b292701b0ba0fcf48d1740"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/_sync_summary.json",
+      "bytes": 3654,
+      "sha256": "5aa4899065b70bb34ab7f904c9d5ecec91402dbfb5a5f9cfca7578844fcbdb52"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/ditiansui_chanwei.txt",
+      "bytes": 368684,
+      "sha256": "6a875a317c7ba1012285ed12d3bfa5577b50c9fdfd568ece323a12feafe38795"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/qiongtong_baojian.txt",
+      "bytes": 87430,
+      "sha256": "a8125d7de94f93d1a3eec48f1610b0c4baf31c264e9d7c19f586a85a78a2b0b4"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/sanming_ocr_candidates.json",
+      "bytes": 1166340,
+      "sha256": "4209b85d003d07ca696e298c3f446c43ea8a8d6871dfe73e52fc7c17a16d211c"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/sanming_pua_audit.json",
+      "bytes": 53328,
+      "sha256": "22f214e89134107b721b4888ddb3d29bacee5e3cbfeb7eb890b665caf0969569"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/sanming_pua_collation.json",
+      "bytes": 82698,
+      "sha256": "96943525453662663918965d28711a2f1b0758aef7bc9b4a3aaafb770dbfdd97"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/sanming_text_collation.json",
+      "bytes": 1072321,
+      "sha256": "e47bce8c478327b3bcb7f804c29ad4189d824b40a9d2e0ea5032ddebf39ff4ce"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/sanming_tonghui.txt",
+      "bytes": 1342659,
+      "sha256": "00e2a7db8bb59b259b99938033bb1bb77947e04a15dafc111e62b59378010c86"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/shenfeng_tongkao.txt",
+      "bytes": 422432,
+      "sha256": "121a571b7fa63e073f067d5532a42e2feb7d4d5fdd7874de2ca48036a615e200"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/xieji_bianfang.txt",
+      "bytes": 762673,
+      "sha256": "c192fc641494e0da4b1f857bc21243f14c49d10839cd9a8cff9439616c0c87ff"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/yuanhai_ziping.txt",
+      "bytes": 154655,
+      "sha256": "c8f45d3228fb1958012139139a83edd019e7c2db881998d2d0bba65107417cf9"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/zhougong_dream_candidates.json",
+      "bytes": 17469,
+      "sha256": "ae20ae50dc725c12fccace57d7893d0c488055e6878303cdb642767e846ea724"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/zhougong_reviewed_excerpts.txt",
+      "bytes": 572,
+      "sha256": "7ac0992280d996be091572927e06763bcebbeab0bcb2802b01d253472e739821"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/daizhigev20/zhouyi_combined.txt",
+      "bytes": 86900,
+      "sha256": "447792afced9c104604fade2176f8f0bf4a1983288233df7c5807945dde0246a"
+    },
+    {
+      "path": "data/quarantine/public_domain_snapshots/niutrans/sanming_tonghui_juan2_xianchi.txt",
+      "bytes": 775,
+      "sha256": "839fd40f82fccc2ca527039bb61e2db426d0fd65a2476c0ee425954600b7d7ec"
+    },
+    {
+      "path": "data/quarantine/refresh_candidates/liuyao-engine/53291663a4c733c4cbdfa174a8d3075475c07fd3/6e0db5733703c2d8-增删卜易.txt",
+      "bytes": 390333,
+      "sha256": "74d854545b6424730244815d419b26246fb61f104015c4561278ed03de05c9c9"
+    },
+    {
+      "path": "data/quarantine/refresh_candidates/liuyao-engine/53291663a4c733c4cbdfa174a8d3075475c07fd3/baaa62d2e74e5d8c-卜筮正宗.txt",
+      "bytes": 255062,
+      "sha256": "638a17fcc05908524b6d49b897aa2bf3ab42c14926dd09c427f764124fcbfbe3"
+    },
+    {
+      "path": "data/quarantine/refresh_candidates/open-iching-classics/4c5f00f8cb62c6e0d2471243d28150b473ef592f/2fe5e8f1a3f4443a-序卦.md",
+      "bytes": 3990,
+      "sha256": "aedd2c7b7c9b4dd4cd9adaafa810c505c639c3e087f11d597a10cc64c8a55775"
+    },
+    {
+      "path": "data/quarantine/refresh_candidates/open-iching-classics/4c5f00f8cb62c6e0d2471243d28150b473ef592f/a1e4726d75f0b69b-系辞.md",
+      "bytes": 16874,
+      "sha256": "0a941e2fc795040307402b992e2e4e54588d174b1abc2789131c4407d1e558e4"
+    },
+    {
+      "path": "data/quarantine/refresh_candidates/open-iching-classics/4c5f00f8cb62c6e0d2471243d28150b473ef592f/b04adfb766ea6c20-杂卦.md",
+      "bytes": 1546,
+      "sha256": "af184d94c9006b6dd4a297e1e118fee342f16c196c9e1901d1d3bbf22c26b822"
+    },
+    {
+      "path": "data/quarantine/refresh_candidates/open-iching-classics/4c5f00f8cb62c6e0d2471243d28150b473ef592f/f1e31232732228cd-说卦.md",
+      "bytes": 3786,
+      "sha256": "1dab641bdc8a369d01899844f426c3f54abcb2a22299196bef4f9c976d91c8be"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/_sync_summary.json",
+      "bytes": 2384,
+      "sha256": "5ab736034daf253dd7e3dc19b2ebc26f78f8ec1b59e5700866f9dc54e5111104"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/bazi-skill/_snapshot_manifest.json",
+      "bytes": 1820,
+      "sha256": "f15e90ce8d8a5307ae67b636bd4ed393d59ea15ec27ef9d0a00c12e7f19ef135"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/bazi-skill/references/classical-texts.md",
+      "bytes": 6568,
+      "sha256": "42e8b277700b1ad07692b6e36bdd657c50687f994fd790aa4ce5b18177007da2"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/bazi-skill/references/dayun-rules.md",
+      "bytes": 3390,
+      "sha256": "47d2d7e6395eb045f6ec32ad9b32588d54d5b11d5cf10c3fd415779352d06721"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/bazi-skill/references/shensha-table.md",
+      "bytes": 7218,
+      "sha256": "aab54678006a2219d074710f7fb2f480007ae88e60d3bba16a60cbac70a914f0"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/bazi-skill/references/shichen-table.md",
+      "bytes": 2772,
+      "sha256": "920d354c16dfb1c8052d34ee6457c438edb0e01246816dbfb37194091d348a82"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/bazi-skill/references/wuxing-tables.md",
+      "bytes": 6120,
+      "sha256": "3c54ed71fadf89ef8ba073b5e5bdd108e154dad007d2c877650734a824bdd368"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/chinese-almanac-mcp/_snapshot_manifest.json",
+      "bytes": 1034,
+      "sha256": "a670ba71c00d3d3e89db28a59644d1e95f02a7804c1974860d1e20b13ceac6da"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/chinese-almanac-mcp/scripts/test-vectors.json",
+      "bytes": 28254,
+      "sha256": "2ebb9c636e23ffae8774e8ead074ad7017b72facd53319f01a1a937d1c6d8868"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/chinese-almanac-mcp/src/scoring.ts",
+      "bytes": 6959,
+      "sha256": "382caf67f8c9e19ed3bffdd49c215d6e96e4e626a6b78c4a353132b1fdb5db4e"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/fengshui-master-jackie/_snapshot_manifest.json",
+      "bytes": 2366,
+      "sha256": "67470712c82cb905de515157f0b8aeb4d7c351fe8e77e2ed4e3f7aba27a5d3cb"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/references/schools.md",
+      "bytes": 6169,
+      "sha256": "570d29a823607a678c943e501d1ecb77179292795c5629df10c3517c94da46c7"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/references/sources.md",
+      "bytes": 1806,
+      "sha256": "dd9df1e043295482dd9ff1f7d003a09bbf0b4c81022f9d14cf70a0d0d050599f"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/references/xuan-kong-flying-stars.md",
+      "bytes": 4636,
+      "sha256": "fccd7a1c9bd0d3c48134214c7cae22058ec550cfbceda63b57d697ec6d40194c"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/scripts/bagua_map.py",
+      "bytes": 12340,
+      "sha256": "15f0f986e696985dfb7f037ab3141b3c40bfdb552af57758a1e61ee5c523c2b1"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/scripts/flying_stars.py",
+      "bytes": 3807,
+      "sha256": "c17d1441de0619b293b432ae9e610606867fe2db18bac34b402486d835b862d0"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/fengshui-master-jackie/fengshui-master/scripts/minggua.py",
+      "bytes": 4319,
+      "sha256": "c0d836e56eaa461519712985c02006562103152cf0e56082f75642527956e2d2"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/hetu-luoshu-jbbom/README.md",
+      "bytes": 10046,
+      "sha256": "5452b72933a9039c3d1c87f3ec830a25efe7501310bd6d2cc21a8457552b3db5"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/hetu-luoshu-jbbom/_snapshot_manifest.json",
+      "bytes": 1258,
+      "sha256": "aff49fc70a18203ef34bfa72b244ef12f8534a69ac69020991cf03f1c5d56c40"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/hetu-luoshu-jbbom/hetu-cube.html",
+      "bytes": 58707,
+      "sha256": "4a852e580c5f9dd32da1d7834a888ad09699981cfe3300387b06369369984798"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/hetu-luoshu-jbbom/luoshu-magic.html",
+      "bytes": 14713,
+      "sha256": "9c532ba973d630eeec2595c09aa8aa9cce7d8bf6df1228685c0d3a25c2a37892"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/hetu-luoshu-wuji/_snapshot_manifest.json",
+      "bytes": 749,
+      "sha256": "b08fdabfac729cdb372d20b4a8241c704bdd2a21968bed83bb5428ff4e073fb0"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/hetu-luoshu-wuji/reference/yijing.md",
+      "bytes": 5697,
+      "sha256": "027a0c768ff8c6c87a08d094e91695811b74c9521064eba2f9f8668421117168"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/iztro/_snapshot_manifest.json",
+      "bytes": 2238,
+      "sha256": "eb4e317dc05c17c18906e241fadf36085a9e1fc273f02b3f31ec42c30e6bbf7f"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/iztro/src/astro/astro.ts",
+      "bytes": 17897,
+      "sha256": "2db9dcc6835ccf5f1ca1b96ccc79fbeb41ccc9020817faf4362f1d269abbcecf"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/iztro/src/data/constants.ts",
+      "bytes": 3729,
+      "sha256": "39872e6e6baf5f33312f8dafeea14c26b708f6871bf9d897be1769d1e6e92343"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/iztro/src/data/heavenlyStems.ts",
+      "bytes": 2087,
+      "sha256": "ad105e3d477750f122cd1756a0696c12e41ebbc6c444d408d39ff1017d7860a7"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/iztro/src/data/stars.ts",
+      "bytes": 3258,
+      "sha256": "1522f4e309ed9e7dfea11eeb30ee0964375fb6ff753125d66b10d8c1d9446ed9"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/iztro/src/i18n/locales/zh-CN/palace.ts",
+      "bytes": 386,
+      "sha256": "d7aa5aabc74e1bdf63a344c5eb67024b1fc914efda6066d0a947916004521aa5"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/iztro/src/i18n/locales/zh-CN/star.ts",
+      "bytes": 3195,
+      "sha256": "40dc46c245403abc106fa09235b8d6ed16457283acaf4ac63049eda7166fa6d0"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/iztro/src/star/location.ts",
+      "bytes": 27296,
+      "sha256": "ec57b4004434ebff621fcc9fbee7b7310939f304babaadf5e3efa74506fcd0ef"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/kinliuren/_snapshot_manifest.json",
+      "bytes": 970,
+      "sha256": "baabf1222feca5b51932f957c9fc1be48f3982f13517549f255c7c655775107f"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/kinliuren/docs/guji.md",
+      "bytes": 6971,
+      "sha256": "efa95fa3a9c94ae87f96c71ac88e45c5b03927aafe2056797814d8916aed5028"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/kinliuren/src/kinliuren/kinliuren.py",
+      "bytes": 112316,
+      "sha256": "f9d93f01239f29a9ed29e5595d7e90aebd363e7715d76f9a769370ffc09ff1a6"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/kintaiyi/_snapshot_manifest.json",
+      "bytes": 1472,
+      "sha256": "2b8088b2ee82cf20c87b57d24ebdb96dab6412bd5f90df69e3bc87444f91cd06"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/kintaiyi/docs/guji.md",
+      "bytes": 8422,
+      "sha256": "7ade7a90fd71f114b04fcfa3ebaef864388574500d7711748e4de001483f0481"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/kintaiyi/src/kintaiyi/config.py",
+      "bytes": 157282,
+      "sha256": "752fcba53a9fe3388a16d23346333db2bd43004dae8d425d78e4cd3c6268ed89"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/kintaiyi/src/kintaiyi/jieqi.py",
+      "bytes": 19809,
+      "sha256": "e2617e1967035c6c221a4e9ee56c2d4ab575322aeaf93ef19e16719ebe059622"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/kintaiyi/src/kintaiyi/kintaiyi.py",
+      "bytes": 114643,
+      "sha256": "65da14ae7da8774009e1b44d640684b42e921e992b1b55be117c62af7a2c5905"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/metaphysics-steward/_snapshot_manifest.json",
+      "bytes": 1335,
+      "sha256": "91ec3e87f00be245cc98cfd013a76746a9563c655cb8d2481d2fa1085a71db85"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/metaphysics-steward/references/hehun_rules.md",
+      "bytes": 3464,
+      "sha256": "ab7857a2837b1af5ebead260b4f338356e7f437c56a562311c5bd4e2335afbb7"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/metaphysics-steward/references/liuyao_najia.md",
+      "bytes": 3382,
+      "sha256": "c02d9f2a9abf81d1e1b3ee0bb5679d46b46bb6dd33dfee6f67d4c23ffccd5602"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/metaphysics-steward/references/meihua_notes.md",
+      "bytes": 752,
+      "sha256": "9a75f3f416de7996200086ccce344099de7a46c63e132a301f8833909f22857d"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/mikaboshi-compass/_snapshot_manifest.json",
+      "bytes": 1799,
+      "sha256": "2a1df98d663f5572599c5e61650f44f3d5ef3000e4db10bb63ca4fc82caa23ca"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/mikaboshi-compass/docs/compass.md",
+      "bytes": 7199,
+      "sha256": "e1c4e68b9ddd9133b2ff6c8a92590a9b552bf39a45fc18aa91ad4bb49584f427"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/mikaboshi-compass/json/bagua.json",
+      "bytes": 1607,
+      "sha256": "09ac0bd207f24033ef1604f3be872678ab6862c24dd83289a82ec409103b6503"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/mikaboshi-compass/json/ganzhi_branches.json",
+      "bytes": 1809,
+      "sha256": "bbdeb576926085b8c30489643b83baaaa4f2fa3ea0dd14f4e003afa2468a0052"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/mikaboshi-compass/json/ganzhi_stems.json",
+      "bytes": 1591,
+      "sha256": "e341518198f68d1191276415db5304923913cf6d669a41f6dfb80835bf235fcf"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/mikaboshi-compass/src/compass.rs",
+      "bytes": 13905,
+      "sha256": "8be432baf594ee0c98490d78446c64e71d6ac58d1c0636a40be154f865d9e81e"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/qimen-qfdk/README.md",
+      "bytes": 2885,
+      "sha256": "d842b7143ef12236de61232685bafda63afa5729f20d30ecd5b3ce4d6d7c09d3"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/qimen-qfdk/_snapshot_manifest.json",
+      "bytes": 1880,
+      "sha256": "f47f4b2d413d65bfa1e22bf028763fdb62241884f522819551155483c9f00136"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/qimen-qfdk/lib/bamen.js",
+      "bytes": 2537,
+      "sha256": "c0ae005e53def6f62a0c90e445ce99d5862a0535c2bc37685303153b684e039f"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/qimen-qfdk/lib/bashen.js",
+      "bytes": 1678,
+      "sha256": "d77c6376aedd79f38fe3b4efc99168d8d9bc8759f33c1ccc3afc2509c261306f"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/qimen-qfdk/lib/dipan.js",
+      "bytes": 1745,
+      "sha256": "c41846517edb2e2c2e8a052067652b1e921482fa9d251308d621ad01f9f453ad"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/qimen-qfdk/lib/jiuxing.js",
+      "bytes": 2738,
+      "sha256": "4ea6d4de86fc54ed206e752c56519bf90b74e328986a0e2836eb57bfe3834171"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/qimen-qfdk/lib/qimen.js",
+      "bytes": 27962,
+      "sha256": "acedf8169466efa668ca98a8613c6232dd8a2434130a47f61cecad657abf0768"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/tarot-nonebot/_snapshot_manifest.json",
+      "bytes": 765,
+      "sha256": "b83a89d03b6af4363ba77f43c7cd11bbb8c71f19f1d2011ff382ff55c614fe94"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/tarot-nonebot/nonebot_plugin_tarot/tarot.json",
+      "bytes": 22177,
+      "sha256": "21d5cbbf4c41e5bcc2351b2cb088e4d7574f9c0d8df85900bdd4fe0c9762eb40"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/zeri-mcp/_snapshot_manifest.json",
+      "bytes": 1608,
+      "sha256": "40a8e40ba9384870f7bea25d7b244eb0fea5cfa2c65f909ca6a613f73b928bbb"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/zeri-mcp/packages/zeri-core/src/index.ts",
+      "bytes": 1055,
+      "sha256": "f484783a18d9a075291289052ae572094d5b46e55c1873a6918f408d107a8a9a"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/zeri-mcp/packages/zeri-core/src/lib/day.ts",
+      "bytes": 5027,
+      "sha256": "2d11f417dc50bed8d4e288e3f1e4e72f213e360406a3cbfcece40ca5c0263798"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/zeri-mcp/packages/zeri-core/src/lib/events.ts",
+      "bytes": 4794,
+      "sha256": "51829e246c7ab003d9a537a2ea5194c59d50ee71d0d565cb944baf869c348603"
+    },
+    {
+      "path": "data/quarantine/source_snapshots/zeri-mcp/packages/zeri-core/src/lib/select.ts",
+      "bytes": 6826,
+      "sha256": "1b300215a71a6bfe7aa68215140e78f7335a15eb339e39e479ffa41b390352a7"
+    },
+    {
+      "path": "data/reference/source_catalogs/zhouyilab.md",
+      "bytes": 33925,
+      "sha256": "f427ea3a4aa42c0334d5c746a615073408ffc58fbc02ad929aea3cdc7dce3223"
+    },
+    {
+      "path": "data/registry/discovered_candidates.json",
+      "bytes": 153315,
+      "sha256": "53b7e699af7ab465844b21887f743d6eb494eae6c8b3e8b4e7fa2a440c942949"
+    },
+    {
+      "path": "data/research/bazi/dayun_source_collation_v1.json",
+      "bytes": 3992,
+      "sha256": "f78a62fa3324be47e54cd4bd62b1c50031fdff1890e575e9be131ebcbdc77068"
+    },
+    {
+      "path": "data/state/file_refresh_state.json",
+      "bytes": 14021,
+      "sha256": "8687324114c2e9e6bf7e0718e746687797bf1524c38e92fb242c1d2372d2d785"
+    },
+    {
+      "path": "data/state/source_state.json",
+      "bytes": 19130,
+      "sha256": "4f25f5aa43891b6972ecab9484cb773991aa1a970c3efea2a0a9a3333c1a5b4f"
+    },
+    {
+      "path": "data/upstream/bazi-skill/classical-texts.md",
+      "bytes": 6916,
+      "sha256": "c62267d5a7c8c252dcf07544397be144c8d1b5475241b050701b0a2b27ec59d3"
+    },
+    {
+      "path": "data/upstream/bazi-skill/dayun-rules.md",
+      "bytes": 3546,
+      "sha256": "70e35df806e7d6ede9e3ab6524bd2088d3ce9ac8a8e8d6177c84abe0e2b03562"
+    },
+    {
+      "path": "data/upstream/bazi-skill/shensha-table.md",
+      "bytes": 7592,
+      "sha256": "832da1c02ee67e804e6f15aae1fbdc047564d8222b703e8e8982f533652a9e4c"
+    },
+    {
+      "path": "data/upstream/bazi-skill/shichen-table.md",
+      "bytes": 2840,
+      "sha256": "bcddb4c87d179d52ea15740c75edcfa2f99f89aef23bc5068fc88c87b4068768"
+    },
+    {
+      "path": "data/upstream/bazi-skill/wuxing-tables.md",
+      "bytes": 6318,
+      "sha256": "167982bb7fd5ddc0f3dcfafe6ec377c92fa2d4bd90153b72c89d65888a7d419f"
+    },
+    {
+      "path": "data/upstream/fundgao-zhouyi/README.md",
+      "bytes": 63158,
+      "sha256": "5f368f0f873022e9b97fbcd2cb8de504624ab22575cc0e637dffbd67033be59d"
+    },
+    {
+      "path": "data/upstream/godcong-yi/bagua.json",
+      "bytes": 4815,
+      "sha256": "9c7e4d2e61a7c4e19b1d4de028e459bd8867926eed5cb4184927d60d3f57716a"
+    },
+    {
+      "path": "data/upstream/godcong-yi/gua.json",
+      "bytes": 106933,
+      "sha256": "b92eb2464c38f49031f08c541a1441a08e22bb09675c72d263530697b47bf6fc"
+    },
+    {
+      "path": "data/upstream/godcong-yi/wenyan.json",
+      "bytes": 4098,
+      "sha256": "f46324122f4d3b4ea1e7891a4d0e2fe4663b723e3927e2cd2067e53babe04820"
+    },
+    {
+      "path": "data/upstream/liuyao-engine/liuyao-glossary.json",
+      "bytes": 15358,
+      "sha256": "dc1b39ea536f69ea55e74f8fedad2b3abaa42016c79391e1b4ca5b4de664df50"
+    },
+    {
+      "path": "data/upstream/liuyao-engine/yigram-najia-tables.json",
+      "bytes": 7652,
+      "sha256": "54b2c62484a548e3df566cd76e5952221042b0618cd322391d34d0c9a4a4fa82"
+    },
+    {
+      "path": "data/upstream/metaphysics-steward/hehun_rules.md",
+      "bytes": 3651,
+      "sha256": "fb302559eef1fe19242e1d022a13988c4d72096201ea074a19d4b9979295ab49"
+    },
+    {
+      "path": "data/upstream/metaphysics-steward/liuyao_lost_items.md",
+      "bytes": 2235,
+      "sha256": "7721c2b6a4139a6c32e599f3cac7eb6d3408d5ae688453886d349c1356915f60"
+    },
+    {
+      "path": "data/upstream/metaphysics-steward/liuyao_najia.md",
+      "bytes": 3562,
+      "sha256": "7f9efa587987144ae3d930ca4a3a757c57d04d3c9d62a299a023f74033682c72"
+    },
+    {
+      "path": "data/upstream/metaphysics-steward/meihua_notes.md",
+      "bytes": 808,
+      "sha256": "5fd6aaaca25c40040d6c07df13bc36097a5b30eaa9ff28ae7f2818544beeb936"
+    },
+    {
+      "path": "data/upstream/taibu-core/hexagrams.ts",
+      "bytes": 38393,
+      "sha256": "16799036b637efd15ce53aad529437ee30ff77dd703b649c849fcbc6a35faaa1"
+    },
+    {
+      "path": "data/upstream/zhouyi-skill-qbdx/verified.md",
+      "bytes": 1979,
+      "sha256": "8bbbae6e8d805a34e81c9e0ef146267b7242cbf893db65aa7fa9385be09d314b"
+    },
+    {
+      "path": "data/upstream/zhouyilab/八字入门.md",
+      "bytes": 21148,
+      "sha256": "b36e1ec52d833ddbb1ee3b1386dc52ed4d3c79c343465aacae345f4b70b11bd9"
+    },
+    {
+      "path": "data/upstream/zhouyilab/六爻起课-步骤.md",
+      "bytes": 21100,
+      "sha256": "b17567a698c529d13829c942208cbcf16f48ae29764c2d239a3406519dd2cc1b"
+    }
+  ],
+  "source_repository": "HelloMrDuan/tianji-knowledge-base",
+  "source_commit": "da3aef06ad03a02c94770689f7cc1510b0d4593e",
+  "warning": "RESTRICTED PRIVATE ASSETS; historical public disclosure remains"
+}

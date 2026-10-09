@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "model": "phase2-golden",
+  "domain": "qimen",
+  "provider": "tianji_kb.operations.qimen_chart.chart",
+  "review_basis": "固定历表小寒/夏至时刻；甲子日和五鼠遁人工核对；地盘按2局顺布手算。原型四模块回归另由固定MIT源作算法 oracle，非独立古籍。",
+  "cases": [
+    {
+      "id": "qimen.jiazi-winter",
+      "input": {
+        "value": "2000-01-07T12:00:00+08:00"
+      },
+      "expected": {
+        "solar_term": "小寒",
+        "day_ganzhi": "甲子",
+        "hour_ganzhi": "庚午",
+        "dun": "阳",
+        "bureau": 2,
+        "yuan": "上元",
+        "earth_plate": {
+          "2": "戊",
+          "3": "己",
+          "4": "庚",
+          "5": "辛",
+          "6": "壬",
+          "7": "癸",
+          "8": "丁",
+          "9": "丙",
+          "1": "乙"
+        },
+        "chief_star": {
+          "name": "禽芮",
+          "origin": "2",
+          "palace": "4"
+        },
+        "chief_door": {
+          "name": "死门",
+          "palace": "8"
+        },
+        "stars": {
+          "1": "天冲",
+          "2": "天心",
+          "3": "天英",
+          "4": "禽芮",
+          "5": "",
+          "6": "天任",
+          "7": "天蓬",
+          "8": "天辅",
+          "9": "天柱"
+        },
+        "doors": {
+          "1": "景门",
+          "2": "生门",
+          "3": "惊门",
+          "4": "开门",
+          "5": "",
+          "6": "杜门",
+          "7": "伤门",
+          "8": "死门",
+          "9": "休门"
+        },
+        "deities": {
+          "1": "玄武",
+          "2": "太阴",
+          "3": "九天",
+          "4": "值符",
+          "5": "",
+          "6": "白虎",
+          "7": "六合",
+          "8": "九地",
+          "9": "腾蛇"
+        },
+        "star_positions": {
+          "天蓬": "7",
+          "天任": "6",
+          "天冲": "1",
+          "天辅": "8",
+          "天英": "3",
+          "天禽": "4",
+          "天芮": "4",
+          "天柱": "9",
+          "天心": "2"
+        }
+      },
+      "variant": "qfdk-exact-term-midnight-v2"
+    },
+    {
+      "id": "qimen.summer-before",
+      "input": {
+        "value": "2026-06-21T16:24:29+08:00"
+      },
+      "expected": {
+        "solar_term": "芒种",
+        "dun": "阳",
+        "bureau": 6
+      },
+      "variant": "qfdk-exact-term-midnight-v2"
+    },
+    {
+      "id": "qimen.summer-at",
+      "input": {
+        "value": "2026-06-21T16:24:30+08:00"
+      },
+      "expected": {
+        "solar_term": "夏至",
+        "dun": "阴",
+        "bureau": 9
+      },
+      "variant": "qfdk-exact-term-midnight-v2"
+    },
+    {
+      "id": "qimen.late-zi-midnight",
+      "input": {
+        "value": "2026-02-03T23:00:00+08:00"
+      },
+      "expected": {
+        "day_ganzhi": "戊申",
+        "hour_ganzhi": "壬子",
+        "calendar": {
+          "day_boundary": "midnight"
+        }
+      },
+      "variant": "qfdk-exact-term-midnight-v2"
+    }
+  ]
+}
