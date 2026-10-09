@@ -15,7 +15,7 @@ import re
 import subprocess
 import sys
 
-DIGEST = re.compile(r"[0-9a-f]{64}\\Z")
+DIGEST = re.compile("[0-9a-f]{64}")
 BUNDLE_FILES = frozenset({"build/production_runtime.json", "build/production_rag.jsonl"})
 FORBIDDEN = frozenset({"config", "schemas", "web", "docs", "tests", ".git", "node_modules", "private-data-manifest.json"})
 
