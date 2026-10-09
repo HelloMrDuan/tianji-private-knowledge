@@ -47,11 +47,29 @@ def _assert_public_checkout(code: Path, expected_sha: str) -> None:
         raise ValueError("Public code checkout must not contain private data")
     if len(expected_sha) != 40 or any(c not in "0123456789abcdef" for c in expected_sha):
         raise ValueError("Expected exact 40-character public commit SHA")
+    origin = subprocess.check_output(
+        ["git", "-C", str(code), "remote", "get-url", "origin"], text=True,
+    ).strip()
+    trusted_origins = {
+        "https://github.com/HelloMrDuan/tianji-knowledge-base",
+        "https://github.com/HelloMrDuan/tianji-knowledge-base.git",
+        "git@github.com:HelloMrDuan/tianji-knowledge-base.git",
+    }
+    if origin not in trusted_origins:
+        raise ValueError("Only the owner's public repository is accepted")
     observed = subprocess.check_output(
         ["git", "-C", str(code), "rev-parse", "HEAD"], text=True,
     ).strip()
     if observed != expected_sha:
         raise ValueError("Public code checkout does not match expected pinned SHA")
+    # No local edits or untracked scripts from an uncontrolled workspace.
+    changes = subprocess.check_output(
+        ["git", "-C", str(code), "status", "--porcelain", "--untracked-files=all",
+         "--", "config", "src", "scripts", "tests", "schemas", "evals", "docs",
+         "pyproject.toml"], text=True,
+    ).strip()
+    if changes:
+        raise ValueError("Public code checkout has unreviewed local files or edits")
 
 
 def modules_for(suite: str) -> list[str]:
