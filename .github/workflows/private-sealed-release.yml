@@ -1,0 +1,161 @@
+name: Verify Private Sealed Release
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "deploy/Dockerfile.private-sealed"
+      - "scripts/verify_sealed_release.py"
+      - ".github/workflows/private-sealed-release.yml"
+  push:
+    branches: [main]
+    paths:
+      - "deploy/Dockerfile.private-sealed"
+      - "scripts/verify_sealed_release.py"
+      - ".github/workflows/private-sealed-release.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sealed-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Verify destination remains private
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: 0ddab16f67a4cf1ddd96789eaaa899311a3e844e
+          path: public-code
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Isolate complete real data from private Git checkout
+        run: |
+          python - <<'PY'
+          import importlib.util
+          import os
+          from pathlib import Path
+          import shutil
+          import sys
+
+          root = Path.cwd()
+          code = root / "public-code"
+          assert not (code / "data").exists(), "Source code must not contain public knowledge"
+          manifest_spec = importlib.util.spec_from_file_location(
+              "importer", root / "scripts/import_public_snapshot.py")
+          mod = importlib.util.module_from_spec(manifest_spec)
+          manifest_spec.loader.exec_module(mod)
+          inventory = mod.verify(root)
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "restricted-snapshot"
+          snapshot.mkdir(mode=0o700)
+          shutil.copytree(root / "data", snapshot / "data")
+          shutil.copy2(root / "private-data-manifest.json",
+                       snapshot / "private-data-manifest.json")
+          sys.path.insert(0, str(code))
+          from scripts.private_data_snapshot import verify_private_data
+          from scripts.assemble_private_backend import assemble_private_backend
+          verified = verify_private_data(snapshot)
+          assert verified["file_count"] == inventory["file_count"]
+          result = assemble_private_backend(code, snapshot, temp / "source-backend")
+          assert result["knowledge_files"] == inventory["file_count"]
+          print("Private-source integrity and code-only assembly: verified")
+          PY
+
+      - name: Build authentic reviewed source runtime and sealed bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install -e "./public-code[validation,calendar,api]"
+          (
+            cd "$RUNNER_TEMP/source-backend"
+            PYTHONPATH=src python scripts/build_production_runtime.py
+            PYTHONPATH=src python scripts/export_sealed_runtime.py \
+              --destination "$RUNNER_TEMP/sealed-backend"
+          )
+          test ! -e "$RUNNER_TEMP/sealed-backend/data/quarantine"
+          test ! -e "$RUNNER_TEMP/sealed-backend/config"
+          test ! -e "$RUNNER_TEMP/sealed-backend/docs"
+
+      - name: Verify pinned bundle and real sealed API
+        shell: bash
+        run: |
+          set -euo pipefail
+          PIN="$(sha256sum "$RUNNER_TEMP/sealed-backend/build/production_runtime.json" | cut -d' ' -f1)"
+          echo "$PIN" >"$RUNNER_TEMP/reviewed-sha256-pin"
+          python scripts/verify_sealed_release.py \
+            --bundle "$RUNNER_TEMP/sealed-backend" --pin "$PIN" --smoke
+          if python scripts/verify_sealed_release.py \
+            --bundle "$RUNNER_TEMP/sealed-backend" \
+            --pin "0000000000000000000000000000000000000000000000000000000000000000"; then
+            echo "SECURITY FAILURE: wrong external pin accepted"
+            exit 1
+          fi
+
+      - name: Build confidential image locally, never push
+        shell: bash
+        run: |
+          set -euo pipefail
+          PIN="$(cat "$RUNNER_TEMP/reviewed-sha256-pin")"
+          docker build --no-cache --build-arg "RUNTIME_SHA256=$PIN" \
+            -f deploy/Dockerfile.private-sealed \
+            -t tianji-private-ci:sealed "$RUNNER_TEMP/sealed-backend"
+          test "$(docker image inspect tianji-private-ci:sealed --format '{{.Config.User}}')" = "10001:10001"
+
+      - name: Test actual nonroot sealed container over local HTTP
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run --rm -d --read-only --tmpfs /tmp:rw,noexec,nosuid,size=32m \
+            -p 127.0.0.1:18000:8000 --name tianji-private-ci-check \
+            tianji-private-ci:sealed >"$RUNNER_TEMP/container-id"
+          trap 'docker rm -f tianji-private-ci-check >/dev/null 2>&1 || true' EXIT
+          healthy=0
+          for attempt in {1..45}; do
+            if curl -fsS http://127.0.0.1:18000/health >"$RUNNER_TEMP/private-health.json" 2>/dev/null; then
+              healthy=1
+              break
+            fi
+            sleep 1
+          done
+          test "$healthy" = 1
+          python - <<'PY'
+          import json
+          import urllib.request
+          endpoint = "http://127.0.0.1:18000"
+          health = json.load(urllib.request.urlopen(endpoint + "/health", timeout=10))
+          assert health["rag_ready"] is True
+          request = urllib.request.Request(
+              endpoint + "/api/v1/public/execute",
+              data=json.dumps({
+                  "domain": "bazi", "variant": "ziping-structural-v1",
+                  "input": {"value": "2000-01-07T12:00:00+08:00"},
+                  "mode": "production", "explain": False
+              }).encode(), headers={"Content-Type": "application/json"}, method="POST")
+          data = json.load(urllib.request.urlopen(request, timeout=30))
+          assert data["chart"]["day_master"]["stem"] == "甲"
+          assert data["evidence"]
+          print("Private sealed Docker HTTP smoke: healthy, audited Bazi and evidence")
+          PY
+
+      - name: Confidential release boundary
+        run: |
+          echo "Private runner local acceptance only; no image push or artifact upload"
