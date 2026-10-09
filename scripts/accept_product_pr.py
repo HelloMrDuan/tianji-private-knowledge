@@ -127,11 +127,17 @@ def run_acceptance(private: Path, code: Path, expected_sha: str, suite: str) -> 
         _run([sys.executable, "scripts/build_product_coverage.py"], cwd=assembled, env=env)
         _run([sys.executable, "scripts/build_product_coverage.py", "--check"], cwd=assembled, env=env)
         _run([sys.executable, "-m", "unittest", "-v", *modules], cwd=assembled, env=env)
+        if suite == "all":
+            # A merged codebase must also preserve unrelated existing knowledge
+            # and all product regressions, not only the three feature suites.
+            _run([sys.executable, "-m", "unittest", "discover",
+                  "-s", "tests", "-p", "test_*.py"], cwd=assembled, env=env)
         print(json.dumps({
             "status": "pass", "public_sha": expected_sha, "suite": suite,
             "private_files_verified": inventory["file_count"],
             "real_unittest_modules": modules,
             "source_manifest_preserved": True,
+            "full_python_regression": suite == "all",
         }))
 
 
