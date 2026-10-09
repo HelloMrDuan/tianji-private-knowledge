@@ -1,0 +1,120 @@
+{
+  "schema_version": "dream-reviewed-candidate-batch-v3",
+  "status": "pinned_text_matches_research_only",
+  "citation_level": "D_candidate_not_reviewed_Evidence",
+  "source": {
+    "repository": "garychowcmu/daizhigev20",
+    "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+    "blob_sha": "0c7b0823265c4ff00465f833e0be28f1bf0f2175",
+    "raw_sha256": "d80c42b0b8f44f5b8cf2c4e1c286b200388b65dcd321347eb7ac1011d0be5e97",
+    "path": "易藏/术数/周公解梦.txt",
+    "uri": "https://github.com/garychowcmu/daizhigev20/blob/4a6d6f2088825f132521d848c2ea86cf9c9a7620/%E6%98%93%E8%97%8F/%E6%9C%AF%E6%95%B0/%E5%91%A8%E5%85%AC%E8%A7%A3%E6%A2%A6.txt"
+  },
+  "offset_basis": "zero-based Unicode codepoint offset of the exact pinned UTF-8 source; line numbers one-based",
+  "rights_status": "PUBLIC_DOMAIN_EXTRACT_ONLY scope still requires edition and rights review; no modern annotations copied",
+  "reviewer_note": "Exact phrases uniquely located in pinned source (SHA1/blob). Cross-edition independence, source author/edition and implementation review remain unresolved; do not promote automatically.",
+  "records": [
+    {
+      "id": "rain-on-road",
+      "chapter": "一、天地 日月 星辰",
+      "short_quote": "行路逢雨有酒食",
+      "unicode_offset": 519,
+      "line": 20,
+      "scene": "行路遇雨",
+      "require": [
+        "梦者在路上行走",
+        "确实遇雨"
+      ],
+      "reject": [
+        "只是看见下雨",
+        "在家躲雨",
+        "害怕下雨",
+        "没有遇雨"
+      ],
+      "literal_interpretation_scope": "固定电子本将行路遇雨与酒食联系；不推出现实财运、食物或行动吉凶",
+      "match_count_in_pinned_raw": 1,
+      "review_status": "pending_independent_edition_review",
+      "promoted_to_canonical": false,
+      "rule_executable": false,
+      "ai_enabled": false,
+      "public_enabled": false
+    },
+    {
+      "id": "timely-snow",
+      "chapter": "一、天地 日月 星辰",
+      "short_quote": "雪下及时大吉利",
+      "unicode_offset": 475,
+      "line": 18,
+      "scene": "雪下及时",
+      "require": [
+        "梦中明确叙述雪下得及时"
+      ],
+      "reject": [
+        "只见雪",
+        "暴风雪",
+        "迟雪",
+        "害怕下雪",
+        "没有下雪"
+      ],
+      "literal_interpretation_scope": "固定电子本的及时降雪文化条目；单纯雪景不充分",
+      "match_count_in_pinned_raw": 1,
+      "review_status": "pending_independent_edition_review",
+      "promoted_to_canonical": false,
+      "rule_executable": false,
+      "ai_enabled": false,
+      "public_enabled": false
+    },
+    {
+      "id": "broken-bridge",
+      "chapter": "十三、道路 桥梁 集市",
+      "short_quote": "桥断者主有口舌",
+      "unicode_offset": 4643,
+      "line": 169,
+      "scene": "桥断",
+      "require": [
+        "梦中桥体确实断裂"
+      ],
+      "reject": [
+        "过桥",
+        "桥上行走",
+        "见桥但未断",
+        "害怕桥断",
+        "桥坏但未明确断裂"
+      ],
+      "literal_interpretation_scope": "仅叙述固定电子本的桥断文化象征；不预测现实争执",
+      "match_count_in_pinned_raw": 1,
+      "review_status": "pending_independent_edition_review",
+      "promoted_to_canonical": false,
+      "rule_executable": false,
+      "ai_enabled": false,
+      "public_enabled": false
+    },
+    {
+      "id": "planting-tree",
+      "chapter": "二、地理 山石 树木",
+      "short_quote": "种树木者大吉昌",
+      "unicode_offset": 845,
+      "line": 31,
+      "scene": "种树木",
+      "require": [
+        "梦者明确种植树木"
+      ],
+      "reject": [
+        "看见树",
+        "砍伐树",
+        "树木枯死",
+        "种花",
+        "没有种树"
+      ],
+      "literal_interpretation_scope": "仅叙述固定电子本的种树文化条目；不由此判断真实家庭及事业",
+      "match_count_in_pinned_raw": 1,
+      "review_status": "pending_independent_edition_review",
+      "promoted_to_canonical": false,
+      "rule_executable": false,
+      "ai_enabled": false,
+      "public_enabled": false
+    }
+  ],
+  "historical_context": "These are statements found in a premodern dream-text edition, not causal facts or individualized forecasts.",
+  "next_gate": "Pinned short-excerpt rights and edition collation -> SourceRef/Section/Term/Rule human review -> private Canonical and SHA manifests -> Golden negative tests -> private CI. Do not alter public prediction claims until these gates complete."
+}
