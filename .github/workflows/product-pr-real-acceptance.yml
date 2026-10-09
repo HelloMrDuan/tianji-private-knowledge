@@ -1,0 +1,63 @@
+name: Validate product PRs against private knowledge
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/accept_product_pr.py"
+      - "tests/test_accept_product_pr.py"
+      - ".github/workflows/product-pr-real-acceptance.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  private-product-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - suite: career
+            sha: f50a0d6f8d40d8e06d9ce8feba79f7c26667398e
+          - suite: romance
+            sha: 947276746dfc5450f234cd1188072500b59d69c4
+          - suite: periods
+            sha: 10cde29ac60a16b756916f00240ed461dab5f429
+    steps:
+      - name: Verify owner private repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: ${{ matrix.sha }}
+          path: public-code
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate private acceptance runner guards
+        run: python -m unittest discover -s tests -p 'test_accept_product_pr.py' -v
+
+      - name: Install actual pinned code dependencies
+        run: python -m pip install -e "./public-code[validation,calendar,api]"
+
+      - name: Audit original data, derive temporary coverage and run real cases
+        run: |
+          python scripts/accept_product_pr.py \
+            --public-code "$GITHUB_WORKSPACE/public-code" \
+            --expected-sha "${{ matrix.sha }}" \
+            --suite "${{ matrix.suite }}"
