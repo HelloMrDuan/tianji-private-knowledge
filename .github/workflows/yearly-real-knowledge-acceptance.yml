@@ -1,0 +1,89 @@
+name: Validate yearly branch interactions on real private knowledge
+
+on:
+  push:
+    branches:
+      - feat/184-yearly-real-knowledge-acceptance
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/yearly-real-knowledge-acceptance.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  annual-real-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Require private repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: 880be3e5be8797bd96a030a89963e621f5c77395
+          path: public-code
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verify real private source and assemble non-Git backend
+        run: |
+          python - <<'PY'
+          import importlib.util, os, shutil, sys
+          from pathlib import Path
+
+          private = Path.cwd()
+          code = private / "public-code"
+          assert not (code / "data").exists()
+          spec = importlib.util.spec_from_file_location("source", private / "scripts/import_public_snapshot.py")
+          module = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(module)
+          verified = module.verify(private)
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "reviewed-yearly-assets"
+          snapshot.mkdir(mode=0o700)
+          shutil.copytree(private / "data", snapshot / "data")
+          shutil.copy2(private / "private-data-manifest.json", snapshot / "private-data-manifest.json")
+          sys.path.insert(0, str(code))
+          from scripts.assemble_private_backend import assemble_private_backend
+          result = assemble_private_backend(code, snapshot, temp / "private-yearly-backend")
+          assert result["knowledge_files"] == verified["file_count"]
+          print("Verified private knowledge assets:", verified["file_count"])
+          PY
+
+      - name: Install real backend dependencies
+        run: python -m pip install -e "./public-code[validation,calendar,api]"
+
+      - name: Validate real yearly and scenario tests against private evidence
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/private-yearly-backend"
+          export PYTHONPATH=src:tests
+          python scripts/build_production_runtime.py
+          python -m unittest -v test_yearly_annual_relations test_scenario_engine
+          python - <<'PY'
+          from tianji_kb.scenario_engine import execute_scenario
+          for year, branch in ((2026, "午"), (2027, "未")):
+              output = execute_scenario("yearly", {
+                  "birth_value": "2000-01-07T12:00:00+08:00",
+                  "target_year": year,
+              })
+              rows = output["result"]["annual_branch_interactions"]
+              assert rows["flow_branch"] == branch
+              assert rows["evaluated_pairs"] == 4
+              assert all(set(hit["evidence_ids"]) <= set(output["evidence"]) for hit in rows["hits"])
+              print("Yearly private evidence test:", year, "hits", len(rows["hits"]))
+          PY
