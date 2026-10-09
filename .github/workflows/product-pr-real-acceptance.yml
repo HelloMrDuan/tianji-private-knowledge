@@ -25,7 +25,7 @@ jobs:
           - suite: romance
             sha: 7bbc1e08ae518fa546ccc76e393c49fc1f5fe0bf
           - suite: periods
-            sha: 10cde29ac60a16b756916f00240ed461dab5f429
+            sha: 3012006885cd2df7f61135a816f595cd14c1aeaa
     steps:
       - name: Verify owner private repository
         env:
