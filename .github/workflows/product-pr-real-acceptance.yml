@@ -23,7 +23,7 @@ jobs:
           - suite: career
             sha: f50a0d6f8d40d8e06d9ce8feba79f7c26667398e
           - suite: romance
-            sha: 947276746dfc5450f234cd1188072500b59d69c4
+            sha: 7bbc1e08ae518fa546ccc76e393c49fc1f5fe0bf
           - suite: periods
             sha: 10cde29ac60a16b756916f00240ed461dab5f429
     steps:
