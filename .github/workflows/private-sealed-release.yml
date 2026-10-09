@@ -5,12 +5,18 @@ on:
     branches: [main]
     paths:
       - "deploy/Dockerfile.private-sealed"
+      - "deploy/Dockerfile.public-web"
+      - "deploy/nginx.conf"
+      - "deploy/compose.yml"
       - "scripts/verify_sealed_release.py"
       - ".github/workflows/private-sealed-release.yml"
   push:
     branches: [main]
     paths:
       - "deploy/Dockerfile.private-sealed"
+      - "deploy/Dockerfile.public-web"
+      - "deploy/nginx.conf"
+      - "deploy/compose.yml"
       - "scripts/verify_sealed_release.py"
       - ".github/workflows/private-sealed-release.yml"
   workflow_dispatch:
@@ -154,6 +160,74 @@ jobs:
           assert data["chart"]["day_master"]["stem"] == "甲"
           assert data["evidence"]
           print("Private sealed Docker HTTP smoke: healthy, audited Bazi and evidence")
+          PY
+
+      - name: Build real public frontend image with an isolated build context
+        shell: bash
+        run: |
+          set -euo pipefail
+          context="$RUNNER_TEMP/frontend-only-context"
+          mkdir -p "$context"
+          tar -C public-code/web/visual-prototype \
+            --exclude=node_modules --exclude=dist --exclude=.git \
+            -cf - . | tar -xf - -C "$context"
+          cp deploy/nginx.conf "$context/nginx.conf"
+          cp deploy/Dockerfile.public-web "$context/Dockerfile"
+          printf 'node_modules\\ndist\\n.git\\n.env*\\ndata\\nbuild\\n*.map\\n' >"$context/.dockerignore"
+          test ! -e "$context/data"
+          test ! -e "$context/private-data-manifest.json"
+          docker build --no-cache -t tianji-web-ci:static "$context"
+
+      - name: Run actual isolated API plus Nginx public stack
+        shell: bash
+        env:
+          TIANJI_PRIVATE_API_IMAGE: tianji-private-ci:sealed
+          TIANJI_PUBLIC_WEB_IMAGE: tianji-web-ci:static
+          TIANJI_HOST_PORT: "18080"
+        run: |
+          set -euo pipefail
+          docker compose -f deploy/compose.yml config --quiet
+          docker compose -f deploy/compose.yml up -d
+          trap 'docker compose -f deploy/compose.yml down --remove-orphans >/dev/null 2>&1 || true' EXIT
+          healthy=0
+          for attempt in {1..50}; do
+            if curl -fsS http://127.0.0.1:18080/health >"$RUNNER_TEMP/full-stack-health.json" 2>/dev/null; then
+              healthy=1
+              break
+            fi
+            sleep 1
+          done
+          test "$healthy" = 1
+          python - <<'PY'
+          import json
+          import urllib.error
+          import urllib.request
+
+          base = "http://127.0.0.1:18080"
+          index = urllib.request.urlopen(base + "/", timeout=10)
+          assert index.status == 200
+          assert "text/html" in index.headers["Content-Type"]
+          health = json.load(urllib.request.urlopen(base + "/health", timeout=10))
+          assert health["rag_ready"] is True
+          request = urllib.request.Request(
+              base + "/api/v1/public/execute",
+              data=json.dumps({
+                  "domain": "bazi", "variant": "ziping-structural-v1",
+                  "input": {"value": "2000-01-07T12:00:00+08:00"},
+                  "mode": "production", "explain": False
+              }).encode(), headers={"Content-Type": "application/json"}, method="POST")
+          data = json.load(urllib.request.urlopen(request, timeout=30))
+          assert data["chart"]["day_master"]["stem"] == "甲"
+          assert data["evidence"]
+          for path in ("/api/v1/admin/research/dream", "/data/canonical/seed.json",
+                       "/build/production_runtime.json", "/config/domain_registry.json"):
+              try:
+                  urllib.request.urlopen(base + path, timeout=10)
+              except urllib.error.HTTPError as error:
+                  assert error.code == 404, (path, error.code)
+              else:
+                  raise AssertionError("Blocked private path was exposed")
+          print("Real production Nginx + private sealed API: HTTP flows and exposure denials passed")
           PY
 
       - name: Confidential release boundary
