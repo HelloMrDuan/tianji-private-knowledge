@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: 39497259327d74aa7358f2176a03cde88bc882ad
+          ref: 4966240cdf94f862a48a5b0616203dbd5f167414
           path: public-code
           persist-credentials: false
 
