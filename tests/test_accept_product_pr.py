@@ -36,9 +36,22 @@ class AcceptanceScriptTests(unittest.TestCase):
             (root / "data").rmdir()
             with self.assertRaisesRegex(ValueError, "40-character"):
                 accept._assert_public_checkout(root, "main")
-            with patch.object(accept.subprocess, "check_output", return_value="b" * 40):
+            allowed_origin = "https://github.com/HelloMrDuan/tianji-knowledge-base.git"
+            with patch.object(accept.subprocess, "check_output",
+                              side_effect=[allowed_origin, "b" * 40]):
                 with self.assertRaisesRegex(ValueError, "pinned SHA"):
                     accept._assert_public_checkout(root, "a" * 40)
+            with patch.object(accept.subprocess, "check_output",
+                              return_value="https://github.com/not-owner/other.git"):
+                with self.assertRaisesRegex(ValueError, "owner's public repository"):
+                    accept._assert_public_checkout(root, "a" * 40)
+            with patch.object(accept.subprocess, "check_output",
+                              side_effect=[allowed_origin, "a" * 40, "?? scripts/unsafe.py"]):
+                with self.assertRaisesRegex(ValueError, "unreviewed local"):
+                    accept._assert_public_checkout(root, "a" * 40)
+            with patch.object(accept.subprocess, "check_output",
+                              side_effect=[allowed_origin, "a" * 40, ""]):
+                accept._assert_public_checkout(root, "a" * 40)
 
     def test_reject_non_private_ci_before_reading_data_or_installing_code(self):
         with tempfile.TemporaryDirectory() as temp:
