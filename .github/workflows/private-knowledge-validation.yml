@@ -1,0 +1,107 @@
+name: Validate isolated private knowledge backend
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/private-knowledge-validation.yml"
+      - "private-data-manifest.json"
+      - "data/**"
+      - "scripts/import_public_snapshot.py"
+
+permissions:
+  contents: read
+
+jobs:
+  private-backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Assert repository remains private
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: 39497259327d74aa7358f2176a03cde88bc882ad
+          path: public-code
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate private snapshot and assemble real isolated backend
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import importlib.util
+          import os
+          from pathlib import Path
+          import shutil
+          import sys
+
+          source = Path.cwd()
+          spec = importlib.util.spec_from_file_location(
+              "private_importer", "scripts/import_public_snapshot.py"
+          )
+          importer = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(importer)
+          manifest = importer.verify(source)
+          assert manifest["source_commit"] == importer.SOURCE_COMMIT
+
+          public_code = source / "public-code"
+          sys.path.insert(0, str(public_code))
+          from scripts.private_data_snapshot import verify_private_data
+          from scripts.assemble_private_backend import assemble_private_backend
+
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "verified-private-snapshot"
+          runtime = temp / "isolated-tianji-backend"
+          snapshot.mkdir(mode=0o700)
+          shutil.copytree(source / "data", snapshot / "data", symlinks=False)
+          shutil.copy2(source / "private-data-manifest.json",
+                       snapshot / "private-data-manifest.json")
+          checked = verify_private_data(snapshot)
+          assert checked["file_count"] == manifest["file_count"]
+          result = assemble_private_backend(public_code, snapshot, runtime)
+          assert result["knowledge_files"] == manifest["file_count"]
+          assert not (runtime / ".git").exists()
+          print("PRIVATE snapshot -> verified manifest -> real isolated backend:",
+                result["knowledge_files"], "files")
+          PY
+
+      - name: Install real backend test dependencies
+        run: python -m pip install -e "./public-code[validation,calendar,api]"
+
+      - name: Run real canonical validation and deterministic runtime audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/isolated-tianji-backend"
+          export PYTHONPATH=src
+          python scripts/validate_kb.py
+          python scripts/validate_knowledge.py
+          python scripts/build_production_runtime.py
+          python scripts/validate_phase2.py
+          python scripts/build_product_coverage.py --check
+
+      - name: Run entire real Python regression suite against private data
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/isolated-tianji-backend"
+          export PYTHONPATH=src
+          python -m unittest discover -s tests -p 'test_*.py'
