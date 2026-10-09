@@ -1,0 +1,78 @@
+{
+  "schema_version": "dream-cross-text-collation-v1",
+  "audit_date": "2026-10-09",
+  "status": "research_cross_text_checked_not_canonical",
+  "provenance": {
+    "canonical_source_repo": "garychowcmu/daizhigev20",
+    "pinned_commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+    "source_path": "易藏/术数/周公解梦.txt",
+    "source_blob_sha": "0c7b0823265c4ff00465f833e0be28f1bf0f2175",
+    "primary_candidates": "docs/research/dream/source_batch03_pinned_candidates.json",
+    "comparator_url": "https://zh.wikisource.org/zh-hans/周公解夢",
+    "comparator_type": "public collaboratively edited electronic transcription, NOT independent manuscript or authenticated print edition",
+    "independent_edition_verified": false,
+    "rights_cleared_for_runtime_promotion": false
+  },
+  "records": [
+    {
+      "id": "rain-on-road",
+      "primary": "行路逢雨有酒食",
+      "primary_unicode_offset": 519,
+      "primary_line": 20,
+      "secondary": "行路逢雨有酒食",
+      "secondary_line": 190,
+      "comparison": "exact_same_7_characters",
+      "review": "text_agreement_not_edition_independence",
+      "candidate_state": "quarantine_only"
+    },
+    {
+      "id": "timely-snow",
+      "primary": "雪下及时大吉利",
+      "primary_unicode_offset": 475,
+      "primary_line": 18,
+      "secondary": "雪下及时大吉利",
+      "secondary_line": 186,
+      "comparison": "exact_same_7_characters",
+      "review": "text_agreement_not_edition_independence",
+      "candidate_state": "quarantine_only"
+    },
+    {
+      "id": "broken-bridge",
+      "primary": "桥断者主有口舌",
+      "primary_unicode_offset": 4643,
+      "primary_line": 169,
+      "secondary": "桥断者主有口舌",
+      "secondary_line": 551,
+      "comparison": "exact_same_7_characters",
+      "review": "text_agreement_not_edition_independence",
+      "candidate_state": "quarantine_only"
+    },
+    {
+      "id": "planting-tree",
+      "primary": "种树木者大吉昌",
+      "primary_unicode_offset": 845,
+      "primary_line": 31,
+      "secondary": "种植树木大吉昌",
+      "secondary_line": 218,
+      "comparison": "non_identical_recension",
+      "edit_note": "异文是『种树木者／种植树木』；不可互相替换成为同一来源原文",
+      "review": "needs_edition_and_variant_adjudication",
+      "candidate_state": "quarantine_only"
+    }
+  ],
+  "gating": {
+    "canonical_promotion": false,
+    "new_phase1_rules": 0,
+    "new_phase2_rules": 0,
+    "deployable_interpretation_count": 0,
+    "next_steps": [
+      "找到具有书目版本信息的独立底本并校对文字",
+      "确定编辑注释及独立文本权利边界",
+      "按已有 Phase1 SourceRef/Section/Term/Rule 模型逐条审核",
+      "对每个场景设肯定正例、否定反例、非梦者主语及语义边界",
+      "私人 manifest SHA 更新，Canonical 与 Golden/CI 全绿后才准进入运行时"
+    ],
+    "preserve_raw": true,
+    "no_personal_prediction": true
+  }
+}
