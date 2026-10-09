@@ -67,6 +67,7 @@ jobs:
       - name: Install and build actual frontend and backend
         run: |
           python -m pip install -e "./public-code[validation,calendar,api]"
+          (cd "$RUNNER_TEMP/web-private-backend" && PYTHONPATH=src python scripts/build_production_runtime.py)
           cd public-code/web/visual-prototype
           npm ci
           npm run build
