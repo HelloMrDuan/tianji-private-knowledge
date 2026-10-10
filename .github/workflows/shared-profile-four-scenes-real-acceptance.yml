@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: 4363db8cfa577cb72b2888a59917337060aa283e
+          ref: fa8d582820456f32822c5574a2548f50e058767e
           path: public-code
           persist-credentials: false
 
@@ -47,7 +47,7 @@ jobs:
         run: |
           python scripts/accept_product_pr.py \
             --public-code "$GITHUB_WORKSPACE/public-code" \
-            --expected-sha "4363db8cfa577cb72b2888a59917337060aa283e" \
+            --expected-sha "fa8d582820456f32822c5574a2548f50e058767e" \
             --suite "all"
 
 
@@ -69,7 +69,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: 4363db8cfa577cb72b2888a59917337060aa283e
+          ref: fa8d582820456f32822c5574a2548f50e058767e
           path: public-code
           persist-credentials: false
       - uses: actions/setup-python@v5
