@@ -27,7 +27,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Authenticate real-source witness catalogue and protected data
+      - name: Authenticate real-source witnesses against original pinned bytes
+        env:
+          TIANJI_REVIEW_DREAM_RAW: ${{ runner.temp }}/zhougong-pinned-original.txt
         run: |
+          curl --fail --silent --show-error --location --retry 3 \
+            "https://raw.githubusercontent.com/garychowcmu/daizhigev20/4a6d6f2088825f132521d848c2ea86cf9c9a7620/%E6%98%93%E8%97%8F/%E6%9C%AF%E6%95%B0/%E5%91%A8%E5%85%AC%E8%A7%A3%E5%A4%A2.txt" \
+            --output "$TIANJI_REVIEW_DREAM_RAW"
           python scripts/verify_external_source_witnesses.py
           python -m unittest discover -s tests -p 'test_external_source_witnesses.py' -v
