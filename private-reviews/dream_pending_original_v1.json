@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "id": "dream.pending.original-source-audit.v1",
+  "provenance": {
+    "repository": "garychowcmu/daizhigev20",
+    "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+    "path": "易藏/术数/周公解梦.txt",
+    "git_blob": "0c7b0823265c4ff00465f833e0be28f1bf0f2175",
+    "sha256": "d80c42b0b8f44f5b8cf2c4e1c286b200388b65dcd321347eb7ac1011d0be5e97",
+    "snapshot": "data/quarantine/public_domain_snapshots/daizhigev20/zhougong_dream_candidates.json"
+  },
+  "candidates": [
+    {
+      "id": "death",
+      "exact_anchor": "见人死自死皆吉",
+      "raw_unicode_offset": 5941,
+      "match_scope": "direct_scene",
+      "review_status": "pending",
+      "evidence_level": "D",
+      "production_allowed": false,
+      "semantic_limit": "古籍中的见人死、自死梦条目，不预测现实死亡或吉凶，不向公开 API 推送。"
+    },
+    {
+      "id": "deceased",
+      "exact_anchor": "死人复活主有信",
+      "raw_unicode_offset": 5933,
+      "match_scope": "related_only",
+      "review_status": "pending",
+      "evidence_level": "D",
+      "production_allowed": false,
+      "semantic_limit": "死人复活不能代指所有已故亲友或故人梦，不提供个人释义。"
+    },
+    {
+      "id": "chased",
+      "exact_anchor": null,
+      "raw_unicode_offset": null,
+      "match_scope": "not_found",
+      "review_status": "pending",
+      "evidence_level": "D",
+      "production_allowed": false,
+      "semantic_limit": "当前固定候选未发现可授权的被追条目，不推断追逐梦含义。"
+    }
+  ],
+  "promotion": {
+    "phase1_rules": 0,
+    "phase2_rules": 0,
+    "golden_cases": 0,
+    "public_enabled": false,
+    "ai_enabled": false,
+    "independent_source_verified": false
+  },
+  "limitations": [
+    "单一固定电子底本候选核验，尚未完成独立版本、异文、语义及许可的正式审核。",
+    "只验原文存在和输入场景边界，不能从古籍条目推断现实生命、健康或未来事件。",
+    "本附录位于私有仓库非 data 目录，235 个受保护知识快照文件保持不变。"
+  ]
+}
