@@ -103,7 +103,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--original-raw", required=True, type=Path)
     args = parser.parse_args()
-    from scripts.import_public_snapshot import verify as verify_snapshot
+    from import_public_snapshot import verify as verify_snapshot
     snapshot_manifest = verify_snapshot(BASE)
     _assert(snapshot_manifest["file_count"] == 235,
             "protected data inventory changed")
