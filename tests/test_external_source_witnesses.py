@@ -13,7 +13,7 @@ class ExternalSourceWitnessTests(unittest.TestCase):
 
     def test_fixed_real_research_witnesses_and_private_snapshot(self):
         observed = verify()
-        self.assertEqual(observed["dream_excerpt_witnesses"], 2)
+        self.assertEqual(observed["dream_excerpt_witnesses"], 3)
         self.assertEqual(observed["dayun_excerpt_witnesses"], 3)
         self.assertEqual(observed["bibliography_leads"], 2)
         self.assertEqual(observed["production_promotions"], 0)
@@ -32,6 +32,22 @@ class ExternalSourceWitnessTests(unittest.TestCase):
             with self.subTest(section=section, field=field):
                 with self.assertRaisesRegex(ValueError, "integrity"):
                     validate(dream, dayun)
+
+    def test_third_original_witness_is_a_variant_not_a_new_prediction(self):
+        witnesses = {r["id"]: r for r in self.dream["witnesses"]}
+        elder = witnesses["zhougong-deceased-elder-variant"]
+        self.assertEqual(elder["pinned_original_excerpt"], "见死亡尊长大吉")
+        self.assertEqual(elder["transcribed_excerpt"], "见先亡尊长大吉")
+        self.assertEqual(elder["original_raw_char_offset"], 5959)
+        self.assertEqual(elder["comparison"], "variant_character")
+        self.assertFalse(self.dream["gate"]["public_enabled"])
+        for value in (5958, 5960):
+            malformed = copy.deepcopy(self.dream)
+            row = next(row for row in malformed["witnesses"] if row["id"] ==
+                       "zhougong-deceased-elder-variant")
+            row["original_raw_char_offset"] = value
+            with self.assertRaisesRegex(ValueError, "integrity"):
+                validate(malformed, self.dayun)
 
     def test_forged_source_excerpt_and_resolved_conflict_rejected(self):
         for side, mutate in (
