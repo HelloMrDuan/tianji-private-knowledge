@@ -52,6 +52,15 @@
       "exact_excerpt": "此乃死法譬喻,须随格局喜忌推之,不可执一",
       "raw_char_offset": 2827,
       "scope": "限制吉凶断言，不构成任何现代命运事实的预测依据。"
+    },
+    {
+      "claim_id": "bazi.dayun.source.traditional-role-categories",
+      "title": "传统阴阳角色术语（不等于大运顺逆规则）",
+      "canonical_section_id": 188,
+      "canonical_section_title": "珞琭子消息赋",
+      "exact_excerpt": "阴男阳女,时观出入之年;阴女阳男,更看元辰之岁",
+      "raw_char_offset": 56797,
+      "scope": "仅证明固定传本存在阴男阳女与阴女阳男的传统类别措辞；不独立证明大运顺逆、年干取法或现代身份认定。"
     }
   ],
   "inherited_source_distinction": "《珞琭子消息赋》在当前《渊海子平》清洗底本中以标题段出现；此记录只承诺底本可复核，不独立证明《珞琭子》更早版本、成书年代或其他异文。",
@@ -61,7 +70,7 @@
     "bazi-dayun-three-days-mean-year-research-v1"
   ],
   "adjudication_gaps": [
-    "传统顺逆需校勘具体年干阴阳、性别术语与流派分歧；本四短引不直接审核方向推断",
+    "传统顺逆需校勘具体年干阴阳、性别术语与流派分歧；本五短引不直接审核方向推断",
     "三日一年未指定余时/余日换算精度；并非 Gregorian 365.2425 日模型的古籍原文",
     "起运节界算法只是固定 lunar-python 版本的研究事实，天文与历史时区精度未做独立校核",
     "真实交运日期、虚实岁、过界零距离规则、后续每十年实历边界尚未晋级",
