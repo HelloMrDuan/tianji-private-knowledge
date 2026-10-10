@@ -1,0 +1,26 @@
+{
+  "id": "bazi.dayun.traditional-role-terminology-appendix-v1",
+  "source_collation_id": "bazi.dayun.fixed-source-collation-v1",
+  "review_status": "historical_terminology_only",
+  "claim": {
+    "claim_id": "bazi.dayun.source.traditional-role-categories",
+    "canonical_section_id": 188,
+    "canonical_section_title": "珞琭子消息赋",
+    "exact_excerpt": "阴男阳女,时观出入之年;阴女阳男,更看元辰之岁",
+    "raw_char_offset": 56797,
+    "scope": "本固定传本记录阴男阳女与阴女阳男术语，不独立证明大运顺逆、年干取法、现代身份认定或准确交运日期。"
+  },
+  "changes_to_release": {
+    "phase1_rule_promotions": 0,
+    "phase2_rule_promotions": 0,
+    "new_golden_promotions": 0,
+    "public_enabled": false,
+    "ai_enabled": false,
+    "source_quotations_exposed_by_api": false
+  },
+  "limitations": [
+    "仅证明原始快照和既有 Canonical 单一版本的逐字一致，未验证独立底本。",
+    "只用于内部历史术语校勘，不能宣称传统大运顺逆算法或起运日期得到审核。",
+    "不可通过公开 API 大量展示原始知识内容，私有源资料继续隔离。"
+  ]
+}
