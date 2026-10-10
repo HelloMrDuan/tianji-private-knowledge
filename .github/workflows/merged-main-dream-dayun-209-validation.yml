@@ -6,6 +6,7 @@ on:
     paths:
       - "scripts/accept_product_pr.py"
       - ".github/workflows/merged-main-real-regression.yml"
+      - ".github/workflows/merged-main-dream-dayun-209-validation.yml"
   workflow_dispatch:
 
 permissions:
