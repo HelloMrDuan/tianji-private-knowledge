@@ -1,0 +1,40 @@
+name: Authenticate pending dream original without promotion
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "private-reviews/dream_pending_original_v1.json"
+      - "scripts/verify_pending_dream_source.py"
+      - "tests/test_private_dream_source_review.py"
+      - ".github/workflows/dream-pending-original-audit.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-byte-and-quarantine-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Verify private destination
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Retrieve fixed upstream raw bytes without adding to Git
+        env:
+          TIANJI_REVIEW_DREAM_RAW: ${{ runner.temp }}/zhougong-fixed-original.txt
+        run: |
+          curl --fail --silent --show-error --location --retry 3 \
+            "https://raw.githubusercontent.com/garychowcmu/daizhigev20/4a6d6f2088825f132521d848c2ea86cf9c9a7620/%E6%98%93%E8%97%8F/%E6%9C%AF%E6%95%B0/%E5%91%A8%E5%85%AC%E8%A7%A3%E6%A2%A6.txt" \
+            --output "$TIANJI_REVIEW_DREAM_RAW"
+          python scripts/verify_pending_dream_source.py \
+            --original-raw "$TIANJI_REVIEW_DREAM_RAW"
+          python -m unittest discover -s tests \
+            -p 'test_private_dream_source_review.py' -v
