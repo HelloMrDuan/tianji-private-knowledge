@@ -62,7 +62,10 @@ def validate(dream, dayun):
 def verify():
     dream = json.loads(DREAM.read_text(encoding="utf-8"))
     dayun = json.loads(DAYUN.read_text(encoding="utf-8"))
-    from import_public_snapshot import verify as check_private
+    try:
+        from scripts.import_public_snapshot import verify as check_private
+    except ModuleNotFoundError:
+        from import_public_snapshot import verify as check_private
     _ensure(check_private(ROOT)["file_count"] == 235,
             "private canonical inventory drift")
     return validate(dream, dayun)
