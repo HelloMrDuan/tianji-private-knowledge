@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "id": "research.dayun.external-witness-register.v1",
+  "review_status": "textual_comparison_not_method_adjudication",
+  "evidence_level": "D",
+  "baseline": {
+    "work": "渊海子平",
+    "collation_id": "bazi.dayun.fixed-source-collation-v1",
+    "repository": "garychowcmu/daizhigev20",
+    "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620"
+  },
+  "witnesses": [
+    {
+      "id": "yuanhai-direction",
+      "work": "渊海子平",
+      "section": "卷一·论起大运法",
+      "url": "https://huamuchengxi.com/chapter/12802.html",
+      "exact_excerpt": "陽男陰女順行",
+      "claim_scope": "传统角色和节气数法表述存在于公开转录本；未完成原版影印校勘，也不自动映射现代身份。",
+      "research_status": "transcription_located"
+    },
+    {
+      "id": "yuanhai-ratio",
+      "work": "渊海子平",
+      "section": "卷一·论起大运法",
+      "url": "https://huamuchengxi.com/chapter/12802.html",
+      "exact_excerpt": "俱折除三日爲一歲",
+      "claim_scope": "三日一岁仅表示折算文本口径，不能直接推定时辰余数、精确交运日或唯一流派。",
+      "research_status": "transcription_located"
+    },
+    {
+      "id": "sanche-independent-work",
+      "work": "三车一览",
+      "section": "起大运例",
+      "url": "https://tianjihq.com/zh-CN/learn/books/sanche-yilan/9",
+      "exact_excerpt": "三日为一年",
+      "claim_scope": "不同作品出现相似岁数折算术语；所见方向行文有内部重复冲突，不作算法裁定或独立刊本确证。",
+      "research_status": "transcription_located"
+    }
+  ],
+  "conflict_register": [
+    {
+      "id": "dayun-source.direction-wording",
+      "status": "unresolved",
+      "issue": "现有不同电子转录本与不同古籍的顺逆术语和案例需要按影印底本逐项核验。"
+    },
+    {
+      "id": "dayun-source.ratio-precision",
+      "status": "unresolved",
+      "issue": "古文三日一岁没有确定现代历法一年的长度、分钟秒折算和真实交运日期。"
+    },
+    {
+      "id": "dayun-source.chronology",
+      "status": "unresolved",
+      "issue": "未核验可支持节气瞬间、出生时刻的历法依赖与多流派交运时间差异。"
+    }
+  ],
+  "gate": {
+    "original_image_compared": false,
+    "independent_print_witness_verified": false,
+    "classical_method_adjudicated": false,
+    "new_phase2_rules": 0,
+    "new_goldens": 0,
+    "public_enabled": false,
+    "ai_enabled": false,
+    "start_age_release": false,
+    "handover_datetime_release": false
+  },
+  "limitations": [
+    "三份公开页面作为可访问来源索引，不能等同完整影印校勘。",
+    "未经独立底本核验，不将研究候选方向或三日一年比率升级到人生总览的正式大运日期。"
+  ]
+}
