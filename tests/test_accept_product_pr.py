@@ -22,6 +22,8 @@ class AcceptanceScriptTests(unittest.TestCase):
             "test_romance_spouse_year_structure", "test_scenario_engine"])
         self.assertEqual(accept.modules_for("periods"), [
             "test_daily_period_branch_relations", "test_scenario_engine"])
+        self.assertEqual(accept.modules_for("question"), [
+            "test_phase2_liuyao", "test_scenario_engine"])
         self.assertEqual(accept.modules_for("all")[-1], "test_scenario_engine")
         with self.assertRaisesRegex(ValueError, "Unknown"):
             accept.modules_for("unknown")
