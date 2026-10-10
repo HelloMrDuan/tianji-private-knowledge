@@ -31,6 +31,9 @@ jobs:
           # Complete private Canonical + full regression for the public dream UX PR.
           - suite: all
             sha: f894f249eea3d56ddf3fad6a2b050468bb4131a2
+          # PR #194: career selected-year interpretation, full real-private regression.
+          - suite: all
+            sha: 26d5de092bb66925bac4b254dec9c53253d5893a
     steps:
       - name: Verify owner private repository
         env:
