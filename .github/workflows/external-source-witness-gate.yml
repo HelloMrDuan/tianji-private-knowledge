@@ -1,0 +1,33 @@
+name: Authenticate Dream and Dayun external witness notes
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "private-reviews/dream_external_witnesses_v1.json"
+      - "private-reviews/dayun_external_witnesses_v1.json"
+      - "scripts/verify_external_source_witnesses.py"
+      - "tests/test_external_source_witnesses.py"
+      - ".github/workflows/external-source-witness-gate.yml"
+permissions:
+  contents: read
+jobs:
+  source-witness-private-integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Assert owner private repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Authenticate real-source witness catalogue and protected data
+        run: |
+          python scripts/verify_external_source_witnesses.py
+          python -m unittest discover -s tests -p 'test_external_source_witnesses.py' -v
