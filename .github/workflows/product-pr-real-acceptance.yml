@@ -28,6 +28,9 @@ jobs:
             sha: 3012006885cd2df7f61135a816f595cd14c1aeaa
           - suite: question
             sha: 05b0aae41f0835034c7be2b680f066f7f87d5644
+          # Complete private Canonical + full regression for the public dream UX PR.
+          - suite: all
+            sha: fda5986cb6a6301cf1b9df13c4c47192611ea544
     steps:
       - name: Verify owner private repository
         env:
