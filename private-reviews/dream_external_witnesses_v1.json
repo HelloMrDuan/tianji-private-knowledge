@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "id": "research.dream.external-witness-register.v1",
+  "review_status": "transcription_comparison_only",
+  "evidence_level": "D",
+  "fixed_single_raw": {
+    "repository": "garychowcmu/daizhigev20",
+    "commit": "4a6d6f2088825f132521d848c2ea86cf9c9a7620",
+    "path": "易藏/术数/周公解梦.txt",
+    "sha256": "d80c42b0b8f44f5b8cf2c4e1c286b200388b65dcd321347eb7ac1011d0be5e97"
+  },
+  "witnesses": [
+    {
+      "id": "zhougong-deceased",
+      "work": "周公解梦",
+      "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E5%85%AC%E8%A7%A3%E5%A4%A2",
+      "section": "哀乐病死歌唱",
+      "transcribed_excerpt": "死人复活主有信",
+      "pinned_original_excerpt": "死人复活主有信",
+      "comparison": "same_short_phrase",
+      "semantic_scope": "死人复活与所有已故亲友梦不是同一梦境；不解释个人梦。"
+    },
+    {
+      "id": "zhougong-death-variant",
+      "work": "周公解梦",
+      "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E5%85%AC%E8%A7%A3%E5%A4%A2",
+      "section": "哀乐病死歌唱",
+      "transcribed_excerpt": "见人死自死者吉",
+      "pinned_original_excerpt": "见人死自死皆吉",
+      "comparison": "variant_character",
+      "semantic_scope": "公开转录本和原始固定底本存在者/皆异文，不能认定两份独立刊本或预测现实生死。"
+    }
+  ],
+  "bibliography_leads": [
+    {
+      "id": "menglin-scanned",
+      "title": "梦林玄解",
+      "url": "https://ctext.org/library.pl?if=en&remap=gb&res=100825",
+      "kind": "scan_catalogue",
+      "status": "bibliography_only",
+      "scope": "影印目录可定位，但没有逐页校勘或梦境条目入库。"
+    },
+    {
+      "id": "mengzhan-scanned",
+      "title": "梦占逸旨",
+      "url": "https://ctext.org/library.pl?if=gb&remap=gb&res=112178",
+      "kind": "scan_catalogue",
+      "status": "bibliography_only",
+      "scope": "OCR 与底本版本仍待逐页核查，不能直接将 OCR 断语提升为规则。"
+    }
+  ],
+  "gate": {
+    "independent_edition_confirmed": false,
+    "original_scan_collated": false,
+    "canonical_promotions": 0,
+    "phase2_promotions": 0,
+    "golden_promotions": 0,
+    "public_enabled": false,
+    "ai_enabled": false,
+    "personal_predictions": false
+  },
+  "limitations": [
+    "公开数字转录可以提供可定位的异文线索，但同一作品的网络文本不等同独立底本校勘。",
+    "这些仅是研究与书目记录，未导入受保护的 235 个私有 data 文件。"
+  ]
+}
