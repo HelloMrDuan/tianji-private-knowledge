@@ -28,6 +28,23 @@ class AcceptanceScriptTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unknown"):
             accept.modules_for("unknown")
 
+    def test_full_regression_partitions_all_modules_without_synthetic_git(self):
+        with tempfile.TemporaryDirectory() as temp:
+            checkout = Path(temp)
+            tests = checkout / "tests"
+            tests.mkdir()
+            for name in ("test_public_asset_changes", "test_public_knowledge_boundary",
+                         "test_dream_combinations", "test_phase4_eval"):
+                (tests / (name + ".py")).write_text("# test fixture\n", encoding="utf-8")
+            git_only, private_backend = accept.full_regression_modules(checkout)
+            self.assertEqual(git_only, ["test_public_asset_changes", "test_public_knowledge_boundary"])
+            self.assertEqual(private_backend, ["test_dream_combinations", "test_phase4_eval"])
+            self.assertEqual(set(git_only + private_backend),
+                             {p.stem for p in tests.glob("test_*.py")})
+            (tests / "test_public_knowledge_boundary.py").unlink()
+            with self.assertRaisesRegex(ValueError, "missing"):
+                accept.full_regression_modules(checkout)
+
     def test_unpinned_and_data_bearing_public_checkouts_rejected(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / "code"
