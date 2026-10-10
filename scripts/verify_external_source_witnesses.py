@@ -6,8 +6,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DREAM = ROOT / "private-reviews/dream_external_witnesses_v1.json"
 DAYUN = ROOT / "private-reviews/dayun_external_witnesses_v1.json"
 EXPECTED_DREAM = {
-    "zhougong-deceased": ("死人复活主有信", "死人复活主有信"),
-    "zhougong-death-variant": ("见人死自死者吉", "见人死自死皆吉"),
+    "zhougong-deceased": ("死人复活主有信", "死人复活主有信", 5933),
+    "zhougong-death-variant": ("见人死自死者吉", "见人死自死皆吉", 5941),
+    "zhougong-deceased-elder-variant": ("见先亡尊长大吉", "见死亡尊长大吉", 5959),
 }
 EXPECTED_DAYUN = {
     "yuanhai-direction": "陽男陰女順行",
@@ -29,12 +30,13 @@ def validate(dream, dayun):
             and dayun["review_status"] ==
             "textual_comparison_not_method_adjudication", "review status drift")
     drows = {r["id"]: r for r in dream["witnesses"]}
-    _ensure(len(drows) == len(dream["witnesses"]) == 2
+    _ensure(len(drows) == len(dream["witnesses"]) == 3
             and set(drows) == set(EXPECTED_DREAM), "dream inventory")
     for key, excerpts in EXPECTED_DREAM.items():
         r = drows[key]
-        _ensure((r["transcribed_excerpt"], r["pinned_original_excerpt"]) ==
-                excerpts and r["section"] == "哀乐病死歌唱"
+        _ensure((r["transcribed_excerpt"], r["pinned_original_excerpt"],
+                 r["original_raw_char_offset"]) == excerpts
+                and r["section"] == "哀乐病死歌唱"
                 and r["url"].startswith("https://zh.wikisource.org/")
                 and "不" in r["semantic_scope"], "dream witness mismatch")
     arows = {r["id"]: r for r in dayun["witnesses"]}
@@ -56,12 +58,29 @@ def validate(dream, dayun):
     _ensure(len(dayun["conflict_register"]) == 3
             and all(x["status"] == "unresolved"
                     for x in dayun["conflict_register"]), "conflicts were hidden")
-    return {"dream_excerpt_witnesses": 2, "dayun_excerpt_witnesses": 3,
+    return {"dream_excerpt_witnesses": 3, "dayun_excerpt_witnesses": 3,
             "bibliography_leads": 2, "production_promotions": 0}
 
 def verify():
     dream = json.loads(DREAM.read_text(encoding="utf-8"))
     dayun = json.loads(DAYUN.read_text(encoding="utf-8"))
+    # The dedicated CI fetches the exact upstream Git blob at the frozen
+    # commit, not a reconstructed quote or a generated fixture.
+    import os
+    import hashlib
+    raw_path = os.environ.get("TIANJI_REVIEW_DREAM_RAW")
+    if raw_path:
+        raw_bytes = Path(raw_path).read_bytes()
+        _ensure(hashlib.sha256(raw_bytes).hexdigest() ==
+                dream["fixed_single_raw"]["sha256"],
+                "raw original digest mismatch")
+        content = raw_bytes.decode("utf-8")
+        for item in dream["witnesses"]:
+            quote = item["pinned_original_excerpt"]
+            position = item["original_raw_char_offset"]
+            _ensure(content[position:position+len(quote)] == quote
+                    and content.count(quote) == 1,
+                    "raw original excerpt or offset mismatch")
     try:
         from scripts.import_public_snapshot import verify as check_private
     except ModuleNotFoundError:

@@ -18,7 +18,8 @@
       "transcribed_excerpt": "死人复活主有信",
       "pinned_original_excerpt": "死人复活主有信",
       "comparison": "same_short_phrase",
-      "semantic_scope": "死人复活与所有已故亲友梦不是同一梦境；不解释个人梦。"
+      "semantic_scope": "死人复活与所有已故亲友梦不是同一梦境；不解释个人梦。",
+      "original_raw_char_offset": 5933
     },
     {
       "id": "zhougong-death-variant",
@@ -28,7 +29,19 @@
       "transcribed_excerpt": "见人死自死者吉",
       "pinned_original_excerpt": "见人死自死皆吉",
       "comparison": "variant_character",
-      "semantic_scope": "公开转录本和原始固定底本存在者/皆异文，不能认定两份独立刊本或预测现实生死。"
+      "semantic_scope": "公开转录本和原始固定底本存在者/皆异文，不能认定两份独立刊本或预测现实生死。",
+      "original_raw_char_offset": 5941
+    },
+    {
+      "id": "zhougong-deceased-elder-variant",
+      "work": "周公解梦",
+      "url": "https://zh.wikisource.org/zh-hans/%E5%91%A8%E5%85%AC%E8%A7%A3%E5%A4%A2",
+      "section": "哀乐病死歌唱",
+      "transcribed_excerpt": "见先亡尊长大吉",
+      "pinned_original_excerpt": "见死亡尊长大吉",
+      "original_raw_char_offset": 5959,
+      "comparison": "variant_character",
+      "semantic_scope": "亡、死字序异文未完成影印本核验，仅记录梦见已故尊长的古代文本，不推出对所有故人梦或现实亲友的解释。"
     }
   ],
   "bibliography_leads": [
@@ -61,6 +74,7 @@
   },
   "limitations": [
     "公开数字转录可以提供可定位的异文线索，但同一作品的网络文本不等同独立底本校勘。",
-    "这些仅是研究与书目记录，未导入受保护的 235 个私有 data 文件。"
+    "这些仅是研究与书目记录，未导入受保护的 235 个私有 data 文件。",
+    "新增已故尊长条目由固定 Git blob 原文 offset 5959 与维基文库数字转录核对；尚未证明两个独立纸本版本，也不进入公开 AI 解梦。"
   ]
 }
