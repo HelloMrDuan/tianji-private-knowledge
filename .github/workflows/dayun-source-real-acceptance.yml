@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: a3b70d3b77f8da41535ed62386c5c302b5f3e8df
+          ref: c3070254b5953120f5e88ad68821f7691d614a25
           path: public-code
           persist-credentials: false
       - uses: actions/setup-python@v5
@@ -35,9 +35,11 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_accept_product_pr.py' -v
       - name: Install exact candidate
         run: python -m pip install -e "./public-code[validation,calendar,api]"
+      - name: Verify isolated source appendix without modifying frozen snapshot
+        run: python -m unittest discover -s tests -p 'test_dayun_role_source_appendix.py' -v
       - name: Verify original source bytes, claims and entire regression
         run: |
           python scripts/accept_product_pr.py \
             --public-code "$GITHUB_WORKSPACE/public-code" \
-            --expected-sha "a3b70d3b77f8da41535ed62386c5c302b5f3e8df" \
+            --expected-sha "c3070254b5953120f5e88ad68821f7691d614a25" \
             --suite all
