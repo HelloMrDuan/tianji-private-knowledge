@@ -36,6 +36,9 @@ jobs:
             sha: 26d5de092bb66925bac4b254dec9c53253d5893a
           - suite: all
             sha: 884e2709561be5df24450c820f79eb6a60914468
+          # PR #197: checked retraction semantics, true full Canonical regression.
+          - suite: all
+            sha: d7a4a41a27009d9797e8847bb5f01737b80a2178
     steps:
       - name: Verify owner private repository
         env:
