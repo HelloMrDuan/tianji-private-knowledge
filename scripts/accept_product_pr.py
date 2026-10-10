@@ -21,8 +21,25 @@ TEST_MODULES = {
     "career": "test_career_interpretation",
     "romance": "test_romance_spouse_year_structure",
     "periods": "test_daily_period_branch_relations",
+    "question": "test_phase2_liuyao",
 }
 BASELINE_TEST = "test_scenario_engine"
+# These two modules explicitly assert a REAL public Git checkout exists. They
+# must run in the pinned source checkout, never a private-data staging folder.
+GIT_CHECKOUT_TESTS = ("test_public_asset_changes", "test_public_knowledge_boundary")
+
+
+def full_regression_modules(code: Path) -> tuple[list[str], list[str]]:
+    """Partition every discovered module, rejecting missing or dropped suites."""
+    test_dir = code / "tests"
+    discovered = {path.stem for path in test_dir.glob("test_*.py") if path.is_file()}
+    git_modules = set(GIT_CHECKOUT_TESTS)
+    if not git_modules <= discovered:
+        raise ValueError("Required public Git-checkout regression tests are missing")
+    backend_modules = sorted(discovered - git_modules)
+    if not backend_modules or len(backend_modules) + len(git_modules) != len(discovered):
+        raise ValueError("Full regression test partition is incomplete")
+    return sorted(git_modules), backend_modules
 
 
 def _run(argv: list[str], *, cwd: Path, env: dict[str, str] | None = None) -> None:
@@ -92,9 +109,18 @@ def run_acceptance(private: Path, code: Path, expected_sha: str, suite: str) -> 
         raise ValueError("Unexpected pinned private source history")
 
     modules = modules_for(suite)
+    git_modules, backend_modules = full_regression_modules(code) if suite == "all" else ([], [])
     for name in modules:
         if not (code / "tests" / (name + ".py")).is_file():
             raise ValueError("Requested real test is missing: " + name)
+
+    if suite == "all":
+        # Validate repository-history/security invariants on the real pinned
+        # public Git checkout. No private bytes are ever placed inside .git.
+        public_env = dict(os.environ)
+        public_env["PYTHONPATH"] = os.pathsep.join((str(code / "src"), str(code / "tests")))
+        _run([sys.executable, "-m", "unittest", "-v", *git_modules],
+             cwd=code, env=public_env)
 
     temp_base = Path(os.environ.get("RUNNER_TEMP") or tempfile.gettempdir())
     temp_base = temp_base.resolve(strict=True)
@@ -127,11 +153,22 @@ def run_acceptance(private: Path, code: Path, expected_sha: str, suite: str) -> 
         _run([sys.executable, "scripts/build_product_coverage.py"], cwd=assembled, env=env)
         _run([sys.executable, "scripts/build_product_coverage.py", "--check"], cwd=assembled, env=env)
         _run([sys.executable, "-m", "unittest", "-v", *modules], cwd=assembled, env=env)
+        if suite == "all":
+            # A merged codebase must also preserve unrelated existing knowledge
+            # and all product regressions, not only the three feature suites.
+            # Run EVERY remaining module in the sealed ephemeral backend.
+            # The two public-Git-only modules were already run in the real
+            # pinned checkout; never drop tests merely to make staging green.
+            _run([sys.executable, "-m", "unittest", "-v", *backend_modules],
+                 cwd=assembled, env=env)
         print(json.dumps({
             "status": "pass", "public_sha": expected_sha, "suite": suite,
             "private_files_verified": inventory["file_count"],
             "real_unittest_modules": modules,
             "source_manifest_preserved": True,
+            "full_python_regression": suite == "all",
+            "real_public_git_modules": git_modules,
+            "private_backend_module_count": len(backend_modules),
         }))
 
 
