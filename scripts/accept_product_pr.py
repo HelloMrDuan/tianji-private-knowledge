@@ -21,6 +21,7 @@ TEST_MODULES = {
     "career": "test_career_interpretation",
     "romance": "test_romance_spouse_year_structure",
     "periods": "test_daily_period_branch_relations",
+    "question": "test_phase2_liuyao",
 }
 BASELINE_TEST = "test_scenario_engine"
 
