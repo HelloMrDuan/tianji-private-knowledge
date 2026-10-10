@@ -1,0 +1,54 @@
+name: Verify merged Dream and Dayun 209 main
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "scripts/accept_product_pr.py"
+      - ".github/workflows/merged-main-real-regression.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  merged-main-209:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Confirm real private destination
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: a0e187b3cc4e72ad1b1672c57728e629f7acc25f
+          path: public-code
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run isolated runner guards
+        run: python -m unittest discover -s tests -p 'test_accept_product_pr.py' -v
+
+      - name: Install merged real code dependencies
+        run: python -m pip install -e "./public-code[validation,calendar,api]"
+
+      - name: Verify original Canonical and entire merged runtime regression
+        env:
+          TIANJI_PUBLIC_CHECKOUT: ${{ github.workspace }}/public-code
+        run: |
+          python scripts/accept_product_pr.py \
+            --public-code "$GITHUB_WORKSPACE/public-code" \
+            --expected-sha a0e187b3cc4e72ad1b1672c57728e629f7acc25f \
+            --suite all
