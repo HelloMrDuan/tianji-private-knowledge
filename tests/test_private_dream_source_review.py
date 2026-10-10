@@ -32,7 +32,7 @@ class PendingDreamSourceReviewTests(unittest.TestCase):
         self.assertEqual(verify(BASE), before)
 
     def test_tampered_raw_and_promoted_candidate_are_rejected(self):
-        for value in (self.raw + b" ", self.raw.replace(b"death", b"alive")):
+        for value in (self.raw + b" ", b"X" + self.raw[1:]):
             with self.assertRaisesRegex(ValueError, "integrity"):
                 verify_pending_review(value, self.metadata, self.appendix)
         for name, modify in (
