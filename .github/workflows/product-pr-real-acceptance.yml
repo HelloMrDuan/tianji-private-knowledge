@@ -26,6 +26,8 @@ jobs:
             sha: 7bbc1e08ae518fa546ccc76e393c49fc1f5fe0bf
           - suite: periods
             sha: 3012006885cd2df7f61135a816f595cd14c1aeaa
+          - suite: question
+            sha: 05b0aae41f0835034c7be2b680f066f7f87d5644
     steps:
       - name: Verify owner private repository
         env:
