@@ -18,6 +18,10 @@ CANDIDATES = {
     "death": ("见人死自死皆吉", 5941, "direct_scene"),
     "deceased": ("死人复活主有信", 5933, "related_only"),
     "chased": (None, None, "not_found"),
+    "pregnancy": ("携手上桥妻有孕", 4619, "related_only"),
+    "marriage": ("夫妇宴会主相别", 4703, "related_only"),
+    "work": ("受职上官财物来", 5541, "related_only"),
+    "exam": ("读书文写字大吉", 5415, "related_only"),
 }
 
 

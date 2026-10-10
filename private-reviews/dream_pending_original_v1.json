@@ -39,6 +39,46 @@
       "evidence_level": "D",
       "production_allowed": false,
       "semantic_limit": "当前固定候选未发现可授权的被追条目，不推断追逐梦含义。"
+    },
+    {
+      "id": "pregnancy",
+      "exact_anchor": "携手上桥妻有孕",
+      "raw_unicode_offset": 4619,
+      "match_scope": "related_only",
+      "review_status": "pending",
+      "evidence_level": "D",
+      "production_allowed": false,
+      "semantic_limit": "上桥与古籍所述孕象不等于梦者梦见自己怀孕，不能预测或诊断是否怀孕。"
+    },
+    {
+      "id": "marriage",
+      "exact_anchor": "夫妇宴会主相别",
+      "raw_unicode_offset": 4703,
+      "match_scope": "related_only",
+      "review_status": "pending",
+      "evidence_level": "D",
+      "production_allowed": false,
+      "semantic_limit": "夫妇宴会梦的原文不等于婚礼或结婚场景，不能据此推断婚姻变故或现实离别。"
+    },
+    {
+      "id": "work",
+      "exact_anchor": "受职上官财物来",
+      "raw_unicode_offset": 5541,
+      "match_scope": "related_only",
+      "review_status": "pending",
+      "evidence_level": "D",
+      "production_allowed": false,
+      "semantic_limit": "古代受职上官场景与现代工作、面试、失业不是同一梦境，不可直接给现代职业断语。"
+    },
+    {
+      "id": "exam",
+      "exact_anchor": "读书文写字大吉",
+      "raw_unicode_offset": 5415,
+      "match_scope": "related_only",
+      "review_status": "pending",
+      "evidence_level": "D",
+      "production_allowed": false,
+      "semantic_limit": "读书写字条目不能被当作考试梦或成绩预测，未审核独立版本不得释为考试结果。"
     }
   ],
   "promotion": {
@@ -52,6 +92,7 @@
   "limitations": [
     "单一固定电子底本候选核验，尚未完成独立版本、异文、语义及许可的正式审核。",
     "只验原文存在和输入场景边界，不能从古籍条目推断现实生命、健康或未来事件。",
-    "本附录位于私有仓库非 data 目录，235 个受保护知识快照文件保持不变。"
+    "本附录位于私有仓库非 data 目录，235 个受保护知识快照文件保持不变。",
+    "新增四类仅核对固定原文及相关性边界，不能据相关文本生成梦见怀孕、婚礼、工作或考试的任何解释。"
   ]
 }

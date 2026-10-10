@@ -25,11 +25,54 @@ class PendingDreamSourceReviewTests(unittest.TestCase):
         before = verify(BASE)
         result = verify_pending_review(self.raw, self.metadata, self.appendix)
         self.assertEqual(before["file_count"], 235)
-        self.assertEqual(result["candidate_count"], 3)
+        self.assertEqual(result["candidate_count"], 7)
         self.assertEqual(result["evidence_level"], "D")
         self.assertFalse(result["released"])
         self.assertFalse(result["independent_source_verified"])
         self.assertEqual(verify(BASE), before)
+
+    def test_four_related_modern_topics_are_not_historical_scene_equivalents(self):
+        expected = {
+            "pregnancy": "携手上桥妻有孕",
+            "marriage": "夫妇宴会主相别",
+            "work": "受职上官财物来",
+            "exam": "读书文写字大吉",
+        }
+        records = {item["id"]: item for item in self.appendix["candidates"]}
+        self.assertEqual(len(records), 7)
+        for name, quote in expected.items():
+            with self.subTest(name=name):
+                row = records[name]
+                self.assertEqual(row["exact_anchor"], quote)
+                self.assertEqual(row["match_scope"], "related_only")
+                self.assertEqual(row["review_status"], "pending")
+                self.assertEqual(row["evidence_level"], "D")
+                self.assertFalse(row["production_allowed"])
+                self.assertEqual(self.raw.decode("utf-8").count(quote), 1)
+                offset = row["raw_unicode_offset"]
+                self.assertEqual(self.raw.decode("utf-8")[offset:offset+len(quote)], quote)
+        outcome = verify_pending_review(self.raw, self.metadata, self.appendix)
+        self.assertEqual(outcome["candidate_count"], 7)
+        self.assertFalse(outcome["released"])
+        self.assertFalse(outcome["independent_source_verified"])
+
+    def test_extended_related_topics_cannot_be_promoted_or_repositioned(self):
+        for name in ("pregnancy", "marriage", "work", "exam"):
+            index = next(i for i, row in enumerate(self.appendix["candidates"])
+                         if row["id"] == name)
+            for field, value in (
+                ("review_status", "approved_cultural_excerpt"),
+                ("match_scope", "direct_scene"),
+                ("evidence_level", "C"),
+                ("production_allowed", True),
+                ("raw_unicode_offset", 0),
+                ("exact_anchor", "臆造新古籍条目"),
+            ):
+                altered = copy.deepcopy(self.appendix)
+                altered["candidates"][index][field] = value
+                with self.subTest(name=name, field=field), self.assertRaisesRegex(
+                        ValueError, "integrity"):
+                    verify_pending_review(self.raw, self.metadata, altered)
 
     def test_tampered_raw_and_promoted_candidate_are_rejected(self):
         for value in (self.raw + b" ", b"X" + self.raw[1:]):
