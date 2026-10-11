@@ -1,0 +1,101 @@
+name: TJ-008.3 Four consumer result summaries with private real API
+
+on:
+  pull_request:
+    branches: [main]
+    paths: [".github/workflows/tj0083-consumer-report-browser.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tj0083-consumer-report-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Confirm private destination
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: 22042f138ca48cd15cd9a06c6b155abd79c04c97
+          path: public-code
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: public-code/web/visual-prototype/package-lock.json
+
+      - name: Assemble verified private-data API
+        run: |
+          python - <<'PY'
+          import os, shutil, sys, importlib.util
+          from pathlib import Path
+          root = Path.cwd()
+          spec = importlib.util.spec_from_file_location("importer", "scripts/import_public_snapshot.py")
+          mod = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(mod)
+          inventory = mod.verify(root)
+          code = root / "public-code"
+          sys.path.insert(0, str(code))
+          from scripts.assemble_private_backend import assemble_private_backend
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "career-private-snapshot"
+          snapshot.mkdir()
+          shutil.copytree(root / "data", snapshot / "data")
+          shutil.copy2(root / "private-data-manifest.json", snapshot / "private-data-manifest.json")
+          assembled = temp / "career-private-backend"
+          result = assemble_private_backend(code, snapshot, assembled)
+          assert result["knowledge_files"] == inventory["file_count"]
+          print("Private Canonical integrity verified:", inventory["file_count"])
+          PY
+
+      - name: Install real backend, frontend and browser
+        run: |
+          python -m pip install -e "./public-code[validation,calendar,api]"
+          (cd "$RUNNER_TEMP/career-private-backend" && PYTHONPATH=src python scripts/build_production_runtime.py)
+          cd public-code/web/visual-prototype
+          npm ci
+          npx playwright install --with-deps chromium
+          npm run build
+
+      - name: Browser test against live private API
+        shell: bash
+        run: |
+          set -euo pipefail
+          (
+            cd "$RUNNER_TEMP/career-private-backend"
+            PYTHONPATH=src uvicorn tianji_kb.api:app --host 127.0.0.1 --port 8000 >"$RUNNER_TEMP/career-api.log" 2>&1
+          ) &
+          api_pid=$!
+          trap 'kill "$api_pid" 2>/dev/null || true' EXIT
+          for i in {1..45}; do
+            if curl -fsS http://127.0.0.1:8000/health >/dev/null 2>&1; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:8000/health
+          cd public-code/web/visual-prototype
+          CI=true npm test -- tests/consumer-result-summary.spec.ts tests/period-branch-evidence.spec.ts
+
+
+      - name: Preserve captured original-design comparison candidates (public homepage only)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tj0083-real-report-screenshots-22042f138ca4
+          path: public-code/web/visual-prototype/test-results/tj0083-*.png
+          if-no-files-found: warn
+          retention-days: 14
