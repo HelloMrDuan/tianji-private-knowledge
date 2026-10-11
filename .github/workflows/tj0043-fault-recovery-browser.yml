@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: 75ad095f5fc91c2a44b019f0aa5bbe9c84567847
+          ref: c117c3824cb006f45e2e2b30d96cd70ee36f5e08
           path: public-code
           persist-credentials: false
       - uses: actions/setup-python@v5
