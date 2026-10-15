@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: 768bdfa6f75b7fd373df9869b103da1e6178fbad
+          ref: a1910cb3be929e193c67533aaf0fd581c5a8e4dc
           path: public-code
           persist-credentials: false
 
@@ -125,6 +125,14 @@ jobs:
             --grep 'TJ-004\.2 real private API: (bazi|daily|weekly|monthly|yearly) scenario'
           CI=true npm test -- tests/tj0071-real-acceptance.spec.ts
           CI=true npm test -- tests/tj0071-viewports.spec.ts
+
+      - name: Upload sanitized synthetic-data result screenshots (restricted private repository)
+        uses: actions/upload-artifact@v4
+        with:
+          name: tj0071-live-results
+          path: public-code/web/visual-prototype/test-results/tj0071-*.png
+          if-no-files-found: error
+          retention-days: 1
 
       - name: Enforce confidentiality
         if: always()
