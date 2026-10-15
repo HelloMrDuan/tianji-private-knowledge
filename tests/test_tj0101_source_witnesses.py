@@ -19,10 +19,10 @@ def validate(audit, phase1, foundations):
             raise ValueError("original SHA mismatch: " + source_id)
         texts[source_id] = raw.decode("utf-8")
     sections = {row["id"]: row for row in phase1["sections"]}
-    if len(audit["witnesses"]) != 12 or len(audit["additional_witnesses"]) != 28:
-        raise ValueError("expected twelve primary and twenty-eight additional witnesses")
+    if len(audit["witnesses"]) != 12 or len(audit["additional_witnesses"]) != 29:
+        raise ValueError("expected twelve primary and twenty-nine additional witnesses")
     all_witnesses = audit["witnesses"] + audit["additional_witnesses"]
-    if len({w["section_id"] for w in all_witnesses}) != 40:
+    if len({w["section_id"] for w in all_witnesses}) != 41:
         raise ValueError("duplicate or missing Section witness")
     for witness in all_witnesses:
         sec = sections[witness["section_id"]]
@@ -122,9 +122,23 @@ class WitnessTests(unittest.TestCase):
         referenced = set(ref["section_id"] for name in ids
                          for rid in affected["bazi.phase2." + name]["phase1_rule_refs"]
                          for ref in rules[rid]["source_refs"])
-        self.assertEqual(referenced, approved)
+        self.assertEqual(approved - referenced, {"bazi.section.s020"})
         self.assertEqual(set("bazi.phase2." + name for name in ids),
                          set(self.audit["phase2_affected_rule_ids"]))
+
+    def test_original_glyphs_and_school_variants_remain_unresolved(self):
+        sections = validate(self.audit, self.phase1, self.foundations)
+        for note in self.audit["orthographic_notes"]:
+            self.assertEqual(note["disposition"], "preserve_original")
+            self.assertIn(note["raw_character"], sections[note["section_id"]]["text"])
+        known = {w["section_id"] for w in
+                 self.audit["witnesses"] + self.audit["additional_witnesses"]}
+        for pair in self.audit["variant_conflicts"]:
+            self.assertEqual(pair["status"], "unresolved")
+            self.assertEqual(len(pair["section_ids"]), 2)
+            self.assertTrue(set(pair["section_ids"]).issubset(known))
+        topics = {row["topic"] for row in self.audit["variant_conflicts"]}
+        self.assertEqual(len(topics), 3)
 
     def test_no_promoted_or_unresolved_method_claims(self):
         self.assertFalse(self.audit["secondary_table"]["canonical_removal_authorized"])
