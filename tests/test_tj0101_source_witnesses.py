@@ -42,7 +42,7 @@ def validate(audit, phase1, foundations):
 class WitnessTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.audit = load("data/audit/tj0101_source_witnesses.json")
+        cls.audit = load("audits/tj0101_source_witnesses.json")
         cls.phase1 = load("data/canonical/bazi/phase1_knowledge.json")
         cls.foundations = load("data/canonical/bazi/foundations_v1.json")
 
