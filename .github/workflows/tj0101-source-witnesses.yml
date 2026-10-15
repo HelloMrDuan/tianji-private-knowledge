@@ -35,7 +35,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: a43ce785d2228c8ddd85fce07d37fcb046fe420e
+          ref: f8ff77ca115094baebd4727158c185bb96118974
           path: public-code
           persist-credentials: false
       - name: Install actual public production Python runtime dependencies
