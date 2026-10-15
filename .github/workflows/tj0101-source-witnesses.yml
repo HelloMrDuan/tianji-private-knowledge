@@ -31,3 +31,79 @@ jobs:
           python-version: "3.12"
       - name: Verify original SHA-256, exact excerpts, branch membership and tamper rejection
         run: python -m unittest discover -s tests -p 'test_tj0101_source_witnesses.py' -v
+
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: a43ce785d2228c8ddd85fce07d37fcb046fe420e
+          path: public-code
+          persist-credentials: false
+      - name: Install actual public production Python runtime dependencies
+        run: python -m pip install -e "./public-code[validation,calendar,api]"
+      - name: Validate sealed 235-file inventory and assemble isolated private runtime
+        run: |
+          python - <<'PY'
+          import importlib.util, os, shutil, sys
+          from pathlib import Path
+          root = Path.cwd()
+          assert not (root / "public-code/data").exists()
+          spec = importlib.util.spec_from_file_location("private_importer", root / "scripts/import_public_snapshot.py")
+          importer = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(importer)
+          manifest = importer.verify(root)
+          assert manifest["file_count"] == 235
+          sys.path.insert(0, str(root / "public-code"))
+          from scripts.private_data_snapshot import verify_private_data
+          from scripts.assemble_private_backend import assemble_private_backend
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "tj0101-restricted-snapshot"
+          snapshot.mkdir(mode=0o700)
+          shutil.copytree(root / "data", snapshot / "data", symlinks=False)
+          shutil.copy2(root / "private-data-manifest.json", snapshot / "private-data-manifest.json")
+          verified = verify_private_data(snapshot)
+          assert verified["file_count"] == manifest["file_count"]
+          assembled = temp / "tj0101-private-backend"
+          result = assemble_private_backend(root / "public-code", snapshot, assembled)
+          assert result["knowledge_files"] == 235
+          print("Verified sealed private inventory and ephemeral production backend: 235 files")
+          PY
+      - name: Rebuild production catalog and verify actual Evidence IDs for eleven rules
+        run: |
+          cd "$RUNNER_TEMP/tj0101-private-backend"
+          PYTHONPATH=src python scripts/build_production_runtime.py
+          PYTHONPATH=src python - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          from tianji_kb.resolver import EvidenceResolver, ExecutionTrace
+          audit = json.loads((Path.home() / "does-not-exist").read_text()) if False else None
+          resolver = EvidenceResolver()
+          ids = (
+            "hidden_stems", "month_command_factors", "root_candidates",
+            "month_command_variant", "root_conditions", "action_conditions",
+            "strength_adjudication", "root_availability",
+            "strength_pure_support", "strength_isolated_control",
+            "strength_bounded_adjudication",
+          )
+          variant = resolver.contracts["bazi"]["variant"]
+          total = 0
+          linked = set()
+          for name in ids:
+            rule_id = "bazi.phase2." + name
+            trace = ExecutionTrace("bazi", variant, resolver=resolver)
+            trace.add(rule_id, {}, {"evidence_verification_only": True})
+            match = trace.steps[0]
+            assert match["rule_id"] == rule_id
+            assert match["evidence_ids"]
+            for evidence_id in match["evidence_ids"]:
+              evidence = trace.evidence[evidence_id]
+              expected = hashlib.sha256(json.dumps(evidence, ensure_ascii=False,
+                sort_keys=True).encode()).hexdigest()[:24]
+              assert expected == evidence_id
+              assert evidence["rule_id"] == rule_id
+              assert evidence["evidence_level"] != "D"
+              linked.add(evidence["section_id"])
+              total += 1
+          assert total >= 97, f"Insufficient actual Rule/Evidence records: {total}"
+          print("Real EvidenceResolver/ExecutionTrace generated", total,
+                "Evidence IDs for", len(ids), "Phase2 rules;", len(linked), "distinct sections")
+          PY
