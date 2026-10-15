@@ -88,6 +88,34 @@ class WitnessTests(unittest.TestCase):
         self.assertIn("寅宫甲木兼丙戊", song)
         self.assertNotEqual(set(altered["hidden_stems"]["寅"]), set("甲丙戊"))
 
+    def test_reviewed_rule_to_section_source_links(self):
+        sections = {row["id"]: row for row in self.phase1["sections"]}
+        rules = {row["id"]: row for row in self.phase1["rules"]}
+        phase2 = load("data/canonical/bazi/phase2_execution.json")
+        ids = (
+            "hidden_stems", "month_command_factors", "root_candidates",
+            "month_command_variant", "root_conditions", "action_conditions",
+            "strength_adjudication", "root_availability",
+            "strength_pure_support", "strength_isolated_control",
+            "strength_bounded_adjudication",
+        )
+        affected = {row["id"]: row for row in phase2["rules"]}
+        self.assertTrue(set("bazi.phase2." + name for name in ids).issubset(affected))
+        total = 0
+        for name in ids:
+            row = affected["bazi.phase2." + name]
+            self.assertTrue(row["phase1_rule_refs"])
+            for rule_id in row["phase1_rule_refs"]:
+                rule = rules[rule_id]
+                self.assertTrue(rule["source_refs"])
+                for ref in rule["source_refs"]:
+                    section = sections[ref["section_id"]]
+                    self.assertEqual(section["source_id"], ref["source_id"])
+                    self.assertEqual(section["review"]["status"], "approved")
+                    self.assertIn(ref["original_text"], section["text"])
+                    total += 1
+        self.assertGreaterEqual(total, 50)
+
     def test_no_promoted_or_unresolved_method_claims(self):
         self.assertFalse(self.audit["secondary_table"]["canonical_removal_authorized"])
         self.assertEqual(len(self.audit["unresolved"]), 4)
