@@ -72,10 +72,10 @@ jobs:
           cd "$RUNNER_TEMP/tj0101-private-backend"
           PYTHONPATH=src python scripts/build_production_runtime.py
           PYTHONPATH=src python - <<'PY'
-          import hashlib, json
+          import hashlib, json, os
           from pathlib import Path
           from tianji_kb.resolver import EvidenceResolver, ExecutionTrace
-          audit = json.loads((Path.home() / "does-not-exist").read_text()) if False else None
+          audit = json.loads((Path(os.environ["GITHUB_WORKSPACE"]) / "audits/tj0101_source_witnesses.json").read_text(encoding="utf-8"))
           resolver = EvidenceResolver()
           ids = (
             "hidden_stems", "month_command_factors", "root_candidates",
@@ -104,6 +104,9 @@ jobs:
               linked.add(evidence["section_id"])
               total += 1
           assert total >= 97, f"Insufficient actual Rule/Evidence records: {total}"
+          expected_sections = {w["section_id"] for w in (
+            audit["witnesses"] + audit["additional_witnesses"])} - {"bazi.section.s020"}
+          assert expected_sections <= linked, "Audited Section missing from real resolver Evidence"
           print("Real EvidenceResolver/ExecutionTrace generated", total,
                 "Evidence IDs for", len(ids), "Phase2 rules;", len(linked), "distinct sections")
           PY
