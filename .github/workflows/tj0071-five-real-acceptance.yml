@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: f5406edbb6cc4e172f74638332b99024ea4b1d2f
+          ref: b5cb8a47ade99f9a89e932cd585dc5b88cdc7887
           path: public-code
           persist-credentials: false
 
@@ -123,6 +123,7 @@ jobs:
           cd public-code/web/visual-prototype
           CI=true npm test -- tests/tj004-all-scenarios-real-api.spec.ts \
             --grep 'TJ-004\.2 real private API: (bazi|daily|weekly|monthly|yearly) scenario'
+          CI=true npm test -- tests/tj0071-real-acceptance.spec.ts
 
       - name: Enforce confidentiality
         if: always()
