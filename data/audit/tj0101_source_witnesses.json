@@ -372,5 +372,57 @@
     "bazi.phase2.strength_pure_support",
     "bazi.phase2.strength_isolated_control",
     "bazi.phase2.strength_bounded_adjudication"
+  ],
+  "orthographic_notes": [
+    {
+      "section_id": "bazi.section.s012",
+      "raw_character": "夘",
+      "normalized_character": "卯",
+      "disposition": "preserve_original",
+      "scope": "xieji source glyph, not a new relation rule"
+    },
+    {
+      "section_id": "bazi.section.s016",
+      "raw_character": "夘",
+      "normalized_character": "卯",
+      "disposition": "preserve_original",
+      "scope": "xieji source glyph, not a new relation rule"
+    },
+    {
+      "section_id": "bazi.section.s029",
+      "raw_character": "餘",
+      "normalized_character": "余",
+      "disposition": "preserve_original",
+      "scope": "yuanhai source glyph, not a new day-division adjudication"
+    }
+  ],
+  "variant_conflicts": [
+    {
+      "section_ids": [
+        "bazi.section.s024",
+        "bazi.section.s029"
+      ],
+      "topic": "寅月分日 candidate traditions",
+      "status": "unresolved",
+      "resolved_day_commander": false
+    },
+    {
+      "section_ids": [
+        "bazi.section.s026",
+        "bazi.section.s041"
+      ],
+      "topic": "余气 type variant within quoted original",
+      "status": "unresolved",
+      "resolved_root_strength": false
+    },
+    {
+      "section_ids": [
+        "bazi.section.s021",
+        "bazi.section.s011"
+      ],
+      "topic": "三刑 school boundary; unrelated fixed relation wording does not adjudicate punishments",
+      "status": "unresolved",
+      "school_unification": false
+    }
   ]
 }
