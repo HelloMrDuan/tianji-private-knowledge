@@ -19,9 +19,12 @@ def validate(audit, phase1, foundations):
             raise ValueError("original SHA mismatch: " + source_id)
         texts[source_id] = raw.decode("utf-8")
     sections = {row["id"]: row for row in phase1["sections"]}
-    if len(audit["witnesses"]) != 12:
-        raise ValueError("expected twelve witnesses")
-    for witness in audit["witnesses"]:
+    if len(audit["witnesses"]) != 12 or len(audit["additional_witnesses"]) != 28:
+        raise ValueError("expected twelve primary and twenty-eight additional witnesses")
+    all_witnesses = audit["witnesses"] + audit["additional_witnesses"]
+    if len({w["section_id"] for w in all_witnesses}) != 40:
+        raise ValueError("duplicate or missing Section witness")
+    for witness in all_witnesses:
         sec = sections[witness["section_id"]]
         if sec["review"]["status"] != "approved":
             raise ValueError("unapproved excerpt")
@@ -115,6 +118,13 @@ class WitnessTests(unittest.TestCase):
                     self.assertIn(ref["original_text"], section["text"])
                     total += 1
         self.assertGreaterEqual(total, 50)
+        approved = set(w["section_id"] for w in self.audit["witnesses"] + self.audit["additional_witnesses"])
+        referenced = set(ref["section_id"] for name in ids
+                         for rid in affected["bazi.phase2." + name]["phase1_rule_refs"]
+                         for ref in rules[rid]["source_refs"])
+        self.assertEqual(referenced, approved)
+        self.assertEqual(set("bazi.phase2." + name for name in ids),
+                         set(self.audit["phase2_affected_rule_ids"]))
 
     def test_no_promoted_or_unresolved_method_claims(self):
         self.assertFalse(self.audit["secondary_table"]["canonical_removal_authorized"])
