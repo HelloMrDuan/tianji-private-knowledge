@@ -1,7 +1,7 @@
 {
   "task_id": "TJ-010.1",
   "status": "C-level electronic text witnesses; not independent book editions",
-  "scope": "40 C-grade approved original-text excerpts supporting 11 bounded Phase2 rules: original snapshot SHA and raw offsets, not second-independent edition or public fortune release",
+  "scope": "40 distinct sections used by 11 bounded Phase2 rules and one additional inspected Yuanhai three-punishments conflict witness; no unified rule approval",
   "secondary_table": {
     "path": "data/canonical/bazi/foundations_v1.json",
     "original_repo": "jinchenma94/bazi-skill",
@@ -358,6 +358,14 @@
       "character_index_basis": "Unicode codepoints of pinned UTF-8 snapshot",
       "review_level": "C",
       "release_scope": "structural_or_method_boundary_only"
+    },
+    {
+      "section_id": "bazi.section.s020",
+      "source_id": "bazi.source.yuanhai",
+      "raw_char_offset": 15860,
+      "character_index_basis": "Unicode codepoints of pinned UTF-8 snapshot",
+      "review_level": "C",
+      "release_scope": "structural_or_method_boundary_only"
     }
   ],
   "phase2_affected_rule_ids": [
@@ -417,8 +425,8 @@
     },
     {
       "section_ids": [
-        "bazi.section.s021",
-        "bazi.section.s011"
+        "bazi.section.s020",
+        "bazi.section.s021"
       ],
       "topic": "三刑 school boundary; unrelated fixed relation wording does not adjudicate punishments",
       "status": "unresolved",
