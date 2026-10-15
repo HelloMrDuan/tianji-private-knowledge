@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - "data/audit/tj0101_source_witnesses.json"
+      - "audits/tj0101_source_witnesses.json"
       - "tests/test_tj0101_source_witnesses.py"
       - ".github/workflows/tj0101-source-witnesses.yml"
   workflow_dispatch:
