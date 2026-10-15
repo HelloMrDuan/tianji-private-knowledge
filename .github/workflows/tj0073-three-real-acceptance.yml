@@ -1,0 +1,139 @@
+name: TJ-007.3 question/dream/life real flows (private backend)
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/tj0073-three-real-acceptance.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  real-five:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Verify restricted repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: c3fecdd5375effe288b56ae88da58a07226a82c4
+          path: public-code
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: public-code/web/visual-prototype/package-lock.json
+
+      - name: Verify private data and assemble isolated production source
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import importlib.util, os, shutil, sys
+          from pathlib import Path
+
+          root = Path.cwd()
+          assert not (root / "public-code/data").exists()
+          spec = importlib.util.spec_from_file_location(
+              "snapshot_verify", root / "scripts/import_public_snapshot.py")
+          importer = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(importer)
+          manifest = importer.verify(root)
+          sys.path.insert(0, str(root / "public-code"))
+          from scripts.private_data_snapshot import verify_private_data
+          from scripts.assemble_private_backend import assemble_private_backend
+
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "tj0073-restricted-snapshot"
+          snapshot.mkdir(mode=0o700)
+          shutil.copytree(root / "data", snapshot / "data")
+          shutil.copy2(root / "private-data-manifest.json",
+                       snapshot / "private-data-manifest.json")
+          verified = verify_private_data(snapshot)
+          assert verified["file_count"] == manifest["file_count"]
+          result = assemble_private_backend(
+              root / "public-code", snapshot, temp / "tj0073-private-backend")
+          assert result["knowledge_files"] == verified["file_count"]
+          print("Private integrity checked; isolated backend assembled")
+          PY
+
+      - name: Install and build authentic reviewed runtime
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install -e "./public-code[validation,calendar,api]"
+          cd "$RUNNER_TEMP/tj0073-private-backend"
+          PYTHONPATH=src python scripts/build_production_runtime.py
+
+      - name: Install frontend and Chromium
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd public-code/web/visual-prototype
+          npm ci
+          npx playwright install --with-deps chromium
+          npm run build
+
+      - name: Run genuine question dream life API and nine live result screenshots
+        shell: bash
+        run: |
+          set -euo pipefail
+          (
+            cd "$RUNNER_TEMP/tj0073-private-backend"
+            PYTHONPATH=src uvicorn tianji_kb.api:app --host 127.0.0.1 --port 8000 >"$RUNNER_TEMP/tj0073-api.log" 2>&1
+          ) &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for _ in {1..45}; do
+            if curl -fsS "http://127.0.0.1:8000/health" >"$RUNNER_TEMP/tj0073-health.json" 2>/dev/null; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          test "$ready" = 1
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          health = json.loads((Path(os.environ["RUNNER_TEMP"]) / "tj0073-health.json").read_text())
+          assert health["rag_ready"] is True, "Real private Canonical / retrieval index not ready"
+          print("Private API healthy with reviewed knowledge")
+          PY
+          cd public-code/web/visual-prototype
+          CI=true npm test -- tests/tj0073-real-backend.spec.ts
+          CI=true npm test -- tests/tj0073-viewports.spec.ts
+
+
+      - name: Upload sanitized synthetic-data result screenshots (restricted private repository)
+        uses: actions/upload-artifact@v4
+        with:
+          name: tj0073-live-results
+          path: public-code/web/visual-prototype/test-results/tj0073-*.png
+          if-no-files-found: error
+          retention-days: 1
+
+      - name: Enforce confidentiality
+        if: always()
+        run: |
+          echo "Private-runner-only evidence; no runtime, private data, logs, or screenshots uploaded to public repositories."
