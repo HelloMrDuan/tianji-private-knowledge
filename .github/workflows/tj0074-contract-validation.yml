@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: c3fecdd5375effe288b56ae88da58a07226a82c4
+          ref: 44f758219ec7916f65c0666bffc307959d1164ac
           path: public-code
           persist-credentials: false
 
@@ -94,7 +94,7 @@ jobs:
           npx playwright install --with-deps chromium
           npm run build
 
-      - name: Run genuine question dream life API and nine live result screenshots
+      - name: Verify 11 live scenarios with private Canonical and real browser
         shell: bash
         run: |
           set -euo pipefail
@@ -121,15 +121,14 @@ jobs:
           print("Private API healthy with reviewed knowledge")
           PY
           cd public-code/web/visual-prototype
-          CI=true npm test -- tests/tj0074-real-backend.spec.ts
-          CI=true npm test -- tests/tj0074-viewports.spec.ts
+          CI=true npm test -- tests/tj0074-real-contract.spec.ts
 
 
       - name: Upload sanitized synthetic-data result screenshots (restricted private repository)
         uses: actions/upload-artifact@v4
         with:
           name: tj0074-live-results
-          path: public-code/web/visual-prototype/test-results/tj0074-*.png
+          path: public-code/web/visual-prototype/test-results/**/tj0074-live-*.png
           if-no-files-found: error
           retention-days: 1
 
