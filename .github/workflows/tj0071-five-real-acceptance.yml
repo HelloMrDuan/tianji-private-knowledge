@@ -124,6 +124,7 @@ jobs:
           CI=true npm test -- tests/tj004-all-scenarios-real-api.spec.ts \
             --grep 'TJ-004\.2 real private API: (bazi|daily|weekly|monthly|yearly) scenario'
           CI=true npm test -- tests/tj0071-real-acceptance.spec.ts
+          CI=true npm test -- tests/tj0071-viewports.spec.ts
 
       - name: Enforce confidentiality
         if: always()
