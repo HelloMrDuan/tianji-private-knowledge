@@ -16,12 +16,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Checkout private repo
+      - name: Verify private repository identity
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+      - name: Checkout private audit code and sealed knowledge
         uses: actions/checkout@v4
         with:
           persist-credentials: false
           path: private
-      - name: Checkout public PR #259 head (pinned)
+      - name: Checkout exact public PR #259 code
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
@@ -31,39 +37,60 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Install dependencies
-        run: python -m pip install -e './public[validation,calendar]'
-      - name: Setup test environment
-        run: |
-          # Copy public src into private repo structure so resolver finds Canonical data
-          # private/ has data/canonical, we add public src/tianji_kb there
-          mkdir -p private/src
-          cp -r public/src/tianji_kb private/src/
-          # Copy test file
-          cp private/tests/tj0102/test_tj0102_private_acceptance.py /tmp/test_private.py
-          ls private/src/tianji_kb/bazi_action_matrix.py
-      - name: Run TJ-010.2 private acceptance tests
-        working-directory: private
+      - name: Install pinned application validation and calendar runtime
+        run: python -m pip install -e "./public[validation,calendar]"
+      - name: Verify 235 sealed assets and build isolated private backend
         run: |
           python - <<'PY'
-          import runpy
-          import traceback
-          mod = runpy.run_path('/tmp/test_private.py')
-          cases = sorted((n, f) for n, f in mod.items()
-                         if n.startswith('test_') and callable(f))
-          assert len(cases) >= 4, f"Expected 4+ tests, got {len(cases)}"
-          passed = 0
-          failed = []
+          import importlib.util, os, shutil, sys
+          from pathlib import Path
+          root = Path.cwd()
+          assert not (root / "public/data").exists(), "Private Canonical must not be in public checkout"
+          spec = importlib.util.spec_from_file_location("private_importer", root / "private/scripts/import_public_snapshot.py")
+          importer = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(importer)
+          manifest = importer.verify(root / "private")
+          assert manifest["file_count"] == 235
+          sys.path.insert(0, str(root / "public"))
+          from scripts.private_data_snapshot import verify_private_data
+          from scripts.assemble_private_backend import assemble_private_backend
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "tj0102-private-snapshot"
+          snapshot.mkdir(mode=0o700)
+          shutil.copytree(root / "private/data", snapshot / "data", symlinks=False)
+          shutil.copy2(root / "private/private-data-manifest.json", snapshot / "private-data-manifest.json")
+          checked = verify_private_data(snapshot)
+          assert checked["file_count"] == manifest["file_count"]
+          output = temp / "tj0102-private-runtime"
+          result = assemble_private_backend(root / "public", snapshot, output)
+          assert result["knowledge_files"] == 235
+          print("Verified 235 sealed knowledge files and assembled actual private runtime")
+          PY
+      - name: Build actual private reviewed production catalog
+        run: |
+          cd "$RUNNER_TEMP/tj0102-private-runtime"
+          PYTHONPATH=src python scripts/build_production_runtime.py
+      - name: Run real chart / clash / fail-closed tests against private production catalog
+        run: |
+          cd "$RUNNER_TEMP/tj0102-private-runtime"
+          PYTHONPATH=src python - <<'PY'
+          import os, runpy, traceback
+          from pathlib import Path
+          test_file = Path(os.environ["GITHUB_WORKSPACE"]) / "private/tests/tj0102/test_tj0102_private_acceptance.py"
+          tests = runpy.run_path(str(test_file))
+          cases = sorted((key, f) for key, f in tests.items()
+                         if key.startswith("test_") and callable(f))
+          assert len(cases) >= 4, f"Expected at least 4 actual tests: got {len(cases)}"
+          failures = []
           for name, fn in cases:
               try:
                   fn()
                   print("PASS", name)
-                  passed += 1
-              except Exception as e:
-                  print("FAIL", name, ":", e)
+              except Exception:
+                  print("FAIL", name)
                   traceback.print_exc()
-                  failed.append(name)
-          print(f"TJ-010.2 private: {passed}/{len(cases)} passed")
-          if failed:
-              raise SystemExit(f"Failed: {failed}")
+                  failures.append(name)
+          print("TJ-010.2 real private matrix", len(cases) - len(failures), "/", len(cases))
+          if failures:
+              raise SystemExit("Failed tests: " + ", ".join(failures))
           PY
