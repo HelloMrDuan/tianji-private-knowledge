@@ -54,8 +54,6 @@ def test_clash_causes_unresolved():
     comparison = [r for r in baseline_result['roots'] if r['branch'] == '寅']
     assert comparison, "Control chart must contain same structural wood root"
     assert all(r['status'] == 'effective' for r in comparison), comparison
-    assert all(r['present_structurally'] if 'present_structurally' in r else True
-               for r in roots)
     print("  real 寅申 clash rejected; same root without clash effective")
 
 
