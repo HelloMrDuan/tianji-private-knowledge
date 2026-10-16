@@ -31,9 +31,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: 623ce4eb16e96c522af2c0e0eff8304a995843b3
+          ref: 1de26716b58e87bfcf403dbfca30a0624fec3733
           path: public
           persist-credentials: false
+      - name: Assert exact public PR head checked out
+        run: test "$(git -C public rev-parse HEAD)" = "1de26716b58e87bfcf403dbfca30a0624fec3733"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -70,27 +72,35 @@ jobs:
         run: |
           cd "$RUNNER_TEMP/tj0102-private-runtime"
           PYTHONPATH=src python scripts/build_production_runtime.py
-      - name: Run real chart / clash / fail-closed tests against private production catalog
+      - name: Run both 4 baseline and 16 expanded real chart scenarios
         run: |
           cd "$RUNNER_TEMP/tj0102-private-runtime"
           PYTHONPATH=src python - <<'PY'
           import os, runpy, traceback
           from pathlib import Path
-          test_file = Path(os.environ["GITHUB_WORKSPACE"]) / "private/tests/tj0102/test_tj0102_private_acceptance.py"
-          tests = runpy.run_path(str(test_file))
-          cases = sorted((key, f) for key, f in tests.items()
-                         if key.startswith("test_") and callable(f))
-          assert len(cases) >= 4, f"Expected at least 4 actual tests: got {len(cases)}"
-          failures = []
-          for name, fn in cases:
-              try:
-                  fn()
-                  print("PASS", name)
-              except Exception:
-                  print("FAIL", name)
-                  traceback.print_exc()
-                  failures.append(name)
-          print("TJ-010.2 real private matrix", len(cases) - len(failures), "/", len(cases))
-          if failures:
-              raise SystemExit("Failed tests: " + ", ".join(failures))
+          folder = Path(os.environ["GITHUB_WORKSPACE"]) / "private/tests/tj0102"
+          failure_names = []
+          total = 0
+          for filename, exact_count in (
+              ("test_tj0102_private_acceptance.py", 4),
+              ("test_tj0102_expanded.py", 16),
+          ):
+              module = runpy.run_path(str(folder / filename))
+              cases = sorted((key, func) for key, func in module.items()
+                             if key.startswith("test_") and callable(func))
+              assert len(cases) == exact_count, (
+                  f"{filename}: expected {exact_count} real tests, found {len(cases)}")
+              for name, func in cases:
+                  total += 1
+                  try:
+                      func()
+                      print("PASS", filename, name)
+                  except Exception:
+                      print("FAIL", filename, name)
+                      traceback.print_exc()
+                      failure_names.append(filename + ":" + name)
+          print(f"TJ-010.2 private real chart scenarios: {total - len(failure_names)}/{total}")
+          if failure_names:
+              raise SystemExit("Failed tests: " + ", ".join(failure_names))
+          assert total == 20
           PY
