@@ -11,7 +11,8 @@ Tests real:
 Each test FAILS if implementation is wrong. No mocks. No SKIPs.
 """
 import sys
-sys.path.insert(0, 'public_src')
+import os
+sys.path.insert(0, os.path.join(os.getcwd(), 'src'))
 
 from tianji_kb.bazi_core import chart_from_datetime, chart_from_pillars, reviewed_relations
 from tianji_kb.bazi_action_matrix import build_matrix_from_chart
