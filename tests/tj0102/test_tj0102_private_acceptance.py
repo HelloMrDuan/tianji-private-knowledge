@@ -34,21 +34,29 @@ def test_real_chart_2000_01_07():
 
 
 def test_clash_causes_unresolved():
-    """Real 子午 clash must cause unresolved status."""
-    chart = chart_from_pillars("甲子", "丙午", "甲寅", "己巳")
-    stems = [p['stem']['value'] for p in chart['pillars']]
-    branches = [p['branch']['value'] for p in chart['pillars']]
-    rel = reviewed_relations(stems, branches)
-    # Verify real clash exists
-    assert len(rel.get('branch_six_clashes', [])) > 0, "Must have real clash"
-    result = build_matrix_from_chart(chart)
-    # At least one affected row must be unresolved
-    affected = [r for r in result['roots'] + result['actions']
-                if r.get('branch') in ('子', '午')]
-    assert len(affected) > 0
-    unresolved = [r for r in affected if r['status'] == 'unresolved']
-    assert len(unresolved) > 0, "Clash must cause unresolved"
-    print(f"  clash: {len(unresolved)}/{len(affected)} unresolved")
+    """Real 寅申 six-clash blocks a wood root; verify same root without clash."""
+    clash = chart_from_pillars("甲寅", "壬申", "甲寅", "己酉")
+    stems = [p['stem']['value'] for p in clash['pillars']]
+    branches = [p['branch']['value'] for p in clash['pillars']]
+    relations = reviewed_relations(stems, branches)
+    assert any(set(row['branches']) == {"寅", "申"}
+               for row in relations['branch_six_clashes']), "Must have real 寅申 clash"
+
+    observed = build_matrix_from_chart(clash)
+    roots = [r for r in observed['roots'] if r['branch'] == '寅']
+    assert roots, "Must have an actual wood root on 寅"
+    assert all(r['status'] == 'unresolved' and
+               r['status_reason'] == 'branch_interaction_effect_unresolved'
+               for r in roots), roots
+
+    baseline = chart_from_pillars("甲寅", "壬子", "甲寅", "己酉")
+    baseline_result = build_matrix_from_chart(baseline)
+    comparison = [r for r in baseline_result['roots'] if r['branch'] == '寅']
+    assert comparison, "Control chart must contain same structural wood root"
+    assert all(r['status'] == 'effective' for r in comparison), comparison
+    assert all(r['present_structurally'] if 'present_structurally' in r else True
+               for r in roots)
+    print("  real 寅申 clash rejected; same root without clash effective")
 
 
 def test_input_validation_rejects_bad_chart():
