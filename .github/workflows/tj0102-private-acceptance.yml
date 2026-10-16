@@ -1,0 +1,74 @@
+name: TJ-010.2 Private Acceptance
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "tests/tj0102/test_tj0102_private_acceptance.py"
+      - ".github/workflows/tj0102-private-acceptance.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  private-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          path: private
+      - name: Checkout public PR #259 head (pinned)
+        uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: f9f4938827d4c23ee93325c22a7de5f016a6d108
+          path: public
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install lunar-python==1.4.8
+      - name: Setup public src with private Canonical
+        run: |
+          # Copy public src to accessible location
+          cp -r public/src public_src
+          # Link private Canonical data (read-only, not copied to public)
+          mkdir -p public_src/tianji_kb/data/canonical
+          # The resolver will find private data via TIANJI_KB_ROOT env
+          echo "Setup complete"
+      - name: Run TJ-010.2 private acceptance tests
+        env:
+          TIANJI_KB_ROOT: ${{ github.workspace }}/private
+        run: |
+          python - <<'PY'
+          import runpy
+          import traceback
+          import sys
+          sys.path.insert(0, 'public_src')
+          # Copy test file to accessible location
+          import shutil
+          shutil.copy('private/tests/tj0102/test_tj0102_private_acceptance.py',
+                      '/tmp/test_private.py')
+          mod = runpy.run_path('/tmp/test_private.py')
+          cases = sorted((n, f) for n, f in mod.items()
+                         if n.startswith('test_') and callable(f))
+          assert len(cases) >= 4, f"Expected 4+ tests, got {len(cases)}"
+          passed = 0
+          failed = []
+          for name, fn in cases:
+              try:
+                  fn()
+                  print("PASS", name)
+                  passed += 1
+              except Exception as e:
+                  print("FAIL", name, ":", e)
+                  traceback.print_exc()
+                  failed.append(name)
+          print(f"TJ-010.2 private: {passed}/{len(cases)} passed")
+          if failed:
+              raise SystemExit(f"Failed: {failed}")
+          PY
