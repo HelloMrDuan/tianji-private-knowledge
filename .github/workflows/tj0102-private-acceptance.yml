@@ -41,8 +41,6 @@ jobs:
           cp -r public/src/tianji_kb private/src/
           # Copy test file
           cp private/tests/tj0102/test_tj0102_private_acceptance.py /tmp/test_private.py
-          # Fix import path in test file
-          sed -i "s|sys.path.insert(0, 'public_src')|sys.path.insert(0, 'private/src')|" /tmp/test_private.py
           ls private/src/tianji_kb/bazi_action_matrix.py
       - name: Run TJ-010.2 private acceptance tests
         working-directory: private
