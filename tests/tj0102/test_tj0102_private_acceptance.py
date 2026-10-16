@@ -35,7 +35,7 @@ def test_real_chart_2000_01_07():
 
 def test_clash_causes_unresolved():
     """Real 子午 clash must cause unresolved status."""
-    chart = chart_from_pillars(("甲", "子"), ("丙", "午"), ("甲", "寅"), ("己", "巳"))
+    chart = chart_from_pillars("甲子", "丙午", "甲寅", "己巳")
     stems = [p['stem']['value'] for p in chart['pillars']]
     branches = [p['branch']['value'] for p in chart['pillars']]
     rel = reviewed_relations(stems, branches)
