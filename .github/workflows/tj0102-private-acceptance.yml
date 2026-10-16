@@ -16,7 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout private repo
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
           path: private
@@ -32,27 +33,23 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install lunar-python==1.4.8
-      - name: Setup public src with private Canonical
+      - name: Setup test environment
         run: |
-          # Copy public src to accessible location
-          cp -r public/src public_src
-          # Link private Canonical data (read-only, not copied to public)
-          mkdir -p public_src/tianji_kb/data/canonical
-          # The resolver will find private data via TIANJI_KB_ROOT env
-          echo "Setup complete"
+          # Copy public src into private repo structure so resolver finds Canonical data
+          # private/ has data/canonical, we add public src/tianji_kb there
+          mkdir -p private/src
+          cp -r public/src/tianji_kb private/src/
+          # Copy test file
+          cp private/tests/tj0102/test_tj0102_private_acceptance.py /tmp/test_private.py
+          # Fix import path in test file
+          sed -i "s|sys.path.insert(0, 'public_src')|sys.path.insert(0, 'private/src')|" /tmp/test_private.py
+          ls private/src/tianji_kb/bazi_action_matrix.py
       - name: Run TJ-010.2 private acceptance tests
-        env:
-          TIANJI_KB_ROOT: ${{ github.workspace }}/private
+        working-directory: private
         run: |
           python - <<'PY'
           import runpy
           import traceback
-          import sys
-          sys.path.insert(0, 'public_src')
-          # Copy test file to accessible location
-          import shutil
-          shutil.copy('private/tests/tj0102/test_tj0102_private_acceptance.py',
-                      '/tmp/test_private.py')
           mod = runpy.run_path('/tmp/test_private.py')
           cases = sorted((n, f) for n, f in mod.items()
                          if n.startswith('test_') and callable(f))
