@@ -131,6 +131,30 @@ jobs:
           print(f"TJ-010.2 Evidence test results: {len(cases)-len(failures)}/{len(cases)}")
           if failures: raise SystemExit("Failed Evidence cases: " + ", ".join(failures))
           PY
+      - name: Run 5 real Evidence tampering negative tests (fail on missed rejection)
+        run: |
+          cd "$RUNNER_TEMP/tj0102-private-runtime"
+          PYTHONPATH=src python - <<'PY'
+          import os, runpy, traceback
+          from pathlib import Path
+          path = Path(os.environ["GITHUB_WORKSPACE"]) / "private/tests/tj0102/test_tj0102_negative.py"
+          mod = runpy.run_path(str(path))
+          cases = sorted((k, v) for k, v in mod.items()
+                         if k.startswith("test_neg") and callable(v))
+          assert len(cases) == 5, f"Expected five tampering tests, found {len(cases)}"
+          fails = []
+          for name, fn in cases:
+              try:
+                  fn()
+                  print("PASS negative", name)
+              except Exception:
+                  print("FAIL negative", name)
+                  traceback.print_exc()
+                  fails.append(name)
+          print(f"Evidence negative tests: {len(cases) - len(fails)}/{len(cases)}")
+          if fails:
+              raise SystemExit("Negative tests failed: " + ", ".join(fails))
+          PY
       - name: Run actual reviewed Bazi Phase2 regression
         run: |
           cd "$RUNNER_TEMP/tj0102-private-runtime"
