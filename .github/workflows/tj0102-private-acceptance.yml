@@ -72,6 +72,11 @@ jobs:
         run: |
           cd "$RUNNER_TEMP/tj0102-private-runtime"
           PYTHONPATH=src python scripts/build_production_runtime.py
+      - name: Rebuild product coverage (fix stale hashes)
+        run: |
+          cd "$RUNNER_TEMP/tj0102-private-runtime"
+          PYTHONPATH=src python scripts/build_product_coverage.py
+          echo "Product coverage rebuilt"
       - name: Run both 4 baseline and 16 expanded real chart scenarios
         run: |
           cd "$RUNNER_TEMP/tj0102-private-runtime"
