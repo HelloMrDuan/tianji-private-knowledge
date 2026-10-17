@@ -31,11 +31,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: 1de26716b58e87bfcf403dbfca30a0624fec3733
+          ref: 920a49d8b8de216bf52ba057b8505b1a99cd16d4
           path: public
           persist-credentials: false
       - name: Assert exact public PR head checked out
-        run: test "$(git -C public rev-parse HEAD)" = "1de26716b58e87bfcf403dbfca30a0624fec3733"
+        run: test "$(git -C public rev-parse HEAD)" = "920a49d8b8de216bf52ba057b8505b1a99cd16d4"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -103,4 +103,42 @@ jobs:
           if failure_names:
               raise SystemExit("Failed tests: " + ", ".join(failure_names))
           assert total == 20
+          PY
+      - name: Run actual Evidence binding and fail-closed tests
+        run: |
+          cd "$RUNNER_TEMP/tj0102-private-runtime"
+          PYTHONPATH=src python - <<'PY'
+          import os, runpy, traceback
+          from pathlib import Path
+          source = Path(os.environ["GITHUB_WORKSPACE"]) / "private/tests/tj0102/test_tj0102_evidence.py"
+          tests = runpy.run_path(str(source))
+          cases = sorted((k,v) for k,v in tests.items() if k.startswith("test_") and callable(v))
+          assert len(cases) == 11, f"Expected 11 evidence tests, got {len(cases)}"
+          failures = []
+          for name, func in cases:
+              try:
+                  func()
+                  print("PASS evidence", name)
+              except Exception:
+                  print("FAIL evidence", name)
+                  traceback.print_exc()
+                  failures.append(name)
+          print(f"TJ-010.2 Evidence test results: {len(cases)-len(failures)}/{len(cases)}")
+          if failures: raise SystemExit("Failed Evidence cases: " + ", ".join(failures))
+          PY
+      - name: Run actual reviewed Bazi Phase2 regression
+        run: |
+          cd "$RUNNER_TEMP/tj0102-private-runtime"
+          PYTHONPATH=src python -m unittest discover -s tests -p 'test_phase2_bazi*.py' -v
+      - name: Run sealed Bazi Phase2 Golden cases
+        run: |
+          cd "$RUNNER_TEMP/tj0102-private-runtime"
+          PYTHONPATH=src python - <<'PY'
+          from pathlib import Path
+          from tianji_kb.golden import run_cases
+          rows = run_cases(Path.cwd(), 'bazi')
+          assert len(rows) > 0, "Golden dataset missing or empty"
+          for row in rows:
+              assert row["passed"] is True
+          print("Actual Bazi Golden passed:", len(rows))
           PY
