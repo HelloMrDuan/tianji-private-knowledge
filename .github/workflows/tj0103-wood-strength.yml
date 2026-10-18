@@ -1,0 +1,100 @@
+name: TJ-010.3 Wood Strength Recalculation
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/tj0103-wood-strength.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tj0103-wood-strength:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Verify private repository identity
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+      - name: Checkout private audit code and sealed knowledge
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          path: private
+      - name: Checkout exact public PR #261 code
+        uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: c593ee0b0753c1e2f273b3521bfd1c65ebd46434
+          path: public
+          persist-credentials: false
+      - name: Assert exact public PR head checked out
+        run: test "$(git -C public rev-parse HEAD)" = "c593ee0b0753c1e2f273b3521bfd1c65ebd46434"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned application validation and calendar runtime
+        run: |
+          python -m pip install -e "./public[validation,calendar,api]"
+          python -m pip install pytest
+      - name: Verify 235 sealed assets and build isolated private backend
+        run: |
+          python - <<'PY'
+          import importlib.util, os, shutil, sys
+          from pathlib import Path
+          root = Path.cwd()
+          assert not (root / "public/data").exists(), "Private Canonical must not be in public checkout"
+          spec = importlib.util.spec_from_file_location("private_importer", root / "private/scripts/import_public_snapshot.py")
+          importer = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(importer)
+          manifest = importer.verify(root / "private")
+          assert manifest["file_count"] == 235
+          sys.path.insert(0, str(root / "public"))
+          from scripts.private_data_snapshot import verify_private_data
+          from scripts.assemble_private_backend import assemble_private_backend
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "tj0103-private-snapshot"
+          snapshot.mkdir(mode=0o700)
+          shutil.copytree(root / "private/data", snapshot / "data", symlinks=False)
+          shutil.copy2(root / "private/private-data-manifest.json", snapshot / "private-data-manifest.json")
+          checked = verify_private_data(snapshot)
+          assert checked["file_count"] == manifest["file_count"]
+          output = temp / "tj0103-private-runtime"
+          result = assemble_private_backend(root / "public", snapshot, output)
+          assert result["knowledge_files"] == 235
+          print("Verified 235 sealed knowledge files and assembled actual private runtime")
+          PY
+      - name: Build actual private reviewed production catalog
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
+          PYTHONPATH=src python scripts/build_production_runtime.py
+      - name: Rebuild product coverage (fix stale hashes)
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
+          PYTHONPATH=src python scripts/build_product_coverage.py
+          echo "Product coverage rebuilt"
+      - name: Run TJ-010.3 wood strength recalculation tests
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
+          PYTHONPATH=src python -m pytest tests/test_tj0103_wood_strength_recalc.py -v
+      - name: Run Phase2 bazi regression
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
+          PYTHONPATH=src python -m unittest discover -s tests -p 'test_phase2_bazi*.py' -v
+      - name: Run Golden cases
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
+          PYTHONPATH=src python - <<'PY'
+          from tianji_kb.golden import run_cases
+          cases = list(run_cases('.', 'bazi'))
+          print(f'Golden bazi cases: {len(cases)}')
+          assert len(cases) == 117, f'Expected 117, got {len(cases)}'
+          failed = [c['id'] for c in cases if not c.get('passed')]
+          assert not failed, f'Failed golden cases: {failed}'
+          print(f'Golden bazi: {len(cases)}/{len(cases)} passed')
+          PY
