@@ -51,28 +51,40 @@ jobs:
           importer = importlib.util.module_from_spec(spec)
           spec.loader.exec_module(importer)
           manifest = importer.verify(root / "private")
-          assert manifest["file_count"] == 235, f"Expected 235 sealed files, got {manifest['file_count']}"
-          print("235 sealed files verified")
+          assert manifest["file_count"] == 235
           sys.path.insert(0, str(root / "public"))
+          from scripts.private_data_snapshot import verify_private_data
           from scripts.assemble_private_backend import assemble_private_backend
           temp = Path(os.environ["RUNNER_TEMP"])
           snapshot = temp / "tj0103-private-snapshot"
-          snapshot.mkdir()
-          shutil.copytree(root / "private/data", snapshot / "data")
+          snapshot.mkdir(mode=0o700)
+          shutil.copytree(root / "private/data", snapshot / "data", symlinks=False)
           shutil.copy2(root / "private/private-data-manifest.json", snapshot / "private-data-manifest.json")
-          assembled = temp / "tj0103-private-backend"
-          result = assemble_private_backend(root / "public", snapshot, assembled)
-          print("Private backend assembled:", result["knowledge_files"], "files")
+          checked = verify_private_data(snapshot)
+          assert checked["file_count"] == manifest["file_count"]
+          output = temp / "tj0103-private-runtime"
+          result = assemble_private_backend(root / "public", snapshot, output)
+          assert result["knowledge_files"] == 235
+          print("Verified 235 sealed knowledge files and assembled actual private runtime")
           PY
+      - name: Build actual private reviewed production catalog
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
+          PYTHONPATH=src python scripts/build_production_runtime.py
+      - name: Rebuild product coverage (fix stale hashes)
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
+          PYTHONPATH=src python scripts/build_product_coverage.py
+          echo "Product coverage rebuilt"
       - name: Run TJ-010.3 wood strength recalculation tests
         run: |
-          cd "$RUNNER_TEMP/tj0103-private-backend"
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
           PYTHONPATH=src python -m pytest "$GITHUB_WORKSPACE/public/tests/test_tj0103_wood_strength_recalc.py" -v
       - name: Run Phase2 bazi regression
         run: |
-          cd "$RUNNER_TEMP/tj0103-private-backend"
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
           PYTHONPATH=src python -m pytest "$GITHUB_WORKSPACE/public/tests/test_phase2_bazipositive.py" "$GITHUB_WORKSPACE/public/tests/test_phase2_baziadjudication.py" "$GITHUB_WORKSPACE/public/tests/test_phase2_bazibounded_replay.py" -q
       - name: Run Golden cases
         run: |
-          cd "$RUNNER_TEMP/tj0103-private-backend"
+          cd "$RUNNER_TEMP/tj0103-private-runtime"
           PYTHONPATH=src python -c "from tianji_kb.golden import run_cases; cases = list(run_cases('.', 'bazi')); print(f'Golden bazi cases: {len(cases)}'); assert len(cases) == 117"
