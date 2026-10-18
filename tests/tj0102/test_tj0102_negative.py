@@ -140,3 +140,56 @@ def test_neg05_forge_effective_rejected():
     # If no exception, the forge wasn't detected - this is a test failure
     # (not a pass with warning)
     raise AssertionError("neg05 FAILED: forged effective not rejected")
+
+
+def test_neg06_forge_source_id_rejected():
+    """伪造source_id必须拒绝."""
+    chart, result, trace = _real_result_and_trace()
+    bad = copy.deepcopy(result)
+    assert len(bad['roots']) > 0
+    ev = bad['roots'][0]['structure_evidence']
+    assert ev is not None
+    original = ev.get('source_id')
+    ev['source_id'] = 'forged-source-xyz'
+    assert ev['source_id'] != original
+    try:
+        _verify_evidence_consistency(bad, trace, chart)
+    except ValueError:
+        print("  neg06: PASS")
+        return
+    raise AssertionError("neg06 FAILED: forged source_id not rejected")
+
+
+def test_neg07_forge_section_id_rejected():
+    """伪造section_id必须拒绝."""
+    chart, result, trace = _real_result_and_trace()
+    bad = copy.deepcopy(result)
+    assert len(bad['roots']) > 0
+    ev = bad['roots'][0]['structure_evidence']
+    assert ev is not None
+    original = ev.get('section_id')
+    ev['section_id'] = 'forged-section-xyz'
+    assert ev['section_id'] != original
+    try:
+        _verify_evidence_consistency(bad, trace, chart)
+    except ValueError:
+        print("  neg07: PASS")
+        return
+    raise AssertionError("neg07 FAILED: forged section_id not rejected")
+
+
+def test_neg08_clear_evidence_ids_rejected():
+    """清空evidence_ids必须拒绝."""
+    chart, result, trace = _real_result_and_trace()
+    bad = copy.deepcopy(result)
+    assert len(bad['roots']) > 0
+    ev = bad['roots'][0]['structure_evidence']
+    assert ev is not None
+    assert len(ev.get('evidence_ids', [])) > 0
+    ev['evidence_ids'] = []
+    try:
+        _verify_evidence_consistency(bad, trace, chart)
+    except ValueError:
+        print("  neg08: PASS")
+        return
+    raise AssertionError("neg08 FAILED: cleared evidence_ids not rejected")
