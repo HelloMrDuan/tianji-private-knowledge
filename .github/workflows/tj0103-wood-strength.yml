@@ -1,0 +1,78 @@
+name: TJ-010.3 Wood Strength Recalculation
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/tj0103-wood-strength.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tj0103-wood-strength:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Verify private repository identity
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+      - name: Checkout private audit code and sealed knowledge
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          path: private
+      - name: Checkout exact public PR #261 code
+        uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: d9ec474bab78babef35574a707197f1fae8c4dc8
+          path: public
+          persist-credentials: false
+      - name: Assert exact public PR head checked out
+        run: test "$(git -C public rev-parse HEAD)" = "d9ec474bab78babef35574a707197f1fae8c4dc8"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned application validation and calendar runtime
+        run: python -m pip install -e "./public[validation,calendar,api]"
+      - name: Verify 235 sealed assets and build isolated private backend
+        run: |
+          python - <<'PY'
+          import importlib.util, os, shutil, sys
+          from pathlib import Path
+          root = Path.cwd()
+          assert not (root / "public/data").exists(), "Private Canonical must not be in public checkout"
+          spec = importlib.util.spec_from_file_location("private_importer", root / "private/scripts/import_public_snapshot.py")
+          importer = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(importer)
+          manifest = importer.verify(root / "private")
+          assert manifest["file_count"] == 235, f"Expected 235 sealed files, got {manifest['file_count']}"
+          print("235 sealed files verified")
+          sys.path.insert(0, str(root / "public"))
+          from scripts.assemble_private_backend import assemble_private_backend
+          temp = Path(os.environ["RUNNER_TEMP"])
+          snapshot = temp / "tj0103-private-snapshot"
+          snapshot.mkdir()
+          shutil.copytree(root / "private/data", snapshot / "data")
+          shutil.copy2(root / "private/private-data-manifest.json", snapshot / "private-data-manifest.json")
+          assembled = temp / "tj0103-private-backend"
+          result = assemble_private_backend(root / "public", snapshot, assembled)
+          print("Private backend assembled:", result["knowledge_files"], "files")
+          PY
+      - name: Run TJ-010.3 wood strength recalculation tests
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-backend"
+          PYTHONPATH=src python -m pytest "$GITHUB_WORKSPACE/public/tests/test_tj0103_wood_strength_recalc.py" -v
+      - name: Run Phase2 bazi regression
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-backend"
+          PYTHONPATH=src python -m pytest "$GITHUB_WORKSPACE/public/tests/test_phase2_bazipositive.py" "$GITHUB_WORKSPACE/public/tests/test_phase2_baziadjudication.py" "$GITHUB_WORKSPACE/public/tests/test_phase2_bazibounded_replay.py" -q
+      - name: Run Golden cases
+        run: |
+          cd "$RUNNER_TEMP/tj0103-private-backend"
+          PYTHONPATH=src python -c "from tianji_kb.golden import run_cases; cases = list(run_cases('.', 'bazi')); print(f'Golden bazi cases: {len(cases)}'); assert len(cases) == 117"
