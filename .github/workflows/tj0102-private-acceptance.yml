@@ -31,11 +31,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: b31570dfd74c3c89bfcd758542482a2bd6667b42
+          ref: da1e1a5d764f979fd20703f765cc7ed44f096b25
           path: public
           persist-credentials: false
       - name: Assert exact public PR head checked out
-        run: test "$(git -C public rev-parse HEAD)" = "b31570dfd74c3c89bfcd758542482a2bd6667b42"
+        run: test "$(git -C public rev-parse HEAD)" = "da1e1a5d764f979fd20703f765cc7ed44f096b25"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -141,7 +141,7 @@ jobs:
           mod = runpy.run_path(str(path))
           cases = sorted((k, v) for k, v in mod.items()
                          if k.startswith("test_neg") and callable(v))
-          assert len(cases) == 5, f"Expected five tampering tests, found {len(cases)}"
+          assert len(cases) == 8, f"Expected eight tampering tests, found {len(cases)}"
           fails = []
           for name, fn in cases:
               try:
