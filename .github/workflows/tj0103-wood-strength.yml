@@ -79,7 +79,12 @@ jobs:
       - name: Run TJ-010.3 wood strength recalculation tests
         run: |
           cd "$RUNNER_TEMP/tj0103-private-runtime"
-          PYTHONPATH=src python -m pytest "$GITHUB_WORKSPACE/public/tests/test_tj0103_wood_strength_recalc.py" -v
+          echo "=== Checking test file ==="
+          ls -la "$GITHUB_WORKSPACE/public/tests/test_tj0103_wood_strength_recalc.py"
+          echo "=== Checking src ==="
+          ls src/ | head -5
+          echo "=== Running pytest ==="
+          PYTHONPATH=src python -m pytest "$GITHUB_WORKSPACE/public/tests/test_tj0103_wood_strength_recalc.py" -v 2>&1 | head -100
       - name: Run Phase2 bazi regression
         run: |
           cd "$RUNNER_TEMP/tj0103-private-runtime"
