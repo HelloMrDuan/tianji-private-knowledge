@@ -30,11 +30,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: fb39bbef218090a8ccc1efc2602fa5eab3f74bf8
+          ref: 977238ba67d702c61b9fb850a487da50867b4a74
           path: public
           persist-credentials: false
       - name: Assert exact public PR head checked out
-        run: test "$(git -C public rev-parse HEAD)" = "fb39bbef218090a8ccc1efc2602fa5eab3f74bf8"
+        run: test "$(git -C public rev-parse HEAD)" = "977238ba67d702c61b9fb850a487da50867b4a74"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -83,6 +83,7 @@ jobs:
           cd "$RUNNER_TEMP/tj0103-private-runtime"
           PYTHONPATH=src python -m pytest tests/test_tj0103_wood_strength_recalc.py -v
           PYTHONPATH=src python -m pytest tests/test_tj0111_condition_audit.py -v
+          PYTHONPATH=src python -m pytest tests/test_tj0111_evidence_chain.py -v
       - name: Run Phase2 bazi regression
         run: |
           cd "$RUNNER_TEMP/tj0103-private-runtime"
