@@ -26,15 +26,15 @@ jobs:
         with:
           persist-credentials: false
           path: private
-      - name: Checkout exact public PR #263 code
+      - name: Checkout exact public TJ-011.1 candidate
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: f10a67ac186d2b6a2b59b5df6a8d88c8e4c4b22a
+          ref: f1acc439792eb89edd08fa2c98274254c0146b37
           path: public
           persist-credentials: false
-      - name: Assert exact public PR head checked out
-        run: test "$(git -C public rev-parse HEAD)" = "f10a67ac186d2b6a2b59b5df6a8d88c8e4c4b22a"
+      - name: Assert exact public candidate commit checked out
+        run: test "$(git -C public rev-parse HEAD)" = "f1acc439792eb89edd08fa2c98274254c0146b37"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
