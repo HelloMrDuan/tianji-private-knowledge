@@ -30,11 +30,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
-          ref: d82a385671c4d004977a1f14dc95ec89bc3e4270
+          ref: 5de3f604fb2b1f0cee3ed97230af6029e6e1f24c
           path: public
           persist-credentials: false
       - name: Assert exact public PR head checked out
-        run: test "$(git -C public rev-parse HEAD)" = "d82a385671c4d004977a1f14dc95ec89bc3e4270"
+        run: test "$(git -C public rev-parse HEAD)" = "5de3f604fb2b1f0cee3ed97230af6029e6e1f24c"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
