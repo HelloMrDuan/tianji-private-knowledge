@@ -26,7 +26,7 @@ jobs:
         with:
           persist-credentials: false
           path: private
-      - name: Checkout exact public PR #261 code
+      - name: Checkout exact public PR #263 code
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
