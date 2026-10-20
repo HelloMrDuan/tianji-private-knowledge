@@ -17,7 +17,7 @@ permissions:
   contents: read
 
 env:
-  PUBLIC_PR_SHA: "2ded233ced12e8d4f7c64ab2bbcbfeaf105c7b10"
+  PUBLIC_PR_SHA: "58b545138e2f31e1cbaa007a7d98e788d58748a3"
 
 jobs:
   tj0122-pattern-acceptance:
