@@ -1,0 +1,78 @@
+name: TJ-012.2 pattern acceptance (PR #282 exact SHA)
+
+# TJ-012.2: real pattern acceptance for public PR #282.
+# Triggered by pull_request on this workflow file so GitHub Actions
+# runs it automatically when the private PR is created.
+# Public PR #282 head SHA is pinned below; if the public PR gets a new
+# commit, this SHA MUST be updated and acceptance re-run.
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/tj0122-pattern-acceptance.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PUBLIC_PR_SHA: "58b545138e2f31e1cbaa007a7d98e788d58748a3"
+
+jobs:
+  tj0122-pattern-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - name: Verify owner private repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Checkout public PR #282 exact head
+        uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: ${{ env.PUBLIC_PR_SHA }}
+          path: public-code
+          persist-credentials: false
+
+      - name: Verify checked-out SHA matches expected exactly
+        run: |
+          set -euo pipefail
+          ACTUAL_SHA="$(git -C public-code rev-parse HEAD)"
+          echo "Expected: $PUBLIC_PR_SHA"
+          echo "Actual:   $ACTUAL_SHA"
+          test "$ACTUAL_SHA" = "$PUBLIC_PR_SHA"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate private acceptance runner guards
+        run: python -m unittest discover -s tests -p 'test_accept_product_pr.py' -v
+
+      - name: Install actual pinned code dependencies
+        run: python -m pip install -e "./public-code[validation,calendar,api]"
+
+      - name: Run real acceptance suite all (includes pattern tests)
+        run: |
+          set -euo pipefail
+          python scripts/accept_product_pr.py \
+            --public-code "$GITHUB_WORKSPACE/public-code" \
+            --expected-sha "$PUBLIC_PR_SHA" \
+            --suite all
+
+      # NOTE: accept_product_pr.py --suite all discovers and runs EVERY
+      # backend test module inside the assembled private runtime,
+      # including tests/test_phase2_bazipattern.py (verified in run
+      # 39380061753's log, where the TJ-012.2 counterexample tests
+      # executed and passed). A standalone re-run here would execute
+      # against the raw public checkout WITHOUT the assembled private
+      # knowledge and fail spuriously, so no duplicate step is kept.
