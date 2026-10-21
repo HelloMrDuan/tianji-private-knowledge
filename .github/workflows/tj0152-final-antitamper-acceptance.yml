@@ -1,0 +1,30 @@
+name: tj0152-final-antitamper-acceptance
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/tj0152-final-antitamper-acceptance.yml
+env:
+  PUBLIC_PR_HEAD: 69060b03311b9ed77321d16725f1c054b2825459
+jobs:
+  accept:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-private-knowledge
+          path: private
+      - uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: ${{ env.PUBLIC_PR_HEAD }}
+          path: public
+      - name: Verify public checkout pins the exact PR head
+        run: |
+          set -euo pipefail
+          got="$(git -C public rev-parse HEAD)"
+          test "$got" = "$PUBLIC_PR_HEAD"
+      - name: Assemble full suite and run
+        run: |
+          set -euo pipefail
+          python3 private/scripts/accept_product_pr.py --suite all
