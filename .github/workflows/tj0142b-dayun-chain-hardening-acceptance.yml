@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 env:
-  PUBLIC_PR_SHA: "952454e135fdfbb45cefac75a33dd9f5b7e11be6"
+  PUBLIC_PR_SHA: "82b119e9b6b44c345a95ef429ded04dd0c21fdec"
 
 jobs:
   tj0142b-dayun-chain-hardening-acceptance:
