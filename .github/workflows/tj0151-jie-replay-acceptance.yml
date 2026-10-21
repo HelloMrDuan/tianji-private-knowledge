@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 env:
-  PUBLIC_PR_SHA: "61ba0cd3461a62da3b2215b035d6c571a7140a3c"
+  PUBLIC_PR_SHA: "c2177941fd8f8b88d3b38fde34505e1d27f1839c"
 
 jobs:
   tj0151-jie-replay-acceptance:
