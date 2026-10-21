@@ -1,0 +1,70 @@
+name: TJ-015.2 review remediation acceptance (PR #294 exact SHA)
+
+# TJ-015.2 remediation: real acceptance for public PR #294
+# (calendar precision audit: independent JPL对照, tzdb fail-closed,
+# leap/century boundaries). Triggered by pull_request on this workflow
+# file. The public PR head SHA is pinned below; any new public commit
+# requires re-binding + re-run.
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/tj0152-calendar-precision-acceptance.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PUBLIC_PR_SHA: "b90bc95c844201ddc63a3ded516be4708b419704"
+
+jobs:
+  tj0152-remediation-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - name: Verify owner private repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Checkout public PR #294 exact head
+        uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: ${{ env.PUBLIC_PR_SHA }}
+          path: public-code
+          persist-credentials: false
+
+      - name: Verify checked-out SHA matches expected exactly
+        run: |
+          set -euo pipefail
+          ACTUAL_SHA="$(git -C public-code rev-parse HEAD)"
+          echo "Expected: $PUBLIC_PR_SHA"
+          echo "Actual:   $ACTUAL_SHA"
+          test "$ACTUAL_SHA" = "$PUBLIC_PR_SHA"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate private acceptance runner guards
+        run: python -m unittest discover -s tests -p 'test_accept_product_pr.py' -v
+
+      - name: Install actual pinned code dependencies
+        run: python -m pip install -e "./public-code[validation,calendar,api]"
+
+      - name: Run real acceptance suite all (includes 12-jie replay tests)
+        run: |
+          set -euo pipefail
+          python scripts/accept_product_pr.py \
+            --public-code "$GITHUB_WORKSPACE/public-code" \
+            --expected-sha "$PUBLIC_PR_SHA" \
+            --suite all
