@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - .github/workflows/tj0161-conversion-variants-acceptance.yml
+      - .github/workflows/tj0162-adversarial-acceptance.yml
   workflow_dispatch:
 
 permissions:
