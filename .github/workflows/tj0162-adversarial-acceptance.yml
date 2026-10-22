@@ -16,7 +16,7 @@ permissions:
   contents: read
 
 env:
-  PUBLIC_PR_HEAD: 6bded860b12d8f72f3d5b3fc6d95308b0f4cdb0f
+  PUBLIC_PR_HEAD: 22229c63feebf26b76eee7d3081dc3ff24002f13
 
 jobs:
   accept:
