@@ -1,6 +1,6 @@
-name: tj0161-conversion-variants-acceptance
+name: tj0162-adversarial-acceptance
 
-# TJ-016.1 conversion variants: real acceptance for public PR #300
+# TJ-016.2 adversarial cases: real acceptance for public PR #302
 # (三日一年/余日/余时 variant registry + evidence binding + 23 tests).
 # Triggered by pull_request on this workflow file. The public PR head SHA
 # is pinned below; any new public commit requires re-binding + re-run.
@@ -34,7 +34,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Checkout public PR #300 exact head
+      - name: Checkout public PR #302 exact head
         uses: actions/checkout@v4
         with:
           repository: HelloMrDuan/tianji-knowledge-base
@@ -60,7 +60,7 @@ jobs:
       - name: Install actual pinned code dependencies
         run: python -m pip install -e "./public-code[validation,calendar,api]"
 
-      - name: Run real acceptance suite all (includes conversion-variant tests)
+      - name: Run real acceptance suite all (includes adversarial-case tests)
         run: |
           set -euo pipefail
           python scripts/accept_product_pr.py \
