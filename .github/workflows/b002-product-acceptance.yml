@@ -2,7 +2,8 @@ name: b002-product-acceptance
 
 # B002 first product batch: real acceptance for public PR #304
 # (TJ-003.3 leak redlines + TJ-005.1 deploy artifacts + TJ-005.3 runbook).
-# Triggered by pull_request on this workflow file. The public PR head SHA
+# Triggered by pull_request on this workflow file.
+# Retrigger 2026-10-22. The public PR head SHA
 # is pinned below; any new public commit requires re-binding + re-run.
 
 on:
