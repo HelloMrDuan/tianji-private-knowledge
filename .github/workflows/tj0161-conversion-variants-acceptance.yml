@@ -1,6 +1,7 @@
 name: tj0161-conversion-variants-acceptance
 
 # TJ-016.1 conversion variants: real acceptance for public PR #300
+# (rev2: P0 binding enforcement + SHA-pinning mandatory + modern registration boundary)
 # (三日一年/余日/余时 variant registry + evidence binding + 23 tests).
 # Triggered by pull_request on this workflow file. The public PR head SHA
 # is pinned below; any new public commit requires re-binding + re-run.
@@ -16,7 +17,7 @@ permissions:
   contents: read
 
 env:
-  PUBLIC_PR_HEAD: 422cf4a9e2a9728a8d15105293c048f2cd2341cd
+  PUBLIC_PR_HEAD: 06737d64a00194a7366b36592a74c6ab0fd86cff
 
 jobs:
   accept:
