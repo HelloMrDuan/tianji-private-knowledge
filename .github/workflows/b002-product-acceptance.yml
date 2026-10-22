@@ -1,0 +1,70 @@
+name: b002-product-acceptance
+
+# B002 first product batch: real acceptance for public PR #304
+# (TJ-003.3 leak redlines + TJ-005.1 deploy artifacts + TJ-005.3 runbook).
+# Triggered by pull_request on this workflow file.
+# Retrigger 2026-10-22. The public PR head SHA
+# is pinned below; any new public commit requires re-binding + re-run.
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/b002-product-acceptance.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PUBLIC_PR_HEAD: ffb52c5812f8b44c11aef560e2c05f92bb97535d
+
+jobs:
+  accept:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - name: Verify owner private repository
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          test "$GITHUB_REPOSITORY" = "HelloMrDuan/tianji-private-knowledge"
+          test "$(gh api "repos/$GITHUB_REPOSITORY" --jq '.private')" = "true"
+
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Checkout public PR #302 exact head
+        uses: actions/checkout@v4
+        with:
+          repository: HelloMrDuan/tianji-knowledge-base
+          ref: ${{ env.PUBLIC_PR_HEAD }}
+          path: public-code
+          persist-credentials: false
+
+      - name: Verify checked-out SHA matches expected exactly
+        run: |
+          set -euo pipefail
+          ACTUAL_SHA="$(git -C public-code rev-parse HEAD)"
+          echo "Expected: $PUBLIC_PR_HEAD"
+          echo "Actual:   $ACTUAL_SHA"
+          test "$ACTUAL_SHA" = "$PUBLIC_PR_HEAD"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate private acceptance runner guards
+        run: python -m unittest discover -s tests -p 'test_accept_product_pr.py' -v
+
+      - name: Install actual pinned code dependencies
+        run: python -m pip install -e "./public-code[validation,calendar,api]"
+
+      - name: Run real acceptance suite all (includes adversarial-case tests)
+        run: |
+          set -euo pipefail
+          python scripts/accept_product_pr.py \
+            --public-code "$GITHUB_WORKSPACE/public-code" \
+            --expected-sha "$PUBLIC_PR_HEAD" \
+            --suite all
