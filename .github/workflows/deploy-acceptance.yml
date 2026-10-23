@@ -425,7 +425,7 @@ jobs:
           # here does not block acceptance, which is already recorded
           # in the tag).
           for i in 1 2 3; do
-            code="$(curl -s -o /dev/null -w '%{http_code}' -m 30 https://8080-agqv2gsjiybrpuen46a2rpxohe.instabox.tech/ || true)"
+            code="$(curl -s -o /dev/null -w '%{http_code}' -m 30 https://8080-agqwnq7rh7fahkx2dsyymvvdsu.instabox.tech/ || true)"
             echo "wake attempt $i -> HTTP $code"
             [ "$code" = "200" ] && break
             sleep 15
